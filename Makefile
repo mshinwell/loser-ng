@@ -16,7 +16,7 @@ caves-1623/204/204.json: caves-1623/204/204.svx
 	  | grep "Vertical range" \
 	  | awk '{print $$4}' \
 	  | sed 's/^/  "vertical-range":"/' \
-	  | sed 's/$$/",/' \
+	  | sed 's/$$/"/' \
 	  >> $@
 	echo ' }' >> $@
 	echo '}' >> $@
