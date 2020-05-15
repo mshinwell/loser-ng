@@ -1,7 +1,8 @@
 # Steinbrückenhöhle 1623/204
 
-<b>Total length:</b> <div id="total-length"></div>
-<b>Vertical range:</b> <div id="vertical-range"></div>
+*Total length:* <div id="total-length"></div>
+
+*Vertical range:* <div id="vertical-range"></div>
 
 ## Entrance and The Near End passages
 
