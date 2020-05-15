@@ -18,7 +18,7 @@ jobs:
     - name: Checkout the repo
       uses: actions/checkout@master
     - name: Install Survex build deps
-      run: sudo apt-get install libproj-dev libav
+      run: sudo apt-get install libproj-dev
     - name: Checkout Survex
       run: git clone https://git.survex.com/survex
     - name: Generate Survex configure script
