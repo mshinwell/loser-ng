@@ -1,0 +1,29 @@
+name: survex
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+    steps:
+    - name: Checkout the repo
+      uses: actions/checkout@master
+    - name: Install Survex build deps
+      run: sudo apt-get install libproj-dev libav
+    - name: Checkout Survex
+      run: git clone https://git.survex.com/survex
+    - name: Generate Survex configure script
+      run: cd survex && aclocal && autoconf && automake --add-missing
+    - name: Build Survex
+      run: cd survex && ./configure && make -j 4
+    - name: Build 1623.svx
+      run: ./survex/src/cavern 1623.svx
