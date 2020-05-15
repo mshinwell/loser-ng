@@ -9,7 +9,7 @@ on:
       - master
 
 jobs:
-  deps:
+  compile_dataset:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
@@ -19,10 +19,8 @@ jobs:
       uses: actions/checkout@master
     - name: Install Survex
       run: sudo apt-get install survex
-  compile_dataset:
     - name: Compile Survex files
       run: make -j4
-  add_json:
     - name: Add and commit JSON files
     - uses: EndBug/add-and-commit@v4
       with:
