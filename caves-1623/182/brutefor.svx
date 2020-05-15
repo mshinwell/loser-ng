@@ -1,0 +1,41 @@
+;1998.06.02 AERW token addition of exports etc.
+
+*begin Brute
+
+; Locn:	Main plateau, WNW of Top Camp, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+; Cave:	Puffball & Icing Sugar Cave (1623/182)
+*date 1992.07.28
+*team Insts Wookey
+*team Notes Olly
+*instrument Illum. Comp & Clino
+; Calibration:
+;	A B     231,231.5 +02.7,+02.5
+;	A Peak  209.5
+;	A Willy 197.5
+;	B A     051,050.5 -02.2
+;	B Peak  209,209.2
+;	B Willy 196.5,196.5
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	;
+*export D	;
+
+2       1        1.02   326     +53
+2       3        7.36    -      Down
+4       3        1.44   290.5   -04.5
+4       5        1.86   064     -10
+5       6        3.28    -      Down
+6       7        1.33   131.5   +13
+8       7        1.46   350     +12
+9       8       10.61   327     +81.5
+10      9        6.27   257     +63
+11      10       6.98   220     +73
+
+A       B       11.10    -      Up
+C       B        6.12   002     -31
+F       D        1.49   164     -17
+F       E        1.65   172     -10.5
+F       C        1.39   087     -31
+F       11       5.51   206     +74
+*end Brute

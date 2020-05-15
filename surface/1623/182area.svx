@@ -1,0 +1,169 @@
+;1998.04.02 AERW added comments, refs, exports and fixed Calib tapes that
+;		 had never been put in
+
+; ====== links between surveys in this file: ======
+
+; all these have actually been put in the including file for now, as there
+; is probably some faffing to be done at the 182 entrance
+
+*begin 182toTC
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 	Surface survey linking 1623/182 to Top Camp
+*date 1991.07.13
+*team Insts Fran
+*team Tape Gill
+*team Notes Tony
+*instrument Compass Illum., Clino Illum.
+; Calibration:	None
+; ref.:	unknown - only KH stuff in my photocopy of the 91 survey book :-(
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; boulder with green top corner near water hole (point on
+; corner?) This point marked in Red with blob and 'TC' on 1993 expo by Wook
+*export 40	; higher of 2 red splodges at 182 (not quite P182, in fact)
+
+; I think these all are offset -50cm on the tape (unless commented otherwise)
+; Who wrote that ? Must assume that this means readings taken from that offset
+; from the end of the tape (this predates the use of too-long tapes). Which
+; means that the readings are too long by that much, so *calibrates +ve...
+
+*calibrate tape 0.5
+
+1       2        6.17   357     -03
+3       2       16.07   168.5   +14
+3       4       29.33   346     -19
+5       4       18.82   164     -11
+*calibrate tape 0.3
+5       6       30.63   357     -01 ; -30
+*calibrate tape 0.5
+7       6       29.43   153     +14
+7       8       27.70   341     -04
+*calibrate tape 0.2
+9       8       30.77   105     +17 ; -20
+*calibrate tape 0.5
+9       10      28.58   307     -01
+11      10      28.22   140     +01
+11      12      10.81   328      00
+13      12      23.93   144     +01
+*calibrate tape 1.0
+13      14      35.20   335     -14 ; -100
+*calibrate tape 0.5
+15      14      27.20   125     +08
+15      16      15.53   296     -01
+17      16      28.28   132     +10
+*calibrate tape 0.3
+17      18      30.75   301     -05 ; -30
+*calibrate tape 0.5
+19      18      22.35   149     +10
+19      20      10.51   267     +12
+20      21       3.90   213     +32
+22      21       8.40   057     +15
+22      23      20.72   255     -07
+24      23      17.70   180     +12
+
+24      25      13.08   317     -08
+26      25      23.54   151     +12
+26      27      15.81   000     +02
+28      27      14.60   212     -16
+28      29      16.63   047     +11
+30      29      25.86   167     -07
+*calibrate tape 0.3
+30      31      30.59   339     +08 ; -30
+*calibrate tape 0.5
+32      31      28.71   153     -06
+32      33      19.12   312     +01
+34      33      20.82   153     +05
+34      35      12.48   293     -03
+36      35      25.35   202     -10
+36      37       8.73   281     -05
+38      37      17.04   068     +13
+38      39      18.60   289     -11
+39      40      18.43   205     -10
+*end 182toTC
+
+*begin 182to184
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Surface survey linking 1623/182, 183 and 184
+*date 1992.07.17
+*team Insts AndyA
+*team Tape AndyA
+*team Notes Wookey (and the pole)
+*instrument Compass 543693, Clino 736380
+; Calibration:	cairns at ? Top Camp ?
+;	A	B	-	231,231 	+02.5,+03
+;	A	Loser	-	208,208.5	+13.5,+14
+;	B	ColWilly-	196,196 	+10.5,+11
+; Loser here is actually Brauning Zinken, or poss Greimuth
+; (says Greimuth in survey book). SInce only A->B but not B->A was
+; done, we can't definitively calibrate clino, sigh.
+; ref.:	1992 survey book p 210 (data) p 211 (picture)
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0	; Middle of 0 in 'CUCC 90/12'
+*export 183	; Middle of 0 in 'CUCC 90/13'
+*export 11	; Middle of 0 in 'CUCC 90'
+
+0       1        9.14   026.5   +22
+A_cal   1       26.61   205.5   -12.5
+A_cal   2        2.01   027     +19
+3       2        8.64   133.5    00
+3       4       30.47   319     -05 ; notes say +
+5       4       29.59   110     +10
+5       6       13.68   291     -08
+7       6       17.31   073.5   +02.5
+7       8       26.05   261     -05
+183     8       13.54   062     +07
+183     9       12.65   187.5   +20.5
+10      9       18.92   290     +02
+10      11      25.67   126     -09
+
+; Heights above ground:
+; P182  1.8     Middle of 0 in 'CUCC 90/12'
+; 1     2.00    Pole in snow
+; A_cal 1.2     Olly's 1992 Puffball calib cairn A
+; 2     0.00    Shelf 1.2m above path
+; 3     0.1     Shelf 1.2m above path
+; 4     2.00    Pole in middle of path
+; 5     0.6     Rock
+; 6     0.4     Rock
+; 7     0.6     Rock
+; 8     1.9     Pole
+; P183  3.0     To Cave floor; 1.5 to ground level. Middle of 0 in 'CUCC 90/13'
+; 9     1.0     Pole
+; 10    0.2     Temp cairn
+; P184  0.00    Middle of 0 in 'CUCC 90'
+
+*end 182to184
+
+*begin 182to183
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Surface survey linking 1623/182, 183
+*date 1992.07.17
+*team Insts Matt
+*team Tape MarkM
+*team Notes Fran
+*instrument Compass Illum., Clino Illum.
+; Calibration:	None
+; ref.:	1992 survey book p 201
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; centre of zero in "90/12"
+*export 10	; centre of zero in "90/13"
+
+1       2        4.23   031     +23
+3       2       29.11   227     -13
+3       4       10.15   329     +11
+5       4        9.44   130     +02
+5       6       30.34   319     -07
+7       6       29.03   105     +13
+7       8       12.05   302     -08
+9       8       29.98   075     +03
+9       10      29.54   253     -05
+
+*end 182to183

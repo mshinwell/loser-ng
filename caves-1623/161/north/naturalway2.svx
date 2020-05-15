@@ -1,0 +1,43 @@
+*begin naturalway2
+
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: KaninchenhÃ¶hle, 1623/161
+*date 2009.08.11
+*team Insts Becka Lawson
+*team Notes Ian Walker
+*team Disto Becka Lawson
+*instrument Becka's pony
+*instrument Chinese yellow 30m tape, read from zero
+
+; Calibration:
+
+
+; ====== stations refindable to link to other surveys: ======
+*export 1 4
+
+*calibrate tape +0.0    ; +ve if tape was too short, -ve if too long
+*data normal from to compass clino tape ignoreall
+
+*title naturalway2
+
+2 1 245 -12 4.69
+;3 2 252 +14 8.78 inclination suspect: discard leg
+4 3 233 +45 7.17
+2 3 066 -42 8.78 ; distance taken from discarded leg 3->2
+5 1 317 -21 4.77
+6 5 199 -24 2.63
+7 6 219 -39 4.16
+
+*data passage station left right up down ignoreall
+
+1 1.0 2   2   1.7 old red paint
+2 1.2 0.2 1.8 1.5 red paint right wall
+3 0.8 0   10  2.5 rp rw
+4 1   2   12  1.2 rp lw, numbered in rp
+5 1.5 0.5 0   1.3 (down 2.5 to floor of underlying passage) rp roof, numbered in pencil
+6 1.1 0.9 3   0.5 rp boulder
+7 2.5 2   2.5 1.5 rp flake
+
+*end naturalway2
+

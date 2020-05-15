@@ -1,0 +1,45 @@
+*begin 231to2006-08
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "Traungold to 2006-08"
+*date 2006.08.08
+*team Insts Sandeep Mavadia
+*team Notes Phil Underpants
+*team Tape Chantalle Mouwer
+*instrument set ??
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 13 12
+
+;from	to	tape	compass	clino	; remarks
+2	1	26.92	119	+14
+3	2	12.70	084	+7
+3	4	13.33	306	-11
+5	4	16.27	051	+06
+5	6	24.14	227	-9
+6	7	12.67	281	-17
+7	8	16.28	216	-11
+9	8	21.50	052	-03
+9	10	11.82	246	-10
+11	10	25.68	059	+17
+11	12	21.73	023	+08
+13	12	1.91	069	+42
+
+; stn	height	description
+; 1	1.0	231g tag
+; 2	0	Rock outcrop
+; 3	0.3	Cairn on 204e route
+; 4	1.2	Tip of staff
+; 5	0.4	Temporary rock
+; 6	1.6	Sprig of bunde
+; 7	1.0	Rock
+; 8	0	Big rock
+; 9	1.0	Small rock
+; 10	0.6	Sprig of bunde
+; 11	1.0	Another sprig of bunde
+; 12	1.2	Tag 2006-08
+; 13	-	Rocky nobble
+
+*end 231to2006-08
+

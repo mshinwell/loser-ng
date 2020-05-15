@@ -1,0 +1,19 @@
+*equate 2006-71.1 p2006-71
+
+*begin 2006-71
+
+*date 2006.07.27
+*team Insts Olly
+*team Notes Jenny
+*team Pics Olly
+*team Tape Olly
+*instrument ours + disto
+; notes in 2006 #16
+
+*export 1
+
+*data normal from to compass clino tape
+
+1	2	190	-60	13.8
+
+*end 2006-71

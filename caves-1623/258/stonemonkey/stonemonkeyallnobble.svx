@@ -1,0 +1,33 @@
+*begin
+*title "Stonemonkey"
+
+;=2007=
+
+*include stonemonkey
+;*equate stonemonkey.p literalnorth.3
+
+*include stonemonkey2
+*equate stonemonkey.17 stonemonkey2.p17
+
+;=2008=
+
+;*include stonemonkey3
+;*equate stonemonkey3.ep stonemonkey2.21
+
+;*include stonemonkey4
+;*equate stonemonkey3.1  stonemonkey4.1
+
+
+;=2009=
+
+;*include stonemonkey5
+;*equate stonemonkey5.1  stonemonkey4.6
+
+;*include stonemonkey6
+;*equate stonemonkey6.14 stonemonkey4.14
+
+;*include stonemonkey7
+;*equate stonemonkey7.6  stonemonkey6.15
+
+
+*end

@@ -1,0 +1,11 @@
+; specfile for slackers
+; run with:
+; extend --survey=slackers --specfile=caves/258/slackers.espec caves/258/slackers.3d
+*start 79
+*eswap 72 71
+*eswap 71
+*eswap 70
+*eleft 47 48
+*eright 47 46
+*eswap 35
+;*break 

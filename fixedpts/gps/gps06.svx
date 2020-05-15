@@ -1,0 +1,37 @@
+*begin gps06
+
+*export 2002-05 2002-06
+
+*entrance 2006-01 
+*entrance 2006-02 
+*entrance 2006-03
+*entrance 2006-05
+*entrance 2006-07
+
+; From Dave's GPS:
+
+*fix 2006-01 reference 36283 83223 1773
+*fix 2006-02 reference 36086 82919 1707
+*fix 2006-03 reference 36081 82911 1706
+*fix 258-gps reference 36655 84148 1873
+*fix 2006-05 reference 36513 84145 1801
+*fix 2006-07 reference 37077 83971 1868
+*fix 2002-05 reference 36714 83900 1863 
+*fix 2002-05-old reference 36710 83896 1863
+*fix 2002-06 reference 36694 83893 1861
+*fix toiletschacht reference 36654 84056 1870
+
+; From Aaron's GPS:
+
+*fix JNB1 reference 36707 84107 1878
+*fix JNB reference 36583 84241 1818
+
+; From Olly's GPS:
+
+*fix 2004-03-gps reference 35629.85 82617.17 1632.00
+*fix 2004-08-gps reference 35793.40 83184.37 1649.00
+*fix 2006-71-gps reference 35910.47 83044.80 1652.00
+*fix 2006-72-gps reference 35802.62 82148.98 1635.00
+*fix p36-gps reference 35652.31 82206.80 1674 
+
+*end gps06

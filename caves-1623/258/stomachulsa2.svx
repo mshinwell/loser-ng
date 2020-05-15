@@ -1,0 +1,39 @@
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 
+
+*begin stomachulsa2
+
+*export 0
+
+*title "Stomach ULSA"
+*date 2009.08.03
+*team Insts Mike TA
+*team Notes Noel
+*instrument Set#5
+
+;ref.: 2009#25
+
+*calibrate tape +0.0   ; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+1    0    1.31    191    -23
+1    2    1.75    255    -23
+2    3    7.9     -      down
+4    3    1.54    021    -25
+5    4    5.54    088    +48
+6    5    2.27    146    +62
+7    6    2.01    078    +01
+8    7    3.99    142    -25
+
+*data passage station up down left right ignoreall
+0    -     -    -      -      station 18 from previous survey
+1    -     -    -      -      rp right hand wall
+2    -     -    -      -      rp right hand wall near right bolt of Y-hang
+3    16    0    0.3    0.3    unmarked bottom of plumb
+4    16    0.8  0      1      rp left hand wall
+5    -     1.15 0      0.94   rp left hand wall
+6    -     1.4  0.5    0      rp right hand wall
+7    -     2.1  0      0.55   rp left hand wall
+8    -     4    0      1.08   rp left hand wall before pitch pencilled 8
+
+*end stomachulsa2

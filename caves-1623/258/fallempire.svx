@@ -1,0 +1,38 @@
+*begin fallempire
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 258 "Tunnockschacht"
+
+;ref.:  2010 #09
+
+*export 8 
+
+*title "Fall of the Empire"
+*date 2010.08.07
+*team Insts Chris Smith
+*team Notes Chris Densham
+*team Tape Martin Jahnke
+
+*calibrate tape +0   ; +ve if tape was too short, -ve if too long
+;Wook's DistoX
+
+;from   to  tape    compass clino   remarks
+1	2	2.55	081	-04
+2	3	3.64	076.5	+24.8
+3	4	1.69	067.3	+02
+4	5	4.82	025	+61.6
+5	6	3.04	033.4	+09.2
+6	7	4.02	348	+32.9
+7	8	5.11	043.2	-15	;estimate as DistoX reading error
+
+*data passage station left right up down ignoreall
+;stn    L   R   U   D   Desc
+1	0.5	1	3.8	1.5
+2	0.4	0.8	0.3	0.4
+3	1	0.1	0.5	0.3
+4	0.9	0	2.8	1.8
+5	0	1.2	0.7	3
+6	1	0	6	2.5
+7	0.3	0.4	1	0.5
+
+*end fallempire

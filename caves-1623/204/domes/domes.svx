@@ -1,0 +1,39 @@
+*begin domes
+
+*title "Pleasuredome / Millennium Dome area"
+
+*export millennium.1 pleasuredome.0 micturation.8 allroads.7 pleasuredome.3
+
+; -- 1999 --
+
+*include millennium
+
+; -- 2000 --
+
+*include pleasuredome
+
+*include loop22
+*equate loop22.1 pleasuredome.7
+*equate loop22.4 millennium.19
+
+*flags duplicate
+*include phat
+*flags not duplicate
+*equate pleasuredome.3 phat.0
+
+; -- 2001 --
+
+*include micturation
+*equate micturation.0 pleasuredome.1
+
+; -- 2004 --
+
+*include obese
+*equate obese.3 phat.2
+
+*include allroads
+*equate pleasuredome.2 allroads.1
+
+
+
+*end domes

@@ -1,0 +1,54 @@
+*begin wowoland
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Hauchhoehle (1623/234)
+*title "Wowoland (below Pie Series)"
+*date 2005.08.06
+*team Insts Emma Wilson
+*team Notes Olly Madge
+*team Tape both
+*instrument ??
+; Calibration: ??
+; ref.:	2005#26
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 8 ; beginning of survey
+*export 3 ; far end
+
+*calibrate tape +0.09	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1       2       2.89    299     +06
+3       2       5.11    228     -12
+3       4       6.98    322     -10
+5       4       7.70    123     +26
+5       6       8.02    339     -15
+6       7       2.12    254     -07
+7       8       6.98    324     -32
+
+
+;station details
+;name	L	R	U	D	description
+;1	0       1       0.5     0.7     Red paint LHW
+;2      2.0     0       0.7     0.3     RP RHW
+;3      2.5     1.5     0.8     0.1     RP rock shelf on floor
+;4      0.5     2.0     0       1.0     RP roof
+;5      2.0     0.0     0       0.4     RP roof nodule RH side
+;6      0.0     2.5     2       0.5     RP LH wall
+;7      1.5     0.5     1.5     0.8     RP RH wall
+;8      2.5     3.0     0       1.5     #8 roof
+;station details
+
+*data passage station left right up down ignoreall
+1	0       1       0.5     0.7     Red paint LHW
+2      2.0     0       0.7     0.3     RP RHW
+3      2.5     1.5     0.8     0.1     RP rock shelf on floor
+4      0.5     2.0     0       1.0     RP roof
+5      2.0     0.0     0       0.4     RP roof nodule RH side
+6      0.0     2.5     2       0.5     RP LH wall
+7      1.5     0.5     1.5     0.8     RP RH wall
+8      2.5     3.0     0       1.5     #8 roof
+
+
+*end wowoland

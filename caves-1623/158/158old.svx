@@ -1,0 +1,96 @@
+;NOTES   > $.Survey.Surveys.Austria.P158.D 1987.09.07
+;1998.01.26 AERW converted SU dataset to Survex
+;1998.06.02 AERW added exports, comments, refs.
+
+*equate 158.pt1.26	p158 ; P158 on big rock at entrance
+*entrance p158
+
+*begin 158old
+
+; Locn:	flank of Vorderer Schwarzmoos Kgl, Loser Augst-Eck, Totes Gebirge, Austria
+*title "Donner und Blitzen Höhle, 1623/158"
+
+; ====== stations refindable to link to other surveys: ======
+
+*export pt1.26	; P158 on big rock at entrance
+
+; ====== links between surveys making up the Donner survey: ======
+
+*equate pt1.2	pt2.10
+
+*begin pt1
+
+*title "Underground survey" ; (formerly "JA" survey)
+*date 1987.09.07
+*team Insts Jared West
+*team Notes Andy Farrow
+*instrument Compass #949847; Clino # 240641
+; Calibration:	none
+; ref.:	photocopy of transcribed figures (1987 logbook?) in AERW's archive
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 2	; High Pt. of boulder, below ladder
+*export 26	; P158 on big rock at entrance
+
+;GRADE USE 5N
+;CHANGE               0.0   0.0      Default. Insts Jared, Book Andy
+*units clino compass degrees
+
+*data normal from to length compass clino 
+1	2	 8.45	042.	-10.	; 1 X marked on wall near bolthole S end chamber
+3	2	10.12	209.5	-45.5	; 2 High Pt. of boulder, below ladder
+3	4	 4.9	096.5	+20.5	; 3 Top of ladder
+5	4	 5.39	324.	-09.5	; 4 Middle Spike of Big Bertha
+6	5	10.19	271.	+22.5	; 5 RH edge of arch
+6	7	13.91	316.5	+07.5	; 6 Entrance to rift
+8	7	 9.3 	083.5	-10.	; 8 Crack in corner of flowstone
+8	4	 8.95	141.	+05.
+7	9	 3.7	182.3	+10.	; 7 is cairn
+9	10	17.85	-	Up	; 9 is landing point on Big Bertha
+10	11	 2.5	314.5	+41.5	; 10 Bolt at pitch head
+11	12	 3.2	345.	-18.	; 11 Rebelay bolt
+12	13	19.26	-	Up	; 12 Landing point
+14	13	 3.63	237.5	-34.	; 13 Bolt at head of freehang
+14	15	 6.6	-	Up	; 14 Landing point of first pitch
+15	16	 1.15	069.	+14.	; 15 Bolt at head of first pitch
+16	17	 2.65	305.	+49.5	; 16 Bottom of free climb
+17	18	 1.7	058.5	+12.5
+18	19	 7.29	144.	+55.5
+19	20	 5.17	106.	+56.5	; 19 above 2nd step
+20	21	 1.93	211.	+34.5
+21	22	 3.30	223.	+17.	; 21 '8' below squeeze
+22	23	 8.25	110.	+43.	; 22 top of squeeze
+23	24	 3.9	217.	+38.	; 23 90 deg junction: entrance rift ends
+24	25	 5.55	193.	+46.	; 24 Eyelet
+25	26	 2.85	209.5	+08.5	; 25 Below entrance squeeze
+
+*end pt1
+
+*begin pt2
+
+*title "Underground survey" ; (formerly "JB" survey)
+*date 1987.09.09 ; on survey/derig trip
+*team Insts Jared
+*team Notes MikeR
+*instrument Compass # 949847; Clino # 240641
+; Calibration:	none
+; ref.:	photocopy of transcribed figures (1987 logbook?) in AERW's archive
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 10	; on boulder, point 2 in pt1 survey
+
+1	0	 7.44	-	Down	; 0 bottom
+2	1	 3.77	103.5	-23.	; 1 Bolt
+2	3	12.66	049.	-04.	; 3 Across chamber
+4	2	 6.58	063.	-57.	; 2 opposite bolt, top of boulders 1.5m up
+4	5	10.41	117.	+43.5	; 4 Bolt, pitch to chamber
+5	6	10.31	093.5	+59.5	; 5 Outside wall at corner
+6	7	 7.36	224.5	+81.	; 6 Tip of boulder edge of lower ledge
+7	8	 7.8	108.5	+53.	; 7 tip of hanger at upper ledge
+8	9	 3.32	107.6	+27.	; 8 Rock at top of pitch to upper ledge
+10	9	14.21	226.5	+39.	; 9 on saddle
+
+*end pt2
+*end 158old

@@ -1,0 +1,50 @@
+;1998.06.02 AERW token addition of exports etc.
+; Grade 3 ish
+
+*equate ClaustroLink.1	Claustro.1
+
+*begin ClaustroLink
+
+; Locn:	Main plateau, WNW of Top Camp, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+; Cave:	Puffball & Icing Sugar Cave (1623/182)
+*title "Botch link to connect Strike 2 to Claustro"
+; not really surveyed, but made up from details remembered from the same trip
+; as below
+*date 1992.07.28
+;*team ?
+; Ref.:	?
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; distinctive nodule 1.5m ish up in strike 2
+*export 2	;
+
+2	1	 0.8     225     00 ; Botch link
+*end ClaustroLink
+
+*begin Claustro
+
+; Locn:	Main plateau, WNW of Top Camp, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+; Cave:	Puffball & Icing Sugar Cave (1623/182)
+*title "Claustrophobia"
+*date 1992.07.28
+;*team ?
+; Ref.:	?
+; I think this is trip id 1992-182-22
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; distinctive nodule 1.5m ish up in strike 2
+*export 10	; on edge of shaft
+
+
+1       2        1.5     -      Down
+2       3        5.0    180      00
+3       4        3.5     -      Down
+4       5        3.0    180      00
+5       6        2.0    180     +60 ; to get 1.0m across
+4       7        2.0    000      00
+7       8        4.0    000      00
+8       9        1.0    000      00 ; across hole
+9       10       2.0    000      00 ; 10 is on edge of shaft
+*end Claustro

@@ -1,0 +1,102 @@
+*begin onamission
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "On a Mission"
+*date 2003.07.26
+*team Insts Becka Lawson
+*team Notes Julian Haines
+
+*instrument set 3
+
+; Calibration: stone bridge 147/+23 328/-23
+; ref: 2003 #06
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 5 6 8 10 20 21 28 31 35
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+2	1	7.67	182	-01 ; reversed in notes
+3	2	6.43	100	-12
+3	4	4.39	258	-04
+5	4	14.98	146	+14
+5	6	8.99	317	+04
+7	6	10.34	110	+22
+7	8	10.28	282	-17
+9	8	2.48	148	+07
+9	10	5.31	023	+13
+11	10	5.57	122	+16
+11	12	7.85	204	-18
+13	12	4.37	311	-12
+13	14	4.09	072	+12
+8	14	1.95	001	-41
+11	15	11.58	228	-21
+16	15	8.27	096	+14
+16	17	14.25	024	+13
+18	17	16.62	154	-01
+19	18	4.47	152	-34
+19	20	4.72	331	+08
+21	19	12.19	220	-22
+22	19	3.07	001	+10
+22	23	8.07	214	-17
+24	23	2.16	079	+24
+24	25	4.46	205	-08
+26	25	2.84	078	+35
+26	27	3.14	238	-04
+27	28	4.18	343	+05
+27	29	2.87	-	down
+30	29	4.02	042	+10
+31	30	1.29	102	-01
+32	1	6.10	-	down
+33	32	3.52	-	down
+34	33	1.46	261	-05
+34	35	1.35	208	+26
+
+;station details
+;name	L	R	U	D	description
+;1	1.0	0.0	-	3.0	RP on flake 3m above pitch floor
+;2	2.0	2.0	-	0.3	RP on boulder at rift intersection
+;					number 2 marked
+;3	1.0	0.2	4.0	2.0	RP RW of rift
+;4	0.0	1.2	1.5	2.2	RP number 4 LW
+;5	0.3	1.5	3.0	1.5	RP LW near cross-rift
+;6	1.2	0.0	3.5	2.2	RP RW at intersection
+;7	0.3	2.0	3.5	0.5	RP LW
+;8	0.0	1.5	3.0	1.5	RP LW at junction number 8 marked
+;9	0.0	1.0	3.0	1.6	RP LW at junction
+;10	0.3	1.8	2.5	1.5	RP LW at junction number 10 marked
+;11	1.5	0.2	3.0	1.7	RP RW at junction on cauliflower
+;12	0.8	0.0	0.8	0.6	CM on nobble over crawl junction
+;13	0.2	0.4	1.2	0.3	RP RW opposite junction
+;14	1.5	0.5	4.0	0.5	CM corner of floor choss
+;15	2.0	0.0	4.0	0.5	RP on wall corner RW
+;16	0.0	1.2	3.5	2.0	RP on corner marked no. 16
+;17	0.9	0.8	3.5	0.2	CM on boulder mid-passage at bend
+;18	1.3	0.3	4.0	1.5	RP RW entrance to chamber
+;					number 18 marked
+;19	0.3	2.5	4.5	1.5	RP number 19 opposite wall of
+;					chamber
+;20	1.2	0.3	4.0	1.2	RP RW
+;21	1.0	0.0	0.4	1.0	RP number 21 RW
+;22	2.5	1.0	2.5	1.7	RP overhanging wall nobble RW
+;23	0.0	0.7	0.8	2.0	CM nobble LW
+;24	0.6	0.0	1.2	1.5	RP RW
+;25	0.0	1.0	0.8	3.0	RP LW
+;26	0.3	0.25	1.8	1.8	RP LW on nobble
+;27	0.0	1.0	1.6	2.8	CM LW
+;28	0.6	0.1	1.0	0.6	RP on flake overlooking shaft
+;					(window)
+;29	0.6	0.2	4.0	0.2	RP on boulder on floor
+;30	0.0	0.5	1.3	0.4	RP LW
+;31	0.5	1.5	0.2	3.5	RP ceiling nobble overlooking rift
+;					(window)
+;32	-	-	-	-	RP on pitch
+;33	-	-	-	-	RP on pitch
+;34	-	-	-	-	RP pitch-head
+;35	-	-	-	-	RP connection at pitch-head opposite
+;					rift entrance
+
+*end onamission
+

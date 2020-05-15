@@ -1,0 +1,74 @@
+;1998.04.02 AERW tidied, sorted begin/end, exports, comments and refs.
+
+; NB AERW is *extremely* suspicious that the 0.93m which is alleged to be
+; the vertical distance down to the first rigging bolt, is nothing of the
+; sort. The final leg at the laser point is also 0.93 vertical, which is
+; more suggestive that the original surveyors were using a surveying staff
+; ("stick") 0.93m in length, and that the surface survey actually went to
+; a random point other than the start of the underground survey (which is
+; itself currently missing !) However, for now, the assumption we have made
+; is being continued ...
+
+; ====== links between surveys in this file: ======
+
+*equate 164Surf.1	164conn.1
+
+*begin 164Surf
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 	1623/164
+*title "Surface survey, fixed point on high path Laser 0/3 -> 1623/164"
+*date 1988 ; must be 1988 - only year Jane Brown was on expo
+*team Jenny Moss, Chris Sharman, Jane Brown
+*instrument Compass 949847, Clino 240641
+; Calibration:	predates this concept (!)
+; ref.:	1988 survey book ?
+
+; ====== stations refindable to link to other surveys: ======
+
+*export bolt	; first bolt of the rigging (0.93 below lip)
+*export 1	; lip of shaft
+*export 18	; spit of Laser point 0/3
+
+bolt	 1	 0.93	 -	Up	; see comments above
+; survey broken because of bad closure errors OJWB 2006
+ 2x	 1	29.47	271	-04.5
+ 2	 3	29.35	097.5	+05
+ 4	 3	29.58	281.5	-07
+ 4	 5	29.76	119.5	+09.5
+ 6	 5	29.83	301.5	-08.5
+ 6	 7	29.50	094.5	+07.5
+ 8	 7	29.30	279	-09
+ 8	 9	 9.7 	105.5	+12.5
+10	 9	16.39	283.5	-00.5
+10	11	27.79	108	+05.5
+12	11	26.67	019	-37
+12	13	29.63	124	+11
+14	13	28.42	258	-13.5
+14	15	28.89	082	+16.5
+16	15	13.60	247.5	-21
+16	17	11.29	342	-00.5
+17	18	 0.93	 -	Down
+
+*end 164surf
+
+*begin 164conn
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 	Surface
+; Area: 	1623/164 entrance area
+*team Wookey and Penny (who knew where the u/g survey starts)
+*date 1996.07.23
+; ref.:	1996 surface survey book p 16
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; lip of shaft vertically above 1st rigging bolt
+*export tag	; drilled marker, used for subsequent surface surveys (1996)
+
+
+1	tag	 1.72	339	043
+
+*end 164conn
+
+

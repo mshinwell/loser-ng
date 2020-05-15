@@ -1,0 +1,30 @@
+*begin part5
+
+; Locn:	Main plateau, beyond Brauning Sattel, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+; Cave:	Wolfhöhle (1623/145)
+*title "final part to bottom (no sketching done)"
+*date 1984.08.05-1984.08.06
+*team John Parrington, Bill Hawkswell
+*instrument CUCC Compass 949847, NPC Clino 918653
+; Calibration:	generic calibration on NPC clino in 1984 - "add 1.0 to get true clino"
+; ref:	landscape-format brown-hardback notebook in AndyW's archive pp 40-42
+
+; ====== stations refindable to link to other surveys: ======
+
+;*export 1	; end (probably not quite the deepest point)
+*export 10	; final cross of last survey
+
+*calibrate compass 0
+*calibrate clino -1
+
+	9	10  1.7  284.  -16.
+	8	9  5.4   57.  -11.
+	7	8 10.82  22.    2.
+	6	7  7.8   43.    8.
+	5	6  4.    46.    9.
+	4	5  6.3   49.   13.
+	3	4  7.    63.   27.
+	2	3  6.32  60.    0.
+	1	2  3.5   62.   -9.
+
+*end part5

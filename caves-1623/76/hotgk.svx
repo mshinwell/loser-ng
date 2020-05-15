@@ -1,0 +1,42 @@
+;Eislufthoehle 1623/76
+
+*begin hotgk
+
+*title "Hall of the Greene King"
+*date 2006.08.13-2006.08.14
+*team Insts Jenny Black
+*team Notes Olly Betts
+*team Disto Jenny Black
+*instrument Ours!
+; notes in 2006 #32
+
+*export 1 11 20 21
+
+1	0	15.831	305	+01.5
+1	2	5.413	122	+06
+3	2	3.603	003	+25
+4	3	7.207	340	+27
+4	5	4.405	034	+03
+4	6	3.413	222	+22.5
+6	7	7.088	158	 00
+7	8	4.835	125	-01
+9	8	7.815	010	+02
+9	10	3.002	165	+00.5
+10	11	2.733	166	+09
+;11	11a	17.2	-	down ; into floor trench at base of pitch
+4	12	3.053	124	+49
+12	13	3.225	136	+23.5
+14	13	2.528	214	+02
+14	15	4.193	015	+09
+15	16	5.304	128	+61.5
+16	17	7.562	084	+42
+18	17	1.700	320	-28
+18	19	3.356	108	+02
+19	20	16.254	101	-02.5
+20	21	11.782	314	+30
+
+*data passage station left right up down ignoreall
+
+;2       1.15    0.1     -       1.55    j palm out from RHW
+
+*end hotgk

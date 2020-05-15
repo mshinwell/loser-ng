@@ -1,0 +1,140 @@
+;1993.07.07 MostlyMud 3->2 changed to 2->3 ((presumed) reversed in notes - much better fit with sketch)
+;1998.02.27 AERW fixed begin/end, added survey book refs, changed order somewhat
+;		 there are LRUDs in survey book - not yet added
+
+; ====== links between surveys in this file: ======
+
+*equate BeeConn.1	Beehive.1
+*equate Beehive.7	Pipeless.21
+*equate Pipeless.2	MostlyMud.15
+
+*begin BeeConn
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "connection of Repton & Beehive surveys (on Pipeless survey trip)"
+*date 1992.07.23 ; trip 1992-161-9 in logbook
+*team Insts Jerry Williams 
+*team Notes Wookey
+*instrument Compass: illum, Clino: illum
+; Calibration:	042.5,041.5; +08.5,+08.5 -09,-09
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; Carbide mark on obvious rock at end of Repton
+*export 666	; "666" & white tip of rock by exit passage from Repton
+
+*calibrate clino -0.25
+; ref.:	1992 survey book p 126
+
+666     1      4.70    248     -11
+
+*end BeeConn
+
+*begin Beehive
+
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+*title "Repton to Beehive"
+*date 1992.07.14 ; trip 1992-161-4 in logbook
+*team Insts Dave Fearon
+*team Tape DaveF
+*team Notes Andy Atkinson
+*instrument Compass: 721899, Clino: 726974
+; Calibration:	None
+; ref.:	1992 survey book pp 102-103
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; Carbide mark on obvious rock at end of Repton
+*export 7	; carbide mark on point on RH wall
+
+2       1        9.19   189.5   +19.5
+2       3       10.40   353     -13
+3       4        7.51   332     +13
+4       5       10.76   021     +12
+6       5        8.02   223     +32.5
+6       7        9.29   194.5   -06
+8       7        7.13   002     +01
+9       8        2.25   020     +04
+9       3        8.09   176     +30
+
+*end Beehive
+
+*Begin Pipeless
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Pipeless (Beehive to Silent Fellow)"
+*date 1992.07.23 ; trip 1992-161-9 in logbook
+*team Insts Jerry Williams 
+*team Notes Wookey
+*instrument Compass: illum, Clino: illum
+; Calibration:	042.5,041.5; +08.5,+08.5 -09,-09
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; CM, wall, tip of pendule marked "SF1" in Silent Fellow
+		; (this is the one that is *meant* to be findable)
+*export 2	; CM, roof pendant (whilst this is the one actually used) above slope in Silent Fellow
+*export 9	; carbide mark opposite bolt at Satan's Sitting Room pitch head
+*export 21	; carbide mark on point on RH wall of Beehive survey
+
+*calibrate clino -0.25
+; ref.:	1992 survey book pp 126-129
+
+1       2        3.60   357     +11
+2       3        6.25   279     +03.5
+4       3        7.90   011     -14
+4       5        7.35   190     +29.2
+6       5        8.00   069     +32.5
+7       6       15.87    -      down
+8       7        2.30   054     -10.5
+9       8        4.10   117     -61.5
+10      9        5.57   162     -09.5
+11      10       5.33   185.5   -17.5
+11      12      13.05   350     +33.5
+13      12      11.30   178.5   -23
+13      14      25.88   348     +02.5
+15      14      16.25   176     -23
+15      16       8.23   264     +00.5
+17      16       5.90   071     -20
+17      18       8.04   233.5   -06
+19      18       7.50   152     +10.5
+19      20       5.58   314     -40
+20      21       6.40   233     -05
+*end Pipeless
+
+*begin MostlyMud
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Somewhere beyond Pipeless 'Mostly Mud'"
+*team Insts Sam
+*team Notes MikeTA
+*date 1992.07.29 ; trip 1992-161-13 in logbook
+*instrument Compass: illum, Clino: illum
+; Calibration:	None
+; ref.:	1992 survey book pp 112-113
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; obvious spot on wall at foot of aven (QM 92-mm)
+*export 13	; on wall, marked with X for possible survey into hole (not used)
+*export 15	; CM "V", roof pendant, from Pipeless survey
+
+2       1        4.85   039     +10
+2       3        5.22   136.5   -15 ; notes say 3->2, but only fits sketch this way round
+4       3        2.33   042     +03.5
+5       4        7.81   352.5   +21.5
+6       5       12.89   039     +15
+7       6       21.64   039     +22
+8       7       10.46   038     +10
+9       8       10.29   061.5   +21
+10      9        9.69   008.5   +20.5
+11      10       4.61   130     +05
+12      11      18.12   019     +10.5
+13      12       9.32   098     -10.5
+14      13       3.42   041     -13
+15      14       9.37   073.5   +20
+
+*end MostlyMud

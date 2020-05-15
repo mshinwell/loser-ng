@@ -1,0 +1,35 @@
+
+*begin quarries
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "Quarries"
+*date 2002.08.27
+*team Insts Frank Tully
+*team Notes Ben Shaw
+*instrument Set 1
+; Calibration: stone bridge: -21,327,-21,327.5,-22,326.5,+23,149,+24,149,+24,149
+; ref.:	2002#23
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 5
+
+*calibrate tape +0.00	; +ve if tape was too short, -ve if too long
+
+*data normal from to compass clino tape
+
+;from	to	compass	clino      tape	; remarks
+1     2 173 +10 11.30
+3     2 062 +19 12.25
+3     4 197 -20 30.60
+5     4 065 +15 7.75
+
+;stn	desc
+;1   2002-07
+;2   spit
+;3   spit no tag
+;4
+;5   204e
+
+*end quarries
+

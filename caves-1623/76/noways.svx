@@ -1,0 +1,72 @@
+;Eislufthoehle 1623/76
+
+*begin noways
+
+*title "No Ways Chamber"
+*date 2004.08.03
+*team Insts Jenny Black
+*team Notes Olly Betts
+*team Tape Jenny Black
+*instrument Compass 5 ; Clino 3
+; notes in 2004 #48
+
+*export 11 16
+
+*calibrate tape +1.00
+
+1	2	7.82	078	+23
+3	2	7.09	308	+15
+3	4	10.13	260	+24
+4	5	7.14	205	+29
+3	6	4.59	189	+22
+3	7	7.85	097	+10
+7	8	6.14	165	-12
+9	8	17.12	317	-04
+9	10	21.09	104	+09
+11	12	8.68	152	+54
+10	11	5.75	182	+04
+11	13	4.39	303	+05
+11	14	5.21	040	+17 ; compass suspect
+3	15	6.96	022	+10
+15	16	2.67	177	-08.5
+
+*data passage station left right up down ignoreall
+
+1	1.75	0.35	0.4	0.1	small cairn
+2	1.0	1.1	0.1	0.3	low pt on roof (NP)
+3	2	2	17.3	0.3	(notes say "10+", 2005.08.07 disto read as 17.3m)
+
+*data passage station left right up down ignoreall
+
+16	-	-	-	-	==  pt 6 of prev survey
+15	0.3	1.6	2	-	NP
+3	2	2	17.3	0.3
+4	2.3	0	6	1.4	NP RHW
+5	0.5	0.5	9.5	0	pencil "X" ; notes say "8", distoed as 9.5m 2005.08.07)
+
+*data passage station left right up down ignoreall
+
+3	2	2	17.3	0.3
+6	1	1	2	0	pencil "X"
+
+*data passage station left right up down ignoreall
+
+3	2	2	17.3	0.3
+7	0.4	1.2	0.2	0.1	temp cairn
+8	1.5	0.7	0.2	0.8	NP RHW "8"
+9	0.3	0.8	2	1	NP LHW
+10	0.3	0.3	2	0	pencil X on rock
+11	1	1	17.5	0.3	chert nodule on rock	
+12	0.75	0.5	0.5	1.4	"W list mark"??
+
+*data passage station left right up down ignoreall
+
+11	1	1	17.5	0.3	chert nodule on rock	
+13	-	-	20	0.95	by drip
+
+*data passage station left right up down ignoreall
+
+11	1	1	17.5	0.3	chert nodule on rock	
+14	-	-	9	1.1	by climb
+
+*end noways

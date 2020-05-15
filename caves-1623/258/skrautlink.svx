@@ -1,0 +1,23 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	258 "Tunnockschacht"
+
+*begin skrautlink
+
+*export 1 2
+
+*title "258: Sauerkraut link"
+*date 2006.08.10
+*team Insts Sandeep Mavadia
+*team Notes Dave Loeffler
+*instrument Silva good ones
+*instrument Tape yellow Tajima (the one that still has an end)
+
+; Calibration: stone bridge: up 143/+23, 154/+22, 151/+23; down 330/-23, 328/-23
+; (first two readings with compass held against bolt)
+
+; from	to	tape	comp	clino	remarks
+1	2	0.66	097	+29
+
+;1	= sauerkraut.2
+;2	= ribsknodel.18
+*end skrautlink

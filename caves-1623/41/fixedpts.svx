@@ -1,0 +1,35 @@
+;Stellerweghöhle, 1623/41
+;using fixed points for entrance and connections
+
+;entrance connections/Eingangsfixierungen
+;*fix P41 35834.12  81250.23  1624.48  ; Haupteingang Stellerweghöhle	;alter Wert
+;*fix p142  35773.05  81214.36  1615.57  ; Eingang 142			;alter Wert
+
+;Nils-Daten ab 10/00:
+*fix p41		35832.340	81245.976	1621.593	;ist genauer gesagt P41a
+*fix p142		35770.6528	81210.3193	1613.4832
+
+*fix 41.verhall.12  35782.51 	81348.38	1586.34	; = 078.allkaese.mj.12 (Verbindung Schwabenschacht-Stellerweghöhle)
+
+*fix 41.wetnwild.0 	36043.06	81371.62	1446.46 	; = 088.lerche1.steller (Verbindung Lärchenschacht-Stellerweghöhle)
+
+*fix 41.wetnwild.2 	36031.06	81375.82	1443.21 	; = 144.144verb.63 (Verbindung Tonys second Höhle-Stellerweghöhle)
+
+
+
+;underground connections
+;*fix 41.verhall.12 35790.95 81353.91 1588.56 ; Anbindung an Schwabenschacht
+;Anschlußfixpunkte für 41rest (CUCCrest):
+;.....we'll work this out soon :-)
+
+;Anschlußpunkt zur Stellerweghöhle, aus gemeinsamer Berechnung Wert ermittelt und in beiden Höhlen anschließend fixiert, 1.11.1999, Thilo
+;*fix 41.bus.23.9  36051.36  81431.97  1548.47  
+;*fix 41.bus.30  36042.75  81384.59  1464.56
+
+;*fix 41.bus.30 36041.99  81381.55  1464.77
+;Anschlußpunkt zur Stellerweghöhle, aus gemeinsamer Berechnung Wert ermittelt und in beiden Höhlen anschließend fixiert, 1.11.1999, Thilo
+
+;*fix	p41	35827.63	81250.67	1622.62
+; by measurement from GSCB surface survey plan (no altitude given)
+;*fix GSCB.p41	35847.00  	81233.00  	1623.24
+;Why two fixes? Thilo 20.8.00

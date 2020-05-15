@@ -1,0 +1,25 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	264 "Balcony Hohle"
+; (Originally 2005-05)
+
+*begin PitStopAll
+
+*include pitstop
+
+*include safencomfortable
+*equate safencomfortable.56x pitstop.56
+
+*include pitstop_2
+*equate pitstop_2.2x pitstop.2
+
+*include pitstop_3
+*equate pitstop_3.56x pitstop.56
+
+*include pitstop_4
+*equate pitstop_4.44x pitstop.44
+
+*include northernpowerhouse
+*equate northernpowerhouse.0 pitstop_4.4
+
+*end PitStopAll
+

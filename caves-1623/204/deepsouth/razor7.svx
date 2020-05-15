@@ -1,0 +1,109 @@
+*begin razor7
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Razor Dance 7"
+*date 2003.08.04
+*team Insts Dave Loeffler
+*team Notes Mark Shinwell
+*instrument Set 1
+
+; Calibration at stone bridge: none
+; ref: 2003 #26
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 24
+
+*calibrate tape +0.10	; +ve if tape was too short, -ve if too long
+
+2	1	4.61	149	-22
+2	3	4.26	344	-10
+3	4	3.84	258	-12
+4	5	3.62	230	+03
+6	5	1.81	027	 00
+6	7	2.04	246	-17
+7	8	1.75	270	-06
+8	9	5.73	231	-06
+9	10	2.02	188	 00
+10	11	2.41	293	-13
+11	12	5.12	156	-05
+12	13	1.87	119	-07
+13	14	1.47	200	-32
+14	15	2.50	149	-23
+15	15a	1.23	200	-64
+15a	16	10.75	232	-72
+16	17	2.24	273	-07
+17	18	5.78	221	-25
+18	19	3.09	241	-44
+19	20	2.58	280	+22
+21	20	1.67	011	-34
+21	22	5.53	266	+20
+22	23	1.92	216	+14
+23	24	2.15	176	-09
+24	25	1.33	234	-60
+25	26	7.14	-	down
+
+;station details
+*data passage station left right up down ignoreall
+;name	L	R	U	D	description
+1	-	-	-	-	=razor6.2
+2	-	-	-	-	=razor6.3
+3	0.5	0	-	1	RP RW
+4	0.5	0	-	0.7	RP RW
+5	0	0.4	-	0.7	RP LW
+6	0	0.5	-	2	RP LW
+7	0.6	0	-	1.5	RP RW
+8	0.7	0	-	1?	RP RW
+9	0.6	0	3	1	RP RW
+10	0	0.6	-	1	RP LW
+11	0.6	0	-	1	RP RW
+12	0.4	0	-	2	RP RW
+13	0	0.5	-	2	RP LW
+14	0.4	0	-	1.5	RP RW
+15	0	0.6	-	1.7	RP LW at pitchhead
+15a	-	-	-	-	nose of rock above pitch
+16	0	2	-	1.5	RP LW bottom of pitch
+17	1	1	-	1.5	RP RW
+18	0.5	1	-	2	RP flake
+19	0	0.5	-	1	RP LW
+20	0.7	0	-	2.5	RP RW where you have to climb up
+21	0.6	0	-	4	RP RW
+22	1	0	-	6?	RP RW
+23	0.6	0	-	6?	RP RW
+24	0	0.6	-	-	RP LW marked 24
+25	-	-	-	-	RP on flake
+26	-	-	-	-	unmarked pt on floor, bottom of plumb
+
+;original notes
+;name	L	R	U	D	description
+;1	-	-	-	-	=razor6.2
+;2	-	-	-	-	=razor6.3
+;3	0.5	0	lots	1	RP RW
+;4	0.5	0	lots	0.7	RP RW
+;5	0	0.4	lots	0.7	RP LW
+;6	0	0.5	lots	2	RP LW
+;7	0.6	0	lots	1.5	RP RW
+;8	0.7	0	lots	1?	RP RW
+;9	0.6	0	3	1	RP RW
+;10	0	0.6	lots	1	RP LW
+;11	0.6	0	lots	1	RP RW
+;12	0.4	0	lots	2	RP RW
+;13	0	0.5	lots	2	RP LW
+;14	0.4	0	lots	1.5	RP RW
+;15	0	0.6	lots	1.7	RP LW at pitchhead
+;15a	-	-	-	-	nose of rock above pitch
+;16	0	2	lots	1.5	RP LW bottom of pitch
+;17	1	1	lots	1.5	RP RW
+;18	0.5	1	lots	2	RP flake
+;19	0	0.5	lots	1	RP LW
+;20	0.7	0	lots	2.5	RP RW where you have to climb up
+;21	0.6	0	lots	4	RP RW
+;22	1	0	lots	6?	RP RW
+;23	0.6	0	lots	6?	RP RW
+;24	0	0.6	lots	(illeg)	RP LW marked 24
+;25	-	-	-	-	RP on flake
+;26	-	-	-	-	unmarked pt on floor, bottom of plumb
+
+*end razor7
+

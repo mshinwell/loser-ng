@@ -1,0 +1,78 @@
+*begin gps02olly
+; Coordinates for caves found by Olly Betts, Martin Green + Wookey
+; in 2001/2002 in the Eishoehle area. From email 8/6/2005. Much confusion
+; surrounds these, as there is another set of coordinates for
+; some of these in gps01.svx which doesn't agree even slightly.
+
+; Raw locations in UTM, WGS84 datum:
+
+; 33 411362 5280976 1735m 2001-06
+; 33 411271 5280991 1749m 2001-07
+; 33 411274 5280996 1746m 2001-07_old
+; 33 411301 5280905 1748m 2001-08
+; 33 411294 5280910 1734m 2001-08_old
+; 33 411304 5280877 1727m 2001-09
+; 33 411321 5280833 1722m 2001-10
+; 33 411322 5280811 1703m 2001-11
+; 33 411333 5280800 1686m 2001-12
+; 33 411323 5280979 1726m hfg-ka88
+; 33 411368 5281076 1727m 235
+; 33 411251 5280917 1752m 236
+; 33 411273 5280956 1735m 236_old
+; 33 411279 5280919 1777m 237
+; 33 411271 5280924 1730m 237_old
+; 33 411377 5281087 1731m 88F
+; 33 411276 5281086 1750m cliffhole
+; 33 411331 5281101 1735m showshaft
+
+*export 238 ; the only one for which we have survey data, apparently
+
+; Converted to Gauss + Krugers using MGI datum, these give
+
+*fix 2001-06 reference	36533.16 82049.60 1735
+*fix 2001-07 reference	36441.83 82062.65 1749
+*fix 2001-07_old reference	36444.72 82067.72 1746
+*fix 2001-08 reference	36473.68 81977.29 1748
+*fix 2001-08_old reference	36466.57 81982.14 1734
+*fix 2001-09 reference	36477.28 81949.35 1727
+*fix 2001-10 reference	36495.23 81905.71 1722
+*fix 2001-11 reference	36496.70 81883.73 1703
+*fix 2001-12 reference	36507.94 81872.96 1686
+*fix hfg-ka88 reference	36494.09 82051.77 1726
+*fix 235 reference	36537.01 82149.74 1727
+*fix 236 reference	36423.42 81988.21 1752
+*fix 236_old reference	36444.58 82027.69 1735
+*fix 237 reference	36451.38 81990.82 1777
+*fix 237_old reference	36443.27 81995.64 1730
+*fix 88F reference	36545.78 82160.94 1731
+*fix cliffhole reference	36444.79 82157.77 1750
+*fix 238 reference	36499.47 82173.95 1735
+
+*entrance 2001-06 
+*entrance 2001-07 
+*entrance 2001-08 
+*entrance 2001-09 
+*entrance 2001-10 
+*entrance 2001-11 
+*entrance 2001-12 
+*entrance hfg-ka88 
+*entrance 235 
+*entrance 236 
+*entrance 237 
+*entrance 88F 
+*entrance cliffhole 
+*entrance 238 
+
+
+; I understand that "snow shaft" was renamed "speed ant shaft" and was the
+; cave documented under the number 1623/238.
+
+; Another fix from 2002 (thanks Wookey):
+
+*fix 2002-W-01 reference 36614 82114 1700 ; altitude guessed
+*fix 2002-OB-01 reference 36547 82019 1700
+
+*entrance 2002-W-01
+*entrance 2002-OB-01
+
+*end gps02olly

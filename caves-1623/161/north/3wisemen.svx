@@ -1,0 +1,79 @@
+; 1998.02.27 AERW fixed begin/end, comments, passage names, refs., exports
+
+; ====== links between surveys in this file: ======
+
+*equate FarToFar.1  3WiseMen.8
+
+*begin 3WiseMen
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Three Wise Men"
+*date 1992.08.02 ; trip 1992-161-17 in logbook
+*team Notes Wookey
+*team Instr Andrew Atkinson
+*instrument Compass: Illum, Clino: Illum
+; Calibration:  (Aggy) 251, 041 ; +10, +09, -09
+;       (AndyA) 041, 222, 252 ; +09.5, -09.5
+; ref.: 1992 survey book p 132, 2011#11 (wookey redraw)
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1   ; carbide mark opposite bolt at Satan's Sitting Room pitch head
+*export 6   ; rock on floor by way to pitch (QM 92-13)
+*export 8   ; carbide mark "X" on wall
+
+*calibrate compass 0
+*calibrate clino   0
+
+1       2       14.58   143     +34.5
+3       2        7.78   350.5   -14
+3       4        6.99   123.5   -12
+5       4       14.19   272.5   -11
+5       6        6.87   026     +38
+7       6        7.12   316     -09
+7       8        6.74   065.5   +04
+*end 3WiseMen
+
+*begin FarToFar
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Far Too Far"
+*date 1992.08.04 ; trip 1992-161-18 in logbook
+*team Notes Wookey
+*team Instr Andrew Atkinson
+*instrument Compass: Illum, Clino: Illum
+; Calibration:   041, 219, Fog (AndyA), +09, -09 (AndyA)
+; ref.: 1992 survey book pp 133-135
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1   ; carbide mark "X" on wall, end of Three Wise Men
+*export 6   ; Wellie Scraper: nodule by crawl to pitch (QM 92-14)
+*export 12  ; carbide mark high up at corner
+*export 15  ; carbide mark "X" on nodule in roof where Far Too Far chokes
+        ; R on 210 to QM 92-19, L on 060 to QM 92-21
+
+*calibrate compass 0
+*calibrate clino   0
+
+; 1-5, 8-11 in Tinkle Rift
+1       2        3.71   040.5   +03
+3       2        3.41   262.5   -01
+3       4        2.09   027     -10
+4       5        5.92   047     +22
+8       5        1.47    -      Down
+; 6,7 side branch: Wellie Scraper
+6       7       17.08   139     +07
+7       8        4.76   130     -18.5
+; Tinkle Rift
+9       5        3.11   269     +31
+10      9        8.07   213.5   -17.5
+10      11      17.36   069     -02
+; Black Velvet
+12      11      21.70   233     -19
+; Far Too Far
+13      12       3.40   308     -06
+13      14      24.85   151.5   +03.5
+15      14      14.03   316.5   -05.5
+
+*end FarToFar

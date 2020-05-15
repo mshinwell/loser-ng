@@ -1,0 +1,11 @@
+; Connections between cave systems not in the SMK-system
+
+; 113 -- 152
+; believed just one bolt, so s.b. no problem
+; (guessing "s.b." means "should be")
+;*equate 152.BananaCon.1 113.Muesli.0
+
+; 81 to 148
+*equate 148.icecastle.2 81.148conn.14
+
+*include links204-258.svx

@@ -1,0 +1,50 @@
+;1998.03.02 AERW sort begin/end, add comments and refs, some *calib clino
+
+*begin snug
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Dr. Snuggles"
+*date 1995.07.16 ; trip 1996-161-21 in logbook
+*team Insts Gunilla Andree
+*team Notes Anthony Day (also Dog and Tuition)
+*team Pics Duncan Collis
+*team Tape 
+*instrument Set 3
+; Calibration:	none
+; ref.:	1996 KH survey book pp 102-103 (description p 101)
+;
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; CM L wall of TP2, above climb out of canyon after Moth Cha., just before Dr. Snuggles
+*export 12	; CM on boulder, west side of Zebedee, nearest QM 96-14
+*export 14	; CM R wall, foot of climb QM 96-13 (now QM 97-03)
+*export 22	; CM L wall, end of Alfons - just before flat crawl QM 96-12
+
+*calibrate tape +0.2
+
+;From	to	Tape	Compass	Clino 
+2	1	15.18	203	+04
+2	3	 9.68	262	+08
+4	3	11.75	046	+05
+4	5	 3.74	260	-03
+6	5	 4.92	059	+14
+6	7	 8.3	227	+24
+8	7	 3.79	065	-35
+8	9	 7.53	174	-30
+10	9	 6.36	085	+50
+10	11	 4.9	-	down
+12	11	10.76	037	-04
+12	13	 2.76	196	+18
+14	13	12.63	055	+25
+15	11	 4.91	092	+21
+15	16	 3.75	327	-08
+16	17	 2.97	344	+14
+18	17	 3.1	200	 00
+19	18	 2.16	256	-27
+19	20	10.68	340	-03
+21	20	 8.75	160	-10
+21	22	 7.1	322	-25
+
+*end snug

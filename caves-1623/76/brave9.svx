@@ -1,0 +1,31 @@
+;Eislufthoehle 1623/76
+
+*begin brave9
+
+*title "BNW IX"
+*date 2007.08.03
+*team Insts Jenny Black
+*team Notes Olly Betts
+*team Tape Jenny Black
+*instrument proto pony; our disto
+; notes in 2007 #
+
+*export 11
+
+*calibrate tape +0.00
+
+*data normal from to compass clino tape
+1	0	006	00	3.725
+1	2	265	-15	0.356
+3	2	299	-17	2.088
+3	3a	101	+07	2.103
+3	4	210	-21	1.897
+4	5	228	+15	1.152
+5	6	196	-13	4.063
+6	7	237	-11	1.858
+7	8	190	-27	1.234
+8	9	247	-12	2.577
+9	10	226	-14	2.808
+11	10	259	-12	3.993
+
+*end brave9

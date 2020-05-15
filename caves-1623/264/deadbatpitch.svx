@@ -1,0 +1,41 @@
+*begin deadbatpitch
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2005-5 "Balconhohle"
+
+*export	1
+
+*title "deadbatpitch"
+*date 2014.08.12
+*team Insts Martin Green
+*team Tape Martin Green
+*team Notes Rob Watson
+; nail varnish Rob Watson
+;instruments tape measure, yellow/blue comp & clino
+
+*ref 2014#39
+
+;from	to	tape	compass	clino	remarks
+1	2	8.69	-	down	;vertical leg
+3	2	4.5	217	-31	;original 2->3, fiddled to make it work (think is now correct)			
+	
+2	4	3.20	351	+75
+5	4	5.07	036	+16
+6	5	3.76	045	+21
+7	6	2.95	032	+18	
+7	8	4.00	220	-20
+
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+1	0.4	1	0.3	8.69	tip of jutting rock, direct above p
+2	2.5	3	9	0	small boulder, floor level	
+3	1.6	2.5	8	1.5	far wall of chamber
+4	2.6	3.2	7	2.5	small tip of rock, start passage
+5	1.5	0.1	2.5	0.2	E stream trench, nr RHW
+6	0	1.5	2.3	0.4	LHW, nr fault plane
+7	1.2	0	2.2	0.3	RHW
+8	3	1	2	0.5	
+
+*end deadbatpitch
+

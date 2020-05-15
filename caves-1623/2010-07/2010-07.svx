@@ -1,0 +1,33 @@
+*equate p2010-07 2010-07.5
+*equate gps2010-07 2010-07.GPS
+*entrance gps2010-07
+*entrance p2010-07
+
+*begin 2010-07
+
+*title "Brunnen G Schacht"
+*date 2010.08.13
+*team Insts Frank Tully
+*team Notes Frank Tully
+*team Bolter Matrtin Janke
+
+; notes in 2010#17
+
+*export 5 GPS
+
+*data normal from to tape	compass clino
+*flags surface 
+5	GPS	8	220	+30
+*flags not surface
+2	1	10.5	-	down
+3	2	15.70	250	-80
+4	3	12.78	265	-60
+4	5	6.71	80	+34
+
+;	1	rock on bottom of chamber
+;	2	bolt on top of snow plug
+;	3	pencil mark on protrusion on opposite wall to bolts
+;	4	Pencil mark on protrusion from bottom of arch
+;	5	Tag bolt on rock wall
+
+*end 2010-07

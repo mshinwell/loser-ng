@@ -1,0 +1,29 @@
+*equate p2005-96 2005-96.3
+
+*begin 2005-96
+*date 2005.07.26
+*title "2005-96"
+*team Instruments Jenny Black
+*team Notes Olly Betts
+*instrument Ol + Jenny's 
+; Ref. 2005#05
+
+*export 3 ; tag pt
+
+*calibrate tape 0.00
+
+*data normal from to tape compass clino
+2       1       8.230   222     -74    
+2       3       0.880   340     -54
+
+
+;1 snow plug
+;2 Dave's hand
+;3 Tag
+
+*end 2005-96
+
+
+
+
+

@@ -1,0 +1,29 @@
+*equate p2012-ns-09 2012-ns-09.GPS
+
+
+*begin 2012-ns-09
+
+; *title "Bergspitze Schacht"
+*date 2012.08.15
+*team Insts Ian Walker
+*team Notes Noel Snape
+
+*export GPS
+
+*data normal from to tape	compass clino
+
+2	1	25.62	351.9	-82.3
+3	2	18.25	46.7	-77.4
+4	3	11.13	95	-44.8
+GPS	4	1.95	148	-29
+
+*data passage station left right up down ignoreall
+
+;stn	L	R	U	D	Desc
+
+1	1.0	1.5	0	0	"Chamber, is 9m long"
+2	1.2	0	0	0
+3	0	0.9	4.5	0
+4	0	1.0	2.6	1.5
+
+*end 2012-ns-09

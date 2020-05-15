@@ -1,0 +1,37 @@
+*equate p2012-ns-13 2012-ns-13.GPS
+
+
+*begin 2012-ns-13
+
+; *title "Moth Cave"
+*date 2012.08.20
+*team Insts Julian Todd
+*team Notes Noel Snape
+
+*export GPS
+
+*entrance 1
+*entrance 5
+
+
+*data normal from to tape	compass clino
+
+*flags surface
+1	GPS	0.92	238	42.2
+
+*flags not surface
+1	2	3.49	227.5	-12.6
+2	3	1.94	236	-43
+4	3	3.47	54.9	38
+5	4	2.04	336	3.5
+
+*data passage station left right up down ignoreall
+
+;stn	L	R	U	D	Desc
+1	1.1	0.9	0	0.4	Nose of rock at top entrance
+2	0.6	1.1	0	0.3
+3	0.4	0.1	0.1	0.3
+4	0	0	0.6	0.4
+5	1.5	1.1	0	0.3
+
+*end 2012-ns-13

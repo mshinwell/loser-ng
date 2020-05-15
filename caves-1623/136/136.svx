@@ -1,0 +1,18 @@
+;*begin 136
+;
+;; This file exists so that 136 can easily be processed 'standalone'
+;; (by processing this instead of the normal 136-correct.svx)
+;; Until someone finally goes and surveys this missing leg.
+;
+;; These two points aren't the same - they're on neighbouring boulders
+;; They need to be connected to process 136 alone, without surface data, but 
+;; can be correctly disconnected for normal dataset processing
+;;LRUDs
+;;entrance.10	3	0	1.00	~30.00	CM RH wall
+;;MorEnt.10	3	2.5	~18	4	'10' red point on rock point
+;;approx connection
+;*equate MorEnt.10 entrance.10
+;
+;*end 136
+
+*include 136-correct

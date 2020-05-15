@@ -1,0 +1,81 @@
+*begin entrance
+
+
+*export 1 2 3 8
+
+*title "Bad Forecast"
+*date 2017.07.23
+*team Notes Phil Withnall
+*team Insts Nadia R-C
+*instrument ULSA Disto
+
+; Survey folder reference: 2017#11
+
+;exported stations
+*entrance 1
+*entrance 3
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+;from	to	tape	compass	clino	remarks
+
+*flags not surface
+*alias station - ..
+1	2	8.98	73.1	-72.2	entrance ramp
+3	2	7.20	93.5	-48.9	entrance shaft
+2	4	3.99	106.9	-34.9	4 is on a rock pillar
+4	5	4.78	117.8	-40.1
+5	6	3.81	57.7	-46.6
+6	7	5.98	32.0	-24.5
+7	8	5.10	68.9	-19.5
+8	9	3.29	350.9	7.9
+9	10	9.52	298.8	45.7	unmarked station
+9	11	5.39	356.6	78.4	unmarked station
+9	12	4.0	89.4	-40.7	unmarked station
+
+
+;Station data as recorded
+;stn	L	R	U	D	Desc
+;surveying in
+;gps					GPSed point
+;1	2.5	1.7	sky	0.6	Boulder tip @ climb-head (belay rock)
+
+;LRUD data split into passage tubes
+*data passage station left right up down ignoreall
+1	1.90	0.91	-	9.16
+2	1.64	1.66	1.30	1.02
+
+;LRUD data split into passage tubes
+*data passage station left right up down ignoreall
+3	0.96	-	0.63	0.18
+2	1.64	1.66	1.30	1.02
+4	1.00	2.02	1.67	0.95
+5	0.69	-	1.06	1.05
+6	0.36	0.10	1.62	0.95
+7	0.52	1.37	0.66	0.80
+8	3.53	1.25	1.53	1.40
+9	0.20	1.13	1.88	0.63
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surveyname.5    -    description of QM ]
+
+;------------
+;Cave description ;(leave commented-out)
+; Entrance pitch and ramp for the cave. Two entrances: one 8m pitch, and one 8m handline-able ramp.
+; Both lead down to a sandy 45 degree slope, with another choked up entrance on the right hand side.
+; The entrance series continues down a narrow phreatic passage (also at 45 degrees) with a loose boulder
+; floor. This continues for about 20m until a junction with two avens (one wet, one dry) and another
+; choked 45 degree downslope. The phreatic passage continues downwards from survey station 8. 
+
+
+*end entrance
+

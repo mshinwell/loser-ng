@@ -1,0 +1,49 @@
+; Fixes from Wook's GPS, set to WGS84.
+; Original data:
+;       p2005-01        47 41 27.5 lat  13 49 55.0 long  1765m alt
+;       p2005-02        47 41 19.8 lat  13 49 37.1 long  1803m alt
+;       p2005-03        47 41 26.0 lat  13 49 51.3 long  1732m alt
+
+*entrance p2005-01
+*entrance p2005-02
+*entrance p2005-03
+
+*fix p2005-01 37485.85 83709.75 1717.24
+*fix p2005-02 reference 37114.08 83469.55 1755.24
+*fix p2005-03 reference 37408.98 83662.92 1684.24
+
+
+; Fixes from Anthony's GPS, set to MGI datum, UTM grid.
+; Original data:
+;       p1      409578E 5277999N 794m alt  zone 33
+*fix p1 reference 34731.14 79511.95 794
+*entrance p1 ; Liagerhoehle
+
+; Fixes from Olly's GPS, WGS84 UTM zone 33:
+; p2004-07 410612E 5282159N alt 16??m
+; p2004-08 410647E 5282126N alt 1616m
+; p2005-97 410657E 5281932N alt 1623m
+; p2005-98 410640E 5281925N alt 1643m
+; p2005-99 410613E 5281892N alt 1629m
+; p2005-99 410613E 5281892N alt 1629m
+
+; Replaced by surface survey
+; *fix p2004-07-gps reference 35757.68 83216.61 1650 ; alt a bit of a guess...
+; More plausible alt (but exactly the same coords!) in 2006
+; *fix p2004-08 reference 35793.39 83184.35 1616
+; Replaced by surface survey
+; *fix p2005-97-gps reference 35808 82990 1623 
+; *fix p2005-98-gps reference 35791 82949 1629
+; *fix p2005-99-gps reference 35764.42 82949.60 1629
+
+; Replaced by surface survey
+;*fix p175-gps reference 35696.09 83242.30 1656
+;*fix p176-gps reference 35716.94 83296.77 1682
+
+; from Wook's GPS set to dataset coordinates
+
+;*fix p220 reference 35885 82531 1692 ; alt estimated
+*fix p225 reference 35931 82452 1738
+;*fix pwk12 reference 35694 82252 1694
+*entrance p225
+;*entrance pwk12

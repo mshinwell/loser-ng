@@ -1,0 +1,147 @@
+;1996.04.07 (W) changed vague 'algbit' to 'missip'
+;1998.03.28 AERW sorted begin/end/export, added comments and refs
+
+; ====== links between surveys in this file: ======
+
+*equate mohr.20 	missip.4
+*equate suspender.5	missip.9
+
+*Begin missip
+
+; Cave:	1623/161, Kaninchenhöhle
+*title "Mississippi Mud Pie and Mississippi"
+*date 1994.07.15 ; trip 1994-161c-7 in logbook
+*team Insts Kate Janossy & Bob Bloodworth
+*team Notes Julian Haines
+*instrument ?
+; Calibration:	none
+; ref.:	1994 survey book pp 192-197
+
+; ======  stations refindable to link to other surveys: ======
+
+*export 4	; carbide mark, lump on roof near RH wall
+*export 6	; carbide mark on mud, LH (SE) wall just beyond QM
+*export 9	; CM LH wall nr head of pitch (as seen facing pitch/
+		; Rocky horror, from Mississippi)
+*export 10	; uppermost pitch head thread - Black Suspender
+*export 16	; carbide mark on north wall nearest (and just east of QM [Ginger Crunch])
+*export 23	; highest pitch head bolt for Sultans of Swing (nearly)
+
+1       2        9.90   156     +03.4 ; clino +006%
+3       2       17.82   292     -04.6 ; clino -008%
+3       4       27.38   192     -00.6 ; clino -001%
+5       4       16.60   310     +00.6 ; clino +001%
+5       6       17.24   198     -08.5 ; clino -015%
+7       6       15.90   057     -04.6 ; clino -008%
+7       8       16.38   163     +03
+9       8       11.68   265     -03
+9       10       6.35   167     +13
+3       11      25.33   019     +05
+12      11      12.70   194     -06
+12      13      12.65   120     +16
+14      13      17.41   294     -13
+14      15      10.84   139     +13
+16      15      13.56   272     -12
+16      17       8.88   122     +14
+18      17       3.05   312     -28
+18      19       6.40   110     +47
+20      19       6.52   278     -14
+1       21      18.00   305     -20
+21      22       4.50   200     +42
+22      23       6.65    -      Up
+
+;1996.05.19 Wook & AndyA add LRUDE info
+;*LRUDE
+;1	0	15	1	0.5	;Final traverse line bolt leading into missisippi
+;2	4	0	1.5	1	;CM RH wall
+;3	0	7	~~1.5	~~1	;CM on wall junction MMP and missip
+;4	5	0	1	1.5	;CM lump on roof
+;5	0	4	1.5	1.5	;CM LH wall
+;6	0	7	1.7	1.3	;CM on mud LH wall
+;7	6	2	0.5	4	;CM ceiling
+;8	7	.5	1	6	;CM ceiling nr RH wall
+;9	0	5.5	~~2	~~1	~T6	;CM LH wall (T is down trench)
+;10	(7)	(1)	~~2	~~7	(10)(190) ;uppermost pitch head thread
+;11	0	6	~~1	~~1.5	;CM LH wall on overhang
+;12	0	3	2	1.5	;CM LH wall
+;13	0	2.5	0.5	3	;CM LH  ceiling
+;14	0	2.5	~~1.5	~~1.5	;CM LH wall
+;15	2.5	0	1	1.5	;CM RH wall on flake
+;16	0	1.2	3	1	;nearest CM RH wall - sketch shown on other wall! [AA]
+;17	0	J1.2	1.5	1	;CM LH wall
+;18	1.5	0	~~1.5	1	;CM RH wall
+;19	1.5	0	~~1.5	~~1.5	;CM LHW
+;20	1.5	1.5	0	3	;CM ceiling middle
+;21	0	15	J3	1.5	;CM LH wall by tie-off flake - (Actually RH wall)
+;22	15	0	~~J4	~~J2	5	;edge where sultans pitch rope crosses window
+;23	1.5	5	6	0.2	;highest pitch head bolt for Sultans of swing (nearly)
+
+*end missip
+
+*begin mohr
+
+; Cave:	1623/161, Kaninchenhöhle
+*title "Mohr im Hemd"
+*date 1994.07.17 ; trip 1994-161c-8 in logbook
+*team Insts Kate
+*team Tape Kate / Anthony
+*team Notes Anthony
+*instrument 
+; Calibration:	none
+; ref.:	1994 survey book pp 198-200
+
+*export 1	; carbide mark on flake at end of Mohr im Hemd
+*export 20	; station 20 is station 4 on Missip (was algbit)
+
+2       1       2.75    290     -17.0
+2       3       1.72    110     0.0
+4       3       2.05    301     -28.0
+4       5       2.13    124     +02
+5       6       5.40    054     +05
+7       6       1.50    224     -09
+8       7       2.63    290     -04
+8       9       0.96    200     +02
+10      9       2.24    230     -25
+11      10      1.05    280     -02
+12      11      1.45    330     0.0
+12      13      1.32    071     -25
+14      13      1.43    276     -25
+15      14      4.45    230     -07
+16      15      3.55    224     -04
+16      17      2.55    004     +04
+18      17      9.80    223     -08
+18      19      4.63    106     +20
+20      19      7.03    337     -01
+
+*end mohr
+
+*begin suspender
+
+; Cave:	1623/161, Kaninchenhöhle
+*title "Black Suspender"
+*date 1995.07.26 ; trip 1995-161-22 in logbook
+*team Insts Andy A
+*team Notes Julian
+*team Tape Andy A
+*instrument 
+; Calibration:	
+; ref.:	1995 survey book pp 24-25
+
+*export 5	; CM LH wall nr head of pitch (as seen facing pitch/
+		; Rocky horror, from Mississippi). Same point as missip.9
+
+2       1       9.69    088.5   +35
+2       3      17.70     -       up
+4       3       9.79    086     +10
+4       5       5.12    028.5   +5.5
+
+; station details
+; stn	L	R	U	D
+; 1	0	2.0	8.0	1.0	CM on flake, LH wall
+; 2	3.0	1.5	-	1.0	Bottom of pitch hang (knot in rope)
+; 3	0.5	0.5	4.0	18.0	main hang (Y-hang knot)
+; 4	0	5.0	5.0	1.5	CM on RH wall near '94 hang
+; 5					CM LH wall nr head of pitch (as seen facing pitch/
+; Rocky horror, from Mississippi). Same point as missip.9
+
+*end suspender

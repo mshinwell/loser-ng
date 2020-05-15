@@ -1,0 +1,184 @@
+; 1993.07.15 split into useful sized chunks/original surveys
+; 1998.02.09 AERW added refs, station details, exports, split into two trips
+
+*begin olympus
+
+; ======  stations refindable to link to other surveys: ======
+
+*export pt1.0	; point on SE wall (opposite large pillar which looks like wall)
+		; in Tower Blocks where Olympus goes off to the SW
+*export pt2.75	; carbide mark on bottom of flake in roof in Wobbling,
+		; directly opposite entry to Wormhole
+*export pt2.dan12	; edge of Flapjack pitch (seen across pitch to Flapjack surveyors)
+
+; ====== links between surveys making up the Olympus survey: ======
+
+*equate pt1.43	pt2.43
+*equate pt1.36	pt2.36
+
+*begin pt1
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Olympus"
+*date 1989.08.20 ; 21 - trip 1989-161-26 in 1989 logbook
+*team Notes Wook
+*instrument Del
+*instrument compass: 543693, clino: 545763
+; ref.:	1989 survey book pp 42-43
+
+; ======  stations refindable to link to other surveys: ======
+
+*export 0	; point on SE wall (opposite large pillar which looks like wall)
+		; in Tower Blocks where Olympus goes off to the SW
+*export 36	; LH wall 3m off floor
+*export 43	; rock tip 1m from edge of pitch, 2m from R, L & back walls
+
+ 0      33     10.12   232    -17 ; Start of olympus
+34      33     12.64   021     05
+34      35      6.57   183    -15
+36      35     16.81   029    -04
+36      37     12.00   066     05  ; corner where B-meal goes off
+38      37     20.40   359    -21
+38      39     10.76   186     34
+40      39     10.40   355    -37
+40      41      5.96   026     35
+42      41      3.96   325     14
+42      43      7.22   191     10
+
+; 33	nondescript rock tip 0.3m off floor
+; 34	LH roof 0.3 off floor
+; 35	carbide mark, RH wall 1.5 off floor
+; 36	LH wall 3m off floor
+; 37	carbide mark, LH wall 1.5m off floor
+; 38	LH wall 0.5 from wall, 4.5m wide, 12m high
+; 39	RH wall 2m off floor, 2.6 wide, 8m high overall
+; 40	LH wall 2m off floor, 2m wide at this level, wider high up, roof OOS
+; 41	rock on LH wall at top of climb, 1.2 wide, 3.5 high
+; 42	0.5 off floor, 1.2 from LH wall, 3.1 wide, 8m high
+; 43	rock tip 1m from edge of pitch, 2m from R, L & back walls
+
+*end pt1
+*begin pt2
+
+*title "Olympus"
+*date 1989.08.26 ; 27 - trip 1989-161-31 in 1989 logbook
+*team Notes Wook
+*instrument Dan
+*instrument 
+
+; ======  stations refindable to link to other surveys: ======
+
+*export 36	; LH wall 3m off floor
+*export 43	; rock tip 1m from edge of pitch, 2m from R, L & back walls
+*export 75	; carbide mark on bottom of flake in roof in Wobbling,
+		; directly opposite entry to Wormhole
+*export 100	; T-junction opposite Del's climb QM 89-03
+*export dan12	; edge of Flapjack pitch (seen across pitch to Flapjack surveyors)
+
+; B-Meal - page 47 in 1989 survey book
+
+43      44     10.39   141    -34
+45      44      4.13   166     51
+46      45      6.93   254     50
+46      47      3.91   097    -07
+48      47      6.20   120     79
+
+; 44	far wall of chamber 1m above rubble floor
+; 45	pitch head bolt
+; 46	LH wall of rift 1m wide 2m above floor 1.3 into rift 10m high
+; 47	RH wall of rift 2m above constriction 4m from roof
+; 48	LH wall of rift 2m above bottom of rift 2m wide
+
+; survey continues - pages 48-51
+
+; Wobbling
+36      70      12.80   237     -21
+71      70      9.91    053     09
+71      72      7.27    176     -09
+73      72      3.48    044     31
+73      74      2.75    175     -24
+75      74      2.03    015     16
+75      76      4.77    181     -72
+76      77      2.27    196     -19
+
+; 36	LH wall on corner 4m off floor (was 3m in pt1, see above)
+; 70	1.4 up on RH wall
+; 71	2m up at junction of Wobbling and choked shingle inlet
+; 72	1.5m up in 1m wide rift, 2.5m high, mud floor
+; 73	RH wall, 1m wide, 3m up, roof 2m above
+; 74	2m up, LH wall
+; 75	on the roof (CM on flake SE side opposite way to Wormhole), rift 3m high, 0.4 wide
+; 76	0.8 above floor, rh wall 0.3m wide
+; 77	0.4 off floor centre of passage
+; main olympus passage
+71      78      15.93   031     +17
+79      78      10.05   050     +01
+80      78      3.67    167     +05
+80      81      6.57    243     -13
+82      81      11.35   184     -13
+82      83      6.08    038     -17
+84      83      8.21    180     -12
+84      85      8.59    342     -07
+86      85      9.13    219     -12
+86      87      25.16   001     -03
+88      87      9.36    208     +01
+88      89      18.79   230     -04
+90      89      9.75    219     +06
+90      91      6.73    057     +36
+92      91      7.32    228     +09
+92      93      10.22   049     00
+93      94      10.96   067     -11
+95      94      10.21   086     +09
+95      96      5.51    267     +31
+99      96      19.87   061     +07
+; chambery bit over flapjack pitch
+97      96      14.72   180     -27
+98      96      9.99    132     -23
+; passage in opposite direction
+99      100     3.30    014     -33
+101     100     5.76    088     -11
+101     102     6.30    231     -08
+103     102     4.26    106     -40
+103     104     6.28    201     +21
+105     104     5.80    048     +27
+;
+99      106     3.16    156     -03
+107     106     6.11    308     -07
+107     90      5.04    117     +30
+; connection at head of flapjack pitches
+dan12   94      1.94    285     -81 
+
+; 78	0.6 off shingle floor
+; 79	shingled up inlet
+; 80	RH wall 1.3 off floor
+; 81	0.2m up on LH wall
+; 82	1.9m up LH wall, 6m aven 1m in front of point
+; 83	0.2 off floor. RH wall in shingle crawl 2m wide
+; 84	1m up in roof, 0.5 to highest point, 2.5 wide arch, 0.5 from RH wall
+; 85	0.2 up LH wall 2.5 wide 1.2 high arch
+; 86	2m up RH wall, 3.5 wide
+; 87	1.9 above floor
+; 88	RH wall 2m up
+; 89	LH wall 1.6 up
+; 90	RH wall 3m up. 10m hading rift 0.7 wide, LH (hanging) wall is missing
+;	at bottom: forms approx rectangular passage 4m wide at floor, 5m high
+; 91	LH wall of rift 3m up, 0.7 wide
+; 92	constriction in rift, centre of roof 1m off floor, 0.6 wide
+; 93	edge of flapjack, 1.3m up RH wall
+; 94	pinnacle 0.5 above 2nd bolt of flapjack pitch
+; 95	1m from edge of pitch
+; 96	roof 1.2 above floor
+; 97	top of rock slope, 4m from end of chamber, 2m off floor
+; 98	4m from floor on wall
+; 99	1m from floor, 3m to roof, 0.8 wide
+;100	tip of roof pinnacle, 1.2 from floor
+;101	RH wall 1m up, 2.5 wide, 3m high
+;102	LH wall 0.2 above floor 2m wide
+;103	RH wall 1m up, 1.5 wide at base of rift 9m high
+;104	2m up LH wall 0.8 wide, 3m to roof
+;105	1m up wall, 2m from end wall, roof closes down from 2m high at point
+;106	RH wall 0.9 up, 2.4 high, 1.5 wide
+;107	LH wall 0.8 up, 4m high 4.5 wide
+
+*end pt2
+*end Olympus

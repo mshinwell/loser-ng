@@ -1,0 +1,49 @@
+;1998.04.04 AERW Added comments, refs, exports
+
+*begin KanSurf
+
+; Cave:	Kaninchenhöhle, 1623/161, and 1623/185
+*title "Surface VD1 to 161B via 2Year Gestation Höhle"
+*team Insts Matt
+*team Tape Jeremy
+*team Notes Adam
+*team Pics none
+*date 1990 ; with these people, it has to be 1990
+*instrument Compass 721899 Clino 716221
+; Calibration:
+; ref.:	1990 survey book p 3
+
+*export 00	; VD1 bolt
+*export 03	; marked point near to the pitchhead of 2YGH
+		; (to be part drilled and marked with red paint)
+*export 12	; the centre of loop of "6" in 161b at entrance (=P161b)
+*export 14	; the dot above a line above a "5" at French cave VSS2 (161c)
+; NB this is not (quite) the same as P161c, which is again, the centre of the "6"
+
+*calibrate compass 0.00
+*calibrate clino   0.00
+;*data normal bcra_5 from to length bearing gradient
+   00    01    1.20     -      Up
+   02    01   30.00    208.5  +01
+   02    03   21.57    033.5  +01.5
+   03    04    1.20     -      Up
+   05    04   20.32    315.5  -08.5
+   05    06   12.88    137    +07
+   07    06   13.46    312.5  +39.5
+   07    08   30.00    053    -10.5
+   09    08   29.90    251    -05
+   09    10   12.60    082    +15.5
+   11    10   27.02    241.5  +18
+   11    12    2.73    303    -01
+   13    12   16.47    222    -07
+   13    14    2.39    338.5  -57
+
+; vertical legs of 1.20 are the height of the wooden survey staffs
+
+; book says "It seems that there is no survey data from any well known point
+; to VD1 or to the marked point at the entrance to 161 (red dot on rock).
+; Ahh, found it ! - 1988 survey by Jane Brown and Jenny Moss"
+
+; that would appear to be Surf161.svx (AERW 1998.01.23)
+
+*end Kansurf

@@ -1,0 +1,46 @@
+*begin wetdry
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Wet Dry World"
+*date 2007.07.25
+*team Insts Sarah White
+*team Notes Richard Mundy
+*team Tape 
+*instrument Compass 1 ; Clino 1, Tape unknown
+; Calibration: Bolt-to-hole 150.5 +22, hole-to-bolt 329 -22.5
+; ref: 2007#28
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 9
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	4.31	304	-19
+3	2	2.29	312	+19.5
+3	4	10.93	068	-55.5
+4	5	13.32	-	down
+6	5	1.55	083	-05.5	
+6	7	4.17	223	-39.5
+7	8	2.25	307	-47.5
+9	8	3.43	171.5	+07
+
+
+
+
+;station details
+;name	L	R	U	D	description
+;1	-	-	-	-	Tag 8 from 11 Second Rattle survey.
+;2	0	1.9	1.6	0.5	Wall at entrance of Super Fun Happy Slide tube.
+;3	1.7	0.3	0.6	2	Rock jutting from right tube wall.
+;4	2.5	2.5	0	lots	Roof of tube above pitch.
+;5	7	4	4	3	Rock on Wet Dry World chamber floor.
+;6	-	-	-	-	Boulder on chamber floor.
+;7	1.2	0.7	1	0	Boulder by crawl out of chamber.
+;8	-	-	-	-	Boulder in Whomp's Fortress chamber.
+;9	-	-	-	-	From 11 Second Rattle survey?
+
+
+
+*end wetdry

@@ -1,0 +1,68 @@
+*begin catflap
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Catflap"
+*date 2009.07.25
+*team Tape Jess Stirrups
+*team Insts Kathryn Hopkins
+*team Notes Becka Lawson
+*instrument Set 1 A; Yellow tape with 20cm missing
+; Calibration: AtoB 309 -26; 302 -25; BtoA 325 -25; 318 -25
+; ref.:	2009#04
+
+; ====== stations refindable to link to other surveys: ======
+*export 1 19 23 16 9
+
+*calibrate tape +0.20	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino 
+1	2	4.85	013	+24
+3	2	13.82	141	+08
+3	4	15.56	332	-02
+4	5	3.74	335	-18
+5	6	5.82	346	-30
+6	7	5.37	048	+22
+8	7	12.97	166	+18
+9	8	6.15	108	+08
+10	9	9.40	241	-31
+10	11	11.99	048	+22
+6	18	7.30	236	-01
+19	18	3.80	358	+35
+21	20	14.18	-	DOWN
+1	20	4.07	012	-28
+21	22	4.98	279	+60
+11	12	4.86	048	+11
+12	13	5.21	026	+21
+12	14	6.74	051	+32
+15	14	4.88	178	+02
+15	16	4.94	014	+10
+15	17	4.53	127	-02
+23	22	4.02	054	+19	
+
+*data passage station	left	right	up	down	ignoreall
+1	1.5	6	3	2.5	rp obvious rock spike in chamber - numbered, back 1.5 and forward 5m
+2	3	1.5	3	0.2	rp rock arch start of phreatic
+3	0	3.5	1	1	rp l wall
+4	0.1	2	4	1.5	rp l wall
+5	0.2	2.5	4	1.5	rp l wall head of c3
+6	1.5	2.5	5	1.5	rp fallen blocks
+7	3	0.2	2.5	1.8	rp r wall
+8	3.5	0	0.3	1	rp r wall
+9	0.4	1.3	3	1	rp l wall
+10	0.5	1.3	0.5	2.5	rp roof spike
+11	0.5	0.5	0	2.5	rp roof
+12	1.5	0.5	2	1.8	rp boulder tip
+13	1.5	1.5	1.2	0.2	rp floor rock
+14	1	0.2	1	1.5	rp r wall
+15	0	1.3	0.7	2	rp l wall
+16	1.4	0.1	1.3	3	rp r wall at pitch head
+17	0	1.3	0.5	1.3	rp l wall at junction
+18	6	0	10	4	rp r wall
+19	5	3.5	10	3	rp top of HUGE boulder in wet chamber
+20	1	5	20	0	plumb base of pitch
+21	1	2	7	14	just below rebelay hanger
+22	-	-	-	-	rock bridge immediately before pitch
+23	-	-	-	-	old survey station on rock tip leading into chamber
+
+*end catflap

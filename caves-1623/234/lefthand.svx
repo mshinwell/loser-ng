@@ -1,0 +1,85 @@
+*begin lefthand
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Hauchhoehle (2000/09)
+*title "Hauchhoehle part 1"
+*date 2002.08.18
+*team Insts Duncan Collis
+*team Notes Anthony Day
+*team Pics Anthony Day
+*team Tape Duncan Collis
+*instrument Compass #1 ; Clino #1
+; Calibration: none
+; ref.:	2002#17
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 2
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	14.85	251.0	+28.0
+2	3	05.39	004.0	-02.0
+4	3	05.00	154.0	+06.0
+4	5	06.15	055.0	+18.0
+6	5	02.02	169.0	+21.0
+6	7	03.08	037.0	+27.0
+7	8	01.55	052.0	-06.0
+9	8	02.53	294.0	-14.0
+10	9	04.38	223.0	-34.0
+10	11	06.40	062.0	+22.0
+7	12	05.15	014.0	+02.0
+13	12	05.29	192.0	-08.0
+14	4	04.50	069.0	+25.0
+15	14	02.93	010.0	+14.0
+16	15	03.33	337.0	-08.0
+17	16	05.36	239.0	-18.0
+17	3	01.95	082.0	+31.0
+
+;station details
+;name	L	R	U	D	description
+;1	0.0	2.5	-	2.0	tag bolt
+;2	2.0	0.0	0.5	0.8	part-drilled hole
+;3	1.0	0.0	0.30	0.2	part-drilled hole
+;4	0.0	1.0	1.5	0.4	-
+;5	1.2	0.0	1.0	1.2	part-drilled hole
+;6	-	-	-	-	-
+;7	0.4	0.8	0.0	0.7	-
+;8	-	-	-	-	-
+;9	1.0	0.0	0.6	0.5	-
+;10	0.0	1.2	3.0	1.5	part-drilled hole
+;11	0.0	1.0	0.8	0.3	-
+;12	0.6	0.8	0.8	0.2	-
+;13	0.0	0.5	0.1	0.4	-
+;14	0.7	0.0	0.5	0.4	-
+;15	0.0	0.6	0.2	0.3	-
+;16	0.8	0.0	0.3	0.3	-
+;17	-	-	-	-	-
+
+*data passage station left right up down ignoreall
+1	0.0	2.5	-	2.0	tag bolt
+2	2.0	0.0	0.5	0.8	part-drilled hole
+3	1.0	0.0	0.30	0.2	part-drilled hole
+4	0.0	1.0	1.5	0.4	-
+5	1.2	0.0	1.0	1.2	part-drilled hole
+6	-	-	-	-	-
+7	0.4	0.8	0.0	0.7	-
+;8	-	-	-	-	-
+9	1.0	0.0	0.6	0.5	-
+10	0.0	1.2	3.0	1.5	part-drilled hole
+11	0.0	1.0	0.8	0.3	-
+
+*data passage station left right up down ignoreall
+7	0.4	0.8	0.0	0.7	-
+12	0.6	0.8	0.8	0.2	-
+13	0.0	0.5	0.1	0.4	-
+
+*data passage station left right up down ignoreall
+4	1.0	0.0	1.5	0.4	-
+14	0.7	0.0	0.5	0.4	-
+15	0.0	0.6	0.2	0.3	-
+16	0.8	0.0	0.3	0.3	-
+17	-	-	-	-	-
+
+*end lefthand

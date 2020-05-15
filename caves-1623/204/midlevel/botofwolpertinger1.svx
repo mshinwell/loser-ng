@@ -1,0 +1,41 @@
+*begin botofwolpertinger1
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "botofwolpertinger1"
+*date 2001.08.20
+*team Insts Tony Rooke
+*team Notes Martin Green
+*team Tape Tony Rooke
+*instrument Compass #5 ; Clino #5
+; Calibration: Stone bridge: 152.5/+22.0 152.5/+22.5 153.0/+22.0 
+;                            326.5/-22.5 327.5/-23.0 327.0/-23.5
+; ref: 2001#24
+; ====== stations refindable to link to other surveys: ======
+
+
+*export 2 8
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+;2		1	-		191		-29
+2		3	3.30	340		+23
+4		3	8.22	037		+23
+4		5	3.53	155		+39
+6		5	3.41	092		+42
+6		7	4.24	359		+19
+8		7	1.655	142		-24	
+
+;station details
+;name	L	R	U	D	description
+;2		-	-	-	-	RP top of rock
+;3		-	0.2	0.5	1.2	RP bottom of roof spike
+;1		-	-	-	-	RP knob of rock
+;4		-	-	-	-	CM on wall
+;5		0.4	0.8	3.0	1.0	RP left wall
+;6		-	-	2.2	1.8	CM on wall
+;7		0.4	0.1	1.7	1.2	RP on R wall
+;8		0.6	1.4	3.0	1.5	CM on tip of rock
+
+*end botofwolpertinger1

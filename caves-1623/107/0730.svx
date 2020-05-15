@@ -1,0 +1,36 @@
+*begin 0730
+*date 2013.07.30
+*team Insts Jenny Black
+*team notes Olly Betts
+*instrument pony CUCC #3, Olly's disto
+*export 1 8
+;from olly363.bmp.png RHS
+
+*data normal from to compass clino tape
+
+; 0 superseded by next survey
+;1	0	057	-07	10.254
+2	1	025	-34	7.252
+3	2	033	 00	6.426
+4	3	063	-01	12.041
+5	4	091	-07	4.460
+6	5	039	+01	8.952
+6	7	090	-55	4.138
+8	6	083	+01	14.133
+
+*data passage station left right up down
+;0 on down rift
+1	1.8	0	10.9	1.4	; NP nobble RHW, pitch is 6.9 down
+2	0	0.9	5.7	1.4	; NP LHW
+3	0	2.1	12.9	1.7	; NP LHW
+4	0.4	0.5	7.2	1.5	; NP
+5	0.9	0	10.7	1.6	; NP RHW
+6	0.6	2.3	17	1.5	; NP
+8	0.4	0.6	8.6	1.3	; NP RHW = 1 of previous survey
+
+; Continuation of rift, which closes down (numbers made up later)
+*data passage station left right up down
+6	0	0.6	1	1.5
+7	0	0	0	0	; down rift
+
+*end 0730

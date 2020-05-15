@@ -1,0 +1,190 @@
+;NOTES > $.Survey.Surveys.Austria.D.Phreas
+;1995.08.01 AERW Source: converted from SU file
+;1998.01.28 AERW restored original sequence of legs, added details
+;1998.06.02 AERW added exports and comments
+
+*begin Bypass ; originally "PB" survey
+
+*begin pt1
+
+; Locn:	SE flank Vord. Schwarzmooskogel, Western massif, Totes Gebirge, Austria
+; Cave:	Schnellzughohle 1623/115
+; Survey Name:	Purgatory Bypass, from Confluence almost back to Big Chamber
+*date 1982.08.10-1982.08.11 ; trip 1982-115-18 in 1982 logbook
+; By:	Insts:	Pete Lancaster
+;	Tape:	Pete Lancaster
+;	Notes:	AERW (note that sketching was done on a separate trip, on
+;		1982.08.16-17, trip 1982-115-23 in log - with graph paper !)
+; Calibration:	none
+; ref.:	small brown "Dachstein 702" graph paper book "A Survey" in AW's archive
+;	contains centre line detail and some elevation sketching. Blue survey
+;	book with Konsum price tag "3 CUCC Survey" contains plan sketching
+
+; ====== stations refindable to link to other surveys: ======
+
+;*export 0	; above pool at confluence
+;*export 15	; mid-wall facing T-junction, unclear if well-marked
+;*export 20	; mid-wall facing T-junction, unclear if well-marked
+;*export 32	; drilled mark in rock above greasy climb
+;*export 33	; water level, bottom of St'weg (base of 17m pitch)
+;*export 41	; marked at T-junction (to cairn jn) on boulder 
+;*export 48	; drilled at junction (with original route to cairn jn)
+;*export 54	; drilled at junction with QM 81-17
+;*export 56	; directly above stream canyon - not intended to be a permanent
+		; station - just where therms and motivation ran out.
+
+
+;GRADE USE 5N
+;CHANGE               0.0   0.0       Planc/AERW 1982 good compass
+  35  36  3.6  224.    4.
+  36  37 10.8  220.  -16.
+  37  38 15.9  242.  -15.
+  38  39 17.0  213.    0.
+  39  40 27.5  221.  -14.
+  40  41 12.9  240.  -16.
+  41  42  7.8  229.   -3. ; into low grovel
+  42  43  3.3  230.  -15.
+  43  44  5.3  192.   -6.
+  44  45  8.8  221.  -13.
+  45  46  5.8  230.   -8.
+  46  47  5.7  238.  -12.
+  47  48 12.9  245.  -16.
+  48  49 11.0  169.    7.
+  49  50  7.7  121.   19.
+  50  51 20.1  152.   20.
+  51  52  7.0  253.  -21.
+  52  53 10.3  154.   17.
+  53  54 11.0  145.   15.
+  54  55  5.3  213.   -6.
+  55  56 10.9  175.   -4.
+
+; station details : LRUD and LH/RH is in direction out of cave
+; from 0, upstream purgatiry goes on 215 degrees
+; from 0, other inlet goes on 100 degrees (under the bypass survey)
+
+;name	L	R	U	D	notes
+; 0	0.0	0.5	5	1.7	;above pool at confluence
+; 1	1.0	0.8	2	4.5	;r edge of canyon, top of climb
+; 2	0.5	J1.2	2	4.5	;left edge of stream canyon in floor
+; of tube. r wall of canyon at 0.4, 1.2 is edge of tube, although there is
+; actually no R wall at this point, as the passage to station 3 is here
+; 3	2.6	6	3	1	;on dividing buttress of Y junction
+; L and R walls are in different passages - R wall in passage too difficult
+; to enter, with canyon in floor which loops back into our passage between
+; stations 2 and 3.
+; 4	3.4	0	2	3	;CM rhs mud slope up
+; 5	2.6	2.0	2	3	;top of steep slope down to canyon edge
+; canyon is inaccessible, guess 8m deep - it is the inlet at the confluence
+; 6	2.2	1.0	3	1	;UD guessed, R 3.0 in alcove
+; 7	1.5	1.2	3	1	;UD rather guessed
+; 8	-	-	-	-	;on way to camp - walking size ?
+; 9	-	-	-	-	;camp 1 side passage big enough for tent
+; 10	0.8	1.6	4	0	;edge of step up from canyon crossing
+; 11	3.6	1.8	3	2	;boulder on mud slope above deep canyon
+; 12	1.0	2.3	8	2.0	;boulder bridged over canyon, with
+; "CUCC 1981" in mud. Canyon 10m deep ? Roof is narrow rift above 3-4m tube
+; 13	0.0	2.0	2.0	1.5	;r wall just after roof lowers. For most
+; of the leg 12->13 roof is c 20m above, and deep canyon in floor -10m ?
+; 14	1.6	2.0	10	2	;on boulder above lowest point of floor
+; distance to R is to mean of wall - just at station there is a window into
+; a space with an aven dropping water into a canyon of unseen depth, R wall
+; is c5.5m at the station, U/D not really defined :-(
+; 15	0.0	J2.0	5	1	;mid-wall facing T-junction, distance to
+; R wall is to facing 3m climb - passage to 16 continues above this, roof is
+; probably much higher than recorded
+; 16	1.3	0.8	5	0.5	;edge of rift in floor, near aven
+; 17	1.6	0.1	2.4	0.6	;rh wall - U misleading, rift up out of
+; sight on opposite side of passage, which is also low point of floor
+; 18	0.2	2.3	2.0	2.0	;top of mud slope, lh side
+; 19	0.7	0.2	10	1.5	;narrowing of rift
+; 20	0	J(3.0)	10	1.5	- (125) mid-wall facing T-junction
+; 21	0.1	2.4	20	1	;wide base of high narrow rift
+; passage off sharp left 3m beyond station 21 reaches a pit with water
+; falling into it from above in a rift
+; 22	1.7	3.6	0.7	0	;near junction - UD misleading, station
+; is in a low oxbow, main rift is c 15m high a couple of metres away
+; high inaccessible QM in right wall along line of leg 21-22->?
+; 23	1.5	2.5	3	1	;pure guesswork - no sketch
+; 24	1.3	2.9	3	1	;on large (3.5 long) boulder
+; 25	1.0	2.0	4.0	1	;on ledge, floor lower to R ?
+;	distance to L wall is 2.0 if alcove taken into account
+;	passage off right and back, 3m after station 25
+; 26	1.7	1.8	3	0	;on floor ? middle of passage
+; 27	3.3	0.6	3	1	;top of rh slope, just by QM passage
+; 28	2.6	1.2	2.5	1.5	;on floor on slope, lowest pt 1.5 down
+; 29	1.5	2.6	4.6	0.4	;on boulder in centre, slopes up L&R
+; 30	1.1	1.6	0	2.2	;on roof at scramble over boulder
+; 31	3.0	3.0	7	1.2	;top of boulder
+; 32	1.3	4.0	12	0.2	;drilled mark in rock above greasy climb
+; 33	6.0	3.5	17	0	;water level, bottom of St'weg
+; 34	2.0	2.2	3.0	0.6	;above Junction Chamber
+; 35	0.8	0.7	3.0	1.0	;on boulder bridging trench
+; 36	1.0	1.2	-	1.2	;on rock in floor trench, pretty much
+;	D=0 to floor level in main cross-section
+; 37	0.2	2.0-	0.8	0.3	;just at start of crawl to Jn Cha
+; 38	1.0	1.5	3.5	1.3	;left wall of rift in roof, 1m to l
+;	wall at floor level, distance to right wall is at widest point
+; 39	0.9	1.0	1.0	1.2	;at point where passage levels rejoin
+;	distance to R wall and roof is in lower passage,
+;	c 3m to R wall higher up, and roof probably c 3m
+; 40	0.3	1.8	1.2	1.0
+; 41	0.8	1.3	1.1	0.4	;marked at T-junction on boulder
+;	distance to right wall is average of passage either side of junction
+; 42	0.6	1.3	0.1	0.3	
+; 43	1.1	0.6	0.4	0.2	
+; 44	0.4	1.2	-	-	;elevation not drawn for this passage
+; 45	0.5	1.2	-	-	;all low grovel, guess U=0.4, D=0
+; 46	0.8	1.0	-	-
+; 47	0.7	1.0	-	-
+; 48	1.7	0.4	0.2	0.5	;drilled at Junction
+; 49	0.6	0.7	2.2	0.6	;at edge of dry dolly tub in 0.6m deep
+; 50	0.7	1.6	1.1	0.8	;on NE edge of 1.2m deep trench 0.4 wide
+; 51	0	6	0.3	0.2	;in entrance to v small crawl (oxbow?)
+; 52	3.6	0.8	0.6	0
+; 53	1.3	0.6	0.6	0.3	;also a 1m trench in floor
+; 54	1	2.9	0.2	0.9	;drilled at Junction with 81-17
+; 55	0.8	1.1	0	0.8	;knobble on roof
+; 56	1.5	-	0.2	0.8	;directly above stream canyon
+
+*end pt1
+
+*begin pt2
+
+; survey from 115 Big Chamber to end of unfinished Purgatory Bypass survey
+; done on same overnight trip as all the sketching for the above survey
+; can't find original notes (despite having the above sketching )-:, but
+; punching sheet (page 1982-8) says:
+
+; Locn:	SE flank Vord. Schwarzmooskogel, Western massif, Totes Gebirge, Austria
+; Cave:	Schnellzughohle 1623/115
+; Survey Name:	Purgatory Bypass, completion from Big Chamber
+*date 1982.08.16-1982.08.17 ; trip 1982-115-23 in 1982 logbook
+;	(same trip as all the extra sketching for the pt1 survey)
+; By:	Insts:	Andy Dolby
+;	Notes:	Andy Waddington
+; Calibration:	apparently none
+
+; ====== stations refindable to link to other surveys: ======
+
+;*export 94	; directly above stream canyon - not intended to be a permanent
+		; station - just where therms and motivation ran out on pt1 ...
+;*export 00	; drilled in prominent boulder in Big Cha. in front of brew ledge
+
+
+  00  99 11.5  280.    0. ; these few legs surveyed forwards to meet...
+  99  98 20.7  262.  -14.
+  98  97 11.8  309.  -30.
+  97  96  4.5  343.   -1.
+  96  95 18.1  337.  -15.
+  95  94 13.3  301.   -6. ; original survey out from Confluence
+
+*end pt2
+
+*begin gd1
+; grade 1 sketch (derived from UBSS survey ?)
+; passage departs at Bypass.pt1.48 heading NNW to Cairn Junction (this is
+; the original route connecting 115 to 41) from where it returns at
+; Bypass.pt1.41, having traversed c 130m of passage.
+*end gd1
+
+*end Bypass

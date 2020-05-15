@@ -1,0 +1,11 @@
+#!/bin/sh 
+
+# 2ab5b69cf265  # between 2013/2014
+# 44ba4cbc187a  # between 2014/2105
+#hg update -r 56f492a6135b # between 2015/2016
+#hg update -r 4bf64b4f38ed # between 2016/2017 (maybe bugfixes make it later)
+hg update -r 1baa85b08917 # between 2016/2017
+./smklengths
+hg update -r tip #latest
+./smklengths
+

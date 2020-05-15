@@ -1,0 +1,37 @@
+*begin monstermunch
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Hauchhoehle (1623/234)
+*title "Monster Munch pitch"
+*date 2006.08.02 ; says 2006-07-04 in notes, obviously wrong on several counts
+*team Insts Aaron Curtis
+*team Notes Dave Loeffler
+*team Tape Both
+*instrument Compass/Clino set #4; tape Chinese
+; Calibration: 149/+22; 147/+22; 327/-22; 327/-23
+; ref.:	2006#21
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1  ; purple paint point from Phil + Matt's survey
+*export 12 ; RP on rock at boulder bridge, bottom of 1st pitch
+
+*calibrate tape +0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	4.45	-	down
+3	2	0.95	058	-24
+3	4	1.65	167	-46
+4	5	9.37	-	down
+5	6	1.73	113	-06
+6	7	6.13	-	down
+7	8	1.08	058	+02
+8	9	2.52	124	-57
+9	10	2.21	248	-37
+10	11	28.09	185	-85
+12	11	21.34	037	+62
+
+
+;stn	L	R	U	D	desc
+
+*end monstermunch

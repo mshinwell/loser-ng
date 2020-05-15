@@ -1,0 +1,34 @@
+*begin 110aday2
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Up at 45 degrees 2"
+*date 2003.07.26
+*team Insts Martin Green
+*team Notes Earl Merson
+
+*instrument set 2
+
+; Calibration: stone bridge: 149/+23 149/+24 149.5/+23
+;                            330/-22 330.5/-23 328/-22
+
+; ref: 2003 #08
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+;From	To	Tape	Comp	Clino
+1	2	4.55	210	-11
+3	2	2.50	315	-07
+4	3	2.97	334	+02
+;station details
+;name	L	R	U	D	description
+;1	1to1.5	0	1	0.9	RP on R wall
+;2	-	-	-	-	RP on knobbleon ceiling of 110A
+;3	0.4	0.4	0.6	0.5	RP on R wall
+;4	0.4	1	1	0.3	RP on lump on floor
+
+*end 110aday2
+

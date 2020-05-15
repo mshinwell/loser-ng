@@ -1,0 +1,61 @@
+; Yes, we really did manage to survey this in both 2012 and 2013.
+; It looks like we used the same station 2 in each case too!
+
+*equate 107to201270.1 107to201270_2012.1 p107
+*equate 107to201270.6 107to201270_2012.9 p2012-70b
+
+*begin 107to201270
+*export 1 6
+*date 2013.08.13
+*team notes Jenny ; judging by handwriting
+*team insts Olly?
+*instrument cucc pony #3
+*instrument our disto
+
+*data normal from to compass clino tape
+
+2	1	277	-39	4.741
+3	2	245	-04	7.738
+4	3	243	-18	7.145
+4	5	033	+05	6.986
+5	6	015	-13	5.216
+
+; (1) 107 tag bolt
+;  2  boulder tip
+;  3  boulder tip
+;  4  rock wall
+;  5  rock above bridge (?)
+; (6) 2012/70B tag bolt
+
+*end 107to201270
+
+*begin 107to201270_2012
+*title "107 to 2012-70 Surface Survey"
+*export 1 9
+*date 2012.08.07
+*team notes Olly
+*team insts Jenny
+*instrument cucc pony #3
+*instrument our disto
+
+2	1	4.748	276	-39
+2	3	4.174	070	+02
+3	4	3.583	064	+05
+4	5	3.896	069	+10
+5	6	1.899	054	+26
+6	7	4.235	038	+11
+7	8	3.817	025	-02
+8	9	5.031	025	-07
+
+;	L	R	desc
+; (1)	-	-	tag P107
+;  2	-	-	tip of rock
+;  3	-	-	RHW of canyon
+;  4	-	-	tip of bldr
+;  5	-	-	rock pt on L
+;  6	0.5	0.7	rock pt on R
+;  7	0.4	0.5	rock pt on L
+;  8	0.8	0.6	tip of rock bridge
+; (9)	0	2.2	tag bolt [of 2012/70B]
+
+*end 107to201270_2012

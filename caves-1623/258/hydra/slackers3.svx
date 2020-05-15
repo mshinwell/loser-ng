@@ -1,0 +1,42 @@
+*begin slackers3
+
+; stations linked into other surveys (or likely to)
+*export 9x 39x
+
+; Cave:Tunnocks
+; Area in cave/QM: Hydra
+*title "slackers3"
+*date 2016.07.06
+*team Insts David Walker 
+*team Notes Becka Lawson 
+*team Varnish Julian Todd 
+*instrument  Beckas DistoX 2
+; Calibration: UK 
+*ref 2016#16
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+
+9x	19	9.824	272.3	-17.7
+19	20	5.47	305.7	-22.2
+20	21	6.896	278.8	-20.9
+21	22	12.15	259.9	-28.4
+23	22	5.551	054.9	+22.5
+23	39x	4.023	313.8	-03.7
+
+*data passage station left right up down ignoreall
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+
+9x	4	0	2	1.2	corner at jn
+19	0	2	0.8	0.3	lw
+20	1.4	0.5	0.2	0.5	r ceiling
+21	2.5	2.5	0.6	0.5	ceiling
+22	3	0.5	2	0.6	r wall
+23	0	3	0.5	1.2	lw
+
+
+*end slackers3

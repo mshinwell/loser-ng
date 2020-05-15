@@ -1,0 +1,28 @@
+*begin surfergirl
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export 4
+
+*title "Surfer Girl"
+*date 2013.07.31
+*team Insts Holly Bradley
+*team Notes Mike Futrell
+*instrument clino compass
+*calibrate tape 0.40
+
+;ref.: 2013#04
+
+;from	to	tape	compass	clino	remarks
+4	SG1	09.02	057.0	-44.0
+SG1	SG2	28.40	-	down
+SG2	SG3	05.39	156.0	-20.0
+SG3	SG4	09.80	075.0	-46.0
+
+*data passage station left right up down ignoreall
+SG1	3.00	2.00	2.00	0.00
+SG2	4.00	3.00	3.00	0.00
+SG3	4.00	3.00	40.0	0.00
+SG4	5.00	2.00	2.00	2.00
+
+*end   surfergirl

@@ -1,0 +1,35 @@
+;  *** Diese Datei immer mit neuem Namen speichern, nie überschreiben!! ***
+
+;(Datum) (Autor) erstellt für (Höhle)
+
+*begin 
+
+; Ort:			Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle:		
+*title ""
+*date 
+; Von:	Ableser:	
+;	Schreiber:	
+;	(2. Schreiber:)	
+;	Massband:	
+*instrument Kompass    ; Neigungsmesser 
+; Gerätefehler:	
+; Referenz.:	Messbuch
+
+; ====== Messpunkte, die an bereits bestehenden Vermessungen hängen: ======
+
+;*export 
+
+*calibrate tape +0.0	; "+" wenn das Massband zu kurz war, "-" wenn es zu lang war
+
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+
+
+
+
+;Raumwerte
+;Name	Links	Rechte	Oben	Unten		Beschreibung
+
+
+
+*end 

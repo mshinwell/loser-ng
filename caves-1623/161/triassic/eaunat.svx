@@ -1,0 +1,104 @@
+;1998.07.nn KJ created for Eau Naturel survey
+;1998.07.25 AERW added (temporary) bodge link to main survey
+;1998.08.07 DRJC added proper link to main survey
+
+*equate EauNatLink.1	eaunat.11
+;*equate EauNatBodge.1	eaunat.11
+
+;*begin EauNatBodge
+
+; spurious leg created by AERW to connect this survey for use until
+; someone does a real leg. Thesis: stn 11 is between big and little
+; pitch in Locophobia. This puts it approx one quarter of way from
+; Triassic.pt3.2 towards Triassic.pt2.1, so joke leg is based on the
+; original leg connecting those points and ignores the height of the
+; boulder used in this survey (which is probably a slightly lower
+; point than the invented one here):
+
+;*export 0	; invented point in space, taken as equivalent to eaunat.11
+;*export 1	; Real Point Triassic.pt3.2
+
+;*calibrate tape +0.20
+;*calibrate clino +0.67
+
+;0	1	 7.35	243.	-21. ; 1/4 of 29.39
+
+;*end EauNatBodge
+
+*begin EauNatLink
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Kaninchenhöhle, 1623/161
+*title "Eau Naturel"
+*date 1998.07.4
+*team Insts Brian Outram	
+*team Notes Duncan Collis
+*team Pics -----	
+*team Tape Brian Outram
+*instrument Compass # 4; Clino # 4
+; Calibration:		
+; ref.:	1998 KH survey book pp - 
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0 1
+
+*calibrate tape +0.1	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+0	1	10.65	078	+13	;
+
+;station details
+;name	L	R	U	D	E	description
+
+*end EauNatLink
+
+*begin eaunat
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Kaninchenhöhle, 1623/161
+*title "Eau Naturel"
+*date 1998.07
+*team Insts Kate J	
+*team Notes Brian
+*team Pics Brian	
+*team Tape Brian
+*instrument Compass # 1; Clino # 1
+; Calibration:	compass crap, read from top	
+; ref.:	1998 KH survey book pp - 
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 11	; prominent boulder between p15 and p4 in Locophobia
+
+*calibrate tape +0.1	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	 3.68	040	-07
+3	2	 8.03	230	-10
+4	3	 7.16	245	-05	
+4	5	14.25	050	-53	; this looks odd on survey, but
+6	5	12.40	-	down	; it is right - read description
+7	6	 3.05	220	-17
+8	7	 5.02	250	-16
+8	9	 7.40	030	+75
+10	9	 6.70	175	-25
+10	11	 6.96	160	+17	;
+
+;station details
+;name	L	R	U	D	E	description
+;1	1	1	5	4		flake on large boulder
+;2	0.5	0.5	3	0		flake on rim of rift
+;3	0	0.5	2	2		flake
+;4	1	0	lots	1.5		cm on wall
+;5	1.5	0.5	lota	0		boulder on floor
+;6	0.2	0.2	1	12		mr on sling
+;7	0	0.5	0.5	5		flake on l wall
+;8	1	0	lots	3		corner of wall
+;9	0.3	0.3	lots	10		pitch head knot
+;10			lots	2.5		flake on wall
+;11						tip of prominent boulder between big pitch & short pitch/climb in Locophobia between triassic.pt3.2 and .pt.3.1
+
+
+*end eaunat
+

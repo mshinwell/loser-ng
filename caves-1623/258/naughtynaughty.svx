@@ -1,0 +1,102 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	258 "Tunnockschacht"
+
+*begin naughtynaughty
+
+;ref.:	2008 #23
+
+*export 9x 37
+
+*title "Naughty Naughty"
+*date 2008.08.01
+*team Insts Steve Jones
+*team Notes Becka Lawson
+*team tape Serena Povia
+
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape Compass clino ignoreall
+;to	from	compass	clino	tape	remarks
+9x  1   7.46    008 +11
+1   2   4.54    035 +18
+2   3   4.72    268 -27
+3   4   1.19    295 -10
+4   5   1.88    314 -19
+5   6   1.49    279 -49
+6   7   3.09    299 -21
+7   8   3.75    283 -23
+8   9   4.73    296 -23
+9   10  5.44    287 -26
+10  11  5.30    295 -23
+11  12  4.40    285 -22
+12  13  4.30    312 -21
+13  14  3.32    316 -15
+14  15  2.55    041 +12
+15  16  2.50    062 +27
+16  17  0.75    003 -08
+17  18  0.72    315 -13
+18  19  0.78    275 -06
+19  20  0.99    022 +08
+20  21  3.53    266 -28
+21  22  1.16    281 -25
+22  23  3.09    284 -18
+23  24  7.85    296 -17
+24  25  5.66    301 -24
+25  26  4.44    317 -30
+26  27  3.36    311 -12
+27  28  9.00    292 -25
+28  29  1.79    322 -22
+29  30  2.52    294 -25
+30  31  1.52    001 -24
+31  32  1.77    318 -14
+32  33  1.40    273 -12
+33  34  3.46    317 -19
+34  35  2.33    336 -14
+35  36  2.37    317 -37
+36  37  1.54    309 -17
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+9x  2.3 0.5 0    1.2 station 9 s from dubious pleasure 2007
+1   0   0.5 0.9 1.5 rp l wall
+2   1.5 0   15  1.2 rp r wall
+3   0   0.3 0.6 1.2 rp l wall
+4   0   0.3 0.3 0.6 rp l wall
+5   0.3 0   0.3 1.5 rp r wall
+6   0.2 0.5 0.6 0   l side floor crawl
+7   0.3 0   0.4 0.15    rp r wall
+8   0   0.45    0.5 0.1 rp l wall numbered
+9   0.5 0   0.4 0.3 rp r wall after pitch
+10  0   0.6 0.6 0.3 rp l wall
+11  0   0.4 0.4 0.7 rp l wall maybe 12
+12  0   0.4 0.4 0.5 rp l wall maybe 13
+13  0   0.5 0.3 0.45    rp l wall maybe 14
+15  0   0.4 0.5    0.3  rp l wall
+16  0.4 0   0.2 0.5 rp r wall
+17  0   0.6 0.3 0.4 rp l wall at corner
+18  0.6 0   0.6 0.4 rp r wall
+19  0   0.4 0.3 0.6 rp l wall
+20  0.5 0   0.2 0.9 rp r wall
+21  0   0.5 0.6 0.15    rp l wall
+22  0.7 0.3 0.5 0.2 rp flake r side
+23  0   0.4 0.4 0.6 rp l wall
+24  0   0.3 0.1 1   rp l wall numbered badly
+25  0   0.4 0.3 0.6 rp l wall
+26  1   0.3 1   0   rp floor
+27  0.4 0   0.5 0.5 rp r wall
+28  0   0.4 0.3 0.5 rp l wall
+29  0.4 0   0.5 0.6 rp r wall
+30  0   0.7 0.5 0.5 rp l wall
+31  0.4 0.2 0.6 0.3 rp r wall
+32  0   0.4 0.7 0.4 rp l wall
+33  0   0.5 0.6 0.6 rp l wall numbered in pencil
+34  0   0.3 0.3 0.9 rp l wall
+35  0   0.4 0.2 0.9 rp l wall
+36  0.45    0   0.5 0.15    rp r wall under flake
+37  0   0.6 0.6 0.7 rp l wall numbered but will rub off here
+
+
+*end naughtynaughty
+
+

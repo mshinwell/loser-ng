@@ -1,0 +1,43 @@
+; not yet included into the main survey
+
+*begin trident2
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 258 "Tunnockschacht"
+
+;ref.:  2010 #11
+
+*export 1x 8x z
+
+*title "Trident2"	;by Trident chamber
+*date 2010.08.10
+*team Insts Aiko
+*team Notes Becka Lawson
+*team Tape 
+
+*calibrate tape +0   ; +ve if tape was too short, -ve if too long
+
+;from   to  tape    compass clino   remarks
+1x	2	6.31	103	-29
+2	3	6.49	121	-11
+z	4	5.78	171	0
+4	5	2.30	147	+23
+5	6	2.62	162	+12
+
+8x	17	11.607	229	-28
+17	18	4.18	266	-35
+
+*data passage station left right up down ignoreall
+;stn    L   R   U   D   Desc
+1x	1	0	6	3
+2	0	0.8	8	3
+3	1	1	9	1.5
+z	3	0	4	13
+4	0.3	0.15	0.15	0.4
+5	0	0.3	0.5	1.5
+6	0	0.25	0.3	1.5
+8x	-	-	-	-	station from Andrew and Chris's survey on the same day, phreasinterruptus
+17	0	1.1	0.4	1.2
+18	1.2	0	2	1
+
+*end trident2

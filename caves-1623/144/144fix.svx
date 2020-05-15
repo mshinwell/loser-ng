@@ -1,0 +1,8 @@
+;Tony´s second Höhle 1623/144 using fixed points
+;Tony´s second Höhle 1623/144 zum berechnen mit Fixpunkten
+
+*include entlink
+*include 144
+*include fixedpts
+
+*include cuccrest

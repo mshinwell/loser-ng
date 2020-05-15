@@ -1,0 +1,84 @@
+;> 1623/41
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Stellerweghöhle 1623/41
+; 2 Vermessungen
+
+
+*begin stream
+
+*export 0
+*export 16
+
+
+;-1-
+*title "Gang vom E142 Richtung E41, 'To Stream'"
+*date 1997.06.28
+; Messteam: Regina Kaiser, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 1
+
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung	Richtung
+0       1       11.10   -20      86.5
+1       2       13.70    18.5    31
+2       3        1.90   -20.5   151
+3       4        5.20    12      58.5
+4       5        3.50   -10      79
+5       6        3.85   -30     160
+6       7        4.10    15.5   157.5
+7       8       13.10    29.5    69.5
+8       9        7.70    35      54
+
+;Raumwerte
+*data passage station left right up down
+1	4	2	1	1
+2	5	3	0.8	2
+3	4	3	0.5	1.8
+4	0.6	0	0.6	1
+5	2	-	1	1.5
+6	0.5	1.5	0.5	1
+7	1.8	0.2	1	2
+8	3	2	1	1.6
+9	0.4	2	1.5	2
+
+
+;-2-
+*title "Gang vom E142 Richtung E41, 'To Stream'"
+*date 1997.09.29
+; Messteam: Jörg Haussmann, Robert Eckardt
+; Zeichner: Robert Eckardt
+; Referenz: Messbuch SMK 3
+
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung	Richtung
+9	9_1	2.83	25	39
+9_1	9_2	3.66	-24.5	110.5
+
+9	10	14.52	47.5	333
+10	11	5.54	-2	93.5
+11	12	7.88	36	17
+12	13	5.55	39	97
+13	14	4.35	11	74
+14	15	3.00	4	97
+15	16	0.86	9.5	327
+
+;Raumwerte
+*data passage station left right up down
+9	0.4	2	1.5	2
+9_1	0	1	0.4	2
+9_2	0.1	1	2	3.5
+
+*data passage station left right up down
+9	0.4	2	1.5	2
+10	0	2	0.5	0.5
+11	5	0	2	3
+12	2	-	15	1.5
+13	1.4	0	1	0.8
+14	0.8	0	0.4	0.6
+15	3	4.5	1.2	2
+16	-	-	-	-
+
+*end stream
+

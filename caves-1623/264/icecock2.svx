@@ -1,0 +1,69 @@
+*begin icecock2
+
+; stations linked into other surveys (or likely to)
+*export 1 5 7	8
+
+; Cave: Balkonhoehle
+; Area in cave/QM: big passage from ice cock aven
+*title "Ice Cock Aven"
+*date 2015.07.24
+*team Insts Midget George
+*team Notes Matt Watson
+;*team Pics None
+;*team Tape None
+*instrument Wookeys DistoX2
+; Calibration: yes, outside bivvy, it was calibrated
+*ref 2015#15
+
+; Centreline data
+* data normal from  to   tape      compass   clino
+1	2	4.75	320.6	-2.8
+2	3	5.38	21.6	+7.0
+3	4	5.17	343.4	+12.9
+4	5	4.94	19.8	+8.6
+5	6	5.03	298.3	-14.8
+6	7	0.70	30.4	-9.5
+5	8	8.51	4.6	+19.2
+
+;-----------
+;recorded station details
+;(RP=Red Point, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;(leave commented-out)
+;1	0	0	0	0	;	icecock station 9
+;2	0	1.1	0.5	1	;	lhw
+;3	0.8	0	1.5	1.2	;	rhw
+;4	0	1.2	3.7	1.4	;	lhw
+;5	0.9	0	2.2	0.8	;	rhw
+;6	0	0.5	0.3	0.5	;	lhw
+;7	0.5	0	0.5	0.3	;	rhw, northhole station 13
+;8	0	0.6	0.5	1.4	;	lhw
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	0	0	0	0	;	icecock station 9
+2	0	1.1	0.5	1	;	lhw
+3	0.8	0	1.5	1.2	;	rhw
+4	0	1.2	3.7	1.4	;	lhw
+5	0.9	0	2.2	0.8	;	rhw
+8	0	0.6	0.5	1.4	;	lhw
+*data passage station left right up down
+5	0.9	0	2.2	0.8	;	rhw
+6	0	0.5	0.3	0.5	;	lhw
+7	0.5	0	0.5	0.3	;	rhw, northhole station 13
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    A    icecock2.8    rabbitwarrens.6    continuation of passage, opens out drafting outward
+
+;------------
+;Cave description
+
+;big passage, closing a loop with icecock aven and the north hole
+
+
+*end icecock2

@@ -1,0 +1,29 @@
+*begin ropelesshole
+*date 2013.08.10
+*team Insts Stuart Walker
+*team notes Jenny Black
+*instrument pony CUCC #3, Olly's disto
+;scan olly360.bmp.png
+
+*export 1
+
+*data normal from to compass clino tape
+
+1	2	349	+01	5.019
+2	3	002	-53	4.236
+3	4	351	-32	2.634
+4	5	230	-76	12.602
+5	6	205	+07	3.213
+6	7	117	-56	1.821
+
+*data passage station left right up down ignoreall 
+1	-	-	-	-	;ropefree.1
+2	0	0.5	4.9	0.3	;NP LHW
+3	0.7	0.2	2.2	0.3	;NP floor
+4	0	6.3	11.4	12.6	;NP back wall
+5	1.6	0.8	12.6	0.3	;NP floor
+6	0.6	0.3	0.4	0.5	;NP RHW
+7	0.1	0.2	2.0	0	;floor (not refindable)
+
+
+*end ropelesshole

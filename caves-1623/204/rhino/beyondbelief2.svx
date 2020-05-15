@@ -1,0 +1,73 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle 1623/204
+
+*begin beyondbelief2
+
+*title "Beyond Belief II"
+*date 2005.07.29
+*team Insts Andrew Atkinson
+*team Notes Becka Lawson
+*team Pics Becka Lawson
+*team Tape Wookey
+*instrument Compass set #5
+
+; ref.:	2004 #1
+; the #number is on the clear pocket containing the original notes.
+
+*export 1 13
+
+*calibrate tape -0.12	; +ve if tape was too short, -ve if too long
+;calibrations at stone bridge: 
+;    up: 148, +22.5
+;  down: 327, -23
+
+;from	to	tape	compass	clino	remarks
+1	2	2.29	267	+26
+2	3	2.29	328	+01
+3	4	7.48	209	-24.5
+5	4	3.41	085	-08.5
+5	6	6.12	196.5	-26.5
+7	6	13.34	033	+20
+7	8	2.91	192.5	-11
+9	8	4.09	064.5	+23.5
+9	10	6.50	210.5	-29
+10	11	3.24	135.5	-4.5
+11	12	1.74	-	down
+13	12	5.71	346	+19
+14	13	10.02	227	-39
+13	15	11.07	238.5	-13
+15	16	3.19	267	+09
+17	16	5.97	334	+39
+17	18	6.83	226	-30
+18	19	4.10	214	-30
+19	20	2.10	249	-22
+20	21	5.19	199	-29
+21	22	2.77	233	-17.5
+
+
+;stn	L	R	U	D	Desc
+;1	0	1	1.2	1.5	Stn '7' from 2005-07-27 survey RP LHW
+;2	0.3	1.2	0.2	0.6	RP LHW
+;3	1.5	0.4	0.6	0.1	RP RHW
+;4	2	1.5	2.2	0.3	RP on rock on floor beyond drip
+;5	0.9	0.3	0.3	0.4 (1.5)  RP above bridge
+;6	0.4	1.1	0.5	0.9 	RP on LHW
+;7	0.3	0.6	0.4	1.3	RP LHW
+;8	0.2	0.6	0.8	2	RP LHW	
+;9	0.6	0.1	0.5	1.6	RP RHW
+;10	1.3	0.7	1.8	0.4	Rock on floor
+;11	0.6	2	2.5	0.5 (1.8)    RP above hole
+;12	0.8	0.6	0	1.5 	RP on shelf
+;13	3	1.7	6	1.7	RP numbered
+;14	0.5	5	2.5	1.3	RP LHW numbered 1m from pitch head
+;15	0.8	1.1	0.3	0.8	RP on roof pendant
+;16	1.2	0.2	1.2	0.4	RP RHW
+;17	0	0.7	0.8	0.8	RP LHW
+;18	0.4	0.3	3 (0.6)	0.4	RP rock on floor
+;19	0	0.7	0.5	0.4	RP LHW
+;20	0.5	0.2	0.5	0.2	RP right roof
+;21	0.1	0.7	0.3	0.3	RP LHW
+;22	0.7	0.4	0.5	0.1	RP on roof
+
+*end beyondbelief2
+

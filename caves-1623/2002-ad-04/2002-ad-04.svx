@@ -1,0 +1,59 @@
+*equate 2002-ad-04.1 gps02.p2002-AD-04
+
+*begin 2002-ad-04
+; klippenhoehle
+
+*export 1 
+
+*title "Klippenhoehle"
+*date 2012.08.12
+*team Insts Hannah Walker
+; instrument set 3C
+; calibration - compass 147.5 325 - clino +23.5 -23
+*calibrate tape 0.1	; +ve if tape was too short, -ve if too long
+
+*team Notes Ian Walker
+; notes in folder 2012#12
+
+*data normal from to compass clino tape
+*flags surface 
+1	2	283	-15.5	2.35	;main entrance
+*flags not surface
+2	3	265	-05	0.72	
+3	4	221	-04	7.02
+4	5	231	+09	5.44
+5	6	212	-27.5	2.52
+6	7	133.5	-28.5	3.65	;left eye compass - not calibrated
+
+8	9	237	-35	3.55	;minor entrance
+9	10	-	down	1.22
+10	11	194	-35	3.47
+11	12	179	-28	5.81
+13	12	-	down	0.77
+14	13	283	-13.5	6.17
+14	15	126	+33	3.80
+14	16	117	+36	1.64
+
+16	4	042	-29	8.17	;joining main to minor
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc.
+1	-	-	-	-	tag hole left of entrance, no spit or tag
+2	0.5	1.0	1.0	0.5	boulder
+3	0.4	0.3	1.0	0.4	boulder
+4	1.0	0.5	2.0	1.5	boulder - use this to tie in 
+5	0.5	0.0	4.0	1.5	right wall
+6	0.0	0.7	2.0	4.5	left wall
+7	0.2	0.0	4.0	1.0	right wall
+
+8	0.0	1.0	0.7	0.7	left wall
+9	0.5	0.7	0.5	1.5	right wall
+10	-	-	-	-	plumb below 9
+11	0.4	0.2	0.3	1.2	flake
+12	1.5	0.0	3.0	0.4	right wall
+13	-	-	-	-	plumb above 12
+14	0.0	1.5	3.0	1.2	left wall
+15	1.0	0.0	3.5	1.7	right wall
+16	-	-	-	-	temporary station for tying in	
+			
+*end 2002-ad-04

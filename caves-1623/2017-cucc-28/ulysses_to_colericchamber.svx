@@ -1,0 +1,49 @@
+*begin ulysses_to_colericchamber
+
+; stations linked into other surveys (or likely to)
+*export 1x
+
+; Cave: Fisch Gesicht
+; Area in cave/QM: Ulysses to Choleric Chamber
+*title "Ulysses to Choleric Chamber"
+*date 2018.07.24
+*team Insts Luke Stangroom
+*team Notes Michael Holliday
+*team Dog Adelaide De Diesbach
+*instrument CHECC DistoX
+*ref 2018#20
+
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+1x	2	1.12	085.6	29.6	2 is just near 1x to allow a view over to station 3 and the continuation.
+2	3	13.81	147.0	-42.6	3 is at the entrance to the rift
+3	4	6.75	088.4	-17.8	 
+4	5	5.92	183.1	-21.4	5 is at the top of the pitch into the chamber.
+5	6	9.47	305.8	-81.6	6 is at the bottom of the pitch into the chamber.
+6	7	7.52	154.3	-26.6
+7	8	6.06	336.5	-21.0
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down ignoreall
+;2	2.4	4.2	18.0	0.8	Just near 1x to allow a view over to station 3 and the continuation. Ignored due to not being in relavant area. 
+3	0.4	0.7	1.5	1.2	At the enerance to the rift
+4	0.0	1.4	2.4	1.7
+5	0.7	0.0	1.5	1.5	At top of pitch
+6	1.1	1.2	14.0	0.7	At bottom of pitch
+6	1.1	1.2	14.0	0.7
+7	3.2	3.8	13.7	1.3	Between the two 'plunge pools',
+7	3.2	3.8	13.7	1.3
+8	0.5	0.0	2.3	0.8	Undernieth 6. One way of accessing the lead.
+
+;Question Mark List
+;QM1	A	ulysses_to_colericchamber.8 -	The water coming down one of the waterfalls goes into the floor and looks to head in the direction of the large space at the other side of the too-tight rift. One could either follow the water directly, or drop down from a few metres higher up through a hole in the floor, where you first drop into the chamber. It looks quite roomy down there, and with normal drippy water levels, it looks easy enough to stay dry.
+;QM2	C	ulysses_to_colericchamber.6 -	To one side of the chamber is a tight rift, that has been reffered to as 'too-tight'. This leads to a large, echo'y space within sight. This is probably accessed via following the water below, but if the water goes elsewhere this is very worth checking out. A determined, brave, and thin individual could likely find a way through: although even this person may want a backup of some sort.
+
+;Cave Description
+; Traversing (with difficulty at the time of writing) around Ulysses leads to a small (compared to Ulysses), but comfortably traversable, rift. This almost immediatly drops into a tall chamber, with a dry waterfall and an active waterfall at one side and a too-tight rift at the other. Shouting into the too-tight rift produces a good echo, and no far wall can be seen! The water from the waterfall flows under the inital landing spot, and a comfortably sized continuation can be seen. This needs bolting and dropping, preferably staying far from the water: as it may get a lot more splashy in high water conditions. [So-called due to Stangrooms rage at the world.]
+
+*end ulysses_to_colericchamber

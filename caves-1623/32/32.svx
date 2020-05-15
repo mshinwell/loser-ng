@@ -1,0 +1,40 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Windloch 1623/032
+
+; Eingänge
+*entrance p32
+
+; Eingänge absolut positionieren
+;*fix p32   35766.00 81127.00 1568.00 ; Windloch Haupteingang
+
+; Eingänge anbinden
+*equate p32 32.main.0
+
+*begin 32
+*title "Windloch"
+
+*export main.0		; p32
+; *export main.12
+; *export main.15
+; *export main.17
+; *export main.19
+; *export main.22
+*export links.vs14	; 078.bartl.s14
+; *export links.27
+*export links.vs43	; 078.bartl.s43
+*export links.26_2_15	; 115.115eing.b9
+
+; Anschlüsse in der Höhle
+*equate main.21 links.21
+*equate main.12 verteilerhalle.0
+*equate main.22 verteilerhalle.22
+*equate main.30 verteilerhalle.30
+*equate links.27_5 forever.5
+
+*include main
+*include links
+*include verteilerhalle
+;2013
+*include forever
+
+*end 32

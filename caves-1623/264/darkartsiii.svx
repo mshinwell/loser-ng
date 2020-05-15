@@ -1,0 +1,34 @@
+*begin darkartsiii
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Balconhohle
+
+*export 1 3 6
+
+*title "Dark Arts iii"
+*date 2014.08.14
+*team Notes Matt W
+*team Instruments David W
+*instrument SAP, Uni-T disto
+
+*ref 2014#40
+
+;from 	to 	tape 	compass clino
+2	1	6.21	043	-42
+3	2	7.41	052	+26
+3	4	6.52	248	+10
+5	4	6.48	062	+46
+6	5	7.63	347	-02
+
+*data passage station left right up down ignoreall
+1	0	2.3	7.3	2.1	station 15 in darkartsi, LRUDs copied
+2	0.6	0.0	0.5	2.1	RHW
+3	.3	.3	6.2	4.2	rock sticking out into middle of passage
+4	0	.8	3.0	6.0	LHW at pitch head
+5	1.7	0	5.8	2.2	RHW
+6	0.7	0	1.6	0.9	RHW
+
+
+*end darkartsiii
+
+

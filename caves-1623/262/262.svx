@@ -1,0 +1,42 @@
+*equate 262.0 p262
+
+*begin 262
+
+; Totes Gebirge, Österreich - SMK Hinterland
+; Höhle: Höhle für Kleine Jungs
+; Explored: ARGE
+; Originally: E10
+
+;Moved to fixedpts/misc.svx
+;*fix 0 36645 84933 1885 ; found in E10.pdf
+
+; Messteam: Aiko Schütz, Thomas Holder
+; Zeichner: Aiko Schütz
+; Refernez: 
+*date 2007.08.01
+
+*export 0
+;Guessing that 0 might be the entrance
+*entrance 0
+
+*data normal from to length gradient bearing ignoreall
+0	1	7.95	-40	303
+1	2	2.89	-46	84	; e:swap
+2	3	3.14	DOWN	-	; e:swap
+3	4	7.15	-29	305
+4	5	4.88	10	190
+5	6	12.26	DOWN	-
+6	7	10.17	-34	211
+
+*data passage station left right up down
+0	5	2	3	5
+1	0	3	6	1.5
+2	0.5	0	8	-
+3	2	0.5	-	0
+4	1	0.2	0	0.8
+5	1.5	1.5	0	-
+6	2	4	-	0
+7	0.2	4	0	1.8
+
+*end 262
+

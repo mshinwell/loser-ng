@@ -1,0 +1,37 @@
+*equate p2010-06 2010-06.1
+*equate p258a 2010-06.20
+*entrance p2010-06
+
+*begin 2010-06
+
+*title "Dunkle Zone Schacht"
+*date 2010.08.9
+*team Insts Frank Tully
+*team Notes Frank Tully
+*team Bolter Matrtin Janke
+
+; notes in 2010#18
+
+*export 1 20
+
+*data normal from to tape	compass clino
+*flags surface 
+11	20	5.17	198	-07
+11	12	9.97	298	-08
+12	13	24.8	270	-15
+13	1	2.62	83	-25
+
+;	20 tag bolts on tunnocks A
+;	11 point on rock
+;	12 point on rock
+;	13 point of rock
+
+*flags not surface
+2	3	9.25	105	-70	
+2	1	1.35	55	+38
+
+;	3	rd on wall
+;	2	rd on wall with view down shaft
+;	1	Tag bolt
+
+*end 2010-06

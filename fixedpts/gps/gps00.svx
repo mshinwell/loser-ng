@@ -1,0 +1,113 @@
+*equate p220 gps00.200004
+*entrance p220
+
+;*equate p1999-10 gps00.99_10
+;*entrance p1999-10
+
+*equate p2000-02 gps00.200002
+;*equate p36 gps00.36_3
+
+*begin gps00
+
+*export 200002 200004 36_3 ; 99_10
+
+; 102 is now surface surveyed to 103:
+;*fix 102 reference 35583.79 82859.81 2000.00
+;*fix 102A reference 35562.75 82890.57 2000.00
+; >500m out!
+;*fix 115 reference 36369.61 80579.39 2000.00
+;*fix 115END reference 36828.17 80644.03 2000.00
+*fix 36 reference 36359.40 82216.08 2000.00
+*fix 36_2 reference 36359.21 82246.96 2000.00
+*fix 139 reference 36296.07 82339.21 2000.00
+*fix 140 reference 36151.81 82060.37 2000.00
+; > 40m out
+;*fix 145 reference 35919.73 82491.29 1698 ; alt from 2000 logbook - DL 27/5/05
+*fix 153 reference 36218.59 81381.38 2000.00
+*fix 155 reference 36321.93 81536.44 2000.00
+*fix 158 reference 36132.67 81782.32 2000.00
+; > 30m out
+;*fix 160 reference 35294.28 82456.59 2000.00
+; 161_1 is nowhere near 161, it's on the plateau near the path to puffball!
+;*fix 161_1 reference 35230.59 82641.49 2000.00
+*fix 161_2 reference 36440.12 82648.93 2000.00
+*fix 161A2 reference 36461.17 82618.18 2000.00
+;*fix 161D reference 36921.53 82374.02 2000.00
+;*fix 161D_2 reference 36858.76 82404.50 2000.00
+*fix 162 reference 36505.01 82278.75 2000.00
+; >500m out!
+;*fix 163 reference 36857.98 82528.03 2000.00
+; nearly 50m out
+;*fix 164189 reference 35585.86 82520.12 2000.00
+*fix 185 reference 36377.75 82617.66 2000.00
+*fix 195 reference 36269.83 83203.75 2000.00
+*fix 199 reference 36067.43 82214.26 2000.00
+*fix 200002 reference 36563.70 82896.76 1803 ; alt from 2000 logbook - DL 27/5/05 
+*fix 200004 reference 35898.68 82522.04 1687; Altitude entirely fictional - DL 27/5/05
+*fix 201 reference 36087.52 82337.91 1791 ; alt from 2000 logbook - DL 27/5/05
+*fix 205 reference 36462.91 82340.25 2000.00
+*fix 210 reference 35626.63 82674.78 2000.00
+*fix 36_3 reference 35671.17 82211.82 1680 ; alt from old kataster (!)
+*fix 40 reference 36258.58 81659.57 2000.00
+*fix 40E reference 36631.88 82001.61 2000.00
+*fix 40ELE reference 36590.56 81939.58 2000.00
+*fix 40LASR reference 36466.97 81691.75 2000.00
+*fix 40RTEE reference 36421.97 82216.47 2000.00
+*fix 40RTES reference 36462.33 82432.89 2000.00
+*fix 40S reference 36591.14 81846.94 2000.00
+*fix 40SVH reference 36590.17 82001.34 2000.00
+*fix 78 reference 35717.42 81470.94 2000.00
+; > 250m out
+;*fix 80 reference 35481.78 82488.61 1684; alt from 2000 logbook - DL 27/5/05
+; > 60m out
+;*fix 90 reference 35315.69 82364.07 2000.00
+; > 45m out
+;*fix 91 reference 35273.61 82425.58 2000.00
+;*fix 93_01A reference 35499.06 83075.47 2000.00
+;*fix 93_01B reference 35478.40 83044.46 2000.00
+*fix 96_02 reference 36750.40 83052.35 2000.00 ;now 224
+*fix 96_03 reference 36750.21 83083.23 2000.00 ;now 223
+*fix 96_04 reference 36771.25 83052.48 2000.00
+*fix 96_04A reference 36771.25 83052.48 2000.00
+; p1999-10 is p162b and has a surface survey
+;*fix 99_10 reference 36463.30 82278.49 2000.00
+*fix 99MS01 reference 36318.27 82123.17 2000.00
+*fix 99MS02 reference 36277.71 81937.63 2000.00
+*fix B11 reference 35586.24 82458.36 1658 ; alt from 2000 logbook - DL 27/5/05
+;*fix B4 reference 35692.22 82181.07 2000.00
+*fix B8 reference 35606.53 82551.13 1655; alt from 2000 logbook - DL 27/5/05
+*fix BGREST reference 34117.84 80349.61 2000.00
+*fix CAVE reference 36560.60 83390.85 2000.00
+;*fix HINTER reference 36665.24 83329.75 2000.00
+*fix LOSERH reference 33703.63 79822.21 2000.00
+;*fix LSR06 reference 35854.12 82985.00 2000.00
+;*fix LSR09 reference 35386.32 81036.57 2000.00
+;*fix LSR814 reference 36466.97 81691.75 2000.00
+;*fix LSRBNS reference 35420.72 82241.18 2000.00
+*fix LSRSAT reference 35691.84 82242.83 2000.00
+*fix MAP reference 36277.52 81968.51 2000.00
+*fix NORDAH reference 36442.05 82340.12 2000.00
+*fix RIFT reference 36373.51 83297.04 2000.00
+*fix TOPCMP reference 35440.63 82395.71 2000.00
+;*fix VD1 reference 36357.67 82494.00 2000.00
+;*fix VSMK reference 36192.56 82215.04 2000.00
+;*fix WK11 reference 36236.19 81906.49 2000.00
+; WK11 pre-SA fix superceded by 2015 version.
+;*fix WK2 reference 35932.32 93948.72 2000.00
+; WK2 is miles out of our area, so commented out -- Mark S.
+; WK3 is now p207 and surveyed to.
+;*fix WK3 reference 35378.07 82395.33 2000.00
+*fix WK4 reference 36674.57 81847.46 2000.00
+*fix 219 reference 36400.15 82370.74 2000.00 ; was gpsWK5
+*fix gps218 reference 36421.20 82339.99 2000.00 ; was gpsWK6
+*fix 218OLD reference 36420.81 82401.75 2000.00 ; was gpsWK6OLD
+*fix WK7 reference 36337.97 82308.59 2000.00
+
+; fixes not initially converted, resurrected from gps00raw.svx
+; DL 2005-06-14
+; Now replaced by surface survey
+;*fix 174 reference 35545.53 83108.11 1665.00 ; alt 1665m (by altimeter set 1610 at Bergrestaurant)
+;*fix 175 reference 35688.07 83250.19 1660.00 ; alt guessed from "If you are coming from 174, 175 is a couple of scars down from where you arrive by simply following the cliff."
+;*fix 176 reference 35719.24 83309.31 1665.00 ; alt 1665m (by altimeter set 1610 at Bergrestaurant)
+
+*end gps00

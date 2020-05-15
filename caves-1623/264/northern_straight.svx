@@ -1,0 +1,105 @@
+*begin northernstraight
+
+; stations linked into other surveys (or likely to)
+*export X5 28
+
+;1st station is X5 from previous survey
+
+; Cave: Balkon hoehle
+; Area in cave/QM: hiltiaplenty
+*title "Northern Straight"
+*date 2016.07.08
+*team Notes Alice Smith
+*team Instruments George Breley
+*instrument Andrew's DistoX2
+*ref 2016#10
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+X5  1   1.26	331.7   22.4
+1	2	9.5		015.8	15.5
+2	3	7.1		020.2	19.5
+3	4	4.5		015.5	29.1
+4	5	2.2		075.9	-22.8		;hole off main passage
+5	6	3.9		017.9	27.7		;spikey squeeze
+6	7	2.2		008.5	19.8
+7	8	6.1		001.5	28.1		;traverse across pitch
+8	9	6.7		003.5	16.7
+9	10	6.6		009.0	15.4		;lots of draft
+10	11	4.9		355.1	10.3
+11	12	1.04	031.7	22.6
+12	13	7.7		307.5	-3.5
+13	14	3.5		295.8	-46.9
+14	15	6.7		033.8	-1.4
+15	16	11.9	304.0	19.1
+16	17	8.2		018.8	-19.1
+17	17b	40	0	90					;splay into aven
+16	18	2.8		288.9	-7.5
+18	19	2.5		326.1	-8.5
+19	20	3.8		294.1	-12.2
+20	21	4.4		071.6	15.7
+21	22	5.7		320.8	-7.4
+20	23	4.4		025.3	-3.3		;0.5x0.5m passage - pops out under boulders
+23	24	1.2		307.0	52.1
+24	22	1.2		299.1	-4.1
+22	25	8.7		229.0	25.3
+25	26	5.1		271.8	50.5	
+26	27	4.3		243.1	40.1
+27	28	3.5		232.1	31.9
+
+;-----------
+;recorded station details
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;blue nail varnish markings - most with pencil numbers as well
+
+;LRUDs
+*data passage station left right up down
+X5	0.3	0.8	2.1	1.1 		;big flake mid passage
+1	0	.8	1.6	1.5		;lhw
+2	0	.5	.4	.7		;lhw
+3	.5	0	.9	3.8		;rhw - shelf midway through passage (1.6m).  down to bottom
+4	0	.3	.4	.7			
+5	.6	.3	.6	.6
+6	.4	.2	.1	.5		;popcorn squeeze
+7	.5	0	3.4	.8		;jammed boulders in floor
+8	.6	0	.6	1.2
+9	0	.5	.5	.5	
+10	.4	.3	.3	1.1	
+11	0	.7	.5	.1		; c lead to right
+12	.4	0	.7	.4		
+13	.6	0	1.6	1.0		; 13 on pillar
+14	1.6	1.7	11.6	0.6		; 14 on boulder
+15	5.0	0	10.5	1.4		;rocky pile up to 16 from 15, back down to 17
+16	1	0	.7	1.4
+18	0	.7	.6	1.2
+19	.6	0	.6	.9
+20	0	1.2	.7	.2 
+21	.8	0	.3	.9		;mud floor
+22	4.4	0	3.8	.8		;big boulder, false floor, haling rift north
+25	0	.8	1.9	.7
+26	.8	0	7	1.4
+27	1.0	0	.1	1.4
+28	0	1.0	2.0	1.7		;edge of aven
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1  C    northernstraight.11    -  small crawl in RHW with mud floor
+;QM2  B    northernstraight.28    -  passage ends as a window in an aven, likely leading to the surface (parallel to entrance series). No windows/continuations were seen but only a cursory look. rift in floor of aven chamber was pushed to a conclusion by george and rob
+
+;------------
+;Cave description  ;(leave commented-out)
+;from the bottom of hiltiaplenty take the left passage. Keep left at small boulder choke in floor, following the wall round.  
+;Follow this passage as its height decreases, developing into a crawl.  
+;~20m of crawling there is a passage to the right - ahead pinches out - which goes through a sharp popcorn passage with a squeeze.  
+;a large chamber opens, be careful of the boulders at the end of the popcorn crawl - they finish abruptly at a pitch edge.
+;the bolted traverse starts from a natural followed by 2 bolts that take the traverse across the chamber.
+;a crawl continues north and the passage takes a left turn (with a c lead to the right just before).
+;a pillar and a short climb mark the end of the crawl, followed by a short scree slope down which goes into a large aven.
+;a cobble hill in the aven leads up to a passage in the LHW, with sand/mud floor.  stay right when the passage splits, as left becomes a .5x.5m tube which pops out under some wobbly boulders, and both routes go to the same place.
+;there is a haling rift to the right, but the passage continues left (~45-50 degree slope), after climbing over the boulder choke.
+;passage terminates as a window in an aven
+
+*end northernstraight

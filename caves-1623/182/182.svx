@@ -1,0 +1,47 @@
+*equate p182	182.Entrance.1
+*entrance p182
+
+*begin 182
+
+*title "Puffball and Icing Sugar Cave, 1623/182"
+
+*export Entrance.1	; entrance: Centre of zero of "CUCC 90/12"
+
+*include entrance
+*equate 	Entrance.32	YorkRip.1
+*include yorkrip
+*equate 	YorkRip.32	DotToDot.1
+*include dottodot
+*equate 	DotToDot.27	Quark.1
+*include quark
+*equate 	QSCLink.5	Amnesia.1
+*include amnesia
+*equate 	DotToDot.8	Piezo.10
+*equate 	DotToDot.9	Piezo.11
+*include piezo
+*equate 	DotToDot.17	Strike2.3
+*include strike2
+*equate 	Quark.2 	Piezo2.1
+*equate 	Piezo.1 	Piezo2.11 ; probably
+*include piezo2
+*equate 	Entrance.1	Ent2.1
+;*equate 	Entrance.8	Ent2.10 ; Wrong!
+*equate 	Entrance.8	Ent2link.11
+*include ent2
+*equate 	Entrance.14	YorkTop.1
+*equate 	YorkRip.18	YorkTop.27
+*equate 	YorkRip.5	YorkTop.19
+*include yorktop
+*equate 	Amnesia.25	Sump.9
+*include sump
+
+*equate 	YorkRip.20	OTT.1       
+*equate 	DotToDot.3	OTT.16 ; Slightly dubious
+*include overshel
+*equate 	Strike2.2	ClaustroLink.2
+*include claustro
+*equate 	DotToDot.14	Brute.D
+*equate 	Piezo.5 	Brute.1
+*include brutefor
+
+*end 182

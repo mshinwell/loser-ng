@@ -1,0 +1,68 @@
+*begin aboveandbeyond
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export A 1 1x 8 9 15
+
+*title "Above and Beyond"
+*date 2011.07.30
+*team Notes Neil Pacey
+*team Insts Noel Snape
+*instrument CUCC instruments and Neil's DistoX as tape
+
+;ref.: 2011#20
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+1	2	6.80	160	-25
+2	3	7.54	199	-41	
+3	4	5.17	206	-26
+4	5	16.02	258	-20
+5	6	7.35	006	-11
+6	7	4.19	269	-28
+7	8	9.69	230	-38
+8	9	6.54	356	-08
+9	A	16.21	348	-12
+5	10	7.21	044	+18
+10	11	13.08	011	+42
+11	B	30.00	245	+33
+11	12	4.27	057	+41
+1	12	3.25	212	-27
+1	13	11.10	125	-01
+13	14	12.36	078	-15
+14	C	14.06	056	0
+13	15	7.43	355	+15
+15	D	9.51	330	-10
+15	E	11.00	052	-20
+15	F	28.00	060	+40
+15	16	16.98	298	+57
+16	1x	1.15	-	down
+
+				
+*data passage station left right up down ignoreall
+
+;stn	L	R	U	D	Desc
+1	16	17	20	1.5
+2	4	6.5	22.5	0
+3	0	12	30	1.5
+4	0	11.5	6	1.5	
+5	2	7.5	26	0
+6	7	4	4	0
+7	2.5	0	3	1.5
+8	0	3	2	1
+9	1	2.5	1.5	1.5
+5	3	1.5	26	0	
+10	4.5	12	21.5	0	
+11	1.5	9.0	16	0	
+12	0.2	10	17.5	3.5
+1	0	25	29	1.5
+13	14	3	16	0
+14	1.3	1	3.3	1
+13	13	12	16	0
+15	5.5	4.5	35	0
+15	24.5	5.5	35	0
+1x	2	2	3.5	1	;stn 1x equal to stn 1 bobon 
+
+*end   aboveandbeyond

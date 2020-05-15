@@ -1,0 +1,57 @@
+*begin fatworm2
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Fat Worm Blows a Sparky, part 2"
+*date 2004.07.31
+*team Insts Nial Peters
+*team Notes Julian Todd
+*team Tape Both
+
+*instrument set 1
+
+; ref 2004 # XX
+
+; Calibration: stone bridge: 146/+23, 323.5/-23
+
+; ====== stations refindable to link to other surveys: ======
+
+*export FW11 FW22 FW26 FW30 15 6
+
+*calibrate tape +0.08
+; +ve if tape was too short, -ve if too long
+
+
+;from	to	tape	comp	clino
+1	FW11	9.65	119.5	-53
+1	2	6.01	333	+07
+3	2	10.27	132	+23
+3	4	1.60	354.5	-30
+5	4	13.49	132.5	+11
+5	6	2.38	333	-07
+FW11	7	2.22	290	+02
+7	8	3.86	263	-58
+8	9	3.46	166	+02
+FW30	9	1.17	014.5	+45
+8	10	2.35	279	+08
+11	10	2.34	042	-16
+11	12	3.59	244	-30
+13	12	4.16	092	+16
+FW22	14	5.95	226	-28
+15	14	6.40	013	+24
+15	16	4.32	264	-30
+16	17	6.62	321	-08
+18	14	8.89	323	-24
+19	18	4.94	332	-29
+FW26	19	7.75	283	-12
+
+;station details
+;name	L	R	U	D	description
+;FW11	-	-	-	-	=fatworm.11
+;FW22	-	-	-	-	=fatworm.22
+;FW26	-	-	-	-	=fatworm.26	
+;FW30 	-	-	-	-	=fatworm.30
+
+
+*end fatworm2
+

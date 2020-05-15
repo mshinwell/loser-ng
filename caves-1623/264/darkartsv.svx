@@ -1,0 +1,53 @@
+*begin darkartsv
+
+; stations linked into other surveys (or likely to)
+*export 5 10
+
+; Cave: Balkonhoehle
+; Area in cave/QM: dark arts continuation 2015
+*title "Dark Arts"
+*date 2015.07.11
+*team Insts Rachel Turnbull
+*team Notes Frank Tully
+*team Pics Frank Tully
+*team Tape David Walker
+*instrument unknown
+; Calibration: unknown
+*ref 2015#81
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+; suspect that they have used the backcompass reading for all legs
+5	6	7.64	167	-02
+6	7	8.38	174	-15
+8	7	2.87	44	-08
+8	9	1.77	166	-06
+10	9	4.03	036	+24
+
+;-----------
+;recorded station details
+
+
+*data passage station left right up down
+5	5	1	5	2	;	RD on wall
+6	1	0	1.8	0.8	;	RD on wall
+7	0.1	0.6	2.0	0.6	;	RD on point
+8	0.6	0	0.7	1.1	;	RD on wall
+9	0.2	0.4	0.4	1.5	;	RD on wall
+10	-	-	-	-	;	RD on wall
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+; None
+
+
+*end darkartsv

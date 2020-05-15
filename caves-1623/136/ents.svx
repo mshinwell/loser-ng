@@ -1,0 +1,58 @@
+*begin MorEnt
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Kaninchenhöhle, 1623/161 (136)
+*title "MorEnt"
+*date 1999.08.07
+*team Insts Simon
+*team Notes Andy A
+*team Pics Andy A
+*team Tape Simon
+*instrument Compass 1 ; Clino 1
+; Calibration:	Bottom to top: compass 270, clino +6. Top to bottom: compass 091, clino -7.0
+; ref.:	1999 KH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 10	; marked in red - needs connecting to 136 survey
+*export 14	; 1st pitch bolt
+*export 15	; 136c spit
+*export 19	; 136d tag (currently '97-08')
+*export 21	; 136b spit
+	
+;from	to	tape	compass	clino	; remarks
+10	11	7.40	315.5	-8.5
+11	12	23.46	-	up
+*calibrate tape +0.4; +ve if tape was too short, -ve if too long
+;tape broke at this point
+13	12	4.39	123	-57
+13	14	8.61	007	+56.5
+15	16	14.62	135	-44
+17	16	3.90	291	+18
+17	14	11.65	175	-44
+17	18	12.46	346	+49
+19	18	5.12	106	-48
+
+*begin
+*flags surface
+; the next two legs are surface connections to the 3rd entrance '136b'
+20	15	5.88	039	-25
+20	21	11.71	183	-19
+*end
+
+;station details
+;name	L	R	U	D	description
+;10	3	2.5	~18	4	'10' red point on rock point
+;11	6	~12	~18	0.4	cairn
+;12	0.4	0.2	4	5	Deviation Crab
+;13	0.5	0.4	2.7	0.2	Cairn
+;14	0	2.1	2.3	1&5	1st pitch bolt
+;15					Spit 136c
+;16	3	1	0	1.2	CM roof
+;17	5	0	0.2	1.4	Red Spot '17'
+;18					Lip of edge
+;19					Tag 97-08 (should read 136d)
+;20					cairn
+;21					Spit on 136b
+
+*end MorEnt

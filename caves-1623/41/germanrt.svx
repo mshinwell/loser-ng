@@ -1,0 +1,39 @@
+;> 1623/41
+
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Stellerweghöhle 1623/41
+
+*begin germanrt
+
+*title "Parallelgang (E) zum Eingangsteil des E41"
+*date 1997.07.23
+; Messteam: Jörg Haussmann, Richard Geserer, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 2
+
+*export 5 6 6a 7 8 14
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+
+14      8       17.33   -28.5   148
+8       8a      5.01    -12     175.5
+8a      7       13.66   -19.5   166
+7       6       7.9     34.5    273
+6       6a      15.63   0       180
+6a      6b      8.97    31      232
+6b      6c      5.35    32      307
+6c      5       3.24    11      220
+
+;Raumwerte
+*data passage station left right up down
+8	-	-	3	2
+8a	5	6	2	3
+7	1	6	1	2
+6	-	2	4	1
+6a	6	3	2	1
+6b	-	-	0.5	0.5
+6c	-	2	0	1
+5	-	-	-	-
+
+*end germanrt

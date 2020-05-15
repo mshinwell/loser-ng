@@ -1,0 +1,80 @@
+*begin dentb
+
+; stations linked into other surveys (or likely to)
+*export 20x 3
+
+; Cave: GSOH
+; Area in cave/QM: Entrance
+*title "The Dentrance"
+*date 2017.07.31
+*team Notes Luke Stangroom
+*team Insts Rob Watson 
+*instrument ULSA Distox2 
+; Calibration: Austria by Brendan
+*ref 2017#26	; the notes
+*ref 2017#28    ; drawings filed under keinwassermelone
+
+; if using a tape:	*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+
+1	20x	8.03	263	-14.5
+2	1	7.82	252	-12
+3	2	10.23	194	-20
+4	3	3.69	238	-14.5
+4	5	5.88	138	+06
+6	3	5.29	107	-14
+7	6	8.08	209	+13
+8	7	5.49	161	-08
+9	8	6.11	202	-16
+9	10	6.01	299	-11
+11	3	6.06	005	-26.5
+11	12	6.52	119	+17
+12	13	5.43	050	-03
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down ignoreall
+
+1	0	2.4	5	1	
+2	2.7	0	1.2	1
+3	3.4	0	2.7	2
+4	0.5	2.5	0.4	0.7
+5	2.5	1	0.2	0.1
+6	0	5.5	1	1.3
+7	3.8	0.7	0.6	0.4
+8	0.8	1.6	0.2	0.7
+9	2.4	0	0.7	0.1
+10	0	2	0.1	0.1
+11	2.5	0	0.6	1.5
+12	1.5	2	0	0.5
+13	1.5	0.5	0.2	0.2S
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surveyname.5    -    description of QM ]
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+
+; Snow slope leads to drafting crawling entrance on right. Soon reaches a short pitch or freeclimb down to a loose rift. To right leads to another short pitch. Soon ends at a choke on left. Crawl up through boulders on right leads back up to bypass the pitch. To left from initial pitch leads to a short crawl then a drippy aven. Traverse over loose ledge then down ramp on right and through sandy squeeze to a short pitch down that can get damp with spray in wet conditions. Continue to a traverse then a long (50m?) pitch down to a complex area of pitches
+
+*end dentb

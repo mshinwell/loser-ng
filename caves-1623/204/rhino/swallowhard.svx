@@ -1,0 +1,51 @@
+*begin swallowhard
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Swallow Hard"
+*date 2003.07.28
+*team Insts Becka Lawson
+*team Notes Julian Todd
+
+*instrument set 2
+
+; ref 2003 #15
+
+; Calibration: stone bridge: 144/+23 324/-23
+
+; ====== stations refindable to link to other surveys: ======
+
+*export jb5 3
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+2	jb5	8.51	261	+44
+2	3	4.04	031	+02
+4	2	5.83	231	-24
+4	5	5.05	072	-05
+6	5	4.83	252	-31
+6	7	5.30	076	+21
+7	8	7.94	204	+35
+9	8	5.63	258	-24
+9	10	6.75	057	+19
+11	10	4.32	001	-33
+11	12	3.27	248	+54
+13	12	9.99	011	-53
+
+;station details
+;name	L	R	U	D	description
+;2	1.5	2	5	3	RP rock
+;3	0	2	4	3	RP wall, number marked
+;4	0	2.5	2.5	0.5	RP wall
+;5	1	0.3	0.1	2.5	RP floor
+;6	0.25	1	2	0.5	RP rock
+;7	0.1	1.5	3	2	RP pendant
+;8	1.8	0.2	3	2	RP pendant
+;9	0.5	0	1.5	1.5	RP wall
+;10	-	-	-	-	-
+;11	0.1	1.2	5	1.5	RP wall, numbered
+;12	0.8	0	4	3	RP wall
+;13	0	0.4	1	1	RP wall, numbered
+
+*end swallowhard
+

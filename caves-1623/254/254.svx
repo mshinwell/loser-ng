@@ -1,0 +1,83 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	254 (original ID: 2004-19)
+
+*equate 254.3 254gps
+
+*equate p254a t254a
+*equate p254b t254b
+*equate p254c t254c
+
+*equate 254.1  t254a
+*equate 254.5  t254b
+*equate 254.19 t254c
+
+*entrance p254a
+*entrance p254b
+*entrance p254c
+
+*begin 254
+
+*title "Kindergarten"
+*date 2004.08.05
+*team Insts Tony
+*team Notes Brian
+*team Tape Both
+*instrument Compass set #2; Clino set #2 
+; ref.:	2004 # 46
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 3 5 19
+
+*calibrate tape 0.07	; +ve if tape was too short, -ve if too long
+
+*begin
+
+*flags surface
+
+;from	to	tape	compass	clino
+1	2	1.50	-	down
+3	1	6.46	298	-03
+3	4	11.98	326	+20
+4	5	2.79	321	-30
+
+*end
+
+5	6	5.72	-	down
+7	2	2.03	131	+06.5
+7	6	6.96	357	-11
+7	8	12.07	307	-15
+9	8	10.17	122	+25
+9	10	8.00	031	+24
+9	11	9.37	218	-12
+12	11	6.86	050	+22
+12	13	4.45	192	-10
+14	13	2.91	018	+31
+14	15	4.99	300	+09
+14	16	4.81	118	+11
+17	16	3.11	207	-18
+17	18	7.27	098	+07
+19	18	18.50	-	down
+
+;stn	L	R	U	D	Desc
+;1	-	-	-	-	Cave tag
+;2	-	-	-	-	RP on flake on boulder at entrance
+;3	-	-	-	-	RP on slab in front of entrance
+;4	-	-	-	-	Shaft cave entrance tag bolt
+;5	-	-	-	-	RP on side of shaft opposite tag bolt
+;6	-	-	-	-	RP on rock at base of surface shaft
+;7	-	-	-	-	RP on top of rock at entrance
+;8	1	0.1	2	1.12	RP RH top passage
+;9	1.8	0.7	1.40	0.20	RP top rock floor of passage
+;10	1.0	1.0	0	?	RP flake in roof at entrance to chamber
+;11	0.5	2.5	3.0	1.0	RP flake in left side of passage
+;12	1.0	0.30	0.40	0.60	RP on flake right side of passage
+;13	0.7	0.6	0.1	0.8	RP in roof of narrow point
+;14	2.0	2.0	1.5	0	RP on ledge above climb
+;15	1.0	0.05	0	0.4	RP on flake on right roof
+;16	1.5	2.0	-	1.5	RP on flake on far side of chamber
+;17	1.5	1.0	0.5	1.5	RP on left hand side passage block
+;18	3.0	3.0	18.5	1.20	RP on rock below surface pitch
+;19	-	-	-	-	-
+
+*end 254

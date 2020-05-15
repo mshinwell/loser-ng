@@ -1,0 +1,48 @@
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 258 "Tunnockschacht"
+
+*begin justforalaugh2
+
+*export p13
+
+*title "Just For A Laugh 2"
+*date 2007.08.14
+*team Insts Martin Green
+*team Notes Ollie Stevens
+*instrument Set 4
+
+;calibration 327/23, 326/-24, 326/-23, 147/+23, 147/+22, 147/+22
+
+;ref.:  2007#65
+
+*calibrate tape +0.10   ; +ve if tape was too short, -ve if too long
+
+;from   to  tape    compass clino   remarks
+1   p13 5.29    187 -16
+2   1   13.72   190 -6
+2   3   14.94   013 +15
+4   3   11.43   134 +14
+2a  2   3.45    115 +18 ; reversed in notes
+2a  2b  2.96    341 +09
+
+*data passage station left right up down ignoreall
+p13 2.5 2   1.5 1.5 rp corner at 5 way junction
+1   1.2 1.6 1.8 1.8 rp middle of passage
+2   1.5 0.9 1.8 0.8 rp knob on floor
+3   2   0   1   1.5 rp r wall
+4   1   1   0.8 1   rp ceiling
+
+*data passage station left right up down ignoreall
+2a  0.2 0.2 0.1 2   rp junction
+2b  0.5 1   5   1.2 rp far wall
+
+;original LRUD data
+;p13 2.5 2   1.5 1.5 rp corner at 5 way junction
+;1   1.2 1.6 1.8 1.8 rp middle of passage
+;2   1.5 0.9 1.8 0.8 rp knob on floor
+;3   2   0   1   1.5 rp r wall
+;4   1   1   0.8 1   rp ceiling
+;2a  0.2 0.2 0.1 2   rp junction
+;2b  0.5 1   5   1.2 rp far wall
+
+*end justforalaugh2

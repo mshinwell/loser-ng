@@ -1,0 +1,149 @@
+
+*begin secondwind
+
+; Cave: Balkonhole 264
+; Area in cave/QM: Sloppy Seconds
+*title "Second Wind"
+*date 2017.08.07
+*team Insts Corrin Donne
+*team Notes Fleur Loveridge
+
+*instrument Fleur and Pete's Distox2
+; Calibration: [Where, readings]
+*ref 2017#37
+
+*export 38	27
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+38	1	3.41	146	-8
+1	2	3.10	163	+11
+2	4	3.84	165	+21
+4	5	2.88	156	-17
+5	6	22.95	176	+2
+1	7	2.70	203	-7
+7	8	9.43	040	-68
+8	9	4.15	187	-64
+9	10	3.73	266	+4
+10	11	7.14	319	-23
+11	11A	4.70	005	-30
+11A	12	9.05	305	-31
+12	13	5.36	247	-45
+12	14	3.80	029	+14.5
+14	15	2.78	344	-15
+15	16	1.67	032	-14
+16	17	4.56	279	-53
+17	18	2.36	222	-58
+20	19	4.68	086.5	-65
+21	20	4.95	018	-46
+22	21	3.24	013	-05
+23	22	4.76	063	+27
+24	23	9.28	024	+37
+25	24	2.87	070	+52.5
+26	25	3.36	068	+60
+27	26	8.24	064	+55.5
+; 27	28	22.06	202	-47 removed by Becka 17/7/18 as superceded by SecondWind survey
+29	21	7.89	110	-75
+13	29	2.40	276	-53
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+;1	2	1.5	3	0.5
+;2	2	2	3	1
+;4	0	3	1	2
+;5	2	4	2	0.5
+;
+;7	4	0	4	9
+;8	0	1	10	9
+;9	0	6.5	2	1
+;10	4	7	0.2	2
+;11	8	1	0	2
+;11A	2.5	0.5	0	2.5
+;12	3.5	2.5	1	2
+;13	0	2	4	1.5
+;14	0.8	0	0.7	0.7
+;15	0	0.6	0.6	0.7
+;16	4	0	2	2
+;17	0.5	0.2	2	3.5
+;18	0	0.5	0.2	10
+;19	0	0.5	5	5
+;20	3.5	0	5	5
+;21	1	1.5	6	5
+;22	0	2.5	1.5	0.8
+;23	2.7	0.2	4.7	0.2
+;24	1.8	1.6	0	0.9
+;25	0.8	0.7	3	1
+;26	0	0.9	1.5	3
+;27	2	0.5	4.5	1.7
+;
+;29	2.7	0.6	2	5
+;
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	2	1.5	3	0.5
+2	2	2	3	1
+4	0	3	1	2
+5	2	4	2	0.5
+
+
+*data passage station left right up down 
+7	4	0	4	9
+8	0	1	10	9
+9	0	6.5	2	1
+10	4	7	0.2	2
+11	8	1	0	2
+11A	2.5	0.5	0	2.5
+12	3.5	2.5	1	2
+13	0	2	4	1.5
+14	0.8	0	0.7	0.7
+15	0	0.6	0.6	0.7
+16	4	0	2	2
+17	0.5	0.2	2	3.5
+18	0	0.5	0.2	10
+19	0	0.5	5	5
+20	3.5	0	5	5
+21	1	1.5	6	5
+22	0	2.5	1.5	0.8
+23	2.7	0.2	4.7	0.2
+24	1.8	1.6	0	0.9
+25	0.8	0.7	3	1
+26	0	0.9	1.5	3
+27	2	0.5	4.5	1.7
+
+*data passage station left right up down 
+29	2.7	0.6	2	5
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    B    secondwind.18    -    Right hand pitch at base (station 18): ongoing pitch in small tube; wet
+;QM2    A    secondwind.27    secondhand.27    Left hand pitch at base (station 27): ongoing 2m wide ramp (subsequently pushed to conclusion in second hand)
+;QM3    C    secondwind.11    -    Hole in mid level between stations 11 and 11A; but probably above pitches subsequently pushed below
+;QM4    C    secondwind.9     -    There are three mud ramps into the midlevel (near stations 9 and 10); however, these are likely to connect to the level above where there are plenty of other holes that we did not drop
+;QM5    A    secondwind.5     -    From station 5 there is another hole (which probably drops to lower level), but traversing across may yield more passage; would need a bolt to reach lip then a further rising bolt traverse over void
+
+;------------
+;Cave description  
+;Initial traverse over hole leads only to further hole; high level continuation is visibale ahead but hard to access (QMA 05). 
+;Descent of first hole via two rebelays lands on drippy boulder at lower level. 
+;Various muddy ramps enter here, probably from level above. 
+;Continuing down mud slope passes hole of left to reach junction at large boulder in passage. 
+;Right leads to "two hole horror", a muddy then drippy pitch. Pitch continues (QMA 01) but is narrow and takes water.
+;Left/straight leads down another pitch to land on boulder pile. Downslope chokes after two small climbs. 
+;Up and down the other side leads to draughting tube, rigged to access 2m wide descending ramp (QMA 01), subsequently pushed to conclusion.
+
+*end secondwind

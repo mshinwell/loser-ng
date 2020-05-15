@@ -1,0 +1,33 @@
+*begin tree15c
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "tree15c"
+*date 2001.08.14
+*team Insts Becka Lawson
+*team Notes Martin Green
+*team Tape Becka Lawson
+*instrument Compass #2 ; Clino #2, Tape Grey
+; Calibration: Stone bridge: 148/+23 147/+22  
+;                            323/-23 324/-23
+; ref: 2001#12
+; ====== stations refindable to link to other surveys: ======
+
+
+*export p
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+p	1	6.10	344	+10	
+2	1	3.32	129	-09
+3	2	1.43	319	+57
+
+;station details
+;name	L	R	U	D	description
+;1	0.4	0.5	0.8	0.1	RP on boulder
+;2	0.3	0.6	0.1	1.4	RP on roof nobble
+;3	-	-	-	-	RP on left wall
+*end tree15c
+
+

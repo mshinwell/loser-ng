@@ -1,0 +1,86 @@
+*entrance p2014-ms-14
+*equate p2014-ms-14 driveneast.tag
+
+*begin driveneast
+
+; stations linked into other surveys (or likely to)
+*export tag
+
+; Cave: Driven East
+; Area in cave/QM: All 
+*title "Driven East"
+*date 2018.07.25
+*team Insts Luke Stangroom
+*team Notes Nadia Raeburn-Cherradi
+*team Pics Luke Stangroom
+*team Nail_Polish Olly Hall
+*instrument CHECC_disto_x
+; Calibration: 0.3
+*ref 2018#24
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+1 2 6.06 75.6 23.1
+2 3 10.41 124.7 22.2
+3 4 13.34 161.2 20.8
+4 5 6.66 96.1 -14.5
+5 6 4.35 152.5 -3.0
+6 7 10.02 207.2 6.4
+7 8 3.17 207.7 -0.7
+8 9 18.22 214.2 0.5
+9 10 5.06 200.9 -17.7
+10 11 5.79 79.9 -17.3
+11 12 7.05 193.5 -2.2
+12 13 20.33 78.5 -4.4
+13 14 6.13 65.9 26.9
+14 tag 1.77 320.7 9.8
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Blue] nail varnish markings
+;1 2.2 1.7 1 0.1
+;2 3.9 1.3 1.3 0.5
+;3 0.3 3.3 0.9 0.8
+;4 3.5 1.6 1 1
+;5 1.2 2.2 0.7 0.4
+;6 0 1.5 0.2 0.1
+;7 1.1 1 0 0.7
+;8 1.2 1.6 0.5 0.2
+;9 2 0 0.7 0.4
+;10 1.8 0 1.5 2
+;11 0 3 0.3 0.3
+;12 2.5 2.5 1.6 0.3
+;13 0 2.8 0.4 1.8
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1 2.2 1.7 1 0.1
+2 3.9 1.3 1.3 0.5
+3 0.3 3.3 0.9 0.8
+4 3.5 1.6 1 1
+5 1.2 2.2 0.7 0.4
+6 0 1.5 0.2 0.1
+7 1.1 1 0 0.7
+8 1.2 1.6 0.5 0.2
+9 2 0 0.7 0.4
+10 1.8 0 1.5 2
+11 0 3 0.3 0.3
+12 2.5 2.5 1.6 0.3
+13 0 2.8 0.4 1.8
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;No QMs
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+;Phreatic tube, large at entrance, up 2m climb which leads to crawling passage with choss floor. Turns sandy, very draughty. After constriction draught is weaker. Passage opens into downward sloping phreatic tube ending in a choke on the left and sand filled passage on right. No apparent leads.
+
+*end driveneast

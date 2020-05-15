@@ -1,0 +1,47 @@
+*begin direstraits
+
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Kaninchenhöhle, 1623/161
+*date 2009.07.30
+*team Insts Edvin Deadman
+*team Notes Anthony Day
+*team Disto Edvin Deadman
+*instrument Pony #1; Disto Wook
+
+; Calibration:  
+; ref.: 2009 #16
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 10
+
+*calibrate tape +0.0    ; +ve if tape was too short, -ve if too long
+*data normal from to tape compass clino
+
+;from   to    tape compass clino ; remarks
+*title "Dire Straits"
+2	1	05.20	032	-09
+3	2	03.73	002	+11
+4	3	02.66	004	+08
+5	4	02.68	310	-04
+6	5	01.67	337	-28
+7	6	03.55	040	+10
+*title "Private Investigations"
+1	8	04.96	119	+75
+8	9	03.84	090	+28
+9	10	04.81	168	+59
+
+*data passage station     left	right  up  down    ignoreall
+1	2.5	1	-	1.0	Pencil X foot of pitch
+2	0.3	0.3	1.5	2.0
+3	0.0	0.5	0.5	1.5
+4	0.5	0.0	0.3	1.5
+5	0.0	0.5	0.3	1.5
+6	0.0	0.5	0.6	2.0	Opposite obvious thread
+7	1.5	1.5	0.5	2.0	Clump of clay by exit rift
+8	0.0	1.0	-	-
+9	1.2	1.5	-	0.9
+10	-	-	-	-	Station 1 of solidrock survey
+
+*end direstraits

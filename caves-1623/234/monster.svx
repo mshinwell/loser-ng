@@ -1,0 +1,44 @@
+*begin monster
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Hauchhoehle (1623/234)
+*title "Monster's Lair / Monster Munch"
+*date 2005.08.10
+*team Insts Frank Tully
+*team Notes Dave Loeffler
+*team Tape Both
+*instrument Compass/Clino not recorded; tape new Chinese
+; Calibration: 328/-23; 156/+23
+; ref.:	2005#40
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 ; = unnumbered point from Olly/Emma survey (top end)
+*export 6 ; = RP on roof just back from pitch head
+
+*calibrate tape +0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	6.42	298	-17
+3	2	9.19	237	-19
+4	3	4.63	267	+01
+5	4	5.60	180	-29
+6	5	13.00	266	-32
+
+;stn	L	R	U	D	desc
+;1	-	-	-	-	existing RP point on floor
+;2	0.3	0.5	0.1	0.6	RP left ceiling
+;3	0.7	0.6	0.4	0.5	Ceiling protrusion
+;4	lots	0.5	0.3	0.2	tip of stal
+;5	0	1.2	2.0	3.0	RP LHW high up
+;6	0.2	0.6	0	2.50	RP ceiling LH side
+
+*data passage station left right up down ignoreall
+1      2.5     1.5     0.8     0.1     	RP rock shelf on floor
+2	0.3	0.5	0.1	0.6	RP left ceiling
+3	0.7	0.6	0.4	0.5	Ceiling protrusion
+4	2.0	0.5	0.3	0.2	tip of stal
+5	0	1.2	2.0	3.0	RP LHW high up
+6	0.2	0.6	0	2.50	RP ceiling LH side
+
+*end monster

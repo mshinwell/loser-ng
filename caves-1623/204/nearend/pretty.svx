@@ -1,0 +1,35 @@
+; NOT USED!! KEPT FOR HISTORICAL REASONS
+
+*begin pretty
+
+; Surveys updip, junction, pretty and pendulum done by:
+;
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle
+*title "updip, junction, pretty, pendulum"
+*date 1999.08.04
+*team Insts Nick Procter
+*team Notes Julia Bradshaw
+*team Pics Anthony Day
+*team Tape Nick Procter & Julia Bradshaw
+*instrument Compass set #5 ; Clino set #5 
+; Calibration:	at TC Down - Comp: 088 Clino: -06
+;                      Up     Comp: 272 Clino: +5.5
+; ref.:	1999 NotKH survey book pp -
+
+
+
+; Pretty survey duplicated by kingcarbide (2000), therefore commented out]
+; AJD 2000.08.14
+2	1	13.63	152	1
+2	3	4.69	314	-6
+4	3	7.03	154	5
+
+;stn	L	R	U	D	Desc
+;1	-	-	-	-	Stn 38 from ent survey
+;2	0.80	0.20	0.16	1.2	CM on wall
+;3	0.00	1.51	0.47	1.1	PM on wall
+;4	2.42	0.00	0.40	1.35	CM on wall
+
+*end pretty
+

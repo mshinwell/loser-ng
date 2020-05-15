@@ -1,0 +1,29 @@
+*cs out UTM33N
+*cs custom "+proj=tmerc +lat_0=0 +lon_0=13d20 +k=1 +x_0=0 +y_0=-5200000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232"
+
+*include 1626-no-schoenberg-hs
+
+*fix 120.Feuertal-Eishoehle.22.E-7 34186.49 86641.59 1714.62
+*fix 120.Ahnengang.1.A21 34149.14 86400.64 1446.06
+*fix 55.Hosenriemenschacht.9.4 32929.75 84984.70 1455.48
+*fix 55.Fensterhalle-Gigantendom.12.I 32877.06 84850.63 1562.44
+*fix 55.Altausseerteil.100.3 32761.24 84817.69 1520.81
+
+; From Rob Adams's GPS, taken by Mark Shinwell
+; GPS was set directly to BMN
+*entrance p2014-ms-01
+*fix p2014-ms-01 reference 36261 84592 1802
+*entrance p2014-ms-02
+*fix p2014-ms-02 reference 36281 84644 1816
+*entrance p2014-ms-03
+*fix p2014-ms-03 reference 36221 84669 1819
+*entrance p2014-ms-04
+*fix p2014-ms-04 reference 36183 84737 1857
+*entrance p2014-ms-05
+*fix p2014-ms-05 reference 36007 84521 1806
+*entrance p2014-ms-06
+*fix p2014-ms-06 reference 36043 84329 1764
+*entrance p2014-ms-07
+*fix p2014-ms-07 reference 36219 84407 1784
+*entrance p2014-ms-08
+*fix p2014-ms-08 reference 36238 84345 1760

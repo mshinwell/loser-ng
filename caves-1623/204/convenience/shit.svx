@@ -1,0 +1,49 @@
+*begin shit
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Shit Chute"
+*date 2007.07.25
+
+*team Insts Edvin Deadman
+*team Notes Pete Harley
+*team Tape both
+
+*instrument set unnumbered
+
+; ref 2007#23
+
+; Calibration: stone bridge: 151/+23,152/+22,329/-22,330/-22
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 ; = worry.39
+*export 10 ; ???
+
+*calibrate tape -0.10
+; +ve if tape was too short, -ve if too long
+
+2	1	1.68	176	-40
+2	3	5.29	218	+19
+3	4	4.05	210	+02
+4	5	5.29	223	-14
+5	6	9.23	254	-41
+7	6	2.41	061	+10
+8	7	1.13	310	+12
+8	9	2.68	212	-34
+9	10	9.83	282	-68
+
+
+*data passage station left down up right ignoreall
+1	-	-	-	-	= 39 from previous survey
+2	1.5	2	0	0.5	RP centre ceiling
+3	0.5	0.6	0.6	0	RP RHW
+4	0	0.6	0.2	0.5	RP LHW
+5	0	1	0.2	0.7	RP LHW
+6	0.5	1.6	1.5	0	RP RHW
+7	1	1.5	0.8	0	RP RHW
+8	0	1.5	0.5	0.6	RP LHW chest height
+9	0.6	1.5	0	0.6	RP ceiling
+10	-	-	-	-	= unknown point from previous survey
+
+*end shit

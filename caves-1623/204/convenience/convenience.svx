@@ -1,0 +1,208 @@
+*begin convenience
+
+*export 1 ; = thinrift.5
+*export 12 20 39 42 54 63 64 66 69; numbered
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Continuation of thin rift off Fat Worm Blows a Sparky"
+*date 2007.07.19
+
+*team Insts Edvin Deadman
+*team Notes Nial Peters
+*team Tape Kathryn Hopkins
+
+*instrument set 1
+
+; ref 2007#17
+
+; Calibration: stone bridge: 151/+23,152/+23,152/+23; 329/-23,330/-23,330/-23
+
+; ====== stations refindable to link to other surveys: ======
+
+
+*calibrate tape +0.20
+; +ve if tape was too short, -ve if too long
+2	1	6.07	242	+33
+3	2	5.90	231	+16
+4	2	5.07	201	+36
+4	5	6.65	276	-81
+3	6	8.05	071	-10
+6	7	3.61	063	+46
+
+8	7	6.72	165	+06
+8	9	2.78	346	+05 
+9	10	9.06	354	+12
+11	10	10.14	184	-16
+11	12	6.40	356	-01
+13	12	9.00	272	-25
+13	14	8.26	069	-31
+15	14	5.32	055	+32
+16	15	3.75	083	+34
+17	16	4.63	255	+08
+
+8	18	8.47	054	+23
+18	19	4.33	075	+35
+20	19	16.50	256	-36
+21	20	3.74	261	-12
+
+11	22	3.63	352	+12
+22	23	12.55	-	down
+23	24	3.32	295	+26
+24	25	7.58	016	+38
+25	26	4.02	005	-09
+27	26	4.01	300	+04
+28	27	3.78	348	+03
+
+16	28	4.51	275	-12
+17	29	2.41	078	-14
+30	29	11.59	225	+40
+31	30	3.55	219	+26
+32	31	14.11	116	+32
+33	31	6.22	163	+58
+33	34	5.06	278	-16
+34	32	6.57	286	-12
+32	35	8.18	270	-22
+35	36	5.40	343	-03
+36	37	7.22	272	-22
+37	38	4.72	026	-07
+
+39	38	5.75	103	-07
+39	40	5.59	351	00
+40	41	5.48	290	-24
+41	42	4.46	316	-03
+35	43	4.41	167	02
+43	44	7.24	174	-15
+44	45	2.92	177	02
+45	46	4.81	163	-35
+46	47	3.38	164	-16
+47	48	4.26	206	11
+48	49	4.84	177	-08
+49	50	3.30	180	-29
+
+50	51	5.07	281	-21
+51	52	3.71	278	-28
+52	53	2.41	284	10
+53	54	2.53	336	-06
+54	55	3.02	227	-06
+55	56	3.61	170	-31
+56	57	1.48	209	10
+57	58	3.16	162	-23
+58	59	2.00	108	08
+59	60	1.62	169	00
+60	61	4.55	248	-06
+61	62	6.02	256	-35	
+62	63	2.86	190	-15
+
+63	64	5.00	149	12
+65	33	11.55	283	-22
+66	65	5.39	255	-04
+66	67	6.10	142	-02
+67	68	3.28	178	-05
+68	69	6.83	149	10
+69	70	6.78	166	13
+70	71	7.52	142	24
+71	72	4.66	154	32
+72	73	5.36	107	22
+74	66	11.78	151	08
+75	74	9.04	127	19
+76	75	3.23	162	09
+
+
+*data passage station left right up down ignoreall
+1	0.5	0	2	2.5	RP #5 of Thin Rift survey
+2	1	0.5	3	0.75	RP top of flake 
+3	0	1.5	0.25	1.25	RP LHW
+6	1	0.5	2	1.3	Pebble in shale bank
+7	2	0.1	0	0.3	RP on roof
+8	0.5	2	3	2.5	RP LHW
+9	1.2	0	1	1	RP RHW
+10	1	0	4	1.5	RP RHW
+11	1.5	0	6	2	RP RHW
+12	0	2	4	-	RP RHW numbered
+13	1.5	0	2	1	RP RHW
+14	1.5	0	4	1	RP RHW
+15	0.75	0	1	0.75	Popcorn RHW
+16	0	0.5	1.75	1.5	RP LHW
+17	0.5	0	1	0.75	Knobble LHW
+
+
+*data passage station left right up down ignoreall
+4	0.2	0.5	1	1	RP ceiling flake
+5	0.2	0.4	3	0.3	Rock on floor
+
+*data passage station left right up down ignoreall
+8	-	-	-	-
+18	0.7	0.3	2	0.5	RP RHW
+19	1.5	0	1.8	1	RP RHW
+20	0	1.5	1	0.8	RP LHW numbered
+21	1.5	0	0.5	1.5	RP on ceiling above hole
+
+*data passage station left right up down ignoreall
+11	-	-	-	-	
+22	0	1	2.5	-	y-hang bolt LHW
+23	1.5	1.5	-	0	rock at bottom of pitch
+24	0	1.8	-	2	RP LHW
+25	0.5	0.5	0	1	RP on roof
+26	0	1.2	1.5	0.1	RP LHW
+27	0	1	1	0.05	RP LHW
+
+*data passage station left right up down ignoreall
+28	0.3	0.2	0	0.2	rp on roof
+29	0	0.2	4	-	-
+30	1	0	5	2	rp rhw
+31	2	0	-	5	rp rhw
+32	2	0	2	1.5	rp rhw
+33	1	0	1	0.3	rp rhw numbered
+34	0.5	0.5	0.5	0.8	rp on roof spike
+35	0	5	0.5	2	rp on rock at junction numbered
+36	2	0.5	2	1.5	rp rhw
+37	0	1.5	1.5	0.3	rp lhw
+38	2.5	1.5	0.7	0.9	rp rhw on ledge
+
+*data passage station left right up down ignoreall
+39	1	1	2.5	0.2	rock below entrance to side passage numbered
+40	1.5	1.5	2	1.5	rp on roof pendant
+41	0	2	2	1	rp lhw
+42	1.5	0	2	1	rp lhw
+43	0	2	0.5	2	rp lhw
+44	0.6	0.5	0	2	rp on roof
+45	0.3	0	0.1	3	rp rhw
+46	0.04	0.12	0.4	0.5	rp lhw
+47	0	0.75	3	1	rp lhw
+48	1	1	1	0	rp on floor spike
+49	0	2	0.25	2	rp lhw
+50	2	1	1.5	1	rp lhw
+
+*data passage station left right up down ignoreall
+51	0	0.75	1.5	2	rp lhw
+52	0.3	0.05	0	1.5	rp on flake on roof
+53	0	2	1.5	1.5	rp lhw
+54	1	0	1	1.5	rp rhw
+55	1	0.05	0	2	rp rhw
+56	0.2	0.4	1	1	lhw ledge
+57	0.4	0	0.2	2	rp rhw
+58	0.5	0	1.5	1.5	rp rhw
+59	0	0.75	0.75	1	rp lhw
+60	0	0.5	0.4	1	rp lhw
+61	0	0.4	0.4	1.8	rp lhw
+62	1.5	0	0.3	1.2	rp rhw
+63	0	0.5	0.75	0.2	rp lhw
+
+*data passage station left right up down ignoreall
+64	0	0.75	0.1	0.75	rp lhw
+65	2	0	1.5	1	rp rhw
+66	-	-	-	-	rp lhw of junction
+67	0	1.8	0.4	1.5	rp lhw
+68	0	1.5	1.5	0.5	rp lhw
+69	1.5	0	1.5	0.5	rp rhw
+70	2.5	1.5	-	1.8	rp on roof
+71	0	1.5	2.5	0.5	rp lhw
+72	1.5	1	2	0.3	rp ledge rhw
+73	0	2	4	0.5	rp lhw
+74	1	0.25	1.5	0.5	rp rhw
+75	0	1	0.2	0.8	rp lhw
+76	0	0.75	0.2	0.2	rp lhw
+
+*end convenience
+

@@ -1,0 +1,111 @@
+*begin beckoning_silence
+
+; stations linked into other surveys (or likely to)
+*export 30 5X 14 11 
+
+; Cave: 258
+; Area in cave/QM: Hydra 
+*title "Beckoning Silence"
+*date 2017.08.09
+*team Insts Rebecca Lawson
+*team Notes Jacob Podesta
+*team dog Rob Watson
+*instrument Rebecca Lawson's Distox2 no.1
+*ref 2017#41
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+12	11	10.34	234.0	+06.0
+13	12	08.78	249.0	-01.0
+13	14	07.48	060.0	-08.0
+14	15	04.92	022.0	+15.0
+15	16	07.89	064.0	-13.0
+16	17	03.16	347.0	+43.0
+17	18	05.59	052.0	-01.0
+18	19	02.18	136.0	-37.0
+19	20	03.73	056.0	-02.0
+20	21	03.26	105.0	-18.0
+21	22	05.67	095.0	-50.0
+23	11	07.17	097.0	-46.0
+24	23	01.73	030.0	-15.0
+5x	24	02.01	020.0	-25.0
+24	XX	07.42	291.0	+52.0
+22	25	08.73	086.0	-55.0
+26	25	02.19	117.0	-14.0
+26	27	07.28	175.0	-35.0
+28	29	04.06	121.0	-22.5
+29	30	03.51	071.0	-30.0
+*flags duplicate
+30	31	10.70	119.0	-54.0	; superseded by radiosilence survey
+*flags not duplicate
+28	27	08.74	015.0	+48.0
+
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+; nail varnish markings
+;11	-	-	-	-	RHW NP NUMBERED 11
+;12	01.0	00.5	05.0	03.5	RHW NP
+;13	01.0	01.5	01.0	01.5	RHW NP
+;14	01.2	00.2	00.8	00.2	RHW NP
+;15	00.0	01.2	00.4	01.0	LHW NP
+;16	01.1	00.2	00.9	00.2	RHW NP
+;17	00.2	01.2	00.4	01.0	LHW NP
+;18	00.0	01.5	00.8	01.5	LHW CORNER NP
+;19	01.0	00.3	01.0	00.3	SPIKE NP
+;20	01.5	00.4	00.8	02.1	HIGH RHW NP 
+;21	01.3	00.6	00.0	01.4	RHW NP
+;22	-	-	-	-	
+;23	01.2	03.0	01.3	01.0	BEFORE PITCHHEAD NP
+;24	02.0	02.0	03.2	02.0	RHW FLAKE NP
+;5x	00.0	02.6	01.6	02.3	NUMBERED 5 OLD SURVEY LHW NP
+;25	-	-	05.6	00.6
+;26	-	-	05.6	00.3
+;27	00.5	00.5	00.0	01.0	LHW NP on popcorn
+;28	02.0	01.5	03.0	01.0	RHW NP in chamber
+;29	01.0	00.1	01.5	01.2	
+;30	00.5	00.5	01.3	01.5	numbered 30 NP
+
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+12	01.0	00.5	05.0	03.5
+13	01.0	01.5	01.0	01.5
+14	01.2	00.2	00.8	00.2
+15	00.0	01.2	00.4	01.0
+16	01.1	00.2	00.9	00.2
+17	00.2	01.2	00.4	01.0
+18	00.0	01.5	00.8	01.5
+19	01.0	00.3	01.0	00.3
+20	01.5	00.4	00.8	02.1
+21	01.3	00.6	00.0	01.4
+23	01.2	03.0	01.3	01.0
+24	02.0	02.0	03.2	02.0
+27	00.5	00.5	00.0	01.0
+28	02.0	01.5	03.0	01.0
+29	01.0	00.1	01.5	01.2
+30	00.5	00.5	01.3	01.5
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    B    beckoning_silence.14    -  pitch on the right possibly descending back into rift which takes water
+;QM2    A    beckoning_silence.30    -  passage continues down climb. strongly draughting, echoey
+;QM3    B    beckoning_silence.24    -  AD: passage at top of climb; could also be accessed by traversing from pitch
+;QM4	B    beckoning_silence.28    -	AD: climb up to west on corner
+
+;------------
+;Cave description
+; Down 5m pitch to a dripping chamber which carries a small stream.
+; a short climb leads down to another similar chamber below a dripping aven
+; stream disappears into a crack and a step up leads to the continuing stooping passage
+; another pitch leads down to the right (QMB) and futher on another pitch leads to
+; a muddy slope and another short climb down to strongly draughting continuation.  
+
+*end beckoning_silence

@@ -1,0 +1,33 @@
+*equate p2003-01 2003-01.1
+*entrance p2003-01
+
+*begin 2003-01
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2003-01
+*title "2003-01"
+*date 2003.07.20 ;date the survey was done
+*team Insts Tony
+*team Notes Brian
+*team Tape Tony
+*instrument Compass set #3; Clino set #3 
+; ref.:	2003 #10 ; the #number is on the clear pocket containing the original notes.
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0 1;
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+0	1	9.05	246	0
+1	2	7.70	-	down
+2	3	9.00	156	-10
+
+;stn	L	R	U	D	Desc
+;0	-	-	-	-	GPS
+;1	-	-	-	-	Pitch head bolt
+;2	-	-	-	-	rock on floor
+;3	-	-	-	-	Far wall of small chamber
+
+*end 2003-01

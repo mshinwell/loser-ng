@@ -1,0 +1,35 @@
+;> 1623/41
+
+; Ort:			Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle:			Stellerweghöhle 1623/41
+
+*begin extradin
+
+*export 0
+*export 10
+*export 6
+
+*title "Verbindung von Extrablatt zu DIN-Rampe" 
+*date 1997 
+; Messteam: Dominik Jauch, Markus Bölzle, Robert Winkler
+; Zeichner: Markus Bölzle
+; Referenz: Messbuch ?
+
+ 
+*data normal from to length clino compass
+;von	bis	Länge	Neigung	Richtung
+0       1       8.03    -9.9    54
+1       2       7.04    -20.7   38.7
+2       3       3.75    -33.3   87.3
+3       4       0.88    -9.9    51.3
+4       5       2.00    -55.8   141.3
+5       6       3.60    -13.5   31.5
+6       7       2.24    12.6    307.8
+7       8       5.75    11.25   18.9
+8       9       6.81    0.9     302.4
+9       10      7.87    -4.5    42.3
+
+;Raumwerte
+;keine Raumwerte
+
+*end extradin

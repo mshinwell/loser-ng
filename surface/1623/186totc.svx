@@ -1,0 +1,77 @@
+;1998.04.02 AERW Added comments, exports, calibrate clino, not yet traced ref.
+
+*begin 186toTC
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Surface survey
+*title "186 to top camp"
+*team Insts Phil Underwood
+*team Notes Anthony Day
+*team Pics None
+*team Tape Both
+*date 1997.08.12
+*instrument Set 4
+; Calibration:	At Top camp
+;  Drill hole - Boulder: 269 268.5 269
+;                        +07 +07 +07
+;  Boulder - Drill hole: 089 089 089
+;                        -06 -06 -06.5
+;  Distance boulder to drill hole = 10.19
+;
+; Ref.:	NotKH97-<page number>
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; Bolt at 186 ent [P186]
+*export 22	; TC fixed point (on top of lichen covered boulder)
+
+*calibrate clino +0.42
+
+;From	to	Tape	Compass	Clino 
+2	1	 4.83	092	+16
+2	3	11.80	329	+01
+4	3	10.20	141	+32
+4	5	11.49	311.5	-26
+6	5	14.39	167	+22
+6	7	12.54	349	-19
+8	7	15.38	088	+40
+8	9	30.00	334	-10
+10	9	23.55	138	+02
+10	11	13.88	330	+16
+12	11	26.55	142	-04.5
+12	13	29.55	311	-03
+14	13	29.52	107	+03
+14	15	26.40	270	+02
+16	15	26.47	099	+03
+16	17	28.95	321	-06
+18	17	29.97	114	+06
+18	19	20.55	283	-01
+20	19	27.67	120	+11
+20	21	23.90	321	-09
+22	21	15.97	121	-03
+
+;Stn	Desc
+;1	Bolt at 186 ent [P186]
+;2	Bunde branch
+;3	Tall bunde branch
+;4	Top of rock edge
+;5	Prominent sprig of bunde
+;6	Nobble on rock face
+;7	Dead bunde branch at top of steep bit
+;8	Dead bunde branch at bottom of steep bit
+;9	Anthony's knee in the middle of a field
+;10	Point on top of rock below scarp
+;11	Top of prominent boulder on scarp
+;12	Edge of bunde bush
+;13	Anthony's knee (in a different place)
+;14	Blade of grass
+;15	Bunde bush on corner by TC path
+;16	Blade of grass by TC path
+;17	Anthony's knee (on rock by TC path)
+;18	Rock behind cairn
+;19	Cairn above TC path
+;20	Rock nr TC
+;21	Rock in middle of TC
+;22	TC fixed point (on top of lichen covered boulder)
+
+*end 186toTC

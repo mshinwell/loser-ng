@@ -1,0 +1,124 @@
+*begin dentrance
+
+; stations linked into other surveys (or likely to)
+*export gps tag 20 19 28
+
+; Cave: GSOH
+; Area in cave/QM: Entrance
+*title "The Dentrance"
+*date 2017.07.30
+*team Insts Luke Stangroom
+*team Notes Becka Lawson
+*team Tape Rob Watson 
+*instrument Becka Lawson Distox2 No 1
+; Calibration: Becka UK
+*ref 2017#25
+
+; if using a tape:	*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+
+*flags surface
+gps tag 8.89 131 -25 
+
+*flags not surface
+tag 1 0.91 111 -70
+2 1 4.71 063 +19
+3 2 2.14 341 +04 
+4 3 6.72 042 +16 
+5 4 3.82 026.5 16
+6 5 4.95 352 33 
+7 6 4.64 275 -33 
+8 7 6.65 291 32 
+9 8 4.72 274 10
+10 9 3.01 307 06
+11 10 5.00 277 04
+12 11 3.68 247 -07
+12 13 5.53 034 -35 
+14 12 4.77 289 -23 
+14 15 18.48 222 -20
+15 16 15.08 208 -09
+16 17 5.13 113 -06 
+17 18 4.89 084 +35 
+18 19 7.04 114 -09
+14 20 9.63 062.5 18
+6 21 8.27 252 -24 
+21 22 16.34 020 07 
+21 23 4.27 308 03 
+23 24 6.91 271 -51 
+24 25 9.42 241 -21 
+25 26 14.47 194 -07 
+26 27 6.18 211 -07
+27 28 10.34 221 -07
+24 29 5.34 063 -10
+29 30 4.77 018 +38
+30 31 4.35 062 +26.5
+31 32 2.83 145 +63 
+32 21 10.04 193 -10
+
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1 0 3 4.5 0.5 
+2 1.2 0.3 0.1 0.2
+3 0.6 0.6 0 0.4 
+4 0.7 0.5 0 0.6 
+5 1.2 0.2 0.5 5 
+6 - - 14 1.3 
+7 1.6 1 8.4 1.5 
+8 0.8 0.8 0.7 0.3
+9 0 1.5 0.5 0.3
+10 1 0.3 0.4 0.3 
+11 1 0.4 0.7 0.3 
+12 2 2 1.7 0.5 
+13 1 1 5 1 
+14 2 1.5 0.4 1.1 
+15 2 1 1 0.5 
+16 2.5 0 0.5 1 
+17 1 0 0.5 0.3 
+18 0 3 0.2 0.5 
+19 2 0 4 2 
+20 0 2.5 0.8 1 
+21 0 7 12 4 
+22 2 4 0 0.5 
+23 1.5 0 0.5 1.2 
+24 2 1 0 1 
+25 3 0 1.5 1 
+26 1.5 2 1.5 1.5 
+27 2 2 1.8 1 
+28 2 2 1.4 0.6 
+29 2.5 2 1 0.5 
+30 1.3 3 1 1 
+31 1.5 1 3 0.4
+32 3 2 0 1 
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surveyname.5    -    description of QM ]
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+
+; Snow slope leads to drafting crawling entrance on right. Soon reaches a short pitch or freeclimb down to a loose rift. To right leads to another short pitch. Soon ends at a choke on left. Crawl up through boulders on right leads back up to bypass the pitch. To left from initial pitch leads to a short crawl then a drippy aven. Traverse over loose ledge then down ramp on right and through sandy squeeze to a short pitch down that can get damp with spray in wet conditions. Continue to a traverse then a long (50m?) pitch down to a complex area of pitches
+
+*end dentrance

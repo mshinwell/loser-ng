@@ -1,0 +1,57 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Damoclesschacht
+
+*equate p246 246.8
+*entrance p246
+
+*begin 246
+
+*title "Damoclesschacht (1623/246, formerly 2003-05)"
+*date 2003.07.27
+*team Insts Martin Green
+*team Notes Brian Outram
+*team Tape Martin Green
+*instrument Compass "set 1"
+*instrument Clino "set 1"
+*instrument Tape "New Stanley"
+
+; Calibration: at stone bridge
+; compass: 149; 147; 148
+;	   329; 329; 327/5
+; clino:   +23; +23; +23
+;          -23; -22/5; -22/5
+;
+; ref.:	2003#11
+;
+; Altitude measured using altimeter calibrated to 1812m at 204a = 1772m
+; (10m scale divisions)
+;
+; Location measured using GPS (currently unavailable)
+;
+; ====== stations refindable to link to other surveys: ======
+
+*export 8
+
+
+;from	to	tape	compass	clino	; remarks
+1	2	06.50	-	up
+3	2	03.83	011	-23
+4	3	05.42	085	+25
+4	5	33.20	-	up
+6	5	04.46	208	-58
+7	6	03.24	234	-52
+7	8	00.90	-	up
+
+;station details
+;Stn	L	R	U	D	Description
+;1	1.5	0.0	lots	0	rock base of pitch
+;2	1.5	0.0	lots	6.5	bolt at pitch head
+;3	0.0	1.0	lots	0.7	rock top of pitch
+;4	1.0	0.0	lots	0.7	red spot wall
+;5	1.0	0.0	5.0	lots	pitch head Y hang
+;6	0.0	1.0	3.0	4.0	red spot rock flake
+;7	-	-	-	-	red spot base of tag boulder
+;8	-	-	-	-	2003/05 tag bolt
+
+*end 246
+

@@ -1,0 +1,50 @@
+; am 16.11.00 erstellt von Thilo für die Kleine Schnellzughöhle
+
+*equate p228 228.0
+*entrance p228
+
+*begin 228
+
+; Ort:			Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+*title "Kleine Schnellzughöhle, 1623/228"
+*date 2000.08.29
+; Von:	Ableser:		Kai Schwekendiek
+;	Schreiber:	Nils Bräunig
+;	(2. Schreiber:)	
+;	Massband:	Leuschner
+*instrument 
+; Gerätefehler:	
+; Referenz.:	Messbuch (Nils Bräunig)
+
+; ====== Messpunkte, die an bereits bestehenden Vermessungen hängen: ======
+
+*export 0		;=MP A7 der Außenvermessung
+
+*calibrate tape +0.0	; "+" wenn das Massband zu kurz war, "-" wenn es zu lang war
+
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+
+;Alle Daten sind bereits bzgl. Nadelabweichung und Fehler des Neigungsmessers korrigiert.
+*data normal from to length gradient bearing ignoreall
+
+*units compass grads
+*units clino grads
+
+0	1	11.53	8	46.5     
+1	2	3.71	-20.5	26.5     
+2	3	4.06	-41	62.5     
+3	4	3.35	-75	121.5
+4	5	7.08	-28	228.5     
+
+*units compass degrees
+*units clino degrees
+
+;Raumwerte
+;Name	Links	Rechte	Oben	Unten		Beschreibung
+;1	0.8	0.3	0.1	0.7
+;2	0	0.8	0.3	0.5
+;3	0.5	0.4	0.6	0.7
+;4	-	-	-	-
+;5	1	1.1	2	0
+
+*end 228

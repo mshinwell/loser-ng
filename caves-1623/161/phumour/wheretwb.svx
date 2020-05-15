@@ -1,0 +1,50 @@
+;1998.03.27 AERW sort begin/end, add comments, refs, exports, *calib clino
+;2009.07.27 AJD sorted titles
+
+*begin wheretwb
+
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+;*title "Where the wind blows"
+*date 1996.07.22 ; - trip 1996-161-47 in logbook
+*team Insts Becka Lawson
+*team Notes Sam Lieberman
+*team Pics Sam Lieberman
+*team Tape both
+*instrument Yellow & Black set (1)
+; Calibration:  At 161d
+;   B to A  034 -10
+;   A to B  214 +8
+;Tape +30cm
+
+; Ref.: 1996 KH survey book, data p 146, drawing pp 121-122
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1   ; Carbide mark LH wall above shaft at start of large hading chamber
+*export 3   ; CM on rock stuck in mud floor, LH side slightly beyond being
+        ; opposite 13m shaft with aven above
+*export 14  ; Carbide mark on cairn below stal, QMs 96-36 and 96-37
+
+*calibrate clino -1.0
+*calibrate tape  -0.30
+;From   to  Tape    Compass Clino 
+*title "Where the Wind Blows"
+2   1    5.12   103 -31
+2   3   16.16   347 -15
+4   3   14.75   171 +01
+*title "Bloody Hairfire Passage"
+4   5    7.11   003 -17
+6   5   10.70   253 -09
+6   7   27.24   345 +04
+7   8    4.16   322  00
+9   8   19.42   165 +01
+9   10  19.19   346  00
+11  10  11.53   192 +03
+11  12  12.51   018 +10
+13  12  10.10   164 +02
+13  14   8.58   030 +11
+
+; LRUD data for all stations on 96KHp146 not yet added
+
+*end wheretwb

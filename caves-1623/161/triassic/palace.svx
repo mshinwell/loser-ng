@@ -1,0 +1,42 @@
+;1998.03.02 AERW sort begin/end, add comments and refs, some *calib clino
+
+*begin palace
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Palace climb"
+*date 1996.07.18 ; trip 1996-161-30 in logbook
+*team Notes Andy A
+*instrument Chris D
+*team Dog Julian H
+*instrument Compass 721899, Clino 726974
+; Calibration:	at SF 
+;		A-B: 215.5	B-A: 035.5
+;		A-B: +08.5	B-A: -08.5
+
+; ref.:	1996 KH survey book pp 164-165
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; CM on boulder 'S27', west side of Staudnwirt Palace
+
+;*calibrate tape ???
+*calibrate compass 0
+*calibrate clino   0
+
+1	2	10.50	113.5	+19.3
+3	2	29.85	014	-42.3
+3	4	 9.80	202.5	+29;NOTES SAY opposite way round
+5	4	 6.66	271	-49
+5	6	12.56	156	+40.5
+7	6	 4.765	038	-27
+
+;5	5	3	0.5	-	S27 Triassic survey
+;8	5	7	0.2	-	CM Rock
+;4	1	4	4	-	CM Marked S
+;3	0.6	5.3	0.3	-	Julians Light
+;2.5	3.5	3.0	0.5	-	CM LHS S5
+;2	0.6	0.5	0.6	(3)	(130) CM Pendant
+;0.4	0.4	0.5	0.5	(3/0)	(Down)cm Wall
+
+*end palace

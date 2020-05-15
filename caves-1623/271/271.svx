@@ -1,0 +1,135 @@
+; 1623/271, formerly 2007-71
+; Korokorohöhle
+
+*equate 271.1.0 p271
+*equate 271.2.20 p271b
+*equate 271.2.22 p271c
+
+*begin 271
+*title Korokorohöhle
+
+*export 1.0 2.20 2.22
+
+*begin 1
+*date 2007.07.13
+*team Insts Olly
+*team Notes Jenny
+*team Pics Olly
+*team Tape Olly
+*instrument ours + disto
+*ref 2007#03
+
+*export 0 3 6 7
+
+*data normal from to compass clino tape
+
+1	0	067	+36	1.479
+2	1	112	+16	2.165
+3	2	038	+18	6.384
+4	3	053	+12.5	2.480
+5	4	036	+26	3.363
+6	5	020	+16	2.124
+7	6	001	+06.5	3.884
+7	8	261	+09	1.965
+8	9	303	-09	4.589
+10	3	080	+30.5	2.133
+10	11	260	-30	2 ; approx
+
+*data passage station left right up down ignoreall
+0	0.6	0.65	0	0.7	tag bolt (L and R at the opening)
+1	0.6	0.1	0.1	0.45	NP roof
+2	0.8	0.3	0.6	0.9	NP RHW
+3	0.6	0.9	0.5	0.9	NP LHW
+4	2	1	0	1	NP pt on roof nr skylight
+5	0.5	0	0.5	1.1	NP pebble on ledge RHW
+6	0.4	0.5	0.8	0.6	NP tip of boulder
+7	0.6	0.5	0.9	0.6	rock on boulder
+8	0	0.6	0.2	0.8	NP LHW
+9	0.5	0.5	1	1.2	(approx) Side passage pt near roof
+
+*data passage station left right up down ignoreall
+10	-	-	-	-	NP RHW
+
+
+*end 1
+
+*equate 1.6 2.1
+*equate 1.7 2.2
+
+*begin 2
+*date 2015.08.04
+*team Insts Jenny
+*team Notes Olly
+*instrument CUCC pony #3 + our disto
+; notes in 2015 #68
+
+*export 1 2 20 22
+
+*begin
+*flags duplicate
+2	1	3.880	001	+06
+*end
+3	2	4.009	312	-10
+4	3	1.288	247	-06
+5	4	3.663	285	-04
+5	6	2.082	120	-03
+6	7	2.479	126	+04
+7	8	1.260	111	-02
+8	9	1.401	140	-03
+9	10	1.532	122	+05
+10	11	3.061	147	+02
+12	11	0.769	001	-02
+13	14	4.587	256	-66
+14	...	4.593	258	-60
+13	...	2.874	133	+08
+13	15	5.061	323	+02
+15	16	3.555	018	+01
+16	2	2.544	044	-05
+1	17	4.822	029	+18
+17	18	2.365	030	+02
+18	...	1.934	349	-67
+17	19	3.835	184	+63
+19	20	0.724	078	+13
+12	21	5.403	215	+21
+21	22	3.027	117	+32
+
+*data passage station left right up down ignoreall
+1	0.5	0.4	0.8	1.0	Existing NP
+2	0.6	0.5	0.9	0.7	Existing pencil X on rock boulder
+3	0.5	0.1	0.5	0.4	NP RHW
+4	0.1	0.3	0.2	0.7	NP LHW
+5	0.4	0	0.3	0.8	NP RHW
+6	0.2	0.4	0.5	0.2	NP LHW
+7	0.6	0.1	0.5	0.2	NP RHW
+8	0.6	0.1	0.4	0.3	NP RHW
+9	0	0.4	0.4	0.2	NP LHW
+10	0.1	0.2	0.2	0.2	NP LHW
+11	0.2	0.4	0.2	0.2	"11" NP nobble LHW
+12	0.7	0	0.2	0.4	NP out in doline
+
+*data passage station left right up down ignoreall
+13	0	0.9	0.8	0.6	NP LHW
+14	0	0.6	2.0	4.5	"14" NP nr jammed boulder
+
+*data passage station left right up down ignoreall
+13	0	0.9	0.8	0.6	NP LHW
+15	0	0.5	0.8	0.3	"15" NP LHW
+16	0	0.4	1.1	0.5	"16" NP LHW nr edge of chamber
+2	0.5	0.6	0.9	0.7	Existing pencil X on rock boulder
+
+*data passage station left right up down ignoreall
+1	0.4	0.5	0.8	1.0	Existing NP (retouched)
+17	1.6	0	1.1	0.4	NP "17" RHW below skylight
+18	0.5	0.3	0.1	0.6	NP "18 -> ->"
+
+*data passage station left right up down ignoreall
+17	0	1.6	1.1	0.4	NP "17" RHW below skylight
+19	-	-	-	-	"19 ->X" pencil on pavement edge
+20	-	-	-	-	tag bolt 2007-71B (now 271B)
+
+*end 2
+
+*equate ngauruhoe.12 1.3
+*include ngauruhoe
+
+*end 271

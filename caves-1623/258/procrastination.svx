@@ -1,0 +1,52 @@
+*begin procrastination
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export 1 13x
+
+*title "Procrastination Pot"
+*date 2011.08.15
+*team Insts Noel Snape
+*team Notes Noel Snape
+*instrument Wookey's DistoX
+
+
+;ref.: 2011#49
+
+;from	to	tape	compass	clino	remarks
+
+1	2	6.15	159	-18.5
+2	3	6.63	173.3	-26.1
+3	4	3.41	148.6	5.7
+4	5	4.99	209.3	-9.5
+6	4	6.43	74.5	-1.8
+7	6	5.64	48.5	-41.1
+8	7	12.64	60.9	-53.9
+9	8	7.8	307	-83.7
+10	9	10.7	250	-87
+10	11	3.8	136	70
+12	11	20.35	68.2	-75
+12	13	8.96	219.3	83.2
+13	14	2.46	244.9	56.1
+14	15	14.93	87.4	86.1
+15	16	2.21	276.1	11.6
+
+*title "000 separation leg"
+16	13x	5.02	256.6	11.8
+
+
+*data passage station left right up down ignoreall
+
+1	4	3	12	1.8
+2	4.5	6	41	0
+3	2.5	6	10	0
+4	0	2	5	3
+6	4	1	87	13.5
+7	2	1.5	87	2
+8	2	3	0	0
+15	0.4	0.4	2	87
+16	0.5	0.3	0	87	
+
+
+*end   procrastination

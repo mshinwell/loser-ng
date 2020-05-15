@@ -1,0 +1,65 @@
+; 1998.02.27 AERW sorted begin/end, added survey book refs, *cal clino
+;		  there is LRUD in the survey book, not yet added
+
+*begin doubting
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Doubting Thomas Series"
+*date 1995.07.24 ; trip 1995-161-20 in logbook
+*team Inst Nick
+*team Tape Nick
+*team Notes Anthony
+; Calibration:	Bot-Top	052,052,053; +08,+08,+08
+;		Top-Bot	233,234,233; -08,-08,-08
+;		Bot-Zinken 250.5,251,250
+; Ref.:	1995 survey book pp 18-21
+
+*export 1	; carbide mark RH (E) wall in Doll Killer passage, just before
+		; entry to Doubting Thomas
+*export 37	; carbide mark at T-junction with QM 95-07, also nearest to 95-08
+
+*calibrate clino 0
+
+;from	to	tape	compass	clino
+
+2       1        1.38   029     +03
+3       2        2.28   298     +04
+3       4        1.78   046     -22
+4       5       23.59   -      DOWN
+6       5        5.50   235     +16
+6       7        1.54   014     -47
+7       8        4.60   -       DOWN
+9       8        3.94   219     -22
+9       10       4.84   116     -08
+10      11       1.00   015     +23.5
+11      12       1.10   110     -18
+12      13       1.20   064     -08
+13      14       1.87   084     -20
+14      15       0.95   135     -10
+16      15       0.84   206     +42
+16      17       7.66   -       down
+18      17       1.15   147     +01
+19      18      11.20   285     +56
+19      20       4.34   196     +13
+20      21       1.80   179     +06
+21      22       1.68   190     -12
+22      23       3.73   181     -30
+23      24       6.40   -       DOWN
+24      25       6.58   -       down
+26      25       1.70   054     -38
+27      26       2.83   229     -10
+28      27      11.70   253     +69
+28      29       7.30   -       DOWN
+29      30       3.60   214     +39
+31      30       5.47   010     +43
+31      32      12.10   -       DOWN
+33      32      10.35   040     -03
+34      32       3.20   012     +02
+34      35       3.98   155     -23
+35      36       2.94   195     -10
+36      37       3.85   197     +02
+38      37       6.34   287     -10
+39      38       4.88   297     -12
+
+*end doubting

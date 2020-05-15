@@ -1,0 +1,72 @@
+*begin slackers2
+
+; stations linked into other surveys (or likely to)
+*export 14x
+
+; Cave:Tunnocks
+; Area in cave/QM: Hydra
+*title "slackers2"
+*date 2016.07.06
+*team Insts David Walker 
+*team Notes Becka Lawson 
+*team Varnish Julian Todd 
+*instrument  Beckas DistoX 2
+; Calibration: UK 
+*ref 2016#15
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+14x	1	10.596	066.5	+20
+1	2	32.447	115.7	+21.2
+2	3	17.028	137.7	+21.2
+3	4	11.939	070.5	+26.4
+4	5	19.106	024.7	+22.9
+5	6	11.024	031.1	+19.3
+6	7	8.435	292.6	-17.4
+7	8	7.412	308.3	-17.7
+8	9	7.306	279.8	-21.7
+9	10	6.901	283.7	-20
+10	11	2.998	324.2	-12.8
+11	12	6.925	277.5	-24.3
+12	13	7.184	278.9	-27.8
+14	15	6.336	041.9	-67.2
+15	12	1.161	192.4	+38.7
+3	16	10.306	153.4	-10.3
+16	17	10.686	229.1	-14.2
+17	18	7.753	181.6	-14.7
+
+*data passage station left right up down ignoreall
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+
+14x	9.4	1.8	1.2	1.1	old station, top of pillar?
+1	0.5	4	3	0.8	lw
+2	0	5	2	1	lw
+3	4	0.3	2.5	1.8	rw, numbered
+4	2.5	3.5	1.2	1.5	ceiling mid passage after jn, numbered
+5	2	2.5	1.1	1	ceiling mid passage
+6	3	0.4	0.4	1	rw
+7	0.3	2.4	1	0.5	lw after l bend
+8	3	1	0	0.7	rw / ceiling
+9	2	1.3	0.1	0.4	ceiling where low, numbered
+10	0.2	3.5	0.5	0.1	lw
+11	1.8	1.4	0	0.5	ceiling, numbered
+12	2.3	1.9	0.5	1	ceiling, numbered
+
+*data passage station left right up down ignoreall
+12	2.3	1.9	0.5	1	ceiling, numbered
+13	0.2	0.2	0.1	0.1	soakaway, no draft and no open way through, not marked
+14	0.5	0.5	1	5	up climb at end
+15	-	-	-	-	temp stn
+
+*data passage station left right up down ignoreall
+3	4	0.3	2.5	1.8	rw, numbered
+16	1	5.4	2	0.5	lw pitch
+17	4.5	0	1.5	0.2	rw
+18	2	2	0.5	0.4	mud filled at end
+
+
+*end slackers2

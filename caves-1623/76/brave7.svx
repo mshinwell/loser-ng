@@ -1,0 +1,40 @@
+;Eislufthoehle 1623/76
+
+*begin brave7
+
+*title "Brave New World 7"
+*date 2004.07.27
+*team Insts Jenny Black
+*team Notes Olly Betts
+*team Tape Jenny Black
+*instrument Compass 5 ; Clino 3
+; notes in 2004 #23
+
+*export 1 8 11
+
+1	2	3.54	267	-13
+2	3	2.23	290	+02
+3	4	1.05	-	up
+4	5	2.18	265	-14
+5	6	3.32	180	-04
+7	6	1.86	352	+17
+7	8	1.66	228	-01.5
+8	9	6.2	-	down
+10	2	2.02	182	+00.5
+10a	11	3.70	310	+09 ; notes say 2.70 but 3.70 fits much better and is more plausible from memory of the passage
+
+*data passage station left right up down ignoreall
+
+1       -       -       -       -       station by oxbow from earlier survey
+2       0.15    0.6     1.8     0.55    NP on nobble LHS
+3       0.5     0       1.3     0.4     NP on RHW
+;4       -       -       -       -       J's eye
+5       0       1.10    0.65    0.3     NP LHW
+6       0.4     0       0.15    0.4     NP RHW
+7       0.3     0.8     0.3     0.6     J's eye
+8       0.5     0       0.15    6.2     NP "8"
+9       -       -       6.35    0       stream in canyon
+;10     -       -       -       -       J's eye
+;11     -       -       -       -       pt on earlier survey
+
+*end brave7

@@ -1,0 +1,17 @@
+;Schnellzughöhle 1623/115
+;Messungen des CUCC zu Beginn der 80er Jahre
+
+;*equate 115rest.bypass.35 	115haupt.72.6
+;*fix 115rest.Bypass.35 35993.40        81261.10        1266.62         ;=115.115haupt.72.6
+
+;*equate	 115rest.Purgatory.0	115eing.54
+;*fix 115rest.Purgatory.0	35965.95	81077.37	1262.33 	;=115.115eing.54
+
+
+*begin 115rest
+
+*export confluence.59
+
+*include cucc/stream
+
+*end 115rest

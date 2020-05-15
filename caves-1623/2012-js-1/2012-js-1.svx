@@ -1,0 +1,65 @@
+;2012-JS-1
+;Fruhlingsmiereschact
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau
+; Area: Near 204d
+; Cave:	Fruhlingsmiereschact. 1623/?
+
+*equate p2012-js-1 2012-js-1.tag
+
+*begin 2012-js-1
+
+*title Fruhlingsmiereschact
+*date 2012.08.11
+*team Notes Jess Stirrups
+*team Insts Frank Tully
+*instrument Compass B, Clino 2
+
+; Survey folder reference: 2012#13
+
+;exported stations
+
+*export tag
+*entrance tag
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+;from	to	tape	compass	clino	remarks
+*flags surface
+tag	1	3.85	005	-019
+*flags not surface
+1	2	3.04	0	-90
+2	3	0.3	100	0
+3	4	3.6	345	-53
+4	5	4.6	25	-90
+5	6	33.9	0	-90
+
+
+;*flags surface
+
+
+
+;Station data as recorded
+;stn	L	R	U	D	Desc
+;surveying in
+;tag   tag bolt
+;1	rd on point
+;2	rd on wall
+;3	crab on sling
+;4	bolt on wall
+;5	bolt on wall
+;6	rock on floor
+
+;LRUD data split into passage tubes
+*data passage station left right up down ignoreall
+
+
+;------------
+;Cave description
+;Entrance behind rock in large depression near 204d
+;small pretty white flower growing in entrance, hence name.
+;Shithouse loose entranced onto shaft, 
+;shaft craps out at bottom with packed gravel floor, no discernable draft.
+
+*end 2012-js-1
+

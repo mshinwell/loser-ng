@@ -1,0 +1,36 @@
+*begin greatoak
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Great Oak Chamber traverse"
+*date 2002.08.18
+*team Insts Simon Redhead
+*team Notes Julia Bradshaw
+*team Tape both
+*instrument Compass #4; Clino #4
+; Calibration: none
+; ref.:	2002#13
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+
+*calibrate tape +0.50	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	14.11	166	+02.5
+3	2	7.37	026	+02
+3	4	11.52	193	0	; reversed
+5	4	10.47	018	+07
+5	6	4.40	178	+02
+
+;station details
+;name	L	R	U	D	description
+;1	-	-	-	-	=treeumphant.24
+;2	0	2.5	6.0	0.7	bolt at end of traverse
+;3	0.4	1.5	6.0	0.3	CM on rock LHS
+;4	1.0	1.2	1.5	2.0	CM on rock
+;5	0.8	0	0.5	0.4	CM on RHW
+;6	-	-	-	-	rock in crack
+
+*end greatoak

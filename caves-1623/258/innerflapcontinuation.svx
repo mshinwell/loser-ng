@@ -1,0 +1,65 @@
+*begin Innerflapcontinuation
+*export 20x 20
+
+*title "Inner Flap" ; continuation from Hooray for Boobies"
+*date 2012.08.15
+*team Instruments Rob Addams
+*team Notes Holly Bradley
+*team Tape Rob Addams
+*instrument Clino 4 and compass D
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+*ref 2012#31
+
+;from	to	tape	compass	clino	remarks
+
+20x	1	2.04	277	01
+1	2	1.08	212	12
+2	3	2.59	294	-16
+3	4	1.48	221	-08
+4	5	2.82	283	21
+6	5	2.95	061	34
+7	6	3.63	071	05
+8	7	1.57	129	10
+9	8	1.22	332	33
+10	9	1.66	086	01
+11	10	1.49	341	06
+11	12	1.86	114	-13
+12	13	2.00	185	-11
+13	14	1.35	106	-01
+14	15	3.51	222	-22
+15	16	1.09	272	21
+16	17	2.14	159	48
+17	18	2.47	233	-57
+19	18	0.88	057	36
+19	20	1.80	179	-29
+
+;*flags splay
+;20  a   35.00   000 -90 ; tape lowered and didn't reach floor
+
+*data passage station left right up down ignoreall
+
+20x	0.00	0.45	5.00	4.00
+1	0.35	0.00	5.00	4.00
+2	0.00	0.40	5.00	4.00
+3	0.30	0.00	5.50	3.00
+4	0.40	0.00	5.50	3.00	; LR flipped from notes
+5	0.25	0.00	5.00	4.50
+6	0.30	0.00	5.00	4.00
+7	0.00	0.29	4.50	3.50
+8	0.40	0.00	4.50	3.50
+9	0.00	0.80	4.00	3.00
+10	0.30	0.00	3.50	3.00
+11	0.40	0.00	3.00	3.00	; LR flipped from notes
+12	0.00	0.40	3.00	3.00
+13	0.45	0.00	2.50	3.00
+14	0.00	0.30	2.50	3.00
+15	0.00	0.45	2.50	3.00
+16	0.50	0.00	2.50	3.00	; LR flipped from notes
+17	0.00	0.50	3.00	2.50
+18	0.00	0.20	3.00	2.50
+19	0.30	0.00	3.00	2.50
+20	0.40	0.00	3.00	20.0	
+
+*end Innerflapcontinuation

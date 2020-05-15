@@ -1,0 +1,59 @@
+;1998.02.07 AERW added survey and station details
+;1998.04.02 AERW Added comments, refs, exports
+
+*begin nasetotc
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 	Surface
+*title "Brauning Nase to upper Top Camp fixed pt"
+*team Insts Wookey
+*team Notes Olly
+*team Pics Olly
+*team Tape Wookey
+*date 1996.07.26
+*instrument Wookey's MC1 compass (marked (W)) or set #1 112518
+;		Clino set #1, 232011
+; Calibration:	very little. Tape 0.225 too long (so calib -0.225)
+; ref.:	1996 surface stuff survey book, pp 26,27
+;
+*export 1	; Laser point on Brauning Nase (0/7)
+*export 12	; rock (probably TCto90.7 in NearTC survey)
+*export 14	; Upper Topcamp marked station on green boulder
+
+*calibrate tape -0.225
+;
+;From  to  Tape Compass Clino
+2	1	 2.00	 -	down
+3	2	18.655	052.5	 00 ; tape readings 18.67 and 18.64
+4	3	24.75	122	+31.5 ;(W)
+4	5	20.18	062	-37.5 ;(W)
+6	5	28.37	213	+34.5 ;(W)
+6	7	11.54	103	+18 ;(W)
+8	6	20.52	173	+35 ;(W)
+9	8	30.09	208	+27 ;(W)
+10	9	19.74	237	+20 ;(W)
+11	10	27.70	172	+34 ;(W)
+12	11	17.60	122	+11 ;(W)
+13	11	29.15	192	+25.5 ;(W)
+14	13	26.08	191	+07.3 ; (W compass 190)
+
+; station details
+; 1	Laser point bolt on Nase
+; 2	Vertically above 1 to get any kind of view!
+; 3	dead bunde stalk, cut in 'v' notch
+; 4	bunde sprig
+; 5	biro x on stone
+; 6	rock tip (scratched '6')
+; 7	spike on cliff by small cave (biro mark) 3m long, full of sheep shit
+; 8	rock
+; 9	tip of stick
+;10	rock
+;11	rock
+;12	rock (probably TCto90.7 in NearTC survey)
+;12a	20.05 or 20.10m away (probably TCto90.8, measurement taken just
+;	to confirm that these really were the same two points)
+;13	tip of stick
+;14	Upper TC (TC95) fixed point (green boulder)
+
+*end nasetotc
+

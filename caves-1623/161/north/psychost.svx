@@ -1,0 +1,43 @@
+*begin psycho
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Kaninchenhöhle, 1623/161
+*title "Psycho Street"
+*date 1998.07.04
+*team Insts Brian Outram
+*team Notes Duncan Collis
+*team Pics Duncan Collis
+*team Tape Brian Outram
+*instrument Compass #4 ; Clino #4 
+; Calibration:	
+; ref.:	1998 KH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 7
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	3.25	175	+40	;
+3	2	3.76	328	-15	;
+4	3	2.12	024	+32	;
+5	4	6.84	350	+05	;
+6	5	2.35	065	+33	;
+6	7	6.30	171	-03	;
+8	7	7.30	000	+05	;
+8	9	2.41	157	+12	;
+10	9	3.68	013	+11	;
+11	10	4.57	025	+10	;
+12	11	2.50	012	+01	;
+13	12	4.73	033	+31	;
+13	14	6.58	196	-04	;
+15	14	7.25	023	+33	;
+15	16	6.83	153	+26	;
+15	17	4.86	078	+61	;
+17	18	2.67	111	+20	;
+
+;station details
+;name	L	R	U	D	E	description
+
+*end psycho

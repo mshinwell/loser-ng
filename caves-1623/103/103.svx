@@ -1,0 +1,14 @@
+; 1623/103
+
+*equate t103 103.1
+
+*begin 103
+
+*export 1
+*entrance 1 
+*date 1977
+
+; made up from description
+1 2 30 - down
+
+*end 103

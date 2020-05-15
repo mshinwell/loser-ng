@@ -1,0 +1,28 @@
+*equate 2006-73.9 p2006-73
+
+*begin 2006-73
+*title "Ice Curtain"
+
+*date 2006.08.11
+*team Insts Jenny
+*team Notes Olly
+*team Pics Olly
+*team Tape Jenny
+*instrument ours + disto
+; notes in 2006 #31
+
+*export 9
+
+2	1	11.018	185	+26
+2	3	7.460	090	-00.5
+2	4	5.454	015	-56
+2	5	8.932	099	+21
+1	0	4.577	253	+07
+6	5	2.116	260	-34
+6	7	0.804	199	00
+7	8	0.988	-	up
+*flags surface
+8	9	7.499	220	+14
+9	0	8.827	242	-07.5
+
+*end 2006-73

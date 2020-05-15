@@ -1,0 +1,29 @@
+*begin climbofthepenguins1
+*export 9x
+
+*title "Ticking off a QMB? low crawl from 39 steps in Tunnocks"
+*date 2012.08.08
+*team Instruments Stuart Walker
+*team Notes Frank Tully
+;*team Dogsbody Serena Povia
+*instrument SAP n2
+
+*calibrate tape +0.30	; +ve if tape was too short, -ve if too long
+
+;ref 2012#14
+
+;from	to	tape	compass	clino	remarks
+
+9x	9a	5.68	140	-23
+9a	9b	2.57	097	-22
+9b	9c	2.16	119	-06
+
+*data passage station left right up down ignoreall
+
+9x 	-	-	-	- 	red dot on wall marked 9 in pencil
+9a	0.2	0.5	0.8	0.3	red dot right hand wall
+9b	0	0.4	3	1.5	red left hand wall
+9c	0.3	0.1	3	0.7	red dot right hand wall 
+
+*end climbofthepenguins1
+

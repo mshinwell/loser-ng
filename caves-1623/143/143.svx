@@ -1,0 +1,59 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Weiße Warzen Schacht 1623/143
+
+*begin 143
+*title "Weisse Warzen Schacht"
+
+*export kuhwiese.22a.15	; rampe.18
+*export kuhwiese.22a.6m	; Alice
+*export sophy.12	; Lärchenschacht
+*export hades.anschluss_20_2	; 144.gang.2_20_2
+*export doppelrohr.5_5	; 088.sophy.13
+*export troja.6         ; 158.fruitidelmar.x6
+*export troja.5         ; 158.fruitidelmar.x5
+*export troja.4         ; 158.fruitidelmar.x4
+*export troja.3         ; 158.fruitidelmar.x3
+
+*entrance p143
+*entrance canyon.b0
+
+*fix p143	36051	81492	1711
+*equate haupt.27		p143
+
+*equate haupt.23	canyon.7
+*equate canyon.a17	rampe.17
+*equate canyon.3_6_17_1	rampe.17_1
+*equate rampe.17_3_3	iqcanyon.0
+*equate rampe.17_3_12	sophy.0
+*equate rutsche.26_5	iqcanyon.26_5
+*equate rutsche.17	rampe.17
+*equate rutsche.18	kuhwiese.18A.0
+*equate rutsche.22	kuhwiese.22A.0
+*equate rampe.17_3_18	doppelrohr.0
+*equate doppelrohr.18	hades.18
+*equate doppelrohr.15	hdp.0
+*equate hades.21	flammen.0
+*equate hades.25	brauner.0
+*equate hades.30	soich.0
+*equate troja.0		brauner.1
+*equate rutsche.31	kuhwiese.HKR.31
+
+
+*include canyon
+*include brauner
+*include flammen
+*include haupt
+*include iqcanyon
+*include kuhwiese
+*include rampe
+*include rutsche
+*include doppelrohr
+*include sophy
+*include hades
+*include troja
+*include hdp
+*include soich
+
+
+*end 143
+

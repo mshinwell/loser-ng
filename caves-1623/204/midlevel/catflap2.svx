@@ -1,0 +1,34 @@
+*begin catflap2
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Catflap 2"
+*date 2009.07.26
+*team Tape Becka Lawson
+*team Insts Becka Lawson
+*team Notes Jess Stirrups
+*instrument Set 6 ; Yellow tape with 10cm missing
+; Calibration: Kathryn did this! Not Becka - AtoB 329 -26; 330 -25; BtoA 149 +25; 149 +26
+; ref.:	2009#05
+
+; ====== stations refindable to link to other surveys: ======
+*export 1 
+
+*calibrate tape +0.10	; +ve if tape was too short, -ve if too long
+
+*data normal from to compass clino tape
+3	1	351	-25	3.90
+4	3	051	+26	5.77
+5	1	281	-03	6.97
+6	5	260	+36	3.61
+6	7	-	DOWN	8.50	; unmarked plumb - pitch not actually descended!
+
+*data passage station	left	right	up	down	ignoreall
+1	2.5	1.5	4	2	old station 1 from 25/07/09, rock spike base of pitch
+3	0	2.75	0.9	1.3	rp l wall
+4	4	1.3	1.8	1.5	rp nose of r wall, numbered
+5	1.5	1	8	1.3	rp r wall numbered (4m to base of rift, below boulders)
+6	1.2	1.2	1.2	8.5	rp nose on l wall numbered
+7	-	-	-	-	unmarked, ledge near base of pitch
+
+*end catflap2

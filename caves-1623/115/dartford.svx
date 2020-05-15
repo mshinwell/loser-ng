@@ -1,0 +1,89 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schnellzughöhle 1623/115
+
+*begin dartford
+*title "Dartford Tunnel"
+
+*export 6
+*export 7
+*export 31
+*export 34	; bypass.2
+*export B5	; purgatory.B5
+
+; -1- Dartford Tunnel - Biwak
+; Messteam: Aiko Schütz, Robert Winkler, Arjan, Martijn
+; Zeichner: Robert Winkler
+; Referenz: Messbuch SMK 7
+*date 2005.08.09
+
+*data normal from to length gradient bearing
+6	7	15.57	-11	51	; 7 = MP32 CUCC
+7	8	8.36	37	327
+8	9	6.76	1	2
+9	10	27.39	-28	289
+10	11	20.12	-13	311
+11	12	18.70	-25	315
+12	13	16.71	-21	276
+13	14	7.71	11	322
+14	15	28.87	-25	258
+15	16	26.71	-17	242
+16	17	5.91	9	231	; 72_17 = 22 Cucc
+17	18	27.52	-11	309
+
+18	18_1	4.08	-15	355
+18_1	18_2	26.11	8	35
+18_2	18_3	28.79	7	42
+18_3	18_4	14.02	12	23
+18_4	18_5	12.10	0	21
+
+7	7_1	16.41	34	55
+7_1	7_2	11.15	-13	95
+7_2	7_3	10.90	4	7
+7_3	7_4	5.38	0	89
+
+; keine Raumwerte
+
+; -2-
+; Messteam: Aiko und Martijn
+; Referenz:
+*date 2005.08.10
+
+*data normal from to length clino compass
+18	19	5.25	-19	236
+19	20	10.83	-8	219
+20	21	12.43	-6	204
+21	22	5.48	-9	239
+22	23	10.55	-35	272	; 72_23 = 15CUCC
+23	23_1	16.62	1	26
+23_1	23_2	11.16	11	41
+23_2	23_3	4.02	6	38
+23	24	7.72	-24	208
+24	25	19.74	-8	231
+25	26	18.44	-12	211
+26	27	29.75	-18	215
+27	A1	27.47	-23	235
+27	28	19.58	-12	231
+28	29	10.56	-12	235
+
+29	B1	13.27	-7	164
+B1	B2	9.72	20	122
+B2	B3	6.18	-16	216
+B3	B4	11.51	26	115
+B4	B5	10.92	3	193
+B5	B6	12.65	25	129
+B3	C1	6.19	-26	320
+
+29	30	9.72	-19	235
+30	31	17.00	-19	342
+31	32	8.66	-31	243
+32	33	20.38	-18	310
+33	34	8.59	-26	284
+
+7_4	7_5	8.62	-6	117
+7_5	7_6	7.34	15	129
+7_6	7_7	3.47	-13	215
+7_7	7_8	27.00	23	128
+
+; keine Raumwerte
+
+*end dartford

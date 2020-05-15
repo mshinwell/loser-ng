@@ -1,0 +1,22 @@
+;1995.08.01 AERW Source: converted from SU file $.Survey.Surveys.Austria.D.Q152
+;1998.05.29 AERW added comments, refs, exports and correct dates
+
+*equate 152.BananaMain.44 p152
+*entrance p152
+
+*begin 152
+
+*title "Bananahöhle, 1623/152"
+
+*export BananaMain.44  ; entrance station p152 or Q3
+*export BananaCon.1    ; connection point at bolt in 113
+
+; ====== links between surveys in this file: ======
+
+*equate BananaCon.14 BananaMain.1
+
+*include bananamain
+
+*include bananacon
+
+*end 152

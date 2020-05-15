@@ -1,0 +1,50 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle 1623/204
+
+*begin sltr
+
+*title "S.L.T.R"
+*date 2007.08.01
+*team Insts Sarah White
+*team Notes Pete Harley
+;team Power Drill Nial Peters -- since when has a drill been a survey instrument? DL
+*instrument set - My Little Pony
+;Wook's Disto
+
+*export 0
+
+*calibrate tape -0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+2	1	1.06	180	+17	
+2	3	9.80	-	down
+3	4	3.91	291	-39	
+5	4	7.02	122	+68
+6	5	6.31	061	+69
+7	6	2.93	153	+28
+8	7	6.46	083	+86	
+9	8	10.62	090	+63
+10	9	1.79	023	+52
+11	10	16.32	070	+77
+11	12	8.29	197	-49
+12	13	9.97	285	-27
+14	13	5.96	067	+67
+15	14	3.56	093	+72
+15	16	7.32	267	-79
+0	1	2.72	345	+03	
+
+*data passage station	left	right	up	down	ignoreall
+1	1	1.5	0	1.5
+2	0	1.5	2	9
+3	0.2	1.5	9	0
+4	0	1	2	0
+5	3	0	-	-
+6	0	2.5	-	2
+7	2.5	0	-	-
+8	1.7	0	-	-
+9	3.5	0	5	0
+10	0	2	-	-
+
+
+
+*end sltr

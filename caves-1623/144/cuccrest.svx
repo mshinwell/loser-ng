@@ -1,0 +1,43 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Tonys Second Höhle 1623/144
+
+*begin cuccrest
+*title "Reste der CUCC Vermessung"
+
+*export 22	; 144ein.26
+
+; Messteam: Dave Brindle, Pete Lancaster
+; Zeichner: Pete Lancaster
+; Referenz: landscape-format brown-hardback notebook in AndyW's archive pp 15-26
+*date 1983.08.09
+
+*data normal from to length compass clino
+22	23	13.4	245	8
+23	24	12.3	231	-9
+24	25	3.0	236	-42
+25	26	24.8	274	-67
+26	27	4.3	7	-45
+27	28	14.6	316	-58
+28	29	11.5	302	-58
+29	30	8.7	271	-59
+30	31	4.6	317	-55
+31	32	7.3	281	-61
+32	33	6.5	297	-39
+33	34	9.7	288	-45
+34	35	3.1	345	-5
+35	36	13.0	-	Down
+34	37	4.4	321	4
+37	38	5.9	317	-9
+38	39	4.9	289	15
+39	40	10.4	317	40
+40	41	9.9	346	24
+41	42	14.7	297	35
+42	43	10.8	305	35
+43	44	14.7	317	46
+44	45	7.5	354	27
+45	46	4.9	280	51
+
+
+*end cuccrest
+
+

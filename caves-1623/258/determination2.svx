@@ -1,0 +1,59 @@
+*begin Determination2
+*export 9x 20x 4x
+
+*title "Continuation of survey in Tunnocks, Hurray for Boobies, on from Anthony / Chris / Holly survey - trip was Becka, Fleur and Holly rigging"
+*date 2013.08.06
+*team Instruments Fleur Loveridge
+*team Notes Becka Lawson
+*instrument CUCC conventional and 30m tape
+
+*calibrate tape +0.30	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+1	9x	7.83	044	-46
+2	1	28.82	-	down
+3	2	2.02	173	-39
+4	3	2.03	263	-36
+20x	4	1.76	224	-09
+
+4x	5	2.80	161	+03
+5	6	12.02	-	down
+
+6	7	2.73	160	-24
+7	8	18.25	-	down
+8	9	6.38	084	-27
+
+9	10	3.93	-	down
+11	10	2.27	346	-51
+11	12	7.45	124	+13
+12	13	8.28	132	+19
+10	14	18.91	198	-75
+15	14	3.83	356	-06	; written as 14 to 15 in notes
+15	16	4.67	-	down
+
+*data passage station left right up down ignoreall
+
+9x	2	1.6	10	0	old station of Anthony et al, lip of pitch
+1	3	3	30	5	r of rebelay bolt on 30m pitch
+2	0.5	0.3	1	30	y hang knot of pitch
+3	0	1	2	30	l wall at corner
+4	0.4	0	2	30	r wall
+20x	0	0.3	3	30	old station on l wall
+
+4x	0	0.5	4	1.8	old station, numbered
+5	0.3	0.3	2	10	y hang knot for pitch
+6	1.5	1.5	14	0	plumb to ledge
+
+7	3	2.5	15	20	lip of ledge
+8	1	3	30	1.7	standing on ledge
+9	0.3	0.1	0.6	3	nose above ledge, numbered
+10	2	0.5	5	10	plumb down to ledge
+11	0.5	0	1	1.3	nose of rock by tube
+
+12	0	0.4	0.2	0.3	l wall, draft, numbered
+13	0.3	0.1	0.1	0.4	r wall, mud tube, numbered
+14	2	1	20	1.8	base of pitch, numbered
+15	0	0.4	1	4	spit for final drop into rift, up guessed afterwards
+
+*end Determination2

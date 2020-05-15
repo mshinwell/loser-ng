@@ -1,0 +1,51 @@
+*begin sofaraway
+
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Kaninchenhöhle, 1623/161
+*date 2009.08.08
+*team Insts Becka
+*team Notes Becka
+*team Disto Ian
+*instrument Wookeys skil LDM
+*instrument pony beckas
+
+; Survey book reference
+;2009#33
+
+; Calibration:  
+
+
+; ====== stations refindable to link to other surveys: ======
+*export 1 10
+
+*calibrate tape +0.0    ; +ve if tape was too short, -ve if too long
+*data normal from to tape compass clino ignoreall
+
+;    from        to         tape compass   clino ; remarks
+*title sofaraway
+
+1	2	2.44	236	+05
+2	3	4.03	181	-61
+11	3	7.92	068	+86
+7	11	16.16	027	+74
+6	7	2.82	130	+17
+7	8	3.41	150	-48
+9	8	6.65	028	+72
+10	9	5.08	047	+17
+
+
+*data passage station     right   left  up  down    ignoreall
+
+1	0	0.5	8	1.5	rp at cm on l wall before crawl
+2	1.2	0	2.5	2	rp above right Y hang spit at pitch head
+3	0	10	20	30	rebelay spit about 4m below y hang
+;5	4	2	30	15	lower of 2 rebelay spits
+6	4	0	40	1.5	numbered rp at large ledge between puddle and bridge
+7	4	4	40	1.8	rp obvious spike at bridge
+8	0	5	45	8	rebelay spit at pitch below ledge
+9	0 	4	50	3	rp l wall base of pitch
+10	1.5	1	30	1.5	numbered rp where water from other aven enters
+11	2.5	4	30	0.5	about 3m above rebelay spit
+
+*end sofaraway

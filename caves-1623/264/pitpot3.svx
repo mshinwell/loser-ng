@@ -1,0 +1,32 @@
+*begin pitpot3
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2005-5 "Balcony Hohle"
+
+*export 3x
+
+*title "Pitpot 3"
+*date 2014.08.10
+*team distox Nathanael Dalton
+*team Notes Holly Bradley
+
+*ref 2014#43
+
+;from	to	tape	compass	clino	remarks
+3x	1	12.10	003.6	-52.4
+1	2	6.44	044.0	-37.6
+2	3	13.00	325.8	-52.5
+3	4	1.88	246.4	-39.7
+4	5	5.83	280.0	-71.0
+
+*data passage station left right up down ignoreall
+3x	1.79	0.00	23.17	-
+1	0.00	2.73	18.69	1.50
+2	2.73	1.00	27.76	3.00
+3	1.15	0.00	1.70	1.80
+4	0.00	0.45	3.50	6.55
+5	0.00	1.73	3.11	1.30
+
+
+*end pitpot3
+

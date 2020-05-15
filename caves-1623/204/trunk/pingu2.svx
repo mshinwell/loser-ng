@@ -1,0 +1,46 @@
+*begin pingu2
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Pingu pitch - bottom left pitch"
+*date 2011.08.01
+
+*team Insts Fernando Abarquero
+*team Notes Aiora Zabala
+*team Tape Becka Lawson
+
+*instrument unknown
+
+; ref 2011#25
+
+; Calibration: clino -22 +23, compass 334 154 (calibrated the day after)
+
+; ====== stations refindable to link to other surveys: ======
+
+*export X
+
+*calibrate tape +0.00
+; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	9.89	051	-09	; bottom horizontal bit, over sand/ dry mud
+2	3	6.65	254	+22
+3	4	8.59	327	+45
+4	5	5.34	302	+20
+5	6	9.39	295	+60
+6	7	10.62	284	+69
+X	7	3.76	036	-52
+
+
+*data passage station left right up down ignoreall
+X	1	0	15	1.2	rp rhw numbered 1 (connecting survey point, data copied from pingu.svx), looking down, on an edge of the right wall
+1	1.0	1.5	0.0	0.3	below the ammonite, on the wall just above a very low croll
+2	0.0	1.8	5.0	1.5
+3	0.7	2.0	6.0	1.8
+4	1.5	2.0	4.0	1.3	at the bottom edge of the big triangular block, bottom part of the pitch
+5	1.4	0.7	8.0	1.5
+6	2.5	2.0	7.0	1.8	
+7	2.5	2.0	6.0	2.0	top of the vertical pitch, near a spike
+
+
+*end pingu2

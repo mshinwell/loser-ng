@@ -1,0 +1,93 @@
+;> 1623/040
+
+
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schwarzmooskogel-Eishöhle alter Teil 1623/040
+
+
+*begin thalhammerhalle
+; Messteam: Fritz Mammel, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Thilo Müller
+
+
+*title "Michael-Thalhammer-Halle"
+*date 2003.08.26
+
+*export 17_1
+
+*units compass degrees
+*units clino degrees
+
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+1	2	20.33	-34.5	199
+2	3	20.85	-27	236
+2	4	19.7	-15	222
+4 	5	21.04	31	340.5
+5	6	7.35	21	345
+6	7	6.45	21	268
+7	8	9.7	27	320
+4	9	7.25	11	324	; Beginn Krokodilgang
+9	10	4.02	-40	297
+
+10	11	6.3	-32	218
+11	12	3.25	-28	249
+12	13	9.78	-10	234
+13	14	9.4	-11	244
+
+14	15	15.8	-14	245
+15	16	6.3	-20	251
+16	17	2.5	-30	243
+17	17_1	29.45	5	335	; MP in Altausseer Halle
+
+1	18	9.07	0	151	; Eingang - Seitengang
+18	19	4.86	-12	181
+
+19	20	3.03	-2	88
+20	21	2.03	-1	31
+21	22	3.19	14	99
+;22	23	2.2	12	29	; Ausgang Seitengang
+
+
+;Raumwerte
+*data passage station left right up down
+1	8	0	5	1	;Eingang Eingangs-Doline	
+2	0.3	3.5	7	1.5		 	
+3	9	7.2	25	1.5			
+
+*data passage station left right up down
+2	0.3	3.5	7	1.5		 	
+4	5.5	7	3	0			
+5	2	1	1.5	1			
+6	3	0	2	1			
+7	0	1.5	1	1			
+8	0.7	0.7	1.5	0.3		 	
+
+*data passage station left right up down
+4	5.5	7	3	0			
+9	0.4	0.5	0	1	;Beginn Krokodilgang	
+10	1	0	1.5	0.5			
+11	0	0.5	1.5	1			
+12	0.5	0	2	1			
+13	0	1	2.5	0.3			
+14	0	1	2.5	1		 	
+15	0	0.8	2.5	0.7			
+16	0.2	1	2	1.2			
+17	0	1.5	2	3.5			
+17_1	-	-	-	-	;MP in Altausseer Halle	
+
+
+*data passage station left right up down
+1	8	0	5	1	;Eingang	
+18	1	0	0.5	1.5	;Eingang Seitengang	
+19	1	0	0.5	0.5			
+20	0.8	0	0.7	0.4			
+21	0	0.6	1	0.5			
+22	0.6	0	0.4	0.3			
+;23	1	0.7	2	0	;Ausgang Seitengang	
+							
+
+
+*end thalhammerhalle

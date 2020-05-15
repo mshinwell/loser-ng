@@ -1,0 +1,19 @@
+*equate 2006-70.1 p2006-70
+*entrance p2006-70
+
+*begin 2006-70
+
+*date 2007.07.15
+*team Insts Olly
+*team Notes Jenny
+*team Pics Olly
+*team Tape Olly
+*instrument ours + disto
+; notes in 2007 01#
+
+*export 1
+
+1	2	5.741	069	-35
+2	3	10.6	-	down
+
+*end 2006-70

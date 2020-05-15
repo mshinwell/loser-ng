@@ -1,0 +1,65 @@
+*begin bipedalpassage2
+
+*export 13	37
+
+; Cave: Balkonhoehle
+; Area in cave/QM:beyond Bipedal Traverse, Artic Padle Spunge (?)
+*title bipedal_passage2
+*date 2015.08.03
+*team Insts BenW
+*team Notes Pete
+*instrument Pete/Fleur DistoX
+; Calibration: none
+*ref 2015#48
+
+*data normal from  to   tape  compass   clino
+13	33	3.44	060	5
+33	34	4.35	210	48
+34	35	4	234	-20
+35	36	1.9	195	-12
+36	37	8.68	309	-8
+37	38	3.72	035	30
+38	39	8.88	270	-25
+39	40	6.87	285	-24
+40	41	15.16	306	-17
+41	42	3.81	346	13
+42	43	4.59	280	-18
+43	44	2.66	277	2
+44	45	3.36	341	-11
+45	46	2.38	039	1
+46	47	5.13	355	16
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+33	4	0.3	6	0.4
+34	0	1.1	0.4	6.5
+35	1.1	0	0.6	0.3
+36	0.5	0.8	0.4	0.6
+37	1	6	5	1.5
+38	2	0	0.5	1.4
+39	1.9	0.1	0.4	1.5
+40	0	1.4	1.1	1.2
+41	2	0.6	1.3	3.9
+42	1	0.2	0.3	1
+43	1.1	0.6	0.4	0.1
+44	0.7	0.6	0.5	1.1
+45	0.1	0.5	0.4	0.3
+46	0.4	0.3	0.4	0.4
+47	0.5	0.3	0.4	0.3
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    C    bipedalpassage2.46    -    narrow rift for small person with howling draft. Very close to Dark Arts 1 (< 10m) and at same level.
+;QM2    D    bipedalpassage2.47    -    not as drafty as C lead above; easy digging in sand. If choice suggest insert thin person into lead above.
+
+*end bipedalpassage2

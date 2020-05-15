@@ -1,0 +1,82 @@
+*begin miraclemaze2
+
+; stations linked into other surveys (or likely to)
+*export 23 8a
+
+; Cave: Fischgesichthoehle
+; Area in cave/QM: Below rubble rumble
+*title "miraclemaze2"
+*date 2018.08.03
+*team Insts Adam Henry
+*team Notes Cat Henry
+*team Pics Adam Henry
+*team Dog Michael Sargent
+*instrument DistoX
+; Calibration: Traungold (hole by top camp), 2018.08.01, max error 0.8 deg
+*ref 2018#30
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+23	1	8.08	89.4	12
+1	2	9.83	176.4	-9.7
+2	3	2.86	87.4	-1
+3	4	4.76	151.4	-10.6
+4	5	3.39	48.9	6.3
+5	6	7.26	178.6	-10.2
+6	7	2.33	207.4	-4
+7	8	4.54	156.9	-11.8
+8	9	2.69	215.6	12.6
+9	8a	8.17	127.6	-8.5	
+
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Red nail varnish markings
+
+;1	0	2.3	0.9	1.6	LHW
+;2	1.1	0	0.4	1.2	NP RHW
+;3	0	1.3	0.6	1.3	NP LHW
+;4	1.3	0	0.5	0.8	NP RHW
+;5	0	0.6	0.5	1.6	NP LHW
+;6	0	1.2	0.6	0.4	NP LHW
+;7	1.3	0	0.7	0.6	NP RHW
+;8	0	1.3	0.6	0.3	NP LHW
+;9	1.0	0	0	1.3	NP RHW
+;8a	0	1.4	0.6	1.2	NP
+
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down ignoreall
+23	0	0	0	0	connection
+1	0	2.3	0.9	1.6	LHW
+2	1.1	0	0.4	1.2	NP RHW
+3	0	1.3	0.6	1.3	NP LHW
+4	1.3	0	0.5	0.8	NP RHW
+5	0	0.6	0.5	1.6	NP LHW
+6	0	1.2	0.6	0.4	NP LHW
+7	1.3	0	0.7	0.6	NP RHW
+8	0	1.3	0.6	0.3	NP LHW
+9	1.0	0	0	1.3	NP RHW
+8a	0	1.4	0.6	1.2	NP
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;None
+
+;------------
+;Cave description  ;(leave commented-out)
+;Meandering passage that joins other sections of cave - miracle maze to kublakhan
+
+*end miraclemaze2

@@ -1,0 +1,158 @@
+;2000.03.20 W Added missing semicolons in part 4 survey.
+
+*begin lostinspace
+
+*export 1.1 1.7 2.1 2.5
+
+*equate 1.13 2.7
+;*equate 2.1 3.1 ; survey 3 no longer connected
+*equate 4.1 2.1
+
+*begin 1
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Kaninchenhöhle, 1623/161 (136)
+*title "Lost in Space chamber"
+*date 1999.07.26
+*team Insts Phil Underwood
+*team Notes Wookey
+*team Pics Wookey
+*team Tape Tony
+*instrument Compass #1 ; Clino #1, tape in green harness (22cm too long)
+; Calibration:  (at Top camp) 
+;               down: clino -7, -7, comp 091,091
+;               up: clino +6,+6, comp 271.5,270.5 
+; ref.: 1999 KH survey book pp - 
+
+*export 1 7 13
+
+*calibrate tape -0.22
+
+1   2   6.44    287 -39
+2   3   12.57   256 -38
+4   3   17.52   005 +01
+5   3   18.09   068 +15
+5   6   18.37   177 -03
+5   7   21.515  234 -30
+8   7   22.13   141 +05
+7   9   13.50   216 +26
+9   10  6.455   272 -14
+10  11  9.86    285 -37
+12  11  29.84   029 -12
+9   13  18.48   212 +45
+14  13  9.74    323 -30
+
+;stn    L   R   U   D   Desc
+;2  ~15 5   1/2 1   Red paint spot
+;3  ~15 4   5   0/5 Red paint on rock
+;4  0   20  20+ 1   Red paint on rock
+;5  18  3/5 3   2   Red tip of rock
+;6  0/5 21  8   1   '.6' on wall
+;7  -   8-10    9   1/0 bottom corner of large boulder
+;8  2   1/5 4   6 (or 1 to rock)    red
+;9
+;10
+;11 ~8  1/5 5   1   Red
+;12 2/5 0/4 1/5 0/3 4(extension) red '.12' on rock
+;13 8   2   4   1   unstable cairn
+;14 5   8   4/5 0   red '.14' (looks like 19) on rock on top of pile
+
+*end 1
+
+*begin 2
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Kaninchenhöhle, 1623/161 (136)
+*title "Lost in Space chamber"
+*date 1999.07.27
+*team Insts Jon Telling
+*team Notes Andrew A
+*team Pics Andrew A
+*team Tape Both
+*instrument Compass #4 ; Clino #4
+;  tape 22/5 cm too long for first leg, rest read from 50cm mark
+; Calibration:  (at Top camp) 
+;               down: clino -6, -6, comp 089,088
+;               up: clino +8,+7, comp 267,271/5,269/5 
+; ref.: 1999 KH survey book pp - 
+
+*export 1 5 7
+
+*calibrate tape -0.22
+2   1   22.60   270 -34
+*calibrate tape +0.50
+2   3   14.68   105 +72
+4   3   4.50    345 -41
+4   5   3.54    021.5   +12
+6   5   26.34   247.5   -22
+*calibrate tape +5.00
+6   7   25.91   029.5   -15 ;tape read from 5m mark
+*calibrate tape 5.00
+
+;stn    L   R   U   D   Desc
+;1  20  9   6   2   White cross, number '1' in pencil
+;2  4   6   5   0.4 -
+;3  1   0   0   3.5 Bolt marked 'STN3' pencil. angles of NSEW: 105 285 15 195
+;4  1.5 7   8   1   see plan for LRUD directions
+;5  1   7.5 8   1.7 Spit 'STN5'
+;6  5   4   3   0.2 -
+;7  2.5 20  6   2   Red paint mark on cairn that fell down
+
+*end 2
+
+
+;*begin 3
+;this grade 1 now superseded by watershoot survey
+;
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Kaninchenhöhle, 1623/161 (136)
+;*title "Lost in Space part 3"
+;*date 1999.07.28
+;*team Insts Becka Lawson
+;*team Notes N/A
+;*team Pics N/A
+;*team Tape N/A
+;*instrument Compass #3 ; Clino #3 
+; Calibration:  None
+; ref.: 1999 KH survey book pp -
+;
+;1  2   35  -   down
+;2  3   40  245 -35
+;
+;*end 3
+
+*begin 4
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Kaninchenhöhle, 1623/161 (136)
+*title "Lost in Space chamber"
+*date 1999.08.9
+*team Insts Becka
+*team Notes Becka
+*team Pics Becka
+*team Tape Jon
+*instrument Compass #1 ; Clino #1
+;  tape 22 cm too long
+; Calibration:  (at Top camp) 
+;               down: clino -7, -7, -6/5, comp 089/5, 91, 90
+;               up: clino +6, +6, +6 comp 270, 269/5, 270
+; ref.: 1999 KH survey book pp - 
+
+*export 1
+
+*calibrate tape -0.22
+1   2   24.55   204 +27
+2   3   9   90  0   ;*GRADE 1 SURVEY!!!*
+3   4   15  -   down    ;*GRADE 1 SURVEY!!!*
+
+;stn    L   R   U   D   Desc
+;1                  See Andy & Jon's survey notes
+;2  3.5 3   3   2.5 CM high on wall at start of passage out of chamber
+;3  0.5 0.5 15  15  Unmarked head of pitch into big aven and large wet chamber, we THINK this is the left route chamber
+
+*end 4
+
+*end lostinspace
+
+*equate PitOfDamnation.7_ lostinspace.1.7
+*include damnpit

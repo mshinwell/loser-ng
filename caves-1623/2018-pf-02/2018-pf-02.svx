@@ -1,0 +1,34 @@
+*equate p2018-pf-02 2018-pf-02.surface
+*entrance p2018-pf-02
+
+*begin 2018-pf-02
+
+; Locn:	Totes Giber, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "2018-pf-02"
+*date 2018.08.08
+*team Insts Paul Fox
+*team Notes Paul Fox
+
+; Note that this survey was very rudimentary, with a tape measure being dropped down
+; the shaft and then used to measure some key dimensions.
+; As this didn't use stations in the normal way, "virtual stations"
+; have been introduced was follows: 
+; surface - the tape measure as it passed the surface, equated to the tag though this is
+; not strictly accurate
+; bottom - the point where the tape measure touched the deepest part of the hole, assumed
+; to be vertically below 'surface'
+; forward - the end of the rift in the 055o direction
+; back - the end of the rift in the opposite direction
+; centre - a "floating" point where the two axes from surface-bottom and
+; forward-back cross
+
+*export surface
+
+*data normal from	to	tape	compass	clino
+surface	bottom	11.9	0	-90	
+bottom	centre	2.1	0	+90
+back	centre	1.7	055	0
+back	forward	7.3	055	0
+	
+*end 2018-pf-02
+

@@ -1,0 +1,303 @@
+*begin usualsuspects
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnockschacht 258
+*title "Usual Suspects"
+
+*export 1.6x 1.2 1.16
+*export 2.8
+*export 3.6 3.11 3.24 3.26
+
+*equate 2.1   1.22
+*equate 2.14x 1.14
+*equate 2.23x 1.23
+*equate 2.26x 1.26
+*equate 2.B   1.27
+*equate 2.C   1.25
+*equate 2.D   1.18
+*equate 2.E   1.8
+
+*equate 3.12x 2.12
+*equate 3.13x 2.13
+*equate 3.31x 2.31
+
+*begin 1
+*date 2009.07.30
+*team Insts Becka Lawson
+*team Tape Gareth Phillips ; for first two legs only then Steve Jones
+*team Notes Becka Lawson
+*instrument Yellow tape with 40cm missing for first two legs only then red 50m tape; Black compass with light bar for compass (only used on a few legs so I've entered pony data for survex) and Becka's pony for clino and second compass readings
+; Calibration: AtoB 146, +22, 145 +22; BtoA 326 -23, 326 -23
+;ref.: 2009#27
+
+; ====== stations refindable to link to other surveys: ======
+*export 2 6x 8 14 16 18 22 23 25 26 27
+
+*calibrate tape +0.0   ; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+1   6x  0.93    120 +69 ;126 compass, 40cm too short tape for this leg so changed from 1.33m in original notes
+1   2   5.68    268 -37 ;265 compass, 40cm too short tape for this leg so changed from 6.08m in original notes
+
+*team Tape Steve Jones
+2   4   24.24   -   DOWN
+4   5   46.35   -   DOWN
+5   6   3.59    159 -11
+6   7   28.52   -   DOWN
+7   8   9.12    103 -15 ; 112 compass
+10  11  4.58    226 +26
+10  12  3.93    -   DOWN
+13  11  6.94    338 -29 ; 338 compass
+13  8   13.30   192 -03 
+14  8   9.44    355 0
+15  8   10.96   028 -24
+15  16  7.68    203 +04
+16  17  6.88    -   DOWN
+18  16  11.67   026 +54 ; reversed leg - written as 16 to 18 in notes
+11  19  3.23    359 +71
+19  20  1.44    039 -03
+20  21  2.73    355 -11
+21  22  3.42    345 +06
+23  22  4.15    035 -46
+23  24  3.60    037 +34
+25  24  5.18    327 +10
+25  26  7.54    118 +25
+27  26  11.86   307 -27 
+28  25  2.72    162 +18
+23  28  4.51    112 +46
+
+*data passage station left right up down ignoreall
+
+6x  0   2.5 3   1.8 rp l wall numbered from old survey
+1   0   2.4 4   1.5 rp l wall at corner
+2   2   8   10  75  main hang spit (lower of two spits)
+4   -   -   -   -   plumb level with Gareth's spit about 5m below 'ledge' (not used in later rig by Ollie as rubs). Spit is numbered 4
+5   1.5 1   85  1.5 rp on rock at ledge
+6   1.6 0   8   30  rp 60cm below third (furthest) spit at ledge
+7   -   -   -   -   rp on ledge 5m above chamber floor
+13  0   5   8   3   rp l wall of chamber
+8   1.9 7   40  0.9 rp tip boulder
+
+10  0.8 2   2   2   numbered rp above c3 at end of chamber (4m to true floor)
+11  1   0.5 5   0.4 rp boulder
+12  1.5 2   5.5 0   plumb to floor
+20  0.75    1.2 0.3 0.5 rp boulder in bypass
+
+14  0   0.8 0.1 2   rp l wall by drafting passage
+15  4   6   40  3   numbered rp on VAST boulder
+16  2   2   40  5   rp on boulder
+18  0.3 0   5   2.5 rp r wall 
+19  0   1   2   1   rp l wall
+
+21  1   1   0   0.4 rp ceiling in crawl
+22  1.5 0.5 2   1.5 rp l wall / ceiling pendant
+23  1   2   2   1.2 numbered rp l wall pendant
+24  0   1   1.6 3   rp l wall
+25  1.3 0.5 4.5 2.5 rp boulder
+26  3   0   3.5 1   rp r wall
+27  4   1.5 8   1.3 rp tip boulder in chamber
+28  1.3 0   1   2   rp r wall
+
+*end 1
+
+
+*begin 2
+
+*date 2009.08.01
+*team Insts Becka Lawson ; then Ollie Stevens
+*team Tape Steve Jones
+*team Notes Becka Lawson
+*instrument Set 1 A; Yellow tape read from 0cm; Becka's pony for clino and second compass readings; use pony data for clino and compass readings for compass
+; Calibration: AtoB 146, +22, 145 +22; BtoA 326 -23, 326 -23
+;ref.: 2009#28
+
+; ====== stations refindable to link to other surveys: ======
+*export 1 8 12 13 31 14x 23x 26x B C D E
+
+*calibrate tape +0.0   ; +ve if tape was too short, -ve if too long
+
+; NOTE pony readings in the notes are all reversed with respect to both the from/to stations and the set 1A readings; for this survex file I have then reversed all the pony clinos (so -11 becomes +11) but I have retained the compass readings as written in the notes
+
+*data normal from to tape compass clino ; pony compass then set 1A clino (ignore these last two in Survex)
+1   2   1.16    067 +23 ;   259 +22
+3   2   2.31    148 +01 ;   330 +01
+3   4   1.66    358 +22 ;   172 +22
+4   5   2.64    300 +36 ;   118 +38
+6   5   2.38    020 +16 ;   206 +17
+7   6   2.91    324 -55 ;   136 -57
+7   8   4.03    197 -25 ;   022 -27
+; 9   8   4.42    156 -13 ;   336 -17 notes say to use pony compass not  set 1a compass which was 145 - 2010, commented out anyway as repeated this leg when surveyed this passage
+8   23x 1.77    110 +11 ;   295 +09
+10  26x 2.54    210 +24 ;   031 +25
+11  10  4.15    150 +22 ;   335 +22 
+12  10  7.13    249 -28 ;   066 -28
+13  12  4.87    281 -35 ;   099 -37
+14  B   6.39    156 -08 ;   341 -10
+14  13  5.09    058 -14 ;   248 -16
+
+B   15  5.12    121 0   ;   312 0
+14x 17  4.99    176 -23 ;   356 -25
+17  18  2.47    260 -42 ;   078 -44
+18  19  2.71    173 -54 ;   358 -57
+19  20  3.12    152 -23 ;   339 -23
+
+; Ollie takes over from Becka reading the set 1a compass and clino for following legs:
+*team Insts Ollie Stevens
+ 
+11  21  3.76    246 -30 ;   062 -25
+21  C   2.38    279 -38 ;   281 -45
+22  B   6.45    344 -25 ;   160 -25
+22  23  3.96    203 +01 ;   022 +03
+24  23  4.87    312 +02 ;   124 0   clino for set 1a reading suspect
+25  24  4.39    260 -17 ;   078 -18
+25  26  4.85    205 -13 ;   024 -12
+25  27  5.51    164 0   ;   343 -02
+28  27  4.65    267 -08 ;   078 -09
+28  29  8.47    170 -17 ;   348 -18
+
+30  29  11.21   347 0   ;   165 +05
+30  31  2.53    227 +14 ;   048 +14
+27  32  3.55    171 +07 ;   348 +08
+
+; Becka takes over again from Ollie reading the set 1a compass and clino for following legs:
+*team Insts Becka Lawson
+ 
+33  D   5.37    018 -06 ;   203 -08
+34  E   4.02    330 -08 ;   153 -11
+34  35  3.52    062 -55 ;   254 -54
+35  36  4.70    -   down    ;   -   down
+
+*data passage station left right up down ignoreall
+
+1   1.5 1   3   1.5 old station at 3 way junction on rock pendant after crawl (US1 station 22)
+2   0.7 0.3 2.5 1.8 rp on block by start of passage
+3   0.4 0   1.8 1   rp r wall
+4   0.6 0   2   1   rp r wall
+5   0.6 0   1   1   rp r wall
+6   0.8 1   2   1   rp r wall / junction
+7   0   1.7 0.1 1.5 rp l wall
+8   3   0.3 2   0.6 numbered rp on boulder at end of loop
+;9   0   0.4 1   2   numbered rp on l wall
+23x 2   0.5 2   1.5 old numbered station on pendant
+26x 2.5 0   3   1.3 old numbered station at start of mud slope
+10  1.5 -   5   0.3 temporary station, right is passage
+11  1   0   1.5 1   rp r wall passage
+12  1   3   5   0.4 numbered rp on boulder
+13  0   6   6   1   rp on upper wall
+14  5   0   5   1.9 rp on central pillar
+B   5   1.5 10  1   last station of previous survey, mid chamber (US1 station 27)
+
+15  6   5   12  1   numnbered rp on r by pitch in chamber to p10 - might be misnumbered as 16 (LRUD number given as 16 in notes)
+14x 0.1 0.6 0.1 2   old station at drafty passage off main chamber
+17  0.4 1   2   0.5 rp ceiling at junction
+18  0.75    0.75    1.5 1   rp r boulder
+19  0.7 0.7 0.2 0.7 ceiling spike with popcorn by squeeze
+20  0   0.3 2   1.5 rp l wall after squeeze
+21  1   0   4   1.5 rp r wall as exit cave
+C   0.5 1.2 3   2   junction above chamber, old station on rock by shelf (US1 station 25)
+22  1.2 0.5 6   1.5 rp r wall above c2 before pitch
+23  1.5 0   1.5 1.5 rp r wall after pitch
+24  1.8 0.2 2   1.2 rp r wall before bigger pitch hole
+25  0.1 2.5 1   1.8 rp l wall after bigger pitch hole
+26  1   0   10  1.5 numbered rp on r wall down r passage (after aven before first corner)
+27  2.5 0   1.5 1.5 rp r wall at junction
+28  1.2 1.8 1.7 1   rp / chalk on l wall of l passage
+29  2   0   4   1.5 rp r wall past oxbow, numbered in pencil
+
+30  0   2   2   4.5 rp l wall
+31  1.7 0.1 1.4 1.6 numbered rp on r wall
+32  1   1.5 0.3 1.5 rp l of ceiling pendant at pitch
+D   0.3 0   1   2.5 Southern most station in chamber, old station at start of narrow rift - station 18 of US1
+33  0   0.4 4   1   leg to 33 was from top of very large boulder at station 16 in chamber
+E   1.5 8   40  1.2 initial old station in chamber on small rock near rope - US1 station 8
+34  0.8 0   0.5 2   rp r wall start of thin rift
+35  0   1   1   3.5 rp l wall
+36  -   -   -   -   unmarked plumb
+
+*end 2
+
+
+*begin 3
+
+*date 2009.08.02
+*team Insts Julian Todd
+*team Tape Becka Lawson
+*team Notes Becka Lawson
+*instrument Set 1 5; Yellow tape read from 0cm; Becka's pony for clino and second compass readings; use pony data for clino and compass readings for compass
+; Calibration: AtoB 149, +22
+;ref.: 2009#29
+
+; ====== stations refindable to link to other surveys: ======
+*export 6 11 12x 13x 31x 24 26
+
+*calibrate tape +0.0   ; +ve if tape was too short, -ve if too long
+
+; NOTE pony readings in the notes are all reversed with respect to both the from/to stations and the set 1A readings; for this survex file I have then reversed all the pony clinos (so -11 becomes +11) but I have retained the compass readings as written in the notes
+
+*data normal from to tape compass clino	; pony compass then set 1A clino (ignore these last two in Survex)
+13x	1	6.79	023	+04	;	203	+04
+2	1	4.85	229	-24	;	050	-23
+2	3	9.44	266	-31	;	081	-32
+4	3	4.13	343	0	;	166	-01
+4	12x	4.50	210	-05	;	036	-07
+1	5	7.40	005	+04	;	182	+04
+6	5	7.43	245	-27	;	070	-29
+6	7	11.10	344	0	;	164	-02
+8	7	12.73	174	+15	;	358	+11
+8	9	7.82	057	+32	;	239	+27
+10	9	4.50	291	-38	;	111	-40
+10	11	7.66	012	+12	;	193	+13
+2	13	8.17	103	+33	;	289	+35
+23	8	7.40	127	+19	;	307	+18
+23	24	8.88	339	-16	;	160	-17
+
+31x	14	3.41	135	-08	;	322	-09
+14	15	4.48	157	+10	;	340	+08
+15	16	8.21	090	+03	;	277	+04
+17	16	6.05	238	+03	;	057	+04
+17	18	8.72	052	-01	;	246	-02
+18	19	1.57	-	down	;	-	down
+20	19	3.95	251	+24	;	069	+24
+21	20	6.67	252	+06	;	073	+5.5
+21	22	5.74	022	-10	;	210	-12
+6	25	7.16	144	+37	;	317	+33
+25	26	2.66	143	+34	;	333	+30
+7	27	3.24	075	+16	;	263	+19
+
+*data passage station left right up down ignoreall
+
+13x	-	-	-	-	US2 old station 13, numbered, top of chamber
+1	1	2.5	1.5	1	rp l wall above passage
+2	0.2	1.5	0.4	1	rp l wall end chamber / start of passage
+3	1	0	1.3	0.8	rp r wall
+4	0.5	0.7	2	0.4	rp pendant on l
+12x	1	2.5	8	0.3	US2 old station 12, numbered boulder on l wall of chamber
+5	1.3	0.4	0.7	1.7	numbered rp r wall / ceiling at corner
+6	3	2	1	1	rp floor knobble in main passage
+7	0.5	1.9	1	1	numbered rp on l wall at junction
+8	2.5	2	2	0.4	rp floor boulder
+9	0.4	1.5	1.8	1.4	rp l wall
+10	2	0.2	1.2	2.1	rp r wall pendant at corner
+11	0.5	2	1.5	1.5	numbered rp l wall at junction
+13	1	1	0.1	1	rp back wall
+
+23	0.4	2	2	1.3	rp l wall at L junction
+24	1.6	0	2	0.5	rp flake on r wall
+
+31x	1.5	0	1.3	1.6	numbered rp US2 old station 31, at pitch
+14	0.2	1.3	2.2	8	rp rock bridge mid-traverse
+15	1.5	4	4	1.5	rp on huge rock pillar
+16	0.5	3	8	2	rp block on r wall
+17	0	1	12	2	rp l wall where narrows, full left is 3m
+18	0.5	0.7	1.5	10	rp climb at end wall of rift
+19	0.3	0.3	0.3	10	rp on floor at start of squeeze through hole under rock col
+20	0.2	0.2	0	1.8	rp ceiling
+21	1.5	1.5	10	3	rp boulder tip in chamber
+22	0	6	20	1.5	rp l wall by HUGE pitch
+*data passage station left right up down ignoreall
+25	0	0.5	0.6	0.5	rp l wall
+26	-	-	10	0	rp spike in floor at crossrift, left and right both passage
+27	0.1	1.5	1.6	0.5	rp l wall
+
+*end 3
+*end usualsuspects

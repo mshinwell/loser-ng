@@ -1,0 +1,33 @@
+*begin veined_deadend
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Dead end off veined (QM 2000_10c)"
+*date 2000.07.27
+*team Insts Martin Green
+*team Notes Earl Merson
+*team Pics Earl Merson
+*team Tape Martin Green
+*instrument Compass #2 ; Clino #2, Tape ?
+; Calibration: Lower TC: 312/+21	311.5/+9	311.5/+10
+; ref.:	2000 #14
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+0	1	0.89	099	+43
+1	2	3.41	054	+19
+2	3	2.00	008.5	+16	; station 3 is "approximate"!
+
+;station details
+;name	L	R	U	D	description
+;0	3	0	1.5	0.6	Point in 110 A Day - RH wall [QM 2000_10c]
+;1	0	0.6	0.2	0.4	Point on L wall, red dot
+;2	0.4	0	0.5	0.5	Red dot on R wall
+;3	0.4	0.2	0.6	0.5	Junction of two small passages
+
+*end veined_deadend

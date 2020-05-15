@@ -1,0 +1,51 @@
+; Cave: 258 "Tunnockschacht" Below Kraken (Hydra)
+
+*begin hydra
+
+
+*include kraken.svx
+
+*include tentacle.svx
+*equate tentacle.9 kraken.3
+
+*include livingthedream
+*equate livingthedream.30 tentacle.1
+
+*include slackers.svx
+*equate livingthedream.01 slackers.1
+*equate livingthedream.28  slackers.28
+
+*include slackers2.svx
+*equate slackers.14 slackers2.14x
+
+*include slackers3.svx
+*equate slackers.9 slackers3.9x
+*equate slackers.39 slackers3.39x
+
+*include slackers4.svx
+*equate slackers.52 slackers4.52x
+*equate slackers.57 slackers4.57x
+*equate slackers.73 slackers4.73x
+
+*include slackers5.svx
+*equate slackers.79 slackers5.79x
+
+*include slackers6.svx
+*equate slackers5.28 slackers6.01
+
+*include wrongcustard.svx
+*equate slackers4.9 wrongcustard.01
+
+*include slackers7.svx
+*equate slackers.75 slackers7.01
+
+*include lobsterpot.svx
+*equate slackers5.14 lobsterpot.11
+
+*include kippercock.svx
+*equate livingthedream.03 kippercock.01
+
+*include indianropetrick.svx
+*equate livingthedream.15 indianropetrick.06
+
+*end hydra

@@ -1,0 +1,54 @@
+*begin intothinair
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export z 13
+
+*title "Into Thin Air"
+*date 2011.08.03
+*team Notes Becka Lawson
+*team Insts Neil Pacey
+*team Tape Emma Wilson
+*instrument Chris Smith's Bristol Geography comp + clino and Neil's DistoX 
+
+; calibrate - A to B 326 -21 B to A 147 +20
+
+;ref.: 2011#17
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+z	1	10.29	028	+51	; disto placed behind point so add 13cm to this reading (written as 10.16 in notes)
+2	1	8.85	209	-15	; disto placed behind point so add 13cm to this reading
+3	2	7.02	211	-19	; disto placed behind point so add 13cm to this reading
+4	3	9.59	209	-01	; disto placed behind point so add 13cm to this reading
+5	4	6.08	222	-01	; disto placed behind point so add 13cm to this reading
+6	5	5.74	193	-51	; disto placed behind point so add 13cm to this reading
+7	6	5.78	337	+18
+8	7	2.31	346	-01
+9	8	1.52	233	+40
+10	9	3.74	208	+46
+11	10	3.70	243	-31
+12	11	5.20	213	-10
+13	12	2.34	244	-10
+				
+*data passage station left right up down ignoreall
+
+z	0.1	1.1	7	2.5	not numbered - may be flyinghigh3.10 - LRUDs match fairly well
+1	0.9	1.2	0	1.1
+2	0	2	1.1	2.5
+3	0.3	2	2	5
+4	0	0.7	5	2
+5	1	0	7	2
+6	0	0.7	4	6
+7	0	0.5	3	4
+8	0.5	0	2.3	1.6	down 4m from false floor
+9	0.1	0.5	3.5	4	down also pitch
+10	0.2	1.4	4.5	4
+11	0.5	1.2	5	4
+12	2	0	7	1.2
+13	1.1	1.2	5	1
+
+*end   intothinair

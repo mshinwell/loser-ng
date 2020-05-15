@@ -1,0 +1,272 @@
+;> 1623/41
+
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Stellerweghöhle 1623/41
+; 7 Vermessungen
+
+
+*begin diaet
+
+*export 2
+*export 12_Q
+*export 25_43	43_2
+
+
+; -1-
+; Messteam: Ilja Anders, Robert Winkler, Uwe Kirsamer
+; Zeichner: Robert Winkler
+; Referenz: Messbuch Robert + Saskia
+
+*title "Von Alice im Wunderland in den Diätencanyon"
+
+*date 2005.08.10
+
+
+*units compass degrees
+*units clino degrees
+
+
+*data normal from to length clino compass
+; von  bis    Länge   Neigung Richtung rechts	links	oben	unten
+2	3	1.90	-39	76   ; 	0	2	10	-25
+3	4	24.47	-90	0    ;	1	1	25	0
+4	5	5.41	30	174  ;	0	1	6	2
+5	6	3.34	22	233  ;	1	0	3	2
+6	7	2.58	-21	192  ;  0.5	0	0.5	4
+7	8	4.36	-90	0    ;	0	0.8	5	2
+8	8_1	0.69	-22	270  ;	3	1	5	2
+8_1	8_2	5.46	-38	11   ;	0.5 	0.2	7	0
+8	9	3.43	4	171  ;	0.5	0	3	10
+9	10	8.17	-90	0    ;	0.5	0.5	11	4
+10	11	1.94	2	231  ;	1	0	1.5	2.5
+11	12	3.32	-69	189  ; 	2	5	2	0
+
+*data passage station left right up down
+3	0	2	10	25
+4	1	1	25	0
+5	0	1	6	2
+6	1	0	3	2
+7	0.5	0	0.5	4
+8	0	0.8	5	2
+8_1	3	1	5	2
+8_2	0.5	0.2	7	0
+
+*data passage station left right up down
+8	0	0.8	5	2
+9	0.5	0	3	10
+10	0.5	0.5	11	4
+11	1	0	1.5	2.5
+12	2	5	2	0
+
+; -2-
+; Messteam: Ilja Anders, Uwe Kirsamer,Matthias Jauss
+; Zeichner: Matthias Jauss
+; Referenz fehlt
+*date 2005.08.11
+*data normal from to length clino compass
+12	13	7.70	-24	106  ;	2.5	0.2	1	1
+13	14	6.64	-15	48   ;	0.3	0.6	0	0.5
+
+14	14_1	3.24	-18	196  ;	2	1	0	0.6
+14_1	14_2	2.90	-29	134  ;	0.6	0.5	0	0.6
+
+14	15	2.91	-2	51   ;	0	1	0.5	0.5
+15	16	1.63	1	132  ;	1.5	0	0.1	0.5
+16	17	2.59	2	27   ;  1.3	0	0	0.3
+17	18	1.92	17	296  ;	0	1.5	0.2	0.2
+18	19	4.26	4	19   ;	0.2	0.1	0	0.8
+19	20	4.68	1	7    ;	1.5	1.2	0	0.6
+20	21	3.68	-23	266  ;	2.5	0	1.5	0.5
+21	22	4.68	-18	212  ;	0	3	1	0.8
+22	23	8.64	-8	261  ;	0	0.5	0.4	0.5
+23	24	3.13	7	305  ;  0.1	1.2	0	1.2
+24	25	11.81	-9	293  ;	1.4	0.6	6	0
+25	26	5.04	-6	214  ;	0	1.5	0	1.8
+26	27	4.10	-28	258  ;	1.5	0	1.5	1.2
+27	28	4.22	-39	176  ;	3	2.5	1	1.5
+28	29	8.90	-33	96   ;	0	1	0.5	1.5
+29	30	9.41	-16	230  ;	1	1	1	1.5
+30	31	6.92	4	243  ;	1	0.2	0	1
+31	32	3.58	-7	211  ;	0	3	0.3	1.5
+
+*data passage station left right up down
+13	2.5	0.2	1	1
+14	0.3	0.6	0	0.5
+14_1	2	1	0	0.6
+14_2	0.6	0.5	0	0.6
+
+*data passage station left right up down
+14	0.3	0.6	0	0.5
+15	0	1	0.5	0.5
+16	1.5	0	0.1	0.5
+17	1.3	0	0	0.3
+18	0	1.5	0.2	0.2
+19	0.2	0.1	0	0.8
+20	1.5	1.2	0	0.6
+21	2.5	0	1.5	0.5
+22	0	3	1	0.8
+23	0	0.5	0.4	0.5
+24	0.1	1.2	0	1.2
+25	1.4	0.6	6	0
+26	0	1.5	0	1.8
+27	1.5	0	1.5	1.2
+28	3	2.5	1	1.5
+29	0	1	0.5	1.5
+30	1	1	1	1.5
+31	1	0.2	0	1
+32	0	3	0.3	1.5
+
+; -3-
+; Messteam: Ilja Anders, Thomas Holder, Wieland Scheuerle, Robert Winkler
+; Zeichner: Robert Winkler
+; Referenz fehlt
+
+*date 2006.08.12
+*data normal from to length clino compass
+12	12_1	7.00	13	220
+12_1	12_2	5.55	-32	220
+12_2	12_3	6.16	-18	128
+12_3	12_4	6.40	-11	220
+12_4	12_5	5.09	-31	134
+
+22	22_1	4.38	-1	262
+22_1	22_2	12.81	-57	170
+22_2	22_3	3.37	-13	280
+22_3	22_4	2.77	-8	308
+22_4	22_5	1.93	3	27.5
+22_5	22_6	8.75	44	318
+22_6	22_7	4.95	33.5	284
+22_7	25	6.51	6	303
+
+; -4-
+; Messteam: Ilja Anders, Thomas Holder, Wieland Scheuerle
+; Zeichner: Ilja Anders
+; Referenz fehlt
+
+*date 2006.08.13
+*data normal from to length clino compass
+12_5	12_6	4.165	-63	150
+12_6	12_7	2.65	-20	147
+12_7	12_8	2.42	-2	216
+12_8	12_Q	1.85	-37	192
+
+; -5-
+; Messteam: Ilja Anders, Thomas Holder, Wieland Scheuerle
+; Zeichner: Ilja Anders
+; Referenz fehlt
+
+*date 2006.08.14
+*data normal from to length clino compass
+25	25_1	6.12	-29	122
+25_1	25_2	2.51	-90	0
+25_2	25_3	5.59	-55	180
+25_3	25_4	9.09	-54	95
+25_4	25_5	7.28	-70	152
+25_5	25_6	1.14	-2	64
+25_6	25_7	5.78	-54	93
+25_7	25_8	8.42	-90	0
+25_8	25_9	8.08	-82	219
+25_9	25_10	6.46	-72	139
+25_10	25_11	17.38	-90	0
+25_11	25_43	5.92	25	239
+
+; -6-
+; Messteam: Ilja Anders, Uwe Kirsamer, Robert Winkler
+; Zeichner: Robert Winkler
+; Referenz fehlt
+
+*date 2006.08.15
+*data normal from to length clino compass
+32	33	3.44	17	291
+33	34	4.04	22	293
+34	35	1.24	29	249
+35	36	10.20	-49	194
+36	37	7.99	-43	191
+37	38	5.90	-42	108
+
+38	38_1	12.25	-14	228
+
+38	39	2.20	-38	208
+39	40	17.82	-90	0
+40	41	5.21	-36	139
+41	42	13.23	-90	0
+42	43	7.56	51	111
+43	44	7.42	38	191
+44	45	2.45	-4	162
+45	46	6.06	28	251
+
+43	43_1	8.83	43	44
+43_1	43_2	5.73	-4	104;Anschlusspunkt
+
+; -7-
+; Messteam: Ilja Anders, Uwe Kirsamer
+; Zeichner: Ilja Anders
+; Referenz fehlt
+
+*date 2006.08.17
+*data normal from to length clino compass
+30	30_1	10.25	-39	171
+30_1	30_2	11.83	-17	218
+30_2	30_3	4.76	-36	192
+30_3	30_4	4.85	-61	197
+30_4	30_5	8.68	-90	0
+30_5	30_6	1.10	23	96
+30_6	30_7	3.63	-62	138
+30_7	30_8	8.67	-90	0
+30_8	43	9.68	-32	287
+
+; -8-
+; Messteam: Ilja Anders, Torben Schulz
+; Zeichner: Ilja Anders
+; Referenz: Ilja
+
+*date 2007.08.08
+*data normal from to length clino compass
+34	34_1	4.08	33	277
+34_1	34_2	5.57	42	326
+
+*data passage station left right up down
+34_1	0	1.2	0.2	0.1
+34_2	1	0.2	0.7	2.5
+
+*date 2007.08.08
+*data normal from to length clino compass
+30_1	30_1_1	8.05	-50	118
+
+*data passage station left right up down
+30_1_1	1	0.2	0.8	0.1
+
+*date 2007.08.08
+*data normal from to length clino compass
+22_5	22_5_1	3.83	3	37
+22_5_1	22_5_2	1.67	-10	107
+22_5_2	22_5_3	3.08	-6	83
+22_5_3	22_5_4	2.57	18	326
+22_5_4	22_5_5	2.41	-1	309
+22_5_5	22_5_6	1.35	-30	5
+22_5_6	22_5_7	1.20	15	325
+22_5_7	22_5_8	3.17	31	264
+
+*data passage station left right up down
+22_5_1	0.2	0.3	0.7	0.5
+22_5_2	0.5	0	0.4	0.3
+22_5_3	3.08	0.3	0	0.3
+22_5_4	0.2	0.8	0.8	1.2
+22_5_5	0.3	0.3	1.8	0.4
+22_5_6	0.8	0.8	0.3	0.5
+22_5_7	0.3	1.1	0.2	0.8
+22_5_8	0.4	1.5	0	1
+
+; -9-
+; Messteam: Ilja Anders, Wieland Scheuerle
+; Zeichner: Wieland Scheurle
+; Referenz: Ilja
+
+*date 2007.08.09
+*data normal from to length clino compass
+22_5_8	22_5_9	5.95	-61	155
+22_5_9	22_5_10	8.84	-68	224
+22_5_10	22_5_11	4.80	-68	195
+22_5_11	25_7	2.40	-77	156
+
+*end diaet

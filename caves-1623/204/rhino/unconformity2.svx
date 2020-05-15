@@ -1,0 +1,43 @@
+*begin unconformity2
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Unconformity 2"
+*date 2003.07.30
+*team Insts Becka Lawson
+*team Notes Julian Todd
+
+*instrument set 2
+
+; ref 2003 #17
+
+; Calibration: stone bridge: 151/+22 328/-23
+
+; ====== stations refindable to link to other surveys: ======
+
+*export jt18 1c 8
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+
+
+;1	2	5.73	261	-26 ; leg wrong way round
+2	1C	5.73	261	-26 ; corrected direction
+						; attempting to preserve name-space for import centreline to work
+						; change made by JGT during draw-up 2004-06-08
+3	2	3.35	252	+08
+4	3	2.44	238	-22
+5	2	7.11	008	-55
+5	jt18	3.61	144	+43
+6	jt18	5.17	253	-32
+6	7	4.87	099	+18
+8	7	7.15	223	-12
+9	7	7.27	268	-19
+
+;stn	L	R	U	D	description
+;1	1	0	1.5	1.5	RP on wall over knob (? illegible)
+;3	0.6	0.1	0.3	1	- (illegible)
+;7	0.6	0	0.3	0.3	RP on wall
+
+*end unconformity2
+

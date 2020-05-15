@@ -1,0 +1,33 @@
+*begin LA11-LA12
+
+; Surface survey from LA12 to LA11
+; LUSS Dead Mountains expedition 1988
+; Entered from original fanfold printout scan: surf-LA11-LA12-1.pdf
+; Oct 1st 2013 
+*date 1988
+
+*export 0 6
+
+*entrance 0
+*entrance 6
+
+; 0 is LA12: Sternloch
+; 6 is LA11: Lungehöhle
+
+*data normal station NEWLINE tape compass clino
+
+0
+   25.8   76   -2
+1
+   30.0   64    0
+2
+   10.2   76   -5
+3
+   30.0  146   -4
+4
+   24.6   93   -9
+5
+    7.7  310  -16
+6
+
+*end LA11-LA12

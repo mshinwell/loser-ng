@@ -1,0 +1,42 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Rhubarb
+
+*equate p2002-05 2002-05.1
+
+*entrance p2002-05
+
+*begin 2002-05
+
+*title "Rhubarb"
+*date 2006.07.28
+*team Insts Matt Bent
+*team Notes Phil Underpants
+*team Tape both
+*instrument set A=1
+
+; Calibration: 204 bivvy: Compass 327/327/150/146/147 Clino: -21/-21/+24/+24/+26
+; ref.: Wallet 2006#07
+
+; ====== stations refindable to link to other surveys: ======
+
+*export p02-05
+*export 1
+
+*calibrate tape +0.0
+
+*data normal from to compass clino tape
+
+;from	to	compass	clino      tape	; remarks
+p02-05	1	134	-29	4.60
+2	1	202	+11	4.23
+2	3	101	-46	4.34
+3	4	009	-36	3.43
+
+;stn	L	R	U	D	Description
+;p02-05	-	-	-	-	GPS fix on rock - Fix 36714 83900
+;1 	2	0	-	1.5	Cave tag - 2002-05
+;2	0	0.85	-	2.60	Noddle LH Wall
+;3 	1	0	0.50	1.0	PM R wall
+;4	0.60	0.50	0	0.5	PM ceiling
+*end 2002-05
+

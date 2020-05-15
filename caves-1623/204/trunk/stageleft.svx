@@ -1,0 +1,41 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+
+*begin stageleft
+
+*title "Exit Stage Left"
+*date 2006.07.19
+*team Insts Aaron Curtis
+*team Notes Dave Loeffler 
+
+; Calibration: up 150/+25, 149/+22, 151/+23; down 332/-22
+; ref.:	2006 #01
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	4.89	233	-25
+3	2	1.42	063	+23
+3	4	4.17	350	-09
+5	4	0.64	286	-71
+5	6	4.57	-	down
+7	6	0.74	190	-24
+8	7	5.20	124	+28
+
+*data passage station left right up down ignoreall
+
+1	-	-	-	-	pt of old survey at corner going into CG
+2	0	0.4	2.0	0.30	RP roof ridge in crawl
+3	0.5	0.7	-	0.4	RP on projection of RHW at bend
+4	0	0.6	-	-	RP #4 on LHW
+5	-	-	-	-	RP projection v near 4
+6	0.05	0.05	-	0	Pt floor near RP splat (dropped it!)
+7	0.35	0	-	1.0	RP RHW
+8	0.2	0.5	-	0.8	RP LHW
+
+*end stageleft
+

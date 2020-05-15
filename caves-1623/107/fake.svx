@@ -1,0 +1,19 @@
+*begin fake
+; Input by DL from drawn-up survey on website.
+; Almost certainly horribly inaccurate. The Big
+; Pitch route was only ever surveyed to grade 1
+; in the first place, anyway.
+*date 1978
+*export 15
+
+*data cartesian from to dx dy dz
+;From	To	X	Y	Z
+
+15	15b	0	0	-11.8
+15b	16	-1.2	-0.8	0
+16	16b	0	0	-40
+16b	17	13.6	-11.8	0
+17	18	2.4	3	-2.6
+17	19	8.8	-9.4	0.4
+
+*end fake

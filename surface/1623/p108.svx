@@ -1,0 +1,23 @@
+*begin 108surf
+
+*title "Surface p108 to Laser 0/6"
+*date 2004.08.02
+*team Insts Jenny
+*team Notes Olly
+*team Tape Jenny
+*instrument CUCC set #3
+
+*export 1 9
+
+*calibrate tape +0.10 ; tape 10cm too short
+
+2	1	6.41	089	+09
+2	3	19.55	010.5	+13
+4	3	9.51	212	-03
+4	5	21.905	063.5	+08
+6	5	12.40	278	+01
+6	7	28.73	121.5	+06
+8	7	16.60	275.5	-07
+8	9	19.01	014.5	-01
+
+*end 108surf

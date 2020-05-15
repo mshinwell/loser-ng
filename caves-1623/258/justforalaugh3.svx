@@ -1,0 +1,24 @@
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 258 "Tunnockschacht"
+
+*begin justforalaugh3
+
+*export 14x
+
+*title "Just For A Laugh 3"
+*date 2013.08.01
+*team Insts Matt Watson
+*team Notes Anthony Day (numbers only - ask Mike Futrell for pictures)
+*instrument Compass A Clino 1
+
+;ref.:  2013#06
+
+;from   to  tape    compass clino   remarks
+14x	1	02.07	008	-12
+1	2	25.00	-	down
+
+*data passage station left right up down ignoreall
+1	-	-	-	-	Bottom y-hang bolt
+2	-	-	-	-	Bottom of pitch
+
+*end justforalaugh3

@@ -1,0 +1,45 @@
+*begin marble_run
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "marble_run"
+*date 2000.08.14
+*team Insts Mark Byers
+*team Notes Martin Green
+*team Pics Martin Green
+*team Tape Mark Byers
+*instrument TSG comp/clino Compass #1 ; Clino #1, Tape Red open reel 
+; Calibration: 312, +07, 311, +06, 310, +07, 132, -07, 131, -07, 131, -07
+; ref.:	2000 #46
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 14 15
+
+*calibrate tape +0.1	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+15	14	2.59	021	+17
+15	16	2.05	268	-73
+16	17	4.86	004	-22
+17	18	8.27	022	-11
+18	19	5.01	019	+12
+19	20	6.36	026	+13
+20	21	5.73	195	+33
+21	22	2.20	-	up	; grade 2
+22	23	3.00	025	+00	; grade 2
+
+;station details
+;name	L	R	U	D	E	description
+;14	(2000_11c_part2.8?)
+;15	(2000_11c_part2.7)
+;16	0.7	0.3	1.5	0		rock on floor
+;17	1.4	0.2	1.5	3.5		on LHW
+;18	0.45	0.1	0.9	0.6		on RHW
+;19	0.7	0.4	1.0	0.1		on tip of rock
+;20	0.7	0.5	0.3	1.5		at far corner
+;21	0.6	0.4	2.2	0		Martin's boot (now removed)
+;22	made up
+;23	made up
+
+*end marble_run

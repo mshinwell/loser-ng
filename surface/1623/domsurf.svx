@@ -1,0 +1,46 @@
+*begin dominosurf
+
+*export eingang p
+*date 1995.07.29
+;Aussenvermessung 29.7.95 Kai, Regi, Thilo
+;Surface survey from 78 (Schwabenschscht entrance 78a to Domino)
+
+*fix Eingang  35731.08		81430.86		1666.29 	;Schwabenschacht neu mit Nils Daten 10/00
+
+*DATA normal from to length gradient bearing
+
+Eingang 2       5.05    20      99
+2       3       3.70    -8      162
+3       4       4.75    5       191
+4       5       3.64    -18     156
+5       6       13.35   -6      251
+6       7       16.30   -3      179
+7       8       26.88   -4      253
+8       9       4.22    -34     300
+9       10      9.65    2       276
+10      11      5.67    -20     260
+11      12      11.65   -15     293
+12      13      7.29    -14     251
+13      14      4.42    26      310
+14      15      3.53    -12     8
+15      16      16.20   -7      270
+16      17      16.48   -4      194
+17      18      35.00   -3      172
+18      19      22.50   -2      265
+19      20      49.50   -4      178
+20      21      25.20   -16     258
+21      22      29.65   -2      196
+22      23      4.94    0       175
+23      24      18.69   -10     210 
+24      25      8.60    -12     242
+
+;Aussenvermessung zum Dominoschacht 6.8.97, Dominik Jauch, Robert Winkler
+;*equate dominosurf.P \Domino.0
+;update: 12.9.00, Thilo
+;Referenz: Meßbuch "Florian Gruner 1"
+
+P       H1      5.26    2.5     125.5    
+H1      H2      17.74   -25.5   227.5
+H2      H3      30.98   5       290.5 ; H3 = ..5?
+H3      25      4.46    26      5     ; H4 = 25/846?
+*end dominosurf

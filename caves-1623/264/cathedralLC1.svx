@@ -1,0 +1,58 @@
+*begin cathedralLC1
+
+; stations linked into other surveys (or likely to)
+*export 1 2
+
+; Cave: Balkonhoehle
+; Area in cave/QM: linking Cathedral Chasm to Avalanche Axperience
+*title "Cathdral Chasm loop closure 1"
+*date 2015.07.29
+*team Insts Elliott Smith
+*team Notes Michael Sargent
+;*team Pics none
+*team Tape Ben Whetton
+*instrument Fleur's DistoX
+; Calibration: unknown
+*ref 2015#13
+
+; Centreline data
+*data normal from  to   tape      compass   clino
+1	2	1.93	191.6	-23.8
+;1	3	6.67	003.0	+18.7	;	duplicate in avalancheexperience
+;3	2	8.63	118.2	-20.1	;	duplicate in avalancheexperience
+
+
+;-----------
+;recorded station details
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;(leave commented-out)
+;1	1.2	0.5	0.3	1.2	;	pink NP on roof of window, #9 from cathedralchasm
+;2	0	1.2	2.0	1.5	;	blue NP at top of pitch from avalancheexperience.9
+;3	1.8	13.5	4.7	1.4	;	blue NP rock near end of chamber from avalancheexperience.8
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+;3	1.8	13.5	4.7	1.4	;	blue NP rock near end of chamber from chamber90b/avalancheexperience
+1	1.2	0.5	0.3	1.2	;	pink NP on roof of window, #9 from cathedralchasm
+2	0	1.2	2.0	1.5	;	blue NP at top of pitch from avalancheexperience
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+; None
+
+;------------
+;Cave description
+; Linking avalancheexperience to cathedralchasm without having to use the dodgy data in chamber90b survey
+
+*end cathedralLC1

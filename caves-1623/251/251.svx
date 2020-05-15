@@ -1,0 +1,74 @@
+*equate 251.tag t251
+*equate 251.1 p251
+
+*begin 251
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	In Your Face Cave
+; Previously 2004-11
+*title "In Your Face Cave"
+*date 2004.07.22
+*team Insts Nial
+*team Notes Stuart
+*team Tape Nial
+*instrument Compass set #3; Clino set #3 
+; Calibration: stone bridge: 327/-23 150/+23
+; ref.:	2004 # 13
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 tag ; list all exported survey points
+
+*calibrate tape 0.06	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+tag	1	1.29	288	-58
+2	1	4.17	207	+09
+3	2	5.02	162	+51
+4	3	7.15	195	+49
+5	4	5.44	324	-42
+6	4	1.81	152	-05
+7	6	7.11	251	+15
+8	6	11.95	217	+33
+9	8	9.75	147	-02
+10	9	4.85	148	+25
+11	8	10.28	158	-31
+12	11	2.84	253	+32
+13	12	7.38	225	+44
+13	14	17.77	105	-52	;original notes said 14 to 13, but 14 is bottom of pitch
+15	13	6.22	212	+07
+16	15	6.10	197	+32
+17	16	6.08	247	+55
+18	17	11.93	240	+48
+18	19	9.51	122	+16	; notes got stations reversed
+18	20	10.00	012	-01	; notes got stations reversed
+21	15	5.12	120	-68	; this is a bodge for a plumb of 5 vertical Martin Paces (wow), complete with 2 metres offset left, perpendicular to the 13->15 leg
+22	21	19	210	-5	; numbers made up. Passage parallel to 15->13, 20 Martin Paces long. Note that one Martin Pace appears to be 95cm.
+
+;from	to	tape	comp
+
+;stn	L	R	U	D	Desc
+;1	0	1.1	0.8	0.6	PinkPaint (PP) L side of entrance
+;2	1.1	0.3	1.0	0.9	PP on RW
+;3	0	0.8	1	1	PP on LW
+;4	1.3	0.5	2.4	1.4	PP on RW
+;5	3.0	1.5	0.5	1.0	PP on back of tube	
+;6	2.5	2	0	1.3	PP on L rock nose
+;7	1.3	0.4	6.0	0.5	PP on RW
+;8	5.0	1.0	4.8	1.2	PP on bottom of slope
+;9	0.6	0.4	0.8	0.8	PP on bottom of rock stal
+;10	0	0.7	2.5	1.1	PP on LW
+;11	1.0	1.4	4.0	1.6	PP on L at top of climb
+;12	2	0	4.5	1.4	PP on RW
+;13	3.0	2.0	6	0.4	PP on LW
+;14	6	8	6	2.5	Unobvious bit of rock at bottom of pitch border of steep white and flat black ice
+;15	0.4	0.4	0	1.5	PP on ceiling of tube
+;16	1.0	0	0.8	1.2	PP on RW
+;17	0.8	0.3	1	0.7	PP on LW at belay
+;18	-	-	-	-	PP on (mobile) rock in chamber
+;19	4	1.3	1.7	1	PP on wall
+;20	0.3	2	0	0.5	PP on wall
+;21					Spit at top of bolt traverse
+;22					End of passage
+
+*end 251

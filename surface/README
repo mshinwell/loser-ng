@@ -1,0 +1,6 @@
+mshinwell 2018-07-17:
+
+We are currently in an intermediate state here where the 1623-area-only
+surveys are in a subdirectory.  These will be ported to the next level
+up (i.e. loser/surface/) as their *equates get adjusted to reference
+e.g. "1623.pXXX" rather than "pXXX".

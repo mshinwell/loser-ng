@@ -1,0 +1,27 @@
+Dataset conventions
+
+- Use Unix line endings (i.e. \n not \r\n).
+
+- Use UTF-8 character encoding.
+
+- Cave numbers are written without any leading zeros at all (in filenames,
+  survey names, or anything else!).
+https://expo.survex.com/handbook/computing/manual.html
+create them like this:
+https://expo.survex.com/handbook/computing/caveentry.html
+
+- Entrances have station names such as p204b.  In the event of the tag
+  location being different from the entrance location, the tag point
+  should be named with a "t" instead, e.g. t204b.
+
+- No full stop (.) characters in station names.
+
+- All filenames to be in lower case.
+
+- No filenames starting with "-" or "!".
+
+- Caves with a provisional number consisting of a year and a serial number
+  should be hyphenated, thus 2002-04 not 2002_04 or any of the various other
+  variants.
+
+Last update 2020

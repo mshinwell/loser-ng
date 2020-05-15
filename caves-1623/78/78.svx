@@ -1,0 +1,102 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schwabenschacht 1623/78
+
+*equate 78.haupt.Eingang p78a
+*entrance p78a
+
+*equate p78b	78.e2.x4 
+*entrance p78b
+
+*equate 78.galakt.t0 p78d
+*entrance p78d
+
+*equate 78.steinbl.0 p78e
+*entrance p78e
+
+*begin 78
+
+*title "Schwabenschacht"
+
+*export haupt.Eingang	; p78a
+*export galakt.t0	; p78d
+*export steinbl.0	; p78e
+*export e2.x4		; p78b
+
+; Verbindungen zu anderen Höhlen exportieren
+*export allkaese.mj_12	; 041.verhall.12 (Stellerweg)
+*export bartl.s14	; windloch.links.vs14
+*export bartl.s43	; windloch.links.vs43
+
+; Verbindungen in der Höhle
+*equate haupt.5	allkaese.5_0	eisdom.A0
+*equate haupt.9	highway.I0
+*equate haupt.10	schlepp.7_10	stgneu.E0	verloren.10_0
+*equate haupt.12	eisscha.B0
+*equate haupt.18	schwadom.D0
+*equate haupt.19	fossimea.C0	parallel.0
+*equate haupt.25	keller.K0
+*equate haupt.31	parallel.11
+*equate haupt.33	forsten.L14
+*equate haupt.34	nasse.34
+*equate haupt.63	bartl.S0
+*equate haupt.E5	parallel.1_3	stgneu.E5
+*equate allkaese.7_1	highway.7_1
+*equate allkaese.AB5	highway.5
+*equate allkaese.mj_2	steinbl.14
+*equate bayberg.F5	augsburg.n9
+*equate e2.U11		verloren.V1
+*equate eisdom.A1	allkaese.AA0	fetzig.1_0
+*equate eisdom.A4	fetzig.1_8
+*equate eisdom.A5	e2.T5
+*equate eisdom.A14	bayberg.H25	e2.U12	forsten.A14	verloren.W0
+*equate eisdom.A19	augsburg.A19
+*equate eisdom.A20	bayberg.H0	highway.x0
+*equate eisdom.A21	haupt.36
+*equate fossimea.25	standard.25
+*equate fossimea.C3	schwadom.3a
+*equate fossimea.C4	schwadom.6
+*equate fossimea.C5	schwadom.2_1_2
+*equate fossimea.C6	schwadom.C6
+*equate fossimea.C11	schwadom.C11
+*equate galakt.9_10	rausch.9_10
+*equate highway.17_12	allkaese.mj_5_2
+*equate highway.4_2	allkaese.11_11
+*equate keller.K1	parallel.4_4
+*equate rausch.6	comeback.6
+*equate schnaps.10	galakt.10_1
+*equate spazier.2_4	igramul.2_4
+*equate spazier.5	schwadom.r5
+*equate spazier.5_1	galakt.5_1
+*equate spazier.10_4	galakt.8_3
+*equate spazier.10_5	igramul.5_0
+*equate spazier.17_1	schlepp.17_1
+
+*include haupt
+*include nasse
+*include eisdom
+*include forsten
+*include augsburg
+*include eisscha
+*include fossimea
+*include schwadom
+*include stgneu
+*include bayberg
+*include keller
+*include e2
+*include bartl
+*include fetzig
+*include verloren
+*include highway
+*include parallel
+*include allkaese
+*include schnaps
+*include standard
+*include schlepp
+*include igramul
+*include spazier
+*include galakt
+*include steinbl
+*include rausch
+*include comeback
+
+*end 78

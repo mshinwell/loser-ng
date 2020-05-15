@@ -1,0 +1,62 @@
+*begin lasttsa
+
+*export 1.1
+
+*begin 1
+; Gemshöhle 
+; China main SW lead 13-CH-1A
+
+*date 2014.07.29
+*team notes Michael Sargent 
+*team insts Jess Stirrups
+*team dog Wookey
+*export 1 4
+
+*data normal from to compass clino tape
+1     2	   197.4  -22.9	     22.52
+3     2	   028.9   64.0	     6.08
+3     4	   244.0  -64.5	     11.25
+
+*data passage station left right up down ignoreall
+1	 1.5	 0    3.5   0.7	    RP RHW end china top of climb
+2	 1.8	 0.1  16    0.7	    RP rock below backup bolt
+3	 4.1	 0.5  19.1  7.4	    RP rebelay ledge floor
+4	 5.6	 1.4  22.6  0.5	    RP '4', rock at bottom of chamber
+
+*end 1
+
+;continue next day
+*equate 1.4 2.1
+
+*begin 2
+; Gemshöhle 
+; Continue below pitch in china main SW lead 13-CH-1A
+*title "The Last TSA"
+*date 2014.07.30
+*team notes Wookey
+*team insts Jess Stirrups
+*export 1
+
+*data normal from to tape compass clino
+1     2	     9.385   174.5   +22.4
+2     3	     10.762  189.2   -06.8
+3     4	     16.506  197.4   -17.9
+4     5	     17.366  210.7   -17.5
+5     6	     25.434  211.1   -14.3
+6     7	     35.497  076.3   +57.8
+8     6	     3.844   307.3   -12.1
+8     9	     17.191  194.9   -43.5   
+
+*data passage station left right up down ignoreall
+1      9.5    1.5   22    1.5   Rock on floor, RP stn '4'
+2      1.2    1.7   8.1   0.3   Rock on floor, RP
+3      1.9    1.1   6.1   1.8	Corner of boulder, RP
+4      1.3    3.5   7.3   0.7	Corner of floor rock. RP
+5      3.8    1.7   8.5   1.2	RP, floor boulder
+6      5.0    4.0   6.4   0	RP floor rock
+7       -      -     -     -    Point on wall up climb (c30)
+8      1.9    9.5   5.7   3.6   RP on belay boulder
+9 	-      -     -     -	Pencil mark and '9' on boulder.
+
+*end 2
+*end lasttsa

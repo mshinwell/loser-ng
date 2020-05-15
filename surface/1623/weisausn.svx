@@ -1,0 +1,33 @@
+;am 14.11.00 von Thilo erstellt für die Weiße Höhle
+
+*equate weisausn.c p216
+*equate weisausn.0 p229
+
+*begin weisausn
+
+; Ort:			Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle:			Weiße Höhle 
+*title "Außenvermessung"
+*date 2000 ; must be prior to 2000.11.14
+; Von:	Ableser:		Thilo Müller
+;	Schreiber:	Thilo Müller
+;	(2. Schreiber:)	
+;	Massband:	Robert Eckardt, Jörg Haussmann
+*instrument Thilo 
+; Gerätefehler:	
+; Referenz.:	Messbuch SMK 3
+
+; ====== Messpunkte, die an bereits bestehenden Vermessungen hängen: ======
+
+*export 0	;Eingang Weiße Höhle
+*export c	;Spit am Eingang von 1623/216 "Nichts 50 Höhle"
+
+*calibrate tape +0.0	; "+" wenn das Massband zu kurz war, "-" wenn es zu lang war
+*DATA normal from to length gradient bearing  ignoreall
+
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+0	a	6.25	9	4
+a	b	45.2	-18	39
+b	c	5.55	7	309	
+
+*end weisausn

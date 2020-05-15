@@ -1,0 +1,246 @@
+;1995.08.01 AERW converted from SU file
+;1998.04.06 AERW restored original numbering for 1982 survey from back of 1982 log
+;		 book (revealing major bug and some new survey data (141->142 :-).
+;		 Added comments, refs, exports, etc., moved 87x survey (former PX)
+;		 from file surface.stoger
+
+*begin Hillside
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Area:	SE flank Vord. Schwarzmooskogel, Western massif, Totes Gebirge, Austria
+; Caves:	Windloch (1623/32), Stellerweg (1623/41),
+;		1623/141, 1623/142, 1623/143, 1623/144
+*title "Surface surveys above Stogerweg linking high entrances"
+; ref.:	details from back of logbooks (neither set of original notes traced)
+
+; ====== stations refindable to link to other surveys: ======
+
+; note that some of these are clearly equivalent, and logically the equates
+; belong here. However, such is the state of play, that they are all exported
+; individually so that someone trying to make/break connections to find the
+; errors can do so by changing just the one (including) file.
+
+*export 82.32	; drilled hole above 1623/32 entrance (next to path)
+*export 83.41	; LHS of 41a entrance
+*export 82.131	; 1623/141 entrance (painted number "131" in red)
+*export 82.132	; 1623/142 entrance (painted number corrected to "142" in red)
+*export 83.132	; 1623/142 entrance (painted number corrected to "142" in red)
+*export 83.143	; 1623/143 entrance
+*export 83.144	; 1623/144 entrance
+*export 87.00	; Nobble of rock on RHS facing 1623/144 entrance
+*export 87.31	; knob of rock above entrance in cliff opposite (original survey
+		; point at level of 2nd entrance), 1623/88 - non-CUCC point
+*export 87.33	; the first rigging bolt of 1623/88
+*export 87x.7	; existing (not CUCC) survey point at 88 entrance
+*export 87x.0	; Drilled fixed point opposite 113 entrance (not the same as the
+		; P113 point which is very inaccessible without SRT)
+*export 83.BB	; cairn (predates laser point) on Bunter's Bulge
+
+*begin 82
+
+; Caves:	1623/32, 1623/141, 1623/142
+*title "surface survey from 141 -> 142 -> Windloch"
+*date 1982
+*team Insts Chas Butcher
+*team Tape 
+*team Notes Dave Brindle
+*team Pics none
+*instrument Compass: Suunto #949847; Clino: Suunto #214435
+; Calibration:	none
+; ref.:	Back of 1982 logbook (original notes not traced)
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 131	; 1623/141 entrance (painted number "131" in red)
+*export 132	; 1623/142 entrance (painted number corrected to "142" in red)
+*export 32	; drilled hole above 1623/32 entrance (next to path)
+
+;from	to	tape	compass	clino
+; data from 1982 log not previously in computer (until 1998.04.06)
+01	131	 5.20	036	-23
+01	02	 3.27	241.5	+06
+03	02	10.30	317	+31
+03	04	15.96	171	-32
+05	04	 6.70	278	+04
+05	06	 2.78	196	+05
+07	06	 4.61	301	-07.5
+07	08	 5.58	118	-12
+09	08	 6.23	237	-15.5
+09	10	 6.91	093	+36
+11	10	19.13	262	+31
+11	12	12.05	050	+10
+13	12	14.51	202	-23.5
+13	14	 4.91	071	+25
+15	14	 8.47	249	-04.5
+15	132	 4.71	161	-58
+; data in computer for years:
+16	13	18.02	004.	+39.
+; NB, for years the "to" station of that leg has been recorded as being the
+; 142 entrance, which is **wrong** by the three last survey legs above !!
+16	17	10.93	168.	-18.
+18	17	 5.99	307.	+29.
+18	19	 5.15	201.	-27.
+20	19	11.12	022.	+36.5
+20	21	 3.24	191.	+20.
+22	21	 5.63	316.	+28.
+22	23	18.00	161.	-28.
+24	23	 8.65	342.	+30.
+24	25	 7.59	286.	+16.
+26	25	19.32	052.	+09.5
+26	27	19.82	243.	+03.
+28	27	 5.77	002.5	-02.5
+28	29	19.35	111.5	-16.
+30	29	17.82	254.	-04.
+30	31	11.73	035.	-01.
+31	32	 4.87	308.	-09.  ; WINDLOCH
+
+*end 82
+
+*begin 83 ; formerly "JP" survey
+
+*title "surface survey from 142 to 41, then up to Bunter's Bulge area"
+*date 1983.08.08
+*team Insts JT Griffiths
+*team Tape 
+*team Notes P Lancaster
+*team Pics 
+*instrument Compass 111368; Clino 918653 (NPC set)
+; Calibration:	none
+; ref.:	back of 1983 logbook
+
+*export 132	; 1623/142 entrance (painted number corrected to "142" in red)
+*export 41	; LHS of 41a entrance
+*export BB	; cairn (predates laser point) on Bunter's Bulge
+*export 143	; 1623/143 entrance
+*export 144	; 1623/144 entrance
+
+132	1	 7.3	330.	+37. ; P142 IS 'P132' ON ROCK
+1	2	 8.8	014.	+37.
+2	3	13.2	069.	+14.
+3	4	14.3	038.	+14.
+4	5	15.9	004.	+21.
+5	6	14.4	056.	+18.
+6	7	 5.9	088.	+13. ; 1983 log says "68 or 88 ?
+;			 not clear in book" was taken as 068 in 1983 log,
+7	8	 6.7	086.	-11.
+8	9	 6.6	076.	+09.
+9	10	21.1	070.	+18.
+10	11	15.9	158.	-37.
+11	12	12.7	283.	-07.
+12	13	10.1	231.	-10.
+13	14	19.3	185.	-46.
+14	41	 7.3	070.	+02. ; 41 entrance
+
+11	15	15.6	359.	+31.
+15	16	15.5	007.	+25.
+16	17	22.6	043.	+14.
+17	18	25.6	015.	+22.
+18	19	11.4	003.	+24.
+19	20	 7.7	347.	+13.
+20	21	30.0	038.	+16.
+21	22	29.6	041.	+20.
+22	23	23.4	041.	+19.
+23	24	30.0	045.	+07.
+24	25	12.1	077.	+10.
+25	26	22.9	065.	+04.
+26	27	12.2	013.	+18.
+27	28	10.6	032.	+12.
+28	29	25.0	026.	+09.
+29	30	29.8	057.	+15.
+30	31	16.9	041.	+14.
+31	BB	15.3	045.	+01. ; CAIRN ON BUNTER'S BULGE
+BB	32	 6.9	116.	-04.
+32	33	11.8	049.	-07.
+33	34	26.3	118.	-29. ; CAIRN
+34	35	10.2	214.	-14.
+35	36	23.6	237.	-02.
+36	143	 5.4	154.	-38.
+34	37	14.6	078.	+07.
+37	38	14.0	110.	-23.
+38	144	 4.5	044.	-29.
+*end 83
+
+*begin 87 ; formerly "PW" survey
+;CHANGE               0.0   0.0
+
+; Caves:	1623/144, 1623/88
+*title "surface survey CUCC caves to German entrance"
+*date 1987
+*team Insts Mike Richardson / Mike Martin
+*team Tape Jenny
+*team Notes assumed Mike Martin / Mike Richardson
+*team Pics 
+*instrument Compass # 949847; Clino # 240641
+; Calibration:	none
+; ref.:	two pages of looseleaf transcribed figures in AERW's archive
+
+*export 00	; Nobble of rock on RHS facing 1623/144 entrance
+*export 31	; knob of rock above entrance in cliff opposite (original survey
+		; point at level of 2nd entrance)
+*export 33	; the first rigging bolt
+
+00	01	 1.62	-	Up
+02	01	16.93	235.5	+20.5 ; Gully
+02	03	30.	033.5	-22.5 ; continue along gully
+04	03	30.	199.5	-05.5
+04	05	29.74	038.5	-07.5
+06	05	23.70	205.	-09.
+; change in Insts to MM
+07	06	29.76	224.5	-05.5 ; originally 6->7 which must be wrong
+07	08	30.	060.	-02.  ; cairn on ridge, footpath to SMKEishöhle
+09	08	22.42	258.5	+24.
+09	10	29.91	053.5	-16.
+11	10	21.74	226.5	-01.  ; over ridge, 11 near snow plug
+11	12	29.84	099.5	+12.  ; another gully
+13	12	26.34	233.5	-07.
+13	14	29.36	086.	+13.
+15	14	26.80	264.5	-11.5 ; follow footpath through bunde
+15	16	24.64	191.	-19.
+17	16	28.03	012.	+22.  ; down cliff
+17	18	25.43	141.5	-17.
+19	18	23.90	292.	+30.  ; bunde ridge
+19	20	20.10	135.	-07.5
+; change Insts back to MR
+21	20	24.95	317.5	 00.  ; across L shaped canyon
+21	22	29.66	192.5	-16.
+23	22	29.32	029. 	-00.5 ; join path from SMKEishöhle to Larchenschacht
+23	24	27.89	195.5	+02.  ; follow gully
+25	24	27.63	065.	+12.
+25	26	25.12	216.5	-18.
+27	26	27.96	061.	+04.5
+27	28	29.95	207.	+11.5
+29	28	29.94	026.5	-03.5
+30	29	17.46	030.5	+10.5
+30	31	 4.63	274.5	-04.5 ; 31 is existing survey point
+32	31	 3.95	321.	+24.
+32	33	 5.44	171.	-36.5 ; 33 the first bolt
+*end 87
+
+*begin 87x
+
+; Caves:	1623/113, 1623/88
+*title "surface survey CUCC caves to German entrance"
+*date 1987
+*team Insts Mike Richardson / Mike Martin
+*team Tape Jenny
+*team Notes assumed Mike Martin / Mike Richardson
+*team Pics 
+*instrument Compass # 949847; Clino # 240641
+; Calibration:	none
+; ref.:	photocopy of transcribed figures (from 1987 logbook ?) in AERW's archive
+
+*export 0	; Drilled fixed point opposite 113 entrance
+*export 7	; existing survey point at 88 entrance
+
+;CHANGE               0.0   0.0        PX survey from P0 to German entrance
+1	0	 4.83	342.5	-17.
+1	2	 3.70	122.	+25.5
+; change to Insts: MR
+3	2	26.12	224.5	-12.
+3	4	24.11	047.	-08.  ; hack along contour through bunde
+5	4	25.39	231.	-02.  ; join gully
+5	6	15.09	026.5	+05.5 ; across depression with snow plug at bottom
+6	7	 1.02	-	Down
+
+*end 87x
+*end Hillside

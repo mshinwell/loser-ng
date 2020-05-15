@@ -1,0 +1,54 @@
+*begin voyeur
+
+; stations linked into other surveys (or likely to)
+*export p3
+
+; Cave: Balcony
+; Area in cave/QM: 
+*title "Voyeur"
+*date 2015.08.11
+*team Insts Brendon
+*team Notes Martin
+*team Nail Polish Jacob
+*instrument Brendons DistoX
+; Calibration: ?
+*ref 2015#78
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+p3	1	4.26	253.7	+25
+1	2	5.15	261	+28
+2	3	19.10	195	-07.3
+2	4	7.27	203	-34.1
+4	.	7.00	120	+07.3
+4	.	2.55	303	-02
+5	2	16.02	11.9	+09.7
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+p3	0.3	2.4	9.0	1.0	;Previous station 3 purple nail polish
+1	0.3	1.6	0.2	0.3	;NP cieling np#1
+2	5.7	0.7	16.8	1.2	;NP on rock near horizontal entrance
+4	7.0	2.55	14.0	0.4	;NP on rock above pitch
+5	1.50	3.04	7.8	10.2	;NP big rock above p10
+3	-	-	-	- ;Unmarked
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surveyname.5    -    description of QM ]
+
+;------------
+;Cave description  ;(leave commented-out)
+
+*end voyeur

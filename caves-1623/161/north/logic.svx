@@ -1,0 +1,44 @@
+;1998.08.05
+
+*begin logic 
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Kaninchenhöhle, 1623/161
+*title "Fuzzy Logic (Vertical bit)"
+*date 1998.07
+*team Insts Dan Gemenis
+*team Notes Phil Underwood
+*team Pics Phil Underwood
+*team Tape Dan Gemenis
+*instrument Compass # ; Clino # 
+; Calibration:	
+; ref.:	1998 KH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 17
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	1.65	132	-28
+2	3	3.05	197	+25
+4	3	10.08	012	-2
+4	5	3.80	208	+45
+6	5	7.90	028	+39
+6	7	10.15	118	-59
+7	8	3.30	174	-46
+8	9	28.50	145	-80
+9	10	15.40	176	-63
+11	10	5.60	208	+20;leg recorded backwards in notes
+11	12	16.40	-	DOWN
+13	11	13.28	207	+78;leg recorded backwards in notes
+14	13	8.55	306	+85
+14	15	1.19	110	+03
+15	16	15.56	108	-71
+17	16	3.95	116	+04
+;station details
+;name	L	R	U	D	E	description
+
+*end logic
+

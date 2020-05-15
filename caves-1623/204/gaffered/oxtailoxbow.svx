@@ -1,0 +1,40 @@
+*begin oxtailoxbow
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Oxtail Oxbow"
+*date 2004.07.20
+*team Insts Nial Peters
+*team Notes Becka Lawson
+*team Tape Earl Merson
+
+*instrument set 4
+
+; ref 2004 # 12
+
+; Calibration: stone bridge: 147/+23 146.5/+23 328/-24 328/-23
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 4 5 8
+
+*calibrate tape +0.07	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	comp	clino
+8	1	4.90	322.5	+11
+2	1	6.13	114	+09
+2	3	3.97	308	+33
+4	3	9.20	111	+30
+4	5	9.66	188.5	+25
+
+;station details
+;name	L	R	U	D	description
+;8	-	-	-	-	8 from sirens2 survey
+;1	2.5	0.2	6	1.5	Rock pendule at corner passage marked 1 with RP
+;2	1.2	1.5	3	1.2	Tip rock Pendule on L wall/roof RP
+;3	0.6	0.2	0.6	1	RP tip of Rock on RW
+;4	5	0	3	2	RP marked 4 on RW
+;5	2	0	5	0.5	RP marked 5 from sirens2 survey
+
+*end oxtailoxbow
+

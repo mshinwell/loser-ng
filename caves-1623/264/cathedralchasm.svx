@@ -1,0 +1,89 @@
+*begin cathedralchasm
+
+; stations linked into other surveys (or likely to)
+*export 1 6 7 9
+
+; Cave: Balkonhoehle
+; Area in cave/QM: 90b
+*title "Cathedral Chasm"
+*date 2015.07.23
+*team Insts Micahel Sargent
+*team Notes Dan Lenartowicz
+*team Pics Dan Lenartowicz
+*team Tape Sarah Parker
+*instrument SAP#2 + Tape
+; Calibration: 2 days later at the bivvy: 327/328/325 compass, -24,-24,-24 clino
+*ref 2015#13
+*calibrate tape +0.20	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+* data normal from  to   tape      compass   clino
+1 	2 	3.35	195	+11
+2 	3 	4.50	110 +61
+4	3	3.52	354	-25
+4	5	9.27	255	-02
+5	6	10.08	124	-02
+6	7	6.16	132	+33
+8	5	5.52	122	+32
+9	8	7.41	006	+21
+8	10	11.62	007	-03
+10	11	17.21	021	-15
+11	12	6.59	349	-01
+
+;-----------
+;recorded station details
+;(RP=Red Point, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;(leave commented-out)
+;1	0.7 1.2	1.5	1.0	;	Blue #9 chamber ceiling
+;2	0.7	0.7	2.0	0.8	;	RP RHW knoble
+;3	0.1	0.3	0.0	0.6	;	RP top of squeeze
+;4	0.5	1.5	1.0	0.5	;	RP top of boulder
+;5	3.5	5	5	5	;	top of big boulder
+;6	3	4	10	3	;	square block south end
+;7	1.5	0.2	13	1.5	;	entrance to upper rift
+;8	1.5	6	5	3	;	sloped rock north of chamber
+;9	1.5	0.8	0	1	;	ceiling of window
+;10	1	4	4	1.5	;	rock LW on ledge
+;11	1.2	2	2.6	1.5	;	top pointy middle path
+;12	2.5	0.6	3.5	1.5	;	end
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	0.7 1.2	1.5	1.0	;	Blue #9 chamber ceiling
+2	0.7	0.7	2.0	0.8	;	RP RHW knoble
+3	0.1	0.3	0.0	0.6	;	RP top of squeeze
+4	0.5	1.5	1.0	0.5	;	RP top of boulder
+5	3.5	5	5	5	;	top of big boulder
+*data passage station left right up down
+5	3.5	5	5	5	;	top of big boulder
+6	3	4	10	3	;	square block south end
+7	1.5	0.2	13	1.5	;	entrance to upper rift
+*data passage station left right up down
+5	3.5	5	5	5	;	top of big boulder
+8	1.5	6	5	3	;	sloped rock north of chamber
+9	1.5	0.8	0	1	;	ceiling of window
+*data passage station left right up down
+5	3.5	5	5	5	;	top of big boulder
+10	1	4	4	1.5	;	rock LW on ledge
+11	1.2	2	2.6	1.5	;	top pointy middle path
+12	2.5	0.6	3.5	1.5	;	end
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description]
+;QM1 B    cathedralchasm.6		cathedralLC2.9  Lower rift passage, may need hand line down
+;QM2 B    cathedralchasm.7		avalancheexperience.2  Upper rift passage
+;QM3 A    cathedralchasm.9		cathedralLC1.2  Window into massive hole
+;QM4 A    cathedralchasm.12	-  Passage continues, traverse around pit needed
+
+;------------
+;Cave description
+
+;really fucking huge chamber with many good leads. turns out it was already surveyed as chamber90b be Julian.
+
+
+*end cathedralchasm

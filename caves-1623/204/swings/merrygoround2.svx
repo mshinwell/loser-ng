@@ -1,0 +1,36 @@
+*begin merrygoround2
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Merry Go Round 2"
+*date 2002.08.24
+*team Insts Martin Green
+*team Notes Earl Merson
+*team Tape Martin Green
+*instrument Compass #3 ; Clino #3, Tape: open reel with two fixed breaks
+; Calibration: 
+; ref.:	2002 #27
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 6
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	8.51	-	down
+3	2	16.30	88	+77
+4	3	16.54	78.5	+82
+4	5	11.43	-	down
+6	5	4.35	231	+12
+
+;station details
+;name	L	R	U	D	description
+;1	0	1	10	pitch
+;2	0	1.3	-	-	RP on left wall
+;3	0	3	-	-	1st rebelay bolt
+;4	0	5	-	-	2nd rebelay bolt
+;6	2	0	1	1.5	RP on right wall
+;5					RP on bolder floor
+
+*end merrygoround2

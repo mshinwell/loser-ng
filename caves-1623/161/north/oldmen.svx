@@ -1,0 +1,253 @@
+*begin oldmen
+
+*date 2011.08.03
+*team Rob H. A insts
+*team wookey tape 
+*team "Anthony Day" notes
+; ref 2011#24
+
+*export 1 14 19 21 24 29 31 
+
+*flags duplicate
+1	2	05.36	326	+17 ;(essentially same leg in 'irony of time' survey)
+*flags not duplicate
+2	3	02.19	229	-04
+4	3	07.54	163	-10
+4	5	07.33	328	+12
+6	5	04.26	152	-01
+6	7	09.66	336	+15
+8	7	07.41	136	-13
+8	9	07.95	332	+32
+8	10	02.46	129	+04
+11	10	07.16	024	-03
+11	12	09.58	208	+25
+12	13	10.71	200	+24
+14	13	03.48	134	-06
+15	14	18.72	214	-08
+15	16	08.95	357	+24		; notes say 16 to 15
+17	16	16.46	294	-09
+17	18	11.06	346	-01
+19	18	17.88	172	-09
+20	19	18.15	147	-04
+20	21	20.42	337	00
+22	21	13.28	109	-04
+22	23	16.38	328	-03
+24	23	15.04	357	+12
+25	23	07.34	170	-02
+25	26	18.07	304	00
+27	26	17.77	194	-10
+27	28	14.55	034	+23
+29	28	13.54	171	-11
+; south from junction
+14	30	18.17	178	+04
+31	30	12.68	354	-02
+
+*data passage station left right up down ignoreall
+1	0.5 	1.5	2.0	1.5	station on pendant from previous survey
+2	0.9	0.0	3.0	1.2
+3	0.0	1.0	0.75	1.1
+4	1.0	0.1	3.5	1.3
+5	0.0	1.2	3.0	1.2
+6	0.4	1.5	4.0	0.9
+7	0.6	0.0	6.1	1.3
+8	0.0	0.5	4.2	0.9
+9	0.3	0.3	1.9	0.5
+10	-	-	-	1.4	numbered
+11	0.9	0.5	1.5	1.2	
+12	2.3	0.2	2.7	1.5	
+13	2.0	7.6	7.7	1.3	RP tip of loose pointy rock stood on end
+14	4.1	5.5	8	1.5	RP rock in chamber, numbered
+15	3.2	0.5	11.4	0.4	RP rock on floor (6.2up is roof of lower passage)
+16	0.0	6.4	12.4	0.6	RP LHW numbered
+17	8	1	3.7	0.7	RP RHW (LRUDs estimated from drawings)
+18	4.8	10.0	3.7	0.7	RP on boulder numbered
+19	7.0	11.7	3.8	1.3	numbered
+20	0.7	9.8	2.7	0.5
+21	4.6	6.3	3.6	2.2	numbered
+22	0.5	8.1	2.0	2.0
+23	9.4	3.5	0.0	4.0	numbered
+25	8.3	0.7	1.6	1.5	numbered  by draughting lead
+26	0.0	8.0	1.5	2.4
+27	0.6	7.2	1.2	2.9
+28	5.6	0.4	1.7	2.1
+29	0.8	6.3	2.7	2.5	numbered
+
+*data passage station left right up down ignoreall
+14	5.5	4.1	8	1.5
+30	7.4	0.7	5.2	1.1
+31	0.5	5.4	7.7	1.5	numbered
+
+;*equate extra.0 29
+
+;*begin extra
+; tiddly little extra survey leg on the end up traverse round hole
+; done on same survey trip as 'Massive for Mendip'
+;*date 2011.08.07
+;*team notes Wookey
+;*team insts "Catherine Hulse"
+;*team insts "Adam Henry"
+
+;*export 0
+
+;0	1	15.57	047	+24
+
+;*end extra
+
+*end oldmen
+
+*equate oldmen.29 oldmen2.29x
+
+*begin oldmen2
+
+*date 2011.08.07
+*team Stefan Mark notes
+*team Thomas Holder insts
+*team Olaf Kahler tape 
+;reference 2011#30
+
+*export 29x 2 4 7
+
+29x	1	2.78	51	-38
+1	2	29.00	007	-40
+2	3	5.77	108	+16
+3	4	10.48	074	+24
+4	5	18.89	039	+18
+5	51	3.86	058	+02
+51	52	17.98	033	+13
+5	6	10.54	067	-07
+6	7	14.67	038	-16
+
+
+*data passage station left right up down ignoreall
+1	4	4	4	2
+2	0.5	4	5	2
+3	0.5	0	10	1
+4	6	2.5	0	0.5
+5	0.5	5	2	2
+6	1	0	5	1.5
+7	3.5	4.5	3	1
+
+5	0.5	5	2	2
+51	0	4	1.5	0.5
+52	5	4	2	1.5	
+
+*end oldmen2
+
+*equate oldmen2.2 oldmen3.2x
+
+*begin oldmen3
+
+*date 2011.08.07
+*team "Becka Lawson" notes
+*team "Anthony Day" insts
+*team "Anthony Day" tape 
+;reference 2011#29
+
+*export 2x 9
+
+1	2x	5.61	018	+22
+1	2	4.65	227	-27
+3	2	5.87	004	+18
+3	4	5.39	235	-30
+5	4	7.82	037	+19
+5	6	3.19	205	-01
+7	6	2.78	334	+27
+7	8	2.16	234	-08
+9	8	4.16	016	+06
+
+*data passage station left right up down ignoreall
+;2x	8	1.5	10	2
+1	0.8	0	3.3	2.1
+2	1.1	0	4	1.5
+3	0	1.1	4.4	1.6
+4	0	0.8	3.2	1.6
+5	0.8	0.8	3.5	1.4
+6	0	0.8	2	2.3
+7	0.3	0.8	2.6	1.5
+8	0.5	0	1.8	2
+9	0.6	0	0.8	2.2	
+
+*end oldmen3
+
+*equate oldmen2.7 oldmen4.7x
+*equate oldmen2.4 oldmen4.10	; this connection needs to be checked
+
+*begin oldmen4
+
+*date 2011.08.08
+*team Anthony Day notes
+*team Becka Lawson tape
+*team Thomas Holder insts
+;ref 2011#33
+
+*export 7x 7 9 10 30
+
+1	7x	04.35	128	+02
+1	2	06.12	007	+08
+3	2	13.68	206	+20
+3	4	19.87	316	-09
+5	4	07.07	158	+01
+5	6	11.16	227	-21
+6	7	11.05	302	-14
+1	8	08.08	148	+03
+8	9	03.49	017	+08	
+11	10	07.44	030	+19
+11	12	05.96	166	-16
+13	12	03.66	060	+11
+13	14	19.06	150	-02
+15	14	16.11	306	-11
+15	16	10.24	198	+16
+17	16	11.47	307	-26
+18	16	05.65	296	+04
+18	19	10.14	253	-12
+20	19	05.45	034	+29
+20	21	08.18	206	-18
+22	21	01.84	122	+05
+22	23	06.02	200	-19
+24	23	06.70	048	+19	; notes say clino -19 - sketch shows opposite
+24	25	03.35	300	-11
+26	25	03.41	044	+14
+27	26	02.86	355	+15
+27	28	06.57	126	+03
+29	28	02.17	302	-18
+29	30	04.73	107	+17
+
+*data passage station left right up down ignoreall
+7x	3.3	0.0	2.4	1.1
+1	0.0	2.0	3.0	1.5
+2	2.4	5.3	9.0	1.4	PM RH wall (numbered)
+3	5.0	2.0	11.0	1.6
+4	1.3	5.0	1.5	1.8	PM LH wall
+5	3.5	1.0	1.0	1.3	PM roof pendant
+6	0.0	2.0	0.6	1.0
+7	0.1	2.0	1.5	0.4	PM LH wall near floor (numbered)
+
+*data passage station left right up down ignoreall
+8	1.1	0.0	0.1	0.9
+9	0.5	3.0	0.3	0.5	PM (numbered)
+
+*data passage station left right up down ignoreall
+10	-	-	-	-	PM RH wall from oldmen2 survey
+11	3.0	0.0	1.5	1.6	PM LH wall
+12	1.3	2.0	1.5	1.1	PM RH wall
+13	4.0	0.1	1.4	1.4
+14	2.0	1.5	1.5	1.0	PM LH wall
+15	1.3	2.0	3.2	1.1	PM LH wall (low)
+16	3.0	0.0	7.0	3.0	PM RH wall
+17	-	-	3.5	0.6	PM back wall, top of c5 (numbered)
+
+*data passage station left right up down ignoreall
+18	0.7	2.5	-	1.0	PM LH wall
+19	0.4	0.2	0.5	1.6	PM RH wall
+20	1.0	0.4	1.5	0.5	PM LH wall
+21	0.5	0.7	1.4	0.4	PM LH wall
+22	0.5	1.0	1.5	0.5	PM RH wall
+23	0.7	0.8	1.7	0.5	PM floor
+24	1.1	0.3	1.0	0.6	PM LH wall
+25	1.1	0.2	1.5	0.9	PM RH wall
+26	0.4	0.1	1.2	0.5	PM RH wall
+27	0.6	0.0	1.2	0.5	PM RH wall
+28	0.8	0.0	1.6	0.2	PM RH wall
+29	0.3	1.2	1.4	0.5	PM pendant LH wall
+30	0.5	1.0	2.5	1.0	PM LH wall top of pitch (numbered)
+*end oldmen4

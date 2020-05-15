@@ -1,0 +1,41 @@
+*equate irrig.E room.1
+
+*begin irrig
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Kaninchenhöhle, 1623/161
+*title "irrig [Irrigation]"
+*date 2000.08.01
+*team Insts Becka
+*team Notes Julian T
+*team Pics Julian T
+*team Tape Julian
+*instrument Compass #4; Clino #4, Tape: No idea.
+; Calibration: somewhere
+; ref.:	2000#12
+
+; ====== stations refindable to link to other surveys: ======
+
+*export E
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	3.15	109		-18		; tape and clino readings faded
+3	2	6.62	316		+18
+3	4	4.04	132		-03
+4	5	1.73	355		-47
+6	5	7.46	-		down
+6	7	2.74	095		+13
+8	7	7.41	301		-21
+9	8	3.01	180		-73
+A	9	9.22	222		-46
+B	A	1.90	293		-21
+B	C	13.36	028		+71
+C	D	2.71	072		-12
+D	E	0.84	112		-18
+
+;station details
+;name	L	R	U	D	E	description
+
+*end irrig

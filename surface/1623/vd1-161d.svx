@@ -1,0 +1,71 @@
+;1998.04.03 AERW added comments, refs, exports
+
+*begin vd1to161d
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Kaninchenhöhle 1623/161
+*title "surface vd1 > 161d"
+*date 1996.7.14 ; *team Inst Matthew Hicks
+*team Notes Steve Bellhouse
+*team Pics Steve B (? none in book)
+*team Tape Steve B
+*instrument Silver ones with foggy clino (sorry I'll fix this later)
+; Calibration:
+
+; ref.:	1996 surface survey book pp 8-10 (no sketching)
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; VD1 fixed point
+*export 39	; red dot on 161d entrance
+
+*calibrate tape -0.28
+;
+;From	to	Tape	Compass	Clino 
+1	2	24.12	169	-06
+3	2	25.15	254.5	+11
+3	4	21.30  	111	-27
+5	4	20.20	276	+01
+5	6	12.51	102	-12
+7	6	29.69	274	+10
+7	8	 8.61	117	-09
+9	8	29.49	264	+10
+9	10	 8.34	102	+16
+11	10	27.76	274	+06
+11	12	10.61	107	-18
+13	12	25.21	222.5	+08
+13	14	17.68	47	-11
+15	14	12.19	318	+30
+15	16	25.70	168	-10
+17	16	 6.78	339	-09
+17	18	19.95	148	-09
+19	18	29.18	320	+09
+19	20	30.20 	141 	-04
+21	20	14.05	350	 00
+21	22	18.12	140	-10
+23	22	28.95	352	+07
+23	24	 6.10	226	+10
+25	24	13.30	316	+37
+25	26	21.86	063	-21
+27	26	29.43	245	+02
+27	28	24.80	051	-04
+29	28	18.30	264	+17
+29	30	 3.90	132	-23
+31	30	10.60	220	+14
+31	32	 1	-	UP
+32	33	26.32	034	+07
+34	33	11.17	304.5	+51
+34	35	25.57	056	-08
+36	35	27.75	254	+20
+36	37	30.90	091	-12
+38	37	15.55	238	+29
+38	39	 1.08	352	-06
+
+;point 33 is bolt for the climb above dodgy cliff above
+;161d. I didnt put any more fixed points in as some 
+;people are bound to find some caves near the path and 
+;so they will have to put a spit in and these can serve
+;as good fixed points. This survey was very boring and 
+;I would rather have gone caving.
+
+*end vd1to161d

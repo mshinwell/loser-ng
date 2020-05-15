@@ -1,0 +1,71 @@
+*begin allrazor 
+
+*title "Razor Dance"
+
+*include razor1
+
+*include razor2
+*equate razor2.1 razor1.30
+
+*include razor3
+*equate razor2.14 razor3.1
+
+*include razor4
+*equate	razor4.1c razor3.4
+
+; -- 2003 --
+
+*include razor5
+*equate razor4.10 razor5.1
+
+*include razor6
+*equate razor6.1 razor5.16
+
+*include razor7
+*equate razor7.1 razor6.2
+
+; -- 2004 --
+
+*include razor8
+*equate razor8.1 razor7.24
+
+*include razor9
+*equate razor9.1 razor8.17
+
+; temporary:
+;*equate a razor2.11
+;*equate c razor1.9
+;a	b	1500	233	0
+;a	b1	500	53	0
+;c	d	1500	233	0
+;c	e	500	53	0
+
+; -- 2007 --
+
+*include razor10
+*equate razor10.1 razor9.16
+
+*include razor11
+*equate razor11.1 razor10.22
+
+*include razor12
+*equate razor12.16 razor11.13
+
+*include silkroad
+*equate razor12.10 silkroad.10
+
+*include silkroad2
+*equate silkroad.37 silkroad2.1
+
+*include entertheflagon
+*equate silkroad2.14 entertheflagon.1
+
+*include silkworm
+*equate silkroad2.17 silkworm.1
+*equate silkroad2.11 silkworm.5
+
+*include crouching
+*equate silkroad2.23 crouching.0
+
+*end allrazor 
+

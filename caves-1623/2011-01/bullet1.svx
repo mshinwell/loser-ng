@@ -1,0 +1,58 @@
+*begin bullet1
+*export 4 13
+
+*title "Bullet secound hoehle"
+*date 2013.08.03
+*team Insts Alex Crow
+*team Notes Martin Green
+
+; notes in 2013#07
+
+;tape yellow real 40cm short
+;compass 9
+;clino 4
+
+;bridge verification (2013-08-04)
+;326 -22; 148 +24
+
+*calibrate tape +0.40
+
+
+*data normal from to tape	compass clino
+
+1	2	6.50	106	-44
+*flags surface
+3	1	5.81	348	-10	
+3	4	5.06	196	-12
+4	5	1.05	079	-12
+*flags not surface
+5	6	9.55	117	-47
+*flags surface
+3	7	18.75	170	+04
+7	8	9.79	016	-30
+*flags not surface
+8	9	5.13	342	-10
+9	6	4.38	048	-56
+6	10	6.80	011	-07
+6	11	12.86	069	-48
+2	10	5.94	142	-41
+10	12	3.95	157	-33
+12	11	9.18	113	-52
+11	13	10.74	023	-59
+
+*data passage station left right up down ignoreall
+1	-	-	-	-	;Purple paint on ledge
+2	0.4	1.3	4.0	0.9	;Pink paint LHW near dripline
+3	-	-	-	-	;surface p
+4	-	-	-	-	;Tag '2011-01'
+5	-	-	-	-	;In front of tag
+6	-	-	-	-	;RHW P just in dripline
+7	-	-	-	-	;P on pinnacle
+8	0.5	0.5	1.0	0.1	;P on bolder on floor
+9	0	1.8	1.0	1.7	;P on wall
+10	0.2	0.9	1.5	0.4	;Pencil cross on LHW
+11	2.0	0.0	3.5	-	;Bolt RHW
+12	1.6	0.2	0.8	-	;Under arch RHW
+13	1.8	3.5	-	1.5	;Paint LHW where chamber starts
+
+*end bullet1

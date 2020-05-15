@@ -1,0 +1,45 @@
+6.8.07 (David Loeffler) Back-ported into CUCC dataset.
+
+6.6.01 (Robert)
+Daten von Seitengang bei MP25 eingegeben (mit Raumwerten)
+
+
+3.6.01 (Robert)
+Datenstruktur leicht geändert. Arge-Daten sind jetzt im Hauptverzeichnis
+von 144. CUCC-Daten beginnen jetzt mit MP cuccrest.22
+
+
+20.8.00 (Thilo)
+Daten upgedated (Stand jetzt)
+
+2000.05.11 (wook)
+Created 144fix file.
+Arranged ARGE & CUCC surveys side-by-side
+Updated files with data from 041/cucc/144.svx (station details, dates
+etc.) (it seems there was a fork in versions for this and 143 in 1998-9)
+
+28.9.99 (Thilo)
+Datenstruktur an CUCC angepaßt.
+CUCC data structure adopted.
+Habe wieder alle fix und equates in die Datei "144" gepackt und geprüft.
+All fix and equate in the "144" data packed and checked.
+Meßgruppennamen auf Groß-/Kleinschreibung geprüft und korrigiert.
+Survey names and upper/lower case checked and corrected
+Meßzüge übersichtlich gruppiert, überflüssige Befehle gelöscht (*Data from to . . )
+Individual surveys clearly grouped, superfluous commands removed (*Data from to . . )
+This seems to have been miscopied from elsewhere: 115rest ebenfalls bearbeitet.
+
+22.9.99 (Thilo) 
+Die "akte40" +41 umfaßt die Meßdaten von CUCC.
+Files "akte40" and "akte41" contain CUCC data.
+"Messzug0" +1 sind die Arge Meßdaten.
+"Messzug0" and "Messzug1" are ARGE data
+Die CUCC Daten sind durch "144rest" zusammengefaßt, die Arge Daten durch "144".
+The CUCC files are included by "144rest", the ARGE files by "144" 
+Beide Teile sind durch *fix aneinander angeschlossen.
+Both surveys are connected by *fix
+
+21.9.99 (Thilo) 
+Alle Daten der (144) ins Verzeichnis geschoben.
+All data for 144 moved into this directory.
+

@@ -1,0 +1,97 @@
+*begin snakecharmer3
+
+; stations linked into other surveys (or likely to)
+*export 19 40
+
+; Cave: 258
+; Area in cave/QM: Snake Charmer
+*title "Snake Charmer 3"
+*date 2017.08.01
+*team Insts Rachel Turnbull
+*team Notes Becka Lawson
+*team Pics Michael Sargent
+*team Tape None
+*instrument Becka's Distox
+; Calibration: unknown
+*ref 2017#32
+; the #number is on the clear pocket containing the original notes
+
+; if using a tape:
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+25	19	8.05	052	+60
+25	26	4.75	279	+01
+26	27	4.58	228	-27
+27	28	11.66	257	-49
+28	29	4.93	217	-25	
+28	30	10.98	210	+13
+30	31	11.87	086	+71
+30	32	12.23	269	-36.5
+33	32	1.80	346	-39
+33	34	3.85	259	-35
+34	35	9.59	285	0
+35	36	4.36	233	-22
+36	37	2.95	250	-03
+37	38	4.43	203	+06
+38	40	3.53	291	-30
+
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+;25	4	1	1	6	
+;19	0	3	6	2
+;26	2	7.5	10	3
+;27	0.5	0.5	6	1.5
+;28	8	0	13	4
+;28	4.8	0.3	14	3.4
+;29	0.2	0.2	4	2
+;30	3	3	5.5	1.5
+;31	-	-	-	-
+;32	1.2	2.5	6.0	4.5
+;33	0	4.0	3.9	3.4
+;34	1.5	0.5	9	2
+;35	1.2	0	4.9	37.4
+;36	0.1	0.2	4.2	2
+;37	0.4	0.2	3.2	1.6
+;38	0.2	3.6	0.5	2
+;40	0.3	3	1.8	1.6
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+19	0	3	6	2
+25	4	1	1	6	
+26	2	7.5	10	3
+27	0.5	0.5	6	1.5
+28	4.8	0.3	14	3.4
+30	3	3	5.5	1.5
+32	1.2	2.5	6.0	4.5
+33	0	4.0	3.9	3.4
+34	1.5	0.5	9	2
+35	1.2	0	4.9	3.4
+36	0.1	0.2	4.2	2
+37	0.4	0.2	3.2	1.6
+38	0.2	3.6	0.5	2
+40	0.3	3	1.8	1.6
+*data passage station left right up down
+28	4.8	0.3	14	3.4
+29	0.2	0.2	4	2
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1	X	snakecharmer3.31	-  aven climb, looks promising
+;QM2	A	snakecharmer3.40	hipstersreturn.41  continuation, pitch
+
+;------------
+;Cave description  ;(leave commented-out)
+;slightly wet rifty passage, several pitches and climbs down
+
+*end snakecharmer3

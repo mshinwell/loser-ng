@@ -1,0 +1,216 @@
+;> 1623/41
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Stellerweghöhle 1623/41
+; Weg vom Megalo-Schlinger an den Morphan-Rampen vorbei hin zum 100m Schacht (Big Pitch)
+; 7 Vermessungen
+
+
+*begin bus
+*title "BUS - Beate Use Shop"
+
+*export 14_5
+*export 3
+*export lotu
+*export 17
+*export 17_1
+*export 15
+*export 17_9
+*export	lotz
+*export 17_4_H7 17_5_H5
+
+
+;-1-
+; Messteam: Florian Gruner, Jörg Haussmann
+; Zeichner: Florian Gruner
+; Referenz fehlt
+
+*date 1997
+
+*units compass degrees
+*units clino degrees
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+ 3      4       10.73    43      35
+ 4      5       10.44   -41     128
+ 5      6        7.09   -22     104
+ 6      7        4.63   -35      98
+ 7      8       13.29   -57     130
+ 8      9        6.22   -10      77
+ 9     10        4.38   -13      96
+10     11       10.85   -28     109
+
+;Raumwerte
+;Name	Links	Rechte	Oben	Unten		Beschreibung
+;keine Raumwerte
+
+
+;-2-
+; Messteam: Carmen Zeller, Markus Bölzle, Robert Eckardt, Robert Winkler
+; Zeichner: Robert Winkler
+; Referenz: Messbuch Florian Gruner 1
+
+*date 1997.07.30
+
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+11      12      8.41    9       81
+12      13      9.75    27      25
+13      14      11.4    0.5     95
+14      15      13.16   26      359
+15      16      14.85   11      3
+16      17      5.55    3       58
+
+;Seitengang
+17      17_1    7.44    33      338
+17_1    17_2    3.8     -17     300
+
+
+;Raumwerte
+*data passage station left right up down
+12	3	1	3.5	0.7
+13	4	-	2.5	1.2
+14	1	2.5	4	2
+15	8	4	5	1.7
+16	5	2	2	1.8
+17	-	2	0	1.7
+17_1	8	4	0	1.8
+17_2	8	-	7	1.5
+
+
+;-3-
+; Messteam: Florian Gruner, Gaspard Magarinos, Mark Morgan, Robert Winkler
+; Zeichner: Robert Winkler
+; Referenz fehlt
+
+; Datum fehlt
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+17_2    Loto    2.48    -5      304	;Verbindung zur Quickie-Rampe
+Loto	Lotz	13.97	-90	0
+Lotz	Lotu	33.41	-90	0
+
+;Raumwerte
+;Name	Links	Rechte	Oben	Unten		Beschreibung
+;keine Raumwerte
+
+
+;-4-
+; Messteam: Florian Gruner, Peter Otto
+; Zeichner: Florian Gruner (?)
+; Referenz: Messbuch Florian Gruner 1
+
+;Weitervermessung von Robert Eckard und Peter Otto
+
+*date 1998.08.31
+
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+17_2    17_3    5.65    -10       8
+17_3    17_4    4.20    -30      65
+17_4    17_5    7.40     27      19
+17_5    17_6    5.64      6       3
+17_6    17_7    8.04     36       1
+17_7    17_8    2.29     54     279
+17_8    17_9    3.16     36     334
+
+;Raumwerte mit Laserpointer von Leica
+*data passage station left right up down
+17_2	1.3	1.5	0	1.8
+17_3	0.9	1.2	3.3	1.5
+17_4	1.2	0	2.1	1.3
+17_5	1.4	0	5.4	1.6
+17_6	1.1	0	1.8	1.8
+17_7	1.4	0	2.0	0.4
+17_8	0	1.3	2.0	1.5
+17_9	3.2	4.5	6.0	0
+
+
+;-5-
+; Rampengelände kurz hinter BUS
+; Messteam: Andreas Jakob, Robert Winkler, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 2
+
+*date 1999.05.31
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+14	14_1	14.38	-28	109
+14_1	14_2	15.01	-43	146
+14_2	14_3	5.53	17	278
+14_3	14_4	16.08	-54	208
+14_4	14_5	2.69	-20	233
+; eingefügt aus "Neuem Glück"
+14_5	6x	15.5	-68.89	260	; umgerechnet von Gon in Grad
+14_5	5_1x	6.84	-18.89	312.22	; umgerechnet von Gon in Grad
+5_1x	10x	3.32	-40	288.89	; umgerechnet von Gon in Grad
+	
+
+14_1	h1	5.44	9	238
+h1	h2	10.63	-55	188
+14_2	h2	11.05	10	274
+
+;Raumwerte
+*data passage station left right up down
+14_1	8	7	4	2
+14_2	2	3.5	3	1
+14_3	1.5	0	4	1
+14_4	2	0.5	3	2
+14_5	1	0	0.5	2
+6x	0.8	0	0.2	0.5
+5_1x	1	0	0.7	1.5
+10x	-	-	-	-
+
+*data passage station left right up down
+14_1	8	7	4	2
+h1	1.5	0	3	-
+h2	-	-	-	-
+
+
+;-6-
+; Rampengelände kurz hinter BUS
+; Messteam: Andreas Jakob, Beata Nowicka-Nehr, Robert Winkler, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 2
+
+*date 1999.06.03
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+14_2	2a	3.38	10	97
+2a	2b	16.2	-90	0
+
+;Raumwerte
+*data passage station left right up down
+14_2	2	3.5	3	1
+2a	1	2	0	16
+2b	-	-	-	-
+
+
+;-7-
+; Messteam: Saskia Bartmann, Stefan Mark
+; Zeichner: Stefan Mark
+; Referenz fehlt
+
+*date 2006.08.13
+
+*data normal from to length clino compass
+17_4	17_4_1	2.39	13	5
+17_4_1	17_4_2	2.47	-33	109
+17_4_2	17_4_3	11.53	-64	140
+17_4_3	17_4_4	3.67	-6	63
+17_4_4	17_4_H7	1.88	5	318
+
+17_5	17_5_1	1.76	3	321
+17_5_1	17_5_2	6.30	-26	80
+17_5_2	17_5_3	7.56	-55	178
+17_5_3	17_4_H7	6.54	-52	170
+
+17_5_2	17_5_H5	11.54	-65	127
+
+
+*end bus

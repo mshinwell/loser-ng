@@ -1,0 +1,26 @@
+*begin pointlesssniffing
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Balconhohle
+*ref 2014#36
+
+*export 3
+
+*title "Point Sniffing"
+*date 2014.08.12
+*team Notes Matt W
+*team Instruments David W
+*instrument SAP, Uni-T disto
+
+;from 	to 	tape 	compass clino
+1	2	5.9	217	-17
+2	3	1.42	288	+21
+
+*data passage station left right up down ignoreall
+1	.2	.7	.7	.8	
+2	.5	1.2	.5	.5
+3	-	-	-	-	station 42 in smash crash passage
+
+
+*end pointlesssniffing
+

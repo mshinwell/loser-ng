@@ -1,0 +1,236 @@
+;> 1623/41
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Stellerweghöhle 1623/41
+; 4 Vermessungen
+
+
+*begin wetnwild
+
+*export A 0 2
+*export 67_1
+
+
+;-1-
+*title "Vermessung 100m Schacht - Wet'n Wild, Verbindungsweg zur Schnellzughöhle"
+*date 1998.06.02
+; Messteam: Kasia Zenker, Robert Winkler
+; Zeichner: Robert Winkler
+; Referenz: Messbuch Florian Gruner 1
+
+;-----------------------------------------
+; Vermessung in Gon
+*units compass grads
+*units clino grads
+;-----------------------------------------
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung	Richtung
+A       0       23.10   -100    0
+0       1       6.40    -11     324
+1       2       6.90    -19     320
+2       3       12.93   -3      324
+3       4       6.51    -8      318
+4       5       3.41    42      323
+5       6       5.71    7       330
+6       7       8.78    9       251
+7       8       7.39    7       227
+8       9       5.34    -2      364
+9       10      2.50    -5      276
+
+;Raumwerte
+*data passage station left right up down
+0	-	-	-	-
+1	1	0	2	-
+2	0	0.5	1.7	-
+3	0.5	0	1.5	-
+4	0	0.5	1	-
+5	0	0.5	3	-
+6	-	0	4	-
+7	0	0.5	5	5
+8	0	3	7	4
+9	3	0	8	-
+10	0	1	8	-
+
+
+;-2-
+*title "Vermessung 100m Schacht - Wet'n Wild, Verbindungsweg zur Schnellzughöhle"
+*date 1998.06.04
+; Messteam: Florian Gruner, Robert Winkler
+; Zeichner: Robert Winkler
+; Referenz: Messbuch SMK 4
+
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung	Richtung
+10      11      2.09    -4      354
+11      12      4.22    -17     213
+12      13      6.60    -27     314
+13      14      3.20    22      225
+14      15      1.95    11      304
+15      16      3.20    -1      199
+16      17      1.51    -11     316.5
+17      18      6.45    4       224
+18      19      4.90    -8      348
+19      20      5.76    8       216
+20      21      2.08    -25     289
+21      22      5.73    1       212
+22      23      2.88    2       283
+23      24      3.37    -8      219
+24      25      2.98    8       299
+25      26      8.98    9       211
+26      27      2.10    -13     210
+27      28      9.41    4       231
+28      29      5.36    10      234
+29      30      5.85    0       233
+30      31      1.13    9       317		
+
+;Seitengang kurz vor der Schachtstrecke rechts
+28      28_1    11.79   -19     338
+28_1    28_2    7.73    3       20
+28_2    28_3    5.13    -9      51
+;definitives Ende des Seitengangs
+
+;Raumwerte
+*data passage station left right up down
+11	0.5	0	-	4
+12	0	0.5	-	3.5
+13	1	0	-	1
+14	0	1	-	1.5
+15	1	0	-	1.8
+16	0	1	-	2
+17	0.8	0.2	-	1.7
+18	0	-	7	2.5
+19	-	0	12	3
+20	0	0.5	-	2
+21	-	0	8	3
+22	0	1	8	4
+23	1	0	15	4
+24	0.3	3	15	3
+25	-	2	15	2
+26	1	1	1.5	1.2
+27	2	0	1	1.5
+28	0	2	-	8
+29	0.6	0.4	8	8
+30	0	2	-	10
+31	-	1	-	-
+
+*data passage station left right up down
+28	0	2	-	8
+28_1	0	-	1	0.5
+28_2	0	0.5	1	1
+28_3	-	-	-	-
+
+*units compass degrees
+*units clino degrees
+
+
+;-3-
+*title "Examenskluft"
+*date 2001.08.26
+; Messteam: Mark Morgan, Stefan Mark, Aiko Schütz, Florian Gruner
+; Zeichner: Mark Morgan
+; Referenz: Messbuch SMK 5
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung	Richtung
+31	32	3.26	24	200
+32	33	15.95	-90	0
+33	34	5.46	26	181
+34	35	2.37	-37	288
+35	36	19.90	-90	0
+36	37	2.28	7	271
+37	38	2.90	-31	182
+38	39	9.48	-90	0
+39	40	8.98	4	127
+40	41	5.10	-90	0
+41	42	10.50	53	109
+42	43	5.38	12	139
+43	44	8.36	-90	0
+44	45	2.60	28	249
+45	46	3.29	-18	275
+46	47	7.00	-41	300
+47	48	1.90	-12	182
+48	49	5.66	-41	136
+49	50	26.97	-90	0
+50	51	8.82	-90	0
+51	52	6.79	4	127
+52	53	28.30	-70	174
+53	54	4.63	-90	0
+54	55	3.26	-0.5	128
+55	56	7.55	-22	118
+56	57	3.18	-64	169
+57	58	6.01	-16	182
+58	59	3.58	-4	97
+59	60	10.36	-90	0
+60	61	5.79	20	80
+61	62	1.84	-28	4
+62	63	7.85	-90	0
+63	64	8.62	-59	360
+64	65	2.93	-24	67
+
+;Raumwerte
+*data passage station left right up down
+31	-	1	-	-
+32	0.6	0.4	4	16
+33	-	1	20	0.4
+34	0.2	2	20	1.2
+35	1	-	20	20
+36	0.5	1.5	35	0
+37	2	-	25	-
+38	-	15	20	10
+39	1.10	1.40	20	-
+40	0.5	-	3	4
+41	1	0.5	7	0.8
+42	0	1	4	5
+43	0.5	0.2	1	4
+44	-	1	8	5
+45	0.8	-	1.5	8
+46	0.2	0.2	1.2	8
+47	3.4	0	30	1.1
+48	2	7	30	1
+49	1.5	-	30	30
+50	1.2	-	50	10
+51	1	0.8	80	-
+52	-	1.2	50	2
+53	1	-	60	6
+54	1	0.8	70	-
+55	-	2	80	1.7
+56	-	0.4	1	1.4
+57	-	0.5	20	1
+58	1.1	-	20	1
+59	-	1	100	8
+60	1.2	0.8	110	-
+61	1	-	30	1.5
+62	-	1.1	20	8
+63	1.2	1	20	-
+64	1.2	1.2	30	1
+65	1	-	-	-
+
+
+;-4-
+*title "Verbindungshalle"
+*date 2003.08.23
+; Messteam: Aiko Schütz, Florian Gruner, (Saskia Bartmann, Florian Renz, Robert Winkler)
+; Zeichner: Florian Gruner
+; Referenz: Messbuch ?
+
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung	Richtung
+65	66	4.39	-12	81
+66	67	17.35	-90	0
+67	67_4	1.95	20	145
+67_4	67_3	8.60	-27	89
+67_3	67_2	15.33	-64	117
+67_2	67_1	12.49	39	68	;67_1 = MP32 von CUCC
+
+
+*data passage station left right up down
+65	1	-	-	-
+66	-	25	20	19
+67	-	-	-	-
+
+*units compass degrees
+*units clino degrees
+
+*end wetnwild

@@ -1,0 +1,58 @@
+;1998.03.26 AERW sort begin/end, add comments, refs, *calib clino
+;2009.07.27 AJD sorted titles
+
+*begin catwoman
+
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+;*title "LH Branch in Batman Series"
+;       Where the Wind Blows (Catwoman's Claws)
+*date 1996.07.19 ; 
+*instrument Set 4
+*team Insts Becka
+*team Notes Sam
+*team Pics Sam
+*team Tape Both
+; Calibration:  At 161d
+;   B>A 035, -12
+;   A>B 214, +9 (says -9 96KHp120)
+;   tape 0.2 too long ? no comment in 96KH
+;
+; Ref.: 1996 KH survey book pp 120-123
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1   ; cairned boulder at Gotham City Junction
+*export 4   ; CM on roof pendant opposite shaft (QM 96-31)
+*export 7   ; CM on rock in floor before No Utility Belt Required,
+        ; QM 96-32 (initially climbable aven) on right
+*export 8   ; CM on wall opposite squeeze, near QM 96-33 (p5, end of cha.)
+*export 10  ; CM in roof at junction after NUBR, QM 96-34 up boulders
+*export 15  ; CM on flake on LH wall opposite Pencil Shaft and QM 96-62
+*export 17  ; Carbide mark LH wall above shaft at start of large hading chamber
+
+*calibrate clino -1.5
+*calibrate tape  -0.20
+;From   to  Tape    Compass Clino 
+*title "Catwoman's Claws"
+1   2    5.20   338 +19
+3   2   20.69   205 -04
+3   4    9.40   033 +20
+5   4   13.17   177 +01
+5   6    8.93   346 +15
+7   6   13.05   132 -04
+8   7    5.45   046 -22
+*title "Where the Wind Blows"
+9   8    6.28   219 -47
+9   10   3.87   023 +30
+11  10  11.06   135 +37
+11  12  13.21   318 +04
+13  12  16.95   171 +02
+13  14   4.69   328 +34
+15  14   3.89   152 -07
+16  15  12.95   192 -17
+16  17   8.69   350 +05
+
+; LRUD for all except station 10, 96KHp120 not yet added
+
+*end catwoman

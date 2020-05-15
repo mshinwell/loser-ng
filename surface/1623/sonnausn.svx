@@ -1,0 +1,43 @@
+; am 14.11.00 von Thilo erstellt für Außenvermessung 
+
+*begin sonnausn
+
+; Ort:			Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle:			Außenvermessung Sonnenscheinschacht und Steinbläser-Eingang des Schwabenschachts
+*title "Außenvermessung Sonnenscheinschacht und Steinbläser-Eingang des Schwabenschachts"
+*date 2000.9.30
+; Von:	Ableser:		Kai Schwekendiek
+;	Schreiber:	Thilo Müller
+;	(2. Schreiber:)	
+;	Massband:	Kai Schwekendiek, Thilo Müller
+*instrument Thilo 
+; Gerätefehler:	
+; Referenz.:	Messbuch SMK 4
+
+; ====== Messpunkte, die an bereits bestehenden Vermessungen hängen: ======
+
+*export 0	; = MP 1500 (Trollinger), Nils 10/00
+*export 3	; = Eingangspunkt 1623/203 Sonnenscheinschacht
+*export 14	; = Eingangspunkt 1623/78e Schwabenschacht-Steinbläsereingang
+
+*calibrate tape +0.0	; "+" wenn das Massband zu kurz war, "-" wenn es zu lang war
+*DATA normal from to length gradient bearing  ignoreall
+
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+0	1	4.3	29	88
+1	2	41	-5	152
+2	3	7.25	-12	3
+
+2	4	32.8	-3.5	252
+4	5	7.1	13	299
+5	6	30.7	-14.5	244
+6	7	38.45	-18	263
+7	8	19.2	-7	268
+8	9	9.9	-23	265
+9	10	48.6	-2.5	187.5
+10	11	37.5	-0.5	165.5
+11	12	9.63	0.5	207
+12	13	26.55	-0.5	189
+13	14	3.64	-20	168
+
+*end sonnausn

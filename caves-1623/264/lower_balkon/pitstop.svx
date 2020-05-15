@@ -1,0 +1,177 @@
+; *** DO NOT SAVE THIS FILE WITHOUT RENAMING IT !! ***
+;[Stuff in square brackets is example text to be replaced with real data, 
+; removing the square brackets]
+
+*begin pitstop
+
+; stations linked into other surveys (or likely to)
+*export 1 2 44 56
+
+; Cave: Balkonhoehle
+; Area in cave/QM: 1623
+*title "pitstop"
+*date 2018.07.26
+*team Insts Luke Stangroom
+*team Notes Becka Lawson
+*team Pics 
+*team Tape 
+*instrument Becka 1 disto
+; Calibration: [Where, readings]
+*ref 2018#29
+; the #number is on the clear pocket containing the original notes
+
+; if using a tape:
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+2	1	5.66	156	+02
+3	1	4.65	075	+01
+4	2	5.89	119	+01
+5	4	4.50	106	+27
+6	5	3.22	111	+32
+7	6	2.56	160	+09
+8	7	11.70	114	+21
+9	8	4.79	079	+31
+10	9	5.36	351	+08
+11	10	3.39	354	+06
+12	11	4.20	299	-11
+13	12	4.26	013	+16
+14	13	5.45	073	+30
+15	14	6.64	000	+09
+16	15	7.18	115	+23
+17	16	7.65	072	+29
+18	17	11.74	142	+02
+19	18	12.35	117	-01
+
+20	19	5.15	143	-40
+21	20	8.18	010	-19
+22	21	4.22	113	-17
+22	splay	16.14	228	+42
+23	20	8.62	198	+18
+24	23	4.56	179	-37
+25	20	6.81	126	+40
+26	25	12.77	162	+07
+27	26	7.49	165	-07
+28	27	16.20	156	+01
+29	28	11.27	169	+03
+30	29	28.68	144	+05
+31	17	13.71	321	-10
+32	30	8.06	065	+16	; notes say 32 to 30 but CHECK if it shoudl be to 31
+33	32	3.61	022	+04
+34	33	3.88	075	-14
+35	30	16.19	147	+07
+36	35	19.36	141	+07
+
+37	36	10.78	154	-19
+38	37	14.51	132	-01
+39	38	13.50	136	+03
+40	39	4.79	097	+09
+41	40	9.46	164	-03
+42	41	15.72	146	-12
+43	42	5.01	125	-12
+44	43	13.71	150	-03
+45	31	11.39	346	+02
+46	45	12.75	330	+01
+47	46	27.28	335	-01
+48	47	27.79	344	+01
+49	48	12.87	339	-02
+50	49	16.46	007	+06
+51	50	20.06	346	+10
+52	51	7.51	013	+08
+53	52	22.08	083	+25
+
+54	53	17.57	076	+27
+55	54	11.03	149	+12
+56	55	7.69	094	+05
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Red nail varnish markings
+;1 0 2.5 9.5 12
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down ignoreall
+1	4	3	1.5	0.2	rock near pitch
+2	5	1.6	1.5	0.5	boulder tip
+3	1.6	3.3	2.8	0.4	up mud route
+4	0.8	0.9	1.9	1.7	start of l branch at junction
+5	0.3	0.5	0.6	1.6	l ceiling
+6	0.2	1.2	1	1	l wall
+7	1	1.6	1	0.8	rw / spike
+8	1.7	1.1	1.2	1.7	rw
+9	0.3	0	1	1.4	rw
+10	0.5	0.8	0.5	1.6	lw
+11	1.4	0.3	0.7	1.2	rw
+12	1.2	1.6	1.6	1.7	lw
+13	0.5	1.4	1.3	0.8	lw at corner
+14	0.9	0.2	1.3	1	rw
+15	0.3	1.1	1.3	1.2	lw 
+16	0.7	0	1.2	1.4	rw end of passage
+17	1.8	4.1	2.5	0.5	numbered at big junction beyond pool
+18	2	0.7	3	1.2	rw
+19	1.2	2.5	1.3	1.8	boulder mid passage
+
+20	3.5	1.5	0	1.4	ceiling numbered
+21	1.8	8.6	0.4	1.4	lw towards aven
+22	5.6	4.6	35	3.7	tip boulder
+23	1.1	2	2.6	2.3	lw above pitch
+24	2.2	0.7	2	1.1	roof pendant
+25	0.5	1.5	1.5	1.9	lw opposite passage
+26	0.3	2.5	3.4	1.2	lw in passage
+27	1.8	0.6	3.1	1.9	rw pendant
+28	0.2	3.7	2.8	1.3	lw before climb
+29	3.1	0.5	1.8	1.2	rw
+30	3	2.2	4.1	1.9	boulder at jn, numbered
+31	2.5	2.2	1.9	1	l wall / floor
+32	1.2	0.8	5	1.6	rw after junction
+33	0	1	10	2	lw below aven
+34	0.8	0.8	11	1.4	back wall
+35	0.2	2.8	2.9	1.1	lw
+36	1.3	2.5	3.2	0.2	spiky rock l side
+
+37	1.6	1.9	3.3	1.7	rw
+38	1.3	3.8	1.8	1.6	lw / ceiling
+39	1.6	0	3	1.2	rw past rock pillar
+40	0	1.2	1.6	0.3	lw smaller, crawl
+41	1.9	0.3	0.5	0.5	floor mid passage
+42	3.1	3.5	5.7	2.2	lw big again
+43	1.5	1.2	14	0.5	mid passage boulder
+44	0.5	1.5	5	1.1	lw canyon
+45	4.2	1.4	0.8	1.5	rw dry phreas
+46	3.2	2.2	4	1	mid passage spike
+47	0.9	2.2	2.3	1	mid passage
+48	3.8	2.3	1.2	1	lw
+49	0.3	1.7	1.9	1.6	lw
+50	1.2	0	1.9	1.9	rw
+51	1	2.9	1.6	1.1	lw
+52	0.7	2.7	1.9	1	lw at corner
+53	2.8	1.1	1.3	1.5	rw down tube
+
+54	0	3.2	0.6	0.6	rw
+55	3.4	1.6	1.5	0.3	rw at corner
+56	1.3	0.5	0.7	7.5	numbered at ceiling at junction
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surveyname.5    -    description of QM ] 
+
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+
+*end pitstop

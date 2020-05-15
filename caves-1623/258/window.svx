@@ -1,0 +1,62 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	258 "Tunnockschacht"
+
+*begin window
+
+;ref.:	2013 #22
+
+*export 8X 98X
+
+*title "Window"
+*date 2013.08.16
+*team Insts Alex Crow
+*team Notes Tom Clayton
+*team Tape Matt Watson
+;Comp & Clino = TC's Tandem
+;Tape = expo
+
+*calibrate tape 0.1	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino ignoreall
+
+;from	to	tape	compass	clino	remarks
+1	8X	11.49	23	+26	station 8 from downgrade survey
+2	1	4.29	2	+21
+3	2	8.57	52	+31
+3	4	8.13	218	-24
+4	5	2.34	194	-6
+5	6	6.87	211	-6
+6	7	2.08	-	UP
+8	7	4.25	149	-12
+8	9	4.37	274	+4
+9	10	9.87	157	+3
+10	11	7.04	179	+29
+9	12	3.56	336	-11
+12	13	4.80	-	UP
+98X	13	9.05	179	-19	station 98 from Hed high? survey
+
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+1	3	0	0.5	0.5	RHW
+2	1.7	1.7	1	1	Roof Knobule
+3	2.5	1	0	1.5	Roof
+4	3	1.5	1	1.7	Bulge above boulder
+5	0.8	2.5	1.5	1.5	LHW
+6	0.7	0.4	4	0.6	
+7	0.2	1	3.1	1.5
+8	1.5	1	0	0.5	Top of rock arch
+9	5	1.5	2.5	1.5	Roof Knobule
+10	0	1.5	1	0.5	LHW
+11	3	1	3	1.8	RHW
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+12	1.5	3	9	0	Floor
+13	3	3	4.5	4.5	Top of climb
+
+
+
+*end  window
+
+

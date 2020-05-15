@@ -1,0 +1,63 @@
+*begin gosserwager4
+
+; stations linked into other surveys (or likely to)
+*export x	4
+
+; Cave: Balconhohle
+; Area in cave/QM: North of Ice Cock labyrinth
+*title "Gosser Wager 4"
+*date 2015.08.10
+*team Insts Nathan	
+*team Notes George
+*team Pics George
+*team Tape Nathan
+*instrument DistoX (Brendans)
+; Calibration: unknown
+*ref 2015#70
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+x	1	1.81	336.7	-45.4
+1	2	10.22	028.2	-70.1
+2	3	3.71	349.9	-11.4	
+3	4	20.47	066.7	-83.3
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+;x	0	0.50	1.30	7.7 ; RHW
+;1	0.4	0.5	2.8	10.9	;	LHW slot
+;2	2.7	0	10.3	1.3	;	RHW
+;3	0	0.8	14.8	20.8	
+;4	0.7	1.6	18.1	1.2	;	LHW spike
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+x	0	0.50	1.30	7.7 ; RHW
+1	0.4	0.5	2.8	10.9	;	LHW slot
+2	2.7	0	10.3	1.3	;	RHW
+3	0	0.8	14.8	20.8	
+4	0.7	1.6	18.1	1.2	;	LHW spike
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surveyname.5    -    description of QM ]
+
+;------------
+;Cave description  ;(leave commented-out)
+
+*end gosserwager4

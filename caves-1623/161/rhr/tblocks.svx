@@ -1,0 +1,217 @@
+;1993.07.15      split into useful sized chunks/original surveys
+;1998.02.01 AERW added comments, moved begin/ends, put in chronological seq.
+;1998.04.01 AERW more comments, exports
+
+; ====== links between surveys in this file: ======
+
+*equate Knossos.1	TBKnosLnk.0
+*equate TBlocks.6	TBKnosLnk.1
+*equate knossosconn.2	tblocks.7
+
+*begin Knossos
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "Knossos"
+;*date 1988.07.20 ; this is clearly bollocks - expo didn't start until
+;		mid-August, and KH was discovered on 1988.08.21 !!
+
+*date 1988.09.05 ; trip 1988-161-25 in 1988 logbook
+*team Notes Del
+*instrument Jeremy
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; actual carbide mark near base of 1988 rope hang ?
+
+1       2       14.34   013     -14
+3       2       12.77   065     +20
+4       2        9.02   195     -06
+4       5       11.90   025     +25
+6       5       15.24   256      00
+6       7       14.23   108     +15
+8       7       14.60   245     +23
+9       7       23.60   319     -21
+9       10      30.27   235     -10
+11      10      13.10   031     -19
+11      12      10.90   290     -08
+13      12       8.65   144     +32
+13      1        8.32   306     -47
+
+*end Knossos
+
+*begin TBlocks
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Tower blocks area"
+;		From Start of Knossos pitch to Olympus and Waterfall chamber
+
+*date 1989.08.15 ; trip 1989-161-21 in 1989 logbook
+;	connection done whilst surveying Yapate
+*team Notes Dan
+*instrument Tina
+*team Dogs Jeremy, JulianT
+; ref.:	1989 survey book p 35
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; 1st rigged (actual 2nd) bolt on traverse line to Knossos, RH wall, 1.5 off floor
+*export 6	; believed last year's ('88) carbide mark near base of rope hang - this was
+		; not actually a point on the 1988 survey (see TBKnosLnk below)
+*export 7	; CM, top of 3x3x.3 boulder on edge in front of Star Wars gap (1.8 off floor)
+*export 15	; top of rock/sand col between Tower Blocks and Waterfall Cha. marked "15"
+*export 26a	; point on SE wall (opposite large pillar which looks like wall) in Tower
+		; Blocks where Olympus goes off to the SW
+
+26      26a      2.91   198     +19
+32      26a      6.80   073     +07.5
+
+; Cave:	Kaninchenhöhle
+*title "Right Hand Route - Tower Blocks"
+;		 From 1st (rigged) bolt of traverse line to Knossos pitch,
+;		 to exits from Tower Blocks
+*date 1989.08.14 ; trip 1989-161-20 in 1989 logbook
+*team Notes wookey
+*instrument adam
+*instrument compass: 625078, clino 736380
+; ref.:	1989 survey book pp 30-34
+
+2       1        3.12   185     +36   ;1: 1st rigged (actually 2nd) bolt on traverse line
+2       3        7.01   043     -46   ;2: 2nd bolt on traverse line
+3       4        2.60   066     -69   ;3: 3rd bolt on traverse line
+4       5       30.15   -       down  ;4: edge of pitch
+6       5        0.83   050     +18   ;5: base of Knossos hang
+6       7       12.81   355     -27   ;6: 1988 pitch base - conn. to Knossos survey
+8       7        5.00   121     +12
+8       9        6.68   253     -52
+10      9       11.43   135     +44   ;10: marked 10WMA at top of climb into T Blocks
+10      11      12.87   028     -03
+12      11      13.26   042     +06
+12      13      11.19   349     +32
+14      13      13.55   177     -27
+15      13       9.71   051     +20
+15      16      12.39   174     -11
+18      16      10.34   249     -11
+18      10       4.05   031     -11
+17      16       5.25   204     +14
+19      16       9.92   276     -05
+20      16       7.26   316     +17
+28      16       9.61   094     -02
+29      16      11.70   071     +27
+30      16       9.50   037     +24
+29      31      16.54   218     -26
+31      32      13.30   141     +43
+22      20       9.94   331     +33
+23      20       8.56   002     +11
+24      20      13.20   027     +28
+25      20      16.98   024     +05
+26      20      16.62   040     +08
+27      20       7.69   063     +14
+21      20       9.97   301     +18
+
+; station details
+; 1	1st rigged (actual 2nd) bolt on traverse line to Knossos, RH wall, 1.5 off floor
+; 2	2nd rigged bolt on traverse line (LHS, 1.5m above floor)
+; 3	3rd rigged bolt on traverse line (LHS 3m off floor)
+; 4	knob of rock on edge of Knossos pitch 1.3m to L of pitch head bolt (OK for plumb)
+; 5	floor level carbide mark at base of rope hang marked "A"
+; 6	last year's ('88) carbide mark near base of rope hang
+; 7	CM on top of 3x3x0.3 boulder on edge in front of Star Wars gap (1.8 off floor)
+; 8	highest poijnt of floor in Star Wars gap
+; 9	CM on perched rock on left of Star Wars passage
+;10	CM "10 WMA" on rock at entrance to Tower Blocks chamber floor 0.8, roof 5m
+; Tower Hamlets
+;11	CM 1.3m off floor at end of Tower Hamlets Chamber
+;12	1m off floor in end of chamber 0.8x2m passage 3m above floor goes thru to main cha.
+;13	roof of passage out of TH chamber, carbide mark 1m off floor
+;14	floor level at top of steep sandy ramp in Tower Hamlets
+;15	top of rock/sand col between Tower Blocks and Waterfall cha. marked "15"
+;16	carbide mark on highet point of big boulder in centre of TB, floor 3m, roof 15+
+;17	RH wall of TB chamber 1.6m off floor
+;18	CM "18" on wall on climb out of/in to TB 4m off floor
+;19	TB LH side 2.5m up (on boulder, boulder is 0.5 from wall)
+;20	small CM on high point of rock in centre of TB
+;21	1.6m up in corner of TB (1m in under overhung alcove)
+;22	1.6m up wall of chamber
+;23	1.6m above rock against wall, passage through at floor level 3m below
+;24	at floor level in far corner of chamber (against wall at that level)
+;25	CM "25" on wall in far corner where sandy passage starts (dead end) floor 1.5
+;26	point of rock stal at wall of TB where passage goes off
+;27	1.6 off floor against BIG rock
+;28	0.8 above rock against wall (3m above floor)
+;29	tip of boulder 2m from chamber wall marked "29"
+;30	CM on side of boulder 3m off ground
+;31	CM near wet aven in TB 3m above floor, on wall
+;32	tip of rock 2m above floor, 1m from TB wall, at passage entrance marked "32"
+
+*end TBlocks
+
+*begin TBKnosLnk
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Connection leg in Knossos"
+*date 1989.08.01
+;*team ?
+; completely unclear when this connecting leg was surveyed, but the
+; comment in the Tower Blocks survey suggests that those surveyors
+; believed these points equated. So this survey must have been done
+; later ? But it must be 1989-1990, so a date about then is better
+; than none. 1989.08.01 is an arbitrary date in what is probably the
+; right year.
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0	; actual carbide mark near base of 1988 rope hang ?
+*export 1	; believed 1988 carbide mark near base of rope hang - this was
+		; not actually a point on the 1988 survey
+
+*calibrate compass 0
+*calibrate clino 0
+
+0	1	 4.88	101.	09.
+
+*end TBKnosLnk
+
+*begin knossosconn
+; Cave:	Kaninchenhöhle (1623/161)
+*title "Connection from Minoan Surprise survey to Knossos survey"
+*date 1996.07.20 ; trip 1996-161-34 in logbook (which says 19th)
+*team Notes Wookey
+*instrument Chris Densham
+;	waiting....: Becka & Dave F
+;	(Becka is in log as on trips elsewhere both 19th and 20th and DaveF is
+;	not in log as underground either of these days - confused ? you will be...)
+
+; Calib (at 161d)	A->B comp:213.75  clino +8.3
+;			B->A comp:34.50   clino -8.0
+
+; Ref.:	Can't find this in 1996 survey book (Minoan Surprise survey is pp 116-117)
+
+; tape was 22cm too long (so readings come out too small)
+; therefore zero error is -0.22 (ie. we subtract -0.22), so this is correct
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 2	; CM, top of 3x3x.3 boulder on edge in front of Star Wars gap (1.8 off floor)
+*export 7	; pt on Becka & DaveF Minoan Surprise survey, marked 'phi', top of huge boulder
+
+*calibrate tape -0.22
+1	2	 4.54	103.5	+09
+1	3	20.62	084	+28.3
+4	3	18.60	273	-24	;backwards leg in notes
+4	7	 3.34	058	+07.5
+;this bit is to find the roof height
+;*set decimal ./
+;5	3	10/12	-	+19/5
+;5	6	-	-	+71/5
+;3	6	-	-	+88/5
+;the answer was 29.5m
+
+;1	0.25	cairn in star wars connection from knossos
+;2	1.65	Cm on rock tip - must be on tower blocks survey
+;3	1.5	cm on rock tip marked '3'
+;4	3	middle of huge rock, marked 'triangle'
+;5	cm on small rock
+;6	pt on roof (by roof tube)
+;7	pt on becka & daveF minoan surprise survey, marked 'phi'
+*end knossosconn
+

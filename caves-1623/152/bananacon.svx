@@ -1,0 +1,37 @@
+*begin BananaCon
+ ; formerly "BC" survey
+
+; Locn:	SE flank Vord. Schwarzmooskogel, Western massif, Totes Gebirge, Austria
+; Cave:	Bananahöhle 1623/152
+*title "Connection from foot of 25m pitch to bottom of Purple Pit in 113"
+*date 1985
+; Calib: none
+*team Mike TA & Chris (from logbook write up)
+*instrument 
+;	Tape :
+*team Notes 
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; connection point at bolt in 113 (top of short final bit
+		; at bottom of Purple Pit before Muesli Crawl)
+*export 14	; permanent station at foot of 25m pitch
+
+;GRADE USE 5N
+;CHANGE               0.0   0.0
+   1   2 16.61    -     Up
+   2   3  4.5   43.5 -11.5
+   4   3  5.8  226.5 -41.
+   4   5  7.55  26.   22.5
+   6   5  4.74 216.  -10.5
+   7   6  4.73 250.    1.5
+   8   7  1.30 197.  -60.
+   9   8  4.83 262.  -12.
+  10   9  1.19 271.   27.5
+  11  10  4.17 248.5 -11.5
+  12  11  6.64 239.   -8.
+  13  12  3.29 232.5  -5.5
+  14  13  9.51 259.   -2.
+
+*end BananaCon
+

@@ -1,0 +1,31 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle 1623/204   - Gaffered - Inconvenience Series
+
+*begin channelfive2
+
+*title "Channel Five 2"
+*date 2011.07.30
+*team Insts Djuke Veldhuis
+*team Notes Becka Lawson
+*team Tape Chris Smith
+*instrument Wookey's DistoX (not calibrated for Austria but only 2 legs)
+
+;ref.:	2011 #13
+
+*export 1x
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+1x	1	4.93	348	-63
+1	2	8.09	246	-35
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+
+1	2	1.5	15	1.5
+2	0	3	10	1.5
+
+*end channelfive2
+

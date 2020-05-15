@@ -1,0 +1,77 @@
+*begin swisscheese
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Swiss Cheese"
+; (was QM 2001-07C)
+*date 2007.07.25
+*team Insts Frank Tully
+*team Notes Dave Loeffler
+*team Tape Djuke Veldhuis
+
+*instrument set 2, Stanley open reel tape
+
+; Calibration: 150/+43%, 150/+44%
+; ref: 2007#25
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+
+*calibrate tape +0.20	; +ve if tape was too short, -ve if too long
+*units clino percent
+
+;from	to	tape	compass	clino	; remarks
+2	1	6.47	095	-50
+2	3	10.86	155	-55
+3	4	2.10	150	-42	
+4	5	1.42	-	up
+5	6	0.36	015	0
+6	7	1.67	-	up	;says down in notes but this is right
+7	8	8.35	147	-58
+8	9	4.68	185	-45
+10	8	4.64	070	-100
+10	11	3.86	232	+76
+
+*flags duplicate
+7	12	4.80	173	-100
+*flags not duplicate
+
+12	13	3.67	276	-27
+*flags duplicate
+8	14	5.69	173	-70
+*flags not duplicate
+14	15	4.88	142	-40
+15	16	2.62	172	-70
+17	16	0.80	240	+70
+17	18	6.50	135	-120
+18	19	4.49	190	-50
+19	20	3.27	077	-40
+20	21	4.08	349	+15
+21	22	1.70	281	-50
+
+
+
+
+
+*data passage station left right up down ignoreall
+2	4.0	0.3	0	0.6	GP roof
+3	0.2	0.7	0.2	0.4	GP proj LHW
+4	0.4	0.5	-	0.5	Rock end of crawl
+7	2.0	0	-	2.5	GP RHW
+8	0.1	3.0	4.0	1.7	GP nobble LHW
+9	0	1.8	1.5	0	
+
+*data passage station left right up down ignoreall
+10	0.6	0.4	1.8	0.2
+11	0.45	0.3	0.6	1.2
+ 
+*data passage station left right up down ignoreall
+14	0.8	3.0	1.0	1.8	Ceil pendant
+15	0.2	0.3	1.75	0.5	Pt ceil
+16	1.2	0	0.3	0.2	Pt on popcorn
+18	2.0	0.15	1.5	0
+19	5.0	0.5	2.0	0	Ceiling nobble
+20	1.5	0	1.0	1.2	Pt RHW popcorn
+21	1.3	3.0	0	0.5	Nobble ceil
+
+*end swisscheese

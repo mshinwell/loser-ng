@@ -1,0 +1,41 @@
+*begin bonsai
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "bonsai crawl (2000_11c_part7)"
+*date 2000.08.16
+*team Insts Becka Lawson
+*team Notes Martin Green
+*team Pics Martin Green
+*team Tape Becka Lawson
+*instrument Compass #1 ; Clino #1, Tape: purple one (? -- maybe grey!)
+; Calibration: 309/+06	129/-08
+; ref.:	2000 #42
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 6 7
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	2.14	347	-10
+2	3	5.12	106	-08
+4	3	4.75	215	-12
+4	5	1.88	350	-02
+6	5	2.68	271	-02
+7	6	1.80	218	-04
+
+;station details
+;name	L	R	U	D	description
+;1	[same as insignificant.8]
+;2	0.5	0	0.3	1.5	CM on RHW
+;3					CM on RHW
+;4	0.5	0.05	2	0.5	CM on RHW, low down
+;5	0	0.6	1	0.5	CM on LHW
+;6	0.3	0.2	0.5	0.8	CM roof nobble [underhang of R wall,
+;                                       by pointed boulder in floor, just after
+;                                       pretty mud turning into stone floor (!)].
+;7	0.4	0	1.5	0.5	CM RHW
+
+*end bonsai

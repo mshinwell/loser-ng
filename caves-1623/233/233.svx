@@ -1,0 +1,52 @@
+*equate 233.1 p233
+
+*begin 233 ; 1623/233 Bethupferle
+
+;*fix 1 36616 85002 1894 ; from Robert Seebacher's kataster spreadsheet -- DL
+;Entrance presumed to be stn 1
+*export 1
+*entrance 1
+
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Nachbarschacht vom Grießkogel
+*date 2005.07.31
+; Messteam: Markus Bölzle, Markus Scheuermann, Robert Winkler
+; Zeichner: Markus Bölzle
+
+; Gerät: Robert Winkler
+
+; Referenz: Messbuch Robert + Saskia
+
+; ====== Messpunkte, die an bereits bestehenden Vermessungen hängen: ======
+
+
+*data normal from to length gradient bearing ignoreall
+
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+1	2	13.78	-90	0
+2	3	6.86	-29	128
+3	4	9.15	-46	37.5
+4	5	6.35	-46	75
+5	6	5.30	-90	0
+6	7	6.80	-16	22
+7	8	6.20	-69	21
+8	9	1.87	-41	310
+9	10	2.60	-36	355
+10	11	3.66	-33	285
+11	12	3.87	-55	0
+
+
+*data passage station left right up down ignoreall
+1	0.5	0	0	14
+2	2.5	0	14	0
+3	0.2	1	1.5	1
+4	1.5	0	3	8
+5	3	0	2	1
+6	0	1	2	2
+7	1	0	3	3
+8	0.6	0	1	1.5
+9	1	0	1.5	1.5
+10	0	1	1	1.5
+11	2	1	4	1.2
+12	0.5	0.5	1	1
+*end 233

@@ -1,0 +1,146 @@
+*equate pebbled1.9 pebbled2.13
+*equate pebbled2.1 pebbled3.1
+
+*begin pebbled1
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Kaninchenhöhle, 1623/161 (136)
+*title "Pebbledash"
+*date 1999.08.08
+*team Insts Becka
+*team Notes Jon
+*team Pics Jon
+*team Tape Becka
+*instrument Compass 3 ; Clino 3
+; Calibration:	At TC, up -6.5, -7, -6; 86, 87, 87; down +5, +6, +5; 265, 266, 266.5
+; ref.:	1999 KH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 9
+
+*calibrate tape -0.22	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	5.53	288	+38
+2	3	1.44	003	-27
+3	4	6.29	-	down
+5	4	3.86	234	+12
+5	6	5.20	-	down
+7	6	2.03	210	-4
+7	8	3.10	147	-7
+8	9	5.79	-	down
+
+
+;station details
+;name	L	R	U	D	description
+;1	0	1.5	35	4	same as station 1 of Jon & Neil's Carpetworld survey
+;2	2	0	5	4	red spot on knobble on right wall before pitch
+;3	0	1.3	30	6	bolt at pitch head
+;4	0	0	40	1.5	CM at wall at base of pitch
+;5	0.2	0.3	0	5	CM on stalactite at top of pitch
+;6	0	1.5	4	0.5	red dot on left wall
+;7	0	2.5	5	0.7	red dot on right wall at top of pitch
+;8	0.5	0	0	5	probably a bolt at pitch head
+;9	0.5	1	10	0.5	CM on wall about 0.5m above base of pitch
+
+
+*end pebbled1
+
+*begin pebbled2
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Kaninchenhöhle, 1623/161 (136)
+*title "Pebbledash"
+*date 1999.08.08
+*team Insts Becka
+*team Notes Jon
+*team Pics Jon
+*team Tape Becka
+*instrument Compass 3 ; Clino 3
+; Calibration:	At TC, up -6.5, -7, -6; 86, 87, 87; down +5, +6, +5; 265, 266, 266.5
+; ref.:	1999 KH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 13
+
+*calibrate tape -0.22	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	3.43	359	-5
+3	2	3.52	015	-19
+3	4	3.15	193	-30
+4	5	1.52	216	-6
+5	6	2.43	186	+44
+7	6	4.36	052	-3
+8	7	3.89	036	-8
+9	8	6.84	013	+7
+10	9	4.44	027	+11
+11	10	2.21	068	-69
+12	11	6.15	148	-19
+12	13	4.54	328	-19
+
+;station details
+;name	L	R	U	D	description
+;1	0.5	0	6	6	rock bulge / overhang above streamway and pitch head, red dot
+;2	1	0	6	4	red dot on left wall
+;3	0	1	6	3	CM on jutting down stalactite
+;4	missing, similar to 3		CM on left wall
+;5	0	1	1	3	CM on jutting out stalactite
+;6	1	0.5	4	4	red dot on left side passage
+;7	0	1	4	3	red dot on left side stalactite
+;8	0	1	4	3	red dot on right side passage
+;9	0.5	0	6	3	red dot on right side
+;10	missing, similar to 9
+;11	0	1	30	1	red dot on left side of passage as enter the watery chamber
+;12	0	3	30	1	wet left side of chamber, red dot, just above boulders
+;13	0.5	1	10	0.5	same as station 9 in pebbled1 survey; CM on wall about 0.5m above base of pitch
+
+*end pebbled2
+
+*begin pebbled3
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Kaninchenhöhle, 1623/161 (136)
+*title "Pebbledash"
+*date 1999.08.08
+*team Insts Becka
+*team Notes Jon
+*team Pics Jon
+*team Tape Neil
+*instrument Compass 3 ; Clino 3
+; Calibration:	At TC, up -6.5, -7, -6; 86, 87, 87; down +5, +6, +5; 265, 266, 266.5
+; ref.:	1999 KH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+
+*calibrate tape -0.22	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	0	6.52	-	down
+n1	0	5.23	128	-4
+n2	n1	7.04	234	+3
+n3	n2	3.54	325	-2
+n4	n3	8.32	215	-2
+n5	n4	1.94	245	+5
+n6	n5	9.18	192	+2
+n7	n6	2.29	222	-1
+n8	n7	3.81	204	+16	
+
+;station details
+;name	L	R	U	D	description
+;1	0.5	0	6	6	same as station1 on pebbled2 survey; rock bulge / overhang above streamway and pitch head, red dot
+;0	2	0.5	7	0.5	CM on wall
+;n1	0	2	16	1	red dot on left wall, 1m off floor
+;n2	0	3	20	1.5	red dot on left side of chamber, 0.5 up
+;n3	2	0	20	2	red dot on right side, 2m above stream
+;n4	1	0	8	2.5	red dot on right side, 2m above stream
+;n5	1	0	8	2.5	red dot on right side, 2.5m above stream
+;n6	0	2	2	2	red dot on left side, 2.5m above stream
+;n7	0	1.5	2	3	red dot on left side, 2.5m above stream
+;n8	0.5	0	2.5	2	red dot and red "-8" 1m above stream, about a foot before the sump pool
+
+*end pebbled3

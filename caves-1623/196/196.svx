@@ -1,0 +1,34 @@
+*equate 196.1		p196
+*entrance p196
+
+*begin 196
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "Schwa höhle 1623/196"
+*date 1999.08.07
+*team Insts Duncan Collis
+*team Notes Anthony Day
+*team Pics Anthony Day
+*team Tape Both
+*instrument Compass set #4 ; Clino set #4 
+; ref.:	1999 NotKH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+
+*calibrate tape +1.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	8.64	278	+11
+2	3	10.05	218	-34
+4	3	11.50	075	+41
+
+;station details
+;name	L	R	U	D	E	description
+;1	-	-	-	-	-	196 tag bolt
+;2	-	-	-	-	-	point on rock
+;3	0.40	0.40	0.00	2.40	-	point at entrance
+;4	-	-	0.00	-	-	ceiling at end of cave
+
+*end 196

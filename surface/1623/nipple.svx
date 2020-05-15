@@ -1,0 +1,143 @@
+;1998.04.07 AERW derived compass calibration, added notes and comments
+;1998.04.07 AERW moved TC to Nipple survey into file P155.SVX
+
+*begin nipple
+
+; Locn:	S flank Vord. Schwarzmooskogel, Western massif, Totes Gebirge, Austria
+*title "Surface Survey from laser point on Nipple to undefined localities"
+;*date unknown, but must be 1987-1991 sometime
+*date 1987-1991
+; Calibration:	unknown, but there must be some (see below)
+;*team Insts unknown
+;*team Tape unknown
+;*team Notes unknown
+
+; as you can see, I have just found these data with no references to the survey
+; book they should be found in, so no useful info available (yet). They were
+; in Surveyor88 format (so must predate the 1992 expo) so hope the conversion
+; is kosher (sigh!)
+
+; ====== stations refindable to link to other surveys: ======
+
+*export bolt	; spit drilled into Bunter's Bulge (Nipple) presumed laser 7/9
+*export p8	; spit drilled in path near 1623/28, presumed laser 7/8
+*export fix.1	; the cairn on Bunter's Bulge (predates laser point)
+
+;*calibrate compass 4 - where did this figure come from ?
+; since we are surveying between two laser points, we can calculate this :-)
+; The calculated straight line plan distance between those two laser points
+; (from their coordinates) is 803.16m. The same statistic calculated from the
+; (uncorrected) survey is 804.04m. This gives me (AERW, 1998.04.07) some cause
+; to believe that there isn't a major gross error, but that we need some compass
+; calibration, which is easily calculated:
+
+*calibrate compass -1.39
+
+;readings grade 5
+*data normal from to length bearing gradient
+
+bolt	0	 0.93	-	Up
+; fixed bolt
+; to spot in cave sign (we assume this is the omega for 31)
+1	0	13.28	299.	-12.5
+1	1a	 2.75	160.	-21.5
+; spur to sign on stogerweg sign(yellow)
+1	2	12.16	079.5	+13.
+3	2	14.64	218.5	-10.
+3	4	15.48	089.5	+13.
+5	4	 5.29	260.	-28.
+5	6	 2.17	130.	-29.
+7	6	15.15	214.	-03.
+7	8	13.17	023.	-01.
+9	8	 8.51	229.5	-09.
+9	10	28.94	028.5	 00.
+; past wire traverse
+11	10	16.80	250.5	-15.
+11	12	13.61	060.5	+10.
+13	12	14.12	220.5	-08.5
+13	14	16.33	063.	-13.
+; cairn in valley
+; this must be just about where the way to Schwabenschacht goes off
+15	14	18.75	215.	-06.5
+15	16	29.27	028.5	+02.
+17	16	29.56	218.	-06.
+17	18	29.81	085.	+06.
+19	18	27.47	289.	-06.5
+19	20	17.85	074.	+17.
+21	20	 7.49	222.5	-14.
+21	22	 5.57	306.	+27.
+23	22	10.50	186.	-37.5
+23	24	10.55	266.	+09.
+25	24	 9.04	192.	-29.
+25	26	12.12	000.	-02.
+27	26	 9.54	237.5	-18.5
+27	28	29.93	064.	+14.
+29	28	 9.85	238.	-07.
+29	30	29.92	033.	+08.5
+31	30	13.15	211.5	-18.
+31	32	17.48	045.	+05.
+33	32	 5.79	238.5	-20.
+33	34	13.38	045.	+14.
+35	34	10.29	181.	-31.
+35	36	10.96	349.	+07.
+37	36	 8.24	196.	-06.
+37	38	 8.20	052.5	+12.5
+39	38	 7.14	235.	-13.
+39	40	 7.31	081.5	-01.5
+41	40	 5.46	228.	-31.
+41	42	 4.59	134.	+14.5
+43	42	12.87	242.5	-12.5
+43	44	 7.84	094.	-17.
+45	44	 5.31	310.	+14.
+45	46	 5.76	060.	+07.5
+47	46	 4.88	284.5	-04.
+47	48	19.61	065.	+06.
+49	48	20.35	203.5	-14.
+49	50	10.33	061.	+11.5
+51	50	25.98	227.5	-09.5
+51	52	 5.32	065.	+12.
+53	52	 4.88	181.	-16.5
+53	54	 8.36	091.	+20.
+55	54	12.06	263.	 00.
+55	56	10.28	048.5	+07.5
+57	56	26.75	207.	-04.
+57	58	23.35	042.	+09.
+59	58	 5.56	240.	-31.
+59	60	10.92	042.	+12.
+61	60	27.75	237.	-06.
+61	62	14.54	067.	+08.5
+63	62	 4.01	200.5	-13.5
+63	64	25.49	062.	+05.5
+65	64	13.85	181.5	-06.
+65	66	10.63	032.	-03.
+67	66	 7.53	292.5	+03.
+67	68	28.80	039.	+01.5
+69	68	29.55	298.	-18.5
+69	p8	 1.28	-	       Down
+; Austrian fixed point p8 on nipple top
+
+*equate p8	fix.2
+
+; INVENTED LEG, which might just be vaguely plausible:
+; nipple.p8 \BUNTER 4.0 225. +2. ; AAAAARGH ! we were just there the other day...
+; actually a pretty good guess - see below:
+*begin fix
+*title "Bunter's Bulge connection"
+*date 1996.07.26
+*team Inst Wookey
+*team Notes Olly
+*instrument clino #232011, compass NPC2
+; calibration:	Bunter->radio mast on Hochanger (probably not the cross on Loser...)
+;		compass 112518	249.5
+;		compass NPC #2	248
+;		compass MC1	248 (Wook's)
+; tape error zero
+; ref.: 1996 surface stuff survey book p 32
+
+*export 1	; the cairn on the Nipple
+*export 2	; the spit - laser 7/9
+
+1	2	4.62	061.5	+02
+
+*end fix
+*end nipple

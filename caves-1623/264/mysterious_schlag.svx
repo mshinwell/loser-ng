@@ -1,0 +1,68 @@
+*begin mysterious_schlag
+
+; stations linked into other surveys (or likely to)
+*export x 3
+
+; Cave: Balkonhole 264
+; Area in cave/QM: Cathedral Chasm 
+*title "Mysterious Schlag"
+*date 2017.07.27
+*team Insts Elliott Smith
+*team Notes Ashley Gregg
+*instrument CHECC Distox2
+*ref 2017#19
+
+; Centreline data
+*data normal from to bearing gradient length
+*alias station - ..
+  x 1 222.08 2.45 5.985
+  1 - 110.82 3.28 2.886
+  1 - 73.44 82.39 1.458
+  1 - 305.54 -89.56 1.130
+  1 - 148.43 -5.27 4.487
+  1 - 177.07 -4.80 7.301
+  1 - 192.36 12.24 9.989
+  1 - 194.70 17.72 22.283
+  1 - 207.23 18.10 28.026
+  1 - 214.77 14.83 16.398
+  1 - 232.83 -6.89 12.555
+  1 - 255.64 -8.01 10.866
+  1 - 59.98 -10.24 3.134
+  1 - 40.49 -5.35 5.233
+  1 - 19.62 -3.88 4.895
+  2 1 49.21 69.66 18.976
+  2 - 145.64 6.99 1.142
+  2 - 111.66 28.37 3.237
+  2 - 78.76 27.81 5.911
+  2 - 21.71 29.75 5.188
+  2 - 328.28 19.92 1.529
+  2 - 284.94 11.84 0.848
+  2 - 165.96 -47.19 1.317
+  2 - 189.82 -32.66 2.298
+  2 - 259.75 -12.33 1.007
+  2 - 224.12 -16.56 2.705
+  2 - 197.66 -15.79 4.940
+  2 - 189.53 -18.06 8.554
+  2 - 188.91 -77.46 31.449
+  2 3 199.27 -83.18 29.325
+  1 - 305.25 77.59 2.330
+  1 - 256.76 87.32 23.236
+  1 4 248.11 83.03 26.896
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    E	mysterious_schlag.3	-  very wet continuation of pitch, walls made of choss
+
+;------------
+;Cave description  ;(leave commented-out)
+;Fairly large (diameter) pitch and aven with very loose take off. Falling rocks echo
+;around into the next chamber.
+
+*end mysterious_schlag

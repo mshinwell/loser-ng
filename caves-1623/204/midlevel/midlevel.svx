@@ -1,0 +1,155 @@
+*begin midlevel
+
+*title "Mid-level passages and Wolpertinger Way"
+
+*export veined.17 pendulum.21 pendulum.17 110_bidet_b.9 rainbow.12 veined.16 phat2.1 farfromsupport.5
+
+; -- 1999 --
+*include pendulum
+*include veined
+*include 110aday
+*include rainbow
+*include phreatic
+
+*equate pendulum.12 veined.7
+*equate veined.1 rainbow.11
+*equate phreatic.8 pendulum.18
+*equate 110aday.25 veined.9
+
+; -- 2000 --
+
+*include aday2bidet
+*equate 110aday.24 aday2bidet.1
+*equate 110aday.23 aday2bidet.2
+
+*include 110_bidet_b
+*equate aday2bidet.5 110_bidet_b.5
+
+*include veined_deadend
+*equate veined_deadend.0 veined.9
+
+*include 110_bidet
+*equate 110aday.16 110_bidet.1
+*equate 110aday.17 110_bidet.2
+
+*include marble_run
+*equate marble_run.14 110_bidet.14
+*equate marble_run.14 110_bidet_b.8
+*equate marble_run.15 110_bidet_b.7
+
+; -- 2001 --
+
+*include botofwolpertinger1
+*equate veined.6 botofwolpertinger1.2
+*equate pendulum.13 botofwolpertinger1.8
+
+*include botofwolpertinger2
+*equate veined.6 botofwolpertinger2.11
+
+*include merry
+*equate phreatic.6 merry.19
+
+*include recycled
+*equate veined.11 recycled.0
+
+; -- 2002 --
+*include upat45deg
+*equate upat45deg.15 110_bidet.9
+
+; -- 2003 --
+
+*include 110aday2
+*equate 110aday2.1 110aday.17
+
+*include upat45deg2
+*equate upat45deg2.1 upat45deg.11
+
+; -- 2008 --
+*include pussyprance
+*equate pussyprance.1 merry.1
+
+; -- 2009 --
+
+*include pussyprance2
+*equate pussyprance.27 pussyprance2.X
+
+*include catflap
+*equate pussyprance.24 catflap.23
+
+*include catflap2
+*equate catflap.1 catflap2.1
+
+*include catflap3
+*equate catflap.19 catflap3.2
+*equate pussyprance.26 catflap3.3
+
+*include paintedlady
+*equate pussyprance.28 paintedlady.28
+
+*include pussinbolts
+*equate paintedlady.7 pussinbolts.6
+
+*include ontheprowl
+*equate pussinbolts.1 ontheprowl.1
+
+*include snowleopard
+*equate snowleopard.1 catflap.16
+
+*include theowlandthepussycat
+*equate theowlandthepussycat.9 catflap.9
+
+*include fatcat
+*equate fatcat.8 ontheprowl.8
+
+; -- 2012 --
+
+*include fatcat2
+*equate fatcat2.14x fatcat.14
+
+*include fatcat3
+*equate fatcat3.6 fatcat2.1
+
+*include somethingelse
+*equate fatcat2.7 catgut.7X
+*equate fatcat.14 pussyriot.25
+
+*include phat2
+*equate phat2.11 catflap.16
+;*equate phat2.1 ?
+
+*include catflea
+*equate fatcat2.7 catflea.7x
+
+*include dogdays
+*equate ontheprowl.5 dogdays.5x
+
+*include dogdays2
+*equate dogdays.3 dogdays2.3x
+
+*include farfromsupport
+*equate CirqueDuSoleil.5 farfromsupport.0
+
+*include dogdays3
+*equate dogdays3.0 dogdays2.11   
+*equate dogdays3.8 dogdays2.8 
+
+*include bigboulders
+*equate bigboulders.5 dogdays3.3
+
+*include BoulderChamber
+*equate bigboulders.3 BoulderChamber.0
+
+*include BoulderChamber_upper
+*equate bigboulders.1 BoulderChamber_upper.0
+
+*include downfrombigboulderchamber
+*equate downfrombigboulderchamber.5x BoulderChamber_upper.5
+
+*include pretzelpassage1
+*equate pretzelpassage1.17x downfrombigboulderchamber.17
+
+*include pretzelpassage2
+*equate pretzelpassage2.18x downfrombigboulderchamber.18
+
+*end midlevel
+

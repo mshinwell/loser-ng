@@ -1,0 +1,82 @@
+*begin bobon
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export 1 1x 9
+
+*title "Bob On"
+*date 2011.07.28
+*team Notes Neil Pacey
+*team Insts Andy Chapman
+*instrument CUCC instruments and Neil's DistoX as tape
+
+*ref 2011#19
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+1	2	11.80	287	-2	
+2	3	3.82	278	-25	
+3	4	5.86	165	-20
+4	5	2.17	271	0
+5	6	6.63	335	-2
+6	7	1.41	266	+9
+7	8	1.98	340	-28
+8	9	2.61	348	-9
+9	10	3.26	093	-36
+10	11	3.50	052	-60
+11	12	0.50	-	up
+12	13	13.76	007	-5
+13	1x	1.17	354	-19		
+				
+*data passage station left right up down ignoreall
+
+;stn	L	R	U	D	Desc
+1	2	2	3.5	1	;boulder on lip of pitch
+2	1.5	0	0.8	1.8	
+3	1.5	0.8	1	1
+4	0	1.5	1	0.7
+5	0	1.3	1	0.8
+6	1.7	0	1.3	0.5
+7	0	2	1.3	1	
+8	0.6	2.7	3	1.5
+9	0	3	10	4
+10	1.5	0	10	5
+11	2	0	10	3
+12	2	0	9.5	3.5
+13	0	0.5	1.3	2	;left wall at start of traverse over leaky cham
+
+*end   bobon
+
+*equate bobon.9 bobon2.9x
+
+*begin bobon2
+*export 9x
+
+*title "Bob On 2 - Aid climb in Tunnocks"
+*date 2011.08.07
+*team Instruments Andy Chapman
+*team Notes Neil Pacey
+*instrument Neil's Distox now calibrated at base camp by Neil
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+; ref #32
+
+;from	to	tape	compass	clino	remarks
+
+1	x	11.81	290.8	+81.2	; clino +/- not recorded but this is a disto shot up the aven so assume positive
+1	2	2.52	165.1	-50.6
+2	3	7.73	149.3	-64.4
+3	9x	1.43	002.6	0
+
+*data passage station left right up down ignoreall
+
+1	4	1	11.8	2.5	RP '1'
+2	1	2	15	5	RP '1'
+3	1.5	0.5	20	4.5	RP '1'
+9x	1.4	0	10	1.5	RP '9' station 9 on bobon survey
+
+*end bobon2

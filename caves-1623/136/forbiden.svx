@@ -1,0 +1,228 @@
+;1996 Expo: Created
+;1997.01.14 W Changed names of sections: 
+;             Stairway->HotMC, Forbid2->ElinA, Forbid3->Tyrolia
+;1997.03.11 calibrations, dates, names added
+;1998.03.27 AERW sort begin/end, add comments, refs, *calib clino
+
+; ====== links between surveys in this file: ======
+
+*equate HotMC.29    ElinA.0
+*equate tyrolia.1   ElinA.23
+
+*begin HotMC
+
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+*title "Stairway to Hell"
+*date 1996.07.21 ; trip 1996-161-40 in logbook
+*team Insts Chris Densham
+*team Notes Julian Haines
+; Calibration:  (@161d)
+;   A->B    216.5, +7.5
+;       214,   +8.0
+;   B->A    034.0, -8.0
+
+; Ref.: 1996 KH survey book pp 157-159
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1   ; CM on stone on rock in Rocky Horror (Edge of mudbank)
+*export 29  ; Rock at edge of 6m pitch down into Elin Algor (from Pump House)
+
+*calibrate tape 0  ; tape used from 0
+;From   to  Tape    Compass Clino 
+1   2   14.08   223 +12.7
+2   3    1.72   284.5   +05.5
+4   3    2.45   056 -26
+
+*title "Forbidden Land, carrying on the next day"
+*team Insts Andrew Atkinson
+*team Notes Wookey
+*team Pics Wookey
+*team Tape Andrew Atkinson
+*date 1996.07.22 ; trip 1996-161-48 in logbook
+*instrument Tritium = Set 4, comp:741127, clino:145132
+; Calibration:  (161d)
+;       +8.75, 213
+;       -8   , 034
+; tape is 22.5cm too long, so calib -0.225 is correct
+; Ref.: 1996 KH survey book pp 157-159
+
+*calibrate tape  -0.225
+*calibrate clino +0.375
+4   5    2.53   256.5   +53.5
+6   5    1.47   286 -61.5
+6   7    2.45   061 +52.5
+8   9    3.18   -   UP
+8   7    1.32   094 -49    ;notes say 049 for clino (!)
+10  9    5.34   294 -12
+10  11  10.79   261.5   +16
+12  11   4.17   052 -25
+12  13  16.6    239.5   +05.5
+14  13  14.62   048.25  -12
+14  15   7.54   230.5   -05
+16  15  11.9    064  00
+16  17  18.55   318 +25
+18  17  14.16   207.5   -33
+18  19  29.42   032 +28
+20  19  14.56   198 -20
+20  21  29.96   102.5   -24
+22  21  10.77   235 -40.5
+22  23  13.22   024.5   +29.5
+24  23  19.5    248 -12
+25  18  26.76   311 +16
+25  26  22.13   182.5   +04
+27  26   6.25   044 -03.5
+27  28  21.55   155 +05.5
+29  28   6.26   019.5   +04
+
+;LRUDE 
+;1                      CM on stone on rock in passage
+;2                      CM on lip @ entrance to stairway
+;3  0.5 0.2 0.5 0.1     CM on rock in passage
+;4  2.5 1   0.6 0.8     CM on roof entrance chamber
+;5  0.70                    RH wall/boulder
+;6  0.4 3   1   0   3.5on210    foot of slope
+;7  2   1.1 3.5 0.4     Crowbar, top of slope
+;8  0.6 0.6 4   0   0.9 rock on floor
+;9  0.8 0   0.8 4       CM top of climb
+;10 0   4.5 2   1.1     Mud Wall
+;11 1.4     3.2 0.2     CM top of climb
+;12 1   0.1 0.2 1.7     CM on boulder wall
+;13                     CM on floor boulder
+;14 2   1.2 0.5 1.1     Not marked portable rock
+;15 4   2.5 1.2 2       CM '15' on boulder after squeeze
+;16 2   C   5   1.4     CM tip of rock
+;17 2.5 C   17  4       CM on sloping rock
+;18 0.5 C   14  4.5     On wall nodule
+;19 4.7 C   ~18 1       CM '19' on boulder at break of slope
+;20 3.5 C   ~10 3       CM '20'
+;21 (10)    4   4   1   (310)   CM '21'on floor boulder
+;22 ~13 R   3.5 1       CM on huge boulder
+;23 ~4  ~6  5   2   CM '23' top of boulder
+;24 3   4   0   1.6 (4) (150)   CM on roof
+;25 4   3   1.5 1.1     CM on roof pendant
+;26 1.3 3.2 1.1 1       pendant
+;27 1.7 3.4 0   1.6     WM in ceiling
+;28 2   2.7 2.1 1       'X'(white) on floor nodule
+;29 3   3   2.5 0.8     Rock at edge
+;*ENDLRUDE
+
+*end HotMC
+
+*begin ElinA
+
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+*title "Elin Algor"
+*date 1996.07.25 ; trip 1996-161-60 in logbook
+*team Notes Andrew Atkinson
+*team Pics Andrew Atkinson
+*team Insts Lummat
+*team Dog Chris Densham
+*instrument Set 4
+; Calibration:  No calab it was pissing down
+
+; Ref.: 1996 KH survey book pp 160-163
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0   ; Rock at edge of 6m pitch down into Elin Algor from Pump House
+*export 13  ; CM '13' at edge of shaft, end of Elin Algor
+*export 23  ; CM '23' in Tirolia Werke, on RH wall before bolt for ladder
+
+*calibrate tape -0.31
+
+0   1   11.02   136 -19
+2   1   29.56   051.5   +03
+2   3   16.63   223.5   -02.5
+4   3    4.88   353 -17
+4   5    8.90   230 +04
+6   5    4.30   017 +27
+6   7   14.38   210 -31
+8   7    3.83   159 +59
+8   9   25.44   220.5   +00.5
+10  9   10.70   067 -13
+10  11  24.75   209.5   +10.5
+12  11   7.67   043 -11
+12  13   4.54   215.5   -12
+10  14  12.72   329 -39
+15  14  10.00   054 +02
+15  16   5.48   273.5   +28
+17  16   9.70   060 -06
+17  18  12.71   253 -08.5
+19  18   9.71   088 -01
+19  20   8.01   277.5   +07
+21  20  12.32   081 +08
+21  22   5.28   307 -01
+23  22  22.54   083 +03
+1   24  20.52   037 +01
+25  24  13.93   267  00
+
+;Stn    L   R   U   D   E   Notes
+;1  2.5 3.5 7   1.7 0   CM S1 LR Perp to last leg
+;2  1.5 1   2.2 0.6     CM S2
+;3  2.5 0   2   J0.8        RHW CM S3
+;4  0   1.5 1.5 1       CM LHW
+;5  1.0 1.2 0.5 2.1     CM Roof Nod
+;6  0.2 0.8 0   3       CM Roof
+;7  1   1.5 1.5 1.3 1.2 CM 7 Perp
+;8  1.2 0   1.2 1       CM perp
+;9  0   3.5 4.5 1.5     CM LHW
+;10 (6) (5) 5   1       CM 10 (120)(300)
+;11 3   2   11  0.5     Rock
+;12 0.4 0   2   1.5     Lum Head
+;13 2   0.4 6   2   (6) CM 13 (D)
+;14 2.5 0   5   2.5     CM RHW
+;15 0   3   1.5 4.5     CM LHW 15
+;16 2.5 3.5 3.5 0.3     CM RH Choss
+;17 1   2.2 0.6 1.7     CM Pend
+;18 1.2 0.6 1.1 0       Floor
+;19 1.7 1   1.6 0.1     CM Rock Floor 19
+;20 0.4 1.5 2.3 0.3     CM Rock 20
+;21 0.3 1   0.3 0.6     CM LHW  
+;22 1.6 0   4   1       CM 22 RHW
+;23 0.4 0   3.5 1.8 ?   CM RHW 23
+;24 3   2   J4  0.6     Rock Tip Perp to 1 to 24
+;25 ~20 2.5 1.9 1.4 0   Bolt S25
+
+*end ElinA
+
+*begin tyrolia
+
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+*title "Last bit of Tirolia Werke passage"
+;       from previous survey to where way on lost
+*date 1996.07.28 ; trip 1996-161-69 in logbook
+*team Notes Wookey
+*team Pics Wookey
+*team Insts Andrew Atkinson
+*team Tape Andrew Atkinson
+*instrument Set 1  (Comp 112518, clino 232011)
+; Calibration:  At 161d
+;   a->b    214.5, +7.5
+;   b->a    034.5, -8.5
+;Tape is 22cm too long. So calib -0.22 is correct.
+
+; Ref.: 1996 KH survey book pp 174-175
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1   ; CM '23' on RH wall before bolt for ladder
+*export 5   ; pitch head bolt for descent to Gravel Pit
+
+*calibrate tape  -0.22
+*calibrate clino -0.5
+1   2   17.30   261 -14.5 ; notes say 14.5, but that can't be right
+3   2   10.06   082.5   -04
+4   2   3.34    359 +36
+4   5   1.59    182 -15
+
+;*LRUD
+;1 0.40 0.20 5    1.7 ;CM on wall near bolt
+;2 1.1  6   ~15   0.8 ;CM on roof pendant low on LHS
+;3 0.1  0.6  7    1.3 ;CM on LHW
+;4 2.2  0.4  1.5  0.5 ;bottom of pendant in side passage
+;5 0.5  0.2  0.1  0.3 ;pitch head bolt
+*end tyrolia

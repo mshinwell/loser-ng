@@ -1,0 +1,33 @@
+*begin magicglue
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export 1x
+
+*title "Magic Glue"
+*date 2014.08.14
+*team Notes Noel Snape
+*team Insts Nathanael
+*instrument Hollys distox2
+
+;ref.: 2014#41
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+
+1x	1	5.71	084	14.8
+1	2	41.50	-	down
+
+
+
+*data passage station left right up down ignoreall
+
+;stn	L	R	U	D	Desc
+
+1x	6	1.6	12	1.1
+1	0	2	8	41.5	deviation bolt opposite wall to traverse
+2	-	-	-	-
+
+*end  magicglue

@@ -1,0 +1,35 @@
+*begin mudslope
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Mudslope"
+*date 2004.07.19
+*team Insts Becka Lawson
+*team Notes Earl Merson
+
+*instrument set 2
+
+; ref 2004 # 10
+
+; Calibration: stone bridge: 150/+23 324/-23
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 5old
+
+*calibrate tape +0.07	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	comp	clino
+1	5old	3.13	175	+02
+2	1	10.56	315	-23
+2	3	3.37	166	+27	
+
+;station details
+;name	L	R	U	D	description
+;5old					point 5 in trihang survey
+;1	2	0.4	5	0.6	RP 1 on LH wall
+;2	1	0.2	2	1	RP on RW knobble
+;3	0.4	0.2	0.4	0.4	RP on RW
+
+*end mudslope
+

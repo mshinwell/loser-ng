@@ -1,0 +1,79 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	258 "Tunnockschacht"
+
+*begin maxpleasure1
+
+;ref.:	2007 #54
+
+*export 17z 18 27 28 29 30 17
+
+*title "Max Pleasure 1"
+*date 2007.08.08
+*team Insts Wookey
+*team Notes Becka Lawson
+*team Tape both
+;Pony
+;calib 1>2 326 -23 pony horizontal
+;calib 1>2 325 -23 pony vertical
+;calib 2>1 144 +22 pony vertical
+;calib 2>1 146 +23 pony horizontal
+;disto (bosch DLE50)
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+7	17z	8.00	162	-20
+8	7	11.38	154	+13
+8	9	7.90	313	-10
+10	9	6.07	155	+03
+10	11	11.81	316	-06
+12	11	6.96	150	-31
+12	13	6.02	319	-03
+14	13	3.90	162	+01
+14	15	24.79	320	-08
+16	15	5.16	173	+01
+16	17	3.82	302	-11
+18	17	7.50	209	-04
+18	19	7.80	097	+14
+20	19	13.66	188	-16
+20	21	9.09	031	+14
+22	21	12.00	173	-09
+22	23	14.33	035	+20
+24	23	8.60	200	-25
+24	25	4.56	014	+20
+26	25	23.25	180	-09
+26	27	18.63	021	+23
+28	27	19.22	194	-19
+28	29	15.49	343	+02
+30	29	11.35	166	+06
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+17z	4	2	1.8	1.8	number station of previous survey (literal north) just beyond cobble pile
+7	0.2	1.5	0.9	2.6	RP LW
+8	1.4	1.4	1	1.4	RP pendant roof
+9	1.2	1.5	1.7	0.4	RP LW
+10	2.4	0.6	1.9	0.6	RP RW
+11	0.7	2.2	2.2	0.5	RP numbered LW
+12	1.3	0.6	1.9	1.3	RP RW
+13	0.7	1	2	1.4	RP LW
+14	1.3	0.6	2	1.4	RP RW number '14'
+15	0.1	2.5	1.2	1.5	RP LW
+16	1.3	1	1.9	1.3	RP RW
+17	0	2.5	1.7	1.5	RP at junction LW numbered
+18	1.5	2	3.5	1.6	RP numbered LW
+19	2.3	0	3.4	1.2	RP RW numbered
+20	2	1.3	2.9	1	RP boulder tip
+21	2.6	1.1	3.5	1.5	RP right floor
+22	0	2.2	3.2	1.1	RP LW
+23	1.2	1.8	3	0.6	RP boulder tip
+24	1.2	3	4	2	RP boulder tip numbered
+25	0.3	2.5	3.5	1.9	RP LW
+26	1.9	3.1	3.7	1.7	RP roof
+27	2.5	2	2.5	2	RP number boulder mid passage
+28	1	5.3	3.8	1.1	RP boulder numbered '28'
+29	1.5	2.2	1.7	1.5	RP LW at junction numbered '29'
+30	0.6	2.3	2.6	0.4	RP small rock in passage
+*end maxpleasure1
+
+

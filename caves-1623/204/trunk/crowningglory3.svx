@@ -1,0 +1,30 @@
+*begin crowningglory3
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Crowning Glory 3"
+*date 2007.07.15
+*team Insts Kathryn Hopkins
+*team Notes Edvin Deadman
+*instrument Compass #2 ; Clino #2, T
+; Calibration: 174 -24 176 -24
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 4
+
+*calibrate tape -0.22	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	6.09	-	down
+3	2	2.84	175	-48
+3	4	4.98	241	-23
+
+
+;station details
+;name	L	R	U	D	description
+;1	0.4	0.4	-	-	bottom of puddle
+;2	0.3	0.3	1	0	boulder over pit
+;3	0	0.5	5	1	knob on lh wall
+;4	1	1	lots	0	bottom of pitch
+*end crowningglory3

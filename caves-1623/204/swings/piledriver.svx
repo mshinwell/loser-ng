@@ -1,0 +1,40 @@
+*begin piledriver
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Pile Driver"
+*date 2004.08.06
+*team Insts Dave Loeffler
+*team Notes Nial Peters
+*team Tape Both
+*instrument Set 3, yellow Stanley open reel tape
+; Calibration: Stone bridge: 152/153/+24/+23, 324/326/-20/-21
+
+; ref: 2004#52
+
+; ====== stations refindable to link to other surveys: ======
+
+*export p15
+
+*calibrate tape 0.07	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino
+1	2	7.18	046	-23
+3	2	5.15	218	-09
+3	4	3.83	054	-14
+4	5	3.61	-	DOWN
+6	5	4.91	247	-15
+6	p15	1.23	200	+40
+
+;station details
+;name	L	R	U	D	description
+;1	1.5	1.5	4	1	PP boulder middle of chamber
+;2	0	0.4	1	2.3	PP LH wall
+;3	0.7	0.2	0.5	0.4	Scratch mark flake RH wall
+;4	1	0	4	-	PP RH wall above climb
+;5	0	1.6	-	1.2	PP on floor
+;6	-	-	-	-	LRUDS same as p15
+;p15	-	-	-	-	=crestarun.15
+
+*end piledriver
+

@@ -1,0 +1,17 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau
+; Area: [Plateau]
+; Cave:	[Kein Hubschrauber]. 1623/110]
+; See gps17.svx for GPS coordinates
+
+*entrance p110
+*equate p110     110.notakittensheckschance.tag
+
+*begin 110
+
+*export notakittensheckschance.tag notakittensheckschance.gps
+
+*include notakittensheckschance
+
+*end 110
+
+

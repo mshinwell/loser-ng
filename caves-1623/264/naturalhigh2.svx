@@ -1,0 +1,49 @@
+*begin naturalhigh2
+
+; stations linked into other surveys (or likely to)
+;*export 1, 15
+
+; Cave: 264 (Balcony)
+; Area in cave/QM: pitch qm off crushed plumbs
+*title "Natural high 2"
+*date 2016.06.30
+*team Insts George
+*team Notes Frank Tuly
+*instrument Frank's DistoX2
+; Calibration: Calibrated bottom of Balcony entrance 29/6/16 error 0.25
+*ref 2016#03
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+2	1	8.5	29.0	20.7
+2	3	7.69	205.3	-28.8
+3	4	4.95	136.7	-5.9
+3	5	13.2	194.2	-19.6
+4	6	7.28	188.0	-25.4
+15	6	2.41	215.9	-20.9	
+
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;rdw=red dot on wall
+;Station Left Right Up Down Description
+;'whore red' nail varnish dots, pencil numbers
+
+;1	1.5	0	2.5	1	;rd on wall existing
+;2	0.8	0	4.7	0.7	;rdw
+;3	2	0	2.9	1	;rdw
+;4	0	1	1.5	0.5	;rdw
+;5	;point above pitch, shot along traverse.
+
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+;gravel funnel hole in floor which everyone steps around, 
+;drops into passage with sloping gravel floor at angle of repose, 
+;gravel and rocks run down and off pitch, nice.
+;pitch just ends with a loveley flat gravel floor, water sinks in floor.
+
+
+*end naturalhigh2

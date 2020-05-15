@@ -1,0 +1,113 @@
+*equate p2002-AD-03 2002-ad-03.1
+
+*begin 2002-ad-03
+
+*export 1
+*equate 1 p2002-AD-03
+
+; Cave: Bergkasehohle (2002-AD-03)
+; Entrance area  
+*title "Bergkasehohle"
+*date 2015.08.01
+*team Insts Elliott Smith
+*team Notes Elaine Oliver
+*team Pics Elaine Oliver
+*team Tape Elliott Smith
+*instrument  Tape/Compass #? ; Clino #?
+; Calibration: unknown
+; Survey folder reference: 2015#55
+; the #number is on the clear pocket containing the original notes
+*calibrate tape +0.30	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from  to   tape      compass   clino
+1	2	3.48	250	+04	
+3	2	7.89	328	+53	
+3	4	3.11	345	+24	
+4	5	5.98	223	+05	;	reversed from notes
+5	6	1.17	225	-04	;	reversed from notes	
+6	7	3.02	279	+21	;	reversed from notes
+7	8	3.12	352	-05
+7	9	2.19	020	-31
+9	10	3.33	321	-57
+10	11	1.53	320	-30
+11	12	3.06	304	+11
+6	13	1.94	023	-44
+13	14	2.35	237	-84	
+14	15	1.81	215	+13
+14	16	3.00	099	-17
+16	17	2.24	104	-02	
+
+;-----------
+;recorded station details
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;(leave commented-out)
+;[Red] nail varnish markings
+;1	1.56	1.90	1.32	1.65
+;2	3.55	0.00	1.31	1.47	
+;3	1.24	2.09	4.50	1.65
+;4	2.88	1.09	3.50	1.52
+;5	0.37	1.00	2.16	0.70
+;6	0.00	1.51	1.30	1.78	
+;7	0.14	0.85	1.58	1.02
+;8	1.35	0.88	0.00	1.33
+;9	0.00	0.54	1.62	1.31
+;10	1.05	0.74	1.49	0.85
+;11	0.15	0.20	1.30	0.37
+;12	0.00	0.86	4.30	3.85
+;13	0.00	0.84	6.65	1.70
+;14	0.40	0.70	1.80	1.30
+;15	0.47	0.48	0.52	1.29
+;16	2.19	0.86	1.14	1.35
+;17	0.2	0.3	1.0	0.5	;	completely made up!
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	1.56	1.90	1.32	1.65
+2	3.55	0.00	1.31	1.47	
+3	1.24	2.09	4.50	1.65
+4	2.88	1.09	3.50	1.52
+5	0.37	1.00	2.16	0.70
+6	0.00	1.51	1.30	1.78	
+7	0.14	0.85	1.58	1.02
+8	1.35	0.88	0.00	1.33
+
+*data passage station left right up down
+6	0.00	1.51	1.30	1.78	
+13	0.00	0.84	6.65	1.70
+14	0.40	0.70	1.80	1.30
+16	2.19	0.86	1.14	1.35
+17	0.2	0.3	1.0	0.5	;	completely made up!
+
+
+*data passage station left right up down
+14	0.40	0.70	1.80	1.30
+15	0.47	0.48	0.52	1.29
+
+
+*data passage station left right up down
+7	0.14	0.85	1.58	1.02
+9	0.00	0.54	1.62	1.31
+10	1.05	0.74	1.49	0.85
+11	0.15	0.20	1.30	0.37
+12	0.00	0.86	4.30	3.85
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+; fuck all
+
+;------------
+;Cave description
+
+;(leave commented-out)
+; Small pitch down the entrance, before passage becomes a bit crappy. Lots of large fallen boulders to climb and squeeze pasr, before passage craps out. 
+;Climbs down rift like passage, again with boulders, leads to passage below. More large boulders, more crap leads. There is a draft from the end of the top 
+;passage, but would have to be dug, i.e. not worth it.
+
+
+*end 2002-ad-03

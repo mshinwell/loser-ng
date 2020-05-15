@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="by hand" version="1.1" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<wpt lat="47.667430" lon="13.80945">
+	<ele>1547</ele>
+	<time>2018-07-14T14:01:00Z</time>
+	<name>CUCC-PS01-2018</name>
+	<desc>Small ent near 115 ~300</desc>
+</wpt>
+<wpt lat="47.66787" lon="13.81014">
+	<ele>1563</ele>
+	<time>2018-07-14T15:23:39Z</time>
+	<name>Stoger W:to</name>
+	<desc>turn off point for CUCC-PS01-2018 on Stoger Weg ~250</desc>
+</wpt>
+<wpt lat="47.66750" lon="13.80788">
+	<ele>1559</ele>
+	<time>2018-07-18T00:00:00Z</time>
+	<name>Stoger W steel wire</name>
+	<desc>end of steel wire traverse on SW</desc>
+</wpt>
+<wpt lat="47.66784" lon="13.81091">
+	<ele>1558</ele>
+	<time>2018-07-18T00:00:00Z</time>
+	<name>Cave 88</name>
+	<desc>cave in SW ~200</desc>
+</wpt>
+<wpt lat="47.66785" lon="13.80886">
+	<ele>1572</ele>
+	<time>2018-07-18T00:00:00Z</time>
+	<name>Windloch32</name>
+	<desc>survey point bolt in SW ~200</desc>
+</wpt>
+
+<wpt lat="47.66843" lon="13.81632">
+	<ele>1547</ele>
+	<time>2018-07-18T00:00:00Z</time>
+	<name>SW limit</name>
+	<desc>as far as I got on SW ~200</desc>
+</wpt>
+
+<wpt lat="47.66712" lon="13.80975">
+	<ele>1466</ele>
+	<time>2018-07-18T00:00:00Z</time>
+	<name>p115y</name>
+	<desc>by bolt p115 poor quality ~200</desc>
+</wpt>
+<wpt lat="47.66698" lon="13.80975">
+	<ele>1489</ele>
+	<time>2018-07-18T00:00:00Z</time>
+	<name>p115z</name>
+	<desc>other side of hollow ~200</desc>
+</wpt>
+</gpx>

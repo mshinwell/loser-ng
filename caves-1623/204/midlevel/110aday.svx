@@ -1,0 +1,47 @@
+*begin 110aday
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle
+*title "110 A Day"
+*date 1999.08.04
+*team Insts Duncan Collis
+*team Notes Mike Richardson
+*team Pics Mike Richardson
+*team Tape Both
+*instrument Compass set #4 ; Clino set #4 
+; Calibration:	at TC Down - Comp: 089,088,088 Clino: -06,-06,-06
+;                      Up     Comp: 269,269,268.5 Clino: +07,+07,+07
+; ref.:	1999 NotKH survey book pp -
+
+
+*export 16 17 23 24 25
+
+1	2	5.44	277	-10
+3	2	7.40	099	13
+4	3	3.37	350	5
+5	4	4.06	356	23
+6	5	1.36	269	11
+7	6	8.31	32.5	17
+8	7	3.24	346.5	-12.5
+8	9	11.08	200	-21
+9	10	4.39	208	-17
+10	11	1.70	232	-26
+11	12	1.82	256	-3
+12	13	2.65	200	-24
+13	14	8.43	225	-21
+15	14	5.46	019	+23
+15	16	2.03	245	-21
+17	16	8.13	022	19
+17	18	8.60	208	-12
+19	18	10.60	050	21
+20	19	4.03	004	13
+20	21	6.53	210	-18
+21	22	1.71	226	-12
+22	23	13.74	212	-15
+24	23	3.02	303	10.5
+24	25	0.72	112	-1
+
+;stn	L	R	U	D	Desc
+
+*end 110aday
+

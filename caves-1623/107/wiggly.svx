@@ -1,0 +1,13 @@
+*begin wiggly 
+*date 2013.08.14
+*export 1 
+*team "Jenny Black"
+;grade 1 survey
+
+*data normal from to compass clino tape
+
+1	2	302	+00	2.0
+2	3	286	+12	7.0
+3	4	-	down	20
+
+*end wiggly 

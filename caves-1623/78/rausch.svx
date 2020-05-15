@@ -1,0 +1,92 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schwabenschacht 1623/78
+
+*begin rausch
+*title "Rausch der Tiefe"
+
+*export 6	; comeback.6
+*export 9_10	; galakt.9_10
+
+; -1-
+; Messteam: Dirk Riemann, Florian Gruner, Rotbert Winkler
+; Zeichner: Rotbert Winkler
+; Referenz: Messprotokolle
+*date 1994.07.21
+
+*data normal from to length gradient compass
+9_10	9_11	7.60	11	262
+9_11	9_12	3.55	19	323
+9_12	9_13	5.70	DOWN	-
+9_13	9_14	3.80	-41	275
+9_14	9_15	1.80	DOWN	-
+9_15	9_16	1.43	-5	189
+9_16	1	19.80	DOWN	-
+
+
+; Raumwerte
+; keine Raumwerte
+
+
+; -2-
+; Messteam: Florian Gruner, Robert Winkler, Rotbert Winkler
+; Zeichner: Rotbert Winkler
+; Referenz: Messbuch Florian Gruner 1
+*date 1996.07.15-1996.07.16
+
+*data normal from to length gradient compass
+1	2	4.38	-14	212
+2	3	4.40	-62	160
+3	4	50.00	DOWN	-
+4	5	2.77	-42	325
+5	6	2.24	-36	45
+6	7	17.08	DOWN	-
+
+4	4_1	8.33	-60	237
+4_1	4_2	5.70	-27	70
+4_2	4_3	8.63	DOWN	-
+
+4	4a	4.54	56	165
+4a	4b	4.60	-2	54
+4b	4c	1.43	28	357
+4c	4d	9.77	DOWN	-
+4d	4e	3.63	34	329
+4e	6	2.05	-26	264
+
+; Raumwerte
+*data passage station left right up down
+2	1.8	0	-	2
+3	0	2.5	-	3
+4	0	2.5	-	4
+4_1	1.2	0.2	-	1
+4_2	0.3	0	1	1.2
+
+*data passage station left right up down
+4	0	2.5	-	4
+4a	1.5	5.5	-	2
+4b	0.5	0	-	-
+4c	0.2	0.1	0.5	-
+4d	0.3	0	9.7	0
+4e	0	1.3	5	2
+
+; -3-
+; Messteam: Matthias Jauss, Rotbert Winkler, Thomas Holder
+; Zeichner: Rotbert Winkler
+; Referenz: Messbuch SMK ?
+*date 2001.08.27
+
+*data normal from to length gradient compass
+5	5_1	2.77	-38	22
+5_1	5_2	2.23	26	315
+5_2	5_3	5.69	DOWN	-
+5_3	5_4	5.50	29	322
+5_4	5_5	4.79	-16	356
+
+; Raumwerte
+*data passage station left right up down
+5_1	1	0	1	1.5
+5_2	0	3	0	-
+5_3	0.3	0.5	6	0
+5_4	0	4	10	4
+5_5	0.3	0.3	0	0.5
+
+*end rausch

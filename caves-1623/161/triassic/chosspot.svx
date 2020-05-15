@@ -1,0 +1,41 @@
+;1998.03.26 AERW sort begin/end, add comments, refs, *calib clino
+
+*begin chosspot
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Chosspot"
+*team Insts Mark McLean
+*team Notes Craig Anderson
+*team Pics Craig Anderson
+*team Tape Mark McLean
+*date 1996.7.23 ; - trip 1996-161-50 in logbook
+*instrument Yellow set
+; Calibration:	Forgot
+;
+; Ref.:	1996 KH survey book pp 136-138
+;
+; "Couldn't find the survey station in the vicinity, so tied survey in with
+; the spit of the first rebelay at of the rope going up from Bugger, and
+; with a spit on the boulder below said rope."
+
+*export 1
+
+;From  to  Tape Compass Clino 
+1	2	13.95	130	-39
+3	2	 6.605	139	-35
+4	2	 1.07	058	+41
+5	2	11.045	058	+43.5
+6	5	 0.59	339	+28
+7	6	18.33	014	+63
+8	7	16.32	 -	up
+9	8	 2.42	062	-03
+9	10	 2.38	316	 0
+11	10	 8.92	009	+46
+12	11	10.40	144	+30
+13	12	 5.425	241	+07
+14	13	 7.00	 -	up
+
+; "No LRUD because all in pitch" - 96KHp136
+
+*end chosspot

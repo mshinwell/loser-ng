@@ -1,0 +1,57 @@
+*equate 157.13 p157
+
+*begin 157
+
+*export 5 13
+
+*team Notes Olly Betts
+*team Insts Jenny Black
+
+*date 2012.08.05
+
+*data normal from to tape compass clino
+1	0	3.226	202	-05
+1	2	1.505	080	-13
+1	3	2.605	030	+25
+3	4	8.53	335	+80
+4	5	7.499	060	+24
+5	6	0.30	-	down
+6	7	5.003	147	-05
+5	8	2.424	035	+11
+8	9	5.18	-	up
+10	9	0.26	184	+02
+10	11	4.80	-	up
+12	11	0.76	128	-29
+12	13	1.568	161	+44
+
+*begin
+*data passage station left right up down
+0	0	0	0	0
+1	0.4	0.8	0.4	1.0
+3	0.2	0.8	6.7	0.75
+4	0.4	0.35	1.2	9.0
+5	0.3	0.3	0	0.85
+*end
+
+*equate 5 pt2.6
+*begin pt2
+*date 2012.08.29
+
+*export 6
+
+1	2	5.361	054	+54
+1	0	2.027	220	-44
+2	3	4.271	190	+00
+2	4	4.634	138	+04
+
+*begin
+*data nosurvey from to
+3	4
+*end
+
+2	5	9.078	011	+73
+5	6	2.171	260	+47
+
+*end pt2
+
+*end 157

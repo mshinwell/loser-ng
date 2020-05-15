@@ -1,0 +1,71 @@
+;===== France (161b,161c) =====
+
+; EXPORTS: these are the only points to which other surveys should link
+; No prefix level here, so nothing to export from...
+; first group: points at entrances. Note that each of these points is on a
+; survey which continued with surface legs to a fixed point (P161b or P161c)
+; care is required to avoid breaking connections when used with surface data
+;*export BtoC.03		; boulder in 161b entrance (ent161b)
+;*export BtoC.10		; nipple on rock at 161c (ent161c)
+;*export Adrian.2.11		; roof inside 161b (in161b)
+; second group: ways on to the rest of the cave
+;*export sidebrown.1		; both these points used, and leg between
+;*export sidebrown.2		; them duplicated, presumably for confirmation
+;*export ginger.10		; interface to TeaPot
+
+*include adrian
+
+*include btoc 
+
+*equate France.a.1	BtoC.09
+*equate France.a.10	Adrian.b.01
+*include vertfran
+
+*equate NotAlgeria.13	Algeria.1
+*include algeria
+
+*equate algeria.10 orient.1
+*include orient
+
+; 1994
+;1996.04.06 (W) changed equate as 'algbit' renamed 'missip'
+*equate missip.23	daz.1
+;1996.03.19 (W) incorrect equate (algbit23, tiwntubs.6) removed
+;*equate missip.23 twintubs.6 ; this equate was poor - they are 
+;                    different bolts 4.5m apart - now connected by Daz survey
+*include missip
+
+*equate toploader.10	NotAlgeria.3
+*equate toploader.1	twintubs.7  ;this is a bodge
+				;toploader.1 is pitch head bolt
+				;twintubs.7 is lump by pitch head backup
+				; cannot be more than 0.50m apart
+*include toplo
+*equate brownie.1	missip.4
+*equate brownloop.1	missip.6
+*include browni
+
+*equate stepl.6		rocky.1
+*equate rocky.14	missip.10
+*include rocky
+
+*equate infinite.28	ginger.19
+*equate skeleton.1	orient.18
+*include iidriv
+
+*equate ginger.1	missip.16
+*include bisfac
+
+; 1995
+; the Daz survey was 1995, but is included in Algeria, above
+; the Black Suspender survey was 1995, included in Missip, above
+
+*equate missip.23 sultans.10
+*include sultans
+
+*equate regurg.2	mohr.1
+*include regurg
+
+*include room
+
+*include irrig

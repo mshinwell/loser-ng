@@ -1,0 +1,125 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	258 "Tunnockschacht"
+
+*begin rockyroad
+
+;ref.:	2008 #25
+
+*export x 3 63 11 43 48 49
+
+*title "Rocky Road"
+*date 2008.08.03
+*team Insts Becka Lawson
+*team Notes Becka Lawson and Steve Jones
+*team Tape Julian Todd
+;Comp & Clino = Becka's Pony
+;Tape = yellow
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+1	63	6.30	182	-07
+1	2	7.37	041	+21
+3	2	9.93	275	-26
+3	4	6.27	140	+28
+5	4	2.94	347	0
+5	6	2.74	137	+04
+6	7	5.82	143	+16
+8	7	3.87	329	-15
+8	9	6.79	137	+20
+10	9	6.41	293	-25
+10	11	9.45	255	-28
+
+10	12	1.18	138	+16
+13	12	4.35	219	-31
+14	13	1.63	124	+09
+15	14	4.58	236	-17
+16	15	5.35	241	-13
+17	16	5.19	210	-12
+18	17	4.21	234	-43
+19	18	3.03	201	-28
+20	19	3.71	206	-13
+21	20	4.89	194	-23
+21	22	0.95	239	-56
+22	23	4.61	018	+03
+
+25	x	4.92	188	-02
+25	26	3.22	077	-07
+27	26	1.65	330	-10
+27	28	3.27	094	+31
+29	28	4.70	342	+07
+29	30	1.99	058	+29
+31	30	3.64	012	+11
+31	32	2.28	117	+17
+33	32	6.28	257	-26
+33	34	3.29	157	+02
+35	34	2.62	317	-22
+36	35	7.41	053	-14
+36	37	6.60	216	-35
+38	37	6.09	358	+34
+32	39	2.67	214	-37
+40	39	3.54	023	+11
+40	41	5.53	228	-25
+42	41	3.88	009	+23
+42	43	3.87	206	-13 ;reversed leg in notes
+50	49	3.23	077	-49
+51	50	4.32	035	+05
+49	48	6.25	012	+47
+48	43	2.14	339	+01
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+63	1	0	1.8	0.2	Station 63 from Hedonism Highway survey
+1	1	1.5	1.5	0.6	rp l wall
+2	1.3	1.7	2	1	rp l wall
+3	1	2	1.5	0.3	rp l wall above pitch
+4	0.8	0.3	0	1.2	rp r wall by rock
+5	1	0	0.3	0.3	rp r wall
+6	0.6	0.5	0.6	0.2	rp rock mid passage
+7	0.4	0.8	0.5	0.6	rp l wall
+8	0.8	0	0.6	0.4	rp r wall
+9	0.6	0	0.8	0.3	rp r wall
+10	1.5	0.5	1.8	10	rp l wall
+11	2	3	1	1.5	Hedonism Highway station mark on rock
+
+12	2	0	1.5	1	rp r wall
+13	1	0.1	1.2	0.3	rp r wall
+14	0	1.3	1	10	rp l wall
+15	1	1	1.5	7	rp r wall
+16	0.2	1	0.6	1	rp l wall
+17	0.5	1.2	2.5	8	rp r wall
+18	1	1.2	1.5	8	boulder on corner
+19	0.3	0.4	0.5	6	rp l wall
+20	0.3	0.1	1.4	1.7	rp r wall
+21	1	1	4	8	rp l wall numbered
+22	0	1.3	5	7	rp l wall
+23	0.1	0.5	2	1.5	unmarked
+
+x	4	2	0	1.3	rp previous station on Hedonism Highway
+25	-	-	5	1	rp boulder at start of crawl
+26	1.1	1	1.4	0.1	rp rock
+27	-	-	1.5	0.3	rp cairn junction
+28	0.8	0.8	0.1	0.7	rp ceiling before crawl
+29	1	0.1	0.6	0.1	rp flake beyond pool
+30	0	1.5	0.4	0.5	rp l wall
+31	1.7	0	1	0.4	rp r wall at junction
+32	1.1	0.8	0.4	0.5	rp junction on r side
+33	0.5	0.5	0.2	0.7	rp l wall
+34	0.4	0.3	0.5	0.4	rp r wall
+35	0	1.1	5	0.4	rp in rift end of crawl
+36	1	0.3	8	3	rp tip of boulder
+37	0.6	0	8	2	rp r wall numbered
+38	1	0	8	1	rp r wall at junction
+39	0.5	1.1	0.4	0.1	rp floor
+40	1.5	0.5	0	0.6	rp in roof
+41	1	1	0	0.6	rp ceiling
+42	1.2	0.7	0.6	0	rp floor
+43	1.3	1.5	0.1	1.2	rp ceiling
+50	1.6	0	15	3	rp r wall up c2
+49	0.3	2.5	15	1.5	rp by too tight inlet in chamber
+51	1	3	15	1	rp back wall
+48	1.1	2.3	0	2	rp ceiling above c3 to chamber
+
+*end  rockyroad
+
+

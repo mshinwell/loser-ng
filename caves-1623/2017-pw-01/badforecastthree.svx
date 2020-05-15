@@ -1,0 +1,69 @@
+*begin badforecastthree
+
+*export 16x
+
+; Cave: Bad Forecast
+; 2017-pw-01
+; Area in cave: Third survey in Bad Forecast
+*title "Bad Forecast 3"
+*date 2017.07.31
+*team Insts Nathan Walker
+*team Notes Corin Donne 
+
+*instrument UBSS 4 distox2
+; Calibration: None
+*ref 2017#51
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+2	1	9.50	047.5 -19.2
+3	2	5.77	128.7	3.4
+4	3	3.05	122.4	-34.2
+5	4	18.53	083.8	-40.0
+5	6	1.60	277.0	3.1	side passage from chamber (1-6) ends in choke
+7	1	26.71	218.4	-44.3	up pitch from chamber
+1	s1	9.24	072.4	2.3	splay in chamber
+1	s2	16.90	023.9	9.8	splay in chamber
+8	7	6.9	179.0	-27.6
+8	16x	0.74	136.7	-51.6 link to 2nd survey done in Bad Forecast
+
+;-----------
+;recorded station details (leave commented out)
+;station left right up down notes
+;1	5.1	3.6	20.7	2.6
+;3	0.5	0.2	0	0.6
+;4	0.0	1.4	1.2	1.0
+;5	0.0	0.4	0.9	1.4
+;6	0.5	0.4	0.8	0.4
+;2	3.0	0.0	14.0	1.4
+;7	0.0	6.0	13.0	5.3
+;8	4.4	1.5	11.9	1.5
+
+;passage-ised station details 
+*data passage station left right up down ignoreall
+8	4.4	1.5	11.9	1.5
+7	0.0	6.0	13.0	5.3
+1	5.1	3.6	20.7	2.6
+2	3.0	0.0	14.0	1.4
+3	0.5	0.2	0	0.6
+4	0.0	1.4	1.2	1.0
+5	0.0	0.4	0.9	1.4
+6	0.5	0.4	0.8	0.4
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+; None
+
+; Pitch down from the boulder pile that separates the first chamber from the second chamber.
+; Fair size chamber with one lead - a crawl that widens out into a loose passage with a c3 which then chokes (1-6)
+; green gear tape found under rocks near in the centre of the chamber - not CD nor NW so may be left by previous visit - link into 2011-01?
+
+*end badforecastthree

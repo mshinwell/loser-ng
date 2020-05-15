@@ -1,0 +1,126 @@
+*begin nothingtosee
+
+; stations linked into other surveys (or likely to)
+*export dick8 1 2 8 10 11 13 14 15 
+
+; Cave: 264 balkonhoehle
+; Area in cave/QM: south of lets be appalling
+*title "nothing to see"
+*date 2017.07.25
+*team Insts Kristian Brook
+*team Notes Luke Stangroom
+*team Tape Adam Aldridge
+*instrument ULSA disto 
+; Calibration: None
+*ref 2017#12
+
+; if using a tape:
+*calibrate tape -0.05	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+1	2	6.17	049.6	-21.4
+2	3	5.17	355.3	+12.4
+3	4	6.97	067.1	+33.0
+4	5	5.30	019.4	+25.1
+5	6	10.29	141.0	+47.7
+6	7	2.67	220.7	-20.7
+7	8	2.77	167.6	-04.2
+8	9	10.82	189.4	-24.8
+9	10	5.00	178.8	-25.5
+10	11	4.46	238.5	-12.7
+11	12	7.00	318.6	-10.1
+12	1	7.37	316.8	-18.1 ;written sideways on paper
+11	13	4.42	090.0	-01.1
+13	14	4.27	140.5	-12.0
+14	15	4.02	107.4	+10.0
+5	16	15.36	059.8	+44.6
+16	17	2.76	318.4	+21.1
+17	18	2.09	047.5	-22.5
+18	19	10.26	002.6	+19.8
+19	20	2.74	021.6	+20.4
+20	21	4.72	347.9	+11.5
+21	dick8	3.19	046.9	+02.4
+	
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+;1	1.2	5.2	6.1	1.6
+;2	3.5	9	9.7	0.5
+;3	0	1	0.5	0.5
+;4	1	0	1.7	2.2
+;5	0	2	8.7	2
+;6	0	4.5	21	2
+;7	1	0	2.7	1.2
+;8	6.6	0.7	1.3	2.1
+;9	1	0	1.3	1.4
+;10	0	2.5	1.5	1.1
+;11	0	1	2.3	1.3
+;12	1.3	0.1	2.9	1.8
+;13	0	0.5	0.7	0.8
+;14	0.6	0	0.5	0.6
+;15	1	0	0.5	0.6
+;16	2.5	0	2.45	1
+;17	0	1.4	4.1	1.3
+;18	1.3	0	3.6	1.3
+;19	0	1.4	8.3	1.7	; bolt
+;20	1.3	0	2.5	1.5
+;21	0	1.3	2.2	1.6
+
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+15	1	0	0.5	0.6
+14	0.6	0	0.5	0.6
+13	0	0.5	0.7	0.8
+11	0	1	2.3	1.3
+10	0	2.5	1.5	1.1
+9	1	0	1.3	1.4
+8	6.6	0.7	1.3	2.1
+7	1	0	2.7	1.2
+6	0	4.5	21	2
+5	0	2	8.7	2
+16	2.5	0	2.45	1
+17	0	1.4	4.1	1.3
+18	1.3	0	3.6	1.3
+19	0	1.4	8.3	1.7	; bolt
+20	1.3	0	2.5	1.5
+21	0	1.3	2.2	1.6
+dick8	0	0	0	0
+
+*data passage station left right up down
+11	0	1	2.3	1.3
+12	1.3	0.1	2.9	1.8
+1	1.2	5.2	6.1	1.6
+2	3.5	9	9.7	0.5
+3	0	1	0.5	0.5
+4	1	0	1.7	2.2
+5	0	2	8.7	2
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1	A	nothingtosee.15    	-  unmeasurable pitch, est +100m [very likely a connection into Galactica]
+;QM2	A	nothingtosee.15    	-  walking passage, sloping upward
+;QM3	A	nothingtosee.1    	nothingtosee3.2          walking passage
+;QM4	A	nothingtosee.1    	nothingtosee3.19         another walking passage, perpendicular to QM3
+;QM5	A	nothingtosee.2    	hilti_nts_bones_pitch.1  15m pitch, then large passage
+;QM6	A	nothingtosee.8    	-  walking passage perpendicular to main passage
+;QM7	A	nothingtosee.13		-  crawling passage to the right
+;QM8	A	nothingtosee.15    	nothing2see.6            traverse to right of pitch
+;QM9	B	nothingtosee.10		-  small hole in roof
+
+;------------
+;Cave description  ;(leave commented-out)
+;Traverse to pitch that drops into large chamber. 
+;Passage at far end of chamber leads to lip of 15m pitch with obvious passage leading off at the bottom, two more passages lead off from top of pitch. 
+;Climb up the left hand side of the chamber leads to passage that links into the head of the 15m pitch. 
+;Multiple left hand leads leading from this higher passage the second of which leads to at 100m+ pitch with 2 more leads at the top.
+
+*end nothingtosee

@@ -1,0 +1,36 @@
+*begin cleadjackpot
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 258 "Tunnockschacht"
+
+*export 0
+ 
+*title "C Lead Jackpot"
+*date 2009.08.03
+*team Insts Becka
+*team Dog Wookey  ; pointer
+*team Notes Andrew A
+*instrument Tony Boycott's DistoX
+
+;ref.: 2009#30
+
+*calibrate tape +0.0   ; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+0    1    1.541    243.67    -20.56
+1    2    2.078    3.25    -22.49
+2    3    1.536    301.91    -9.75
+3    4    6.307    301.39    -35.66
+4    5    3.119    271.42    -34.20
+5    6    2.234    12.02    4.39
+6    7    1.887    312.52    25.62
+7    8    2.872    67.41    19.64
+8    9    2.443    318.89    -21.04
+9    10    6.132    288.66    -68.15
+10    11    3.494    77.50    14.50
+9    12    3.970    76.94    20.51
+12    13    5.797    117.54    36.13
+13    14    3.039    102.34    3.83
+
+
+*end    cleadjackpot

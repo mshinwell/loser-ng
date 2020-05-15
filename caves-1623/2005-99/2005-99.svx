@@ -1,0 +1,33 @@
+*equate p2005-99 2005-99.6
+
+*begin 2005-99
+*date 2005.08.01
+*title "No Coat Cave"
+*team Instruments Jenny Black
+*team Notes Olly Betts
+*instrument Ol + Jenny's 
+; notes in 2005#30
+
+*export 6 ; tag pt
+
+*calibrate tape 0.00
+
+*data normal from to tape compass clino
+
+2       1       3.828   331     -05
+2       3       3.542   176     -07
+4       3       2.236   111     -09
+4       5       6.481   331     +40
+*flags surface
+5       6       1.273   183     +07.5
+
+;*data passage station left right up down ignoreall
+;
+;1       0.9     0       0.5     0.5     pt on RHW
+;2       0.7     0.05    0.7     0.25    J's eye
+;3       1.6     0.25    0.3     0.5     tip of cairn
+;4       0.4     0.5     0       0.6     pt on archway
+;5       0       1.0     -       1.7     rock pt LHW
+;;6 tag bolt
+
+*end 2005-99

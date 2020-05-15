@@ -1,0 +1,24 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schwabenschacht 1623/78
+
+*begin eisscha
+*title "Eisschächte"
+
+*export B0	; haupt.12
+
+; Messteam: Jürgen Bölzle, Markus Bölzle
+; Zeichner: Jürgen Bölzle
+; Referenz: Messprotokolle
+*date 1991.07.18-1991.08.02
+
+*data normal from to length gradient bearing ignoreall
+B0	B1	4.60	8	332
+B1	B2	17.00	DOWN	-
+B2	B3	4.45	-12	274
+B3	B4	7.00	-30	336
+B2	B5	8.70	-75	70
+
+; Raumwerte
+; keine Raumwerte
+
+*end eisscha

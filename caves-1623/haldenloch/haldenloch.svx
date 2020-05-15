@@ -1,0 +1,69 @@
+; Hinterland, Peters Schlufeloch mit Tunnel, neben Fliffis
+; Area 1623
+
+*begin haldenloch
+
+; Eingang
+*export eingang.0
+*entrance eingang.0
+
+; Anbindung unterer Teil
+*equate eingang.3 tunnel.H
+
+; -1-
+; Messteam: Robert, Uta, Peter
+; Zeichner: Robert
+; Referenz:
+*date 2008.09.10
+
+*begin eingang
+
+*export 0 ; Eingang
+*export 3 ; Abstieg zum Tunnel
+
+*fix 0 36765	85176	1876
+
+*data normal from to length clino compass
+0	1	15.33	-50	46
+1	1_1	2.65	46	181	; e:swap
+1_1	1_2	9.26	-42	59	; e:swap
+1	2	9.40	-42	346
+2	3	4.19	-30	74
+3	3_1	7.45	-36	359
+3	4	10.28	32	82
+
+*end eingang
+
+; -2-
+; Messteam: Thomas Holder, Tewje Mehner, Peter Otto
+; Zeichner: Thomas Holder
+; Referenz:
+*date 2008.09.11
+
+*begin tunnel
+*export H ; Abstieg zum Tunnel
+
+*data normal from to length clino compass
+0	1	3.58	-28	331
+1	2	7.71	25	214	; e:swap
+2	3	7.28	36	197
+1	4	9.90	26	36
+4	5	5.0	-24	344
+5	6	8.55	-11	310
+6	7	5.62	18	4
+7	8	8.52	6	9
+8	9	5.07	33	316
+9	10	21.55	43	21
+10	11	8.51	32	7
+
+0	A	3.73	17	128
+A	B	1.80	25	91
+B	C	3.70	40	189
+C	D	2.80	-22	209
+D	E	6.07	82	256
+E	F	4.19	49	123
+F	G	6.70	61	230
+G	H	8.22	-31	262
+
+*end tunnel
+*end haldenloch

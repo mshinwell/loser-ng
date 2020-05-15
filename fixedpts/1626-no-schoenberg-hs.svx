@@ -1,0 +1,121 @@
+*cs out UTM33N
+*cs custom "+proj=tmerc +lat_0=0 +lon_0=13d20 +k=1 +x_0=0 +y_0=-5200000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232"
+
+*begin
+
+*case preserve
+
+*fix 10.Aussenvermessung.A0 32460.00 87540.00 1460.00
+*fix 101.Mike-Luckwill-Schacht.7 33821.08 87112.41 1745.64
+*fix 102.Kameradschaftshoehle.0 33200.00 85300.00 1646.00
+*fix 106.Hauptgruppe.1.12 34440.71 86549.45 1814.55
+*fix 107.Hauptgruppe.1.1 33891.86 87541.44 1492.23
+*fix 111.Wehrkogelhoehle.1.1b 35100.00 86550.00 1855.00
+*fix 114.Faltenhoehle.1.5 32950.00 87750.00 1230.00
+*fix 118.Ottoloch_H2.1.1 34973.74 87099.45 1636.78
+*fix 13.Fliegenschacht.1.1 33627.00 85294.00 1749.00
+*fix 154.Flaschenschacht.1.A1 34274.43 86640.15 1724.97
+*fix 155.Schneekirchl.1.AP 34209.61 86553.44 1762.16
+*fix 16.Eingangsteil.1.1 34557.05 86973.64 1702.33
+*fix 164.Schachtchen.1.A1 33372.00 85362.00 1610.00
+*fix 181.Eisbogenschacht.1.1 33580.33 85646.76 1688.59
+*fix 184.Megalodontenschacht-Haupteingang.1.2 32555.73 85250.49 1604.80
+*fix 185.Hauptgruppe.1.1 34506.98 86404.86 1805.80
+*fix 187.Christbaumloch.1.1 34561.27 86242.36 1906.23
+*fix 188.Canyon.1.8 34582.78 86234.39 1904.62
+*fix 189.Aussenvermessung.1.1 32331.93 84213.14 1531.39
+*fix 197.Hutforscherhoehle.1.2 33334.41 85325.34 1607.16
+*fix 199.Rinnerts_Loch.1.2 33628.62 86985.53 1672.11
+*fix 2.Kein-Problem-Schacht.1.7a 34554.17 86249.66 1898.42
+*fix 200.Einstiegschacht.1.1a 33634.00 87012.00 1653.00
+*fix 202.Ab_in_den_Sueden.1.7aa 33439.59 84850.54 1571.88
+*fix 203.Wildkar-Hoehle.1.1a 33435.50 85472.75 1608.95
+*fix 205.Aussenvermessung.1.A9 33468.21 85633.55 1679.95
+*fix 207.Innenvermessung.1.1 33256.51 85371.33 1592.99
+*fix 227.Hauptgruppe.1.2 34969.95 87116.72 1626.21
+*fix 228.Hauptgruppe.1.2 32573.45 85516.48 1395.60
+*fix 229.Hauptgruppe.1.1 32582.42 85526.86 1399.70
+*fix 230.Hauptgruppe.1.2 33909.29 85445.74 1729.34
+*fix 231.Hauptgruppe.1.2 33887.89 85355.83 1716.22
+*fix 232.Hauptgruppe.1.1a 33875.90 85267.21 1680.28
+*fix 233.Hauptgruppe.1.2 33750.16 84541.63 1620.15
+*fix 234.Hauptgruppe.1.1 32544.00 86050.00 1478.00
+*fix 235.Hauptgruppe.1.2 32599.60 86100.73 1477.98
+*fix 236.Hauptgruppe.1.2 32489.55 86003.15 1472.33
+*fix 237.Hauptgruppe.1.1 33889.13 85214.25 1704.44
+*fix 240.Hauptgruppe.1.2 32502.12 85974.18 1461.55
+*fix 241.Hauptgruppe.2.1 34990.95 85953.50 1847.85
+*fix 242.Hauptgruppe.1.1 35086.30 85731.87 1788.70
+*fix 244.Hauptgruppe.1.1 35115.92 85632.02 1787.73
+*fix 245.Hauptgruppe.1.1 33884.93 87538.25 1485.74
+*fix 246.Hauptgruppe.1.0 35479.00 85965.19 1834.04
+*fix 250.Hauptgruppe.1.1 33186.00 85150.00 1650.00
+*fix 251.Hauptgruppe.1.2 33878.45 87563.89 1482.36
+*fix 252.Hauptgruppe.1.1 33783.03 87038.74 1667.79
+*fix 253.Hauptgruppe.1.1 35573.00 86816.00 1593.00
+*fix 254.Hauptgruppe.1.1 35543.50 85869.89 1828.57
+*fix 255.Hauptgruppe.1.20 33463.53 84846.10 1590.09
+*fix 257.Einstiegsschacht.1.1 34354.92 85570.80 1689.14
+*fix 258.Hauptgruppe.1.1 34372.96 85449.46 1722.30
+*fix 259.Hauptgruppe.1.1 34392.25 85450.18 1720.32
+*fix 260.Hauptgruppe.1.1 34893.07 86963.80 1708.40
+*fix 261.Hauptgruppe.1.1 34137.74 87244.96 1718.19
+*fix 262.Hauptgruppe.1.1 33610.00 87208.00 1581.00
+*fix 263.Hauptgruppe.1.1 31841.00 84827.00 1275.00
+*fix 264.Hauptgruppe.1.2 35942.93 87915.84 1618.68
+*fix 268.Hauptgruppe.1.1 35105.00 87378.00 1502.00
+*fix 269.Hauptgruppe.1.1 35560.00 86790.00 1587.00
+*fix 27.Aussenvermessung.1.A2 33473.43 85760.86 1692.87
+*fix 270.Hauptgruppe.1.1 33950.00 87400.00 1580.00
+*fix 271.Hauptgruppe.1.1 33889.00 87404.00 1565.00
+*fix 272.Hauptgruppe.1.1 35195.00 86995.00 1570.00
+*fix 274.Hauptgruppe.1.0 32560.00 84338.00 1579.00
+*fix 275.Hauptgruppe.1.0 32438.00 84462.00 1540.00
+*fix 29.Sonnscheinhoehle.1.2 33355.74 85585.95 1659.56
+*fix 3.Toti-Eisloch.1.3 36298.00 86247.00 1820.00
+*fix 33.Horizontalteil.1.2 36290.98 86210.55 1815.31
+*fix 40.Fritzlhoehle.1.1 33540.79 84843.82 1615.71
+*fix 46.46a-Eingangshalle.1.11 34816.18 87898.78 1248.86
+*fix 49.Felsbogenhoehle.1.2 34481.39 87008.24 1671.22
+*fix 5.Nagelsteghoehle.1.O 31830.00 82600.00 865.00
+*fix 50.1956.1.2 34840.51 86526.03 1876.23
+*fix 52.Grushoehle.1.15 34500.00 87000.00 1665.00
+*fix 63.Angstroehre.1.2 32151.14 84540.69 1393.43
+*fix 7.Mittereckhoehle.10.7 33000.83 88111.33 1145.28
+*fix 70.Hauptgruppe.1.2 33602.27 87230.94 1576.59
+*fix 71.Zick-Zack-Schacht.1.2 33957.06 87245.72 1638.27
+*fix 8.Hauptgruppe.1.8 34970.42 86130.56 1949.36
+*fix 83.Roehrenloch.1.1a 33223.74 84967.70 1573.90
+*fix 89.Judithschacht.1.1 32700.00 85450.00 1520.00
+*fix 9.Hauptgruppe.1.1 34295.00 87995.00 1440.00
+*fix 63.Angstroehre.2.1 32150.00 84550.00 1400.00
+*fix 50.Gemuesegarten.4.3 34686.43 86516.6 1621.46
+*fix 27.Innenvermessung.1.A2 33475.9 85761.72 1692.86
+*fix 205.Hauptgang.1.1 33443.07 85588.67 1664.62
+*fix 205.Aussenvermessung.2.A_20 33473.59 85594.59 1664.01
+*fix 205.Aussenvermessung.1.A16 33436.21 85591.37 1673.25
+*fix 205.Rundzug.1.1 33443.15 85588.63 1664.5
+
+; Unused fixed points:
+; *fix 0.AV_16.1.Z1 34556.38 86975.99 1703.92
+; *fix 55.37048 32832.37 84888.73 1535.23 (for second RKH dataset)
+; *fix 55.Hosenriemenschacht.1.A 32962.27 84981.42 1518.48
+
+*end
+
+; Entrance locations from ARGE dataset of unknown provenance
+; Hinterland caves
+*fix pE02		36711   85264   1895
+*fix pE09		36604   85387   1910
+
+*fix pE28  36227	84668   1830
+*fix casino.0  37226   85423   1930
+*fix upsidedown.8 36353 84807 1860
+
+; lou-toti
+*fix lou-toti.LT-Eingang.1 36292 86213 1825
+
+; LUSS caves
+*fix pla11 37977.26 85459.75 1839
+*fix pla12 37935.37 85490.35 1850
+*fix pla34 38145.23 85275.55 1835

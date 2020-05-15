@@ -1,0 +1,64 @@
+*begin pigeondroppings2
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 258 "Tunnockschacht"
+
+;ref.:  2014 #03
+
+*export 15x 17
+
+*title "Pigeon Droppings 2"
+*date 2014.07.28
+;original notes do not say who was dog or instruments so just alocated randomly
+*team Insts Katy Bender
+*team Dog Nathaniel Dalton
+*team Notes Becka Lawson
+
+;Instrument: Becka's DistoX1 - old Distox
+
+;*calibrate tape +0.10   ; +ve if tape was too short, -ve if too long
+
+
+;from   to  tape    compass clino   remarks
+
+15x	1	5.84	359	+16
+1	2	3.52	045	+32
+2	3	4.44	332	+06
+15x	4	4.18	276	+53
+4	5	3.08	320	-13
+4	6	1.92	305	+34
+6	7	3.97	199	+30.5
+7	8	5.31	013	+59
+3	9	2.05	172.5	-11
+10	9	8.88	218	+65
+10	11	3.16	056	-64
+11	12	0.69	176	-01
+12	13	6.35	195	+10
+12	14	3.95	055	-27
+14	15	2.69	004	-17
+15	16	4.20	033	-45
+16	17	8.10	021	+13
+
+
+*data passage station left right up down ignoreall
+;stn    L   R   U   D   Desc
+15x	2	1.5	4	1.5	Old numbered stn (yesterday)
+1	0	1.4	1.7	0.3	up tube
+2	1.1	0.7	0.4	0.9	R wall up tube
+3	0.5	1	0.4	0.2 	R wall
+4	0.7	0.3	1.4	1.2	up ramp
+5	0.5	1	8	4	back wall to loop
+6	1.5	0	1.2	1.3	right wall numbered
+7	0	0.9	1.4	0.5	back wall
+8	-	-	-	-	unmarked up tube
+9	1	1	2	4	pitchhead bolt
+10	1	1.5	4.7	4	rock nose down pitch
+11	2.5	0	8.5	0.7	base of pitch
+12	2	0	8	1.2	base of pitch
+13	0.8	1.2	2.2	3.6	chamber - climb connect back
+14	0.7	0	2.2	0.2	right wall
+15	0	0.6	1.4	2.5	left wall
+16	0.2	0.6	5	2.3	left wall numbered
+17	1.3	0	2.1	1	right wall beyond pitch numbered
+
+*end pigeondroppings2

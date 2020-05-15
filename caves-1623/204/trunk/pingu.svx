@@ -1,0 +1,46 @@
+*begin pingu
+
+*export 8 1
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Pingu"
+*date 2008.08.11
+
+*team Insts Eeva Makiranta
+*team Notes Nial Peters
+
+*instrument set club pony
+
+; ref 2008#33
+
+; Calibration: none
+
+; ====== stations refindable to link to other surveys: ======
+2	1	10.32	074	-61
+3	2	18.10	-	DOWN
+4	3	11.80	070	-60
+5	4	3.80	303	-81
+6	5	7.67	049	-64
+7	6	4.78	169	-38
+8	7	2.01	175	34
+
+
+*calibrate tape +0.00
+; +ve if tape was too short, -ve if too long
+
+
+*data passage station left right up down ignoreall
+1	1	0	15	1.2	rp rhw numbered 1
+2	3	2	-	-	rp ledge on pitch
+3	2.5	1	3	0	rp on knobble at pitch head
+4	3	1	2	0	rp floor
+5	1	0.25	1.2	1.2	rp rhw
+6	0.7	1.4	2	2	rp rhw
+7	1.5	1	1	1	rp lhw
+8	-	-	-	-	point 10 from sandpit survey
+	
+
+
+*end pingu
+

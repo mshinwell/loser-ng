@@ -1,0 +1,25 @@
+*begin razor6
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Razor Dance 6"
+*date 2003.07.30
+*team Insts Dave Loeffler
+*team Notes Anthony Day
+
+; Calibration at stone bridge: 148/+24 147.5/+23 327/-22 327/-22.5
+; ref: 2003 #32
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 2
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+1	2	17.62	-	down
+
+;station details
+;name	L	R	U	D	description
+
+*end razor6
+

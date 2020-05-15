@@ -1,0 +1,47 @@
+*begin toothless
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle
+*title "Toothless"
+*date 2005.07.21
+*team Insts Nial Peters
+*team Notes Mark Shinwell
+
+; instrument set 3
+; calibration at stone bridge: 151/+23 331/-23
+
+*export 1 3 10
+ 
+1   2   5.61    314     -36
+2   3   7.75    033     -56
+4   3   9.07    334     +04
+5   4   9.10    313     -36
+7   6   6.70    043     +09
+7   3   2.47    330     +15
+9   8   16.95   135     +21
+10  11  2.80    206     +03
+11  12  3.12    224     -08
+12  8   3.73    250     +12
+8   13  6.27    122     +66
+3   13  6.17    325     -17
+
+;*data passage station left right up down ignoreall
+;
+;; stn   L       R       U       D       desc
+;;1     -       -       -       -       =pt 15 of crestarun
+;2     0       -       4       1       spit
+;3     -       -       -       1       RP boulder
+;4     1.7     0       5       14      RP RW unnumbered.
+;;                                      LRUDs looking from chamber.
+;5     0.5     0.4     -       0.5     RP LW
+;;6     -       -       -       -       RP top of climb (unnumbered)
+;;7     -       -       -       -       RP boulder
+;8     1       2.5     -       0       RP boulder
+;9     0       0.75    0.45    0.9     RP LW
+;10    0       0.2     0.5     1       RP LW
+;11    0       0.3     1       0.7     RP LW
+;12    0.2     0.3     0       0.8     RP roof flake
+;13    2.5     0       -       1       RP RW
+
+*end toothless
+

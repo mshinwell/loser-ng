@@ -1,0 +1,56 @@
+;1995.08.01 AERW Source: converted from SU file BBC:$.Survey.Surveys.Austria.Data.Sonnen
+;1998.06.09 AERW added comments, refs, exports
+
+*equate 113.Point5.0		p113
+*entrance p113
+
+;*equate 152.BananaCon.1 113.Muesli.0
+
+*begin 113
+*title "Sonnenstrahlhöhle"
+
+*export point5.0
+*export muesli.0
+
+*include point5
+
+*equate Purple.27 Point5.27 ; resume same numbering but a new survey
+
+*include purple
+*equate Purple.37 Muesli.0
+
+*include muesli
+
+*equate IPerilous.20 Point5.23 ;  Both bolts, probably same one
+*equate IPerilous.01 Point5.3 ; 3 must be near 01 so assume same !
+
+*include iperilous
+
+;*begin bottom
+; this survey not remotely connected to rest :-(
+; ref.: small black notebook with red spine in AERW's archive
+;  1  0  6.8  -  down    ; plumb to "final" gravel floor
+;  1  2  9.95 287.5 -2.5 ; to spike at base of last pitch
+;*end bottom
+
+;*begin crematorium
+; this survey not even connected to the last one...
+; ref.: small black notebook with red spine in AERW's archive
+;  1  2  20.0  70.   0.
+;  2  3   8.0  70. +15.
+;*end crematorium
+
+; 113 pitch lengths (I guess this is the Sprucy Wind series, which wasn't
+; surveyed at all):
+; ref.: small black notebook with red spine in AERW's archive
+
+; B/W II	a  8.5
+;		b 26
+;		c 12.1
+; Interalp	a  9.8
+;		b  7.9
+;		c 17.5
+;		d  6.9
+;		e 13.4
+
+*end 113

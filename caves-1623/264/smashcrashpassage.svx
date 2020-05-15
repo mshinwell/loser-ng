@@ -1,0 +1,48 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2005-5 "Balcony Hohle"
+
+*begin smashcrashpassage
+
+*export	9	42
+*export 35	34
+
+*title "smashcrashpassage"
+*date 2014.08.04
+*team Insts Nathanael Dalton
+*team Tape Nathanael Dalton
+*team Notes Noel Snape
+;nail varnish bitch Katey Bender
+
+;from	to	tape	compass	clino	remarks
+
+9	31	2.29	138	17
+31	32	20.31	026	28
+32	33	8.25	096	20
+33	34	17.78	103	15
+34	35	4.73	068	15
+35	36	9.15	118	8
+36	37	5.73	091	15
+37	38	5.61	076	20
+38	39	3.09	112	25
+39	40	16.63	097	20
+40	41	5.34	102	-9
+41	42	5.5	149	-17
+
+
+*data passage station left right up down ignoreall
+9	-	-	-	-
+31	2.5	0	7	1
+32	0	1.2	8	0.6
+33	0.3	1.1	6	1.1
+34	1.8	0	4.5	1.5
+35	0	1.8	4	1
+36	1.2	0	4	1
+37	0.7	0.3	4	0	;boulder
+38	0	1.2	4	0.5	;LHW
+39	0.3	0.5	3	1.5	;boulder
+40	0.6	0.6	3	2.3
+41	8	1	20	1.5
+42	9	1.5	20	1.5
+
+*end smashcrashpassage
+

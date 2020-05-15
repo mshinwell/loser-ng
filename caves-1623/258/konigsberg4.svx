@@ -1,0 +1,70 @@
+*begin konigsberg4
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export 22x 11
+
+*title "Konigsberg Passage 4"
+*date 2010.08.13
+*team Insts Chris Smith
+*team Notes Neil Pacey
+*instrument Wookey Disto-X 
+
+; calibrate - maybe see notes in stringtheory.svx
+
+;ref.: 2010#14
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+22x	23z	8.26	165.9	-11.3	; resurvey - ignore?
+23z	24z	3.26	167.9	-02.5	; resurvey - ignore?
+24z	25z	1.45	199.5	+09.4	; resurvey - ignore?
+25z	26z	4.26	139.5	-13.0	; resurvey - ignore?
+26z	1	2.22	071.7	-26.0
+1	2	4.32	174.3	+03.1
+2	3	4.75	150.7	18.8
+2	4	2.48	058.7	-11.6
+4	5	1.95	105.0	+10.6
+5	6	5.50	102.2	+19.4
+6	7	0.85	042.1	+30
+7	8	3.22	193.8	+045
+8	9	2.55	073.4	-60.2
+9	10	2.83	174.8	-10.2
+10	11	2.78	164.2	+08.8
+7	12	2.79	330.6	-15.7
+12	13	3.96	349.8	+19.9
+13	14	6.16	335.6	+04.7
+14	15	5.24	117.4	+09.6
+15	16	3.51	151.0	+10.5
+
+;	two lines below are separate data from next day, 15th Aug, Neil and Andy
+
+11	1x	1.48	319.3	-30.3
+1x	2x	8.91	180.4	-22.5		
+				
+*data passage station left right up down ignoreall
+
+26z	1.1	0	1.8	1.7	; unclear what the station was, twenty something
+1	0	1.1	2.4	1	; numbered
+2	0.9	0	1.5	-	; numbered
+3	0.6	0	0.4	0.3
+4	0	0.4	1.6	1.2
+5	0.4	0	1.8	0.9
+6	0.4	0	2	1.2
+7	0	0.5	0.6	1.6
+8	0.7	0.3	1.1	2.2
+9	0.1	0.7	2.2	0.2
+10	0	0.4	2.2	0.5
+11	0	1.4	2.4	1.4
+;12	0.5	0	0.6	1.6	unclear what this lrud for, may not be 12
+12	0	0.8	2.4	0.1
+13	0.4	1	1.4	0.8
+14	0	0.9	2.2	0.6
+15	0	0.6	2.5	0.9
+26z	-	-	-	-	numbered
+
+; 11	0	2	3	1.5	should be same as other 11 lruds
+1x	2	0	3	0.5
+
+*end   konigsberg4

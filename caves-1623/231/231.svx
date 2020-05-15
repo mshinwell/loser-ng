@@ -1,0 +1,42 @@
+; Equates to link underground data to surface data
+*equate 231.p231a p231a
+*equate 231.p231b p231b
+*equate 231.p231c p231c
+*equate 231.p231d p231d
+*equate 231.p231e p231e
+*equate 231.p231f p231f
+*equate 231.p231g p231g
+*equate 231.p231h p231h
+*equate 231.p231i p231i
+
+*entrance p231a
+*entrance p231b
+*entrance p231c
+*entrance p231d
+*entrance p231e
+*entrance p231f
+*entrance p231g
+*entrance p231h
+*entrance p231i
+
+*begin 231
+
+*title "Traungoldhöhle, 1623/231"
+
+*export p231a p231b p231c p231d p231e p231f p231g p231h p231i
+
+; Underground data:
+*include traun
+
+; Entrances:
+*equate traun2.41 p231a
+*equate traun.17  p231b
+*equate traun2.37 p231c
+*equate traun2.27 p231d
+*equate traun3.2  p231e ; rock at bottom entrance to stone bridge (NOT bolt)
+*equate traun3.3  p231f ; top entrance to stone bridge
+*equate traun4.30 p231g ; small entrance (crawl) out from underneath stone bridge
+*equate traun2.28 p231h
+*equate traun2.34 p231i
+
+*end 231

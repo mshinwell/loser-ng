@@ -1,0 +1,18 @@
+;alte Daten
+;*fix	p78	35733.33		81441.33		1667.54	
+;*fix 	p78d	35726.32  	81667.65  	1664.30 ;E4, Tannenzäpfleeingang, aus pos-Liste der Ausene4-Datei übernommen, 12.8.99 Thilo
+
+;*fix 78.78haupt.Eingang 35727 81436 1664
+;*fix 78.verhall.20 35836.67 81384.29 1599.90 ;waswarndas?
+;*fix 78.allkaese.mj.12 35790.95 81353.91 1588.56  ;Anbindung mit 41
+
+
+;Nils-Daten ab 10/00:
+*fix p78a		35731.08		81430.86		1666.29		;Haupteingang
+*fix p78b	35717.34		81416.78		1659.15		;Klufteingang (E2) 
+*fix p78d	35730.85		81662.75		1666.22		;Tannenzäpfle
+*fix p78e		35787.78		81427.58		1682.61 		;Steinbläser
+
+;Neue Anschlüssen an andere Höhlen:
+
+*fix 78.allkaese.mj.12 	35782.51	81348.38	1586.34	;=041.verhall.12  (Verb. Schwabenschacht-Stellerweg)

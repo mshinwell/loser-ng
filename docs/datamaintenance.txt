@@ -1,0 +1,51 @@
+This file is a place to put handy info on maintaining the dataset.
+
+We could have a set of actual scripts, but until there is more than
+one, let's try note form.
+
+See HTML troggle & cave survey data documentation at
+http://expo.survex.com/
+
+-----------
+
+Line-endings
+------------
+
+The dataset is kept with unix linefeed style. DOS (and mac) files get
+checked-in regularly, and from time to time someone uses an editor so
+dim that that it makes files mixed-lineend.
+
+This handy command will unixfy all the DOS-style .svx files:
+
+find . -not -type d -name "*.svx" -exec file "{}" ";" | grep CRLF |
+awk '{print $1}' | sed -e 's/:$//' | xargs fromdos -v
+
+(it needs 'tofrodos' package installed. 'unix2dos' can be used instead).
+
+See https://expo.survex.com/handbook/computing/hbmanual1.html
+Previously done 20th Feb 2014
+Last done 6th April 2020
+
+------------
+
+Cave names
+------------
+
+Cave names do not have leading zeros
+They are stored by number/ID in the dataset, not by name.
+create them like this:
+https://expo.survex.com/handbook/computing/caveentry.html
+
+https://expo.survex.com/handbook/computing/manual.html
+-------------
+
+File names
+-------------
+
+No spaces in filenames. use underscores. 
+Don't use capitals. If you do, make _sure_ that they are used exactly the same in include statements.
+Otherwise it's easy to make datasets that work on Windows, but not Mac/Unix
+
+Don't create two files spelt the same except for capitalisation. That makes a dataset that will overwrite itself on Windows.
+
+ See https://expo.survex.com/handbook/computing/hbmanual1.html

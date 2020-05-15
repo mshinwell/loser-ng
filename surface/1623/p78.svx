@@ -1,0 +1,90 @@
+;update 13.9.00, Thilo, reference added
+;199x.xx.xx Wook converted this from Thilo's data
+;1998.05.29 AERW Added comments, exports and made format fit a bit better
+
+*begin schwabsurf		;	485395.41 	281044.60 	1588.31 
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Area:	SE flank Vord. Schwarzmooskogel, Western massif, Totes Gebirge, Austria
+; Caves:	Schwabenschacht (1623/78)
+*title "Surface survey from Laser point to 78 entrance"
+*date 1995.07.29
+*team Kai Schwekend., Regina Kaiser, Thilo Müller
+; ref.	personal communication, Thilo to Wookey - original comments follow:
+; ref.	Messbuch/Survey book: SMK 1
+
+;	HPLAN\SCHWASCH\MAPPE099		1	0	0		0	0	0
+;	"Schwabenschacht (1623/78), Außenverm., 29.7.95, Kai Schwekend., Regina Kaiser, "
+;	"Thilo Müller; MP 1=MP X/4 von 1994, Haupteingang; Verm. entlang des Pfades zum "
+;	"Jägersteig und weiter zum K.-Spöker-Steig, dort MP 53=MP 9 (rot) auf Weg"
+;
+;
+;	Missw.	Ganglänge	Gesamtlänge aller Mappen	Anschluß:	im Nichts	bei Pkt:	53
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 53	; laser point 7/9 on path near 1623/28
+*export 1	; entrance of 1623/78
+
+*calibrate	compass		0	;	0.00 	#VALUE!	#VALUE!	km (mit dieser)	Rechtswert	Hochwert  Höhe	Höhe
+
+*DATA normal from to length gradient bearing ignore ignore ignore ignore	;	Anker:	MAPPE001	bei MP:	53
+*set blank () 	,
+
+;survey starts from	im Nichts	53	at	#VALUE!	#VALUE!	#VALUE!		0.00 	0.00 	0.00 	
+
+;Meßpunkt	Rundschl.	Länge  Neig. Richt.	Begrenzung (m)	Raumbegrenzung
+;von  nach Mappe Pkt	(m)	(ø)  (ørwN)	 li	re	ob	un
+1	2		(05.05)	20 	99 	  -	-	-	-
+2	3		(03.70)	-8 	162 	  -	-	-	-
+3	4		(04.75)	5 	191 	  -	-	-	-
+4	5		(03.64)	-18 	156 	  -	-	-	-
+5	6		(13.35)	-6 	251 	  -	-	-	-
+6	7		(16.30)	-3 	179 	  -	-	-	-
+7	8		(26.88)	-4 	253 	  -	-	-	-
+8	9		(04.22)	-34 	300 	  -	-	-	-
+9	10		(09.65)	2 	276 	  -	-	-	-
+10	11		(05.67)	-20 	260 	  -	-	-	-
+11	12		(11.65)	-15 	293 	  -	-	-	-
+12	13		(07.29)	-14 	251 	  -	-	-	-
+13	14		(04.42)	26 	310 	  -	-	-	-
+14	15		(03.53)	-12 	8 	  -	-	-	-
+15	16		(16.20)	-7 	270 	  -	-	-	-
+16	17		(16.48)	-4 	194 	  -	-	-	-
+17	18		(35.00)	-3 	172 	  -	-	-	-
+18	19		(22.50)	-2 	265 	  -	-	-	-
+19	20		(49.50)	-4 	178 	  -	-	-	-
+20	21		(25.20)	-16 	258 	  -	-	-	-
+21	22		(29.65)	-2 	196 	  -	-	-	-
+22	23		(04.94)	0 	175 	  -	-	-	-
+23	24		(18.69)	-10 	210 	  -	-	-	-
+24	25		(08.60)	-12 	242 	  -	-	-	-
+25	26		(11.95)	-8 	176 	  -	-	-	-
+26	27		(03.88)	6 	215 	  -	-	-	-
+27	28		(04.18)	-42 	165 	  -	-	-	-
+28	29		(03.93)	2 	110 	  -	-	-	-
+29	30		(07.45)	-20 	126 	  -	-	-	-
+30	31		(05.48)	-14 	216 	  -	-	-	-
+31	32		(05.86)	-25 	170 	  -	-	-	-
+32	33		(25.40)	-6 	216 	  -	-	-	-
+33	34		(11.48)	-10 	222 	  -	-	-	-
+34	35		(04.90)	-8 	180 	  -	-	-	-
+35	36		(06.66)	-18 	196 	  -	-	-	-
+36	37		(17.88)	-7 	217 	  -	-	-	-
+37	38		(25.80)	-6 	220 	  -	-	-	-
+38	39		(07.85)	-4 	184 	  -	-	-	-
+39	40		(11.80)	-26 	168 	  -	-	-	-
+40	41		(06.50)	29 	295 	  -	-	-	-
+41	42		(15.85)	-4 	230 	  -	-	-	-
+42	43		(36.95)	-12 	247 	  -	-	-	-
+43	44		(16.10)	-1 	191 	  -	-	-	-
+44	45		(17.45)	3 	222 	  -	-	-	-
+45	46		(22.43)	-4 	213 	  -	-	-	-
+46	47		(06.05)	10 	256 	  -	-	-	-
+47	48		(26.10)	-10 	266 	  -	-	-	-
+48	49		(09.05)	-10 	208 	  -	-	-	-
+49	50		(12.25)	-9 	257 	  -	-	-	-
+50	51		(04.20)	2 	295 	  -	-	-	-
+51	52		(06.78)	-6 	306 	  -	-	-	-
+52	53		(02.39)	-18 	304 	  -	-	-	-
+*end schwabsurf

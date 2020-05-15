@@ -1,0 +1,20 @@
+*begin 2012-ns-01
+
+*export 2012-NS-01-tag AntsInYourPants.15
+
+; *equate p2012-ns-01 2012-ns-01.GPS
+*entrance 2012-NS-01-tag 
+*entrance AntsInYourPants.15
+
+*include AntsInYourPants
+*equate AntsInYourPants.2012-NS-01-tag 2012-NS-01-tag
+
+
+*date 2012.08.11
+*team Insts Noel Snape
+*team Notes Noel Snape
+
+*data normal from to tape	compass clino
+2012-NS-01-tag	1	15	110	-45
+
+*end 2012-ns-01

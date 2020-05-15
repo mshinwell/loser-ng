@@ -1,0 +1,350 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Tonys Second Höhle 1623/144
+
+*begin America
+*title "Amerika"
+
+*export 0	; 144ein.25
+*export 117_2	; gang.2
+
+; -1- unterhalb der Eingangsschächte
+; Messteam: David Cole, Jens Römer, Robert Winkler
+; Zeichner: Jens Römer
+; Referenz: Messbuch Jens Römer
+*date 2001.06.06
+
+*data normal from to length clino compass
+0	1	2.28	-38	194	; 0 = 144ein.25
+1	2	10.60	-90	0
+2	3	3.07	11	119
+3	4	5.00	-90	0
+4	5	3.87	-9	129
+5	6	3.30	-37	177
+6	7	8.56	-53	157
+7	8	4.80	-38	114
+8	9	4.80	-59	127
+9	10	7.90	40	26
+10	11	15.00	-10	32
+11	12	10.10	38	39
+12	13	11.35	21	38
+13	14	6.3	29	52
+
+; Raumwerte
+*data passage station left right up down
+1	2	0	-	-	; up=+
+2	0	-	-	0.4	; right=Spalte up=+
+3	-	0	0.5	-	; left=Schacht
+4	0.3	0.8	6	4
+5	1.5	1.5	0	-	; down=Meander
+6	-	1	0.4	1	; left=Gang
+7	1	1	0.3	1.3
+8	0	0.5	0.6	0.2
+9	-	0.3	2	1.6	; left=Gang
+10	1.2	0.5	-	0	; up=+
+11	0	0.8	5	-	; down=Canyon
+12	0.8	1.4	3	0.5
+13	4	3	4	1
+14	2.4	2	0	1.6
+
+; -2-
+; Messteam: David Cole, Jens Römer, Thomas Holder
+; Zeichner: Jens Römer
+; Referenz: Messbuch Jens Römer
+*date 2001.06.07
+
+*data normal from to length clino compass
+14	15	9.00	-4	20
+15	16	4.08	-51	85
+16	17	5.07	DOWN	-
+17	18	7.90	2	26
+18	19	10.08	11	45
+
+18	18_1	1.76	-44	64
+18_1	18_2	23.58	-70	300
+18_2	18_3	6.45	-4	215
+18_3	18_4	5.71	-21	230
+18_4	18_5	17.46	-33	219
+18_5	18_6	8.75	-27	222
+18_6	18_7	6.82	-10	224
+18_7	18_8	4.58	-15	102
+
+18_3	18_3_1	10.75	-29	61
+18_3_1	18_3_2	1.98	-47	29
+18_3_2	18_3_3	8.15	-74	73
+18_3_3	18_3_4	3.37	-24	81
+18_3_4	18_3_5	11.00	-80	48
+18_3_5	18_3_6	3.40	-27	225
+18_3_6	18_3_7	7.10	-3	194
+18_3_7	18_3_8	7.04	-5	163
+18_3_8	18_3_9	2.23	11	74
+18_3_9	18_3_10	6.56	2	172
+18_3_10	18_3_11	3.12	2	124
+18_3_11	18_3_12	8.43	-4	178
+18_3_12	18_3_13	10.05	12	203
+18_3_13	18_3_14	11.35	0	210
+18_3_14	18_3_15	4.55	8	120
+18_3_15	18_3_16	6.18	3	137
+18_3_16	18_3_17	5.13	13	249
+18_3_17	18_3_18	5.44	-4	205
+18_3_18	18_3_19	9.90	-3	221
+18_3_19	18_3_20	12.27	0	207
+18_3_20	18_3_21	3.51	10	280
+18_3_21	18_3_22	4.72	0	210
+18_3_22	18_3_23	5.83	-6	258
+18_3_23	18_3_24	5.89	-16	250
+
+18_3_10	w1	4.02	-9	300
+w1	w2	4.34	-8	288
+w2	w3	2.85	-20	295
+
+; Raumwerte siehe weiter unten
+
+; -3-
+; Messteam: David Cole, Jens Römer
+; Zeichner: Jens Römer
+; Referenz: Messbuch Jens Römer
+*date 2001.06.09
+
+w3	w4	31.0	-90	0
+
+18_3_20	18_3_20_1	21.1	DOWN	-
+
+18_3_10	a	11.06	7	34
+a	b	4.23	10	15
+b	c	1.43	-2	110
+c	d	4.5	11	20
+d	e	1.36	-2	90
+e	f	8.40	32	52
+f	g	3.63	10	43
+g	h	6.67	6	10
+h	i	2.40	-30	287
+i	j	4.2	5	12
+j	k	2.85	-18	28
+k	l	3.58	8	331
+
+; Raumwerte
+*data passage station left right up down
+15	0	5	8	10	; down=?
+16	0	2	2	-
+17	2	0	8	0.5
+18	0	1.2	3	-	; down=Spalte
+19	2.5	0	4	1.5
+
+*data passage station left right up down
+18	0	1.2	3	-
+18_1	1	0	5	-	; down=Spalte
+18_2	1	1.5	3	0
+18_3	0	1.2	3	2
+18_4	1.5	0	8	2
+18_5	0	0.4	2	1
+18_6	0	0.4	2	1
+18_7	1.2	0	6	-	; down=Schacht
+18_8	0	2.3	-	1.4	; up=Schacht
+
+*data passage station left right up down
+18_3	0	1.2	3	2
+18_3_1	1	0	3	1.5
+18_3_2	0	0.8	4	-	; up=Schacht
+18_3_3	0.7	0	-	1.1	; up=Schacht
+18_3_4	0	0.8	-	-	; up=Schacht down=Schacht
+; 18_3_5 keine Raumwerte!
+*data passage station left right up down
+18_3_6	0.6	0	0.3	0.5
+18_3_7	0.8	0	0.5	0.8
+18_3_8	1	0	0.3	0.4
+18_3_9	0	1.3	0.3	0.5
+18_3_10	2.5	0	1	1.5
+18_3_11	0	1.5	0.3	1.4
+18_3_12	0	1.4	0.4	0.4
+18_3_13	1.5	0	0.3	0.8
+18_3_14	1.2	0	0.6	1.0
+18_3_15	1.2	0	0.6	1.8
+18_3_16	1.3	0	1	1.5
+18_3_17	1.4	0	0.4	3
+18_3_18	0	1.4	1	3
+18_3_19	1.2	0	0.5	4
+18_3_20	0	2	2	-
+18_3_21	1.6	0	1	1.3
+18_3_22	0	1.4	0.6	1.4
+18_3_23	1.5	0	0.5	0.4
+18_3_24	0	0.8	0.4	1.2
+
+*data passage station left right up down
+18_3_10	2.5	0	1	1.5
+w1	1.3	0	1	1.8
+w2	0	0.7	1	2
+
+*data passage station left right up down
+18_3_10	2.5	0	1	1.5
+a	1.1	0	0.6	0.5
+b	0	1.5	0.4	0.7
+c	-	0	0.7	0.6	; left=Gang
+d	0.1	2.8	0.7	0.5
+e	0	1.3	1.5	0.4
+f	0	0.8	0.4	1.0
+g	1	0	0.5	0.7
+h	2	0	0.5	0.3
+i	0	-	0.3	0.8	; right=Gang
+j	1.3	0	0.8	1.2
+k	0	1.8	0.6	0.6
+l	0.4	-	0.8	7	; right=Gang
+
+
+; -4-
+; Messteam: Jens Römer, Susanne Reuter
+; Zeichner: Jens Römer
+; Referenz: Messbuch Jens Römer
+*date 2001.08.03
+
+*data normal from to length clino compass
+l	83	8.30	10	108
+83	84	3.90	8	72
+84	85	4.70	6	112
+85	86	4.79	0	63
+86	87	5.80	10	34
+87	88	2.65	7	22
+88	89	1.85	2	60
+89	90	3.45	9	345
+90	91	3.20	6	39
+91	92	4.05	3	15
+92	93	2.60	8	4
+93	94	3.05	-7	12
+94	95	3.30	-34	347
+95	96	1.85	2	0
+96	97	1.80	0	54
+97	98	3.75	-10	345 ; Fortsetzung zu eng
+
+18_3_5	99	2.90	-15	290
+99	100	5.60	-2	40  ; Wasserzufluß
+100	101	6.80	6	35
+101	102	3.65	7	332
+102	103	6.95	14	14
+103	104	4.50	-12	29   ; Fortsetzung zu eng
+
+103	105	4.05	-12	115  ; Fortsetzung zu eng
+
+; Raumwerte
+*data passage station left right up down
+l	0.4	-	0.8	7	; right=Gang
+83	0.5	1	1	-
+84	0.3	0.5	1.7	-
+85	0.5	0.7	1.2	-
+86	0.3	0.2	2	-
+87	0.4	0.2	1.5	-
+88	0.4	0.1	1.1	-
+89	0	0.5	1.5	-
+90	0.2	1	0.7	-
+91	0.3	0.2	0.5	-
+92	0.4	0	1.2	-
+93	0.5	0.3	1.1	-
+94	0.2	0.7	2.2	-
+95	0.8	0.4	6	-
+96	0.9	0.5	5.5	-
+97	0.2	1.3	2	-
+98	0.4	0.2	7	-
+
+*data passage station left right up down
+100	1.2	1	0.4	1
+101	0	1.2	0.5	1.1
+102	0.4	0.2	0.7	0.5
+103	0.4	0	5	1.7
+104	0.2	0.3	6	0.6
+
+
+; -5-
+; Messteam: Jens Römer, Nordian Renner
+; Zeichner: Jens Römer
+; Referenz: Messbuch Jens Römer
+*date 2001.08.04
+
+*data normal from to length gradient compass
+18_3	106	13.7	42	54
+106	107	10.05	7	5
+107	108	4.3	-6	43
+108	109	3.15	-40	115
+109	110	6	-90	0	; 2 Schlingen, 1 Karabiner, Seil ???
+110	111	12.40	-2	32	; deponiert: 20m, 10m, 2 Karabiner
+111	112	3.45	-28	16
+112	113	13.85	30	42
+113	114	2.70	30	355
+114	115	5	42	33	; Geburtstagshalle, 3 mögliche Fortsetzungen
+115	116	1.90	33	105
+116	117	9.60	-13	15	; Gehzeit ab / nach 41a: ???
+
+; Raumwerte
+*data passage station left right up down
+107	0	1.5	1.3	1
+108	-	0	1	1.8	; left=Gang
+109	0	-	0.5	6	; right=Gang
+110	1.2	0	6	0.2
+111	0	1	0	3.5
+112	0.5	0	0.5	-	; down=Spalte
+113	0	1	3	0.2
+114	1.8	0	1.5	1.5
+115	1	20	20	-	; down=Versturz
+116	0.7	2.2	20	2.5
+117	6	5	10	2
+
+
+; -6-
+; Messteam: Jens Freigang, Jens Römer
+; Zeichner: Jens Freigang
+; Referenz: Messbuch Jens Freigang
+*date 2001.08
+
+*data normal from to length gradient compass
+*begin ; GON
+*units compass grads
+*units clino grads
+
+117	117_1	5.30	-8	62
+117_1	117_2	8.90	-45	51  ; Nach Tabelle Jens Römer: -40    48
+
+117	117_0_1	18.20	38	200
+117_0_1	117_0_2	5.85	3	241
+117_0_2	117_0_3	2.12	-12	226
+117_0_3	117_0_4	3.38	56	200
+117_0_4	117_0_5	18.09	8	225
+*end ; GON
+
+; Raumwerte
+*data passage station left right up down
+117	6	5	10	2
+117_1	1.2	0	1.8	6
+117_2	2	0	10	1.5
+
+*data passage station left right up down
+117	6	5	10	2
+117_0_1	2.5	2.2	10	1.5
+117_0_2	6	1	10	3
+117_0_3	0.5	1.2	1.5	1
+117_0_4	2.5	2.2	8	1
+117_0_5	1.5	3	2.2	0
+
+
+; -7-
+; Messteam: Aiko Schütz, Jens Römer, Jörg Haußmann
+; Zeichner: Jens Römer
+; Referenz: Messbuch Jens Römer
+*date 2002.08.19
+
+*data normal from to length clino compass
+117_2	117_3	5.24	-55	351
+117_3	117_4	19.80	-90	0
+117_4	117_5	3.90	41	305
+117_5	117_6	3.60	-18	215
+117_5	117_7	6.40	-23	216
+117_5	117_8	5.82	33	44
+117_8	117_9	4.60	40	36
+
+;Raumwerte
+*data passage station left right up down
+117_3	0	8	-	20	; up=?
+117_4	4	4	20	0	; up=>20
+117_5	-	-	18	5	; left=Spalte right=Spalte
+117_6	1.6	0	8	8.3
+117_7	1.5	0	8	3
+117_8	0.5	0	-	1.2	; up=?
+117_9	0	1	6	0
+
+*end America

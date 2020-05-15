@@ -1,0 +1,43 @@
+;1998.03.02 AERW sorted begin/end, added comments and refs, and LRUD
+
+*begin sultans
+
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+*title "Sultans of Swing - pitch series"
+*date 1995.07.23 ; trip 1995-161-16 in logbook (which says 22nd)
+*team Insts Steve B
+*team Tape Steve B
+*team Notes Julian H
+*instrument 
+; Calibration: 
+; ref.:	1995 survey book pp 10-12
+
+*export 10	; upper pitch head bolt
+
+; from to tape compass clino
+
+1       2       8.46    082     +07   
+3       2       4.44    139     -02
+4       2       4.27    358     -01.5
+4       5      22.40    -       up
+5       6       6.62    148     -04.5
+6       7      21.70    -       up
+7       8       2.82    075     +32
+8       9      21.12    -       up
+9       10      1.10    240     +80
+
+; station details
+; stn	L	R	U	D
+; 1	0.1	0.5	0	4.0	CM above sump
+; 2	4.0	2.5	-	1.0	CM LH wall
+; 3	4.0	2.0	-	2.0	CM head of final pitch (to sump)
+; 4	5.0	2.5	-	1.0	CM foot of pitch
+; 5	2.0	0	-	0	pitch head on ledge
+; 6	4.0	4.0	-	-	foot of top pitch (free span)
+; 7	0.5	2.0	-	-	Y-hang at pitch head
+; 8					Bottom of main hang
+; 9					Lower pitch head bolt
+;10					Upper pitch head bolt
+
+*end sultans

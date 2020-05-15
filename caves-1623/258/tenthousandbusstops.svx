@@ -1,0 +1,42 @@
+*begin tenthousandbusstops
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export 3x 7
+
+*title "Ten Thousand Bus Stops"
+*date 2011.08.02
+*team Notes Emma Wilson
+*team Insts Becka Lawson
+*team Tape Neil Pacey
+*instrument Chris Smith's Bristol Geography comp + clino and Neil's DistoX as tape
+
+; calibrate - A to B 326 -21 B to A 147 +20
+
+;ref.: 2011#21
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+1	3x	12.02	007	-38
+2	1	2.54	253	-11
+3	2	5.90	307	-07
+4	3	6.20	231	-27
+5	4	4.35	304	-20
+6	1	7.22	345	+07
+7	6	4.12	019	-44
+				
+*data passage station left right up down ignoreall
+
+3x	1.7	0.4	3.8	1.5
+1	3.2	0	2.3	7.8
+2	0.7	3.7	2.7	0	down  may be wrong
+3	1.0	0	2.6	0.5
+5	6.5	0	1.1	0.9
+4	0	1.1	2.4	1.6
+6	2.5	1.6	3.7	2.5	pitch is 10m down
+7	-	-	-	-	old station at start of traverse
+
+*end   tenthousandbusstops

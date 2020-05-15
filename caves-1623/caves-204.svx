@@ -1,0 +1,30 @@
+; Caves in the Steinbruckenhohle area.
+
+*include 204/204.svx
+*include 231/231.svx
+*include 234/234.svx
+*include 239/239.svx
+*include 241/241.svx
+*include 242/242.svx
+*include 243/243.svx
+*include 244/244.svx
+*include 245/245.svx
+*include 249/249.svx
+*include 251/251.svx
+*include 258/258.svx
+*include 263/263.svx
+*include 273/273.svx
+*include 2002-05/2002-05.svx
+*include 2002-06/2002-06.svx
+*include 2002-07/2002-07.svx
+*include 2004-14/2004-14.svx
+*include 2004-15/2004-15.svx
+*include 2006-08/2006-08.svx
+*include 2006-09/2006-09.svx
+*include 2007-12/2007-12.svx
+*include 2010-06/2010-06.svx
+; *include 2010-07/2010-07.svx
+
+
+
+

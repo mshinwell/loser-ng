@@ -1,0 +1,25 @@
+*equate 247.1 p247
+
+*begin 247
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "247"
+
+*team Bodger Martin Green, Alex Crow
+; Bodged from sketch survey on website
+*date 2003 ; sketch survey was from 2003
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+
+;from	to	tape	compass	clino	; remarks
+1	2	8	225	-25
+2	3	16	-	DOWN
+
+;station details
+;name	H	description
+;1	Entrance
+
+*end 247
+

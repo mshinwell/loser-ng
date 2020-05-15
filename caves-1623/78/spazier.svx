@@ -1,0 +1,182 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schwabenschacht 1623/78
+
+*begin spazier
+*title "Spaziergang"
+
+*export 5_1	; galakt.5_1
+*export 10_4	; galakt.8_3
+*export 17_1	; schlepp.17_1
+*export 10_5	; igramul.5_0
+*export 2_4	; igramul.2_4
+*export 5	; schwadom.r5
+
+; -1- Spaziergang beim Schwarzen Dom; MP11=MP0, MP11/1=MP1 usw. MP11 ist
+;     bekannt, später einfügen
+; Messteam: Alexander Wöhrle, Dirk Riemann
+; Zeichner: Alexander Wöhrle
+; Referenz:
+*date 1993.07.29
+
+*data normal from to length gradient bearing
+5	6	15.30	-2	204
+6	7	5.73	0	155
+7	8	11.05	18	284
+8	9	7.80	-12	217
+9	10	8.30	-26	278
+10	11	13.45	0	210
+11	12	12.05	8	240
+12	13	19.35	12	225
+13	14	20.20	8	136
+14	15	9.55	8	168
+15	16	17.40	15	210
+16	17	14.00	10	140
+
+; Raumwerte
+; keine Raumwerte
+
+
+; -2- Spaziergang; MZ 13ff: Gang des Sozialen Krabbelns
+; Messteam: Dirk Riemann, Florian Gruner, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: SMK 1
+*date 1994.07.19
+
+*data normal from to length clino compass
+13	13_1	16.40	19	204
+13_1	13_2	6.60	8	214
+13_2	13_3	8.80	18	196
+13_3	13_4	11.90	0	254
+
+; Spaziergang; MZ 17ff; geht nach Vermessung von 1995 Richtung Stuttgarter
+; Halle weiter; MZ Umbenennung!!: MP 17/4 in Höhle (abgehend von MP 17/1) wird
+; in MP 17/a umbenannt MPe 17/1 in 17/b, 17/2 in 17/c und (wichtig) 17/3 in 17/1
+
+17	17_b	2.72	4	123
+17_b	17_c	3.20	30	47
+17_c	17_1	5.00	3	112
+
+17_b	17_a	5.67	-53	163
+
+17	18	1.99	-20	198
+18	19	10.26	41	197
+19	20	6.40	-5	240
+20	21	11.10	-6	291
+21	22	1.95	0	237
+22	23	3.20	-1	291
+
+; Raumwerte
+*data passage station left right up down
+;13_1	-	-	-	-
+;13_2	-	-	-	-
+13_3	1.0	4.0	0.5	0.5
+13_4	1.0	2.0	0.0	0.7
+
+
+; -3- Spaziergang; Zug von der Abzweigung vor dem 95er Biwak zum Riesenschacht
+;     MP 10_1_1 in den Wasserkamin MP 10_4 Felsspitze an linker Seite vom
+;     Riesenschacht; Anschluß von hier zu den Messungen von '95
+; Messteam: Florian Gruner, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: SMK 1
+*date 1994.07.19
+
+*data normal from to length clino compass
+23	24	3.45	11	265
+
+23	23_1	4.45	-14	282
+23_1	23_2	7.38	-8	339
+
+20	20_1	0.40	-30	290
+20_1	20_2	7.61	-50	219
+20_2	20_3	8.12	8	91
+20_3	20_4	6.50	-44	58
+
+10	10_1	5.68	7	317
+10_1	10_1a	8.00	0	317
+
+10_1	10_2	13.95	-7	280
+10_2	2_1	3.65	-50	298
+2_1	2_2	10.86	DOWN	-
+2_2	2_3	2.58	-2	18
+2_3	2_4	32.35	DOWN	-
+
+10_2	10_3	8.00	30	309
+10_3	10_4	5.31	27	277
+10_4	10_5	10.18	-71	18
+10_5	10_6	10.6	-65	90
+
+; Zug zum Kopf des Gewitterschachtes; u.U. Nachmessung 1995 mit etwas anderen
+; Meßwerten. Kontrollieren!
+
+13	13_a	12.35	10	146
+13_a	13_b	16.60	23	55
+
+; Raumwerte
+*data passage station left right up down
+10_1	1.5	0.5	4.0	1.0
+10_2	0.0	2.0	3.0	2.0
+
+
+; -4- Spaziergang; Kleiner Seitengang kurz nach dem Beginn auf der linken
+;     Seite; Beginn an MP 7
+; Messteam: Florian Gruner, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: SMK 1
+*date 1994.07.24
+
+*data normal from to length clino compass
+7	7_1	2.54	-23	231
+7_1	7_2	1.64	DOWN	-
+7_2	7_3	1.20	-27	234
+7_3	7_4	1.92	DOWN	-
+7_4	7_5	4.26	-23	141
+
+; Raumwerte
+; keine Raumwerte
+
+
+; -5- Spaziergang; Super-Flo-Schacht, kurz vor dem Endversturz beim Eis
+; Messteam: Kai Schwekendiek, Regina Kaiser, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz:
+*date 1995.08.02
+
+*data normal from to length clino compass
+24	24_1	1.12	-18	155
+24_1	24_2	1.64	DOWN	-
+24_2	24_3	1.45	-14	194
+24_3	24_4	9.50	DOWN	-
+
+; Raumwerte
+; keine Raumwerte
+
+
+; -6- Seitengang ab 5_1 am oberen Ende der Rampe vom schwarzem Dom zum
+;     Spaziergang, Elfenschleier
+; Messteam: ?
+; Zeichner:
+; Referenz: SMK 1
+*date 1995.07
+
+*data normal from to length clino compass
+5	5_1	21.70	41	2
+5_1	5_1_1	4.23	-54	113
+5_1_1	5_2	2.90	-33	117
+5_2	5_3	6.36	-72	41
+5_3	5_4	4.54	-60	81
+
+5_2	5_2_1	4.90	18	10
+
+; Raumwerte
+*data passage station left right up down
+;5_1	-	-	-	-
+5_1_1	0.2	-	-	0.8
+5_2	0.1	0.4	-	1.7
+5_3	0.0	0.3	1.5	-
+5_4	-	2.0	-	1.1
+*data passage station left right up down
+5_2	0.1	0.4	-	1.7
+5_2_1	4.0	-	1.0	0.7
+
+*end spazier

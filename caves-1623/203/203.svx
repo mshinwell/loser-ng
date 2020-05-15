@@ -1,0 +1,51 @@
+;12.9.00 für Sonnenscheinschacht erstellt von Thilo
+
+*equate p203 203.8
+*entrance p203
+
+*begin 203
+
+; Ort:			Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+*title "Sonnenscheinschacht, 1623/203"
+*date 1997.07
+; Von:	Ableser:		? (Robert Winkler, Kai Schwekendiek, . . . )
+;	Schreiber:	
+;	(2. Schreiber:)	
+;	Massband:	
+*instrument 
+; Gerätefehler:	
+; Referenz.:	Messbuch "Florian Gruner 1"
+
+; ====== Messpunkte, die an bereits bestehenden Vermessungen hängen: ======
+
+;*export 1		;Anbindung über "sonnausn.svx" in surface
+*export 8
+
+;WICHTIG: Außenvermessung ist noch nicht gemacht (Stand 12.9.00), deshalb keine Eingangskoordinaten
+;IMPORTANT: Surface survey is not yet done, so there are no entrance coordinates (12.9.00)
+;erledigt/done am 30.9.00 (sonnausn.svx)
+
+*calibrate tape +0.0	; "+" wenn das Massband zu kurz war, "-" wenn es zu lang war
+*data normal from to length gradient bearing ignoreall
+
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+
+1	2	4.3	+90	0	;Erster Meßpunkt am Ende der Höhle, Messung Richtung Eingang
+2	3	5.41	76	220
+3	4	3.38	70	282
+4	5	3.23	60	82
+5	6	4.06	30	167
+6	7	11.85	65	200
+7	8	8.82	56	157	;Eingang!!
+
+;Raumwerte
+;Name	Links	Rechte	Oben	Unten		Beschreibung
+; 2	1.3	0	5	-
+; 3	2	2.5	0	1.5
+; 4	2	0	1	3
+; 5	1.2	1	0.2	2
+; 6	0	1.5	2.5	0.4
+; 7	1.5	1	4	1
+; 8	-	-	-	-
+
+*end 203

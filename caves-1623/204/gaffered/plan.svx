@@ -1,0 +1,34 @@
+*begin plan
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Plan"
+*date 2002.08.25
+*team Insts Martin Green
+*team Notes Earl Merson
+*team Tape Martin Green
+*instrument Compass #3 ; Clino #3, Tape: open reel with two fixed breaks
+; Calibration: 149/+23.5, 148/+23, 148/+23.5, 328/-23, 329/-22, 329/-23
+; ref.:	2002 #24
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 4
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+*title "000 separation leg"
+2	1	6.51	37	+49
+*title "Plan"
+2	3	59.91	-	down
+4	3	10.70	17	+50
+
+;station details
+;name	L	R	U	D	description
+;1	0	2	-	1.8	RP "4" on Lwall at head of pitch
+;2	10	5		6	Main hang bolt
+;3					RP on wall
+;4					Top of cairn at bottom of pitch
+
+*end plan

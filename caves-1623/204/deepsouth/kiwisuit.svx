@@ -1,0 +1,56 @@
+*begin kiwisuit
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "kiwisuit"
+*date 2000.08.11 ; Friday 11 August 2000
+*team Insts Becka Lawson
+*team Notes Michael Allen
+*team Pics Michael Allen
+*team Tape Michael Allen & Becka Lawson
+*instrument Compass #2 ; Clino #2, Tape -
+; Calibration: None
+; ref.: 2000 #29
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 14
+
+*calibrate tape +0.0    ; +ve if tape was too short, -ve if too long
+
+;from   to  tape    compass clino   ; remarks
+2   1   4.92    327 +6
+2   3   3.95    139 -61
+3   4   53.94   -   down
+5   4   4.96    310 -12
+5   6   2.39    239 +07
+6   7   7.89    -   down
+8   7   3.98    047 +19
+8   9   3.89    214 +04
+9   10  19.02   -   down
+11  10  2.12    341 -19
+11  12  3.36    140 -11
+12  13  47.54   -   down
+14  13  4.23    325 +15
+
+*data passage station left right up down ignoreall
+;
+;;station details
+;;name  L   R   U   D   description
+;;1 -   -   -   -   red paint spot on roof Ariston.1
+2  2   3   0   3   CM on roof knobble at start of pitch
+3  0.7 0.4 6   -   Knot at pitch head
+4  3   6   53  0   Floor of pitch
+5  0   1   -   3   Red mark at start of cascade rift L wall
+6  0.6 0   -   10  Red mark on R wall of pitch
+7  1   0.3 -   4   
+8  1.5 0   5   10  Red mark on R wall of pitch
+9  0.6 0   10  20  
+10 2   2   20  0   Red mark (washed off?) at base of pitch
+11 2   0   20  3   Red mark around sharp nose of rock on
+;;                      R wall before pitch
+12 1   1   20  50  Knot at pitch head
+13 3   0   50  1.5 Red mark at plumb of pitch
+14 0   2   50  2   Red mark on left wall before stream rift
+
+*end kiwisuit

@@ -1,0 +1,463 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	264 "Balcony Hohle"
+; (Originally 2005-05)
+
+*entrance p264
+
+*equate 264.horizontalentrance.0 p264
+*equate 264.horizontalentrance.tag t264
+
+*begin 264
+
+*export horizontalentrance.tag horizontalentrance.0
+*export penguinfellatio.9; Tunnocks connection
+*export lower_balkon.prangman.22; 2nd Tunnocks connection - 2018 - to Fecking Tight station 7
+*export lower_balkon.littleboy.42 ; 3rd tunnocks connection in 2017 to anthemusa station 9
+
+
+; subsystems 
+
+*include lower_balkon/lower_balkon
+
+; 2014 surveys
+
+*include horizontalentrance.svx
+
+*include entrancepitch1.svx
+*equate entrancepitch1.7 horizontalentrance.7
+
+*include entrancepitch2.svx
+*equate entrancepitch1.10 entrancepitch2.10x
+
+*include roomwithaview.svx
+*equate roomwithaview.1 entrancepitch2.1x
+
+*include roommop.svx
+*equate roomwithaview.5	roommop.5x
+
+*include roomwithaview2.svx
+*equate roomwithaview2.10 roomwithaview.10
+
+
+*include smashcrashpassage.svx
+*equate smashcrashpassage.9 roomwithaview.9
+
+*include crashmop.svx
+*equate crashmop.7x liarsbakery.7
+*equate crashmop.2x smashcrashpassage.35
+*equate crashmop.1x smashcrashpassage.34
+
+*include liarsbakery.svx
+*equate liarsbakery.42 smashcrashpassage.42
+
+*include pitpot.svx
+*equate pitpot.x roomwithaview2.30
+
+*include lemonsnout.svx
+*equate lemonsnout.42x smashcrashpassage.42
+
+*include leedsbypass.svx
+*equate leedsbypass.15A	liarsbakery.15
+*equate leedsbypass.15B roomwithaview2.15
+
+*include pitpot2.svx
+*equate pitpot2.x	roomwithaview2.30
+
+*include pitpot3
+*equate pitpot3.3x pitpot2.3
+
+*include amalgamation.svx
+*equate leedsbypass.8	amalgamation.8A
+*equate leedsbypass.9	amalgamation.9A
+*equate leedsbypass.33	amalgamation.GQT
+*equate pitpot2.2	amalgamation.NH
+
+*include darkarts.svx
+*equate darkarts.23A	leedsbypass.23
+
+*include darkartsII.svx
+*equate darkarts.37	darkartsII.1
+
+*include darkartsI.svx
+*equate darkartsI.47A	darkarts.47
+
+*include leedsbypass2.svx
+*equate leedsbypass.31	leedsbypass2.31A
+
+*include darkartsiii.svx
+*equate darkartsiii.1	darkartsI.15
+
+*include scrottytubei.svx
+*equate scrottytubei.1	darkartsI.15
+
+*include scrottytubeii.svx
+*equate scrottytubeii.1	darkartsiii.3
+
+*include lemonsnoutrosyringpiece.svx
+*equate lemonsnoutrosyringpiece.7	lemonsnout.22
+
+*include pointlesssniffing.svx
+*equate pointlesssniffing.3	smashcrashpassage.42
+
+*include deadbatpitch.svx
+*include deadbatpitchconn.svx
+*equate deadbatpitchconn.p1 deadbatpitch.1	
+*equate deadbatpitchconn.p11 darkartsII.11
+
+*include lemoncrapout.svx
+*equate lemoncrapout.x22	lemonsnout.22
+
+*include farside
+*equate farside.9x leedsbypass2.9
+*equate farside.12x leedsbypass2.12
+*equate farside.46 farsideco1.46x
+*equate farside.69 farsideco2.69x
+*equate farside.44 farsideco3.44x
+*equate farside.36 farsideco4.36x
+*equate farside.34 farsideco5.34x
+*equate farside.47 farsideco5.47x
+
+*include turtlehead.svx
+*equate turtlehead.47x farside.47
+
+*include turtleheadco.svx
+*equate turtlehead.47 turtleheadco.47b
+
+*include leedsbypass3
+*equate leedsbypass3.4 leedsbypass2.6
+
+*include hiltiaplenty
+*equate hiltiaplenty.7x crashmop.7
+
+*include spanner
+*equate hiltiaplenty.4 spanner.p4
+
+; 2015 surveys
+
+;*include chamber90b
+;*equate chamber90b.bs turtlehead.10
+; julians first day of surveying which had a badly calibrated SAP, now bypassed entirely
+
+*include cathedralchasm
+*equate cathedralchasm.1 turtlehead.9
+; resurvey of chamber90b, using good instruments, but not necessarily tying in in the right places
+
+*include cathedralLC1
+*equate cathedralLC1.1 cathedralchasm.9
+; first set of loop closure data
+
+*include cathedralLC2
+*equate cathedralLC2.4 cathedralchasm.7
+*equate cathedralLC2.8 cathedralchasm.6
+; second set of loop closure data
+
+*include avalancheexperience
+*equate avalancheexperience.9 cathedralLC1.2
+*equate avalancheexperience.2 cathedralLC2.5 
+; julians second day of surveying, now tied in without using the two loop closure (LC) files
+
+*include pitch59b
+*equate leedsbypass2.10 pitch59b.10x
+
+*include noserock
+*equate farside.77 noserock.77x
+
+*include digdug
+*equate digdug.1 entrancepitch2.1x
+
+*include einundzwanzig
+*equate turtlehead.28 einundzwanzig.28x
+
+*include icecock
+*equate icecock.1 einundzwanzig.15
+
+*include noserock2
+*equate noserock2.7 noserock.18
+
+;*include cathedralchasm
+*equate turtlehead.9 cathedralchasm.1
+
+*include northhole
+*equate icecock.11 northhole.11x
+
+*include icecock2
+*equate icecock.9 icecock2.1
+*equate northhole.13 icecock2.7
+
+*include gosserwager
+*equate gosserwager.9 gosserwager2.5
+
+*include gosserwager2
+*equate gosserwager2.2 frozennorth2.25
+
+*include frozennorth
+*equate frozennorth.13X icecock.13
+*equate frozennorth.12 frozennorth2.12X
+
+*include frozennorth2
+*equate frozennorth2.8X icecock2.8
+
+*include icecockLC1
+*equate icecockLC1.1 northhole.1
+*equate icecockLC1.4 northhole.7
+
+*include icecockLC2
+*equate icecockLC2.5 icecock2.5
+*equate icecockLC2.7 northhole.14
+
+*include bipedal
+*equate bipedal.11X amalgamation.11
+
+*include frozennorth3
+*equate frozennorth3.27x frozennorth2.27
+*equate frozennorth3.30x frozennorth2.30
+
+*include rabbitwarrens
+*equate rabbitwarrens.5x icecock2.5
+*equate rabbitwarrens.8x icecock2.8
+*equate rabbitwarrens.7x einundzwanzig.7
+*equate rabbitwarrens.21x frozennorth2.23
+
+;*include digdug
+*equate roomwithaview.0 digdug.1
+
+*include beyonddigdug
+*equate digdug.42 beyonddigdug.42x
+
+*include beyondthunderdome
+*equate beyonddigdug.16 beyondthunderdome.16x
+
+*include pubicsynthesis
+
+*include hiltiaplentypitch
+*equate crashmop.7 hiltiaplentypitch.p7
+*equate pubicsynthesis.1 hiltiaplentypitch.p1
+
+*include hiltiaplentychamber
+*equate hiltiaplentychamber.p7 hiltiaplentypitch.7
+*equate hiltiaplentychamber.27 sponge_chamber2.88
+*equate hiltiaplentychamber.28 sponge_chamber2.28x
+*equate hiltiaplentychamber.p22 hiltiaplentypitch.27
+*equate hiltiaplentychamber.p21 hiltiaplentypitch.21
+*equate hiltiaplentychamber.p13 hiltiaplentypitch.13
+
+*include ulsagrotto
+*equate leedsbypass.10 ulsagrotto.10x
+*equate leedsbypass.9 ulsagrotto.9x
+*equate leedsbypass.16 ulsagrotto.11x
+
+*include sponge_chamber
+*equate sponge_chamber.34x hiltiaplentypitch.34
+
+*include sponge_chamber2
+*equate sponge_chamber2.80x sponge_chamber.80
+*equate sponge_chamber2.79x sponge_chamber.79
+*equate sponge_chamber2.14x hiltiaplentychamber.14 
+*equate sponge_chamber2.28x hiltiaplentychamber.28 
+
+*include bipedalpassage
+*equate bipedal.1 bipedalpassage.1
+
+*include bipedalpassage2
+*equate bipedalpassage.13 bipedalpassage2.13
+
+*include bipedalpassage3
+*equate bipedalpassage3.37 bipedalpassage2.37
+
+*include bipedalpassage4
+*equate bipedalpassage4.9 bipedalpassage.9
+
+*include icecock3
+*equate icecock3.1 icecock2.8
+*equate icecock3.5 northhole.11
+
+*include northhole2
+*equate northhole2.1 northhole.16
+*equate northhole2.8 frozennorth.9
+*equate northhole2.10 frozennorth.19
+
+*include frozennorth4
+*equate frozennorth4.1 frozennorth.17
+
+*include rabbitwarrenstoeinundzwanzig
+*equate rabbitwarrenstoeinundzwanzig.16x rabbitwarrens.16
+*equate rabbitwarrenstoeinundzwanzig.9x  icecock.9
+*equate rabbitwarrenstoeinundzwanzig.5x  icecock2.5
+
+*include gosserwager3
+*equate gosserwager3.1 gosserwager.8
+
+*include bipedalpassage5
+*equate bipedalpassage5.1 bipedalpassage3.1
+
+*include gosserwager4
+*equate gosserwager4.x gosserwager3.11
+
+*include belowhiltiaplenty
+*equate belowhiltiaplenty.p hiltiaplentychamber.28
+
+*include belowhiltiaplenty2
+*equate belowhiltiaplenty.p3 belowhiltiaplenty2.3
+
+*include penguinfellatio
+*equate  penguinfellatio.1 icecock.11
+
+*include voyeur
+*equate voyeur.p3 rabbitwarrenstoeinundzwanzig.3
+
+*include darkartsiv
+
+*include darkartsv
+*equate darkartsv.5 darkartsiii.6
+
+*include darkartsvi
+*equate darkartsvi.10 darkartsv.10
+*equate darkartsvi.5 darkartsiv.5
+
+*include tightyorkshireman
+*equate tightyorkshireman.6 scrottytubeii.8
+
+;2016 surveys
+
+*include swingers
+*equate swingers.6 entrancepitch2.2
+
+*include crushedplumbspitch
+*equate crushedplumbspitch.1 digdug.41
+
+*include tinaturnersmerkin
+*equate tinaturnersmerkin.b20 beyondthunderdome.1
+
+*include underexcitment
+*equate underexcitment.dd digdug.1
+
+*include consolidation
+*equate consolidation.7 bipedalpassage.3
+
+*include oneshotwonder
+*equate oneshotwonder.1-5 frozennorth4.8
+
+*include longdrop
+*equate longdrop.1x farside.65 
+
+*include northern_straight
+*equate northernstraight.X5 pubicsynthesis.5
+
+*include snowhole
+*equate frozennorth.6 snowhole.10
+
+*include roundabout
+*equate roundabout.1 sponge_chamber2.101
+
+*include caving101
+*equate caving101.12x farside.12
+
+*include doublescoop
+*equate doublescoop.50x bipedalpassage4.50
+*equate doublescoop.4x consolidation.4
+
+*include doublescoop2
+*equate doublescoop2.6x consolidation.8
+
+*include fatmanscoop
+*equate fatmanscoop.19x bipedalpassage.19
+
+*include fatmanscoop2
+*equate fatmanscoop2.9x fatmanscoop.9
+
+*include badattitude
+*equate badattitude.102x sponge_chamber2.102 
+*equate badattitude.11 roundabout.27   ; changed from 28
+
+*include lets_be_appalling
+*equate lets_be_appalling.73x sponge_chamber.73
+
+*include cant_stop_bat_country
+*equate lets_be_appalling.12 cant_stop_bat_country.12x
+
+*include watertorture
+* equate watertorture.20 cant_stop_bat_country.20
+
+*include keepsongiving
+*equate keepsongiving.14 cant_stop_bat_country.14
+
+*include hiltigalactica
+*equate hiltigalactica.26 keepsongiving.25
+*equate hiltigalactica.28 keepsongiving.20
+
+*include cathedralchasm2
+*equate cathedralchasm2.42 farside.37
+*equate cathedralchasm2.13 avalancheexperience.13
+
+*include longdrop2
+*equate longdrop2.0 longdrop.20
+
+;2017 surveys
+
+*include sloppyseconds1					; ref 2017#01
+*equate sloppyseconds1.x hiltigalactica.21		; connection station wasn't numbered. We *think* was stn 21 but could have been a station or two before this, no station descriptions in hiltigalactica (Becka & Nathan 27/07/17)
+
+*include galactica					; ref 2017#03
+*equate galactica.112 hiltigalactica.12	
+
+*include sloppyseconds2					; ref 2017#07
+*equate sloppyseconds2.x sloppyseconds1.18		; connection station not 100% certain, is 18, 19 or 20 in sloppyseconds1 (Becka & Nathan 27/07/17)
+
+*include nothingtosee					; ref 2017#12
+*equate nothingtosee.dick8 lets_be_appalling.8
+
+*include the_mendips
+*equate the_mendips.x cathedralchasm2.25
+
+*include mysterious_schlag.svx
+*equate mysterious_schlag.x avalancheexperience.16
+
+*include pointless_dig
+*equate pointless_dig.x cathedralchasm2.38
+
+*include secondwind
+*equate secondwind.38 sloppyseconds1.38
+
+*include secondhand
+*equate secondhand.27 secondwind.27
+
+*include dog_end_series					; ref 2017#42
+*equate dog_end_series.39x sloppyseconds1.39
+
+*include nothing2see			; ref 2017#Missing
+*equate nothing2see.8x nothingtosee.8
+*equate nothing2see.10x nothingtosee.10
+*equate nothing2see.15x nothingtosee.15
+*equate nothing2see.11x nothingtosee.11
+
+*include nothingtosee3
+*equate nothingtosee3.1x nothingtosee.1
+
+*include hilti_nts_bones_pitch
+*equate hilti_nts_bones_pitch.x nothingtosee.2
+
+*include hilti_nts_near_bats
+*equate hilti_nts_near_bats.x nothingtosee3.14  ; we believe this is 14 not 19 as noted on the drawing
+
+*include hilti_nts_near_start
+*equate hilti_nts_near_start.x nothingtosee3.19  
+*equate hilti_nts_near_start.3 nothingtosee3.17  
+
+
+;*include imfunckintired
+;*equate horizontalentrance.2 imfunckintired.x3
+
+;2018 surveys
+
+; all 2018 surveys are part of the lower_balkon subsection
+
+*equate cathedralchasm2.46 lower_balkon.mash.0
+
+;2019 surveys
+
+*include the_backslash.svx
+*equate the_backslash.old18 farside.18
+
+
+*end 264
+

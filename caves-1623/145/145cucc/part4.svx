@@ -1,0 +1,123 @@
+*begin part4
+
+; Locn:	Main plateau, beyond Brauning Sattel, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+; Cave:	Wolfhöhle (1623/145)
+*title "Wolfhöhle, (not quite to bottom, 'cos lights ran out)"
+*date 1984.08.04-1984.08.05
+*team Phil Wigglesworth, Brian Derby
+*instrument CUCC Compass 949847, NPC Clino 918653
+; Calibration:	generic calibration on NPC clino in 1984 - "add 1.0 to get true clino"
+; ref.:	photocopy in AERW's archive of 2 pages of sketches and 3 pages of figures on squared
+;	paper (probably back of 1984 logbook ?)
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0	; RH bolt of Y-shaped belay
+*export 49	; cross marked 1m up wall on RHS after final pitch
+
+*calibrate compass 0
+*calibrate clino -1
+
+	0	1	 1.36	131.	-51.
+	1	2	29.02	-	DOWN
+	2	3	15.25	-	DOWN
+	3	4	 2.73	093.	 00.
+	4	5	 2.37	078.	-19.
+	5	6	16.14	-	DOWN
+	6	7	 6.3	113.	+16.
+	7	8	 1.25	184.	+31.
+	8	9	 4.81	-	DOWN
+	9	10	 5.97	117.	-13.
+	10	11	13.83	-	DOWN
+	11	12	 7.88	183.	-13.
+	12	13	10.62	170.	-78.
+	13	14	13.31	120.	-77.
+	14	15	 8.24	204.	+21.
+	15	16	 7.12	192.	-02.
+	16	17	 6.58	204.	-14.
+	17	18	 0.64	133.	-44.
+	18	19	14.48	-	DOWN
+	19	20	 4.83	059.	-12.
+	20	21	 3.05	314.	+36.
+	21	22	 3.51	002.	-07.
+	22	23	 1.54	031.	-51.
+	23	24	 2.54	141.	-71.
+	24	25	 2.45	309.	-48.
+	25	26	 0.73	059.	-16.
+	26	27	18.06	-	DOWN
+	27	28	 6.12	337.	+05.
+	28	29	 6.49	231.	-28.
+	29	30	 1.56	286.	+10.
+	30	31	 6.65	293.	-43.
+	31	32	 9.66	228.	+02.
+	32	33	 6.59	223.	+02.
+	33	34	 2.75	189.	-08.
+	34	35	 2.68	223.	-24.
+	35	36	 3.30	269.	-17.
+	36	37	 4.15	232.	+27.
+	37	38	 4.42	213.	-27.
+	38	39	 1.96	162.	-67.
+	39	40	 4.43	211.	-27.
+	40	41	 3.86	314.	+08.
+	41	42	13.22	202.	-05.
+	42	43	 7.88	-	DOWN
+	43	44	 2.94	237.	-32.
+	44	45	 9.09	-	DOWN
+	45	46	 3.48	318.	+21.
+	46	47	 5.49	239.	-19.
+	47	48	 6.58	-	DOWN
+	48	49	 3.92	218.	-09.
+
+; station details (no LRUD):
+;	0	RH bolt, top of last pitch of 1983
+;	1	on knot
+;	2	near rebelay
+;	3	on floor
+;	4	on bolt
+;	5	on bolt (after traverse)
+;	6	on floor
+;	7	on flake
+;	8	on bolt (rhs)
+;	9	on ledge
+;	10	on bolt (lhs)
+;	11	ledge
+;	12	on bolt (as sketching is drawn, there is no line of sight 11->12 !)
+;	13	on bolt
+;	14	boulder in floor
+;	15	LHS of rift (Beezley St.)
+;	16	lhs in alcove on traverse
+;	17	rhs on backup flake
+;	18	bolt
+;	19	flake
+;	20	on wall (rhs)
+;	21	lhs in alcove
+;	22	roof flake
+;	23	rh wall
+;	24	pitch head bolt
+;	25	on wall (lhs)
+;	26	bolt (rhs)
+;	27	ledge 1.5m above bottom of pitch, near rhs
+;	28	far wall of pitch 2m off floor
+;	29	on wall, lhs in very high rift
+;	30	pitch head (not at bolt)
+;	31	far wall of pitch 1m above floor
+;	32	rhs wall of rift
+;	33	lhs, 10m high rift
+;	34	lhs
+;	35	lhs at step down
+;	36	lhs at step down
+;	37	rhs at start of large mud covered slab in passage
+;	38	rhs at bend before 2m drop
+;	39	rhs above next 2m drop
+;	40	wall, lhs below drop
+;	41	wall, rhs
+;	42	pitch head (rhs)
+;	43	rebelay at ledge
+;	44	rebelay
+;	45	floor?
+;	46	wall, rhs across puddle
+;	47	bolt at end of traverse (lhs)
+;	48	says bolt, looks like bottom of pitch ? (guess bolts are actually 46 and 47)
+;	49	rh wall 1m off floor
+
+*end part4

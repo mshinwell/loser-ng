@@ -1,0 +1,93 @@
+*begin 96ones
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "96ones"
+*date 2000.07.30
+*team Insts Andy
+*team Notes Wook
+*team Pics Wook
+*team Tape Andy
+*instrument Compass #2 ; Clino #2, Tape Fisco Ranger black open reel
+; Calibration: None
+; ref.:	....
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 6 10 12 15
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	8.68	58.5	-15.5
+2	3	24.37	067		00.5
+4	3	10.92	217		-01
+4	5	8.29	353		+16
+5	6	3.85	037.5	-11
+5	7	11.07	016		+22.5
+7	8	12.02	347		+11
+9	8	20.23	166		-01
+9	10	4.93	197		-14
+9	11	24.00	330		+19
+11	12	13.00	281		-01
+11	13	28.11	321		+15.5
+14	13	29.77	161.5	-21
+14	15	23.27	001		+29
+
+;station details
+;name	H	description
+;1	0	 p224 (96-02) tag bolt
+;2	0.2	 rock on edge of hole
+;3	0	 top of rock ridge
+;4	0	 rock ridge
+;5	0.4	 edge of cave
+;6	0	 p222 (96-04) tag bolt
+;7	0	 rock ridge
+;8	0.2	 plantain tip
+;9	0.2	 rock tip
+;10	0.6	 p223 (96-03) tag bolt
+;11	0.2	 rock tip
+;12	0.8	 p214 (2000-03) tag bolt
+;13	0	 rock ridge
+;14	0	 rock ridge
+;15	1.1	 tip of rock, red spot.
+
+*end 96ones
+
+
+*equate 96ones.15 96ones2.1
+
+*begin 96ones2
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "96ones"
+*date 2000.07.31
+*team Insts Andy
+*team Notes Wook
+*team Pics Wook
+*team Tape Andy
+*instrument Compass #2 ; Clino #2, Tape 2000 grey (Keentools)
+; Calibration: Lower TC: 128,-8  307,+6.5
+; ref.:	....
+
+*export 1 9
+
+1	2	18.63	016		+19
+3	2	25.79	174		-26.5
+3	4	11.72	280.5	+36
+5	4	21.59	131.5	-13
+5	6	30.30	317		+14
+7	6	22.93	149		-20
+7	8	28.96	348.5	+15
+9	8	7.45	166		+01
+
+; stns:
+;1	.7	rock tip - red paint
+;2	.4	rock tip
+;3	.4	propped rock tip
+;4	1.5	ski stick
+;5	0.2	rock on ridge
+;6	1.2	ski stick in grike
+;7	1.0	dead bunde branch
+;8	1.5	ski stick
+;9	0.15	Hinter trig point
+
+*end 96ones2

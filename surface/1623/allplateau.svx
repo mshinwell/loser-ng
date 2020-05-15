@@ -1,0 +1,194 @@
+;1998.04.02 AERW created to include all extant surface surveys on plateau
+
+;=============== Plateau things: ===============
+
+*equate 108surf.1 p108
+*entrance p108
+*equate 108surf.9 Laser.0_6
+*include p108
+
+*equate 2006-06.9 Laser.0_5
+*include bogen
+*equate 2006-06.7 p157
+*equate 2006-06.4 p2006-06
+*equate 2006-06.5 t2006-06
+*entrance p157
+
+*equate P164tag 	164conn.tag ;
+*equate P164rig 	164Surf.bolt 
+*entrance P164rig
+*equate Laser.0_3	164Surf.18
+*include 164surf
+
+*equate 172to171a.1 p172
+*equate 172to171a.9 p171b
+*entrance p171b
+*equate 172to171a.12 t171
+*entrance t171
+*equate 172to171a.7 p250
+*include 172to171a
+
+*equate 182toTC.40	p182 ; not quite actually (sigh)
+*equate 182toTC.1	TopCamp
+*equate 182to184.0	p182
+*equate 182to184.183	p183
+*equate 182to184.11	p184
+*entrance p184
+*equate 182to183.1	p182
+*equate 182to183.10	p183
+*include 182area
+
+*equate 186toTC.1	p186
+*entrance p186
+*equate 186toTC.22	Topcamp
+*include 186totc
+
+*entrance p2006-71
+*entrance p2006-72
+
+*include b4surf
+*equate b4surf.1 colto11.11
+*equate b4surf.4 p1976_B4
+*entrance p1976_B4
+
+*equate colto11.1	ColTip
+*equate colto11.9	Spit7_11	; not Laser.7_11 as this is in error
+;*equate colto11.9	Laser.7_11	; this seems to be off by an angular error
+
+; The laser point 7/11 is fixed by rangefinder/theodolite from point 0/7
+; which is on the B.Nase and appears to be correct. 7/11 seems to be
+; c100m out, but the *distance* from 0/7 seems right, suggesting a bad
+; theodolite reading of the angle between this leg and the fixed one.
+; The angular error is c 25 or 26 degrees
+*include colto11
+
+*include 2006-72_to_spit
+
+*equate Laser.0_4	p145	colto145.0 ; 0/4 MAY be P145, in fact, but I doubt it.
+*equate 145to82.2	p145b
+;(stations 0-7 in 145to82 survey were for a period known as SW34-SW39, so any
+; references to station 35 which may be left around are actually 145to82.2)
+*equate 145to145c.0	p145c
+*equate colto145.33	XONCOL-disconnected ; Poor closure
+;*equate 82to97.106	p76 ; this predates the tag - how close is it?
+*equate 145to82.7	p82
+*entrance p82
+; "Exact point not recorded"
+;*equate 145to107.83	p83
+*entrance p83
+*equate 82to97.83	p85
+*entrance p85
+*equate 82to97.97	p97
+*entrance p97
+;*equate 82to97.99	p99 ; this predates the tag - how close is it?
+*equate 82to97.105	p105
+*entrance p105
+; "Exact point not recorded"
+;*equate 145to107.107	p107
+*entrance p107
+*equate 82to97.148	p148
+*include colto97
+; this 1999 file covers a small section of the above and connects to laser06
+*equate near06.1 Laser.0_6
+;*equate near06.3 p76a ; tag
+;*equate near06.5 p76
+;*equate near06.8 p99 ; tag
+*entrance p99
+*include near06
+*equate near06_2005.1 Laser.0_6
+*equate near06_2005.6 P2004-02
+*entrance P2004-02
+*equate near06_2005.8 P2004-01
+*entrance P2004-01
+*equate near06_2005.4 p2005-91	; DL 2006-06-28 -- this is apparently not
+*entrance p2005-91		; the tag bolt but not too far off it.
+*equate near06_2005_2.1 p99
+*equate near06_2005_2.3 laser.0_6
+*equate near06_2005_2.4 p76b
+*include near06_2005
+*equate 99to2004-01.1 p99
+*equate 99to2004-01.4 p2004-01
+*include 99to2004-01.svx
+*include near06_2006
+
+*include near06_2007
+
+*entrance p2004-08
+
+*include 104surf
+*equate 104surf.1 near06_2005.3
+*equate p104 104surf.4
+*entrance p104
+
+*equate nasetotc.1	Laser.0_7
+*equate nasetotc.14	Topcamp
+*equate nasetotc.12	TCto90.7
+*include nasetotc
+
+*equate TCto90.5	Topcamp
+*equate Topcamp		TC
+*equate TCto90.1	p208
+*equate TCto90.2	p207
+*equate TCto90.11	p90
+*equate 90to94.11	p91
+*equate 90to94.14	p160
+*entrance p160
+*equate 90to94.18	p93
+*entrance p93
+*equate 90to94.21	p94
+*entrance p94
+*equate 90to94bis.1	p90
+*equate 90to94bis.11	p91 ;This comes from a repeated survey, done by accident
+*equate 90to94bis.12	p93
+*equate 90to94bis.14	p160
+*equate 90to94bis.17	p94
+*equate 159toTC.0	t159
+*entrance t159
+*include neartc
+
+*equate TCto171etc.1	P100
+*entrance P100
+*equate TCto171etc.8	TClower
+*equate TCto171etc.12	TC
+*equate TCto171etc.14	B11tag
+*equate TCto171etc.17	P164tag
+*equate TCto171etc.20	t189
+*entrance t189
+*equate TCto171etc.24	t190
+*entrance t190
+*equate TCto171etc.27	B8tag
+*equate TCto171etc.30	t171
+*equate TCto171etc.14	t198
+*entrance t198
+*equate B8to101.27	t101
+*entrance t101
+*equate B8to101.24	t103
+*entrance t103
+*equate 103to173.0	t173
+*entrance t173
+*equate 103to173.10	p1998-X01
+*entrance p1998-X01
+*equate 103toLRH.0	t200
+*entrance t200
+*equate lardysurf.1	t210
+*entrance t210
+*equate not188.4	P226a
+*entrance p226a
+*equate not188.1	P227
+*entrance p227
+*equate ob03.1          P226a
+*equate ob03.3          P226b
+*entrance p226b
+*equate TCto188.2	P188
+*entrance p188
+*include tcto171
+
+*equate TCtoCol.1	TopCamp
+*equate TCtoCol.12	XONCOL
+*equate TCtoCol.13	ColTip
+*include tctocol
+
+*include 36tob4
+
+*include 107-to-2012-70
+*include 157-to-2012-70

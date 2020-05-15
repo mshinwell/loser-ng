@@ -1,0 +1,66 @@
+*begin dog_end_series
+
+; Cave: Balkonhole 264
+; Area in cave/QM: Sloppy Seconds
+*title "Dog End Series"
+*date 2017.08.08
+*team Insts Becka Lawson
+*team Notes Rob Watson
+
+*instrument Becka's Distox2
+; Calibration: UK
+*ref 2017#42
+
+*export 39x 6 9
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+1	2	7.20	224	-52
+3	1	7.93	139.5	-36
+3	4	8.15	259	+56
+5	1	5.67	324	-57
+6	5	3.36	062	-40
+6	7	1.17	125	0
+7	8	5.51	178	-76
+8	9	6.36	264	-71
+10	6	5.47	202	-67.5
+11	10	1.10	256	-33
+12	11	4.77	188	-70
+12	39x	2.20	342	+57.5
+
+;----------
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	-	-	18	2
+2	0.5	0.5	0.5	0.5
+3	0.5	0	2.5	1.3
+4	0.5	0.5	0.5	0.5
+5	0	1.4	2	5
+6	2	2	5	0
+7	-	-	-	-
+8	0	2	15	4
+9	1.5	0.3	4	7
+10	0	0.6	0.3	0.6
+11	0.5	0	15	0
+12	1.5	1	6	1
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    A    dog_end_series.9    -    wet muddy draughting pitch series continuing from station 9 onwards
+;QM2    C    dog_end_series.4    -    muddy tube from station 4 ramp, shit
+
+;------------
+;Cave description  
+;
+
+*end dog_end_series

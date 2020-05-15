@@ -1,0 +1,26 @@
+*begin rhinorift3
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Rhino Rift 3"
+*date 2003.07.29
+*team Insts Tony Rooke
+*team Notes Julian Todd
+
+*instrument set 1
+
+; ref 2003 #20
+
+; Calibration: stone bridge: 322.5/-22 323/-22.5 323/-22.5
+;                            146.5/+22 146/+22.5 147/+22
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 13 T2
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+13	T2	6.65	198	+01
+
+*end rhinorift3
+

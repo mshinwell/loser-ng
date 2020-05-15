@@ -1,0 +1,35 @@
+;Eislufthoehle 1623/76
+
+*begin bent
+
+*title "76b entrance"
+*date 2004.07.18
+*team Insts Olly Betts
+*team Notes Jenny Black
+*team Pics Jenny Black
+*team Tape Olly Betts
+*instrument Compass 3 ; Clino 3
+; notes in 2004 #4
+
+*export 1 8
+
+2	1	4.57	234.5	+16
+2	3	6.11	228	-25.5
+3	4	3.13	232	+32
+4	5	2.17	201	-19
+5	6	1.02	-	down
+6	7	2.60	191	+06
+7	8	4.51	182.5	-28
+
+*data passage station left right up down ignoreall
+
+;1       -       -       -       -       76b tag bolt 
+;2       -       -       -       -       ol
+3       0.5     0       0.8     0.7     point on right
+4       0.5     0       0.3     0.7     point at top of climb
+;5       -       -       -       -       point on roof above crawl
+6       0.6     0.8     1.02    0.24    ol
+7       0.5     0       0.7     0.8     point on right wall
+8       -       -       -       -       bolt at top of Y
+
+*end bent

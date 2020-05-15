@@ -1,0 +1,51 @@
+*begin pussyriot
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Pussy Riot"
+*date 2012.08.07
+*team Insts Anthony Day
+*team Notes Wookey
+*instrument Wookeys DistoX 
+; Calibration: 326.2 -23.4 5.91; 327.3 -23.7 5.91; 145.7 23.2; 145.1 23.2 
+; ref.:	2012#07
+
+; ====== stations refindable to link to other surveys: ======
+*export 14 22 25
+
+*calibrate tape 	0; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+14	15	4.199	116.6	-02.3
+16	15	3.489	260.2	+52.1
+16	17	6.423	303.3	-30.8
+16	18	6.184	082.8	+05.6 ;from was 17 in notes
+18	19	0.674	068.9	-32.7
+19	20	4.406	185.7	+22.2
+19	21	3.292	032.4	-10.0
+22	21	2.516	262.7	-09.5
+22	23	7.622	298.0	-06.1
+24	23	1.272	141.8	-15.5
+26	25	19.961	308.4	+34.9
+26	24	5.009	121.7	-10.8
+*flags splay
+26	27	6.186	261.0	+18.7
+*flags not splay
+
+*data passage station	left	right	up	down	ignoreall
+14	0.8	.6	1.9	1.4	RP last station catgut survey
+15	.7	0	.3	1.3	Down could also be 5.2.  Pitch head bolt RH wall
+16	1.3	0.3	.9	1.0	RP RH wall in window
+17	-	-	-	-	Virtual station end on choked bit
+18	0.2	1.1	1.1	0.9	Blue point (BP) LHW @ corner
+19	-	-	-	-	Spike near 18
+20	.3	.3	0	1	Top of arch at lead
+21	0	0.8	1.4	0.1	UP is 0.4 and 1.4. LHW RP
+22	-	-	-	-	J and E station RP roof pendant.  
+23	0	-	1.3	0.2	BP LHW
+24	0.8	1.2	1.4	0.8	RP corner of boulder
+25	-	-	-	-	Station 14 on fat cat survey (part way up pitch)
+26	1.7	2.7	4.5	1.5	RP boulder tip
+27	-	-	-	-	Unmarked rock
+
+*end pussyriot

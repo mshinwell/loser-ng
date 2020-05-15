@@ -1,0 +1,113 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau
+; Area: Plateau
+; Cave:	Fisch Gesicht Hoehle. (FGH, Fishface) 1623/2017_cucc_28
+; See gps17.svx for GPS coordinates
+
+*entrance p2017_cucc_28
+*equate p2017_cucc_28     2017_cucc_28.blower.tag
+
+*begin 2017_cucc_28
+
+*export blower.tag blower.gps
+
+*include blower
+
+*include entranceseries
+*equate entranceseries.A1 blower.tag
+
+*include windytube
+*equate entranceseries.A7 windytube.A7
+
+; this survey has been removed as very poor notes and it appears to be a short loop in section of cave that is already drawn up
+;*include fishface2
+;*equate fishface2.B6 windytube.B6
+
+*include 12monkeys
+*equate windytube.B3 12monkeys.3x
+*equate windytube.B4 12monkeys.4x
+
+; this survey contains two unjoined parts so it was split up
+;*include fishface1
+;*equate fishface1.B5 windytube.B5
+;*equate fishface1.B6 windytube.B6
+;*equate fishface1.21X 12monkeys.21
+;*equate fishface1.X fishface2.1
+
+*include fishface1-part1
+*equate fishface1-part1.B5 windytube.B5
+*equate fishface1-part1.B6 windytube.B6
+
+*include fishface1-part2
+*equate fishface1-part2.21X 12monkeys.21
+
+*include icytube
+*equate fishface1-part1.14 icytube.14x
+
+*include canyon
+*equate icytube.7 canyon.7
+
+;2018 surveys
+*include blitzen_to_liquidluck
+*equate canyon.C14 blitzen_to_LiquidLuck.14c
+
+*include freeatticflys
+*equate blitzen_to_LiquidLuck.24 FreeAttic_Flys.24
+
+*include ulysses_to_toto
+*equate FreeAttic_Flys.3TT Ulysses_to_Toto.20
+
+*include toto_to_crystalcrumble
+*equate toto_to_crystalcrumble.1 FreeAttic_Flys.4TT
+
+*include ulysses_to_colericchamber
+*equate ulysses_to_colericchamber.1x ulysses_to_toto.1
+*equate toto_to_crystalcrumble.1 FreeAttic_Flys.4TT
+
+*include rubblerumble
+*equate rubblerumble.5x Ulysses_to_Toto.5
+
+*include rubblerumble3
+*equate rubblerumble.1 rubblerumble3.1
+
+*include rubblerumble2
+*equate rubblerumble2.0 rubblerumble3.8
+
+*include kublakhan
+*equate kublakhan.1 rubblerumble2.1
+
+*include miraclemaze1
+*equate kublakhan.24 miraclemaze1.24a
+; we did the connection twice
+*equate kublakhan.26b miraclemaze1.26
+*equate kublakhan.22 miraclemaze1.22X
+
+*include coconutchamber1
+*equate coconutchamber1.48x miraclemaze1.48
+
+*include bigbastard
+*equate bigbastard.5x kublakhan.5
+
+*include miraclemaze2
+*equate miraclemaze2.23 miraclemaze1.23
+*equate kublakhan.8 miraclemaze2.8a
+
+*include coconutchamber2
+*equate coconutchamber2.1d coconutchamber1.1
+*equate miraclemaze1.48 coconutchamber2.48b
+
+*include coconutchamber3
+*equate coconutchamber3.1d coconutchamber1.1
+
+*include gardeningschl
+*equate gardeningschool.1 12monkeys.3
+*equate gardeningschool.13 12monkeys.8
+*equate gardeningschool.5 12monkeys.15
+*equate gardeningschool.6 12monkeys.16
+*equate gardeningschool.7 12monkeys.17
+
+*include pushderig
+*equate kublakhan.35 pushderig.35
+
+*end 2017_cucc_28
+
+

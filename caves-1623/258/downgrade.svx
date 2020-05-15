@@ -1,0 +1,77 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	258 "Tunnockschacht"
+
+*begin downgrade
+
+;ref.:	2013 #19
+
+*export 3old
+*export 8 20
+
+*title "Downgrade"
+*date 2013.08.11
+*team Insts Cameron Bullen / Pete Talling
+*team Notes Fleur Loveridge / Pete Talling
+*team Tape Cameron Bullen / Pete Talling
+;Comp & Clino = Expo
+;Tape = expo
+
+*calibrate tape 0.4	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino ignoreall
+
+;from	to	tape	compass	clino	remarks
+3old	1	2.38	260	20	station 1 is bolt
+1	2	6.48	0	-90
+2	3	2.09	113	-18	station 3 is rebelay knot
+3	4	5.35	0	-90	
+4	5	2.41	149	8
+5	6	11.48	210	-8
+6	7	4.78	238	-35
+7	8	4.63	201	-26
+8	9	3.08	198	-13
+9	10	4.12	217	-38	station 10 is yhang knot
+10	11	7.90	0	-90
+11	12	8.05	128	-37
+12	13	5.50	097	-28
+13	14	10.97	124	-20
+11	15	1.82	270	-22	station 15 is yhang knot
+15	16	17.10	0	-90
+16	17	4.68	089	-10
+16	18	3.59	208	10
+18	19	3.25	187	3	station 19 is righthand most bolt in rift
+19	20	5.68	0	-90
+20	21	3.47	010	-22	station 21 is obvious black spike 1m high by side inlet
+20	22	11	0	-90	
+
+
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+1	0	3	1	6.5	bolt
+2	1	0	6.5	0.3
+3	0.1	0.5	0.3	5.4	rebelay knot
+4	4	0	5.4	0.2	rock on floor
+5	2	2	1.5	0.2
+6	1.5	1	0	1.5	ceiling
+7	4	0.3	0	1	ceiling
+8	1	2	0	1	ceiling
+9	0	4.5	0.5	1	LH wall on traverse
+10	5	4	4	30	yhang knot
+11	0	2	15	20	on wall near rebelay / entry of side rift
+12	3	0	10	1.5	RH wall in meander
+13	0	3	10	3	LH wall near pitch head
+14	0	1.5	4	1.5	LH wall
+15	1.5	1.5	15	20	Yhang knot	
+16	2	3	35	1.5	rib of rock near base of pitch
+17	0	4	3	1.5	LH wall
+18	0	1	5	1.5	RH wall at start of meander
+19	0	0.3	3	6	right hand of two bolts at pitch head
+20	2.5	1	5.7	4
+21	3	0.5	5	1
+22	7	1	20	0
+
+
+*end  downgrade
+
+

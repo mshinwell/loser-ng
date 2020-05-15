@@ -1,0 +1,45 @@
+;1998.08.16 TVB created
+
+*begin Overflow
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Kaninchenhöhle, 1623/161
+*title "Overflow"
+*date 1998.07.16
+*team Insts Tim V-B
+*team Notes Kate J
+*team Pics Kate J
+*team Tape Earl M
+*instrument Compass set 2 ; Clino set2
+; Calibration:	
+; ref.:	1998 KH survey book pp - 56-58
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0	;S38, X scratched on rock in Triassic Park 
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	0	12.9	120	+15	; S38, scratched rock in Triassic
+1	2	1.00	030	-85	
+2	3	11.42	-	down	
+4	3	1.20	060	-15
+4	5	4.80	180	0
+5	6	12.30	-	down
+
+
+;station details
+;name	L	R	U	D	E	description
+;S38	4.7	3.2	1.8	0.7		X scratched on rock
+;1	0.5	4.5	lots	?		corner of rock nr pitch head
+;	N	S	E	W
+;2	5	1	0	1		pitch head bolt
+;3	2	1	2.4	1.2
+;4	3	2	.25	1.5		corner of chock stone in rift
+;	L	R	U	D
+;5	.25	.25	?	?		point in space
+;	N	S	E	W
+;6	0	2.5	1	0.5		bottom of 2nd pitch
+
+*end Overflow

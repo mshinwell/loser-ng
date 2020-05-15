@@ -1,0 +1,29 @@
+*equate 2005-01.11 p2005-01
+
+*begin 2005-01
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2005-01
+*title "2005-01"
+*date 2005.07.27
+*team Insts Mark Shinwell
+*team Tape Emma Wilson
+*team Notes Mark Shinwell
+
+; instrument set 3
+
+*export 11
+
+2   1   5.60    308     +13
+2   3   7.73    060     -02
+3   4   7.99    007     +19
+4   5   3.23    342     +03
+5   6   5.17    287     +25
+6   7   3.19    210     +28
+7   8   0.36    -       down
+8   9   6.42    146     +35
+10  9   11.81   10      -40
+11  10  8.80    121     -29
+
+*end 2005-01
+

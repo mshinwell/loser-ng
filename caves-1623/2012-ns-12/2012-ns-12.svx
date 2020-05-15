@@ -1,0 +1,19 @@
+*equate p2012-ns-12 2012-ns-12.GPS
+
+
+*begin 2012-ns-12
+
+; *title ""
+*date 2012.08.16
+*team Insts Noel Snape
+*team Notes Noel Snape
+
+*export GPS
+
+*data normal from to tape	compass clino
+
+GPS	1	15	-	down
+
+
+
+*end 2012-ns-12

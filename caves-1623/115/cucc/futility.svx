@@ -1,0 +1,51 @@
+; Schnellzughöhle Weiterweg vom GP0
+
+; Date :
+; Calib: none
+; Inst :
+; Tape :
+; Notes:
+
+*equate Futility.0 115Ent.GP0
+*begin Futility
+*DATA normal from to length bearing gradient ignoreall
+;CHANGE               0.0   0.0      Chas/Phil 1983. Futility series
+    0    1  8.08 320.  -11.5 ; 0 drilled in 'Enry.  1 end of rope
+    2    0 10.81 267.  -26.5 ; 2 Back wall above food dump
+    2    3  1.8    -    Down ; Recess in Big Chamber
+    4    0  8.34  92.5  31.5 ; 4 above start of Purgatory
+    6    0 11.5   98.5  -1.5
+    6    7 22.14 245.  -10.
+    8    7 15.8  354.  -11.
+    9    8 30.56  45.   -6.
+   10    9 11.83  29.5 -14.
+   11   10  7.34 354.5   2.5 ; 11 - Junction with hole in floor
+   12   11 21.58 313.5 -18.5 ; 12-15 in Pebble Beach Chamber
+   13   12  7.7  191.5  -5.5 ; 13 high on wall, P.B. Cha.
+   14   13 10.85 352.   10.
+   15   14  4.    10.   -3.
+   16   15  7.15 321.  -47.5
+   17   16  4.85 327.   -5.  ; 17 in small chamber
+   18   17  6.73 313.  -34.
+   19   18  4.08 321.  -31.5 ; 19 on false floor in Big Enough Cha.
+   20   19  6.05 358.   -4.  ; 20 in middle
+   21   20 13.5  144.    5.5 ; 21 - choke
+   22   20 16.31 282.  -11.  ; 22 - mud slope. 1m high. CORRECTED !
+   23   22 11.26 229.5  -5.  ; 23 by hole
+   24   23  6.12 313.   -1.  ; 24 under rock arch from 23
+   25   24  3.38 310.  -38.
+   25   26  8.78 151.5  21.5
+   27   26 13.34 313.  -18.
+   27   28  5.51 103.   34.5 ; 28 just in dripping chamber
+   29   28  5.11 261.  -18.5 ; 29 up streamway
+   29   30 10.59  36.   17.5 ; 30 in choke of perched boulders
+   20   33  5.50 184.    0.  ; 20-33-32-31 grade 2
+   33   32  6.8  283.  -28.
+   31   32 31.5   45.    6.  ; 31 beds out over mud. easy dig. wind.
+    8   35 15.65 235.    2.5
+   35   36 19.31 130.5  24.
+   36   37 11.23 129.   33.  ; 37 top of aven/ramp
+   41    0  8.84 218.5 -28.
+   40    0 10.20 170.  -10.  ; 40 up Big Chamber inlet.
+*end Futility
+

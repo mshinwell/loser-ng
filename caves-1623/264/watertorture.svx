@@ -1,0 +1,50 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2005-5 "Balcony Hohle"
+; Area in cave: Hilti-a-plenty
+
+*begin watertorture
+;
+*export	20
+
+*title "water torture"
+*date 2016.07.18
+*team instruments Peter Talling
+*team book Aiden
+
+*ref 2016#40
+
+;from	to	tape	compass	clino	remarks
+20	21	5.98	096	+28
+21	22	5.81	148	+32
+22	23	8.02	072	+33
+23	24	9.08	003	+13	
+;
+;
+;
+;
+*data passage station left right up down ignoreall
+21	0	2	0.6	0.9
+22	2.1	0	0.5	0.8
+23	3	0	0.5	0.8
+24	0.3	0.2	0.2	0
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    C    watertorture.23    -    tube in floor on right allows squirm down to small stream in narrow rift that is too tight for more progress without lump hammer.
+
+;Cave Description
+;started at t junction and followed the steeply uphill branch past a couple of easy climbs up. Sound of water in tight rift that pete descended for 10m past 
+;narrow hole. he reached a small stream in tight rift but could not make further progress. Looks like rift widens out 5m away but would need lump hammer and 
+;thin person. drafts well. thin may be same water heard at base of nearby pitch to reach this point. main uphill phreatic tube chokes with mud.    
+;
+
+
+*end watertorture
+

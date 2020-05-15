@@ -1,0 +1,35 @@
+*equate 2004-01.1 p2004-01
+*entrance p2004-01
+
+*begin 2004-01
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "2004-01"
+*date 2006.07.20
+*team Insts Jenny Black
+*team Notes Olly Betts
+*team Disto Jenny Black
+; ref.:	2006 #6
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino
+1	2	0.72	-	down ; used tape measure for plumb
+3	2	11.050	063	+16
+3	4	3.136	171.5	+16.5
+
+*data nosurvey from to
+4	2
+
+;stn	L	R	U	D	Desc
+*data passage station left right up down ignoreall
+1	-	-	-	-	Tag bolt
+2	1.927	2.277	0.52	0.89	Ol's nose
+3	-	-	1.131	0.592	NP tip of boulder
+4	-	0	0.519	1.892	dev hanger for tarp
+
+*end 2004-01

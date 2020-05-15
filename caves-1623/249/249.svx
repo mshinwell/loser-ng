@@ -1,0 +1,47 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Artischockehoehle
+
+*entrance p249
+*equate 249.8 p249 ; temporary
+
+*begin 249
+
+*title "Artischockehoehle"
+*date 2002.08.03
+*team Insts Duncan Collis
+*team Notes Mark Shinwell
+*team Tape Mark Shinwell
+*instrument Tape Fisco Ranger open reel
+
+; Calibration: none
+; ref.:	2002#32
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 8
+
+*calibrate tape +0.60
+
+;from	to	tape	compass	clino	; remarks
+1   2   9.23    062     -02
+3   2   8.10    132.5   -14
+3   4   7.66    029     +02		; reversed in notes, judging by sketch (and by common sense)
+5   4   17.40   160     +16.5
+5   6   10.02   022     +04             ; reversed in notes
+7   6   5.91    198     +30
+7   8   9.53    333     +01
+
+;station details
+;LRUDs in the direction of the leg where station first occurs
+;name	L	R	U	D	description
+;1      2       1       -       0.7     Dunks with head on wall
+;2      0       0.5     0       0.6     pt on wall
+;3      2.5     3       4       0.2     Dunks' nose
+;4      0       1.5     0       2       pt on wall
+;5      3       0.5     3.5     0       pt on rock on floor
+;6      0.5     2       0       2       pt on ceiling
+;7      1       2.2     1       0.2     Duncan's nose
+;8      1       1       0.7     0       pt on rock below drip line
+
+*end 249
+

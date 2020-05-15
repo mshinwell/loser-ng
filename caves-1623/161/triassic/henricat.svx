@@ -1,0 +1,116 @@
+;1998.03.26 AERW sort begin/end, add comments, refs, *calib clino
+
+*begin henricat
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Henri's Cat"
+
+; ====== stations refindable to link to other surveys: ======
+
+*export pt1.87	; second bolt 's15' at head of 80m pitch
+
+; ====== links between surveys making up the HenriCat survey: ======
+
+*equate pt1.60	pt2.4
+
+*begin pt1
+
+*title "Henri's Cat part 1"
+*team Insts Becca
+*team Notes Julian T
+*team Pics Julian T
+*team Tape Becca
+*date 1996.7.17 ; - trip 1996-161-23 in logbook
+*instrument Set 2
+; Calibration:	At 161d
+;	A->B	214 8
+;	B->A	032 -8
+;
+; Ref.:	1996 KH survey book pp 118-119 (calib. from p 116)
+
+; Julian felt like starting at a stupid number, to try and get pt 80
+; at bottom of 80m pitch, but in fact pt82 is there :-)
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 60	; cm on wall of white ledge above final hang
+*export 87	; second bolt 's15' at head of 80m pitch
+
+*calibrate clino 0
+*calibrate tape  0
+
+;From	to	Tape	Compass	Clino 
+61	60	 5.99	- 	down
+62	61	 5.82	227	-38
+63	62	 6.35	318	-68
+64	63	 6.26	326	-52
+65	64	 1.40	340	0
+66	65	31.50	-	down ;tape 29.7 + Becca Heights
+66	67	 5.75	335	+66
+67	68	 2.5	328	0
+68	69	23.8	328	83.97 ; clino by trig given 69 below 67
+69	82	17.5	208	22
+80	82	16.68	-	down
+80	83	10.65	218	+76
+84	83	 9.30	-	down
+84	85	23.7	230	+77
+86	85	17.58	-	down
+86	87	 3.7	127	+59
+
+;station	desc. (no LRUD in survey book)
+; 60 cm on wall of white ledge
+; 61 pitch head bolt
+; 62 cm on wall
+; 63 cm on edge of floor
+; 64 cm on edge of floor
+; 65 plumb point of pitch rope
+; 66 deviation krab
+; 67 rub point on edge of complicated ledge
+; 68 cm on wall of complicated ledge
+; 69 pitch head bolt
+; 82 0.93m above floor of Catshit
+; 80 deviation
+; 83 rebelay bolt
+; 84 mother of all deviations
+; 85 rebelay bolt
+; 86 rebelay bolt
+
+*end pt1
+
+*begin pt2
+
+*title "Last pitch in Henri's Cat"
+*team Insts Dave Fearon
+*team Notes Becka Lawson
+*team Pics Becka Lawson
+*team Tape Dave Fearon
+*date 1996.07.18 ; trip 1996-161-29 in logbook
+*instrument Set 2
+; Calibration:	At 161d
+;	A->B	213, +07
+;	B->A	032, -10 ** says -08 in survey book, AERW 98.03.26 **
+;
+; Ref.:	1996 KH survey book p 119
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 4	; cm on wall of white ledge above final hang
+
+; assuming survey book is correct figure:
+*calibrate clino -0.5
+*calibrate tape   0
+
+1	2	52.35	-	UP
+3	2	4.45	271	-47
+3	4	4.51	031	+29
+
+;station	desc. (no LRUD in survey book)
+; 1	Bottom of pitch
+; 2	near bolt, head of pitch
+; 3	CM on shelf
+; 4	last point of last survey (corresponds to point 60)
+
+*end pt2
+
+*end henricat

@@ -1,0 +1,49 @@
+*equate room.20 regurg.5
+*equate room.21 regurg.2
+
+*begin room
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Kaninchenhöhle, 1623/161
+*title "room [Roomination Rifts]"
+*date 2000.07.30
+*team Insts Becka
+*team Notes Mike TA
+*team Pics Mike TA
+*team Tape Becka
+*instrument Compass #4 ; Clino #4, Tape: No idea.
+; Calibration: somewhere
+; ref.:	2000#11
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 20 21
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	1.71	283		-16
+2	3	3.71	088		+26
+4	3	4.56	229		-42
+4	5	5.55	039		+01
+6	5	1.65	251		+04
+7	6	1.41	286		-08
+7	8	2.51	006		-16
+8	9	1.77	353		+48
+9	10	1.71	025		+03
+10	11	5.59	037		-04
+12	11	4.77	196		+02
+13	12	2.23	272		-42
+13	14	5.68	034		+26
+14	15	4.74	072		+72
+15	16	2.89	108		+34
+16	17	2.48	148		+12
+18	17	2.18	252		-47
+18	19	4.01	103		+01
+20	19	5.97	021		-24
+21	19	11.43	297		-24
+
+;station details
+;name	L	R	U	D	E	description
+
+*end room

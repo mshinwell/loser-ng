@@ -1,0 +1,40 @@
+*equate 36tob4.1	p36
+*entrance p36
+*equate 36tob4.5	p75
+*entrance p75
+*equate 36tob4.6	p1976_b4
+*entrance p1976_b4
+*equate 36tob4.9	pwk12
+*entrance pwk12
+
+*begin 36tob4
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 	Surface
+*title "Surface survey linking 36, etc to B4"
+*date 2006.08.09
+*team Insts Jenny
+*team Tape Jenny
+*team Notes Olly
+*instrument Ours, CUCC tape (prob. 50m red open reel)
+; notes in 2006 #36
+
+; Calibration:	none
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; middle of '36' red paint
+*export 5	; site for P75 tag
+*export 6	; B4 tag
+*export 9	; 2005-89 tag (now set!) [notes incorrectly say 2005-98]
+
+2	1	5.95	343	+08
+2	3	17.52	142	-06.5
+3	4	8.465	175	-04 ; tape 8.48 - 0.015
+4	5	1.50	-	down
+3	6	19.77	094	-06
+3	7	30.98	044	+08
+7	8	40.54	014	+11
+8	9	0.60	-	down
+
+*end 36tob4

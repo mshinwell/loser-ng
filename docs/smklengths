@@ -1,0 +1,7 @@
+#!/bin/sh 
+
+for cave in 32 40 41 78 87 88 115 142 143 144 158 107 136 161 204 216 258 264
+do 
+  echo -n "$cave:"
+  cavern -o /tmp ../caves-1623/${cave}/${cave}.svx | grep -o "(.*m adjusted)\|Vertical range = [.[:digit:]]*m "
+done

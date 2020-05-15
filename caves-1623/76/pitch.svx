@@ -1,0 +1,30 @@
+;Eislufthoehle 1623/76
+
+*begin pitch
+
+*title "Brave New World Pitch"
+*date 2004.08.04
+*team Insts Jenny Black
+*team Notes Olly Betts
+*team Tape Jenny Black
+*instrument Compass 3 ; Clino 3
+; notes in 2004 #49
+
+*export 13
+
+*calibrate tape +1.00
+
+1	2	12.46	036	+48
+2	3	5.72	038	+32
+4	5	5.16	254	+27
+5	6	2.66	088	+13
+6	7	6.98	-	up
+7	8	11.55	001	+51
+8	9	12.73	-	up
+3	9	8.40	042	-32
+3	10	2.83	018	+02.5
+11	12	13.62	-	up
+11	10	1.82	155	-22
+12	13	8.44	235	+57
+
+*end pitch

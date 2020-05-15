@@ -1,0 +1,15 @@
+;Stellerweghöhle, 1623/41
+;Eingang (142) to Big Chamber 
+;Connections between 142 and 41
+
+;*fix p142		35770.6528	81210.3193	1613.4832
+
+*equate 142.45   	p142
+
+*equate 142.22_3 41.verhall.22_3 
+*equate 142.9    41.verhall.eingang_9 
+*equate 142.10g  41.verhall.21
+*equate 142.21   41.blakwite.0
+*equate 142.23   41.blakwite.10
+*equate 142.25   41.stream.0
+

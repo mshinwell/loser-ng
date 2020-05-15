@@ -1,0 +1,38 @@
+;Eislufthoehle 1623/76
+
+*begin lovers
+
+*title "Lovers' leap"
+*date 2004.07.22
+*team Insts Jenny Black
+*team Notes Olly Betts
+*team Tape Jenny Black
+*instrument Compass 5 ; Clino 3
+; notes in 2004 #7
+
+*export 10
+
+2	1	6.28	-	down
+3	2	1.56	017	-10
+3	4	3.13	235	+36
+4	5	1.66	276	+10
+6	5	1.35	164	-30
+6	7	6.16	-	up
+8	7	2.83	001	-05
+8	9	1.38	-	down
+10	9	3.305	005	-08
+
+*data passage station left right up down ignoreall
+
+1       -       -       -       -       end of tape
+2       0.4     0       1.5     6.5     NP RHW
+3       0.45    0       2       5.8     NP RHW
+4       0       0.5     6       4       NP LHW
+5       0.1     0.45    10.5    4       
+6       0.65    0.4     9       4       Jenny on rope
+7       0.2     0.5     3       -       rope extended to right hand upper hang bolt
+8       0.3     0.45    3       1.75    Jenny's eye
+;9       -       -       -       -       floor temp cairn       
+10      -       -       -       -       == station brave.26
+
+*end lovers

@@ -1,0 +1,84 @@
+;1998.02.27 AERW split into parts for each survey, restored original numbering
+;		 sorted begin/end. There are some LRUD in book - not added yet.
+
+
+*begin PitPend
+
+*export pt2.5
+
+; ====== links between surveys making up the PitPend survey: ======
+
+*equate pt2.1	pt1.08
+*equate pt1.02	pt3.02
+
+
+*begin pt1
+
+; Cave: Kaninchenhöhle
+*title "Pit & Pendulum connection to RH route survey"
+*date 1990.07.14 ; trip 1990-161-4 in 1990 logbook
+*team Notes David H
+*instrument Julian
+*instrument Comp 949847, Clino 716221
+; Calibration:	Cairn ? Comp 015,013,014
+;			Clino +17,+17;-17,-17
+
+; ref.:	1990 survey book pp 8-10
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 02	; bolt at pitch head on floor of rift
+*export 08	; carbide mark at head of 25.5m pitch, LH (NW) side of Boulder Alley
+
+*calibrate compass 0
+*calibrate clino 0
+;readings grade 5
+02      01       6.65   050     +45
+02      03       7.40   257     -02
+04      03       5.80   046     -48
+04      05       8.85   260     +74
+06      05       5.36   072     -27
+06      07       2.90   020     -46
+08      07      25.50   -       down
+
+*end pt1
+
+*begin pt2
+; ref.:	1990 survey book p10 - apparently a different date ?
+; Olly: I can find no mention of a second survey.  The 1990.07.14 trip report
+; says they "surveyed & derigged out", but this survey links from where the
+; first joins boulder alley to a refindable point nearby so it's quite plausible
+; that it was a later date...
+*date 1990.07.14
+
+*export 1	; carbide mark at head of 25.5m pitch, LH (NW) side of Boulder Alley
+*export 5	; 3rd bolt of Knossus 1990 traverse (equated to the pre-1990
+; natural before the first 1989 bolt - perhaps dubious ? AW 98.04.01)
+
+ 2       1       8.47   227     -04
+ 2       3       9.86   031     -22.5
+ 3       4       3.16   357     -45 ; 1st bolt of Knossus 1990 traverse
+ 3       5      12.66   041     -45 ; rh.55 
+
+*end pt2
+
+*begin pt3
+;readings grade 2 - figures invented by Olly from grade 2 drawing on 1990p8
+; ref.:	1990 survey book p 96
+*date 1990.07.14
+
+*export 02	; bolt at pitch head on floor of rift
+
+02      12      26.9    -       down
+12      13       1.0    100     00
+14      13       3.0    200     00
+14      15       1.0    160     00
+16      15       2.0    200     00
+16      17       3.0    -       down
+17      18       1.5    090     00
+18      19       3.0    -       down
+19      20       4.0    100     00
+
+*end pt3
+;readings grade 5
+*end PitPend

@@ -1,0 +1,148 @@
+*begin couldashouldawoulda_to_bathdodgersbypass
+
+; stations linked into other surveys (or likely to)
+*export 1 ;2.6 2.8 2.5
+
+; Cave: Happy Butterfly
+; Area in cave/QM: couldashouldawoulda_to_bathdodgersbypass
+*title "couldashouldawoulda_to_bathdodgersbypass"
+*date 2019.07.19
+*team Insts Dickon Morris
+*team Notes Michael Holliday
+*instrument DistoX
+*ref 2019#05 ;with one plan in 2019#06
+
+; Centreline data
+;In notes, 102 -> 1.2 etc.
+*data normal from to length bearing gradient ignoreall
+ 1	102	5.80	075.6	+0.9 
+ 102   	103	4.28	134.5	-9.5 
+ 103	104	5.09	077.4	-47.8
+ 105	103	18.01	196.0	+73.5	
+ 105	106	6.26	182.9	-18.4
+ 105	107	3.20	332.5	-6.4
+ 107	108	1.83	038.7	-7.3
+ 108	109	4.73	337.3	-58.0
+ 1095	109	10.08	142.3	+6.1
+ 2	1095	21.78	152.6	+76.8
+ 2	201	12.03	332.6	-56.0
+ 201	202	7.22	090.1	+17.7
+ 201	203	8.79	139.1	+31.0
+ 203	204	6.30	183.5	-4.5
+ 204	205	3.57	211.7	-4.1
+ 204	206	4.52	303.2	-19.3
+ 2	207	3.79	048.0	+0.3
+ 207	208	7.44	103.4	+14.9
+ 205	3	10.55	145.5	-59.0
+ 3	301	1.02	143.8	-8.2
+ 301	302	3.48	157.3	+27.6
+ 302	303	2.18	202.4	+47.4
+ 303	304	3.59	230.6	-17.8
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall, looking into cave)
+;Station Left Right Up Down Description
+;Pink nail varnish markings
+;1	2.5	0	5	1.5	;NP pt1 on connector survey
+;102	0	1.5	2	1	;NP on LHW
+;103	2.5	0	10	2	;NP on RHW
+;104	0	1.5	0.5	1	;NP on LHW of rocks between shafts
+;105	0.75	1	20	0	;NP on large rock on floor of shaft
+;106	0	2	2	1	;NP on LHW of drippy boulder choke
+;107	0	0.75	10	4	;NP on LHW into bathdogersbypass
+;108	1	0	12	3.5	;NP on RHW into bathdogersbypass
+;109	1	0	10	6	;NP on RHW into bathdogersbypass
+;1095	0.8	0.5	22	21	;NP on large rock perched at edge of drop
+;2	1.25	7.0	50	11	;NP on caravan-sized suspended boulder
+;201	2.3	4.0	50	11	;NP on large boulder in corner	
+;202	1.5	1.5	2	1	;NP on large boulder under rock	
+;203	3.3	1.8	1	2	;NP on boulder under caravan-sized suspended boulder
+;204	0	2.3	1.2	3.3	;NP on LHW under caravan-sized suspended boulder
+;205	5	2.5	7	9	;NP on jutting bit of rick at pitch head
+;206	0	1	3	1	;NP on LHW of meander
+;207	3.6	7.7	5.6	0	;NP on large suspended boulder
+;208	1	5	25	0	;NP on large boulder in scree slope
+;3	0	6.8	8	2	;NP on LHW of meander from pitch
+;301	0.5	0	8	2	;NP on RHW of meander
+;302	0.7	0	0.5	7	;NP on RHW of meander
+;303	0	0.65	0.2	1.3	;NP on LHW of meander
+;304	0.75	0	0.4	10	;NP on RHW of meander, overlooking muchneededshower
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	2.5	0	5	1.5
+102	0	1.5	2	1
+103	2.5	0	10	2
+104	0	1.5	0.5	1
+*data passage station left right up down 
+103	2.5	0	10	2
+105	1.5	2	20	0
+106	0	2	2	1
+*data passage station left right up down 
+105	2	1.5	20	0
+107	0	0.75	10	4
+108	1	0	12	3.5
+109	1	0	10	6
+1095	0.8	0.5	22	21
+2	1.25	7.0	50	11
+201	2.3	4.0	50	11
+202	1.5	1.5	2	1
+*data passage station left right up down 
+201	2.3	4.0	50	11
+203	3.3	1.8	1	2
+204	0	2.3	1.2	3.3
+205	4	2.5	15	10
+*data passage station left right up down 
+204	6	6	1.2	3.3
+206	0	1	3	1
+*data passage station left right up down 
+2	1.25	7.0	50	11
+207	3.6	7.7	5.6	0
+208	1	4	25	0
+*data passage station left right up down 
+205	2.5	4	15	10
+3	0	6.8	8	2
+301	0.5	0	8	2
+302	0.7	0	0.5	7
+303	0	0.65	0.2	1.3
+304	0.75	0	0.4	10
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM#    A    surveyname.3    -    description of QM ]
+;QM1	B  couldashouldawoulda_to_bathdodgersbypass.103  -  tubes above pitch
+;QM2	C  couldashouldawoulda_to_bathdodgersbypass.104  -  parallel shaft, pitch
+;QM3	A  couldashouldawoulda_to_bathdodgersbypass.208  -  top of chamber, aid climb
+;QM4	C  couldashouldawoulda_to_bathdodgersbypass.207  -  narrow rift, tight climb
+
+
+;------------
+;Cave description  ;(leave commented-out)
+; See 2017 description for details of GSH up to the 'p50'. Briefly, on the way to couldashouldawoulda a 22 m entrance crawl from the surface leads to a climb down and a junction. Left leads to easy crawling passage for a short distance, then another junction where traversing over a shallow hole and down a stooping-height sandy passage to a sharp left turn and a sandy, easy 'squeeze' leading to a straighforward p10. After a climb up, the rift ends in a large hole. This is the loose pitchead of the p50 dropped in 2017. On descent, this pitch immediately widens to a large rift. Phreatic tubes are visible across the pitch head, it is not clear where the explorers got to in 2017, one appears to have been surveyed, but these may be good leads. At the foot of the p50 a passage leads off to the right. This narrow rift can be followed for ~ 30 m until it widens to a small chamber. There are stalactices and mites just before the sandy squeeze and at the head of the short pitch.
+
+; A pitch in the floor drops 14 m to a boulder ledge in the rift. Going West (back toward the p50) at this level, the rift narrows until a short chimney climb, beyond which the rift is too tight for progress. To the East the high rift continues on at the level of the floor and at the level of the pitchhead of the p14. Dropping down the rift from the foot of the p14 a small window is visible below. This opens to a large, well-watered pitch explored in 2019 (Well Needed Shower). A straight drop down to a dry ledge gives a view of the wet shaft. At the foot of Well Needed Shower a meander joins from the left; and, on the right a narrow meander is human-size for 10 m and continues onwards, taking water at a low level (QM C, unsurveyed). The meander to the left continues in both directions. Left, this meander connects to Bath Dodger's Bypass, right is unexplored (QM B, unsurveyed).
+
+; East of the head of the p14 the rift opens into two parallel shafts. The nearest shaft drops ~ 17 m to a boulder floor.  The further shaft looks blind, but has not been descended (QM B). Above the shaft two crawling-height phreatic tubes lead off to the North (QM C). At the base of the water-worn p17 there are two ways on. A crawl under boulders to the West comes to a window part way down Well Needed Shower. The other way on is a short meander leading ~ 15 m to a pitchead. This is descended around 35 m down the wall of a large chamber, Bath Dodger's Bypass. 
+
+; The pitch lands on a caravan-sized suspended boulder covered in large fossils, or can be descended to the chamber floor below. Bath Dodger's Bypass is a sloping chamber around 60 m high, the base of which is covered in sizable boulders. The floor slopes upwards to the north, the top of this scree-covered slope has been reached. Accessing the top of the slope would probably require a short aid climb up the right-hand wall, the view of the top of this slope hints at large phreatic development (QM A). A vadose passage in the wall, accessible by a climb from the perched boulder, leads to an awkward climb after a couple of meters and looks immature above, but might be pushed to give acces to the top of the chamber (QM C).
+
+; An opening on the southern side of Bath Dodger's Bypass leads to another chamber. Just before this chamber a narrow vadose passage joins on the right, this connects around to the same chamber. A hole in the floor to the right a few metres along this side passage goes to a mud choke in one direction, and a boulder choke in the other, this is likely just below the boulder floor of Bath Dodger's.
+
+; A slightly exposed climb from the caravan-sized boulder in Bath Dodger's to a small gap below a block in a rift on the south side of the chamber gives access to a high-level in another rift, which connects through to the side chamber high up in one wall (unsurveyed). 
+
+; Entering the side chamber by the low, easy route arrives at a ledge overlooking the floor. A climb down to the right allows access to the floor. From here two vadose meander passages lead off. The right-hand passage loops back toward Bath Dodger's Bypass, and the left-hand passage continues. This passage connects through to the bottom of Much Needed Shower, and so provides dry access to the leads at the foot of the wet shaft. This loop closure has not been completed as the wet pitch was not fully surveyed for reasons of safety.
+
+; It may be worth carefully reexamining each meander passage off of Bath Dodger's Bypass, as some were not thoroughly inspected at every level.  
+
+
+
+*end couldashouldawoulda_to_bathdodgersbypass

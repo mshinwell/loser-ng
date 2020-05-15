@@ -1,0 +1,129 @@
+;1998.01.23 AERW removed laser.0 fix (orig from Surf161) - use FixedPts.Laser
+;1998.04.02 AERW created to include all extant surface surveys linked to KH
+;1999.07.31 W Added nord-alpen schacht
+;1999.08.03 W Added nr136 (138->136->135 and dropped skipole hole)
+;2000.03.06 W added 136dto139, linked in 199 (TBH), and 138 and 135
+;2000.03.08 W added 147 tag connection survey (probably should go elsewhere)
+;2000.03.26 W included surface part of 136b.c.d survey
+;2000.04.07 W changed P99_01 to P205 (nordalpenschacht)
+
+; KH area and up VSK
+
+*equate 136to147.1	p136
+*equate 136to147.16	p147
+*include 136to147
+
+*equate	147vor.1	p147
+*equate	147vor.23	s1843
+*include 147vor
+
+*equate surfnr161.1	P163
+*equate surfnr161.162	P162
+*equate surfnr161.25	vd1
+*equate 163conn.1       P163
+*equate 163conn.2       P163tag
+*include 162to163
+
+*equate 180to161c.1	P180
+*entrance P180
+*equate 180to161c.4	P191
+*entrance p191
+;*equate 180to161c.11	P161c ; definitely wrong, AERW
+;*equate 180to161c.10	P161c ; and this is a bodge, but better
+*equate 180to161c.11	VSS2	; but this is actually right :-)
+;and a second survey in same area
+*equate MI5to161c.1	P161c
+*equate MI5to161c.9	P191
+*equate MI5to161c.12	P180
+*equate MI5to161c.16	pMI5
+*entrance pMI5
+
+*include 180-161c
+
+*equate 161etof.1	p161e
+*equate 161etof.7	p161f
+*include 161etof
+
+*equate 161ftod.1	p161f
+*equate 161ftod.26	p161d
+*equate 161d.3 p161dtag
+*equate 161d.1 p161d
+*include 161ftod
+
+*equate 161etog.2	p161e
+*equate 161etog.10	p2004-13
+*entrance p2004-13
+*equate 161etog.19	p161h
+*equate 161etog.31	p161g
+*include 161etog
+
+*equate KanSurf.00	VD1
+*equate KanSurf.03	P185  ; spot on 2 year gestation höhle (formerly called 162)
+*equate KanSurf.12	P161b ; 161b centre of "6" in 161B entrance no.
+*equate KanSurf.14	VSS2  ; "." of ". / 5" at VSS2 French entr.
+*equate VSS2		P161c ; AERW: OK, *this* is the bodge...
+			; "These are extremely close if not exactly the same"
+; Clearly they are not the same. It would help if someone measured the difference
+*include kansurf
+
+*equate 136surf.0	P136
+*equate 136surf.15	S1843
+*include p136
+
+*equate 01to156.0	Laser.0_1
+*equate 01to156.4	P156   ; 1st rig bolt
+*entrance p156
+
+*equate VordTo156.1	S1843
+*equate Vordto156.13	P199
+*equate 01to201.laserpt	Laser.0_1
+*equate 01to201.1998_01	P201
+*equate 156tagconn.156tag t156 VordTo156.15; (tag fitted 1998)
+*entrance t156
+*include p156
+
+*equate Surf161.10	P161	P161A
+*equate Surf161.19	VD1
+*equate Surf161.27	P147 ; 27 is an Olly invented number
+*equate Surf161.0	Laser.0
+*include surf161
+
+*equate vd1to161d.1	vd1
+*equate vd1to161d.39	p161d
+*include vd1-161d
+
+;*set names -_
+*equate nordalpsurf.1.1 vd1
+*equate nordalpsurf.1.10 P205
+*equate nordalpsurf.1.11 P205tag
+
+*begin 162bodge
+*export 1 2
+*date 1999.08.02 ; date of nordalpsurf.2 survey
+*flags not surface
+*data nosurvey from to
+1 2
+*end 162bodge
+
+*equate 162bodge.1 nordalpsurf.2.6
+*equate nordalpsurf.2.6 p162b
+*entrance p162b
+*equate 162bodge.2 162.18
+
+*include nordalps
+
+*equate near205.1 P218
+*entrance p218
+*equate near205.4 P219
+*entrance p219
+*equate near205.8 p205tag
+
+*include near205
+
+*equate 138to135.5 p136
+*equate 138to135.1 p138
+*equate 138to135.8 p135
+*equate 136dto139.1 p136d
+*equate 136dto139.6 p139
+*equate 136shelf.2.1 p209
+*include nr136

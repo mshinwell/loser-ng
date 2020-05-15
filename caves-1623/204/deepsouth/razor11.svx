@@ -1,0 +1,42 @@
+*begin razor11
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Razor Dance 11"
+*date 2007.07.19
+*team Insts Dave Loeffler
+*team Notes James Carlisle
+*instrument CUCC Shetland Attack Pony
+
+; Calibration at stone bridge: "Checked for consistency against sighting instruments"
+
+; ====== stations refindable to link to other surveys: ======
+
+; ref. 2007#16
+
+*export 1 13 14
+;1 is razor10.22
+
+*calibrate tape +0.00	; +ve if tape was too short, -ve if too long
+
+*data normal from to compass clino tape
+1	2	267	-55	1.47
+3	2	055	+24	9.60
+4	3	042	-20	4.96
+5	4	055	+14	9.50
+6	5	059	+03	6.05
+7	6	055	-24	7.19
+8	7	048	-08	1.64
+9	8	060	00	11.09
+10	9	068	+03	14.96
+11	10	035	+19	7.33
+12	11	089	+09	4.27
+13	12	049	+41	11.75
+13	14	259	-22	6.61
+13	15	-	down	7.84
+
+;station details
+;name	L	R	U	D	description
+
+*end razor11
+

@@ -1,0 +1,46 @@
+;1998.06.02 AERW token addition of exports etc.
+
+*begin YorkTop
+
+; Locn:	Main plateau, WNW of Top Camp, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+; Cave:	Puffball & Icing Sugar Cave (1623/182)
+*title "Top of the Yorkshire Ripper Rift"
+*date 1992.7.14
+*team Olly Betts, Julian Shilton
+; Ref.:	?
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	;
+*export 19	;
+*export 27	;
+
+2       1        4.95   077.5   +11
+2       3        4.56   169     -16
+3       4        4.13    -      Down
+4       5        2.25   227     -07
+5       6        3.86   190     -01
+6       7        4.78   203     -08
+8       7        2.77   069     +33
+8       9        5.73   288     +08
+10      9        4.92   126     +16
+11      10       2.76   095     +06
+12      11       3.41   128     +10
+13      12       3.08   046     +15
+14      13       4.01   120     -03
+14      15       2.96    -      Down
+16      15       2.77   135     +01
+17      16       2.09   064     -02
+17      18       0.99   267     -12
+18      19       2.26    -      Down
+
+18      20      13.78   280      00
+21      20       2.94   064.5   +11
+22      21       5.23   134     -04
+23      22       1.98   126     +28
+23      24       1.86   256     +09
+24      25       3.61   274     -12
+26      25       4.60   348     +05
+26      27       5.55   187     -21
+
+*end YorkTop

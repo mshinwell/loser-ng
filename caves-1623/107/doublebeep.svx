@@ -1,0 +1,108 @@
+*begin doublebeep
+
+*export 1 7 13
+
+; Cave: 107
+; Area in cave/QM: Coldest Place in Earth
+*title "Double Beep"
+*date 2015.07.27
+*team Insts Jenny
+*team Notes Wookey
+*instrument Wook DistoX2
+; Survey folder reference: 2015#19
+
+*alias station - ..
+
+*data normal from to tape compass clino
+1	2	3.338	007.6	+23.2
+1	-	14.911	173.2	-85.7
+3	2	4.736	198.6	-10.1
+4	3	5.102	195.0	-2.7
+5	4	1.964	181.0	-10.6
+6	5	2.065	224.4	-07.5
+7	6	1.839	211.7	-08.5
+8	5	0.979	142.3	-20.0
+9	8	2.279	143.1	+32.7
+10	9	4.110	114.3	+12.1
+11	10	0.658	080.9	+11.1
+12	11	3.983	122.5	+10.0
+12	-	1.538	295.9	-05.9
+13	14	5.513	034.7	-43.3
+14	15	5.520	086.7	-76.4
+15	-	8.713	181.8	-15.4
+16	15	2.549	176.6	+14.8
+17	16	4.018	191.3	+57.5
+17	-	3.377	236.6	-22.5
+18	17	6.923	179.8	+36.3
+12	18	2.329	242.2	+25.4
+
+;-----------
+;recorded station details
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;(leave commented-out)
+;pink nail varnish markings unless stated
+;1	0.7	0	0.9	1.2	;NP blue "1" at window edge
+;-	-	-	-	-	;down to floor through window
+;2	0.3	0.1	6.9	0.9	;NP RHW
+;3	0.5	0.2	1.9	3.7	;NP RHW
+;4	0.6	0	2.2	1.2	;NP RHW
+;5	0	1.3	3.6	0.9	;NP "5" LHW @ junction
+;6	0.6	0.1	1.1	1.0	;NP pendant RHS
+;7	0.4	0.1	0.7	2.1	;NP "7" RHW
+;8	0.5	0	1.6	1.3	;NP RHW
+;9	0.7	0.1	1.4	0.3	;NP RHW near floor
+;10	0.4	0	0.9	0.3	;NP RHW
+;11	0	0.4	0.9	0.3	;NP LHW pendant
+;12	0.9	0.1	1.3	0.6	;NP pendant
+;12	0	0.2	0.9	0.6	;looking into tight slot
+;13	0.5	2.1	2.4	1.3	;NP LHW on existing survey
+;14	1.1	0.4	~4	-	;pendant down pitch
+;14	2.3	0.5	1.9	0.9	;pendant down pitch NSEW
+;15	0.3	0.1	1.2	1.0	;NP RHW "15"
+;16	0	0.4	3.8	2.2	;NP LHW
+;17	0.6	0.1	3.9	3.3	;NP RHW
+;18	0.1	0.6	2.1	1.3	;NP LHW
+
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down ignoreall 
+1	0.7	0	0.9	1.2	;NP blue "1" at window edge
+2	0.3	0.1	6.9	0.9	;NP RHW
+3	0.5	0.2	1.9	3.7	;NP RHW
+4	0.6	0	2.2	1.2	;NP RHW
+5	0	1.3	3.6	0.9	;NP "5" LHW @ junction
+6	0.6	0.1	1.1	1.0	;NP pendant RHS
+7	0.4	0.1	0.7	2.1	;NP "7" RHW
+*data passage station left right up down ignoreall 
+5	0	1.3	3.6	0.9	;NP "5" LHW @ junction
+8	0.5	0	1.6	1.3	;NP RHW
+9	0.7	0.1	1.4	0.3	;NP RHW near floor
+10	0.4	0	0.9	0.3	;NP RHW
+11	0	0.4	0.9	0.3	;NP LHW pendant
+12	0.9	0.1	1.3	0.6	;NP pendant
+*data passage station left right up down ignoreall 
+13	0.5	2.1	2.4	1.3	;NP LHW on existing survey
+14	1.1	0.4	4	-	;pendant down pitch
+15	0.3	0.1	1.2	1.0	;NP RHW "15"
+16	0	0.4	3.8	2.2	;NP LHW
+17	0.6	0.1	3.9	3.3	;NP RHW
+18	0.1	0.6	2.1	1.3	;NP LHW
+12	0.2	0	0.9	0.6	;looking into tight slot
+
+;-----------
+;Question Mark List
+
+;(leave commented-out)
+;grade(A/B/C/X)  nearest-station  resolution-station  description
+
+;------------
+;Cave description
+
+;(leave commented-out)
+;freeform text describing this section of the cave
+
+*end doublebeep

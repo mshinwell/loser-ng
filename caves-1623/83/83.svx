@@ -1,0 +1,208 @@
+*equate p83 83.main.11
+*equate 107.ent.15 83.downunder.1
+*equate 107entsingleleg.13 83.downunder.2
+
+*begin 107entsingleleg
+*export 13
+*date 2012.08.21-2012.08.25
+13	14	7.273	236	-27    ; isolated leg not connected to survey
+*end 107entsingleleg
+
+
+*begin 83
+*date 2012.08 ; FIXME: add actual dates
+*title "1623/83"
+
+*export main.11 downunder.1 downunder.2
+
+*equate main.1 underarock.21 pitchhead.2
+
+*begin main
+
+*export 1 2 11
+
+*data normal from to tape compass clino
+1	2	5.932	328	+14
+2	3	7.768	053	+31
+3	4	9.803	040	+38
+4	5	4.717	176	-04
+5	6	4.908	087	+27
+4	7	5.338	038	+30
+7	8	5.427	041	+09
+4	9	8.287	121	+64
+9	10	4.497	178	+31
+10	11	4.948	032	+60
+
+*end main
+
+*begin underarock
+
+*export 7 21
+
+1	2	1.900	059	+08
+1	3	1.958	177	-02
+1	4	11.645	311	-28
+5	4	14.135	133	+21
+5	6	12.843	299	-16
+7	6	6.274	185	-11
+7	8	11.745	225	-21
+8	9	2.622	346	-37
+10	9	10.992	030	-43
+10	11	4.846	205	+40
+7	12	4.601	011	+13
+7	13	5.926	316	+02
+13	14	4.150	202	-28
+15	13	2.427	059	-40
+16	15	3.165	033	+13
+16	17	2.874	268	+28
+13	18	13.194	046	+13
+18	19	5.505	046	+34
+19	20	3.296	041	+12
+20	21	3.646	125	-03
+
+*end underarock
+
+*begin pitchhead
+*export 1 2
+
+1	2	4.070	319	+33
+2	3	6.906	181	-54
+4	3	1.574	076	+06
+4	5	6.358	177	-55
+6	5	4.961	239	+06
+6	7	5.341	072	-47
+
+*end pitchhead
+
+*equate pitchhead.1 duncing.9
+
+*begin pitch
+*export 2 9
+
+2	1	10.777	044	+16
+3	1	5.954	228	-16
+4	1	8.020	291	-10
+4	5	4.929	115	+15
+5	6	1.438	132	+37
+1	7	1.163	031	+50
+7	8	31.106	-	up
+8	9	1.166	030	+40
+
+*data passage station left right up down
+3	0.5	1.3	13.5	1.7	; NP on ?
+1	2.0	2.3	28.5	1.0	; NP "1" highest pt on bldr at base of pitch
+2	0.5	0.25	0	0.8	; NP ceiling
+1	4.6	2.3	28.5	1.0
+4	2.0	0	33.5	2.25	; NP back wall
+5	0.6	1.2	5.7	1.5	; rocky rib
+6	0.6	1.4	0.5	0.5	; back wall
+
+; 7	-	-	-	1.072	; on rope
+; 8	0.4	0.7	2.1	32	; top of Y-hang knot (loaded)
+; 9	-	-	-	-	; higher of Y-hang bolts
+
+*end pitch
+
+*equate thunderroad.12 duncing.6
+*equate duncing.8 pitch.9
+
+*begin duncing
+*export 6 8 9
+
+2	1	2.736	135	+32
+3	2	6.739	148	+30
+4	3	8.041	130	+45
+4	5	5.127	100	-04
+4	6	6.311	048	+83
+6	7	9.419	310	-19
+7	8	8.121	317	-21
+9	8	9.110	123	+10
+
+*data passage station left right up down
+1	2	2.5	0.1	0.5	; 
+2	1.3	1.9	0.55	0.8	;
+3	0.65	0	1.6	3.7	; NP RHW
+4	0.1	1.7	6.8	1.6	; NP on rock
+5	0.4	0.5	6.4	0.7	; NP
+
+*data passage station left right up down
+4	0.1	1.7	6.8	1.6
+6	0.8	0	0.7	7.9	; red flake NP
+7	0.4	1.6	0.8	0.8	; 
+8	1.1	0	0.8	0.6	; higher Y-hang bolt (= pt 9 prev svy)
+9	0.8	1.1	1.0	2.0	; NP tip of bldr
+
+*end duncing
+
+*begin thunderroad
+*export 12
+
+1	2	7.080	233	-25
+2	3	3.258	227	-22
+3	4	2.027	246	-04
+4	5	2.750	244	-25
+5	6	2.215	241	-17
+7	6	0.930	042	+19
+8	7	1.438	078	+15
+8	9	2.937	246	-15
+9	10	1.596	323	-13
+10	11	4.477	262	-37
+11	12	1.044	015	-23
+
+*data passage station left right up down
+1	1.9	1.4	0.9	0.5	; NP
+2	0.5	0.6	0.6	1.5	; 
+3	0	0.3	0.8	1.3	; NP LHW (by 1m long bldr on floor)
+4	0.25	0	0.3	1.6	; NP small roof pendant
+5	0.1	0.4	0.5	2.1	; NP pendant LHW
+6	0.6	0	0.6	2.5	; NP RHW (top of climb up into roof)
+7	0.1	0.4	1.0	2.0	; flake LHW (NP)
+8	0.4	0.1	0.8	1.2	; ledge RHW, NP
+9	0	0.5	0.5	0.8	; LHW, NP
+10	0	0.4	0.6	1.8	; 
+11	0.1	0.8	0.5	8.1	; coral flake (= 6 on prev svy)
+
+*end thunderroad
+
+*equate temp.1 pitch.2
+*equate temp.12 underarock.7
+
+*begin temp
+*export 1 12
+
+1	2	1.590	066	+20
+2	3	7.375	271	+55
+3	4	7.447	239	+09
+4	5	5.164	231	-24
+5	6	7.652	135	-05
+7	5	4.479	053	-35
+7	8	4.367	246	-03
+8	9	1.823	248	+19
+7	10	17.727	331	+72
+10	11	4.107	345	+51
+12	11	3.935	258	-15
+
+*end temp
+
+*equate downunder.11 main.2
+
+*begin downunder
+*export 1 2 11
+
+; 1	0	13.933	035	-18
+; 1	00	10.060	099	+75
+1	2	7.207	213	-03
+; 2	000	9.431	240	-28
+2	3	4.880	202	+17
+3	4	3.565	202	+37
+4	5	5.204	232	-10
+5	6	4.848	235	-18
+6	7	12.294	207	+01
+6	8	6.369	163	+12
+8	9	3.681	100	+35
+9	10	1.856	217	+21
+10	11	1.920	204	+02
+
+*end downunder
+
+*end 83

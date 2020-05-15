@@ -1,0 +1,81 @@
+;1998.04.03 AERW added comments, refs, exports, tidied format
+
+; Surveys around the summit/North end of the Vord.
+
+*begin 147vor
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 	1623/147
+*title "Surface from P147 to cairn on summit of Vordswarzmooskogel"
+*date 1994.07.16
+*team Notes Olly
+*team Tape Olly
+*instrument Comp/Clino/occasional tape Ralph
+*team Dog (pole holder + occasional tape): Anthony
+*instrument Compass with tritium light, Clino with LED #1
+; Calibration:	none?
+; ref.:	unknown, only 1992 stuff in my photocopy of 92-93-94 survey book
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; P147
+*export 19	; red painted point on minor summit
+*export 23	; bottom of stem, green book box on top of cairn, VSK summit
+
+2	1	 4.81	155	-05
+2	3	 6.47	318	+08
+; Notes say 3 -> 2, but since the pole was faintly magnetic, we never
+; used it as a from station. It also makes more sense this way round
+; from the direction of the survey.  [Olly 1994.07.16]
+4	3	21.86	038	+05
+4	5	24.60	138	+26
+; tape in next leg is 3.49+1.98
+6	5	 5.47	 -	Down
+7	6	 6.75	055	-12
+7	8	 6.70	238	+21
+9	8	 8.50	280	-26
+9	10	10.62	262	+12
+11	10	 8.69	081	-23
+11	12	20.85	138	+22
+13	12	10.28	329	-29
+13	14	21.78	170	+20
+15	14	 6.17	321	-23
+15	16	15.50	185	-06
+17	16	28.88	032	+09
+17	18	25.75	208	-08
+19	18	29.91	014	-09
+19	20	 5.62	208	+04
+20	21	24.40	182	-02
+22	21	29.86	000	-01
+22	23	19.08	118	+14
+
+; 1 = P147 [perm]
+; 2 = cairn
+; 3 = first ring on pole
+; 4 = cairn
+; 5 = top of pole against cliff
+; 6 = pole above plumb
+; 7 = sharp corner of rock
+; 8 = top of pole
+; 9 = rock corner
+; 10 = pole by bunde
+; 11 = top of branch stuck in ground
+; 12 = pole
+; 13 = end of bunde branch
+; 14 = top of pole
+; 15 = top of 2 branches lashed w bogroll
+; 16 = top of pole
+; 17 = rocky lump
+; 18 = lowest ring on pole
+; 19 = red mark on bare rock minor summit (pointed to by red arrow) [perm]
+; 20 = small cairn near 19
+; 21 = pole jammed upright between roots
+; 22 = lump on pavement
+; 23 = bottom of stem of green book box on top of cairn on vord summit [perm]
+
+; Strangely, point 15 in this survey is 37cm higher than point 23, yet 23
+; is supposed to be the summit. 15 may have been a little more above the
+; ground than 23, but not that far.
+; Ralph reckons the branch was quite long, so it's ok I guess.
+
+*end 147vor

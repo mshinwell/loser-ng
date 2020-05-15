@@ -1,0 +1,49 @@
+;am 14.11.00 erstellt von Thilo für Weiße Höhle erstellt
+
+*equate p229 229.0
+*entrance p229
+
+*begin 229
+
+; Ort:			Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+*title "Weiße Höhle, 1623/229"
+; Höhle liegt ziemlich genau über dem Grünen Eingang der Eishöhle
+*date 2000.07.01
+; Von:	Ableser:		Thilo Müller
+;	Schreiber:	Thilo Müller
+;	(2. Schreiber:)	
+;	Massband:	Andy Schober, Robert Eckardt
+*instrument Thilo 
+; Gerätefehler:	
+; Referenz.:	Messbuch SMK 3
+
+; ====== Messpunkte, die an bereits bestehenden Vermessungen hängen: ======
+
+*export 0		;Ist MP 0 der Außenvermessung, siehe Datei weisausn.svx in Surface
+
+*calibrate tape +0.0	; "+" wenn das Massband zu kurz war, "-" wenn es zu lang war
+*data normal from to length gradient bearing ignoreall
+
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+0	1	4.96	-7	208.5
+1	2	7.66	-30	177
+2	3	4.73	-36	186
+3	4	5.55	-16	236
+4	5	18.47	39	285
+5	6	6.5	20	212
+
+4	4a	7.62	-13	95
+
+;Raumwerte
+;Name	Links	Rechte	Oben	Unten		Beschreibung
+;0	7	0	3	2
+;1	0.5	1	1	1
+;2	1.5	2	1	1
+;3	2	1.5	2	4
+;4	3	8	4	0.5
+;5	2.5	1	0.5	2
+;6	1	1	1.5	0.5
+
+;4a	2	2	3	1.5
+
+*end 229

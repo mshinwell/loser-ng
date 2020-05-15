@@ -1,0 +1,51 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schwabenschacht 1623/78
+
+*begin augsburg
+*title "Augsburger Halle"
+
+*export A19	; eisdom.A19
+*export n9	; bayberg.F5
+
+; Messteam: Jürgen Bölzle, Markus Bölzle
+; Zeichner: Jürgen Bölzle
+; Referenz: Messprotokolle
+*date 1992
+
+*data normal from to length clino compass
+A19	n1	6.7	-49	230
+n1	n2	5.77	-30	10
+n2	n3	5.12	-34	186
+n3	n4	4.8	10	18
+n4	n5	13.7	-43	160
+n5	n6	8.75	-21	90
+n6	n7	5.5	-78	49
+
+n6	n8	4.9	5	36
+n8	n9	6.12	7	38
+n9	n10	4.01	-8	40
+n10	n11	9	13	40
+n11	n13	6.72	-33	86
+
+n11	n14	13.5	26	200
+n14	n14a	11.04	-60	240
+
+n11	n12	12.1	-30	6
+n12	n15	14.4	35	84
+n15	n16	11	-11	46
+n16	n17	5.7	-59	50
+n17	n18	13	-75	50
+n18	n19	12.35	-26	54
+
+n18	n20	7.8	13	216
+n20	n21	4.71	-5	194
+n21	n22	8.47	7	250
+
+n21	n23	5.85	-20	120
+n23	n24	7.30	20	94
+n24	n25	13.3	20	210
+
+; Raumwerte
+; keine Raumwerte
+
+*end augsburg

@@ -1,0 +1,67 @@
+*begin toto_to_crystalcrumble
+
+; stations linked into other surveys (or likely to)
+*export 1
+
+; Cave: Fisch Gesicht
+; Area in cave/QM: Toto to Crystal Crumble
+*title "Toto to Crystal Crumble"
+*date 2018.07.24
+*team Insts Luke Stangroom
+*team Notes Michael Holliday
+*team Dog Adelaide De Diesbach
+*instrument CHECC DistoX
+*ref 2018#19    
+   ; this is wrong.  points to mysterious schlang
+   
+
+
+; Centreline data
+*data normal from to length bearing gradient	ignoreall
+1	2	4.13	233.7	14.2	Point 1 is the in the centre of Toto, and was pre-done
+2	3	4.04	297.0	-59.6
+3	4	3.24	226.4	-9.2
+4	5	2.37	270.7	-13.1
+5	6	1.87	177.4	-2.5	6 is at the top of the pitch into Crystal Crumble
+6	7	12.02	309.8	-49.8	Small chance that "-49.8" is "-99.8"
+7	8	13.57	004.5	-29.2
+8	9	7.12	294.1	-15.6
+9	10	5.52	350.4	-23.4	10 is in the water of a gentle waterfall and had its LRUD's estimated
+
+6	11	4.29	334.4	-56.2
+11	12	14.55	199.6	-84.6
+12	13	2.3	251.8	-21.2
+13	14	6.05	200.8	13.3
+14	15	6.70	148.7	-22.9 	15 is also in the water of a gentle waterfall and had its LRUD's estimated
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down ignoreall
+2	0.0	1.3	4.0	2.1
+3	1.0	0.3	4.0	1.0
+4	0.0	1.8	1.0	1.5
+5	1.9	0.3	3.5	0.5
+6	0.2	1.8	0.5	0.7	At the top of the pitch into Crystal Crumble
+7	0.6	4.0	6.9	1.2
+8	2.6	0.0	9.4	1.6
+9	0.0	1.8	10.0	1.7
+10	1	1	10	2	In the water of a gentle waterfall and had its LRUD's estimated
+*data passage station left right up down ignoreall
+6	0.2	1.8	0.5	0.7
+11	4.1	0	8.0	16.0	The 'up' value of '8.0' was recorded as '18.0'. Michael (me) has no memory of a weirdly high roof, so I have changed it to 8.
+12	1.4	1.9	19.0	1.5
+13	10.6	2.3	19.0	1.4
+14	3.2	0.0	22.0	5.0
+15	2	2	20	3	In the water of a gentle waterfall and had its LRUD's estimated
+
+;Question Mark Lists
+;QM1	D	toto_to_crystalcrumble.11 -	A widening to the meander about halfway below the way into Crystal Crumble and the floor. Leads back towards Toto at a lower level to the way into Crystal Crumble. Probably not worth pursuing, definitly not until the floor of Toto has been dropped (as somewhwere from there probably leads to here).
+;QM2	X	toto_to_crystalcrumble.10 -	The water flowing into Crystal Crumble almost certainly just flows along the rift from Liquid Luck. This really isn't worth pursuing.
+
+;Cave Description
+;After dropping Toto chamber to a large rock wedged mid way up, the main obvious way on is via a comfortably sized rift that quickly leads to a large, wet chamber. The ceiling seems high, and there are some pretty formations off to one side of the chamber (over to the right, looking in. We traversed over after a short absail). Unfortunatly, there seems to be no way on from here. Each end has a drippy/waterfall area, where the water drops down into a tight meander in the floor (partially covered by rockfall) that we could find no human sized way of accessing/bypassing. There is some widening to the meander used to access the chamber at a lower level (mid-way down), but this almost certainly just goes back to the true floor level of Toto and was not investigated. The area has been de-rigged and de-hanger'ed.
+
+*end toto_to_crystalcrumble
+

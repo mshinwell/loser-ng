@@ -1,0 +1,426 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schnellzughöhle 1623/115
+
+*begin 115eing
+*title "Eingangsteil"
+
+*export 0	; p115
+*export c	; Zweiter Eingang (p???)
+*export 54	; purgatory.0
+*export b9
+
+; -2- Einlaßschächte bis Bellpitch
+;     Neuvermessung, da nicht mehr alle MP´s gefunden
+; Messteam: Regina Kaiser, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 2
+*date 1998.07.17
+
+*data normal from to length clino compass
+0	1	19.20	2	19.5	; MP 0 ist AußenMP mit Spitloch
+1	2	7.66	-33	323
+2	3	7.55	-22	355
+3	4	2.12	6	4
+4	5	9.34	-18	336
+5	6	14.88	-28	250
+6	7	7.53	60	325	; MP 7 ist Spit am oberen Ende der
+					; Kletterstelle
+7	8	5.77	9	26
+8	9	5.88	-7.5	10
+9	10	3.77	-18.5	8
+10	11	2.46	-42	340
+11	12	0.81	-26	8
+12	13	19.43	-90	0	; Abstieg in den bell-pitch
+
+; Raumwerte
+; siehe weiter unten
+
+
+; -3- Einlaßschächte bis Bellpitch, Keller (Abstieg bei Kletterstelle)
+; Messteam: Jörg Haussmann, Mark Morgan
+; Zeichner: Mark Morgan
+; Referenz: Messbuch Mark, Kopie 1999
+*date 1998.07.17
+
+*data normal from to length clino compass
+6	6_1	1.5	19	284
+6_1	6_2	9.3	-90	0
+6_2	6_3	5.67	10	249
+6_3	6_4	6.16	-43	148
+6_4	6_5	14.10	-27	135
+6_5	6_6	12.65	-27	91
+6_4	6_4_1	12.35	40	281	;Keine weiteren Fortsetzungen
+
+; Raumwerte
+*data passage station left right up down
+6_1	-	1.5	3.5	9.4
+6_2	1	0.4	10	-
+6_3	4	-	2.5	3.5
+6_4	-	3	3.5	1
+6_5	1.5	-	0.5	1.5
+6_6	2	-	-	0.5
+
+*data passage station left right up down
+6_4	-	3	3.5	1
+6_4_1	1	0.5	1	-
+
+
+; -4- Einlaßschächte, Bellpitch bis Beginn der Rampenserie
+; Messteam: Regina Kaiser, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 2
+*date 1998.07.18
+
+*data normal from to length clino compass
+13	14	0.99	31.5	121
+14	15	6.18	3	105.5
+15	16	8.54	-31	111
+16	17	7.70	-32	102
+17	18	1.27	52	285
+18	19	7.56	-46	100
+19	20	6.87	-51	115
+20	21	12.90	11	51	;MP 21=MP "GE 28" des CUCC
+21	22	6.62	27.5	31
+22	23	11.2	-20	25.5
+23	24	5.6	-45	99
+24	25	10.38	-24	29
+25	26	16.10	7	52.5
+26	27	6.53	30	31
+
+; Raumwerte
+; siehe weiter unten
+
+
+; -5- Bellpitch bis Beginn der Rampenserie, Seitengänge
+; Messteam: Jörg Haussmann, Mark Morgan
+; Zeichner: Mark Morgan
+; Referenz:
+*date 1998.07.18
+
+*data normal from to length clino compass
+13	13_1	4.47	-3	151
+13_1	13_2	2.74	-60	92
+13_2	13_3	10.8	-50	127
+13_3	13_4	1.61	-42	172
+13_4	13_5	5.6	-19	119
+13_5	13_6	4.5	-5	120
+13_6	13_7	6.87	-10	118
+13_7	20	8.4	6	13
+13_7	13_7a	6.69	18	190
+
+20	20_1	6.47	-27	165
+20_1	20_2	3.87	-26	110
+20_2	20_3	2.12	-23	183
+20_3	20_4	2.47	26	205
+20_4	20_5	4.26	10	155
+20_5	20_6	1.80	8	136
+20_6	20_7	2.45	-20	58
+
+; Seitengang "Black Hole"
+24	24_1	15.27	2	311
+24_1	24_2	2.62	-13	147
+24_2	24_3	6.07	-40	88
+24_3	24_4	5.07	-15	116.5
+24_4	24_5	9.28	32	156
+24_5	24_6	4.76	34	331
+24_6	24	2.36	39	166
+24_1	24_1a	7.7	47	275
+
+; Raumwerte
+*data passage station left right up down
+13_1	0.8	0.3	-	3.5
+13_2	0.5	0.6	8	-
+13_3	-	1	6	1.5
+13_4	0.5	-	-	0.5
+13_5	0.5	-	4	3
+13_6	-	0.5	4	3
+13_7	20	4	1	0
+20	0.3	5	1.5	0
+
+*data passage station left right up down
+13_7	20	4	1	0
+13_7a	0.4	-	0.5	1
+
+*data passage station left right up down
+20	0.3	5	1.5	0
+20_1	2	-	3	0.5
+20_2	2	0.5	0.5	1.5
+20_3	-	0.5	0.4	0.6
+20_4	1	-	-	0.5
+20_5	0.4	-	3	1.2
+20_6	0.3	0	1.2	1.4
+20_7	0	0.3	0.1	0.2
+
+
+; -6- Bellpitch bis Beginn der Rampenserie, Seitengänge, Rückwärtsmessung vom
+;     Ende Richtung Black Hole, hab den MP´s ein B vorgestellt, zur
+;     Unterscheidung der anderen MP´s"
+; Messteam: Jens Freigang, Jörg Haussmann, Mark Morgan
+; Zeichner: Jens Freigang
+; Referenz: Messbuch SMK 3
+*date 1999.08.04
+
+*begin ; Gon-Geräte von JensF. Son´ Mist . . .
+*units compass grads
+*units clino grads
+
+*data normal from to length clino compass
+b0	b1	3.41	-27	100
+b1	b2	10.96	-54	98
+b2	b3	2.77	-47	173
+b3	b4	4.95	-100	0
+b4	b5	2.72	40	120
+b5	b6	4.13	14	152
+b6	b7	14.33	-100	0
+b7	b8	2.25	-6	158
+b8	b9	9.6	6	92
+b9	b10	4.63	-50	150
+b10	b11	14.0	79	90
+b11	24_1a	3.98	-17	160
+
+;diese Vermessung ist durch den Anschluss
+;vom Windloch überflüssig geworden, 31.8.2010
+*flags duplicate
+b9	b9_1	9.86	-8	371
+b9_1	b9_2	3.89	-30	390
+b9_2	b9_3	9.0	72	16
+b9_3	b9_4	4.5	0	380
+*flags duplicate
+
+*end ; Gon
+
+; Raumwerte
+*data passage station left right up down
+b0	0	0.7	2	2
+b1	0.7	0.7	5	5
+b2	0	1	10	0.5
+b3	0.4	0	-	-
+b4	0.5	0.5	-	0
+b5	0	1.2	-	-
+b6	1.5	0.8	-	-
+b7	0.5	0	-	0
+b8	1	0	-	1.2
+b9	1.5	1.7	-	4.5
+b10	2.5	0	-	1.8
+b11	0	8	15	14
+24_1a	3	5	5	2
+;24_1	-	-	-	-
+24_2	1.5	2	4	1
+24_3	-	-	-	1
+24_4	4	-	1.1	-
+24_5	2	-	-	2
+24_6	-	-	-	-
+24	-	-	-	-
+
+*data passage station left right up down
+b9	1.5	1.7	-	4.5
+b9_1	2	0	-	2.5
+b9_2	0	0.5	-	1.6
+b9_3	1.5	0	20	1.8
+;b9_4	-	-	-	-
+
+
+; -7- Einlaßschächte, Rampenserie bis Balkon
+; Messteam: Mark Morgan, Rebecca Lawson, Regina Kaiser, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 2
+*date 1998.09.18
+
+*data normal from to length clino compass
+27	28	4.05	-11.5	66
+28	29	11	-46	78
+29	30	8.1	-52	91
+30	31	12.88	-38	99	; MP 30 = MP "GE 39" des CUCC
+31	32	2.8	-50	147
+32	33	14.22	-90	0
+33	34	1.92	-2	0
+34	35	5.95	36	106
+35	36	1.92	36	186
+36	37	5.15	26.5	108
+37	38	2.13	-14	141
+38	39	13.56	-29	175
+39	40	12.07	-52	194
+40	41	7.18	-90	0
+41	42	5.38	-56	192
+42	43	5.19	-90	0
+43	44	13.5	-46	162
+44	45	10.10	-57	140
+
+; Raumwerte
+; siehe weiter unten
+
+
+; -8- Einlaßschächte, beim Balkon
+; Messteam: Fritz Mammel, Thilo Müller, Tobias Tränkle
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 2
+*date 1999.06.01
+
+*data normal from to length clino compass
+45	46	3.85	11	48	; MP 46=Spit
+46	47	13.4	-90	0
+47	48	3.7	19	80	; MP 48=Spit
+
+; Raumwerte
+; siehe weiter unten
+
+
+; -9- Einlaßschächte, unterhalb Balkon bis zur 'not so big chamber'
+; Messteam: Dominik Jauch, Fritz Mammel, Mark Morgan
+; Zeichner: Dominik Jauch
+; Referenz: Messbuch SMK 3
+*date 1999.08.07
+
+*data normal from to length clino compass
+48	49	4.32	-78	101
+49	50	22.82	-90	0
+50	51	24.5	-65	93
+51	52	5.81	-19	150
+52	53	6.38	-53	118
+53	54	21.67	-90	0
+; MP 54 ist der BodenMP in der "Not so Big Chamber"; er fehlt vermutlich
+; wieder, da er direkt unter dem Wasserfall liegt.
+
+; Raumwerte
+*data passage station left right up down
+0	1	2	2.5	1.2
+1	2	0	0.5	0.8
+2	0	0.6	0.3	0.3
+3	3.5	1	1.6	0
+4	3	0	0.5	1.5
+5	-	2.5	1.5	2.2
+6	0	2	3.5	1.2
+7	0	1.5	0.3	1.5
+8	1	0.3	0.1	0.6
+9	0	1.2	0.6	1
+10	0	10	2	1.5
+11	1.5	0.5	2	1
+12	4	0.5	0.5	 20
+13	-	-	-	-
+14	3	2	20	1
+15	1.5	3	2	2
+16	3	2.5	0.5	1.5
+17	2	-	2	0
+18	-	2	2	1
+19	0.5	1.5	0.5	1.5
+20	4	-	2	0
+21	0.5	2	2.5	2
+22	1.5	0.5	0.3	2
+23	0.5	3	1.5	2.5
+24	5	2	2	2
+25	1	3	2	2
+26	1.5	3.5	4	2.5
+27	5	1	5	1
+28	4	0	2.5	6
+29	3	2	4	8
+30	8	1	5	2
+31	8	2	4	3
+32	8	0.5	4	14
+33	-	-	-	-
+34	2	-	2	4
+35	0	1	3	1.5
+36	1	0	3	2
+37	0	0.5	6	2.5
+38	7	0	5	1.5
+39	10	1	4	3
+40	1	3	3	-
+41	-	-	-	-
+42	3	2	3	-
+43	5	2	-	3
+44	5	4	1	2
+45	-	-	-	-
+46	5	0	10	13
+47	3	1	13	0.5
+48	0	5	20	30
+49	0	1	-	54
+50	0	1	-	25
+51	0	4	-	2
+52	2.5	0	-	2
+53	0	1	-	20
+54	8	2.5	-	0.5
+
+
+; -10- Einlaßschächte, 2 Rampen entlang des oberen Teils der Einlaßschächte
+; Messteam: Rebecca Lawson, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 2
+*date 1999.07.03
+
+*data normal from to length clino compass
+27	27_1	11.48	40	310 	; Fortsetzung nach oben vorhanden, aber
+					; nur technisch zu klettern
+
+38	38_1	18.37	31	30 	; Fortsetzung in Schacht, > 20 m tief
+
+; Loch vis-a-vis vom 5m Aufstieg gleich hinter dem Eingang (letzter MP im Loch
+; mit 6.4 gekennzeichnet, "a" hier eingefügt wg. bereits vorhandenem MZ 6.1 ...)
+6	6_1a	12.03	-2	282 	; gleich beim 6.1a war Inschrift vom
+					; UBSS: "UBSS 1980"
+6_1a	6_2a	12.75	18	214
+6_2a	6_3a	11.11	42	299
+6_3a	6_4a	9.13	53	290
+; Fortsetzung steil nach oben, wohl kletterbar, bröselig, leichter Luftzug
+; bergwärts
+6_2a	6_2b	7.5	21	280
+
+; Raumwerte
+*data passage station left right up down
+27	5	1	5	1
+27_1	3	5	4	1
+
+*data passage station left right up down
+38	7	0	5	1.5
+38_1	6	2	8	1
+
+*data passage station left right up down
+6	0	2	3.5	1.2
+6_1a	3	0.5	4	1
+6_2a	0	3	2	1
+6_3a	0.5	3	2	1
+6_4a	0.5	2	1.5	0
+
+*data passage station left right up down
+6_2a	0	3	2	1
+6_2b	0.5	2	0.5	0.5
+
+
+; -11- Einlaßschächte Fortsetzung vom Loch vis-a-vis vom 5m Aufstieg gleich
+; hinter dem Eingang"
+; Messteam: Jörg Haussmann, Kai Schwekendiek
+; Zeichner: Jörg Haussmann
+; Referenz: Messbuch SMK 5
+*date 1999.09.11
+
+*data normal from to length clino compass
+6_4a	6_5a	10.38	73	270
+; Ende, da verblockt und somit unschlufbar, Luftzug verschwindet im Versturz
+
+; Raumwerte
+*data passage station left right up down
+6_4a	0.5	2	1.5	0
+6_5a	1	2.5	0.2	0
+
+
+; -12- Einlaßschächte, Einmessung des 2. Eingangs von innen
+; Messteam: Robert Eckardt, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 3
+*date 1999.09.11
+
+*data normal from to length clino compass
+*begin
+*flags duplicate
+0	a	13.99	3	22
+*end
+a	b	2.04	7	288
+b	c	9.23	74	210	; c ist Außenpunkt des Schachteinganges
+
+; Raumwerte
+*data passage station left right up down
+0	1	2	2.5	1.2
+a	3	1	0	0.7
+b	2	1	9	0.5
+c	-	0	-	0
+
+
+*end 115eing

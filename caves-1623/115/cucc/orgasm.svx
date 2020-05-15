@@ -1,0 +1,91 @@
+;NOTES > $.Survey.Surveys.Austria.D.Stream
+;1995.08.01 AERW Source: converted from SU file
+;1995.05.20 AERW added loads of comments when clarifying description
+;1998.06.02 AERW added exports and comments
+
+
+*begin orgasm ; formerly "GB" (GemsescheissenBottom)
+
+; Locn:	SE flank Vord. Schwarzmooskogel, Western massif, Totes Gebirge, Austria
+; Cave:	Schnellzughohle - 1623/115 (and Stellerweghohle, 1623/41)
+; Survey Name:	Streamway (and "duck") from bottom
+*date 1982.08.13-1982.08.14 ; trip 1982-115-20 in 1982 logbook
+; By:	Pete Lancaster and Andy Dolby
+;	Insts: 
+;	Tape: 
+;	Notes: 
+; Calibration:	none
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; water level at sump
+*export 66	; backup bolt (?) of Subtle Approach Pitch
+
+*data normal from to length bearing gradient ignoreall
+   1   2  9.1  178.   50. ; Ramp up from sump
+   2   3  7.7  210.    3.
+   3   4  3.1    -     Up
+   5   4  3.2   60.  -12. ;Backsight
+   5   6  8.9  204.   20.
+   6   7  4.4  183.   37.
+   7   8  9.0  217.   -8.
+   8   9 13.8    -     Up
+   9  10 13.2    -     Up
+  10  11 12.4    -     Up
+  12  11  2.3  335.   -6. ; Backsight
+  12  13  4.6  213.   16.
+  13  14  4.0  129.   15.
+  14  15  9.0  247.    3.
+  16  15  5.3  320.  -25. ; Backsight
+  16  17  5.5   92.    0.
+  17  18 21.8    -     Up
+  18  19 42.0    -     Up
+  19  20  5.8    -     Up
+  20  21 12.5  350.   72.
+  21  22 11.3    -     Up ; Orgasm Chasm
+  23  22  4.6  165.  -33. ; Backsight
+  23  24  8.7  355.  -11.
+  24  25  8.4  345.   18.
+  25  26 15.8  312.    0.
+  26  27  5.8   27.  -12.
+  27  28  5.8   12.   15.
+  28  29 10.3  334.   -1.
+  29  30 18.6  290.    0.
+  31  30  5.4  242.   -3. ; Backsight
+  32  31 27.3  133.    2. ; Backsight
+  32  33  3.7   47.    7.
+  33  34 11.0  305.    1.
+  34  35  5.9  295.    2.
+  35  36 10.8   22.   -2.
+  36  37 13.4   82.   -2.
+  37  38 14.7   36.    4.
+  38  39  3.9  266.   12.
+  39  40  2.8   19.  -10.
+  40  41 10.0  356.    1.
+  41  42  4.9    -     Up ; Coming Soon
+  43  42  4.2   73.   -8. ; Backsight
+  43  44  3.4  292.   13.
+  44  45  2.0  337.   19.
+  45  46  2.9  285.   13.
+  46  47  2.8   50.  -25.
+  47  48  5.1   89.   12.
+  48  49  3.3   10.    2.
+  49  50  7.7   82.   -1.
+  50  51  2.7  103.   28.
+  51  52  5.1   32.    2.
+  52  53  1.8  130.   15.
+  53  54  5.5   15.   17.
+  54  55  4.2  124.   19.
+  55  56  6.6   60.    0.
+  56  57 20.9    -     Up ; Slit pitch
+  58  57  1.5  249.   -4. ; Backsight
+  58  59  5.2    3.  -28.
+  59  60  4.3  355.    0.
+  60  61  5.5  135.    3.
+  61  62  2.6   24.   -3.
+  62  63  8.6  115.    3.
+  63  64  7.6   76.  -12.
+  64  65 12.7    -     Up ; Subtle approach
+  66  65  4.7  180.    9.
+
+*end orgasm

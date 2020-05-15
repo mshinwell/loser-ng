@@ -1,0 +1,50 @@
+*begin pretzelpassage2
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Pretzel Passage 1"
+*date 2012.08.27
+*team Tape Becka Lawson
+*team Insts Becka Lawson
+*team Notes Anthony Day
+*instrument Wookey's DistoX
+; Calibration: None
+; ref.:	2012#45
+
+; ====== stations refindable to link to other surveys: ======
+*export 18x
+
+*calibrate tape 	0; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+
+20	18x	12.22	124	+02
+21	20	2.04	132	-29
+22	21	4.01	137	+34
+23	22	2.83	073	+10
+23	24	1.91	325	+28
+25	20	2.23	271	-09
+26	25	2.91	115	-59	;  wrong in notes which said 26 to 20
+27	26	2.96	132	-06
+28	27	8.47	148	-04
+29	28	14.13	155	-05
+30	29	9.60	133	+12
+30	31	15.74	304	-11
+
+*data passage station	left	right	up	down	ignoreall
+
+18x	-	-	-	-	numbered from previous survey
+20	0	0.6	2.4	0.9	pm l wall numbered
+21	0.8	0	0.9	1.9	pm r wall
+22	1	0	0.4	2.1	pm r wall
+23	0	0.5	1.1	1.9	pm l wall numbered
+24	-	-	-	-	unmarked
+25	1.5	0	2.5	1.3	pm r wall
+26	1.3	0.5	0.3	2	pm r ceiling
+27	0.2	1.4	1.1	0.9	pm l wall
+28	0	1.1	0.3	0.5	pm l wall
+29	1.6	2.7	7	1.4	pm rock mid passage numbered
+30	1.2	0.2	4	0.8	pm spike at pitch head numbered
+31	-	-	-	-	unmarked
+
+*end pretzelpassage2

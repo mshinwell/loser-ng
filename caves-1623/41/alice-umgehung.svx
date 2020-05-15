@@ -1,0 +1,69 @@
+;> 1623/41
+
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Stellerweghöhle 1623/41
+
+*begin u-alice
+
+*title "Umgehung"
+
+
+
+*date 1998.06.02
+
+*units compass grads
+*units clino grads
+
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+19      20      9.62    -5      29
+20      21      2.93    -57     86
+21      22      4.45    -33     51
+
+
+*data passage station left right up down
+19	1	1	0.9	1.6
+20	0.2	0.3	1	4
+21	0.7	0.6	3.6	1.5
+22	0.9	0.9	4.0	1.7
+
+
+*units compass degrees
+*units clino degrees
+*data normal from to length clino compass
+
+19	19_1	2.99	9	345
+19_1	19_2	2.74	90	0
+19_2	19_3	1.78	45	295
+
+19_3		19_3_1	3.37	5	240
+19_3_1	19_3_2	6.39	16	199
+19_3_2	19_3_3	4.08	40	232
+19_3_3	19_3_4	5.50	42	339
+
+19_3_1	19_3_1a	6.84	65	238
+19_3_1a	19_3_1b	2.55	30	195
+19_3_1b	19_3_4	2.53	13	264
+
+19_3	19_4	3.18	6	43
+19_4	19_5	1.74	90	0
+19_5	19_6	7.22	1	70
+19_6	19_7	5.62	-30	41
+19_7	19_8	3.14	-24	90
+19_8	19_9	9.62	-56	48
+19_9	22	9.87	3	252
+
+21	21_1	3.28	-42	61
+21_1	21_2	3.60	-29	156
+21_2	21_3	7.10	-47	132
+21_3	21_4	6.40	-67	70
+21_4	21_5	8.18	-45	132
+21_5	21_6	3.48	-57	81
+21_6	21_7	4.53	-18	84
+21_7	21_8	4.67	-13	133
+
+
+
+
+*end

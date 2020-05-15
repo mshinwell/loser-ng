@@ -1,0 +1,81 @@
+*begin hilti_nts_near_start
+
+; stations linked into other surveys (or likely to)
+*export x 3
+
+; Cave: Balkonhole 264
+; Area in cave/QM: Nothing To See (Hilti-a-plenty)
+*title "Nothing to See lead near start"
+*date 2017.07.28
+*team Insts Kristian Brooke
+*team Notes Ashley Gregg
+*instrument CHECC Distox2
+*ref 2017#23
+
+; Centreline data
+*data normal from to bearing gradient length
+*alias station - ..
+  x 1 220.72 -4.16 12.112
+  1 - 136.88 7.30 2.213
+  1 - 106.16 10.81 2.806
+  1 - 118.45 62.84 3.393
+  1 - 100.18 -73.85 3.641
+  1 - 38.95 -2.91 2.759
+  1 - 204.63 -10.93 3.945
+  1 - 208.16 -5.92 4.113
+  1 - 212.93 5.75 3.825
+  1 2 215.21 -25.13 9.136
+  2 - 14.62 19.38 3.511
+  2 - 121.54 -0.52 0.222
+  2 - 298.35 0.58 4.374
+  2 - 38.90 78.67 2.676
+  2 - 301.16 -56.06 0.730
+  2 3 357.77 4.99 4.610
+  1 - 116.59 24.20 10.152
+  1 - 128.30 25.05 8.903
+  1 4 120.47 22.42 13.325
+  4 - 214.25 -4.22 1.414
+  4 - 218.38 40.59 1.139
+  4 - 212.09 -37.22 1.376
+  4 - 144.54 7.39 5.024
+  4 - 130.24 8.08 3.828
+  4 5 136.08 6.69 9.177
+  5 - 89.17 -2.08 1.734
+  5 - 115.29 64.03 2.523
+  5 - 77.92 -54.83 1.161
+  5 - 170.27 -4.25 10.166
+  5 - 28.77 5.35 1.705
+  5 - 344.03 0.46 2.370
+  5 - 193.58 0.26 0.878
+  5 6 173.34 -8.60 10.594
+  6 - 282.41 -2.78 3.779
+  6 - 287.95 -29.38 2.495
+  6 - 277.27 47.14 2.544
+  6 - 284.88 19.88 5.243
+  6 - 230.07 -25.47 8.191
+  6 7 208.14 -11.46 15.555
+  6 - 182.93 -6.07 21.262
+  6 - 178.10 -6.56 10.918
+  6 - 168.29 -3.54 2.428
+  6 - 204.27 32.27 16.225
+  6 - 207.47 39.34 6.103
+  6 - 192.54 -34.27 20.959
+  6 - 216.21 -41.78 31.071
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    C    hilti_nts_near_start.6    -    Continuation of large pitch believed to link into Galactica
+
+;------------
+;Cave description  ;(leave commented-out)
+;An uphill slope off of a loop in the main passage leads to a large 
+;pitch and aven, which looks to connect into Galactica
+
+*end hilti_nts_near_start

@@ -1,0 +1,17 @@
+; Organhoehle, Discovered UBSS 1989
+
+;*entrance organ.entrance.a1
+
+*equate bs17 p2012-ok-03
+*equate organ.entrance.a1 bs17
+
+*begin organ
+
+*export  entrance.a1
+*equate fake.2 entrance.a5
+
+*include organfake
+
+*include organ_entrance
+
+*end organ

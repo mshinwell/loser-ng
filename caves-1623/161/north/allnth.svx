@@ -1,0 +1,169 @@
+; includes for all passages north from Carrefour
+
+; EXPORTS: these are the only points to which other surveys should link
+; No prefix level here, so nothing to export from...
+;*export yapate.0
+;*export yapate.12
+
+*include yapate
+
+*equate flapjack.1  Yapate.16
+*include flapjack
+
+*equate TooMuch.pt1.02  Flapjack.1
+*include toomuch
+
+*equate yapate.10   FBS.pt1.S
+*include flatbatt
+
+*equate CFN.01      yapate.10 ; yapate.10 is pt marked 'S'
+*include dehy
+
+*equate gob.top.7   Yapate.10
+*equate gob.rest.17 Wedge.6
+*include gob
+
+*equate HGSLink.1a  Repton.4     ;pt 1a is the bolt, pt 1 is a CM nearby
+*equate BurblCrawl.19   CFN.13
+*include burble
+
+*equate BeeConn.666 Repton.6
+*include pipeless
+
+*equate 3WiseMen.1  Pipeless.9
+*include 3wisemen
+
+*equate further.1   FartoFar.12
+*include further
+
+*equate anglia.1    FarToFar.15
+*include anglia
+
+;1994
+
+*equate siberia.35  BurblMaze.14
+; a little dubious (must be within a metre)
+*include siberia
+
+;1997
+
+*equate sep.fuzzy.lkg   siberia.2
+*include sep
+
+;1998
+*equate sep.part2.20    midnght1.1
+*include midnight
+
+*equate logic.1 sep.fuzzy.12
+*include logic
+
+*equate psycho.1 logic.17
+*include psychost
+
+*equate clearas.26 logic.17
+*include clearas
+
+*equate psycho.7 bearbum.18
+*include bearbum
+
+
+;2009
+
+*equate forgetmenot.1 pipeless.1
+*include forgetmenot
+
+*equate solidrock.10 pipeless.1
+*include solidrock
+
+*equate direstraits.10 solidrock.1
+*include direstraits
+
+*equate satansitter.1 3WiseMen.1
+*include satansitter 
+
+*equate naturalway.0 anglia.29
+*include naturalway
+
+*equate 6milebottom.8 naturalway.38
+*include 6milebottom
+
+*equate sofaraway.1 anglia.4
+*include sofaraway
+
+*equate ironyoftime.7 repton.6
+*include ironyoftime
+
+*equate naturalway2.1 naturalway.33
+*include naturalway2
+
+;2011
+*equate oldmen.1 ironyoftime.5
+*include oldmen
+
+*equate chocolateloops.19x oldmen.19
+*include chocolateloops
+
+*equate mendip.2 oldmen.24
+*include mendip
+
+*equate oldmen.21 popcorn.p21
+*include popcorn
+
+*equate oldmensouth.9x oldmen3.9
+*include oldmensouth
+
+*equate oldmen.31 oldmenleft.31
+*include oldmenleft
+
+*equate mordor.0 oldmen4.7
+*include mordor
+
+*equate bored2.25x mordor.25
+*include bored
+
+*equate stables.32x mordor.32
+*include stables
+
+*equate holeycow.37x stables.37
+*include holeycow
+
+;2012
+*include blownout
+*equate holeycow.34 blownout.0
+
+*include sauron
+*equate mordor.18 sauron.18
+
+*include soilathon
+*equate soilathon.5 stables.22
+
+*include wellypopper
+*equate holeycow.53 wellypopper.53x
+*equate holeycow.56 wellypopper.56x
+
+*include runnelnorth
+*equate holeycow.50 runnelnorth.50x
+*equate holeycow.51 runnelnorth.51x
+
+*include soilchute
+*equate holeycow.48 soilchute.1
+
+*include polkadot
+*equate holeycow.45 polkadot.45x
+
+*include larchenrepublic
+*equate holeycow.41 larchenrepublic.41x
+
+*include bundestrasse
+*equate larchenrepublic.40 bundestrasse.40x
+
+;2015 
+*include fbitw
+*equate holeycow.56 fbitw.16
+
+*include fallingspike
+*equate wellypopper.7 fallingspike.17
+
+*include qualitybelays ; includes (back to the future)
+*equate quality.12 wellypopper.17
+*equate backfuture.1 yapate.10

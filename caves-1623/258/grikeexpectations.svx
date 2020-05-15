@@ -1,0 +1,60 @@
+*begin	grikeexpectations
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export 4x	5x
+
+*title "Grike Expectations"
+*date 2014.08.19
+*team Notes Nat Dalton
+*team Insts Becka Lawson
+*instrument Becka's old DistoX
+
+;ref.: 2014#51
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	comments
+1	4x	5.29	035	-06.0
+2	1	5.26	045	-52.0
+5x	2	4.81	064	-27.0
+3	5x	2.63	316	-13.5
+;3	4	16.68	215	30.0	;replace leg when climb done
+5	2	4.33	352	09.0	;omitted from sketch elevation
+
+*flags splay
+5	6	7.30	184	-37.0	;splay (straight ahead)
+5	7	5.33	219	-11.0	;splay (right-ish)
+*flags not splay
+
+8	1	2.45	317	-14.0
+8	9	1.29	166	-29.5
+10	9	8.85	356	77.0
+11	10	4.86	329	44.0
+12	11	2.60	310	80.0
+*flags splay
+12	13	15.17	288	65.0	;splay (up pitch into 3->4 pitch)
+*flags not splay
+12	14	16.60	071	-63.0
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+4x	0.00	1.40	2.50	1.80	numbered 4
+1	1.90	2.90	4.00	2.00	numbered 1; lh ridge of rock
+2	0.70	3.60	5.60	5.00	numbered; lhw roof pendant
+5x	1.80	0.00	4.60	2.00	numberd; rhw
+3	0.40	2.50	5.40	2.00	lhw numbered
+;4	0.50	0.50	1.00	2.00	into QMA over and up pitch; unmarked
+
+*data passage station left right up down ignoreall
+5	0.00	0.50	0.20	1.60	lhw;numbered
+
+*data passage station left right up down ignoreall
+8	0.00	3.50	0.50	1.80	lhw; above traverse
+9	0.00	3.00	1.20	9.00	inbetween pitch y-hang bolts
+10	3.30	1.70	9.70	0.00	tip of rock; numbered
+11	0.00	1.20	3.00	7.00	lhw; opposite rebelay bolt; numbered
+12	0.50	0.50	5.00	2.00	
+
+*end 	grikeexpectations

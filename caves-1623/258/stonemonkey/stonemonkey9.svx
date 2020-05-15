@@ -1,0 +1,32 @@
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 
+
+*begin stonemonkey9 
+
+*export 8
+
+*title "temp: chamber below sombrero passage: rename following B lead extension!"
+*date 2009.07.28
+*team Insts Becka & Gareth
+*team Notes Becka
+*instrument 6
+
+;ref.: 2009#09
+
+*calibrate tape +0.0   ; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+8   20   5.52     354    -50
+21    20    2.64    292    +78
+22    21    7.10    207    +07
+23    22    5.58    244    +19
+
+*data passage station left right up down ignoreall
+8    5    0.5    1.5    1.3    Existing point 8 in stonemonkey4 RP right wall above pitch/climb in Sombrero Passage
+20    1    1.5    6    2.3    RP on spike on climb down
+21    1.2    1.4    7    1    RP boulder nose point
+22    1.9    3    2    2    RP boulder chamber
+23    4    0    1.5    1.5    RP right wall B lead (drafting) ahead
+
+
+*end stonemonkey9

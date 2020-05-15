@@ -1,0 +1,2 @@
+*equate 41.E41.0 P41   ;for ARGE data
+*equate 41.e142.45   P142

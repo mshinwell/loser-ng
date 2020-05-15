@@ -1,0 +1,54 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle 1623/204   - Gaffered - The Wares
+
+*begin granddayout
+
+*title "Grand Day Out"
+*date 2011.07.30
+*team Insts Edvin Deadman
+*team Notes Nial Peters
+*team Tape Kathryn Hopkins
+
+;ref.:	2011 #12
+
+*export 5 14 15
+
+*calibrate tape 0.05	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+2	1	11.60	354	13
+3	2	12.32	349	18
+4	3	15.50	345	-10
+5	4	7.26	249	-34
+5	6	6.92	130	08
+6	7	16.65	128	08
+8	7	9.12	024	27
+9	8	5.51	354	00
+10	9	10.16	018	09
+11	10	9.65	038	20
+12	11	10.34	109	13
+13	12	8.69	139	23
+13	14	3.71	182	-17
+15	1	23.23	081	51
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+1	3	12	6	0.3	RP top of large boulder, numbered
+2	1.5	2	1.3	1	RP ceiling pendant
+3	1.5	2.5	0.5	0.8	RP flake on ceiling
+4	4	0.4	2	1.2	RP RHW
+5	4	0.5	1.5	2	RP ceiling
+6	7	1.5	0	1.6	RP roof flake
+7	3	4	0	0.5	RP ceiling
+8	3	2	0	0.5	RP ceiling pretty
+9	0	4	2	0.3	RP LHW
+10	0	2	20	5	RP LHW
+11	10	8	20	3	RP rock spike, numbered
+12	3	1	0	2	RP ceiling pendant
+13	3	0	4	2	RP RHW
+14	1	2	4	2	RP roof flake numbered
+15	-	-	-	-	RP top of boulder, from fatworm3 survey (fatworm3.2)
+
+
+*end granddayout
+

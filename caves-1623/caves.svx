@@ -1,0 +1,235 @@
+; Caves in the SMK-system go in caves-smk.svx, not in here.
+; This is all the other caves
+
+*include links
+
+*include 18/18
+; only have a location from not sure where - Olly
+;Anschlußpunkt am Weg, Laserpunkt 9
+;Eingang a
+;*fix p31	35396.16	81035.77	1582.42
+;I think these five comments are no longer required, as I have included the surface survey to p31 
+*include 31/31
+;32 is in smk-system
+;40 is in smk-system
+;41 is in smk-system
+
+*include 76/76
+;78 is in smk-system
+*include 81/81
+;83 is in smk-system
+;87 is in smk-system
+;88 is in smk-system
+*include 90/90
+*include 91/91
+*include 96/96
+*include 97/97
+*include 101/101
+*include 103/103
+*include 105/105
+*include 108/108
+*include 113/113    ; (connected to 152)
+;115 is in smk-system
+*include 116/116    ; (not quite connected to 78)
+; only have a location fix from Robert for P131 - Olly
+;Thomas Eishöhle, 1623/131
+*fix p131		37700	83700	1610	;Laut Information Robert Seebacher, E-Mail 11/00 an Thilo
+*include 131/131
+
+*include 135/135
+;136 is in smk-system
+*include 138/138
+*include 139/139
+;142 is in smk-system (but data inside 41 for some reason)
+;143 is in smk-system
+;144 is in smk-system
+*include 140/140
+*include 145/145
+*include 147/147
+;*include 148/148
+*entrance p148
+*include 148/148-2007
+*include 152/152    ;(connected to 113)
+*include 157/157
+;158 is in smk-system
+;161 is in smk-system
+*include 162/162
+*include 163/163
+*include 171/171
+*include 172/172
+*include 174/174
+*include 175/175
+*include 176/176
+*include 182/182
+*include 183/183
+*include 185/185
+*include 193/193
+*include 195/195
+*include 196/196
+*include 199/199
+*include 200/200
+*include 201/201
+*include 202/202
+*include 203/203
+;204 is in smk-system
+*include 205/205
+*include 206/206
+*include 207/207
+*include 208/208
+*include 209/209
+;*include 211/211
+;*include 213/213
+*include 215/215
+;216 is in smk-system
+*include 220/220
+*include 225/225
+*include 228/228
+*include 229/229
+*include 231/231
+*include 232/232
+*include 233/233
+*include 234/234
+*include 238/238
+*include 239/239
+*include 240/240
+*include 241/241
+*include 242/242
+*include 243/243
+*include 244/244
+*include 245/245
+*include 246/246
+*include 247/247; 247 has no accurate underground survey, this has been bodged by Martin Green
+*include 248/248
+*include 249/249
+*include 250/250
+*include 251/251
+*include 252/252
+*include 254/254
+;258 is in smk-system
+*include 261/261
+*include 262/262
+*include 263/263 ; Clown höhle
+;264 Balcony höhle is in smk system
+*include 267/267
+*include 271/271
+*include 273/273.svx
+
+*include B4/B4.svx
+*include 96wk11/96wk11
+*include 99ob02/99ob02
+
+*include 2001-02/2001-02
+*include 2001-03/2001-03
+
+*include 2002-ad-03/2002-ad-03
+*include 2002-ad-04/2002-ad-04
+*include 2002-w-02/2002-w-02
+*include 2002-05/2002-05
+*include 2002-06/2002-06
+*include 2002-07/2002-07
+*include 2002-08/2002-08
+*include quarriesd/quarriesd
+
+*include 2003-01/2003-01
+
+*include 2004-01/2004-01
+*include 2004-03/2004-03
+*include 2004-08/2004-08
+*include 2004-10/2004-10
+*include 2004-14/2004-14
+*include 2004-15/2004-15
+*include 2004-18/2004-18
+*include 2004-20/2004-20
+
+*include 2005-01/2005-01
+*include 2005-07/2005-07
+*include 2005-92/2005-92
+*include 2005-93/2005-93
+*include 2005-94/2005-94
+*include 2005-95/2005-95
+*include 2005-96/2005-96
+*include 2005-99/2005-99
+
+*include 2006-08/2006-08
+*include 2006-09/2006-09
+*include 2006-70/2006-70
+*include 2006-71/2006-71
+*include 2006-72/2006-72
+*include 2006-73/2006-73
+
+*include 2007-04/2007-04
+*include 2007-05/2007-05
+*include 2007-06/2007-06
+*include 2007-07/2007-07
+*include 2007-12/2007-12
+*include 2007-70/2007-70
+*include 2007-72/2007-72
+
+*include 2009-01/2009-01
+*include 2009-02/2009-02
+*include 2009-03/2009-03
+
+*include 2010-06/2010-06
+*include 2010-07/2010-07
+
+*include 2011-01/2011-01
+
+*include 2012-hw-01/2012-hw-01
+*include 2012-ns-01/2012-ns-01
+*include 2012-ns-02/2012-ns-02
+*include 2012-ns-03/2012-ns-03
+*include 2010-03/2010-03
+*include 2010-04/2010-04
+*include 2012-ns-05/2012-ns-05
+*include 2012-ns-06/2012-ns-06
+*include 2012-ns-07/2012-ns-07
+*include 2012-ns-08/2012-ns-08
+*include 2012-ns-09/2012-ns-09
+*include 2012-ns-10/2012-ns-10
+*include 2012-ns-12/2012-ns-12
+*include 2012-ns-13/2012-ns-13
+*include 2012-ns-14/2012-ns-14
+*include 2012-ns-15/2012-ns-15
+*include 2012-70/2012-70
+*include 2012-js-1/2012-js-1
+*include 2012-dd-05/2012-dd-05
+*include 2012-dd-08/2012-dd-08
+
+*include 2014-sd-01/2014-sd-01.svx
+*include 2014-BL888/2014-BL888.svx
+
+*include 2015-mf-06/2015-mf-06.svx
+
+*include 2016-jb-01/2016-jb-01.svx
+
+*include 2017-pw-01/2017-pw-01
+*include 110/110
+*include 2017-cucc-23/2017-cucc-23
+*include 2017-cucc-24/2017-cucc-24
+*include 2017-cucc-28/2017-cucc-28
+*include 2014-ms-14/driveneast
+
+;*include 2018-dm-07/2018-dm-07
+
+*include 2018-aa-01/2018-aa-01
+*include 2018-pf-01/2018-pf-01
+*include 2018-pf-02/2018-pf-02
+
+; Caves munged by DL from old Cambridge Underground surveys
+*include 82/82 ;is in smk-system
+; 107 is in smk-system
+
+; New unnumbered caves from Robert Winkler 2007-08-05
+
+*include 2007-neu/2007-neu
+*include gassischacht/gassischacht
+
+; Caves from UBSS 1989 expedition
+
+*include BS17/BS17
+
+; Unnumbered caves merged from ARGE dataset in 2007 and 2013
+; Hinterland (beyond Augst-eck)
+;1623
+*include haldenloch/haldenloch
+*include gruenstein/gruenstein

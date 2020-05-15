@@ -1,0 +1,30 @@
+*begin theowlandthepussycat
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "The Owl and the Pussycat"
+*date 2009.07.29
+*team Tape Tony Rooke
+*team Insts Tony Rooke
+*team Notes Jessica Stirrups
+*instrument Set pony probably 1 ; Yellow tape with 10cm missing
+; Calibration: none
+; ref.:	2009#8
+
+; ====== stations refindable to link to other surveys: ======
+*export 9
+
+*calibrate tape +0.10	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+1	2	6.10	002	+10
+2	3	11.69	196	+41
+3	9	4.54	120	+2
+
+*data passage station	left	right	up	down	ignoreall
+1	0.2	0.2	20	2	rp bottom of wedged boulder
+2	0.5	1.2	9	1.5	rp flake 
+3	0.3	4	12	5	rp nose on wall
+9	0	2	3	0.5	rp l wall, old station 9 from 23/07/09
+
+*end theowlandthepussycat

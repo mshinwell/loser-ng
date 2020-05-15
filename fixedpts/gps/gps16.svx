@@ -1,0 +1,17 @@
+*begin
+;default to output in utm33
+*cs out utm33
+
+; From Anthony Day's GPS
+; GPS set to UTM33
+*cs UTM33
+*fix gps2012-dd-05 reference 0412410 5283929 1883
+
+; From Olly Betts' Samsung S5
+*cs UTM33
+*fix p2016-jb-01 reference 0410645 5281565 1705
+
+*cs long-lat
+*fix p2016-jb-01-ll reference 13.80943 47.68129 1707
+
+*end

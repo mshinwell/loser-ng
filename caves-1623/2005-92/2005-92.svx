@@ -1,0 +1,31 @@
+*equate p2005-92 2005-92.5
+*begin 2005-92
+*date 2005.07.26
+*title "2005-92"
+*team Instruments Jenny Black
+*team Notes Olly Betts
+*instrument Ol + Jenny's 
+; Ref. 2005#05
+
+*export 5 ; Tag bolt
+
+*calibrate tape 0.00
+
+*data normal from to tape compass clino
+1       2       5.538   -       UP
+3       2       7.700   018     -70
+3       4       6.887   327     +59
+4       5       0.32    241     -17
+
+;1      2.0     1.5     5.5     0       bottom of plumb
+;2      0.75    0.75    -       -       pt on wall
+;3      1.0     0.5     0.5     7.7     jenny on ledge
+;4      0.3     0.5     -       2.8     ol's palm 
+;5      -       -       -       -       tag bolt
+
+*end 2005-92
+
+
+
+
+

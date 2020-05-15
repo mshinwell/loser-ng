@@ -1,0 +1,35 @@
+*begin helterdig
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Helterskelter Dig"
+*date 2003.07.21
+*team Insts Becka Lawson
+*team Notes Martin Green
+*team Pics Martin Green
+*team Tape Becka Lawson
+*instrument Compass #4 ; Clino #4, Tape Yellow Stanley 30m
+; Calibration:
+; ref.:	2003 #2
+
+; ====== stations refindable to link to other surveys: ======
+
+*export p
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+p	1	3.26	059	-48
+2	1	4.56	330	+11
+2	3	1.78	033	+13
+3	4	8.00	-	DOWN	; plumb takenwith no-one at the bottom 
+					; therefore dodgy
+
+;station details
+;name	L	R	U	D	E	description
+;1	0.8	0.5	1.2	0.0	-	RP on bolder on floor
+;2	2.0	0.0	1.0	0.7	-	RP
+;3	1.5	0.0	1.0	0.7	-	RP
+;4	-	-	-	-	-	not marked
+
+*end helterdig

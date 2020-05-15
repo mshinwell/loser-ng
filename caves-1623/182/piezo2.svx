@@ -1,0 +1,47 @@
+; Changes:
+; 1998.02.01 AERW added notes and station details from survey book
+
+*begin Piezo2
+
+; Locn:	Main plateau, WNW of Top Camp, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+; Cave:	Puffball & Icing Sugar Cave (1623/182)
+*title "Puffball, Dark Room to Piezo"
+*date 1992.07.02 ; trip 1992-182-2 in 1992 logbook
+*team Alistair Morris and Julian Haines
+; Calibration:	no
+; ref.:	1992 Survey book pp 1-2
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; existing point on LH wall entering Dark Room from
+		; Tarzan's Folly: carbide mark on corner of flake
+*export 11	; CM on LH wall at bottom of short pitch from Crow's Nest
+		; = extant survey point ?
+
+2       1       11.12   008.5   +01
+2       3       12.61   336     +80
+4       3        0.72   023       0
+4       5       21.60    -      Up
+5       6        8.55   344     +73
+6       7        4.95   316     +70
+7       8        5.19   327     +55
+8       9        5.54   349     +60
+9       10       4.42   317     +37
+10      11       3.36   240     -53
+
+; station details
+; name	notes
+; 1	existing point on LH wall entering Dark Room from Tarzan's Folly
+;	carbide mark on corner of flake
+; 2	CM on back left of waterfall alcove
+; 3	southern of two bolt holes halfway up shaft
+; 4	point on free hanging rope horizontal to bolt
+; 5	bolt at top of free hang
+; 6	CM below bolt
+; 7	CM below bolt
+; 8	CM on obvious lump 2m below bolt
+; 9	Bolt 2nd from top of pitch
+;10	CM on RHS of edge of Crow's Nest
+;11	CM on LH wall at bottom of short pitch from Crow's Nest - extant ?
+
+*end Piezo2

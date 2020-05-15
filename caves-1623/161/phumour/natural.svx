@@ -1,0 +1,158 @@
+;Created Expo 96
+;1996.12.04 AJD/SL connection (Lummat's folly to Natural city) corrected: folly.11 to folly.12
+;1998.03.26 AERW sort begin/end, add comments, refs, *calib clino
+;2009.07.27 AJD sorted titles
+
+; ====== links between surveys in this file: ======
+
+*equate natural.2   dig90.4
+*equate natural.4   samfolly.1
+*equate natural.9   folly.12    ; AJD/SL changed folly.11 to folly.12
+
+*begin natural
+
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+; "Natural City (Puerile Humour Series)"
+*title "Natural City"
+*date 1996.07.14 ; - trip 1996-161-12 in logbook
+*team Insts Dave Milne
+*team Notes Ralph Harwood
+*team Pics Dave Milne
+*team Tape Ralph Harwood
+*instrument Set 3
+; Calibration:  At 161d (each dir. is mean of three readings)
+;   A-B 214, +09.3
+;   B-A 035.8, -07.3
+;
+; Ref.: 1996 KH survey book pp 94-95 and p 79 (redrawn sketch)
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 2   ; CM on rock at bottom pitch
+*export 4   ; CM on wall above pitch of Sam's Folly
+*export 9   ; flake of rock used for tape at pitch head - Natural City
+*export 10  ; CM on east wall above pitch at start of Natural City
+
+*calibrate clino +1.0
+*calibrate tape  -0.20
+;From   to  Tape    Compass Clino 
+1   2   8.00    000 -36
+2   3   4.92    330.5   -07.5
+4   2   4.23    185 +48.3   ;notes read 112%
+5   2   7.37    204.5   -65.5
+5   6   6.56    352 +14.5
+7   6   6.65    198 -65
+7   8   3.55    327 +03
+9   8   9.60    079 -68
+9   10  1.90    187 -29
+
+; LRUD for all stations on 96KHp94 not yet added
+
+*end natural
+
+*begin dig90
+
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+; "Natural City (Puerile Humour Series)"
+*date 1996.07.14 ; - trip 1996-161-12 in logbook
+*team Insts Dave Milne
+*team Notes Ralph Harwood
+*team Pics Dave Milne
+*team Tape Ralph Harwood
+*instrument Set 3
+; Calibration:  At 161d (each dir. is mean of three readings)
+;   A-B 214, +09.3
+;   B-A 035.8, -07.3
+;
+; Ref.: 1996 KH survey book pp 94-95 and p 79 (redrawn sketch)
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 4   ; CM on rock at bottom pitch of Natural City
+
+*calibrate clino +1.0
+*calibrate tape -0.20
+1   2   8.19    030 +19
+3   2   7.41    310 +03
+4   3   3.09    313 +02.5
+
+; LRUD for all stations on 96KHp94 not yet added
+
+*end dig90
+
+*begin samfolly
+
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+; "Sam's Folly"
+*date 1996.07.15 ; - trip 1996-161-16 in logbook
+*team Insts Dave Milne
+*team Notes Sam Lieberman
+*team Pics Sam Lieberman
+*team Tape Both
+*instrument Set 3
+; Calibration:  None - and not really needed !
+;
+; Ref.: 1996 KH survey book p 96
+; "Last pitch of Natural City series - not surveyed properly - too hard"
+;
+; ====== stations refindable to link to other surveys: ======
+
+*export 1   ; CM on R wall above pitch of Sam's Folly
+
+; from  to  Tape    Compass Clino
+1   2   6.5 275 -60 ; tape estimated
+2   3   6.5 -   down    ; 1-3 measured 13m
+
+; 1 CM on R wall going down shaft (= stn 4 in Natural City)
+; 2 random location in rift ~ halfway down
+; 3 landing above two choked 3m pots.
+
+*end samfolly
+
+*begin folly
+
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+*title "Lummat's Folly"
+*date 1996.07.15 ; - trip 1996-161-16 in logbook
+*team Insts Dave Milne
+*team Notes Sam Lieberman
+*team Pics Sam Lieberman
+*team Tape Both
+*instrument Set 3
+; Calibration:  None - assumed same as for Natural City Survey (96KHp94) - clino +1
+;
+; Ref.: 1996 KH survey book pp 96-97, 107 (redrawn sketch)
+;
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1   ; CM RH wall by QM 96-28 (probably drops back into Lfolly)
+*export 2   ; CM RH wall at top of Lummat's folly (nearest QM 96-27)
+*export 7   ; flake to RHS of pit in floor (QM 96-63)
+*export 8   ; CM below cairn at junction just past Natural City
+*export 9   ; edge of slope well above top of 13m pitch to Deadbats Cha.
+*export 12  ; flake of rock used for tape at pitch head - Natural City
+
+*calibrate clino +1.0
+*calibrate tape  -0.2
+
+;From   to  Tape    Compass Clino 
+1   2    8.55   041 -07.5
+2   3    3.06   258 -27
+4   3    2.16   003 +13
+4   5    5.64   232 -37
+5   6   10.80   235 -49
+6   7    8.05   198 -51
+7   8    5.50   257 -20
+9   8   13.80   293 +03
+9   10   6.51   199 -21
+11  8    6.72   128 -31
+12  8    4.59   001 +41
+
+; LRUD for all stations on 96KHp96 not yet added
+
+*end folly

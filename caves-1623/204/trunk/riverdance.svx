@@ -1,0 +1,45 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+
+*begin riverdance
+
+
+*title "Riverdance"
+*date 2006.07.20
+*team Insts Aaron Curtis
+*team Notes Tom Handford 
+
+; Calibration: 150/+25 149/+22 151/+23 332/-22
+; ref.:	2006 #02
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 10
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+
+1	3	6.14	274	-13
+4	3	1.71	115	+31
+4	5	6.99	-	down
+6	5	1.39	130	-11
+7	6	3.90	140	+53
+7	8	18.98	288	-56
+8	9	2.76	235	-11
+9	10	2.21	340	-9
+
+*data passage station left right up down ignoreall
+
+1	-	-	-	-	red paint on boulder from existing survey
+3	0.3	0	0.90	0.20	
+4	0.2	0.3	0	-	
+5	0.8	0.2	-	0
+6	0	0.4	7	1
+7	0	0.25	6	1.5
+8	1.8	0	-	2
+9	0	0.8	-	1.8
+10	0.4	0	3	2.5
+
+*end riverdance
+

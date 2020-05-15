@@ -1,0 +1,57 @@
+*begin
+;default to UTM33 output
+*cs out UTM33
+
+; Location (UTM): 33N 412012 5283623
+; GPS location is taken with a phone; no differentiation between entrances (survey stations 1 and 3)
+; Location needs to be resurveyed accurately using an actual GPS unit, with separate readings for stations 1 and 3 and the cave tag
+; 1940m altitude (believed to be orthometric) taken from the Digitaler Atlas Steiermark (1m resolution)
+; Surface survey needs to be done to connect underground survey to fixed GPS points
+
+; From Phil Withnall's Android phone, using OsmAnd+; coordinates read out using UTM setting
+;*cs UTM33
+;*fix p2017-pw-01b reference 0412012 5283623 1940
+
+*cs long-lat
+
+; BAD FORECAST Redone coordinates for 2017-pw-01 to use a single GPS point and surface survey legs, using Michael's phone
+*fix 2017-pw-01.thirdentrance.s1 reference 13.827080 47.700054 1928
+
+*fix 110.notakittensheckschance.gps reference 13.812227 47.693408 1680
+; KEIN HUBRSHRAUBER ****altitude MADE UP, needs replacing with LIDAR data,
+; not recorded as only phone GPS
+; Altitude is 1680 on kataster as entered by Robert Seebacher so presumably checked and taken from the Austria elevation database
+
+*fix 2017_cucc_23.keinwassermelone.gps reference 13.811546 47.692470 1668
+; KEIN WASSERMELONE ****altitude needs replacing with LIDAR data -
+; N 47 41.55 E 013 48.70 on Brendan's GPS on 7.8.17
+
+*fix 2017_cucc_24.dentrance.gps reference 13.8119126 47.6921198 1679
+; HAPPY BUTTERFLY ****altitude needs replacing with LIDAR data -
+; N 47 41.53 E 013 48.71 on Brendan's GPS on 7.8.17
+
+*fix 2017_cucc_28.blower.gps reference 13.812864 47.691420 1696
+
+;GutneMorgenHoehle/Shagged Spit Schacht(?)/2012-dd-06(?)
+*fix GMH reference 13.83224 47.70212 1843
+
+; FISH FACE / FISCH GESICHT ****altitude needs replacing with LIDAR data -
+; N 47 41.48 E 013 48.77 on Brendan's GPS by Phil on 7.8.17
+
+;'Prospecting 2017-07-22' (Ref 2017#08)
+;*fix 2017_NR_01 reference 13.82460 47.69834 ; missing altitute
+; Snow plug to the south vertical shaft on the north. Walked around
+; snow plug under rock bridge to check out possible horizontal lead
+; under vertical shaft. Lead was choked up a few metres away.
+
+; (Ref 2017#09)
+;*fix 2017_NR_02 reference 13.82542 47.69912 ; missing altitute
+; Pitch below a small ceiling underneath a small downclimb on the
+; cairned path. Cairn above it. On the edge of a depression ~10m away
+; from a snow plug.
+
+; (Ref 2017#10).
+;*fix 2012-OW-7 reference 13.82574 47.69969 ; missing altitute
+; 8m pitch into small cave
+
+*end

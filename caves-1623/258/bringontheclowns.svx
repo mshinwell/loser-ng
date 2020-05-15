@@ -1,0 +1,39 @@
+*begin bringontheclowns
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export 1x 4 9
+
+*title "Bring On The Clowns - below Procrastination Pot"
+*date 2013.07.31
+*team Insts Chris Densham
+*team Notes Becka Lawson
+*instrument Chris's DistoX
+
+
+;ref.: 2013#01
+
+;from	to	tape	compass	clino	remarks
+
+2	1x	0.30	-	up
+3	2	12.34	210	+49
+4	3	6.39	219	+50
+4	5	7.86	175.5	+32
+5	6	3.46	071.5	+13.5
+6	7	8.84	226	+19
+7	8	17.54	069	-11
+8	9	7.65	112.5	+55.5
+
+*data passage station left right up down ignoreall
+
+1x	-	-	-	-	old station from Noel's Procrastination Pot survey
+2	3	5	15	2	Vertically above 1x, top of boulder
+3	1	0.8	9	2.7	base of p[itch, left wall
+4	0	4	13	1	slope above next pitch, numbered 4
+5	1.2	10	4	0	sandy bank between the two chambers
+6	0	9	14	1.8	l wall chamber, numbered 
+7	0	2	4	2	top end of chamber
+8	0	2	9	2.7	l wall before climb
+9	1.5	0	5	1.8	top of pitch before blind pit
+
+*end   bringontheclowns

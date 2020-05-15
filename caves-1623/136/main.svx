@@ -1,0 +1,333 @@
+;1998.03.27 AERW sorted begin/end, added comments and refs.
+
+; Resurvey of 136 + some new bits + 161 connection
+
+; Cave: 1623/136, Steinschlagschacht
+; Locn: Totes Gebirge, Austria
+
+; ====== links between surveys making up the 136 survey: ======
+
+*equate entrance.23 fantasy.1
+*equate entrance.33 theatre.11  footlights.1
+*equate theatre.1   distraction.1
+*equate distraction.9   gods.2
+*equate theatre.8   gods.5
+
+*begin entrance
+
+; Cave: 1623/136, Steinschlagschacht
+; Locn: Totes Gebirge, Austria
+*title "136 from entrance"
+*date 1997.07.29 ; - trip 1997-136-2 in logbook
+*team Insts Julian Haines
+*team Notes Anthony Day
+*team Pics Anthony Day
+*team Tape both ; all
+*instrument Set 4
+; Calibration:  None
+;
+; ====== stations refindable to link to other surveys: ======
+
+*export 1   ; Fixed point at 136 entrance
+*export 10 ; FIXME: see notes in 136.svx
+*export 23  ; CM at eyehole
+*export 33  ; 1st traverse bolt, pitch below Eyehole pitch (at Footlights level)
+
+;From   to  Tape    Compass Clino
+*calibrate tape -0.31
+*begin
+*flags surface
+2   1    2.71   303 +06
+2   3    2.92   341 -14
+*end
+4   3    4.81   -   up
+5   4    3.26   210 +23 ;clino hard to read
+6   5    8.33   250 +39
+*team Insts Becka Lawson
+*calibrate tape 0
+6   7   35.64   -   down    ;true length = 30.00+5.11+0.22+0.31
+*calibrate tape -0.31
+8   7    5.00   295 -18
+8   9   14.07   071 -29
+10  9    3.40   357 +29
+10  11   7.59   109 -17
+11  12   1.80   -   down
+*calibrate tape 0
+12  13   0.54   105 00  ;compass from top
+*calibrate tape -0.31
+13  14  17.91   -   down
+14  15   1.68   145 -37
+15  16  11.91   -   down
+*calibrate tape 0
+16  17   1.54   160 00
+*calibrate tape -0.31
+18  17  25.85   334 +69
+18  19   7.54   -   down
+19  20   4.94   152 -06
+20  21  28.11   -   down
+22  21   4.15   266 -34
+22  23   3.74   121 -05
+24  23   5.49   344 +02
+25  24   2.55   305 +37
+25  26   8.53   -   down
+27  26   3.79   331 +28
+27  28   9.35   -   down
+29  28   3.05   340 -22
+29  30   4.53   -   down
+31  30   2.52   268 +33
+31  32   9.53   -   down
+33  32   5.11   347 -05
+
+;no tape calibration error for LRUD
+;*begin LRUD
+;stn    L   R   U   D   Desc
+;1  -   -   -   -   Fixed point at 136 entrance
+;2  -   -   -   1.50    Point on wall
+;3  -   -   -   -   Point on rope at entrance
+;4  0.40    1.00    -   0   Rock at foot of plumb
+;5  0   1.10    2.50    0.80    CM LH wall
+;6  2.50    0   3.50    lots    Pitch head bolt
+;7  1.00    1.30    -   0   Foot of plumb
+;8  0   1.00    lots    1.70    CM LH wall
+;9  -   -   -   -   CM boulder in big chamber by traverse to 2nd pitch
+;10 3.00    0   1.00    ~30.00  CM RH wall
+;11 -   -   -   -   CM pitch head
+;12 -   -   -   -   Point nr 1st rebelay
+;13 -   -   -   -   Rebelay bolt
+;14 -   -   -   -   Rock nr rebelay at foot of plumb
+;15 -   -   -   -   Rebelay bolt
+;16 -   -   -   -   Foot of plumb
+;17 -   -   -   -   Next rebelay bolt
+;18 1.50    1.50    -   1.00    Deviation bolt
+;19 0.50    0.50    LW  0   CM foot of plumb
+;20 1.80    0.50    -   -   Point in free space
+;21 0.50    0.80    LW  0   Foot of plumb
+;22 1.50    0   LW  -   CM RH wall
+;23 0   1.00    LW  0.70    CM at eyehole
+;24 1.20    0   LW  1.80    CM RH wall
+;25 0   0.80    LW  ~2.00   CM LH wall
+;26 0   1.50    LW  0   CM foot of plumb
+;27 1.50    0   -   -   CM pitch wall
+;28 0.80    1.50    LW  0   Cairn at foot of plumb
+;29 -   -   -   -   CM RH side alcove
+;30 -   -   -   -   CM foot of plumb
+;31 -   -   -   -   Rebelay bolt
+;32 0   1.80    LW  1.60    CM foot of plumb
+;33 1.60    0   LW  1.50    1st traverse bolt next pitch
+;*end LRUD
+
+*end entrance
+
+*begin theatre
+
+; Cave: 1623/136, Steinschlagschacht
+; Locn: Totes Gebirge, Austria
+*title "136 eyehole route to Theatre"
+*date 1997.07.31 ; - trip 1997-136-4 in logbook
+*team Insts Julian Haines
+*team Notes Anthony Day
+*team Pics Anthony Day
+*team Tape both
+*instrument Set 4
+; Calibration:  None
+;
+; ====== stations refindable to link to other surveys: ======
+
+*export 1   ; Point on boulder, Orchestra Pit
+*export 5
+*export 8   ; CM top of pitch into Theatre, at Gods' traverse level
+*export 11  ; 1st traverse bolt, pitch below Eyehole pitch (at Footlights level)
+
+*calibrate tape -0.31
+;From   to  Tape    Compass Clino
+1   2    6.61   080 +03
+1   3    8.47   170  00
+1   4    9.95   270.5   +20
+5   4   12.18   195 -36
+6   5   24.85   -   DOWN
+; tape snapped
+*calibrate tape +0.47
+6   7    1.00   225  00
+8   7   21.00   -   DOWN
+8   9   12.15   303 +80
+10  9    4.40   150 -25
+11  10   3.20   150 -10
+
+;no tape calib error on LRUD
+;Stn    L   R   U   D   Desc
+;*begin LRUD
+;1  -   -   -   -   Point on boulder
+;2  3.00    0.70    LW  1.50    Point on back wall
+;3  -   -   LW  1.00    Point at back of aven
+;4  8.50    2.00    LW  0.50    Point on boulder
+;5  4.00    6.00    LW  1.80    Point on boulder foot of plumb
+;6  -   -   -   -   Rebelay bolt
+;7  -   -   -   -   Foot of plumb
+;8  -   -   -   -   CM top of pitch
+;9  -   -   -   -   Deviation Krab
+;10 -   -   -   -   Y hang knot
+;11 -   -   -   -   1st traverse bolt
+;*end LRUD
+
+*end theatre
+
+*begin fantasy
+
+; Cave: 1623/136, Steinschlagschacht
+; Locn: Totes Gebirge, Austria
+*title "136 Main Route (1983) - Phreatic Fantasy"
+*date 1997.07.31 ; - trip 1997-136-4 (with some leakage from 1997-136-3)
+*date 1997.08.3 ; - trip 1997-136-6 in logbook
+*team Insts Julian Haines
+*team Notes Anthony Day
+*team Pics Anthony Day
+*team Tape Becka Lawson
+*instrument Set 4
+; Calibration:  None
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1   ; CM at eyehole
+
+*calibrate tape +0.47
+;
+;From   to  Tape    Compass Clino
+1   2   13.14   -   down
+3   2    3.14   245 -12
+3   4    4.65   108 +03
+5   4    3.61   250 +01
+5   6   13.09   -   down
+7   6    5.49   288 +07
+;7  8    3.08       -12
+;Continued on 3/8/97 by same team
+8   7    3.08   334 +12
+9   8    4.15   260 +45
+9   10   8.80   -   down
+11  10   2.50   210 +25
+11  12   6.77   -   down
+*calibrate tape 0
+12  13   1.05   061 00          ; true length
+*calibrate tape +0.47
+13  14   9.85   -   down
+*calibrate tape 0
+14  15   2.66   005 00          ;true length
+*calibrate tape +0.47
+15  16   8.90   -   down
+
+;no tape calib error on LRUD
+;Stn    L   R   U   D   Desc
+;*begin LRUD
+;1  -   -   -   -   CM point on entrance survey
+;2  0   1.20    -   1.00    CM RH wall
+;3  1.20    0   -   1.50    CM LH wall (orig??)
+;4  1.50    0   -   1.20    CM RH wall
+;5  -   -   -   -   CM back wall at pitch head
+;6  0.70    1.50    -   1.80    CM foot of plumb on ledge
+;7  0.50    1.20    -   1.80    CM nobble LH wall
+;8  -   -   -   -   CM roof
+;*end LRUD
+
+*end fantasy
+
+*begin gods
+
+; Cave: 1623/136, Steinschlagschacht
+; Locn: Totes Gebirge, Austria
+*title "136 - 161 connection"
+*date 1997.08.02 ; - trip 1997-136-5 in logbook
+*team Insts Becka Lawson
+*team Notes Julian Haines
+*team Pics Julian Haines
+*team Tape Becka Lawson
+*instrument Set 4
+; Calibration:  None
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1   ; CM '13' at edge of shaft, end of Elin Algor
+*export 2   ; one of rebelay bolts ? need book !
+*export 5   ; CM top of pitch into Theatre, at Gods' traverse level
+
+*calibrate tape +0.47
+;
+;From   to  Tape    Compass Clino
+1   2   10.95   170 +51
+2   3    9.14   233 +65
+3   4   10.04   249 +17
+4   5    4.83   269 +04
+*end gods
+
+*begin distraction
+
+; Cave: 1623/136, Steinschlagschacht
+; Locn: Totes Gebirge, Austria
+*title "Distraction,136"
+*date 1997.08.05 ; trip 1997-136-8 in logbook
+*team Insts Chris Densham
+*team Notes Andrew Atkinson
+*team Pics Andrew Atkinson
+*team Tape Chris Densham
+*instrument Set 2
+; Calibration:  None 
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1   ;
+*export 9   ;
+
+;From   to  Tape    Compass Clino 
+1   2   9.58    052.5   -5.5
+3   2   4.78    -   down
+3   4   10.51   000 +53.5
+5   4   3.05    -   down
+6   5   2.21    204.5   -4
+7   6   28.10   -   down
+8   7   2.35    093 -20
+8   9   1.08    060 +35 ; originally said +35+ AERW
+*end distraction
+
+*begin footlights
+
+; Cave: 1623/136, Steinschlagschacht
+; Locn: Totes Gebirge, Austria
+*title "Footlights traverse"
+*date 1997.8.12 ; *instrument Set 2
+*team Insts Jon Barber ; (mostly). Midnight shift (hence some gross errors): Chris
+*team Notes Chris
+*team Pics Chris
+*team Tape Brian
+; Calibration:  Top camp
+;       compass clino
+;rock to bolt:  088.0   -07
+;       087.0   -07
+;       087.0   -06
+;bolt to rock:  267 +07
+;       268 +07
+;       268 +08
+; Ref.: 1997
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1   ; 1st traverse bolt, pitch below Eyehole pitch (at Footlights level)
+*export 9 12
+
+;tape reads overlong by 0.2m
+*calibrate tape -0.20
+;From  to   Tape    Compass Clino
+1   2   7.71    155 +07 ;1 = 1st traverse bolt before pitch down to Traverse of the Gods
+2   3   5.50    205 -54
+3   4   11.50   115 -72
+6   5   4.79    019 -30 ;5 = bolt at end of swing across into window
+6   7   3.30    210 +69 ;7 = bolt at head of climb up
+8   7   6.55    044 +8  
+8   9   3.95    220 -33 ;9 = LH 'Y'hang bolt
+9   10  0.50    295 -45
+10  11  18.40   -   down
+11  12  1.70    005 +10 ;12 = Rock bridge rebelay bolt. Gd 2 comp, est clino
+;this leg superseded by footconn survey (wookey, becka 1999.07.23)
+;12 13  30.00   -   down    ;Yes really. 13 = foot of pitch also reached by climb from Orchestra pit
+15  14  7.08    320 +66 ;CJD readings. Read as 140. Compass stuck 180 deg out?? Looks right now!
+5   15  0.80    068 +27 ;CJD
+14  16  4.84    320 +45 ;CJD Read as 140. Compass stuck 180 deg out?? Looks right now!
+4   16  0.25    130 -34 ;CJD
+*end footlights

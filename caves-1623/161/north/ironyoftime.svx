@@ -1,0 +1,35 @@
+*begin ironyoftime
+
+;UpperRepton   (m, 360)
+
+*date 2009.08.11
+*team wookey insts
+*team "Andrew Atkinson" notes
+; ref 2009#38
+
+*export 7 6 5
+
+     1         0      15.300   60.00  -68.00
+     2         1       1.455   77.00  -26.00    
+     2         3      22.470  352.00    7.00    
+     4         3      19.750  159.00   -8.00    
+     4         5       8.280  314.00   29.00    
+     6         5       5.390  141.00  -17.00    
+     7         0       4.550  123.00   11.00
+;don't measure these
+*flags duplicate 
+; fake legs for bit we could see
+;     6         8       2      240      +10
+;     8         9       15     314      +15
+
+*data passage station left right up down ignoreall
+
+2  0     0.87  2.2   0.74  RP LHW at pitch head
+1  -     -     -     -     RP at pitch edge (rubbed off already!)
+3  1.1   0.15  1.98  1.42  RP RHW
+4  0.7   1.7   2.65  1.19  RP on boulder
+5  0.4   1.6   1.8   1.7   RP wall pendant LHW
+6  0.75  0.76  1.9   1.02  RP on wall at passage split
+;6  0.75(2.3) 0.76 1.9(2.9 up slot) 1.02 RP on wall at passage split  
+
+*end ironyoftime

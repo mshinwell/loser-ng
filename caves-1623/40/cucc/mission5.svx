@@ -1,0 +1,444 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Eishöhle, 1623/40
+
+; File contains mission5, mission5tie, mission 6-9, missg1, mission10
+
+*equate mission5.6 mission5tie.1
+*equate mission5.1 mission6.5
+*equate mission6.1 mission7.13
+*equate mission8.6 mission6.4
+*equate mission8.1 mission9.13
+*equate mission9.6  mission10.9
+
+*begin mission5
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Eishöhle, 1623/40
+*title "Mission Impossible (5)"
+*date 2001.08.18
+*team Insts Olly Betts
+*team Notes Hilary Greaves
+*team Pics Hilary Greaves
+*team Tape Olly Betts
+*instrument Compass #1 ; Clino #1, Tape Rabone open reel
+; Calibration: <not yet done>
+*ref 15
+
+
+*export 1 6
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+*units compass degrees
+*units clino degrees
+
+
+*data normal from to tape compass clino
+2	1	18.68	304	+46
+3	2	8.19	328	+34.5
+4	3	2.59	008	+41
+5	4	2.45	296	+7
+6	5	15.28	001.5	-14
+
+;station details
+*data passage station left right up down
+1	5	1	3	0	;lower of 2 bolts on Y-hang
+2	0	3	5	1	;pencil cross on small lump below spit
+3	0	2	1.10	1.40	;vein on wall
+4	0.5	0.3	1	2	;pencil cross on roof projection
+5	1	1	1	2	;wall projection
+6	5	0	8	2	;third bolt back from edge
+
+*end mission5
+
+*begin mission5tie
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Eishöhle, 1623/40
+*title "Mission Impossible (5 tie in)"
+*date 2001.08.19
+*team Insts Olly Betts
+*team Notes Hilary Greaves
+*team Pics Hilary Greaves
+*team Tape Olly Betts
+*instrument Compass #1 ; Clino #1, Tape Rabone open reel
+; Calibration: <not yet done>
+; ref.:	16
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 3
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+*data normal from to tape compass clino
+2	1	2.75	234	+18
+2	3	0.85	256.5	-21.5
+
+;station details
+*data passage station left right up down
+2	0	3	9	1	;Olly's head
+1	5	0	8	2	;= station 6 of prev survey (3rd spit back)
+*data passage station left right up down
+2	0	3	9	1	;Olly's head
+3	1	2	9	1	;RP on rock at pitch head marked 1 = tie in to OTT survey
+
+*end mission5tie
+
+*begin mission6
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Eishöhle, 1623/40
+*title "..."
+*date 2001.08.19
+*team Insts Olly Betts
+*team Notes Hilary Greaves
+*team Pics Hilary Greaves
+*team Tape Olly Betts
+*instrument Compass #1 ; Clino #1, Tape Rabone open reel
+; Calibration: <not yet done>
+; ref.:	17
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 4 5
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+*data normal from to tape compass clino
+
+;from	to	tape	compass	clino	; remarks
+2	1	15.32	338	-15
+2	3	3.83	133	+37
+4	3	4.99	048	-16
+4	5	8.44	216	-17.5
+
+;station details
+;name	L	R	U	D	description
+;1	1	0	?	2	CM on RH wall
+;2	3	0	?	?	CM on RH wall
+;3	0	2	?	4	CM on LH wall
+;4	0	1	5	0.8/?	CM on LH wall
+;5	2	0	2	0	lower of 2 bolts on Y-hang = pt 1 on prev survey
+
+*data passage station left right up down
+;name	L	R	U	D	description
+2	3	0	-	-	;CM on RH wall
+1	1	0	-	2	;CM on RH wall
+*data passage station left right up down
+2	3	0	-	-	;CM on RH wall
+3	0	2	-	-	;CM on LH wall
+*data passage station left right up down
+4	0	1	5	0.8	;CM on LH wall
+3	0	2	-	-	;CM on LH wall
+*data passage station left right up down
+4	0	1	5	0.8	;CM on LH wall
+5	2	0	2	0	;lower of 2 bolts on Y-hang = pt 1 on prev survey
+
+*end mission6
+
+*begin mission7
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Eishöhle, 1623/40
+*title "..."
+*date 2001.08.20
+*team Insts Olly Betts
+*team Notes Hilary Greaves
+*team Pics Hilary Greaves
+*team Tape Olly Betts
+*instrument Compass #1 ; Clino #1, Tape Rabone open reel
+; Calibration: <not yet done>
+*ref 18
+
+*export 13
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+*data normal from to tape compass clino
+
+2	1	3.35	151	+05 	; note give compass as 051
+2	3	1.82	352	 0
+4	3	4.74	159	+08.5
+6	4	0.44	127	-18
+6	5	8	-	down ; tape not written down at time
+7	4	2.41	157	+07
+8	7	2.37	194	+37
+9	8	8.65	196	+30
+8	10	5.09	-	down
+10	11	0.76	282	-52
+11	12	6.10	-	down
+13	12	1.32	065	-01 ; notes have 12 -> 13 but that's wrong
+
+;station details
+;name	L	R	U	D	description
+;1	?	0.5	?	?	pencil mark on wall
+;2	0	1	?	2.0/?	CM on LHW
+;3	0	1	?	2/?	CM on LHW
+;4	4	0	?	?	spit
+;5	-	-	-	-	bottom of plumb
+;6	-	-	-	-	Olly's eye
+;7	0	0.5	?	?	unmarked (on wall)
+;8	0	1	?	?	spit
+;9	0	2	?	1.7	on wall in aven chamber bottom of V shaped fossil on LHW looking upstream
+;10	-	-	-	-	bottom of plumb (in space)
+;11	0	1.5	?	?	unmarked (on wall)
+;12	0	2	?	2	bottom of plumb (unmarked, on wall)
+;13	2	0	?	2	CM on RHW (= pt 1 of prev survey)
+
+*data passage station left right up down
+;name	L	R	U	D	;description
+2	0	1	-	2.0	;CM on LHW
+1	-	0.5	-	-	;pencil mark on wall
+
+*data passage station left right up down
+2	0	1	-	2.0	;CM on LHW
+3	0	1	-	2	;CM on LHW
+
+*data passage station left right up down
+4	4	0	-	-	;spit
+3	0	1	-	2	;CM on LHW
+
+*data passage station left right up down
+6	-	-	-	-	;Olly's eye
+4	4	0	-	-	;spit
+
+*data passage station left right up down
+6	-	-	-	-	;Olly's eye
+5	-	-	-	-	;bottom of plumb
+
+*data passage station left right up down
+7	0	0.5	-	-	;unmarked (on wall)
+4	4	0	-	-	;spit
+
+*data passage station left right up down
+8	0	1	-	-	;spit
+7	0	0.5	-	-	;unmarked (on wall)
+
+*data passage station left right up down
+9	0	2	-	1.7	;on wall in aven chamber bottom of V shaped fossil on LHW looking upstream
+8	0	1	-	-	;spit
+
+*data passage station left right up down
+8	0	1	-	-	;spit
+10	-	-	-	-	;bottom of plumb (in space)
+11	0	1.5	-	-	;unmarked (on wall)
+12	0	2	-	2	;bottom of plumb (unmarked, on wall)
+
+*data passage station left right up down
+13	2	0	-	2	;CM on RHW (= pt 1 of prev survey)
+12	0	2	-	2	;bottom of plumb (unmarked, on wall)
+
+*end mission7
+
+*begin mission8
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Eishöhle, 1623/40
+*title "..."
+*date 2001.08.27
+*team Insts Olly Betts
+*team Notes Martin Green
+*team Pics Martin Green
+*team Tape Martin Green
+*instrument Compass #1 ; Clino #1, Tape Rabone open reel
+; Calibration: <not yet done>
+*ref 32
+
+
+*export 1 6
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	2.73	331	+28
+
+; at this point the end fell off the tape and we read from the 1m mark
+*calibrate tape +1.0	; +ve if tape was too short, -ve if too long
+
+3	2	10.34	353.5	+43
+4	3	6.11	348	+54
+4	5	4.40	-	down
+5	6	2.65	213.5	+02.5
+
+;station details (original format)
+;name	L	R	U	D	description
+;1	1.1	0.0	7.0	lots	spit rh wall
+;2	1.0	2.0	2.2	1.4	CM on bottom of boulder jammed in rift
+;3	1.5	1.7	0.6	1.6	CM on bottom of flake
+;4	0.9	1.4	0.3	-	CM on bottom of flake
+;5	0.9	1.4	-	1.6	Olly's head
+;6	-	-	-	-	CM on wall at thigh height = mission6.4
+
+*data passage station left right up down
+;name	L	R	U	D	description
+4	0.9	1.4	0.3	-	;CM on bottom of flake
+3	1.5	1.7	0.6	1.6	;CM on bottom of flake
+2	1.0	2.0	2.2	1.4	;CM on bottom of boulder jammed in rift
+1	1.1	0.0	7.0	10	;spit rh wall
+*data passage station left right up down
+4	0.9	1.4	0.3	-	;CM on bottom of flake
+5	0.9	1.4	-	1.6	;Olly's head
+6	-	-	-	-	;CM on wall at thigh height = mission6.4
+
+*end mission8
+
+*begin mission9
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Eishöhle, 1623/40
+*title "..."
+*date 2001.08.29
+*team Insts Olly Betts
+*team Notes Martin Green
+*team Pics Martin Green
+*team Tape Olly Betts
+*instrument Compass #1 ; Clino #1, Tape Rabone open reel
+; Calibration: <not yet done>
+*ref 34
+
+
+*export 1 6 13
+
+*calibrate tape +1.0	; +ve if tape was too short, -ve if too long
+*data normal from to tape compass clino
+;from	to	tape	compass	clino	; remarks
+2	1	6.45	325	+56
+3	2	7.96	322	+38
+3	4	2.31	089	-21
+5	4	4.62	199	-28
+5	6	4.09	351	+01
+7	6	13.29	311.5	+51
+*equate 7 8 ; cock-up in numbering in notes
+8	9	1.54	201	+11
+10	9	4.80	000	+52
+11	10	13.40	356	+43
+12	11	7.88	008	+58
+12	13	3.31	170	-43
+
+;station details (original format)
+;name	L	R	U	D	description
+;1	0.0	0.5	2.0	1.5	bolt
+;2	0.0	3.0	6.0	3.0	CM on wall
+;3	0.0	1.2	1.0	0.6	CM on corner
+;4	0.9	0.3	0.6	0.2	top of cairn
+;5	3.0	3.0	3.0	0.4	CM on tip of wall spike
+;6	4.0	2.0	2.4	0.0	bolt
+;7 == 8
+;8	0.3	1.2	1.2	1.0	CM on nose
+;9	0.2	1.1	0.1	0.7	bolt
+;10	2.5	2.0	1.0	2.5	CM up and left of bolt
+;11	0.7	2.5	3.5	3.0	CM 1.8m above and right of bolt
+;12	0.8	0.0	lots	lots	top bolt of pitch
+;13	-	-	-	-	spit W wall before inlet == mission8.13
+
+*data passage station left right up down
+;name	L	R	U	D	description
+3	0.0	1.2	1.0	0.6	;CM on corner
+2	0.0	3.0	6.0	3.0	;CM on wall
+1	0.0	0.5	2.0	1.5	;bolt
+
+*data passage station left right up down
+3	0.0	1.2	1.0	0.6	;CM on corner
+4	0.9	0.3	0.6	0.2	;top of cairn
+
+*data passage station left right up down
+5	3.0	3.0	3.0	0.4	;CM on tip of wall spike
+4	0.9	0.3	0.6	0.2	;top of cairn
+
+*data passage station left right up down
+5	3.0	3.0	3.0	0.4	;CM on tip of wall spike
+6	4.0	2.0	2.4	0.0	;bolt
+
+*data passage station left right up down
+7	0.3	1.2	1.2	1.0	;CM on nose
+6	4.0	2.0	2.4	0.0	;bolt
+
+*data passage station left right up down
+7	0.3	1.2	1.2	1.0	;CM on nose
+9	0.2	1.1	0.1	0.7	;bolt
+
+*data passage station left right up down
+12	0.8	0.0	10	10	;top bolt of pitch
+11	0.7	2.5	3.5	3.0	;CM 1.8m above and right of bolt
+10	2.5	2.0	1.0	2.5	;CM up and left of bolt
+9	0.2	1.1	0.1	0.7	;bolt
+
+*data passage station left right up down
+12	0.8	0.0	10	10	;top bolt of pitch
+13	-	-	-	-	;spit W wall before inlet == mission8.13
+
+*end mission9
+
+
+*equate missg1.1 mission9.1
+
+
+*begin missg1
+*export 1
+*date 2001.08.29
+; made up data for tube
+*data normal from to tape compass clino
+1 2 9 330 80
+2 3 8 - up
+*end missg1
+
+*begin mission10
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Eishöhle, 1623/40
+*title "..."
+*date 2002.08.11
+*team Insts Olly Betts
+*team Notes Wookey
+*team Pics Wookey
+*team Tape Olly Betts
+*instrument Compass #5 ; Clino #5, Tape Blue Draper
+; Calibration: <not yet done>
+*ref 1
+
+
+*export 9
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+1	2	11.94	-	down
+3	1	 2.75	204	-16	; notes incorrectly say "3 2 ..."
+4	3	 2.91	211	-17
+4	5	 6.96	064	 00
+1	6	 8.32	181	+46.25
+7	6	 3.70	355	+48
+7	8	 6.06	253	+38
+8	9	 4.87	291	+50
+
+
+;station details
+*data passage station left right up down 
+;name	L	R	U	D	description
+1	0.2	-	-	0.6	;RP '.1' LHW
+2	-	-	-	0	;bottom of plumb
+
+*data passage station left right up down 
+;3	1	.5	~20	2	RP
+3	1	.5	20	2	;RP
+1	0.2	-	-	0.6	;RP '.1' LHW
+
+
+*data passage station left right up down 
+;4	.5	2	lots	1.5	RP
+;5	.2	1	lots	1.8	RP '.5'
+4	.5	2	20	1.5	;RP
+3	1	.5	20	2	;RP
+
+*data passage station left right up down 
+4	.5	2	20	1.5	;RP
+5	.2	1	20	1.8	;RP '.5'
+
+*data passage station left right up down 
+1	0.2	-	-	0.6	;RP '.1' LHW
+6	-	-	-	-	;RP on roof
+
+*data passage station left right up down 
+7	1.5	0	0.6	1.5	;Ol's fist
+6	-	-	-	-	;RP on roof
+
+*data passage station left right up down 
+7	1.5	0	0.6	1.5	;Ol's fist
+8	2.2	3.5	1.6	1	;roof pendant
+9	3	4	2	1	;top bolt
+
+*end mission10

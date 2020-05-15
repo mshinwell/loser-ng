@@ -1,0 +1,51 @@
+*begin trihang
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle
+*title "Trihang (part of Gaffered pitch series)"
+*date 2003.07.25
+*team Insts Martin Green
+*team Notes Earl Merson
+*team Tape Both
+*instrument Compass set #3; Clino set #3 
+; ref.:	2003#07
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 5 6 9 12 14
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	6.76	058	-04
+2	3	5.07	015	-03
+3	4	10.20	357	+04
+4	5	5.97	065	+16
+6	5	6.41	181	-11
+7	6	3.36	182	+07
+8	7	4.29	188	+42
+9	8	5.28	252	+22
+10	1	8.62	049	-01
+11	10	7.47	030	-63
+12	11	7.54	038	-40 ; compass changed from 138 to 318.
+13	12	17.56	036	-55
+14	13	2.51	039	-18
+
+;stn	L	R	U	D	Desc
+;1	1	3	5	1.6	RP LW at exit of chamber
+;2	0.3	0.7	0	1.2	RP on roof in arch
+;3	0.4	1.8	1.5	0.7	RP on nobble LW
+;4	0	1	1.8	1.5	RP LW at head height
+;5	1.2	0	4	1.5	RP RW
+;6	2.2	1	6	1.6	RP RW head height in chamber
+;7	1.3	0	6	1.5	RP RW at drop, shoulder height
+;8	0	2	7	1.4	RP LW shoulder height
+;9	0	1	7	1.4	RP LW chest height
+;10	4	5	10	0.6	RP on loose rock, bottom of pitch
+;11	3.5	1	7	1.2	RP on right-hand side, looking up,
+;					below deviation
+;12	1	5	5	1	pitch-head bolt
+;13	2	2	4	pitch	RP on nose of rock at head of pitch
+;14	-	-	-	-	=interesting.1
+
+*end trihang

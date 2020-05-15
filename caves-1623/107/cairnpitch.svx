@@ -1,0 +1,21 @@
+*begin cairnpitch
+*date 2013.08.10
+*team Insts Stuart Walker
+*team notes Jenny Black
+*instrument pony CUCC #3, Olly's disto
+;scan olly360.bmp.png
+
+*export 1
+
+*data normal from to compass clino tape
+
+1	2	359	-16	3.959
+2	3	173	-65	3.741
+3	4	117	-51	3.260
+
+*data passage station left right up down ignoreall
+1	-	-	-	-	;=old cairn station [NB cairn nolonger there in 2015]
+2	0.8	0.1	2.1	1.7	;np wall
+3	-	-	-	-	;np rhw
+;4					;not refindable
+*end cairnpitch

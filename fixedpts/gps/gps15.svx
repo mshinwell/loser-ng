@@ -1,0 +1,15 @@
+; From Mike Futrell's GPS
+; Location GPS Tag - 411768,  5283469, ELEV 1888.
+*begin
+;default to output in utm33
+*cs out utm33
+
+*cs UTM33
+*fix p2015-mf-06 reference 411768 5283469 1888
+
+*cs LONG-LAT
+; Olly Betts' GPS
+*fix wk11-2015 reference 13.815072 47.675221 1748  
+; Wookey's phone GPS 2015-08-09
+*fix B4-2015 reference 13.80772 47.67738 1666
+*end

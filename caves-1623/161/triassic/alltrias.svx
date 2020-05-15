@@ -1,0 +1,95 @@
+;===== Triassic Park =====
+
+; all passages from circa French Revolution to Bugger, with all
+; side passages *except* Puerile Humour
+
+; EXPORTS: these are the only points to which other surveys should link
+; No prefix level here, so nothing to export from...
+; Surface:Triassic interface at the "new" back entrance (or exit :-)
+;*export scarface.26        ; 161d entrance
+; France:Triassic interface at two adjacent stations in SideBrown
+;*export triassic.pt1.1
+;*export triassic.pt1.2
+; Triassic:Puerile Humour interface in TP2
+;*export triassic.pt2.11    ;
+; Triassic:RHR interface down the pitch into Knossos:
+;*export Minoan.4
+
+;----------------
+
+*include triassic
+
+*equate Triassic.pt1.27     palace.1
+*include palace
+
+*equate teapot.1    triassic.pt1.34
+*include teapot
+
+*equate snug.1      triassic.pt2.3
+*include snug
+
+*equate altuni.34   triassic.pt1.35
+*include altuni
+
+*equate hymen.1     altuni.33
+*include hymen
+
+*equate altuni.7    magicjumars.1
+*include magicjum
+
+*equate triassic.pt2.3  fconnect.1
+*include fogies
+
+*equate keinzimmer.1    fogies2.3
+*include keinzimm
+
+*equate lostworld.upstream.1    keinzimmer.18
+*equate lostworld.downstream.1  keinzimmer.21
+*equate lostworld.upstream2.1   keinzimmer.19
+*include lostworl
+; this data already in previous file: *include LostIII
+
+*equate tapeworm.1  triassic.pt2.9
+*include tapeworm
+
+*equate chaos.1     triassic.pt3.8
+*equate chaos.2     triassic.pt3.9
+*include chaos
+
+*equate interview.pt1.1 triassic.pt3.5
+; notes say connected to point 7. I think this is bollocks. AJD
+; see sketch 1995KHp59 and notes 1996KHp87
+*equate chaos.10    interview.pt5.1
+;this is all very dodgy. I may have equated the wrong points AJD
+; and I can't check without 96KHp82 (missing in my photocopy) AERW
+;*equate triassic.pt3.9 interview.minoancon.1
+;the minoancon survey is so wrong that it has been removed entirely
+*include intrview
+
+*equate triassic.pt3.7  fcr.1
+*include fcr
+
+*equate chosspot.1  fcr.3 
+*include chosspot
+
+*equate henricat.pt1.87 fcr.15
+; fcr.15 is second bolt at pitch head
+*include henricat
+
+; ====== 1998 expo stuff ======
+
+*equate OverFlow.0  Triassic.pt1.38
+*include ovflow
+
+;*equate EauNatBodge.0  Triassic.pt3.2
+
+; NB that last equate should really be to an EauNatLink survey, but
+; as no-one has yet done that, it is to the invented bodge.
+; Remember to delete all trace of the bodge when real survey
+; is done
+
+*equate EauNatLink.0    Triassic.pt3.2; Real link to main survey.
+*include eaunat
+
+*equate scorchio.1 triassic.pt2.13 ; this is something of a bodge - pt13 couldn't be found
+*include scorchio

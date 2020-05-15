@@ -1,0 +1,99 @@
+*begin snowhole
+
+;;; TRIP COMMENT FROM POCKETTOPO ;;;
+;  ; DistoX2-UBSS3
+;Notes: Andrew Atkinson
+;Inst: Sioned Haughton
+
+*date 2016.07.05
+
+; stations linked into other surveys (or likely to)
+*export 10
+
+; Cave:Tunnocks
+; Area in cave/QM: 
+*title "Wrong Way"
+
+*team Insts Sion Haughton 
+*team Notes Andrew Atkinson
+ 
+*instrument  UBSS 3 forward backwards checked on surface, correct to 0.1 degree
+*ref 2016#19
+
+*data normal from to tape compass clino ignoreall
+1	0	11.088	124.1	51.3
+1	2	3.209	215.6	-15.5
+2	3	1.177	0.2	77.2 ext:0.0,0.8,2.0 
+3	4	10.915	66.7	-47.8 flip_TOP
+4	5	10.438	1.8	-39.8 flip_TOP
+6	4	4.721	333.3	55.2 ext:0.0,0.6,0.5 
+7	6	9.819	347.8	47.4
+7	8	4.006	87.7	-52.0
+9	8	18.460	322.1	41.6
+9	10	4.768	111.0	12.5
+
+;;;;;;;;;;;;
+*flags splay
+0	..	0.000	0.0	0.0
+1	..	2.921	152.4	42.9
+1	..	2.768	107.6	45.4
+1	..	4.133	166.1	59.5
+1	..	4.180	195.3	50.9
+2	..	3.915	147.6	33.5
+2	..	2.015	171.8	24.2
+2	..	2.771	139.6	61.2
+3	..	2.876	94.7	-6.6
+3	..	3.154	51.3	-5.4
+3	..	2.263	31.0	-35.7
+3	..	1.639	120.7	-77.5
+4	..	4.014	164.0	-56.7 flip_TOP
+4	..	2.980	133.2	-62.1 flip_TOP
+4	..	2.952	216.5	29.5 flip_TOP
+4	..	4.865	271.5	33.9 flip_TOP
+4	..	3.179	321.1	-14.2 flip_TOP
+4	..	3.986	12.5	-46.3 flip_TOP
+4	..	0.000	0.0	0.0 flip_TOP
+6	..	1.021	38.7	4.4
+6	..	0.965	48.5	44.0
+6	..	1.641	88.9	-3.0
+6	..	2.725	185.9	-0.9
+6	..	0.617	47.8	-21.8
+6	..	2.039	120.8	10.2
+6	..	3.389	97.6	9.7
+7	..	1.586	14.3	34.9
+7	..	2.388	323.4	59.6
+7	..	2.138	19.1	74.5
+7	..	1.167	41.2	12.2
+7	..	2.142	47.4	-30.4
+8	..	3.913	184.8	34.3
+8	..	4.052	223.6	45.0
+8	..	9.271	205.6	53.7
+8	..	7.783	170.9	0.1
+8	..	1.758	182.4	-32.9
+8	..	5.200	146.3	-9.7
+9	..	1.206	237.5	12.2
+9	..	3.533	241.2	61.2
+9	..	11.672	221.4	77.9
+9	..	9.885	163.6	83.5
+9	..	4.923	66.1	74.2
+9	..	2.093	61.6	68.8
+9	..	1.917	66.4	-25.2
+10	..	0.000	0.0	0.0  ; station from previous survey, unreadable
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    D    snowhole.1    -    Vertical up snow plug!!!!!
+
+;------------
+;Cave description
+;Snow ramp leads up to junction, left/down becomes too tight [stn 5] continuing up the snow leads to a snow plug, 
+;back over the slope an aid climb leads to a sloping passage blocked by boulders
+
+*end snowhole

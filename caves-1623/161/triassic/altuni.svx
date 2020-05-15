@@ -1,0 +1,67 @@
+;1998.03.02 AERW sort begin/end, add comments, refs, *calib clino
+
+*begin altuni
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Alternative Universe"
+*date 1996.07.22 ; trip 1996-161-49 in logbook
+*team Insts Penny
+*team Notes Tina (1-14), MikeTA (15-)
+*team Pics --ditto--
+*team Tape Tina
+*instrument Set:Yellow&Black
+; Calibration:	210/208/210 - 28/29/28.5
+;		+7/+8/+9    - -10/-10/-9
+;
+; ref.:	1996 KH survey book pp 142-145
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; bolt at head of Bulemic Pit
+*export 2	; top of pile before pitch (nearest QM 96-98)
+*export 7	; SE wall, near side of entry to Magic Jumars
+*export 33	; RH (NE) wall, at entry to Alternative Universe
+*export 34	; CM rock 's35', middle of TP1 just before entry to Alternative Universe
+
+*calibrate clino -1.67
+
+;From	to	Tape	Compass	Clino 
+2	1	 5.96	010	-27
+2	3	13.55	225	-40
+4	3	 5.42	009	+29
+4	5	 6.93	231	-18
+6	5	 1.36	025	-33
+7	5	 7.25	029	-46
+7	8	 6.35	217	+33
+9	8	 4.10	049	-21
+9	10	 9.96	185	+15
+11	10	 6.33	036	-10
+11	12	17.38	212	+03
+13	12	 8.72	357	+19
+13	14	11.45	235	-12
+15	14	 4.84	026	+22
+15	16	 5.49	243	-28
+17	16	10.30	006.5	+14
+17	18	14.21	208	+06
+19	18	 8.26	310	+14
+19	20	 7.80	259	-08
+21	20	 6.96	351	+18
+19	22	13.43	174	+01
+23	22	10.16	353	+03
+23	24	11.95	164	 00
+25	24	13.31	343	-11
+26	22	 6.44	283	-24
+26	27	 7.77	050	-02
+28	27	 7.50	338	-14
+28	29	 7.10	061	+22
+30	29	 6.00	348	+04
+30	31	 5.02	168	+01
+32	31	10.41	285	+02
+32	33	 8.25	125	+25
+34	33	11.60	023	-11
+
+;6	99	70.00	-	down	; fake leg for unsurveyed pitches
+; that leg superseded by Magic Jumars survey
+*end altuni
+

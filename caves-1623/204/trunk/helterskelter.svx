@@ -1,0 +1,43 @@
+*begin helterskelter
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "helterskelter"
+*date 2001.08.14
+*team Insts Becka Lawson
+*team Notes Martin Green
+*team Tape Becka Lawson
+*instrument Compass #2 ; Clino #2, Tape Grey
+; Calibration: Stone bridge: 148/+23 147/+22  
+;                            323/-23 324/-23
+; ref: 2001#12
+; ====== stations refindable to link to other surveys: ======
+
+
+*export 3 p40 7 ; crowningglory 40
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+p40	1	4.14	267	-18	
+2	1	7.60	120	+31
+3	2	2.38	151	-20
+3	4	6.40	290	-50
+5	4	6.68	108	+20
+5	6	3.08	292	-40
+7	8	2.78	237	+58
+9	8	4.71	340	-47
+9	6	2.81	130	+70
+
+;station details
+;name	L	R	U	D	description
+;1	0.2	0.5	1.1	1.4	RP left wall
+;2	0.1	1.5	1.5	0.2	RP low left wall nobble
+;3	3.0	0.0	5.0	1.1	RP right wall
+;4	0.4	0.3	2.0	0.2	RP boulder on floor
+;5	0.3	0.5	2.2	0.8	RP left wall
+;6	-	-	2.2	1.0	RP on bottom of spike
+;7	0.6	0.3	0.0	1.0	RP on roof
+;8	0.3	1.1	0.0	2.0	RP on roof
+;9	-	-	-	-	RP nobble on floor
+*end helterskelter

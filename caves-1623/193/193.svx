@@ -1,0 +1,44 @@
+*equate p193 193.6
+*entrance p193
+
+*begin 193
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "Schwa schacht 1623/193"
+*date 2000.08.10
+*team Insts Martin
+*team Notes Julia
+*team Pics Martin
+*team Tape Martin
+*instrument Wook's geological ones; Tape ?
+; Calibration: None.
+; ref: 2000 #36
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 6
+
+*calibrate tape +0.10	; +ve if tape was too short, -ve if too long
+*calibrate compass +180	;All readings on compass changed by 180deg
+
+;from	to	tape	compass	clino	; remarks
+1	2	7.32	-	down
+2	3	0.80	073	-07
+3	4	5.15	334	+01
+3	5	5.34	092	-25
+6	1	2.15	045	+15
+
+;stn	details
+;name	description
+;1	knobble of rock
+;2	bottom of plumb
+;3	tip of boulder
+
+;stn	L	R	U	D	details
+;4	0.5	0.6	4.0	0.0	end of passage
+;5	2.0	2.0	0.4	1.4	end of passage
+
+;stn	details
+;6	193 tag bolt
+
+*end 193

@@ -1,0 +1,140 @@
+; includes for all underground Kaninchenhöhle data
+
+*equate p161	161.p161
+; to calculate 161 survey entirely on underground data,
+; disconnect other ents by commenting out these equates:
+*equate p161b	161.P161b
+*equate p161c	161.P161c
+*equate ent161b	161.ent161b
+*equate ent161c	161.ent161c
+*equate p161d  	161.p161d
+*equate p161e  	161.p161e
+*equate p161f  	161.p161f
+*equate p161g   161.p161g
+*equate p161h	161.p161h
+
+*entrance p161
+*entrance p161b
+*entrance p161c
+*entrance p161d
+*entrance p161e
+*entrance p161f
+*entrance p161g
+*entrance p161h
+
+; preamble:
+
+; things inside the 161 prefix can no longer access "global" names
+; The tidiest fudge is for a calling file to equate those "exports"
+; to some values exported by something else it includes, such as
+; the Surface.Ents98 file, so caller (not us) might say:
+
+; *equate 161.p161f	Surface.p161f
+
+; clearly you can fix or link to surface surveys, as many or as few entrances
+; as you wish, depending on what emphasis you want to place on closing loops
+; not doing that here saves from having to know about prefixes in
+; use somewhere else in the edifice
+
+; data:
+*begin 161
+
+*title "Kaninchenhöhle, 1623/161"
+; Locn:	Totes Gebirge, Austria
+
+; EXPORTS: these are the only points to which other surveys should link
+
+*export p161		; from Entrance.0 in 161.Top.Entrance
+*export ent161b		; from BtoC.03 in 161.France.BtoC
+*export ent161c		; from BtoC.10 in 161.France.BtoC
+*export p161b
+*export p161c
+*export p161d		; from scarface.26 in 161.Triassic.Triassic
+*export p161e		; from 161.PHumour.Pudding
+*export p161f		; from 161.PHumour.FtoLoopy
+*export p161g
+*export p161h
+
+*export rocky.8		; underground link to 136
+*export bored.15	; connection to Steinbrueckenhoehle
+*export blownout.18     ; connections to 107
+*export blownout.21     ; connections to 107
+
+;===== 161a entrance area =====
+
+; entrance:surface interface
+*equate entrance.0	p161
+*include top/alltop
+
+;===== Left Hand Routes =====
+
+; entrance:LHR interface
+*equate Snot.24 	lh.1
+; entrance:Drunk&Stupid interface
+*equate Entrance.10	Drunk.1.10
+
+*include lhr/alllhr
+
+;===== Right Hand Routes =====
+
+; entrance:RHR interface:
+*equate Snot.24 	chunnel.18
+; entrance:Dreamtime interface:
+*equate BoltConn2.10	Mike.10
+; LHR:RHR interface
+*equate ambi.pt2.29	olympus.pt2.75 ; connection to Wobbling survey in RHR
+
+*include rhr/allrhr
+
+;===== North from Carrefour =====
+
+; RHR:North interfaces:
+*equate olympus.pt2.dan12	yapate.12
+*equate TBlocks.15	Yapate.0
+
+*include north/allnth
+
+;===== France (161b,161c) =====
+
+; entrance:France interface
+*equate Adrian.c.1	Entrance.6
+; surface:France interfaces
+*equate BtoC.03 	ent161b
+*equate BtoC.10 	ent161c
+*equate BtoC.12 	P161c
+*equate BtoC.14 	P161b
+*equate Adrian.2.11	in161b
+*equate Adrian.2.13 	P161c
+
+*include france/allfr
+
+;===== Triassic Park etc. =====
+
+; France:Triassic interface
+*equate sidebrown.1	triassic.pt1.2
+*equate sidebrown.2	triassic.pt1.1
+*equate teapot.21	ginger.10  ; this is a bodge AJD
+; Triassic:Surface interface
+*equate scarface.26	p161d
+; Triassic:RHR interface
+*equate minoan.4	knossosconn.7
+
+*include triassic/alltrias
+
+;===== Puerile Humour =====
+
+; Triassic:Puerile interface
+*equate thighs.1	triassic.pt2.11
+; Puerile:surface interfaces
+*equate ftoloopy.1	p161f
+*equate pudding.1	p161e
+*equate 161g.161g_1.1   p161g
+*equate 161h.12		p161h
+
+
+*include phumour/allphs
+
+
+
+*end 161
+

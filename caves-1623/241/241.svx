@@ -1,0 +1,46 @@
+*equate p241 241.1
+*entrance p241
+
+*begin 241
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	241
+*title "1623/241 - Dreieckhoehle"
+*date 2003.08.03 ;date the survey was done
+*team Insts Frank Tully
+*team Notes David Loeffler
+*team Tape Frank Tully
+*instrument Compass set #2; Clino set #2 
+; calibration as for surface survey
+; ref.:	<not yet assigned>
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 ; Tag
+
+
+*calibrate tape 0.07	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	1.38	-	down
+3	2	8.42	154	+09
+3	4	5.32	046	-51
+5	4	11.60	215	+14
+5	6	9.46	043	-22
+7	6	4.80	232	-34
+7	8	5.28	121	-001
+9	7	8.00	168	-38
+
+;stn	L	R	U	D	Description
+;1	-	-	-	-	tag bolt
+;2	0.5	1.0	infinity	0	nose of rock
+;3	0	1.5	3	0.5	RP RW
+;4	3	1	5	2	Top bldr
+;5	0	2.5	3.5	2	RP LW
+;6	1	4	1	1	RP bldr
+;7	-	-	2	0	RP light-coloured bldr (legs to either side)
+;8	1.5	2	1	1	RP on wall
+;9	1	0.5	0.5	0.2	Frank's head!
+
+
+*end 241

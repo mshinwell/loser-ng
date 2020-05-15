@@ -1,0 +1,167 @@
+;2000.03.08 W Surface portions of this dataset split from 040/40alt.svx
+
+*begin VfHMdata
+
+;Daten der Entdecker der Schneevulkanhalle
+;Schwarzmooskogel-Eishöhle (1623/40)
+;erhalten am 12.11.1999 von Franz Lindenmayr
+;Einzige Aufschrift: "3. Fassung vom 26.8.84"
+*date 1984.08.26 ; "Version from 26.8.84" ?
+;Erläuterungen aufgrund einer anderen Liste, die aber hier zu passen scheint
+
+;data from the first explorer of Schneevulkanhalle
+; Schwarzmooskogel-Eishöhle (1623/40)
+;received from Franz Lindenmayr (Nov. 12. 1999)
+;only information on the datasheet: "3d edition from 26. August 84"
+;comments based on another paper, which seems to fit here
+
+;Dateneingabe / data input: Thilo Müller, 18. Nov. 99
+
+*export 1 14 910 1016 1109
+
+*DATA normal from to bearing gradient length  ignoreall
+
+;MP 1-19: Oberer Eingang - Brennerbeserlschluf (Eingang SVH) / upper entrance - Brennerbeserlschluf (entrance SVH)
+1	2	94	19	14.8
+2	3	52	7	11.05
+3	4	24	-1	27.1
+4	5	25	-4	30
+5	6	37	1	30.05
+6	7	27	-6	26.8
+7	8	130	-34	16.7
+8	9	30	-3	24.9
+9	10	49	-21	27
+10	11	13	-19	30.1
+11	12	351	-17	22.5
+12	13	226	24	24.6
+
+12	14	290	-25	7.2
+
+12	15	18	-2	24.8
+15	16	41	8	16.1
+16	17	10	-14	23.5
+17	18	33	2	16
+18	19	60	-14	27
+
+
+;MP 6, 901-910: Außenvermessung / surface survey: Kuppelhöhle
+6	901	328	22	30.1
+901	902	351	16	30.3
+902	903	352	9	30.2
+903	904	350	13	30
+904	905	350	13	22.51
+905	906	25	5	29.7
+906	907	332	22	24.9
+907	908	256	-4	10.88
+908	909	170	-69	9.1
+909	910	185	-18	22.4
+
+;MP 19, 801-837: Außenvermessung / surface survey: Brennerbeserleingang, Königsschacht, Schwarzblatthöhle etc.
+19	801	350	30	24.3
+801	802	11	13	21.7
+802	803	342	40	20.8
+803	804	56	5	2.85
+804	805	0	90	1.8
+805	806	29	-9	13.2
+806	807	277	29	11.4
+807	808	352	13	16.4
+808	809	210	12	7.1
+809	810	289	-5	7.35
+810	811	110	-43	6
+811	812	10	-9	28.9
+812	813	342	17	19.1
+813	814	14	-10	20.1
+814	815	314	32	19.5
+815	816	325	10	7.6
+
+;816-821 must be underground - looks like a wide or inclined shaft ~20m deep
+816	817	162	-48	14.4
+817	818	182	-54	12.3
+818	819	308	-27	3.4
+819	820	333	-28	5.1
+
+818	821	222	-17	6.1
+
+
+816	822	251	18	24.3
+822	823	208	7	14.9
+823	824	245	-14	10.8
+
+823	825	293	12	26.5
+825	826	302	18	13.5
+826	827	265	-2	14
+827	828	261	8	29.8
+828	829	202	0	12.3
+829	830	6	-23	9.3
+830	831	78	-9	12.5
+;831-837 ??
+
+;MP 1, 1001-1016: Außenvermessung / surface survey: Lamperlhöhle
+1	1001	167	-1	10.4
+1001	1002	312	10	11.2
+1002	1003	227	9	20.1
+1003	1004	180	-40	23.5
+1004	1005	205	-6	30
+1005	1006	224	-8	11.2
+1006	1007	148	-8	30
+1007	1008	220	-10	20.3
+1008	1009	141	13	20.9
+1009	1010	182	-15	16.4
+1010	1011	207	-1	29.5
+1011	1012	205	-40	16.95
+1012	1013	320	-25	1.15
+1013	1014	218	-11	3.2
+1014	1015	282	-29	4.85
+1015	1016	199	-7	10.5
+
+;MP 1101-1112: Lärchenschacht
+1016	1101	319	41	17.1
+1101	1102	187	0	26.1
+1102	1103	238	-8.5	26.8
+1103	1104	210	-17.5	22.5
+1104	1105	248	-5	11.8
+1105	1106	221.2	-7.5	27.2 ; seltsame Richtung / strange bearing
+1106	1107	188	2.2	25.8 ; seltsame Neigung / strange gradient
+1107	1108	223.5	8	30
+1108	1109	225.5	-8	18.8
+;these legs look like they are underground (bit vertical for surface survey)
+1109	1110	152	-48	9.2
+1110	1112	0	-90	19.5 ; MP 1111 fehlt / station 1111 missing
+1112	1113	270	-40	4.5
+1113	1114	0	-50	13
+1114	1115	70	20	11.5
+1115	1116	10	0	8.7
+1116	1117	60	-80	11.2
+
+;MP 1901-1928: Außenvermessung / surface survey: Lamperlhöhle - Grünstein Eishöhle
+1016	1901	161	-25	29
+1901	1902	215	5	13
+1902	1903	132	-24	19.2
+1903	1904	200	11	10.6
+1904	1905	214	3	18.8
+1905	1906	99	-26	16.35
+1906	1907	220	25	7.7
+1907	1908	192	16	7.7
+1908	1909	195	-14	18.2
+1909	1910	198	-13	30
+1910	1911	255	0	9.4
+1911	1912	197	-3	10.6
+1912	1913	191	-17	11.8
+1913	1914	245	-35	7
+;1915 - 1918 ??
+; hier fehlen nochmals einige Daten auf den Ausdrucken / and again some legs are missing here on the data sheat
+;unverbunden / unconnected:
+;*equate 1914 1919 ;to see where the rest goes...
+;1919	1920	58	2	15
+;1920	1921	351	6	7.4
+;1921	1922	85	-2	2.55
+;1922	1923	30	0	3.7
+;1923	1924	100	25	6.1
+
+;1923	1925	20	-20	10
+
+;1918	1926	270	-35	2.5
+;1926	1927	25	0	5.3
+;1927	1928	0	-90	5.9
+
+*end VfHMdata

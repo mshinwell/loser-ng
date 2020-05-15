@@ -1,0 +1,87 @@
+*entrance p234a
+*equate 234.lefthand.1 p234a
+
+*begin 234
+
+*title "Hauchhöhle (1623/234)"
+
+*export lefthand.1
+*equate lefthand.2 trunk.1
+
+*include lefthand
+
+*include trunk
+
+*include flatulence
+
+*equate flatulence.59 lefthand.1
+*equate flatulence.54 trunk.11
+
+*include flatulence2
+
+*equate flatulence2.1 flatulence.9
+
+*equate flatulence2.3 flatulence.24
+
+*equate flatulence2.16 flatulence.40
+
+*include sourtaste
+*equate sourtaste.25 flatulence2.25
+
+*include pie
+*equate pie.p37 flatulence.37
+
+*include underhand
+*equate underhand.p5 flatulence.5
+
+*include flashgun
+*equate flashgun.1 flatulence.19
+
+*include piersquared
+*equate piersquared.p7 pie.7
+
+*include weeweeland
+*equate weeweeland.p1 piersquared.1
+
+*include wowoland
+*equate wowoland.8 weeweeland.p8
+
+*include monster
+*equate monster.1 wowoland.3
+
+*include spitswallow
+*equate spitswallow.1 monster.6
+
+*include monstermunch
+*equate spitswallow.2 monstermunch.1
+
+*include qm05-05c
+*equate qm05-05c.a weeweeland.5
+
+;--2008
+*include rubella
+*equate flatulence.53 rubella.11
+
+*include monstermunch2
+*equate monstermunch.12 monstermunch2.6
+
+*include limopit
+*equate limopit.7 piersquared.25
+
+*include passage
+*equate passage.14 flatulence.48
+
+*include lastchancesaloon
+*equate lastchancesaloon.30 spitswallow.10
+
+*include slapperpinkpot
+*equate slapperpinkpot.10x weeweeland.10
+
+*include youshouldhaveneverletmebegin
+*equate youshouldhaveneverletmebegin.13x lastchancesaloon.13
+
+*include mercurialsuppository
+*equate mercurialsuppository.1x lastchancesaloon.1
+
+
+*end 234

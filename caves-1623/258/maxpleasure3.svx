@@ -1,0 +1,180 @@
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 258 "Tunnockschacht"
+
+*begin maxpleasure3
+
+*export b 5 19 27x 29x 35 41 45
+
+*title "Maximum pleasure 3"
+*date 2007.08.13
+*team Insts Martin Green
+*team Notes Becka Lawson
+*instrument Compass - orange type 80  Clino - yellow Suunto
+
+;ref.:  2007 #62
+
+*calibrate tape 0   ; +ve if tape was too short, -ve if too long
+
+;from   to  tape    compass clino   remarks
+4   b   10.75   307 +06
+4   5   16.56   148 +13
+6   5   8.66    339 +02
+6   7   7.31    130 +01
+8   7   12.00   142 +20
+8   9   21.05   292 -23
+10  9   2.97    158 -64
+27x 10  5.75    058 +06
+11  7   10.64   348 -08 ;reversed from notes
+11  12  15.70   152 -01
+13  12  16.79   332 -09
+13  14  23.77   138 +04
+15  14  7.81    204 +04
+16  35  11.55   212 -17
+29x 36  9.71    305 -22
+37  36  8.70    092 +27
+38  37  3.79    075 +05
+38  39  11.55   289 -34
+40  39  8.27    075 +16
+40  41  4.16    302 -46
+42  41  8.16    112 +11
+42  43  2.68    342 +08
+44  43  2.11    075 -14
+44  45  7.91    348 -05
+
+*team Notes Martin Green
+*team Insts Becka Lawson
+
+14  16  5.43    155 -04
+17  16  5.72    282 +25
+17  18  9.42    036 +12
+19  17  8.73    324 -01 ;changed (from 19 to 18 in notes)
+19  20  7.02    039 +23
+21  20  18.49   223 -27
+21  22  10.47   038 +16
+23  22  7.36    251 -18
+23  24  6.69    031 +22
+25  24  8.43    331 -08
+25  26  14.70   010 +16
+27  26  16.90   335 +02
+27  28  9.87    136 +01
+29  28  8.82    182 -22
+30  28  10.19   356 +07
+30  31  4.66    148 -11
+31  32  4.57    137 -44 ;reversed from notes
+33  32  1.63    194 -46
+
+*data passage station left right up down ignoreall
+b   5   0   3   2.2 rp previous Flying High (Maximum pleasure 2) survey
+4   0.3 1.8 1.2 1.2 rp l wall
+5   0.6 2.2 3.5 1.7 rp l flake numbered
+6   2   2   3   1   rp boulder mid passage
+7   0.2 1.8 4   1.6 rp l wall numbered 7
+11  1.8 0.8 2   2.2 rp high on r wall
+12  1.2 2   2.5 1.5 rp floor numbered 12
+13  2   1.2 2   1.4 rp r wall
+14  7.9 4   10  0.4 rp boulder in chamber numbered
+
+*data passage station left right up down ignoreall
+16  3.5 0.3 0.2 1.6 rp ceiling at junction
+35  6   0   2   2   rp r wall 2m before pitch head
+
+*data passage station left right up down ignoreall
+29x 1.2 1.7 1.6 1.5 numbered rp from Maximum pleasure 2 survey
+36  3   0   1.5 0.5 rp at junction (two ways to main Maximum pleasure passage)
+37  0.1 1.2 2.3 0.1 rp l wall
+38  0   0.8 0.5 1.4 rp l wall
+39  1   0.5 1.8 0.1 rp floor
+40  0   0.5 0.5 1.4 rp two parallel passages rp l wall
+41  1.8 0.3 2.5 0.3 rp numbered 41 r wall at junction
+42  0   0.9 0.9 0.2 rp l wall
+43  1.7 0.5 2   0.4 rp r wall
+44  0.1 1.4 1.5 1.5 rp r wall
+45  5   1.2 7   1.5 rp bridge numbered 45
+
+*data passage station left right up down ignoreall
+7   0.2 1.8 4   1.6 rp l wall numbered 7
+8   4.7 0.4 1.2 2   rp r wall
+9   2.5 3.5 1.5 0.5 rp floor boulder
+10  -   -   4   1.8 rp far wall of chamber
+27x -   -   -   -   rp numbered of Maximum pleasure 1 survey
+
+*data passage station left right up down ignoreall
+14  7.9 4   10  0.4 rp boulder in chamber numbered
+15  0.3 0.4 0.7 0.7 rp boulder by passage
+
+*data passage station left right up down ignoreall
+17  0.7 3.6 1.5 1.2 rp l wall
+18  1.8 0.3 0.2 1   rp r wall, passage continues for 2m
+
+*data passage station left right up down ignoreall
+14  7.9 4   10  0.4 rp boulder in chamber numbered
+16  3.5 0.3 0.2 1.6 rp ceiling at junction
+17  0.7 3.6 1.5 1.2 rp l wall
+19  2.5 1.1 1.5 3.5 rp r wall
+20  0   2.8 1.7 1.7 rp l wall
+21  2.5 3   4.5 2   rp r side
+22  -   -   0.3 0.5 rp ceiling
+23  2.5 2   2.2 1.5 rp r side
+24  1.2 1.8 1.5 2   rp l side high up
+25  -   1   1   2   rp r wall at hairpin
+26  1.8 3   1.8 0.9 rp ceiling at hairpin, continues 3m
+27  2   0.5 0.5 1   rp r wall
+28  0.8 1.9 0   1.2 rp ceiling underside
+30  0.6 0.6 1.8 0.4 rp r wall
+31  0.2 0.7 1   0.2 rp underhang l wall
+32  0.4 0.7 3   0   rp next to trickle
+33  2   2   5   0.7 rp l / back wall
+
+*data passage station left right up down ignoreall
+28  0.8 1.9 0   1.2 rp ceiling underside
+29  0   0.6 0.6 0.3 rp l wall numbered 29
+
+
+;original LRUD data
+;b   5   0   3   2.2 rp previous Flying High (Maximum pleasure 2) survey
+;4   0.3 1.8 1.2 1.2 rp l wall
+;5   0.6 2.2 3.5 1.7 rp l flake numbered
+;6   2   2   3   1   rp boulder mid passage
+;7   0.2 1.8 4   1.6 rp l wall numbered 7
+;8   4.7 0.4 1.2 2   rp r wall
+;9   2.5 3.5 1.5 0.5 rp floor boulder
+;10  -   -   4   1.8 rp far wall of chamber
+;27x -   -   -   -   rp numbered of Maximum pleasure 1 survey
+;11  1.8 0.8 2   2.2 rp high on r wall
+;12  1.2 2   2.5 1.5 rp floor numbered 12
+;13  2   1.2 2   1.4 rp r wall
+;14  7.9 4   10  0.4 rp boulder in chamber numbered
+;15  0.3 0.4 0.7 0.7 rp boulder by passage
+;16  3.5 0.3 0.2 1.6 rp ceiling at junction
+;17  0.7 3.6 1.5 1.2 rp l wall
+;18  1.8 0.3 0.2 1   rp r wall, passage continues for 2m
+;19  2.5 1.1 1.5 3.5 rp r wall
+;20  0   2.8 1.7 1.7 rp l wall
+;21  2.5 3   4.5 2   rp r side
+;22  -   -   0.3 0.5 rp ceiling
+;23  2.5 2   2.2 1.5 rp r side
+;24  1.2 1.8 1.5 2   rp l side high up
+;25  -   1   1   2   rp r wall at hairpin
+;26  1.8 3   1.8 0.9 rp ceiling at hairpin, continues 3m
+;27  2   0.5 0.5 1   rp r wall
+;28  0.8 1.9 0   1.2 rp ceiling underside
+;29  0   0.6 0.6 0.3 rp l wall numbered 29
+;30  0.6 0.6 1.8 0.4 rp r wall
+;31  0.2 0.7 1   0.2 rp underhang l wall
+;32  0.4 0.7 3   0   rp next to trickle
+;33  2   2   5   0.7 rp l / back wall
+
+;35  6   0   2   2   rp r wall 2m before pitch head
+;29x 1.2 1.7 1.6 1.5 numbered rp from Maximum pleasure 2 survey
+;36  3   0   1.5 0.5 rp at junction (two ways to main Maximum pleasure passage)
+;37  0.1 1.2 2.3 0.1 rp l wall
+;38  0   0.8 0.5 1.4 rp l wall
+;39  1   0.5 1.8 0.1 rp floor
+;40  0   0.5 0.5 1.4 rp two parallel passages rp l wall
+;41  1.8 0.3 2.5 0.3 rp numbered 41 r wall at junction
+;42  0   0.9 0.9 0.2 rp l wall
+;43  1.7 0.5 2   0.4 rp r wall
+;44  0.1 1.4 1.5 1.5 rp r wall
+;45  5   1.2 7   1.5 rp bridge numbered 45
+
+*end maxpleasure3

@@ -1,0 +1,125 @@
+;1998.04.03 AERW Added comments, refs, exports, calibrate clino
+
+*begin 180to161c
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Caves:	1623/161c, 1623/180, 1623/191
+*title "180 to 161c via 191 (Surface)"
+*team Insts Phil Underwood
+*team Notes Anthony Day
+*team Pics Anthony Day
+*team Tape Both
+*date 1997.08.12
+*instrument Set 4
+; Calibration:	At top camp
+;	Drill hole - boulder	269 268.5 269
+;				+07 +07 +07
+;	Boulder - drill hole	089 089 089
+;				-06 -06 -06.5
+; ref.:	1997 notKH p44-45 
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; End of spit at entrance to 180 [P180]
+*export 4	; End of spit at entrance to 191 [P191]
+*export 10	; Dot below painted bit at 161c
+*export 11
+
+*calibrate clino +0.42
+
+;From	to	Tape	Compass	Clino
+
+2	1	12.88	332.5	-14.5
+2	3	 8.75	203	+03
+4	3	27.37	016	+12	;spit had not yet been placed at stn4
+;					when this leg was measured
+5	4	21.05	034	+09
+5	6	29.70	202	-01
+7	6	30.00	068	+06
+7	8	24.35	222	-02
+9	8	29.90	045.5	+08
+9	10	 6.72	231	+09
+11	10	 1.00	228	+23
+
+;stn	desc					height
+;1	End of spit at entrance to 180 [P180]	-
+;2	spot on boulder				0.60
+;3	Pencil cross below scarp		1.50
+;4	End of spit at entrance to 191 [P191]	0
+;5	Top of boulder				0.90
+;6	Stone on top of heather			0
+;7	Point on top of ledge			0.30
+;8	Point on scarp, RHS			2.10
+;9	Point on rock at gully near 161c	-
+;10	Dot below painted bit at 161c		-
+;11	Dot on rock below entrance		-
+;
+;I *think* that one of points 10 and 11 is the fixed point at 161c,
+;but am not certain. AJD
+
+; No it isn't (sigh) AERW 1998.04.03. 161c fixed point is the middle
+; of the circle of the "6" in "161c"
+
+*end 180to161c
+
+*begin MI5to161c
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau 
+; Caves:	1623/161c, 1623/180, 1623/191, and another nearby
+*title "180 to 161c via 191 (Surface) (1999 version)"
+*team Insts Tina Richardson
+*team Notes Mike TA
+*team Pics none
+*team Tape both
+*date 1999.08
+*instrument Set 5
+; Calibration:	At top camp
+;	Drill hole - boulder	267    267.5  268
+;				+06.5  +07    +07
+;	Boulder - drill hole	091.5  092   092
+;				-07    -06   -06.5
+; ref.:	None.
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; tag bolt at 161c (centre of 6 of '161')
+*export 9	; tag bolt at 191
+*export 12	; tag bolt at 180
+*export 16	; - above MI5 cave
+
+;From	to	Tape	Compass	Clino
+
+2	1	23.86	244	+12
+2	3	14.07	80.5	+13
+3	4	3.24	249	-31
+5	3	11.60	181	+1    ;(3->5 in notes)
+6	5	29.04	229	-8
+6	7	26.39	23.5	+14
+8	7	21.72	212	0
+8	9	20.94	33	+10
+10	9	27.20	196	-19
+10	11	8.79	19	-4
+11	12	12.60	330.5	-24
+6	13	20.52	292	+11
+14	13	15.37	206	-10
+14	15	30.52	23	+6
+15	16	11.77	345	-1.5
+
+;*LRUD
+;1	N/A	tag bolt at 161c
+;2	+20cm	rock
+;3	+50cm	cairn
+;4	0	bolt
+;5	+40cm	rock
+;6	+50cm	bunde
+;7	+80cm	cliff edge
+;8	+30cm	boulder
+;9	0	tag bolt at 191
+;10	+1/30	cliff edge
+;11	0	rock edge pit
+;12	N/A	tag bolt @ 180
+;13	0	pavement
+;15	+2m	top of boulder
+;16	N/A	- above MI5 cave (could be 'MIS cave'?)
+
+*end MI5to161c

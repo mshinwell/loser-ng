@@ -1,0 +1,79 @@
+; *** DO NOT SAVE THIS FILE WITHOUT RENAMING IT !! ***
+;[Stuff in square brackets is example text to be replaced with real data, 
+; removing the square brackets]
+
+*begin catlitter
+
+; stations linked into other surveys (or likely to)
+*export 1x 7 
+
+; Cave: Balcony 
+; Area in cave/QM: Mongol Rally, Pit Stop 
+*title "CatLitter"
+*date 2018.07.27
+*team Insts Nadia RC
+*team Notes Luke Stangroom
+*team Pics Luke Stangroom, Nadia RC
+*team Tape Nadia RC
+*instrument Becka 2 Disto X
+; Calibration: Calibrated Balcony
+*ref 2018#23
+; the #number is on the clear pocket containing the original notes
+
+
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+1 1x 5.86 076.1 -05.2 
+2 1 3.69 111.1 -29.7
+3 2 3.93 029.9 -30.4
+4 3 3.12 065.8 -23.4
+5 4 2.73 021.1 -39.2 
+6 5 3.59 055.7 -37.5
+7 6 2.49 008.2 -00.7 
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Red nail varnish markings
+;1 2.1 2.3 1.8 0.3
+;2 2.8 0.8 0.9 0.9 
+;3 0 1.7 1.7 0.5 
+;4 0.8 0 1.8 1 
+;5 0 0.7 1.7 1.6 
+;6 0.7 0 1.8 1 
+;7 0 0.9 3.1 0.8 
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1 2.1 2.3 1.8 0.3
+2 2.8 0.8 0.9 0.9 
+3 0 1.7 1.7 0.5 
+4 0.8 0 1.8 1 
+5 0 0.7 1.7 1.6 
+6 0.7 0 1.8 1 
+7 0 0.9 3.1 0.8 
+*data passage station left right up down
+;[ 1   1.3   1.5   5.3   1.6 ]
+;[ 3   2.4   0     3.4   0.2 ]
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+; QM1    C    catlitter.7    -    rift climb up or down drafting 
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+
+*end catlitter
+ 

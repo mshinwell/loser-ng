@@ -1,0 +1,36 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Quarries
+
+*entrance pquarriesd
+*equate quarriesd.2002-08 p2002-08
+*equate pquarriesd quarriesd.d3
+
+*begin quarriesd
+
+*title "Quarriesd"
+*date 2002.08.22
+*team Insts Frank Tully
+*team Notes Ben Shaw
+*team Tape both
+*instrument set 1
+
+; Calibration: none
+; ref.:	2002#23
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 2002-08 d3
+
+*calibrate tape +0.0
+ *data normal from to compass clino tape
+;from	to	compass	clino tape	; remarks
+d2    d1   - down       11
+d3    d2   38           -18   4.2
+*begin
+*flags surface
+d3    2002-08           177   -40  9.8
+*end
+
+;d3 is a spit
+*end quarriesd
+

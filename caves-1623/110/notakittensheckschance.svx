@@ -1,0 +1,93 @@
+*begin  notakittensheckschance
+
+; stations linked into other surveys (or likely to)
+*export gps tag
+
+; Cave: Kein Hubschrauber
+; Area in cave/QM: Entrance
+*title "110"
+*date 2017.07.28
+*team Insts Rob Watson
+*team Notes Becka Lawson 
+*instrument Becka Lawson Distox2 No 1
+; Calibration: Becka UK
+*ref 2017#33
+
+; if using a tape:	*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+gps	tag	0	000	0	; gps taken at approx location of tag
+tag	1	0.40	000	-90 
+1	2	3.14	344	-14
+2	3	2.15	018	-12
+3	4	3.17	069	-12
+4	5	6.09	031	+36
+3	6	3.21	308	-29	; mistyped originally as 5 to 6 but then corrected by Becka on 19 Aug
+6	7	7.74	304	-24
+7	8	3.28	203	-14
+7	9	4.55 	275	-17	
+9	10	4.74	334	-24
+10	11	3.15	282	-10
+11	12	3.35	214	+09
+; 12	13	3.65	154	-13 duplicate leg, surveyed next day properly
+; 12	14	7.70	204	-76 duplicate leg, surveyed next day properly
+
+; continued next day - 2017/07/29 same instruments Becka notes Luke Stangroom distox2
+
+12	15	5.82	193	-73
+16	15	3.02	284	-28
+17	16	2.91	003	+29
+18	17	1.56	291	-10
+18	19	1.90	233	+16
+19	20	6.68	210	-33
+
+	
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down ignoreall
+
+tag 	-	- 	-	-	1623/110
+1	-	-	-	-	floor at entrance below tag
+2	1	1.2	0.4	0.3	boulder
+3	1.5	1.5	0.4	0.1	boulder
+4	1.5	1	1.1	0.2	boulder
+5	1	2	1.2	1	wall end chamber
+6	1	0.2	0.2	0.1	squeeze on boulder
+7	1.2	0	0.5	0.5	RW numbered pencil
+8	1	0.2	0.3	0.3	unmarked with ice
+9	0	1.5	0.5	0.3	lw
+10	1.2	0.3	0.1	0.2	rw before low section
+11	1.3	0.7	0.5	0	floor past low area
+12	0	3	0.5	0.5	numbered pencil l side pitch
+; 13	1	1	1.5	8	far wall unmarked
+; 14	1	1	9	0	down pitch unmarked
+15	1.5	0	6	2	bottom pitch
+16	0	0.4	2.5	5	lw
+17	0.5	0	4	2	
+18	-	-	-	-	lw
+19	4	0	4	1	rw chamber
+20	1.5	1.5	6	1	end chamber
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surveyname.5    -    description of QM ]
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+
+; Strong draft from horizontal small entrance. Low crawl leads to 8m pitch to short section of rift ending in a chamber with loose boulder chokes
+
+*end notakittensheckschance

@@ -1,0 +1,92 @@
+; 40entlink
+; New surveys done in 2000 along the Eishöhle portal row.
+
+;FIXME *equate 40entlink.10 216.0
+*equate 40entlink.12 40entlink2.1
+*equate 40entlink2.14 Laser.8_14
+
+*begin 40entlink
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "40entlink"
+*date 2000.08.03
+*team Insts becka
+*team Notes brian
+*team Pics brian
+*team Tape becka
+*instrument Compass #2 ; Clino #2, Tape keentools
+; Calibration: none
+; ref.:	....
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0 1 2 5 7 10 12
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	0	2.85	042	+07
+1	2	2.17	346	-13
+3	0	6.10	000	-01
+4	3	11.63	059	-03
+4	5	6.92	283	+13
+4	6	16.12	203	+07
+6	7	15.79	265	+03
+6	8	30.29	222	+13
+9	8	12.33	029	+05
+9	10	7.07	239	-03
+9	11	29.37	192	-03
+11	12	5.03	226	-12
+
+;station details
+;name	L	R	U	D	E	description
+;0	bolt 1623/40e
+;1	paint mark on rock
+;2	paint mark on rock
+;3	top of ski pole
+;4	top of rock
+;5	bolt 2000-05 (p215a)
+;6	top of ski pole
+;7	bolt 1623/40h
+;8	top of ski pole
+;9	top of ski pole
+;10	bolt 2000-06 ("nichts 50")
+;11	pencil mark on large rock
+;12	bolt 2000-07
+
+*end 40entlink
+
+*begin 40entlink2
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "40entlink2"
+*date 2000.08.06
+*team Insts Olly
+*team Notes Mark S
+*team Pics Mark S
+*team Tape Olly
+*instrument Compass #4 ; Clino #4, Tape: black closed reel, green harness
+; Calibration: none
+; ref.:	....
+
+
+*export 1 14 16
+
+*calibrate tape -0.225
+
+1	2	1.27	-	up
+3	2	30.04	005	-18
+3	4	20.90	194	+22.5
+4	5	30.33	216.5	+20.5
+5	6	30.14	236.5	+21
+7	6	23.08	022.5	-06
+7	8	30.12	215	00
+9	8	29.98	031.5	-05
+9	10	1.25	-	up
+11	10	29.39	017.5	+05
+12	11	12.825	050	+12.5
+12	13	11.48	196.5	01.5
+13	14	0.62	-	down
+12	15	12.325	271	-17
+16	15	1.89	289.5	+48
+
+*end 40entlink2

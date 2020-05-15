@@ -1,0 +1,7 @@
+; Surface data possibly extending across more than one kataster
+; area.
+
+*include LA11-LA12
+
+*equate 1626.pla12 la11-la12.0
+*equate 1626.pla11 la11-la12.6

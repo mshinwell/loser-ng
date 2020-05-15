@@ -1,0 +1,21 @@
+*entrance p2016-jb-01
+*equate p2016-jb-01 2016-jb-01.solidrock.24
+
+*begin 2016-jb-01
+*export solidrock.24
+
+*include solidrock
+
+*equate solidrock.8 hopeless.14
+*include hopeless
+
+*equate solidrock.5 dirtysnow.9
+*include dirtysnow
+
+*equate solidrocks.8 dirtysnow.1
+*include solidrocks
+
+*equate nervousbreakdown.25 solidrocks.1
+*include nervousbreakdown
+
+*end 2016-jb-01

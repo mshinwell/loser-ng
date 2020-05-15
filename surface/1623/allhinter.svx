@@ -1,0 +1,189 @@
+;1999.07.31 W Created for Steinbrueckenhöhle
+;2000.05.11 W p99_03 -> p204 (Steinbrucken given this number)
+;2000.07.22 MS Traunhöhle added
+
+; Beyond Hinter
+
+*equate steinsrf.1	p204a
+*equate steinbrk_atob.4	p204b
+*equate steinsrf.22	laser.KT114_96
+*include steinsrf
+
+*equate 204atoc.1	p204a
+*equate 204atoc.7	p2001-02
+*equate 204atoc.12	p2001-03
+*include 204atoc
+
+*equate 204d.11		p204d
+*equate 204d.p02	p2001-02
+*include 204d
+
+*equate 204etoc.1	p204e
+*equate 204etoc.4	p204f
+*entrance p204f
+*equate 204etoc.7	204atoc.18
+*include 204etoc
+
+*equate 204ato239.1	p204a
+*equate 204ato239.11	p239
+*include 204ato239
+
+*equate 204cto242.1 p204c
+*entrance p204c
+
+*begin 204cbodge
+; Can't put this in the 204 section, since 204 survey doesn't fix position of
+; 204c entrance.
+*export 1 2
+*date 2005 ; date this was added to the dataset
+*flags not surface
+*data nosurvey from to
+1 2
+*end 204cbodge
+*equate 204cbodge.1 p204c
+*equate 204cbodge.2 204.trunk.treeumphant.29
+
+*equate 204cto242.5 p242
+*equate 204cto242.4 t242  ; 2002-04 tag bolt (now 242)
+*equate 204ftoc.1	p204f
+*equate 204ftoc.4	204cto242.2
+*include 204cstuff
+
+*equate 249to234.1 p249
+*equate 249to234.1 t249    ; 249 tag bolt
+*equate 249to234.6 p234a
+*equate 249to234.7 p234b
+*entrance p234b
+*include 249to234
+
+*equate 234to2002-03.1 p234a
+*equate 234to2002-03.3 p234b
+*equate 234to2002-03.5 t249
+*equate 234to2002-03.9 p2002-03
+*include 234to2002-03
+
+*equate 165tohsk.1	p165
+*entrance p165
+*equate 165tohsk.7	p196
+*equate 165tohsk.11	p195
+*equate 165tohsk.15	p194
+*entrance p194
+*equate 165tohsk.34	laser.KT114_96
+*include 165tohsk
+
+*equate 193surf.A p193
+*equate 193surf.1 p161c
+*include 193surf
+
+; Traungoldhöhle
+*equate traunsurface.23 p231e
+*equate traunsurface.25 p204a
+
+*equate traunsurface2.43 p204a
+*equate traunsurface2.41 p231a
+*equate traunsurface2.36 p231b
+*equate traunsurface2.37 p231c
+*equate traunsurface2.27 p231d
+*equate traunsurface2.30 p231g ; small entrance (crawl) out from underneath stone bridge
+*equate traunsurface2.28 p231h
+*equate traunsurface2.34 p231i
+
+*include traun
+
+*equate 96ones2.9 Laser.KT114_96
+*equate 96ones.1 p224
+*entrance p224
+*equate 96ones.6 p222
+*entrance p222
+*equate 96ones.10 p223
+*entrance p223
+*equate 96ones.12 p214
+*entrance p214
+*include 96ones
+
+*equate 2000-8and9.1 p204a
+*equate 2000-8and9.13 p2000-08
+*entrance p2000-08
+;*equate 2000-8and9.26 p234a ; I think this is wrong - DL
+*include 2000-8and9
+
+*include 241surf 
+*equate 241surf.1 p231a
+*equate 241surf.8 p241
+
+;Equate in to GPS fixes
+*equate gps03.near2003-01 2003-01.0; Nb this is not the tag bolt
+*equate gps03.248 p248
+*equate gps03.246earl p246
+*equate gps03.240 p240
+
+;Surface surveys
+*include 244
+*equate 204ato244.1 p204a
+*equate	204ato244.9 p244
+*entrance p244
+
+*include 245to204d
+*equate 245to204d.7 t204d
+*equate 245to204d.1 t245
+ 
+*include 245surf
+*equate 245surf.1 t245
+*equate 245surf.3 p245
+
+*include 251to204d
+*equate 251to204d.1 t204d
+*equate 251to204d.10 t251
+*equate 251to204d.9 t243
+*entrance t251
+
+*include 2002-03to2004-15
+*equate 2002-03to2004-15.p2002-03 234to2002-03.9
+*equate	t2004-15a 2002-03to2004-15.p2004-15a
+
+*include 2004-15to2004-14
+*equate t2004-15a 2004-15to2004-14.p2004-15a
+*equate p2004-14 2004-15to2004-14.p2004-14
+
+*include quarries
+*entrance p2002-07
+*entrance p2002-08
+*entrance pquarriesd
+*equate p2002-07 quarries.1
+*equate p204e quarries.5
+
+*include 204dto2004-18
+*equate 204dto2004-18.start t204d
+*equate 204dto2004-18.end p2004-18
+*entrance p2004-18
+
+*include 204itog
+*equate 204itog.12 204dto2004-18.11
+*equate 204itog.2 p204i
+*equate 204itog.5 p204g
+
+*equate 2002-05.p02-05 gps06.2002-05
+
+*equate 2002-06.2002-06 gps06.2002-06
+
+*include 2004-18to2006-09
+*equate 2004-18to2006-09.p2006-09 p2006-09
+*equate 2004-18to2006-09.p258a p258a
+*equate 2004-18to2006-09.p258b p258b
+*equate 2004-18to2006-09.p2004-18 p2004-18
+*equate 2004-18to2006-09.t2006-09 t2006-09
+
+*include 231to2006-08
+*equate 231to2006-08.1 p231g
+*equate 231to2006-08.12 t2006-08
+*equate 231to2006-08.13 p2006-08
+
+*include 2004-15ato204a
+*equate 2004-15ato204a.1 t2004-15a
+*equate 2004-15ato204a.6 t2004-15b
+*equate 2004-15ato204a.7 p204a
+
+*include antsinyourpantsto258
+*equate antsinyourpantsto258.18 p258b
+*equate antsinyourpantsto258.1 2012-ns-01.AntsInYourPants.15
+

@@ -1,0 +1,189 @@
+*begin livingthedream
+
+; stations linked into other surveys (or likely to)
+*export 06 30 28 01 03 15
+
+; Cave: 258 (Tunnocks)
+; Area in cave/QM: Continuation of Octopussy
+*title "Live the Dream"
+*date 2016.06.30
+*team Insts Chris Densham
+*team Notes Anthony Day
+*team Pics Anthony Day
+*team Dog Nathan Walker
+*instrument Chris Densham's DistoX
+; Calibration: None
+*ref 2016#01
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+01	02	12.04	171.3	-01.4
+02	03	20.02	211.8	-29.2
+04	03	19.33	287.3	-25.7
+04	05	26.16	129.3	+17.8
+05	06	08.82	211.9	-02.8
+06	07	05.42	252.0	+54.8
+07	08	07.64	206.9	+42.7
+*flags splay
+08	09	41.92	257.3	+35.9
+*flags not splay
+*flags duplicate
+10	05	17.58	120.6	+13.9
+*flags not duplicate
+10	11	09.90	267.5	-39.3
+11	12	08.25	231.9	-19.2
+12	13	04.59	163.4	-08.3
+13	14	06.82	196.5	-00.7
+14	15	06.96	162.4	-17.3
+03	16	15.76	293.6	-18.8
+16	17	10.06	344.1	-14.5
+17	18	11.48	285.4	-09.5
+18	19	07.58	311.1	-08.6
+19	20	07.23	047.2	-04.8
+20	21	08.55	334.3	+08.9
+*flags splay
+21	21A	11.87	087.1	+17.3
+*flags not splay
+21	22	03.48	330.0	-01.6
+22	23	04.52	068.4	-02.3
+23	24	06.60	045.0	+05.9
+24	25	08.14	318.8	+01.2
+25	26	05.77	019.5	+23.4
+26	27	06.53	017.5	+28.7
+27	28	05.79	056.6	+11.7
+01	29	40.68	106.6	+28.6
+29	30	23.77	093.3	+36.3
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Slapper pink nail varnish markings
+;01	11.60	0	02.23	01.29	; Numbered
+;02	0	12.70	03.00	01.80
+;03	10.00	05.50	04.50	00.50	; Numbered
+;04	05.00	02.70	09.00	00.50
+;05	02.50	09.50	08.00	05.50
+;06	-	-	15.50	01.50	; Numbered
+;07	03.00	01.00	12.50	01.00
+;08	0	05.40	14.00	02.00	; Numbered
+;09	-	-	-	-
+;10	02.20	01.70	00.50	02.00	; Numbered
+;11	03.50	0	01.00	01.00
+;12	02.30	00.30	01.00	00.50
+;13	00.30	03.40	01.00	00.80
+;14	01.70	00.30	02.50	01.00
+;15	03.30	03.00	06.00	01.00	; Numbered
+;16	0	02.80	02.30	01.20
+;17	06.00	0	02.50	01.20
+;18	0	01.80	01.00	01.00
+;19	00.30	01.30	01.50	00.50
+;20	01.00	02.00	00.80	00.50
+;21	01.40	03.00	01.60	01.00	; Numbered
+;22	02.30	03.30	01.60	00.80	; Numbered
+;23	03.80	00.00	00.60	00.50
+;24	04.50	0	0	01.60
+;25	00.30	01.50	00.60	00.20
+;26	01.70	01.80	0	01.00
+;27	03.50	03.00	0	01.30
+;28	03.00	01.00	01.80	01.00	; Numbered
+;29	03.50	02.50	04.00	0
+;30	04.50	02.00	04.00	0
+
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+01	11.60	0	02.23	01.29
+02	0	12.70	03.00	01.80
+03	10.00	05.50	04.50	00.50
+04	05.00	02.70	09.00	00.50
+05	02.50	09.50	08.00	05.50
+06	02.00	02.00	15.50	01.50	; LR guessed from sketch
+07	03.00	01.00	12.50	01.00
+08	0	05.40	14.00	02.00
+
+*data passage station left right up down 
+10	02.20	01.70	00.50	02.00
+11	03.50	0	01.00	01.00
+12	02.30	00.30	01.00	00.50
+13	00.30	03.40	01.00	00.80
+14	01.70	00.30	02.50	01.00
+15	03.30	03.00	06.00	01.00
+
+*data passage station left right up down 
+03	03.04	04.00	04.50	00.50
+16	0	02.80	02.30	01.20
+17	06.00	0	02.50	01.20
+18	0	01.80	01.00	01.00
+19	00.30	01.30	01.50	00.50
+20	01.00	02.00	00.80	00.50
+21	01.40	03.00	01.60	01.00
+22	02.30	03.30	01.60	00.80
+23	03.80	00.00	00.60	00.50
+24	04.50	0	0	01.60
+25	00.30	01.50	00.60	00.20
+26	01.70	01.80	0	01.00
+27	03.50	03.00	0	01.30
+28	03.00	01.00	01.80	01.00
+
+*data passage station left right up down 
+01	03.50	02.50	02.23	01.29	; LR are guesses to make the tube look sensible
+29	03.50	02.50	04.00	0
+30	04.50	02.00	04.00	0
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number	grade(A/B/C/X)  nearest-station  resolution-station description
+;QM1	A	livingthedream.01	slackers.2	Phreatic ramp parallelling Octopussy
+;QM2	C	livingthedream.01	-	Pile of rocks near bottom of Octopussy ramp - probably choked but should be checked
+;QM3	B	livingthedream.03	-	Tube heading downhill, fairly small
+;QM4	A	livingthedream.06	snakecharmer.26	Pitch, 20/30m, sound of water
+;QM5	C	livingthedream.06	-	Small hole, rocks thrown down QM 6 connect to here
+;QM6	C	livingthedream.08	-	Short pitch at top of climb
+;QM7	B	livingthedream.08	-	Continuation of rift across pitch head (rope required), sound of water, probably ends up above QM 8
+;QM8	A	livingthedream.15	indianropetrick.05	32m pitch, sound of water
+;QM9	C	livingthedream.21	-	Two small holes very close together, presumed to join up, probably choked
+;QM10	C	livingthedream.28	livingthedream.28	Tight inlet crawl [confirmed not to go]
+;QM11	A	livingthedream.28	slackers.29	Walking sized continuation
+;QM12	C	livingthedream.11	-	Tight crawl, likely to connect to other C leads
+
+;------------
+;Cave description  ;(leave commented-out)
+;
+;Octopussy and Living the Dream
+;
+;"Octopussy" is a 5m diameter, 100m long phreatic tunnel that ramps
+;down-dip to the west at an angle of around 30deg. It drops into 
+;"Living the Dream", a series of phreatic tunnels. To the north is
+;ongoing unexplored, with a phreatic ramp heading up east parallel
+;to Octopussy [QM1-A] and a possible choke to the NW [QM2-C]. To the
+;south, Living the Dream is initially 10m diameter and reaches a
+;crossroads after 30m. The main passage heads east up a ramp to a
+;horizontal dry cracked mud-floored passage. This ends at a junction
+;with a climb down and ramp east to the head of a 20-30m pitch [QM4-A]
+;or a climb up a steep gully to the west which leads to a
+;potential 25m traverse over a pitch (rope required) to a continuing
+;rift [QM7-B] and a hole down [QM6-C]. Rocks thrown down this hole
+;are heard in a small hole at the foot of the climb [QM5-C].
+;
+;Back at the crossroads 30m south of the junction between Octopussy
+;and Living the Dream, a dry sand floored passage meander south for
+;50m past several passages to the east (the first connects in a
+;loop, the second is unexplored but unpromising [QM12-C] and the
+;third appears too tight). At the southern end of the passage ends
+;in a 32m pitch [QM8-A], "Psychospeleogenesis" in a rift heading
+;east-west.
+;
+;The third passage from the crossroads heads initially west with an
+;unexplored passage heading off SW downhill [QM3-B] and the main
+;passage meandering in a generally northerly direction. The passage
+;is generally horizontal with two dry U-bends according to the angle
+;of dip. Two passages head off to the east, probably connecting [QM9-C].
+;After a short crawl, the passage continues northwards,
+;walking sized [QM11-A]. There is a tight inlet crawl to the right [QM10-C].
+
+*end livingthedream

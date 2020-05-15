@@ -1,0 +1,86 @@
+*begin sucker
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Sucker"
+*date 2001.08.12
+*team Insts Becka Lawson
+*team Notes Martin Green
+*instrument Compass #2 ; Clino #2, Tape unknown
+; Calibration: None
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0 3
+
+*calibrate tape -0.22	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+0	1	11.59	011	+16
+2	1	1.29	272	-04
+2	3	6.01	005	+12
+4	3	4.22	251	-20
+5	4	7.12	203	-13
+5	6	8.51	015	+10
+7	6	5.62	192	-37
+8	7	2.87	193	-12
+8	9	4.63	020	+24
+10	9	3.30	208	-11
+10	11	6.35	009	+14
+11	12	3.70	165	-50
+13	12	5.71	280	-12
+13	14	10.03	108	+12
+15	14	1.88	187	-18
+16	15	5.85	212	-34
+13	17	4.64	094	+05
+18	17	4.37	214	-23
+19	18	4.01	199	-18
+19	20	5.84	097	+14
+19	21	2.45	335	-01
+22	21	1.02	044	+12
+23	22	1.05	081	+29
+24	23	2.47	111	+10
+25	24	1.73	104	+02
+26	25	1.49	163	-08
+26	27	3.39	009	+22
+27	28	3.52	022	+02
+28	29	1.82	034	+11
+29	30	2.11	026	+14
+		
+
+;station details
+;name	L	R	U	D	description
+;0	-	-	-	-	= 
+;1	0.0	0.5	0.7	0.5		rp with number
+;2	0.7	0.4	0.2	0.7		rp on ceiling
+;3	0.9	0.0	0.7	0.6		rp on opposite wall
+;4	0.4	0.3	0.0	2.0		rp on flat ceiling
+;5	0.2	0.5	0.4	1.4		rp on right wall
+;6	0.5	0.2	1.6	0.2		rp pn boulder
+;7	0.4	1.1	0.0	2.3		rp on roof
+;8	0.4	0.6	0.7	1.7		rp on 2nd tip of boulder
+;9	0.3	0.1	0.0	1.7		rp on ceiling
+;10	0.6	0.0	0.6	1.5		rp on right wall
+;11	0.3	0.3	2.3	2.6		rp on spike on ceiling with number
+;12	1.1	0.0	1.8	0.3		rp on right qbove pitch
+;13	0.3	1.3	1.0	2.2		rp on left above rift
+;14	-	-	-	0.8		cm on bottom of spike opposite entrance
+;15	0.0	0.6	0.1	1.4		rp on ceiling
+;16	0.5	0.2	4.0	1.8		rp with number
+;17	1.1	0.3	1.0	2.0		rp on left and top of rift
+;18	0.6	0.0	0.2	2.7		rp on right wall
+;19	0.5	0.1	0.1	2.6		rp on roof nodule at junction
+;20	3.0	3.0	1.5	0.4		rp on tip of rock
+;21	0.4	0.0	0.2	0.4		pencil mark on outside of corner
+;22	0.2	0.2	0.0	0.5		rp on ceiling
+;23	0.3	0.0	0.4	0.2		rp on right wall at corner
+;24	0.1	0.4	0.5	0.1		rp on low roof nodule
+;25	0.0	0.5	0.2	0.3		rp on left wall
+;26	0.5	0.0	0.2	0.3		rp on right wall
+;27	0.0	0.4	0.5	0.6		rp
+;28	0.1	0.8	0.3	0.2		rp on low left underhang
+;29	0.4	0.5	0.3	0.2		rp on underhang 
+;30	-	-	0.4	0.3		rp plus pencil number at T-junction
+
+
+*end sucker

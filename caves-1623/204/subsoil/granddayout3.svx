@@ -1,0 +1,31 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle 1623/204   - Gaffered - The Wares
+
+*begin granddayout3
+
+*title "Grand Day Out"
+*date 2011.07.31
+*team Insts Djuke Veldhuis
+*team Notes Chris Smith
+*team Tape Becka Lawson
+
+*instrument Wookey's DistoX (uncal for Austria)
+
+;ref.:	2011 #22
+
+*export x
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+1	x	6.15	212	-20	
+2	1	8.05	194	-27
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+x	-	-	-	-	station from day shift's survey granddayout.5
+1	1.5	1.1	0.5	0.4
+2	0.4	0	1	1.2
+
+*end granddayout3
+

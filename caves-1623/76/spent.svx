@@ -1,0 +1,40 @@
+;Eislufthoehle 1623/76
+
+*begin spent
+
+*title "Spent Ledge"
+*date 2005.08.12
+*team Insts Jenny Black
+*team Notes Olly Betts
+*team Tape Jenny Black
+*instrument Compass+Clino+Disto Ol+Jenny
+; notes in 2005#46
+
+*export 1 10
+
+1	0	11.279	-	down
+;0	a	6.0	044	0
+;a	b	5	105	0
+2	1	4.618	060	+03
+2	3	0.780	-	down
+3	4	15.668	-	up
+4	5	2.422	191	+43
+5	6	16.314	-	up
+6	7	7.554	288	+77.5
+8	7	1.512	023	-55.5
+8	9	1.926	-	up
+9	10	0.873	110	+60
+
+*data passage station left right up down ignoreall
+
+1	0	2.1	27	11.279
+2	0.9	1.7	27	0.780
+3	-	-	-	-
+4	0.8	0.7	4.9	2.9
+5	0	2.3	16	16
+6	0.3	1.0	15.5	16
+7	0.8	0	2	16
+8	0.4	0.4	13	16
+9	0.5	0.8	13	16
+
+*end spent

@@ -1,0 +1,39 @@
+;1999.08.05
+
+*begin carpetworld
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Kaninchenhöhle, 1623/161 (136)
+*title "Carpetworld"
+*date 1999.08.05
+*team Insts Jon
+*team Notes Neil
+*team Pics Neil
+*team Tape Simon
+*instrument Compass 5 ; Clino 5
+; Calibration:	N/A
+; ref.:	1999 KH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 8
+
+*calibrate tape -0.15	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	4.05	222	+15
+2	3	4.06	309	+32
+3	4	3.85	267.5	+13
+4	5	1.86	337	+1.5
+5	6	29.15	-	up
+7	6	3.05	19.5	-31
+7	8	4.26	293	-24
+
+;station details
+;name	L	R	U	D	description
+;All stations marked by red dot, except 5 (temporary cairn at foot of pitch) and 6 (knot in Y-hang at head of pitch)
+;Station 8 is the same as: John and Mike's 'Runny Bottom' survey station number 28.
+
+
+*end carpetworld
+

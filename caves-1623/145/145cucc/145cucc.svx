@@ -1,0 +1,38 @@
+;1994.11.13 (Olly) added - for missing clino readings
+;1998.01.26 AERW fettled, inc. restoring original numbering, adding all notes, one extra leg
+;1998.06.02 AERW added exports, regularised the extra linking leg as "part3to4" survey
+;2007.08.06 DL exiled
+
+*equate 145cucc.part1.3b	p145b	; May not close - may not be to same point !
+*equate 145cucc.part1.0	p145a
+
+*entrance p145a
+*entrance p145b
+
+*begin 145cucc
+
+; Locn:	Main plateau, beyond Brauning Sattel, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+*title "Wolfhöhle, 1623/145"
+
+; ====== stations refindable to link to other surveys: ======
+
+*export part1.0	; main entrance
+*export part1.3b	; P145b entrance - may not be same point as surface survey
+
+; ====== links between surveys making up the 145 survey: ======
+
+*equate part1.16	part2.35
+*equate part2.14	part3.29
+*equate part3.1	part3to4.1
+*equate part4.0	part3to4.0
+
+*equate part4.49	part5.10
+
+*include part1
+*include part2
+*include part3
+*include part3to4
+*include part4
+*include part5
+
+*end 145cucc

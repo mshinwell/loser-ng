@@ -1,0 +1,54 @@
+; 185 - fixed from wadds data as wookey is crap (a wookey comment ?)
+;1998.06.02 AERW added export, ref., comments
+
+*equate 185.20 P185	; centre of + of inscription '+ 88 CUCC 1623/162'
+			; yes, that's correct ! the number was changed later
+*entrance P185
+
+*begin 185
+
+; Locn:	flank of Vorderer Schwarzmoos Kgl, Loser Augst-Eck, Totes Gebirge, Austria
+*title "Two year gestation höhle, 1623/185"
+; Underground Survey, out from bottom
+*date 1990.07.13
+*team Jeremy, Matt & Adam (date and personnel from logbook)
+*instrument 
+*team Notes 
+*instrument Compass # 721899, Clino # 716221
+; Calibration:	
+; Ref.:	1990 survey book pp 54-57
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 20	; centre of + of inscription '+ 88 CUCC 1623/162'
+		; This cave was originally given the number 162. This had to
+; be changed later when proper numbers were allotted, but many of the caves
+; that year had been numbered in the form CUCC/x where x was from 1-15.
+; The sordid details are in the journal (1991 I think).
+
+*calibrate compass 0.0
+*calibrate clino   0.0
+;*data normal bcra_5 from to length bearing gradient
+
+1   0     5.00 234.5 -60.0 ;     starts at the bottom
+1   2     2.59 108.0 -22.0
+2   3     6.34   -    Up
+4   3     3.92 332.5 -19.0
+4   5     1.57 247.5 -63.0
+5   6     5.14   -    Up
+7   6     3.15   5.5 -17.0
+7   8     3.24 181.0  57.0
+9   8    12.07 317.5 -24.0
+9   10    4.80 267.0  45.0
+10  11    2.29 319.5  21.0
+11  12   11.71   -    Up
+13  12    3.23 225.5 -29.0
+13  14    4.38  44.5  23.0
+15  14    2.96 202.5 -48.0
+15  16    4.4  132.0  31.0
+17  16    2.7  192.0 -72.0
+17  18   11.82   -    Up
+19  18    1.7  340.0 -68.0
+20  19    1.7  109.5 -22.0
+
+*end 185

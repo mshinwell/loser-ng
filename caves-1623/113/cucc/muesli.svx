@@ -1,0 +1,25 @@
+*begin Muesli
+ ; formerly "SA"
+
+*date 1980
+; Calib: Fridge North must be assumed
+*instrument 
+; Tape : probably Mike Burgess
+*team Notes AERW
+; ref.: small black notebook with red spine in AERW's archive
+
+*export 0
+
+;CHANGE             180.    0.       Duff compass 1980 again
+*calibrate compass 180
+   0   1  5.0  110.  -69. ; 0 bolt on last bit, 1 ledge end ladder
+   1   2  6.7   20.  -38. ; 2 narrow bit of stream at eye level
+   2   3  7.5   42.   28. ; 3 into traverse, eye level stooping
+   3   4  4.75  19.   -5. ; 4 corner with phreatic tube
+   4   5  3.35 231.   -1. ; 5 middle of passage
+   5   6  2.75 242.    2. ; 6 bend
+   6   7  1.7  255.   -2. ; 7 corner - still eye level stooping
+   7   8  6.0  350.  -26. ; down 2.5m climb, eye level in small chamber
+   8   9  3.0  256.  -12. ; 9 bolt at pitch head
+*end Muesli
+

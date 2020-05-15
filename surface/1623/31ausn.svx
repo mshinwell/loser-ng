@@ -1,0 +1,28 @@
+*begin 31ausn
+
+; Ort:			Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+*title "Elchhöhle 1623/31, Außenvermessung vom Laserpunkt 9"
+*date 2000.10.30
+; Von:	Ableser:		Susanne Reuter
+;	Schreiber:	Thilo Müller
+;	(2. Schreiber:)	
+;	Massband:	Susanne Reuter, Thilo Müller
+*instrument Thilos 
+; Gerätefehler:	0
+; Referenz.:	Messbuch SMK 4
+
+; ====== Messpunkte, die an bereits bestehenden Vermessungen hängen: ======
+
+*export laser9
+*export 0		;Eingang Elchhöhle
+
+*calibrate tape +0.0	; "+" wenn das Massband zu kurz war, "-" wenn es zu lang war
+
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+*data normal from to length gradient bearing ignoreall
+
+laser9	a	2.2	31	323
+a	b	13.55	-16	239
+b	0	12.4	-16	109
+
+*end 31ausn

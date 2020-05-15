@@ -1,0 +1,36 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle 1623/204   - Gaffered - Inconvenience Series
+
+*begin crapper1
+
+*title "Crapper1"
+*date 2007.08.07
+*team Insts Andrew Atkinson
+*team Notes Becka Lawson
+*team Tape Andrew Atkinson
+*instrument Compass Clino - Pony
+
+;ref.:	2007 #52
+
+*export X 3 5
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+X	1	4.78	322	+05
+2	1	5.53	112	+51
+3	2	14.42	191	+56
+3	4	5.44	322	-28
+4	5	7.02	319	-31
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+X	1.2	1.2	3.5	0.4	rp roof pendant previous survey of Indecent Exposure
+1	5	0.3	3.5	4	pencil tip of boulder
+2	1.2	0.8	1.4	0.3	small rock
+3	2.2	0.4	7	1.1	rp previous station bottom of Engaged/Channel 5
+4	2.2	1.3	7	1	unmarked rock tip
+5	1	3	3	2	spit head of pitch
+
+*end crapper1
+

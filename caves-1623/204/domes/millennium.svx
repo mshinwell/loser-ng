@@ -1,0 +1,105 @@
+*begin millennium
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle
+*title "Millenium Dome and White Elephant Series"
+*date 1999.08.08
+*team Insts Nick Procter
+*team Notes Anthony Day
+*team Pics Anthony Day
+*team Tape Both
+*instrument Compass set #3; Clino set #3 
+; ref.:	1999 NotKH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 19
+
+*calibrate tape -0.225	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	1.71	-	up
+3	2	2.14	174	+03
+4	3	1.27	199	-05
+5	4	2.51	138	+12
+6	5	2.03	092	+13
+6	7	2.17	357	-11
+8	7	2.50	141	+60
+9	8	3.00	196	+85
+9	10	2.09	-	down
+10	11	15.25	-	down
+12	11	3.99	121	-31
+13	12	13.18	262	+43
+14	12	13.70	188	-22
+15	12	6.26	112	-22
+15	16	5.50	277	-35
+17	16	1.81	147	+57
+17	18	10.22	-	down
+19	18	4.19	353	-05
+20	19	3.67	276	+72
+21	20	8.22	269	+86
+21	22	17.92	-	down
+23	22	2.76	015	+21
+23	24	2.46	185	-36
+25	23	2.33	168	+10
+25	26	4.70	283	-33
+27	26	4.99	215	+07
+22	28	0.60	017	+09
+29	28	5.45	183	+50
+30	19	7.83	025	+53
+31	30	2.71	001	+33
+31	32	10.49	-	down
+33	32	7.18	142	+62
+33	34	3.90	232	-05
+34	35	7.08	-	down
+36	35	2.05	100	-20
+37	36	2.03	085	+64
+38	37	2.12	056	+18
+38	39	3.14	177	-02
+39	40	15.54	-	down
+41	40	8.38	022	-27
+
+;stn	L	R	U	D	Desc
+;1	-	-	-	-	yellow dot on climb from last survey
+;2	-	-	-	-	point on ceiling
+;3	0.45	0.00	0.54	0.60	Red paint mark RH wall
+;4	0.55	0.00	0.74	0.41	PM RH wall
+;5	0.37	0.00	0.45	0.62	PM RH wall
+;6	0.00	1.12	2.00	0.64	PM back wall
+;7	1.80	0.00	~3.00	~2.50	PM RH wall
+;8	0.00	2.50	lots	lots	PM flake by pitch head bolt
+;9	-	-	-	-	PM side of pitch
+;10	-	-	-	-	rebelay bolt
+;11	-	-	-	1.00	PM boulder
+;12	-	-	-	1.50	PM boulder
+;13	4.00	1.50	-	~5.00 through boulders	PM boulder
+;14	3.50	0.60	-	2.00	PM boulder
+;15	-	-	-	0.50	PM boulder
+;16	2.00	0.50	-	0.70	CM boulder
+;17	0.00	0.30	lots	lots	PM LH wall
+;18	0.60	2.00	lots	0.00	PM on floor
+;19	0.00	~2.00	~3.00	-	PM LH wall at pitch head
+;20	-	-	-	-	top deviation krab
+;21	-	-	-	-	bottom deviation krab
+;22	-	-	-	1.80	PM foot of plumb
+;23	0.25	2.00	lots	2.50	PM LH wall
+;24	0.20	0.00	lots	3.00	PM RH wall
+;25	1.40	0.00	lots	1.60	PM on wall
+;26	-	-	-	1.00	CM back wall
+;27	1.50	0.70	-	1.70	PM back wall
+;28	1.00	1.00	-	2.50	PM on boulder
+;29	0.96	6.00	-	1.60	PM RH wall
+;30	1.50	0.00	~10.00	1.40	PM RH wall
+;31	0.40	0.30	-	-	PM rock at pitch head
+;32	-	-	-	-	PM ledge
+;33	2.30	0.00	lots	1.70	PM RH wall
+;34	-	-	-	1.50 to top of pitch	pitch head bolt
+;35	1.20	1.20	lots	0.00	PM foot of plumb
+;36	0.00	0.80	-	-	PM pitch head
+;37	0.71	0.00	-	1.50	PM RH wall
+;38	0.52	0.00	-	2.00	PM RH wall
+;39	0.75	1.00	-	0.50	Y-hang knot
+;40	1.20	1.20	-	0.00	bottom of rope
+;41	0.00	1.50	-	1.00	PM chamber - dot with ring round it
+
+*end millennium

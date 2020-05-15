@@ -1,0 +1,196 @@
+;> 1623/41
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Stellerweghöhle 1623/41
+; 5 Vermessungen
+
+*begin verhall
+
+*export 22_3
+*export 22_3_5
+*export 8
+*export eingang_9
+*export 12
+*export 13
+*export 21
+*export 22_1
+*export 24
+*export 22_2
+
+
+;-1-
+*title "Erste Meßzüge in der Stellerweghöhle, in der Vereinigungshalle. MJ -Meßzug von den Katakomben zur Vereinigungshalle"
+*date 1996.06.07
+; Messteam: Gosia + Jens Römer, Gosia Römer, Jens Römer
+; Zeichner: Jens Römer
+; Referenz: Messbuch SMK 3
+
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung	Richtung
+
+12     13            2.97  -16   180
+
+;Raumwerte
+*data passage station left right up down
+13	4	4	7	1.5
+
+
+;-2-
+*title "Verbindungsgang Schwabenschacht-Stellerweghöhle, Weitervermessung im Sommer 96"
+*date 1996.07.13
+; Messteam: Regina Kaiser, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 2
+
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung	Richtung
+13     14	7.97  -11    43.5
+14     15	6.77    5.5  63
+15     16	3.6   -29    39
+16     17	7.18    1    62
+17     18	12.59   27.5  57
+18     19	9.53   37.5  57
+19     20	9.15    7    43
+20     21	4.49     51      64.5
+21     22	12.06     33      37
+22     23	6.60     15      20.5
+23     24	10.27    -11.5    40
+
+; Verbindungsstück von der Vereinigungshalle zum 142er Gang
+22     22_1    7.28    -24     104
+22_1   22_2    6.85    -49     158
+22_2   22_3   19.60    -40.5   127.5
+
+;Raumwerte
+*data passage station left right up down
+14	0.3	1.4	2.5	0.6
+15	0.8	0	0.3	1
+16	0	0.6	2.5	0.3
+17	0.8	0	0.6	1.2
+18	0.2	2	2	0.8
+19	1	0	0.8	0.9
+20	1	0	1	1.5
+21	5	1	7	3
+22	8	9	10	2
+23	1.5	1	2.5	1.4
+24	2	1.5	6	0.5
+
+*data passage station left right up down
+22	8	9	10	2
+22_1	4	5	8	3
+22_2	5	1	6	2
+22_3	3	2	3	2
+
+
+;-3-
+*title "Weiterweg die Rampe abwärts von der Vereinigungshalle aus (Krebsgang)"
+*date 1997.07.03
+; Messteam: Regina Kaiser, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 1
+
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung	Richtung
+22_3    22_4    12.02   -50.5   129
+
+22_4    22_4a   14.08   -43      95
+22_4a   22_4b    5.64   -46.5   138.5
+
+22_4    22_5     4.02    13     233
+22_5    22_6     7.49   -35.5   163
+22_6    22_7     8.20   -40     128
+22_7    22_8     6.63   -43      98.5
+22_8    22_9     4.20   -31.5   138
+22_9    22_10    6.10   -48      65
+22_10   22_11    2.92   -15      89
+22_11   22_12    2.60   -16     357
+22_12   22_13    3.15   -21.5    83
+
+;Zweiter Einstieg von 142 in die Vereinigungshalle (Fenster)
+22_2   22_2a        4.91    -15.5     93
+22_2a  22_2b       11.18     47      202
+22_2b  eingang_9   6.53   -24.5     230
+
+;Raumwerte
+*data passage station left right up down
+22_3	3	2	3	2
+22_4	6	3	4	3
+22_4a	1	5	1	2
+22_4b	2	1	2.5	0.5
+
+*data passage station left right up down
+22_4	6	3	4	3
+22_5	1	0	0.5	1
+22_6	1	0.2	1.4	0.3
+22_7	1.5	0.2	2	1
+22_8	0	1.4	1.5	0.4
+22_9	1.4	0	0.8	1
+22_10	1.8	0.3	4	0.6
+22_11	1.5	0.8	1.5	1
+22_12	0	1	1	0.8
+22_13	4	0	2	7
+
+*data passage station left right up down
+22_2	5	1	6	2
+22_2a	-	-	-	-
+22_2b	0	1	1.5	1
+eingang_9	0	1.2	1.5	-
+
+
+;-4-
+*title "Fortsetzung Krebsgang, Meßende unterhalb Abstieg, weitere ? möglich, gefährlich!"
+*date 1997.09.28
+; Messteam: Regina Kaiser, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 2
+
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung	Richtung
+22_13	22_14	6.42	-90	0
+22_14	22_15	7.55	-23.5	231
+22_15	22_16	4.2	-90	0
+
+;Raumwerte
+*data passage station left right up down
+22_14	-	-	-	-
+22_15	1	1.5	0.5	-
+22_16	-	-	-	-
+
+
+;-5-
+*title "Sahneschnitte, Verbindungsgang zu Rodent Runway"
+*date 2001.08.25
+; Messteam: Robert Winkler, Saskia Bartmann, Stefan Mark
+; Zeichner: Saskia Bartmann
+; Referenz: Messbuch SMK 4
+
+;Neigungswerte in Gon  !!!
+*units clino grads
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung	Richtung
+22_3	22_3_1	7.35	39	53
+22_3_1	22_3_2	5.45	-41.5	143
+22_3_2	22_3_3	4.83	-18	86
+22_3_3	22_3_4	12.45	19	69
+22_3_4	22_3_5	6.61	7	65
+;22_3_5 = MP10 von Rodent Runway
+
+;Raumwerte
+*data passage station left right up down
+22_3	3	2	3	2
+22_3_1	0.5	0.5	1.5	0
+22_3_2	1.5	1	1	1.5
+22_3_3	1	0.7	1.5	0.5
+22_3_4	0.5	0.7	0	1
+22_3_5	1.5	1	1	4
+
+
+*units clino degrees
+
+*end verhall
+
+

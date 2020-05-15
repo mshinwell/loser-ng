@@ -1,0 +1,53 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Tony´s second Höhle 1623/144
+
+; Eingänge
+*entrance p144
+*entrance p144b
+
+; Eingänge absolut positionieren
+;*fix p144  36103.07 81514.63 1711.44
+;*fix p144b 36035.93 81447.07 1701.94
+
+; Eingänge anbinden
+*equate p144  144.144ein.0
+*equate p144b 144.144horiz.29
+
+*begin 144
+*title "Tony´s second Höhle"
+
+; Eingänge exportieren (zum anbinden)
+*export 144ein.0	; p144
+*export 144horiz.29	; p144b
+
+; Verbindungen zu anderen Höhlen exportieren
+*export 144verb.3	; 041.diaet.43_2
+*export 144verb.43	; 041.diaet.25_43
+			; TODO: besser diaet.25_43 in diaet.25_12 umbenennen
+*export 144verb.58	; 041.entlueft.9_10
+*export 144verb.63	; 041.wetnwild.2
+*export 144ein.24	; 041.alice.a7
+*export gang.a		; Kaninchenhöhle (161)
+*export gang.2_20_2	; 143.hades.anschluss_20_2 (Weiße-Warzen-Schacht)
+
+; Verbindungen in der Höhle
+*equate 144ein.7	144horiz.0
+*equate 144ein.25	America.0
+*equate 144ein.26	144verb.26
+*equate 144ein.26	cuccrest.22
+*equate gang.2		America.117_2
+*equate gang.2_32	ElfUhr.0
+*equate gang.2_34	Meander.0
+*equate Meander.7_16_35	me2.35
+
+*include 144ein
+*include 144horiz
+*include 144verb
+*include America
+*include cuccrest
+*include ElfUhr
+*include gang
+*include Meander
+*include me2.svx
+
+*end 144

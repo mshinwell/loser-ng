@@ -1,0 +1,44 @@
+;1998.02.01 AERW added notes and station details from survey book
+;1998.06.02 AERW added exports and comments
+
+*begin Sump
+
+; Locn:	Main plateau, WNW of Top Camp, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+; Cave:	Puffball & Icing Sugar Cave (1623/182)
+*date 1992.07.16
+*team Insts JulianH
+*team Tape JulianH
+*team Notes Wookey
+*instrument Illum. Comp & Clino
+; Calibration:	(Gill) pt B to colwilly: +11.5, 193.5
+; ref.:	1992 survey book pp 8-9
+
+; ====== stations refindable to link to other surveys: ======
+
+;*export 2	; bolt rhs pitchhead, last bit of rope (nearest way on to
+		; sump 2 - currently unsurveyed)
+*export 9	; Bolt on outside of bend of passageway, head of last pitches
+		; down to sump 1 (1st bolt of traverse line)
+
+2       1        6.72   070     -60
+2       3        6.04   240     +36
+4       3        8.56   040     -61
+4       5        8.73   220     +17
+6       5       12.76   045     -71
+7       6       13.02   150     -60
+8       7        2.95   072     -25
+8       9        0.92   310     -30
+
+;station details
+; name	L	R	U	D	notes
+; 1	0.2	0.2	3.	0.9	0.5 above sump
+; 2	1.1	0.	6.0	1.0	bolt rhs pitchhead, last bit of rope
+; 3	0.9	0.7	5.0	5.0	end of shelf
+; 4	0.5	0.	0.9	pitch	bolt, lower (R) of Y hang
+; 5	0.2	1.8	0.5	3.4	nowhere in particular
+; 6	6.0	0.	0.	pitch	0.9 below bolt, level of shelf
+; 7	0.	1.8	3.0	pitch	2nd bolt of traverse line
+; 8	0.8	0.	1.5	2.5	flake on RHS at corner
+; 9	-	-	-	-	bolt (1st on traverse line)
+
+*end Sump

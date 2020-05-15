@@ -1,0 +1,25 @@
+; GPS fixes (not including track logs).
+
+; gps filename indicates year (gps12 is 2012 gps points, gps96 in 1996 points)
+*include gps96
+*include gps98
+*include gps00
+*include gps01
+*include gps02
+*include gps02olly
+*include gps03
+*include gps03_bis
+*include gps04
+*include gps05dave
+*include gps05
+*include gps06
+*include gps07
+*include gps09
+*include gps10
+*include gps11
+*include gps12
+*include gps14
+*include gps15
+*include gps16
+*include gps17
+*include gps18

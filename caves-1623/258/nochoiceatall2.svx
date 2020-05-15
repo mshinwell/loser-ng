@@ -1,0 +1,37 @@
+*begin nochoiceatall2
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export 11x	4	5
+
+*title "No Choice At All 2"
+*date 2014.08.11
+*team Notes Noel Snape
+*team Insts Julian Todd
+*instrument Hollys disto x 2
+
+;ref.: 2014#30
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+1	11x	5.32	016	-25
+2	1	4.64	005	16
+3	2	1.72	336	32
+4	3	5.40	348	-06
+*flags duplicate
+5	4	14.24	047	-29
+
+*data passage station left right up down ignoreall
+
+;stn	L	R	U	D	Desc
+
+11x	0	1	2	2.5	in chamber
+1	0.9	0	0.5	1.7
+2	0.9	0	1.1	1.6
+3	1.1	0.1	2	0.6
+4	0	2	2.9	1.8
+5	5	2	4.7	1.5
+
+*end  nochoiceatall2

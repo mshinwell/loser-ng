@@ -1,0 +1,40 @@
+*begin dampsquib
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	258 "Tunnockschacht"
+
+*export  6
+
+*title "258: Damp Squib"
+*date 2009.08.04
+*team Insts Steve Jones
+*team Tape Both
+*team Notes Martin Green
+*instrument Set ?
+*instrument Tape yellow
+
+; Survey book reference
+*ref 2009#24
+
+; Calibration: not done
+
+; from	to	tape	comp	clino	remarks
+0	-1	6.00	330	0	;grade 2
+1	0	12.40	330	-70	;grade 2
+2	1	2.00	310	0	;grade 3
+3	2	3.01	323	0	;grade 5
+4	3	10.95	-	down	;grade 5
+4	5	1.72	135	+50	;grade 5
+6	5	3.74	015	-08	;grade 5
+
+*data passage station left right up down ignoreall
+2	-	-	-	-	RP on rim of horizontal hole between shafts
+3	1.0	1.5	-	1.5	point in space on plumb
+4	0.6	0.3	3.0	12.0	Y-hang knot
+5	0.5	1.0	1.5	1.5	Spike RHW
+6	0	-	-	1.5	previous rp
+1	0.6	0.6	8.0	9.0	point in space
+0	1.8	1.8	-	0.0
+-1	0.2	0.2	2.0	1.0
+
+*end dampsquib

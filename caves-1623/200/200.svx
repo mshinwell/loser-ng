@@ -1,0 +1,18 @@
+; 1623/200
+
+*entrance t200
+
+*equate t200 200.1
+
+*begin 200
+
+*export 1
+*date 1998
+
+; made up from survey on web
+1 2 10 225 0
+2 3 20 - down
+3 4 10 045 0
+4 choke 20 - down
+
+*end 200

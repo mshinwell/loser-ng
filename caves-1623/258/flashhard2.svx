@@ -1,0 +1,68 @@
+*begin flashhard2
+
+; stations linked into other surveys (or likely to)
+*export 1	10
+
+; Cave: Tunnocks
+; Area in cave/QM: Pitches Below Clayton's Cock Up 
+*title "flash hard2"
+*date 2015.08.05
+*team Insts Matthew Watson
+*team Notes Fleur Loveridge
+*instrument DixtoX2
+*ref 2015#41
+
+; Centreline data
+*data normal from  to   tape      compass   clino
+1	2	5.69	010	+24
+2	3	11.61	266	+72
+3	4	2.76	198	+10
+4	5	10.58	320	+58
+5	6	12.41	046	+86
+6	7	11.94	012	+79
+7	8	8.22	098	+74
+8	9	8.80	357	+78
+9	10	5.45	044	+83
+
+;-----------
+;recorded station details
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;(leave commented-out)
+;Blue nail varnish markings
+;1	1.5	0	1	4	;	LHW
+;2	2	2	10	1.5	;	Wall
+;3	0.5	0	4	10	;	Nr bolt, LR give long axis of shaft
+;4	0	5	8	1.5	;	Nr bolt, LR give long axis of shaft
+;5	7	5	-	12	;	Nr bolt, LR give long axis of shaft
+;6	7	3	-	35	;	Nr bolt, LR give long axis of shaft
+;7	9	6	-	42	;	Nr bolt, LR give long axis of shaft
+;8	3	1	-	50	;	nose of rock nr bolt, LR give short axis of shaft
+;9	1	2	12	55	;	wall near bolt, LR gives short axis of shaft
+;10	-	-	-	-	;	tie in station
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	1.5	0	1	4	;	LHW
+2	2	2	10	1.5	;	Wall
+3	0.5	0	4	10	;	Nr bolt, LR give long axis of shaft
+4	0	5	8	1.5	;	Nr bolt, LR give long axis of shaft
+5	7	5	-	12	;	Nr bolt, LR give long axis of shaft
+6	7	3	-	35	;	Nr bolt, LR give long axis of shaft
+7	9	6	-	42	;	Nr bolt, LR give long axis of shaft
+8	3	1	-	50	;	nose of rock nr bolt, LR give short axis of shaft
+9	1	2	12	55	;	wall near bolt, LR gives short axis of shaft
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1 A    flashhard2.1     claytonscockup.2  strong draft emits from meander with small stream, 2m climb down probably needs handline.
+
+;------------
+;Cave description
+; large shaft of ~70m ends on boulder floor, followed by 12m pitch to small chamber. Meader emitting strong draft is yet to be explored. 
+
+*end flashhard2

@@ -1,0 +1,29 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	258 "Tunnockschacht"
+
+*begin sauerkraut
+
+*export 2 5
+
+*title "258: Sauerkraut"
+*date 2006.08.09
+*team Insts John Billings
+*team Notes Sandeep Mavadia
+*instrument Set: Orange compass and yellow clino
+*instrument Tape yellow Tajima
+
+; Calibration: stone bridge up 152/+23, 152/+23; down 328/-23, 328/-23
+
+; from	to	tape	comp	clino	remarks
+2	1	6.29	084	+12
+2	3	8.78	262	-16
+3	4	5.64	216	+11
+4	5	2.92	329	-16
+
+*data passage station left right up down ignoreall
+1	4.0	0	1.5	1.0	RP LHW of Ribs + Knodel
+2	4.0	0	0	0.4	RP on flake at ent to Sauerkraut
+3	1.0	0	0.8	0.6	RP on nodule on right wall
+4	1.0	1.8	5.0	1.1	RP on facing wall
+5	1.8	0	-	1.7	RP on nodule on RHW
+*end sauerkraut

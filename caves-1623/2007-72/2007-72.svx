@@ -1,0 +1,23 @@
+*equate 2007-72.7 p2007-72
+
+*begin 2007-72
+
+*date 2007.07.18
+*team Insts Jenny
+*team Notes Olly
+*team Pics Olly
+*team Tape Jenny
+*instrument ours + disto
+; notes in 2007 #34
+
+*export 7
+
+1	0	8.651	302	-63
+1	2	2.259	150	+34
+2	3	3.738	342	-66
+2	4	2.067	096	+50
+4	5	1.745	131	+48
+6	5	3.356	281	-45
+6	7	2.488	260	+16
+
+*end 2007-72

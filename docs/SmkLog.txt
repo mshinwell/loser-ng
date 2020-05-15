@@ -1,0 +1,253 @@
+2011.10.23: Wookey
+
+Comments now largely live in SVN/Mercurial check-in comments.
+
+Starting from Oct 2011, and finished May 2013, ARGE data was merged
+into the same repo for maintenance together.
+
+------
+
+
+Smk-Log.txt
+
+Struktur/structure:
+40        Schwarzmooskogel-Eishöhle
+41        Stellerweghöhle
+78        Schwabenschacht
+88        Lärchenschacht
+115       Schnellzughöhle
+143       Schwa-Schacht 143
+144       Tony's second Höhle
+161       Kaninchenhöhle
+182       Bovist und Puderzuckerhöhle / Puffball & Icing Sugar Cave 
+fixedpts  Points considered "fixed" (Laser/GPS/ents framework)
+fudges    Nothing should live here long term - directory for obviously fabricated data
+hinter    Caves on Hinterer Schwarzmooskogel (196, 204)
+          Höhlen zum Hinterer Schwarzmooskogel (196, 204)
+plateau   Small Caves on plateau (76, 145, 148, 183, wk2, wk3)
+          Kleine Höhlen zum Plateau (76, 145, 148, 183, wk2, wk3)
+stoger    Small caves reached from Stogerweg (87, 152, 113)
+          Kleine Höhlen von Stogerweg erreichten (87, 152, 113)
+surface   Surface surveys / Außenmessung
+templates Files to copy when adding new data
+          Dateien abzuschreiben, wenn neue Daten hinzugefügt werden
+terrain   Map-derived surface data (digital elevation grids / contours)
+          Rasterhöhenkarte und Höhenlinien
+-3d-      Fertige 3ds zum anschauen
+          Ready for .3d files to be placed into
+-smk-log- Protokolldateien, Zusammenfassungen und Übersichten
+          log files and overviews
+
+-----------------------------------------------------
+Dies ist die Datei, um generelle Änderungen zu dokumentieren.
+Dabei nicht Details notieren, sondern nur welche Datei weshalb
+wann und von wem geändert wurde. 
+Die Details kommen in die jeweilige Höhlen-Log Datei.
+-----------------------------------------------------
+-----------------------------------------------------
+This is the file to note general changes.
+Please record the details in the cave-log files, not here.
+This is the place for things like who did what and when,
+touching many files or the overall structure
+-----------------------------------------------------
+
+2012.10 and 2012.04 Wookey
+Merge ARGE dataset and CUCC dataset to use consistent directory names,
+cave names, survey names and fixed-point stuructures.
+
+2001.02.21 Olly
+
+Cave numbers allocated to CUCC by Austrians 2001.09.01:
+
+235: Schaukelfelsbrockenhöhle
+234: Flinkameiseschacht
+233: Dreieingangabdrosselnhöhle
+232: Moostunnelhöhle
+231: 2000-01 Traungoldhöhle
+230: 1999-05 Verge&szlig;lichheithöhle
+
+2001.02.21 Olly
+
+Cave numbers allocated to CUCC by Austrians 2000.08.08:
+
+214: 2000-03 segment cave
+215: 2000-05 vocal connection cave - ruf verbindungshöhle
+216: 2000-06 nichts 50
+217: 2000-07 Schneepfropfen höhle
+218: wk6 hammerhead fall hammerkopfabsturtz
+219: wk5 tertiary fester
+220: 2000-04 kenedy alternative
+(221: not ours)
+222: 96-04 Gösser höhle
+223: 96-03 Eggenberg schacht
+224: 96-02 Topless canyon höhle
+225: 90ADAM: decade Jahrzehnschacht
+226: 990B03 Skaschacht
+227: 990B04 "slotth" Faultierschacht
+
+2000.12.18 Wookey
+Fixed up 40 area data to include all entrances. Integrating ARGE's last set of updates.
+
+2000.11 Thilo
+- created a "nils2000.svx" file with all fixed points inside from the diploma work.
+- added all new fixed entrances to the fixedpts.svx files (for the ARGE data) 
+and recalculated connections
+
+Caves:
+031 Elchhöhle: surveyed (in- and outside), files created, added 31ausn to surface
+040 Eishöhle: new bits stored (wahnsinn, niete, elefant), structure changed a little
+041 Stellerweg: little new parts
+078 Schwabenschacht: steinbl added
+116 Kleine Eishöhle: files created
+131 Thomas Eishöhle: got data from RTW, files created
+144 Tonys second Höhle: new files added, ARGE data in ARGE folder only
+202 Dominoschacht: files changed
+203 Sonnenscheinschacht: files added, added sonnausn to surface
+206 7-Eingangshöhle: files added
+216 Nichts 50 Höhle: files created
+228 Kleine Schnellzughöhle: files added, 228ausn added to surface
+229 Weiße Höhle: files created, weisausn added to surface
+
+
+
+2000.08 CUCC expo
+many '2000' dirs added for expo 2000 info
+
+2000.05.17 AERW
+provided English translations (some a bit Taiwanese) of Thilo's commentary
+in all the log files.
+
+2000.05.11 (wookey)
+Moved all entrance and connection fixes into <cavenum>fix.svx files which just
+include the <cavenum> file. This should both CUCC and ARGE methodologies.
+Now you can run any of
+1) area files with all (surface and underground) surveys, (eg all.svx)
+2) area files with just underground surveys + overall ents fixes (eg caves.svx)
+3) indivdual cave files outside G&K co-ordinate space (eg 078.svx)
+4) indivdual cave files with local fixes only (eg 078fix.svx)
+That shold keep everyone happy :-)
+
+15.-19.4.00 (Thilo)
+Alle Datenfiles von 78, 41 und 115 geaendert.
+All data files for 78, 41 and 115 changed.
+Dabei alle Mappen und Akten gelöscht und "richtige" Namen vergeben.
+All "Mappe" and "Akte" names removed and "proper" names given.
+Alle Infos zwischen begin - end Kommandos gelegt, alle Namen in kleinbuchstaben.
+All info put between begin/end commands, all names lower case.
+Stichwort: Unix kompatibel
+Keyword: Unix compatible
+
+2000.04.12-13 Wook
+organised 040 files by group and to be properly subdivided.
+Dataset is problematical as three parts of cave are independent
+Fixed various thinbgs broken by last year's changes:
+ lerche, 115, 143, 144 data reconnected, and overall files (all, allcaves) adjusted to
+ work with Thilo's changes. P158 GPS bodge removed. Lots of small changes
+
+2000.03.26 Wook
+moved 1999 KH files into proper places:
+161/1999/MorEnt -> 161/136/136ents, surface/136entsurf
+161/1999/turkey -> 161/phumour/turkey
+161/1999/scorchio -> 161/triassic/scorchio
+161/1999/chile -> 161/136/chile
+
+2000.03.19/20
+Many files changed to fix case so dataset works on unix too.
+
+2000.03.08 (wookey)
+split hagelschacht and seniorenschacht over and underground data
+(previously in 040/40divalt1 and 2, now in surface and vskcaves).
+Hagelschacht not connected. Seniorenschacht connected to eishohle, but we
+don't know which entrance...
+moved Juttahohle from 040alt into vskcaves (not connected)
+split 040/40alt into underground and surface parts.
+
+2000.03.06-07 (wookey)
+Added various surface surveys, and created a :
+surface/allnrkh: added 136dto139. Integrated 199, 138, 135
+surface/136dto139: deleted (moved into 'nr136')
+surface/nr136: 136dto139 integrated, vskcaves.96WK08 moved out.
+vskcaves/96Wk08: created from surface.nr136
+vskcaves/138, 135, 139, 201 all created (made up data)
+vskcaves/caves, entlink: 138, 135, 139, 201, 96WK08 added
+vskcaves/p199: renamed to 199 (and fake leg added)
+fixedpts/ent99: renamed to ents
+allcaves: uses ents instead of ents99 (it's silly changing the name all the time!)
+fixedpts/ents: added 135,138,139,201,199
+
+surface/tcto171: not188 (2 unnamed caves) and TCto188 (188), all close to lower top camp
+surface/near06: near06 (76, 76a, laser 0/6, and 99)
+surface/neartc: 90to94bis (repeat of 90, 91, 160, 93, 94 survey)
+
+1999.02.10-11 W finished fettling in above data
+  Renamed surface/smkausen to surface/40to88, 
+   and survey itself from kausen to 40to88.
+  Reflected this change in allnr41
+  Moved stuff based on P40a in surface/allnr41 to Surface/alln40.
+  Reflected this change in all, allsurf
+  
+  Updated Fixedpts/Ents98 with all entrances that had moved: 
+    P161 b,c,e,f, p162, p136, p147 all moved 2-6m
+
+2000.01.25 (wookey) 
+surface/neartc: Corrected error in in 1988 '90to94' survey (shown by 1999 check)
+
+1999.12.30 (Wookey) 
+040/40alt.svx: *Fixed to match modern data. some fixes to data
+2000.01.03 
+040: Capitalisation errors fixed, errors in deviant and dangle found on
+drawing-up fixed.
+
+1999.11.03 (Wookey)
+040/spinne, 040/eishohle: Connected Spinnenfriedhof/KalterGang (spinne) survey
+surface/allnr41: added L8to158 survey
+
+1.11.99 (Thilo)
+Verbindungsmeßzug Lärchenschacht - Stellerweghöhle eingefügt, Fehler 1,4 %!
+Lärchenschacht - Stellerweghöhle survey connection added 1.4% closure !
+Außenmessung vom LaserMP 8 zur 7- Eingangshöhle und Donner und Blitzenhöhle, 450m.
+Surface survey from laser point 8 to 7-Eingangshöhle and Donner und Blitzenhöhle, 450m.
+7-Eingangshöhle eingegeben, GGL 50m, liegt unterhalb von 1623/158
+7-Eingangshöhle data inserted, GGL 50m, lies below 1623/158
+Neuer Eingang Eishöhle (Grüner Eingang) eingegeben incl. Außenvermessung zur SVH; Fehler über 5%, kontrollieren!
+New entrance to Eishöhle (Grüner Eingang) added including surface survey to SVH; misclosure over 5%, controls!
+Arge2000 als Aufgaben-Sammlung fürs kommende Jahr unter argediv eingefügt
+Various text files for Arge2000 (coming year) inserted under -SMK-log-/argediv
+
+28.9.99 (Thilo)
+SMK-Eishöhle, unsere Daten ergänzt.
+Added our data for SMK-Eishöhle
+Stellerweghöhle ins CUCC Format gebracht.
+Stellerweghöhle brought into the CUCC Format
+Schnellzughöhle ins CUCC Format gebracht.
+Schnellzughöhle brought into the CUCC Format
+
+27.9.99 (Thilo)
+Schwabenschacht Daten ins CUCC Format gebracht.
+Schwabenschacht data brought into the CUCC Format
+
+22.9.99 (Thilo) 
+Dateien auf Doubletten geprüft (040) und jeweils den neuesten Datensatz zum
+aktuellen gemacht.
+Files tested on duplicates (040) and done the newest record to the current in each case.
+
+21.9.99 (Thilo) 
+Struktur der bisherigen Arge Verzeichnisstruktur umgeschrieben
+und in die CUCC Struktur eingefügt.
+The prevailing Arge directory-structure rewritten and inserted into the CUCC structure.
+Alle Daten in das jeweils neue Verzeichnis geschoben.
+All data moved into the relevant new directory.
+Alle Höhlenverzeichnisse sind jetzt über die 3-stellige Katasternummer erreichbar.
+All cave directories are now named with the 3-digit kataster number
+
+Changes after expo 1998
+1998.12.24 W added stoger/lerche and surface/smkausen
+Also renamed stoger/eis2 to stoger/eisSVH
+Files touched: stoger/entlinks, lerche, eis2(deleted), eisSVH, caves
+               surface/smkausen, allnr41, Fixedpts/ents98
+
+Changes to Austria dataset on expo 1998
+
+AERW created FixedPts.GPS98
+AERW included GPS98 in AllCaves
+

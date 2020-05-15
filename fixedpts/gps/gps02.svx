@@ -1,0 +1,59 @@
+*equate p264 gps02.p2005-05 
+*equate p2005-06 gps02.p2005-06 
+*equate p2005-08 gps02.p2005-08
+*equate p2002-AD-03 gps02.p2002-AD-03
+; yes, this is ugly
+
+*begin gps02
+*export p2005-05 p2005-06 p2005-08 p2002-AD-04 p2002-AD-03
+*title "Duncan's fixed points from 2002"
+*date 2002.08.22
+*team GPS Duncan Collis
+; Ref: 2002#31
+; The notes have the abbreviation "USR" for the coordinate grid. In Garmin-ese
+; this means "user grid". I'm assuming these are actually dataset coordinates.
+; Four of these holes were refound without difficulty in 2005, which suggests
+; that assumption's about right. Altitudes estimated from Martin's countour
+; data.
+
+; It seems most of these haven't been tagged, so I've invented numbers
+; for them with an X in.
+
+*fix p2002-X09 reference 36917 83700 1900 ; Darenesque
+*fix p2002-X09B reference 37055 83866 1900 ; Prominent rock shelter
+*fix p2002-10 reference 37069 83889 1900 ; [there is a small sketch in the notes here, marking a 5m shaft into a 3m long chamber with continuations in both directions]
+*fix p2005-08 reference 37109 83971 1900 ; [5m wide circular 8m pitch with passage leading off NE and NW, and a rock bridge at SW corner.] ; was 2002-X11
+*fix p2005-07old reference 37136 84021 1900 ; 1m triangular slopy; was 2002-X12 ; this measurement superseded by tag point fix from 2005
+*fix p2005-06 reference 37155 84073 1900 ; L-shaft, 15m deep ; was 2002-X13
+*fix p2005-05 reference 36956 84385 1866 ; cliff entrance, 3m wide, 1m high on cliff facing E ; was 2002-X14; 27/08/14 Elevation changed from 1900 by Becka to 1866 based on Mike Futrell's best estimate - note the remaining elevations in this file are all 1800 or 1900, clearly a bodge that needs fixing!
+*fix p2002-X15 reference 36528 84513 1800 ; big, blind tunnel
+*fix p2002-X16 reference 36416 84344 1800 ; "spring" [that's what I think this says, although it looks more like "spoing"]
+*fix p2002-X17 reference 36457 84294 1800 ; ~20m deep shaft in slabs
+*fix p2002-X18 reference 36432 84109 1800 ; 2m wide shaft in bunde
+*entrance p2002-X09
+*entrance p2002-X09B
+*entrance p2002-10
+
+*entrance p2005-05
+*entrance p2005-06
+*entrance p2005-08
+
+*entrance p2002-X15
+*entrance p2002-X16
+*entrance p2002-X17
+*entrance p2002-X18
+
+; These ones are from Anthony's GPS and correspond to a surface walk 15/8/02, for which notes are in 
+; wallet 2002#12.
+
+*fix p2002-AD-01 reference 36933 83891 1860
+*fix p2002-AD-02 reference 36976 83906 1857
+*fix p2002-AD-03 reference 36943 84074 1878
+*fix p2002-AD-04 36920 84087 1902
+*entrance p2002-AD-01
+*entrance p2002-AD-02
+*entrance p2002-AD-03
+*entrance p2002-AD-04
+
+
+*end gps02

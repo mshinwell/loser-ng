@@ -1,0 +1,66 @@
+*begin ducksonice
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export 14 x 16x
+
+*title "Ducks on Ice - below entrance pitch"
+*date 2014.08.01
+*team Notes Becka Lawson
+*team Insts Becka Lawson
+*instrument Becka's old DistoX
+
+;ref.: 2014#17
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+*flags duplicate
+
+x	1	5.57	303	-20
+x	y	5.50	253	-13
+x	z	9.94	160	+38
+1	2	2.34	305	+32
+*flags not duplicate
+
+2	3	8.72	032	-37
+4	2	2.44	146.5	+57
+4	5	11.71	244	+71
+*flags duplicate  ;already in survey '2'
+6	2	6.72	141	-14
+6	7	6.30	352	+31
+*flags not duplicate
+8	7	3.12	162	+25
+8	9	1.52	294	-17
+9	10	1.06	300	-53
+11	10	0.65	348	-25
+11	12	21.60	321	-49
+12	13	1.74	319	+32
+12	14	5.86	350	-02
+;final connection leg on 04/08/2014 by becka
+16x	14	0.99	338	-26
+			
+*data passage station left right up down ignoreall
+
+;stn	L	R	U	D	Desc
+
+x	2.5	0	4	2	rp on l wall, old station as enter cave
+y	-	-	-	-	unmarked
+z	-	-	-	-	unmarked
+1	0.2	1.5	1	1.8	l wall, start of upper hole
+2	0	1.3	0.2	2	l wall, end of upper hole, numbered bl2 (pencil)
+3	1.5	1.5	8	1	back wall below inlet, unmarked
+4	3	2	6	1	rp tip of boulder
+5	1	0.5	0	2	up aven, unmarked
+7	4	0	11	2	first bolt of traverse rhw
+6	0	3	3.5	1.5	lhw, numbered bl6 (pencil)
+8	5	0	13	4	rhw near bolt
+9	5	0.5	13	4	rhw down to ice
+10	4.5	1	15	4	bolt for pitch
+11	-	-	-	-	ice wall
+12	1	4	4	1	base of pitch (snowball!)
+13	0	4.5	4	2.5	bolt lhw wall, numbered 13, start of traverse
+14	0	4	2	4	bolt, end of traverse
+*end  ducksonice

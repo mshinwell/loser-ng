@@ -1,0 +1,2 @@
+; 161 to 204
+*equate 161.bored.15 204.midlevel.farfromsupport.5

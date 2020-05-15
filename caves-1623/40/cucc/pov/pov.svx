@@ -1,0 +1,20 @@
+;persistence of vision - route off Schneevulkanhalle in Eishöhle
+
+;==connections between surveys in these files
+
+
+; *export deviant.18 - connection to SVH survey (eissvh.sv44)
+
+;CUCC 1999 extensions to SVH
+*include deviant
+; 'deviant alternative' and 'delaying tatics'
+*include uuaway
+; up,up and away
+*include dangle
+;'Angle of dangle' and radio 3
+*include eiscream
+;'north utsira' and 'eiscream'
+
+*equate uuaway.16 deviant.11 
+*equate dangle.6 uuaway.1 
+*equate eiscream.1 dangle.19 

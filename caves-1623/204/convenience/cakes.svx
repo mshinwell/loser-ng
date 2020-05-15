@@ -1,0 +1,60 @@
+*begin cakes
+
+*export 1 9
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Urinal Cakes"
+*date 2007.07.25
+
+*team Insts Kathryn Hopkins
+*team Notes Nial Peters
+*team Tape Pete Harley
+
+*instrument set 4
+
+; ref 2007#27
+
+; Calibration: stone bridge: 152/22,153/22,324/-24,319/-24
+
+; ====== stations refindable to link to other surveys: ======
+1	2	4.54	220	-32
+3	2	2.38	145	18
+4	3	1.76	120	06
+5	4	1.07	125	-27
+5	6	3.88	303	16
+6	7	2.38	291	-15
+8	7	2.68	130	-03
+8	9	5.29	342	-02
+9	10	7.51	269	-26
+10	11	6.84	271	-32
+11	12	1.59	218	01
+12	13	3.28	142	40
+13	14	5.10	155	28
+13	15	6.44	309	36
+
+*calibrate tape +0.06
+; +ve if tape was too short, -ve if too long
+
+
+*data passage station left right up down ignoreall
+1	0	1	1.5	2	rp rhw above qm in convenience series
+2	0	0.4	1.7	1	rp lhw
+3	0.3	0	0.75	0.5	rp rhw
+4	0	0.3	0.5	0.7	rp lhw
+5	1	0.15	1.5	1.5	rp on rock
+6	0.5	0.5	0.5	0	rp on rock
+7	0	0.4	0.3	0.4	rp lhw
+8	0.4	0	0.3	0.3	rp rhw
+9	2	2.5	2.5	0.5	rp on roof flake
+10	0	1	0.5	1	rp lhw
+11	1	1.5	2	0.5	rp on boulder
+12	0.5	0.3	0.6	0.4	rp on rock
+13	0.5	2	-	0.5	rp on boulder
+14	1.5	1	-	0.1	rp on rock
+15	2.5	1	-	1.5	rp on rock
+	
+
+
+*end cakes
+

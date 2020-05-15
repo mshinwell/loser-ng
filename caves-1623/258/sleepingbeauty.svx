@@ -1,0 +1,33 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	258 "Tunnockschacht"
+
+*begin sleepingbeauty
+
+*export 1
+
+*title "Sleeping Beauty"
+*date 2008.08.03
+*team Insts Aaron Curtis 
+*team Notes Ollie Stevens 
+*instrument
+
+;ref.:	2008 #22
+
+*calibrate tape 0.4	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+2	1	4.9	345	-10	
+3	2	6.38	336	-14
+4	3	1.44	023	+11
+4	5	8.78	-	down		
+
+*data passage station left right up down ignoreall
+2	0.3	1	0.2	0.4
+3	0.7	0.3	1	0
+4	0.04	0.06	5	13
+5	2	2	3	0
+
+*end sleepingbeauty
+
+
+

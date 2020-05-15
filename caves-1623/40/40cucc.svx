@@ -1,0 +1,32 @@
+;Schwarzmooskogeleishöhle, 1623/40
+;Zusammenstellung der CUCC Vermessungen
+
+*data normal from to tape compass clino
+
+*include cucc/plastic     	;CUCC 1998 extensions to SVH
+;*equate Plastic.22 EisSVH.SV72
+
+*include cucc/pov/pov 	;CUCC 1999
+
+
+;*equate deviant.18 eissvh.sv44
+
+*include cucc/oldway      ;CUCC 1999 survey back towards old cave
+*equate oldway.10 eissvh.sv26  	;Neuer Anschluß über elefant
+
+
+*include cucc/mission
+;*equate EisSVH.SV43 missionconnection.1
+
+*include cucc/mission5
+*equate modern.20 mission5tie.3
+
+*include cucc/nmanip
+;*equate nmanip.1 EisSVH.SV30
+
+*include cucc/40h
+;*equate 40h.1 EisSVH.SV21
+;*equate 40h.2 EisSVH.SV22
+
+*include cucc/oldnew
+*equate oldnew.6 gruenereingang.0a ; ...but point in cave says "1"!

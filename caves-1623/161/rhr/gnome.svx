@@ -1,0 +1,87 @@
+;1998.04.01 AERW sorted begin/end, added comments, refs, exports
+
+*begin Gnome
+
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+*title "Gnome Passage"
+*date 1992.07.18 ; trip 1992-161-7 in 1992 logbook
+*team Inst MikeTA
+*team Tape 
+*team Notes Wook
+*instrument Compass: illum.; Clino: illum.
+; Calibration:	'92 Cairns, 041, +7/5,-9
+
+; ref.:	1992 survey book pp 108-109 (plus two supplementary loose pages)
+
+*export 1	; carbide mark "end"
+*export 28	; in line of sight down eyehole pitch in Dreamtime to tip of lump
+
+*calibrate clino -0.75
+
+
+2       1       2.96    316.5   -14
+3       2       1.97    293     -10
+4       3       2.13    237     -24
+5       4       2.45    210     -09
+6       5       4.31    328     -10.5
+7       6       1.60    049     -04
+8       7       1.08    320     -03
+9       8       1.21    234     -18
+10      9       2.04    340     -06.5
+11      10      1.55    274     -06
+12      11      3.05    000     -15
+13      12      4.81    042     -02.5
+14      12      6.87    214     -08   ; 14->13 in Survey book but original notes 12
+15      14      5.07    221     -05
+16      15      2.83    323.5   -10
+17      16      3.78    231     -14.5
+18      17      3.42    295     -11
+19      18      2.00    242     -11.5
+20      19      2.00    005     -23.5
+21      20      1.90    224     -04
+22      21      3.66    302     -10.5
+23      22      1.81    255     -19.5
+24      23      4.37    285     -8.5
+
+ ; Comp corrected from +348.5 Olly 1994.07.13
+25      24      4.21    349.5   -05
+;25     24      4.21    348.5   -05
+26      25      4.30    222.5   -19.5
+27      26      2.78    309.5   -10
+
+ ; Clino corrected from +09.5 Olly 1994.07.13
+28      27      2.73    326     +00.5
+;28     27      2.73    326     +09.5
+
+;1      0       0.45    0.3     0.2     CM 'end'
+;2      0       0.5     0.3     0.7     CM
+;3      0       0.5     0.5     0.7     CM
+;4      0.3     0       0.4     1.0     CM
+;5      0.5     0       .3      0       CM
+;6      .5      0       .3      1       CM
+;7      0       .5      .2      .8      CM
+;8      .1      .5      .4      .7      CM
+;9      .5      0       .6      .7      CM
+;10     0       2.6     .6      1       CM
+;11     .5      0       .5      1       CM
+;12     0       .5      1.2     .6      CM
+;13     .6      0       .4      .8      big CM
+;14     .5      0       .4      1.1
+;15     .8      0       .5      .5
+;16     0       .7      .4      .8      blow below downarrow
+;17     .6      0       .4      .8      join of lines of calcite crows foot
+;18     0       .6      .6      .7      nipple-shaped calcite
+;19     1       0       .6      .6
+;20     0       .7      .4      1
+;21     0       .7      .7      .7
+;22     .4      .7      .7      .4
+;23     .4      1.1     .7      .5
+;24     -       -       .7      .5
+;25     .3      -       .5      1.7
+;26     0.1     3       .5      .6      scratched cross
+;27     -       -       .1      .4
+;28     (1.0)   0       1.2     1.6     28 is in line of sight down eyehole pitch to tip of lump. (CM here had disappeared).
+
+
+*end Gnome

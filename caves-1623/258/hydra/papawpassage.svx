@@ -1,0 +1,51 @@
+*begin papawpassage
+
+; stations linked into other surveys (or likely to)
+*export X24
+*export 3
+
+; Cave: Tunnockschacht
+; Area in cave/QM: Song of the Earth
+*title "Papaw Passage"
+*date 2016.07.18
+*team Insts Elaine Oliver
+*team Notes Katey Bender
+*instrument UBSS Disto
+*ref 2016#
+
+; Centreline 	data
+*data normal from to length bearing gradient ignoreall
+1	x24	12.93	180.8	-22.0
+2	1	5.80	105.4	-11.0
+2	3	11.45	066.2	40.0
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Red nail varnish markings
+;1	2.7	1.0	5.6	1.5
+;2	0	3.2	6.6	0.6	;full height to ceiling 13.6m
+;3	2	0	3	2	;nubbin on RHW
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	2.7	1.0	5.6	1.5
+2	0	3.2	6.6	0.6	;full height to ceiling 13.6m
+3	2	0	3	2	;nubbin on RHW
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    B    papawpassage.3    therestherub.1    Reached by a 6m climb up that will want a drill and rope - can be climbed but will rapidly get too slippery. Upward sloping phreatic tube with wet mud + ~2inch wide stream channel. Progression will likely need some bolting due to steep incline and slippery mud.
+
+*end papawpassage

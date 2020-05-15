@@ -1,0 +1,31 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Sonnenstrahlhöhle 1623/113
+
+; Eingänge (es gibt mind. 3)
+*entrance p113
+*entrance 113.sumpf.8_10 ; TODO: p???, absolute Koordinaten?
+
+; Eingänge absolut positionieren
+;*fix p113		36244	81342	1638
+;*fix 113.sumpf.8_10	36263	81343	1650
+
+; Eingänge anbinden
+*equate p113 113.haupt.1
+
+*begin 113
+*title "Sonnenstrahlhöhle"
+
+; Eingänge exportieren (zum anbinden)
+*export haupt.1		; p113
+*export sumpf.8_10	; aussen.s (p???)
+
+; Verbindungen in der Höhle
+*equate haupt.20	oper.0
+*equate haupt.21	oper.10
+*equate haupt.4_2	sumpf.2
+
+*include haupt
+*include oper
+*include sumpf
+
+*end 113

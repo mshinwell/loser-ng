@@ -1,0 +1,95 @@
+*begin gardeningshoots
+
+; stations linked into other surveys (or likely to)
+*export 16 8x
+
+; Cave:Bad Forecast 
+*title "Gardening-shoots"
+*date 2017.07.25
+*team Insts Phil Withnall
+*team Notes Nathan Walker
+
+*instrument Brendans disto
+; Calibration: 
+*ref 2017#13
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+1	8x	2.2	285	76.9
+2	1	9.66	278	41.9
+3	2	2.37	230	53.9
+4	3	5.67	253	49.1
+5	4	3.6	228	50.1
+;5	6	7.18	262	51.7
+6	5	7.18	262	51.7	reflected
+6	7	6.04	128	-44.9
+7	8	5.92	67.3	-47.8
+8	9	5.51	56.8	-31.2
+9	10	6.04	106	-42.1
+11	10	3.5	199.3	38.8
+14	15	20.28	20	-29.8
+16	14	19.79	38.2	-34.1
+13	14	20.11	248.3	-84.5
+13	12	6	178.2	86.6
+11	12	1.02	337.6	-39.9
+*begin
+*flags splay
+16	s10	35.5	211.4	1.3
+*end
+;-----------
+;recorded station details (leave commented out)
+;*data passage station left right up down ignoreall
+;1	1.2	1	1.1	0.7
+;2	1.2	0.3	0.9	1.1
+;3	1.8	0.6	2.1	0.5
+;4	0.2	0.9	1.1	0.8	
+;5	2.6	0.3	2.0	0.7
+;6	0.4	1.4	0.9	1
+;7	1.1	0.3	1.7	1.4	
+;8	1.6	1.2	1.8	1.4
+;9	0.3	0.8	0.8	1.0
+;10	1.1	0	1.4	1.6
+;11	0.3	0.8	0.3	1.4
+;12	0.8	0	1	8
+;13	1.0	0.3	3.1	25
+;14	3.4	4.9	1.5	0.6
+;15	3.0	0.8	1.5	1.4
+;16	3.7	2.1	12.4	0.7
+
+;passage-ised station details
+*data passage station left right up down ignoreall
+1	1.2	1	1.1	0.7
+2	1.2	0.3	0.9	1.1
+3	1.8	0.6	2.1	0.5
+4	0.2	0.9	1.1	0.8	
+5	2.6	0.3	2.0	0.7
+6	0.4	1.4	0.9	1
+7	1.1	0.3	1.7	1.4	
+8	1.6	1.2	1.8	1.4
+9	0.3	0.8	0.8	1.0
+10	1.1	0	1.4	1.6
+11	0.3	0.8	0.3	1.4
+12	0.8	0	1	8
+13	1.0	0.3	3.1	25
+14	0	4.9	1.2	0.6
+*data passage station left right up down ignoreall
+15	3.0	0.8	1.5	1.4
+14	3.4	4.9	1.5	0.6
+16	3.7	2.1	12.4	0.7
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    A    gardeningshoots.16    badforecastthree.8    Large chamber below 20m undropped pitch
+
+
+;Long tube ramping down at 45 degrees with numerous offshoots and small avens ends at 30m pitch that decends into 
+;large phreatic tunnel. Tunnel closes down in one dircetion but up climb contunes down a short pitch.
+
+*end gardeningshoots

@@ -1,0 +1,30 @@
+*begin qm05-05c
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Hauchhoehle (234)
+*title "Spit or Swallow"
+*date 2006.07.31
+*team Insts Phil Underwood
+*team Notes Matt Bent
+*team Tape both
+*instrument silva - no name
+; Calibration: Compass 150/147/148/327/326/327, Clino +23/+23/+22/-22/-22/-23
+; ref.:	2006#18
+
+; ====== stations refindable to link to other surveys: ======
+
+*export a c
+
+*calibrate tape +0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+b	c	9.06	128	+28
+b	a	0.87	344	+05
+
+
+;station details
+*data passage station left right up down ignoreall
+a	0.5	-	0.2	-	RP RHW
+b	-	0	0.1	0.4	Pt of rock
+c	0.6	0.1	0.1	0.15	Pt in space
+*end qm05-05c

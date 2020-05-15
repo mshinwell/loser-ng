@@ -1,0 +1,78 @@
+*begin lobsterpot
+
+; stations linked into other surveys (or likely to)
+*export 11
+
+; Cave: 258
+; Area in cave/QM: Hydra
+*title "Lobster Pot"
+*date 2016.07.08
+*team Insts Luke Stangroom
+*team Notes Anthony Day
+*team Pics Anthony Day
+*team Dog Mark Dougherty
+*instrument Chris Densham's DistoX
+*ref 2016#23
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+02	01	01.59	275.0	+14.0
+03	04	27.30	256.4	+03.0
+03	01	00.58	-	down
+*flags splay
+01	05	09.36	332.4	-02.0
+01	06	15.23	351.1	-06.1
+01	07	13.73	154.3	+20.0
+01	08	20.08	109.1	+19.1
+*flags not splay
+02	09	45.30	-	up
+09	10	05.64	059.0	+62.0
+10	11	12.82	048.9	+28.6
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Pink nail varnish markings
+;01	-	-	-	00.0	Numbered on boulder
+;02	-	-	-	-	Bottom of rope
+;03	-	-	-	-	Back wall of inlet
+;09	-	-	-	-	Y hang knot
+;10	04.2	00.0	09.9	01.5
+;11	~5	0	~4	~1	Station 14 from Becka's survey
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+10	04.2	00.0	09.9	01.5
+11	5	0	4	1
+
+; Following is attempt to represent the chamber in tube form
+; Made up from survey sketch and splay legs
+*data passage station left right up down 
+04	0	2	25	2.5
+01	15.23	13.73	60	0
+08	0	0	60	5
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    B    lobsterpot.10   -    Possible phreatic ramp paralleling entry route at pitch head
+;QM2    C    lobsterpot.10   -    Possible phreatic ramp on opposite side of pitch below rebelay. Very long bolt traverse required for access
+;QM3    X    lobsterpot.01   -    20+m high aven above stream inlet at base of pitch
+
+;------------
+;Cave description 
+; 50m pitch lands in a large chamber with wet, welly-grabbing mud on the floor. A small stream enters
+; from an aven in the west [QM-3 X] and flows into a sump exiting to the northwest. There
+; are two other possible phreatic ramps near the top of the pitch [QM-1 B] [QM-2 C], but in both
+; cases it would be difficult to gain access.
+
+*end lobsterpot

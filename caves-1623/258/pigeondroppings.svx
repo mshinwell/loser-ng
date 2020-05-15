@@ -1,0 +1,63 @@
+*begin pigeondroppings
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 258 "Tunnockschacht"
+
+;ref.:  2014 #02
+
+*export A B 15
+
+*title "Pigeon Droppings 1"
+*date 2014.07.27
+*team Insts Becka Lawson
+*team Notes Rob Adams
+
+;Instrument: Becka's Old DistoX1
+
+;*calibrate tape +0.10   ; +ve if tape was too short, -ve if too long
+
+;from   to  tape    compass clino   remarks
+*flags duplicate
+A	B	6.54	353	-07
+*flags not duplicate
+B	1	2.87	338	-15	; altered from -0.5 but should double check with Rob A
+1	2	1.55	276	-35
+2	3	14.00	073	-79
+3	4	3.87	220.5	00
+4	5	8.06	228	-61
+5	6	12.16	343	-85
+6	7	6.92	065	-41
+7	8	5.84	091	-26.5
+8	9	1.07	084	+43
+9	10	3.85	028	+03
+10	11	11.12	277	+56
+10	12	1.96	323	-04.5
+12	13	11.15	003	-19
+13	14	1.55	050	+06
+14	15	10.39	331	-01
+15	16	5.79	145	-64
+
+
+*data passage station left right up down ignoreall
+;stn    L   R   U   D   Desc
+
+A	1	3.6	2.2	1.5 	old not no.d, at base of chamber
+B 	1.3	3	1.8	1.6	old stn opp traverse bolt
+1	0.5	2.2	2	1.2	pillar on ledge
+2	1	3	6	14	top of pitch
+3	1.5	2	20	1.2	left wall of pitch
+4	0.2	0.4	1	6	inbetween 1st 2nd traverse bolt
+5	2	0	5	18	y-hang
+6	1.2	2	13	7	ledge
+7	0	0.5	1	1	start passage
+8	0.7	0	5.4	0.2	passage wall
+9	0.7	0	5.4	1.5	right wall
+11	1.5	1.5	2	1	pendant
+10	1	1	3.7	1	ramp closes down
+12	0	2	2	1.1	left wall
+13	1	1.5	1.5	0	middle of floor
+14	1.2	0	0.5	0.3	left wall
+16	0.5	2	8	0	blind pit
+15	1.5	1.5	4	2	bridge after pit
+
+*end pigeondroppings

@@ -1,0 +1,20 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2005-5 "Balconhohle"
+; Wallet: 2014#49
+
+*begin deadbatpitchconn
+
+*export	p1 p11
+
+*title "Dead bat pitch connection"
+*date 2014.08.19
+*team Insts Martin Green
+*team Tape Martin Green
+*team Notes Martin Green
+;instruments blue string (measured after caving), yellow/blue comp & clino
+
+;from	to	tape	compass	clino	remarks
+ p11    p1  0.73    005     -25
+
+*end deadbatpitchconn
+

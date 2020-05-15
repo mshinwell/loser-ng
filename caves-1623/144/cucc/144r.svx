@@ -1,0 +1,13 @@
+;Tony´s second Höhle 1623/144
+;Messungen des CUCC zu Beginn der 80er Jahre
+
+*begin 144r
+
+;*fix 144to41.46 36035.34 81532.93 1516.04
+
+*equate 144main.20 144to41.47  
+
+*include 144main
+*include 144to41
+
+*end 144r

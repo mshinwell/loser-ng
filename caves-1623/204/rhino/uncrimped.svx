@@ -1,0 +1,21 @@
+*begin uncrimped
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "uncrimped"
+*date 2004.07.19
+*team Notes Martin Green
+*instrument Compass #4, Clino #4, Tape Yellow open stanley
+; Calibration: 146.5/146/145/328/327/327, +20,+21,+21,-23,-23,-22.5
+; ref.:	2004 #02
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 2
+
+*calibrate tape +0.06	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+*data nosurvey from to
+1	2	
+*end uncrimped

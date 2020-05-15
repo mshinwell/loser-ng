@@ -1,0 +1,40 @@
+*begin prettybits
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Dutch Beauty"
+*date 2001.08.15
+*team Insts Tony Rooke
+*team Notes Martin Green
+*team Tape Letty ten Harkel
+*instrument Compass #3 ; Clino #3, Tape Open Case (with a whirly bit)
+; Calibration: Stone bridge: 324.0/-21.5   323.5/-22.0  323.5/-21.5  148.0/+22
+;                            147.5/+22     148.0/+22
+; ref: 2001#12
+; ====== stations refindable to link to other surveys: ======
+
+*export p1 p2 3 7
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+p2	p1	6.25	170	+02
+1	p2	3.90	045	+06  ; changed from p1 to p2 by Earl 26/8/01
+1	2	4.35	184	-04
+3	2	3.05	035	+12
+3	4	7.48	299	-19
+5	4	5.01	087.5	+12
+5	6	5.56	290	-08
+6	7	2.73	236	-12.5
+
+;station details
+;name	L	R	U	D	description
+;1	0.6	0.6	0.3	0.4	CM on spike from roof
+;2	0.1	0.5	0.3	1.6	CM on L wall in ceiling
+;3	0.1	1.2	0.5	1.6	CM on L wall
+;4	1.0	0.2	1.2	0.3	CM on R wall
+;5	0.0	0.6	1.0	0.9	CM on L wall
+;6	1.2	0.1	0.6	0.7	CM on R wall
+;7	0.0	3.0	2.0	10.0	CM on L wall
+
+*end prettybits

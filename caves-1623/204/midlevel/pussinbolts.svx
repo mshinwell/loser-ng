@@ -1,0 +1,33 @@
+*begin pussinbolts
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Puss in Bolts"
+*date 2009.07.26
+*team Tape Emma Wilson
+*team Insts Emma Wilson
+*team Notes Kathryn Hopkins
+*instrument Set 6 ; Yellow tape with 20cm missing
+; Calibration: AtoB 331 -24; BtoA 150 +25
+; ref.:	2009#17
+
+; ====== stations refindable to link to other surveys: ======
+*export 6 1
+
+*calibrate tape +0.20	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+1	2	13.03	329	+11
+3	2	5.02	194	+04
+4	3	8.83	179	-04
+5	4	3.63	248	+46
+6	5	7.18	264	+68
+
+*data passage station	left	right	up	down	ignoreall
+1	0.5	7	3	0	Rock on floor LW RP
+2	7	0	5	2	Last bolt on RHW
+3	20	0	20	2	RP RHW
+4	10	3	20	2	RP overhang
+5	20	15	12	8	RP rock at window
+6	0.1	2	20	1.5	Old survey station from painted lady at left of window
+*end pussinbolts

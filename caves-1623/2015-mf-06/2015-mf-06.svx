@@ -1,0 +1,21 @@
+*equate p2015-mf-06 2015-mf-06.GPS
+
+
+*begin 2015-mf-06
+
+*export GPS
+*equate p2015-mf-06 GPS
+
+*title "Blauereisenhutschacht: Mike's massive shaft of tremendous girth"
+*date 2012.08.20
+*team Insts Julian Todd
+*team Notes Noel Snape
+
+*equate purplelupine.gpstag p2015-mf-06
+
+*include purplelupine
+*include purplelupine2
+*equate purplelupine.a12 purplelupine2.12
+
+
+*end 2015-mf-06

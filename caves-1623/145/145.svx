@@ -1,0 +1,28 @@
+*equate p145 145.p145a
+*equate p145b 145.p145b
+
+*begin 145
+
+*export p145a p145b
+
+*title "1623/145 -- Wolfhoehle"
+
+; Created by DL 2007-08-06 to combine the ARGE resurvey of the upper levels
+; with the older CUCC survey of the lower levels. The connection between the two is
+; probably wrong, but not by very much, and the ARGE survey is presumably better.
+
+*include resurvey2005/145-2005.svx
+
+*include 145cucc/part3.svx
+*include 145cucc/part3to4.svx
+*include 145cucc/part4.svx
+*include 145cucc/part5.svx
+
+*equate part3.1 part3to4.1
+*equate part4.0 part3to4.0
+*equate part4.49        part5.10
+
+; best guess at a connection!
+*equate part3.29 145-2005.c1
+
+*end 145

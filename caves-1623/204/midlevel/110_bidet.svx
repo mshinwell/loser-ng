@@ -1,0 +1,53 @@
+*begin 110_bidet
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "110_bidet"
+*date 2000.08.14
+*team Insts Mark Byers
+*team Notes Martin Green
+*team Pics Martin Green
+*team Tape Mark Byers
+*instrument Compass #1 ; Clino #1, Tape Red open reel
+; Calibration: 312, +07, 311, +06, 310, +07, 132, -07, 131, -07, 131, -07
+; ref.:	2000 #45
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 2 14 9
+
+*calibrate tape +0.1	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	8.23	205.5	-19
+3	2	1.80	010	+15
+3	4	6.42	290	-12
+5	4	3.75	116	+10
+5	6	2.81	251	-16
+7	6	3.06	136	+18
+7	8	3.40	281	-12
+9	8	4.33	136	+11
+9	10	2.97	253	-14
+11	10	6.51	016	+04
+11	12	3.56	179	-09
+13	12	7.60	014	+13
+13	14	4.98	184	-10
+
+;station details
+;name	L	R	U	D	E	description
+;1	.85	0	1.00	1.10		rs
+;2	1.20	0	0.9	0.7		rs
+;3	N/A	0	0.4	0.8		c below ridge
+;4	0	0.6	0.7	0.6		pencil below c
+;5	0	0.7	0.9	0.7		c on point on inside of bend
+;6	0	0.6	0.65	0.9		p on left
+;7	0.7	0	0.6	0.8		c on spike on RHS
+;8	0	0.6	0.4	0.9		p on wall
+;9	1.1	0	0.8	1.0		c on right wall
+;10	0.4	0	1.0	1.0		p on wall, low down on nobble
+;11	0	0.6	0.8	0.85		c low down on left wall
+;12	0	0.6	1.0	0.9		p on left wall
+;13	0	0.4	0.8	0.8		c
+;14	0	0.6	1.7	0.7		p
+	
+*end 110_bidet

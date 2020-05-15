@@ -1,0 +1,31 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schwabenschacht 1623/78
+
+*begin fetzig
+*title "Fetziger Schacht"
+
+*export 1_0	; eisdom.A1 allkaese.AA0
+*export 1_8	; eisdom.A4
+
+; -1- von Verzweigungshalle in kleinen Parallelschacht zum großen
+; Messteam: Bernd Feile, Jens Römer, Michael Brucklacher, Robert Winkler
+; Zeichner: Robert Winkler (?)
+; Referenz: Messbuch SMK 1
+*date 1993.07.26
+
+*data normal from to length gradient bearing ignoreall
+1_0	1_1	3.50	-58	245
+1_1	1_2	7.45	DOWN	-
+1_2	1_3	2.05	-3	67
+1_3	1_4	11.10	-45	105
+1_4	1_5	3.00	-34	270
+1_5	1_6	4.65	-60	185
+1_6	1_7	6.90	-78	145
+
+1_2	1_9	12.00	35	258
+1_9	1_8	3.10	28	255
+
+; Raumwerte
+; keine Raumwerte
+
+*end fetzig

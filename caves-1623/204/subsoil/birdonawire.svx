@@ -1,0 +1,38 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle 1623/204   - Gaffered - The Wares
+
+*begin birdonawire
+
+*title "Bird on a Wire"
+*date 2011.07.29
+*team Insts Kathryn Hopkins
+*team Notes Nial Peters
+*team Tape Edvin Deadman
+
+;ref.:	2011 #14
+
+*export 7 1
+
+*calibrate tape 0.05	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+1	2	9.83	186	76
+2	3	8.00	293	82
+3	4	7.26	353	61
+5	4	17.25	-	down
+6	5	6.38	-	down
+6	7	6.66	024	59
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+1	0	1.5	11	3	RP LHW, numbered
+2	1	0.5	8	10	RP RHW above rock bridge
+3	2	2	-	-	RP ob spike on floor above y-hang
+4	0.5	2	-	-	RP on side of shaft
+5	3.5	3	-	-	Deviation crab
+6	2.5	1	-	-	y-hang knot
+7	-	-	-	-	9 from previous survey
+
+
+*end birdonawire
+

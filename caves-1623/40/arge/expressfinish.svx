@@ -1,0 +1,61 @@
+;1623/40
+
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schwarzmooskogel-Eishöhle
+; Messteam: Fritz Mammel, Mark Morgan,Tobi Tränkle, Wookey
+; Zeichner: Wookey
+; Referenz: NotKH book 2000
+
+
+*begin expressfinish
+*title "'Express finish' - N end of SVH by kalter gang"
+*date 2005.05.30
+
+*export 1  ; station wall near entrance to Kalter Gang
+
+*units compass degrees
+*units clino degrees
+
+
+*data normal from to tape compass clino
+
+1	2	12.78	237	+18
+2	3	6.50	243	+01
+3	4	6.00	244	-21
+4	5	3.83	317	-17
+5	6	1.88	292	+35
+6	7	12.40	353	-30
+7	8	6.55	054	-11
+7	9	5.27	205	+26
+6	10	5.05	303	+07
+10	11	15.55	236	+28
+9	12	15.17	263	-37
+12	13	11.16	049	+08
+13	14	4.60	102	+14
+7	15	3.01	-	down
+14	15	1.86	101	+52
+
+*data passage station left right up down
+1	5	-	0.4	1.5	;'69' on SVH survey
+2	-	0.3	3	1.7	;Red Point '2' RHW
+3	0.9	0.2	1	1.7	;RP '3' (Fell off - now propped nearby - don't use!) RHW
+4	0	0.7	1	1.3	;RP '4' on boulder
+5	0.2	1.3	0.	0.4	;RP '5' on mobile boulder
+6	1.2	0.5	15	0.5	;RP '6' on boulder
+7	0	5	20	1.7	;RP '7' on wall
+8	2	0	20	1.8	;RP '8 on wall
+
+*data passage station left right up down
+7	0	5	20	1.7	;RP '7' on wall
+9	6	1.2	20	1	;RP '9' on boulder
+12	3	1	3	0.2	;RP '12' on floor
+13	3	3.5	0	1.7	;RP '13' on roof
+14	0.9	0.3	0.3	1	;RP on rock
+15	1	0.5	20	0.7	;RP bottom of plumb
+
+*data passage station left right up down
+6	1.2	0.5	15	0.5	;RP '6' on boulder
+10	3.5	2	20	2	;RP '10' on tip of boulder
+11	0.8	0	10	2	;RP '11' RHW
+
+*end expressfinish

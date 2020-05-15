@@ -1,0 +1,67 @@
+;Eislufthoehle 1623/76
+
+*begin brave2
+
+*title "Brave New World 2"
+*date 2004.07.25
+*team Insts Jenny Black
+*team Notes Olly Betts
+*team Tape Jenny Black
+*instrument Compass 5 ; Clino 3
+; notes in 2004 #18
+
+*export 1 2 7 11 15 17 19
+
+2	1	8.415	050	+18
+3	1	4.71	235	-11.5
+3	4	2.0	046	+34
+1	5	3.67	293	-02
+6	5	5.03	157	+16
+6	7	15.86	285	-13.5
+8	7	5.80	169	+10
+9	8	3.74	237	-12.5
+9	10	8.20	022	+01
+11a	10	2.005	225	-32 ; notes say 345
+
+9 11 11.67 024 +07 ; correction surveyed 2004-08-03
+
+11	12	8.34	030	+38
+13	12	10.41	190	-08
+13	14	4.85	352	+17
+15	14	9.42	244	-10.5
+15	16	2.58	074	+14
+16	17	3.65	068	-01
+18	17	9.33	295	-12.5
+18	19	7.30	113	+14
+
+*data passage station left right up down ignoreall
+
+1       1.55    1.9     4.5     0.55    NP "1" on rock tip
+2       0.1     1.3     0.25    0.9     NP on LHW
+
+*data passage station left right up down ignoreall
+
+1       1.55    1.9     4.5     0.55    NP "1" on rock tip
+3       0.3     0.5     0.7     1.3     NP on step up
+4       0.1     0.1     0.1     0.1     ("tiny") end of passage - very tight
+
+*data passage station left right up down ignoreall
+
+1       1.55    1.9     4.5     0.55    NP "1" on rock tip
+5       1.2     0.6     0.95    0.45    NP on rock edge
+6       0.6     0.7     1.0     0.7     NP on rock tip
+7       0       1.4     1.9     2       NP "7" on LHW
+8       0.5     1.6     0.2     2.5     boulder
+9       1.4     0.7     1.1     2       stone on boulder
+10      0       1.15    6       2       NP on LHW by corner
+11      0.7     0.2     4       0.7     (4?) RHW
+12      1.21    0       1       1.7     NP RHW
+13      1       0.5     0.85    0.2     NP rock point
+14      0       0.9     0.4     2.2     NP LHW
+15      0.15    0.6     5.5     1.3     NP LHW
+16      0.7     0       8       0.8     NP RH corner over rift
+17      0.2     1       3       1.1     NP LHW (pendant)
+18      0.8     0.35    2       1       NP on rock
+;19     -       -       -       -       10 from brave survey 
+
+*end brave2

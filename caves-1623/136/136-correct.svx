@@ -1,0 +1,68 @@
+; note that the Forbidden Land is far more safely accessible via Steinschlag
+; than through the Stairway to Hell, so all this survey data is now here,
+; rather than under a 161 area. Hence the HotMC/Rocky interface is the
+; 136:161 interface, rather than 136.gods/ElinA. However, the 136 prefix
+; is only applied (inside the 136.136 file) to the vertical part of 136 up
+; to the link to Elin Algor.
+
+;*export p136		; from 136
+;*export p136b		; from MorEnt
+;*export p136c		; from MorEnt
+;*export p136d		; from MorEnt
+; 136:surface interface
+*equate 136.entrance.1	p136
+
+; other 136 entrances.
+
+*equate 136.MorEnt.19 p136d
+*equate 136.MorEnt.15 p136c
+*equate 136.MorEnt.21 p136b
+
+*entrance p136
+*entrance p136b
+*entrance p136c
+*entrance p136d
+
+*begin 136
+
+*title "Steinschlagschacht, 1623/136"
+
+; connection to 144
+*export chile.runnybowels.1
+
+*export entrance.1
+*export MorEnt.10
+*export MorEnt.15
+*export MorEnt.19
+*export MorEnt.21
+*export hotmc.1
+
+*include main
+
+; These two points aren't the same - they're on neighbouring boulders
+; They need to be connected to process 136 alone, without surface data, but 
+; can be correctly disconnected for normal dataset processing
+;LRUDs
+;entrance.10	3	0	1.00	~30.00	CM RH wall
+;MorEnt.10	3	2.5	~18	4	'10' red point on rock point
+;approx connection
+;*equate MorEnt.10 entrance.10
+;process 136-standalone.svx where this is done.
+
+*include ents
+
+*equate gods.1	ElinA.13
+
+*equate Gravel.22	tyrolia.5
+
+*equate footconn.1 theatre.5
+*equate footconn.5 footlights.12
+
+; chile area
+*equate footlights.9 chile.oatso.14
+*include chile/chile
+*include forbiden
+*include gravel
+*include footconn
+
+*end 136

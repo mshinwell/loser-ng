@@ -1,0 +1,22 @@
+;includes for all CUCC-surveyed caves in the Stellerweg system
+
+
+; note that only the 41 and 142 surveys actually purport to connect to
+; each other, so all except one of these two *must* be equated to a
+; surface survey or entrance fix. If you tie both, then the cave will
+; distort to fit.
+
+*begin 115
+
+; equates in here tie the surveys together
+
+*include 115top
+*equate 115Ent.pt3.57	Futility.0	
+*equate Purgatory.0	Bypass.pt2.00	GP0
+*include 115mid
+*equate futility.7		Purgatory.0
+*include phreas
+*equate Bypass.pt1.0	Confluence.91
+*include stream
+
+*end 115

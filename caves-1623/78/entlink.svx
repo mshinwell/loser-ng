@@ -1,0 +1,5 @@
+*equate p78a	78.78haupt.Eingang
+*equate p78b	78.e2.x4 
+*equate p78d	78.galakt.t0
+*equate p78e	78.steinbl.0 
+

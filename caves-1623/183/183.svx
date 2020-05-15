@@ -1,0 +1,127 @@
+;1997.08.09 AJD  compass readings put back in
+;1998.02.01 AERW LRUD and station details added, moved begin/end
+;1998.06.02 AERW added exports and comments
+
+*equate 183.upper.1	P183
+*entrance P183
+
+*begin 183
+
+; Locn:	Loser AugstEck Plateau, Austria. West of Top Camp
+*title "Elchfalle, 1623/183"
+
+; ====== stations refindable to link to other surveys: ======
+
+*export upper.1	; entrance: zero in CUCC 90/13
+
+; ====== links between surveys making up the 183 survey: ======
+
+*equate lower.6	upper.22
+
+*begin upper
+
+; Locn:	Loser AugstEck Plateau, Austria. West of Top Camp
+; Cave:	Elchfalle (1623/183)
+*title "Elch1"
+*date 1992.07.17
+*team Insts Matt
+*team Tape Fran
+*team Notes MarkM
+*instrument 
+; Calibration:
+; ref.:	1992 survey book pp 201-205
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; zero in CUCC 90/13
+*export 22	; bolt on 5th pitch
+
+1       2       3.02    313   -65
+3       2       3.56    045     +14
+3       4       6.70    229   -35
+5       4       3.54    033     +36
+5       6       3.53    259   -58
+6       7       6.46     -      Down
+7       8       3.69    074   -03
+9       8       7.74    301     +50 ;was -50 in notes
+10      9       4.47     -      Up
+11      10      1.61    105     -35
+11      12      2.91    201    -48
+12      13      7.47     -      Down
+14      13      3.40    117     -41
+14      15      3.10    268    -53
+16      15      7.65     -      Up
+17      16      1.40    038     -41
+17      18      3.16    263   -08
+19      18      3.22    184     +35
+19      20      2.63    105   -46
+20      21      5.18     -      Down
+21      22      2.85    284   -03
+
+; station details
+;name	L	R	U	D	notes
+;1	-	-	-	-	zero in CUCC 90/13
+;2	-	-	-	-	Boulder in entrance
+;3	0.7	0	0.5	1.5	CM, RH wall of crawl
+;4	1.	0	5.	2.	CM, RH wall nr pitch head
+;5	0	0.5	2.5	1.	1st bolt, LH wall, D is to ledge
+;6	1.5	0	pitch	pitch	rebelay bolt, RH wall
+;7	1.5	2.0	pitch	2.0	bottom of pitch
+;8	0	1.0	2.0	pitch	bolt of traverse line, 2nd pitch
+;9	-	-	-	-	rebelay bolt
+;10	-	-	-	-	CM below rebelay
+;11	-	-	-	-	CM on flake
+;12	-	-	-	-	rebelay bolt on 3rd
+;13	-	-	-	-	CM below rebelay bolt on floor
+;14	1.0	0	-	1.5	CM on RH wall
+;15	-	-	-	-	rebelay bolt on 4th
+;16	0.5	0	pitch	0.5	floor below rebelay
+;17	0	1	-	2	CM on LH wall
+;18	0	1	-	1.5	CM on LH wall
+;19	2.0	0	3	0.5	Lower pitch head bolt
+;20	-	-	-	-	RH Y hang bolt (middle bolt)
+;21	0.5	0.5	pitch	0	foot of that pitch
+;22	-	-	-	-	bolt on 5th pitch
+*end upper
+
+*begin lower
+
+; Locn:	Loser AugstEck Plateau, Austria. West of Top Camp
+; Cave:	Elchfalle (1623/183)
+*title "Elch2"
+*date 1992.08.03
+*team Insts Clive
+*team Notes Olly
+*instrument Compass: illum, Clino: illum
+; Calibration:	Puffball:
+;		B->A: 052,052;	-01,-02,-02
+;		A->B: 231/5,232/232;	+2.75,+2.75
+;		A->Peak: 211,211	+13,+14,+14
+;		A->Willy: 198,196,196	+11/5,+11
+
+; ref.: 1992 survey book p 208
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 6	; 1st bolt of 6th pitch traverse
+; AERW: that doesn't seem to agree with the description of the station it is
+; equated to as "5th pitch bolt" - is there a problem here ?
+
+1       2        4.20    -      Up
+3       2        2.80   339     -13.5
+3       4        3.29    -      Up
+4       5        4.40   142     +70   ;read level (???)
+5       6        4.11   050     +47
+
+; station details
+;name	L	R	U	D	notes
+;1	0.4	0.3	-	1.0	where rope hang hits shelf, D to rift floor
+;2	-	-	-	-	hang bolt at pitch head (lower of 2)
+;3	1.0	0.	-	1.3	CM on RH wall going in
+;4	2.	2.	pitch	pitch	CM on nodule near deviation
+;5	3.	0.	pitch	pitch	hang bolt (lowest of group)
+;6	0.6	0.4	-	1.5	1st bolt of 6th pitch traverse
+
+*end lower
+
+*end 183

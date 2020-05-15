@@ -1,0 +1,33 @@
+*equate 2005-07.tag p2005-07
+*entrance p2005-07
+
+*begin 2005-07
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2005-07
+*title "2005-07"
+*date 2005.08.10
+*team Insts Peter Clifton
+*team Tape Peter Clifton
+*team Notes Phil Underwood
+*team Drawing Phil Underwood
+
+; instrument set A1
+
+*export tag
+;from	to	tape	compass	clino	remarks
+1   	2     	6.04 	179 	-42
+1 	tag   	2.59 	234 	+12
+2 	3    	4.90 	269 	-31
+3 	4 	2.00 	288 	-33
+
+
+;stn	L	R	U	D	Desc
+; 1	-	-	-	-	Rocky lump on surface
+; 2	1.0	2.0	2.0	0.2	Rock on floor
+; 3	0.5	2.5	1.5	0.5	Lump in archway (ceiling)
+; 4	2.0	2.0	0.15	0.15	Floating pint in passageway
+; tag 	-	-	-	-	Tag 2005-07
+
+*end 2005-07
+

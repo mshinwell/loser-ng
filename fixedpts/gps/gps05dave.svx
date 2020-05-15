@@ -1,0 +1,21 @@
+; Location data from Dave's Gecko 201
+
+;*fix 2005-04 reference 36458 84004 1780 ; =204h/i
+;*fix 2005-05bis reference 36421 84005 1792 ; WARNING! This is a fix for 204g. The number 2005-05 was *reused* for another cave later
+*fix p2005-07 37132 84031 1800 ; this one is right though, and supersedes earlier fix from Duncan in 2002
+*fix p2005-92-gps reference 35770 82803 1637
+*fix p2005-93-gps reference 35741 82806 1632
+*fix p2005-94-gps reference 35762 82811 1645 ; correction 2006-06-17: this was miscopied as 35726, but this is clearly wrong relative to the others
+*fix p2005-95-gps reference 35755 82807 1622
+*fix p2005-96-gps reference 35744 82859 1637
+;*fix p81 reference 35824 82555 1657 ; superseded by surface survey
+*fix p95 reference 35057 81464 1599
+*fix p96 reference 35065 81490 1595
+;*fix p104 reference 35916 83006 1663 ; superseded by surface survey
+
+;*entrance p2005-04
+;*entrance p2005-05
+;*entrance p81
+*entrance p95
+*entrance p96
+;*entrance 104

@@ -1,0 +1,62 @@
+*begin icecockLC1
+
+; stations linked into other surveys (or likely to)
+*export 1 4
+
+; Cave: Balkonhoehle
+; Area in cave/QM: icecock aven loop closure
+*title "Ice Cock Aven loop closure 1"
+*date 2015.07.29
+*team Insts Elliott Smith
+*team Notes Michael Sargent
+*team Pics none
+*team Tape Ben Whetton
+*instrument Fleurs DistoX
+; Calibration: unknown
+*ref 2015#22
+
+; Centreline data
+*data normal from  to   tape      compass   clino
+1	2	4.25	338.8	+32.4
+3	2	7.35	200.6	+70.6
+3	4	1.80	161.5	+08.5
+
+;-----------
+;recorded station details
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;(leave commented-out)
+;1	7.2	2.4	39.7	0	;	pink paint existing, rock in chamber, northhole.1
+;2	0	0.8	0.6	7.5	;	RP LHW over hole
+;3	0.2	2.4	7.3	0.4	;	RP rock next to ice
+;4	1	1	1	0.3	;	pink paint existing, northhole.7
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	7.2	2.4	39.7	0	;	pink paint existing, rock in chamber, northhole.1
+2	0	0.8	0.6	7.5	;	RP LHW over hole
+3	0.2	2.4	7.3	0.4	;	RP rock next to ice
+4	1	1	1	0.3	;	pink paint existing, northhole.7
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+; None
+
+;------------
+;Cave description
+
+;linking icecock aven to the ice pit in north hole.
+
+
+*end icecockLC1

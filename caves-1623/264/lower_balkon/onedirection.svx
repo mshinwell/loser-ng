@@ -1,0 +1,147 @@
+; *** DO NOT SAVE THIS FILE WITHOUT RENAMING IT !! ***
+;[Stuff in square brackets is example text to be replaced with real data, 
+; removing the square brackets]
+
+*begin onedirection
+
+; stations linked into other surveys (or likely to)
+*export 59 28 20 25 24
+
+; Cave:Balcony
+; Area in cave/QM:Below Little Boy Camp 
+*title "one direction"
+*date 2018.08.09
+*team Insts Rachel Turnbull
+*team Notes Luke Stangroom
+*team Pics Rachel Turnbull
+*team Tape Rachel Turnbull	
+*instrument Becka 1
+; Calibration: [Balcony entrance, readings]
+*ref 2018#45
+; the #number is on the clear pocket containing the original notes
+
+; if using a tape:
+;*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+1 59 2.14 026.2 -24
+2 1 4.04 003.1 -6.8
+3 2 7.53 359.8 +7.0
+4 3 3.03 348.4 +5.9
+5 4 8.2 002.8 +8.1
+6 5 10.78 003.4 +11
+7 6 6.54 360.0 +8.6 
+8 7 6.25 349.8 +7.9
+9 8 8.00 359.0 +5.8
+10 9 6.03 344.5 +3.4
+11 10 4.21 001.6 -0.9
+12 11 12.39 004.5 +12.7
+13 12 4.97 346.5 +7.5
+14 13 3.30 018.2 +5.5
+15 14 10.01 346.9 +6.7
+16 15 6.01 002.5 +8.6
+17 16 5.33 346.2 +6.8
+18 17 7.61 357.6 +8.3
+19 18 6.81 108.6 +6.1 
+20 19 7.11 134.7 +24.6
+21 18 5.48 303.5 -24.8
+22 21 6.74 281.0 -14.1
+23 22 7.13 312.9 -21.5
+24 23 5.53 303.1 -7.4
+25 24 1.03 303.5 -27.5
+26 25 10.85 303.4 -14.0
+27 26 10.34 293.0 -16.4
+28 27 4.15 337.5 -7.5
+
+
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Pink nail varnish markings
+;1 1.5 0.3 0.7 0
+;2 0.3 0.4 0.2 0.7
+;3 0.8 0 0.3 0.4
+;4 0.6 0 0.7 0.3 
+;5 0.5 0 0.7 0.3 
+;6 0 1 1 0.2
+;7 0.7 0.2 1 0.1 
+;8 0.2 0.7 1.1 0.2
+;9 1.5 0 0.5 0.3 
+;10 1.5 0 0.5 0.4 
+;11 0 1.1 0.6 0.8
+;12 0.9 0 0.5 0.1
+;13 0 0.7 0.7 0.8
+;14 0.8 0 0.6 0.3 
+;15 0 0.6 0.7 0.4
+;16 0.6 0 0.2 0.5
+;17 0 1 0.3 0.5
+;18 - - - - 
+;19 0.3 0.5 0.5 1.8 
+;20 1 1.5 1.5 0
+;21 1.8 0 0.9 1.3
+;22 0.7 2.7 0.7 0.8
+;23 1.5 0 0.6 1.6
+;24 0.5 1.4 1.2 0.2
+;25 0.1 1.6 0.6 0.8
+;26 1.2 1 1 1.5
+;27 0 1 0.7 1
+;28 - - - - 
+ 
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1 1.5 0.3 0.7 0
+2 0.3 0.4 0.2 0.7
+3 0.8 0 0.3 0.4
+4 0.6 0 0.7 0.3 
+5 0.5 0 0.7 0.3 
+6 0 1 1 0.2
+7 0.7 0.2 1 0.1 
+8 0.2 0.7 1.1 0.2
+9 1.5 0 0.5 0.3 
+10 1.5 0 0.5 0.4 
+11 0 1.1 0.6 0.8
+12 0.9 0 0.5 0.1
+13 0 0.7 0.7 0.8
+14 0.8 0 0.6 0.3 
+15 0 0.6 0.7 0.4
+16 0.6 0 0.2 0.5
+17 0 1 0.3 0.5
+18 0.5 0.7 1 1
+*data passage station left right up down
+18 0.5 0.7 1 1 
+19 0.3 0.5 0.5 1.8 
+20 1 1.5 1.5 0
+
+*data passage station left right up down
+18 0.5 0.7 1 1
+21 1.8 0 0.9 1.3
+22 0.7 2.7 0.7 0.8
+23 1.5 0 0.6 1.6
+24 0.5 1.4 1.2 0.2
+25 0.1 1.6 0.6 0.8
+26 1.2 1 1 1.5
+27 0 1 0.7 1
+28 - - - - 
+;-----------
+;Question Mark List  ;(leave commented-out) ;description split between scoopyloopy and onedirection
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1	A	onedirection.21	-	heading south in clean washed rock, sketchy c6 (apparently not surveyed), requires rope, heads into rifty stuff, listed as QMB on survey, discrepancy between cave description and drawn-up survey
+
+;------------
+;Cave description  ;(leave commented-out)
+;Scoop it until you loop it. Unpromising c lead from 28, leads to cracked mud floor crawling tunnel, similar to 'one direction', 
+;with promising a lead, down junction in clean washed rock, sketchy c6, requires rope, heads into rifty stuff.
+
+*end onedirection

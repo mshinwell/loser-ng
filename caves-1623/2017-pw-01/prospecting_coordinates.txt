@@ -1,0 +1,18 @@
+2018 Philip Withnall
+Description (talk to Philip to decipher)	Coordinates (UTM, OsmAnd+ on Android, Philip’s phone)
+
+10, no, just a pocket	33N 411932 5283707
+11, no, down sloping rift	33N 411940 5283712
+12, choked twin shafts	33N 412043 5283693
+12, steep scree narrow pitch, needs torch and rope, probably choked	33N 412046 5283663
+13, steep rift, floor mostly choked, no draft, need a rope and light, probably choked	33N 412021 5283649
+16, deep drippy rift, draft, leg 18m, deeper than that	33N 411954 5283576
+16, deep wide rift, 40m+, drippy, promising, 14m disto leg to first ledge	33N 411943 5283565
+CUCC OK1 2012	33N 411898 5283590
+9, need torch	33N 411879 5283658
+8, no	33N 411792 5283631
+2017NR02	33N 411873 5283527
+6, needs rope and spade	33N 411764 5283545
+2, probably not	33N 411787 5283480
+1	33N 411804 5283452
+2017NR01	33N 411811 5283442

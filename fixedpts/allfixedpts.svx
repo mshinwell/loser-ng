@@ -1,0 +1,29 @@
+; fixedpts.svx: Fixed points to be used for normal dataset compilation.
+;
+; The positions of points in this file are independent of all loop closures.
+
+*begin
+
+;default to output in utm33, input in 'Austria G&K'
+*cs out utm33
+*cs custom "+proj=tmerc +lat_0=0 +lon_0=13d20 +k=1 +x_0=0 +y_0=-5200000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232"
+
+*flags surface
+
+; GPS points
+*include gps/allgps
+
+; Accurate points from Nils
+*include nils2000
+
+; Laser points
+*include laser
+
+; Points from Freytag and Berndt map
+; "Dachstein Ausseer Land Filzmoos-Ramsau", number 281
+*include fb-map
+
+; Miscellany
+*include misc
+
+*end

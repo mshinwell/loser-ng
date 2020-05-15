@@ -1,0 +1,30 @@
+*equate p2009-01 2009-01.1
+*entrance p2009-01
+
+*begin 2009-01
+
+*title "Affenjagdhoehle"
+*date 2009.07.29
+*team Insts Frank Tully
+*team Notes Frank Tully
+
+; instrument set 1
+; Tape has no zero error
+; notes in 2009#11
+
+*export 1 
+
+*data normal from to compass clino tape 
+1	2	175	-35	1.45
+2	3	175	-85	8.90
+3	4	000	-45	5.00
+
+
+*data passage station left right up down ignoreall
+;station    L   R   U   D   Desc.
+1   	0.5	0.0	0.0	0.6	RD top of entrance (bolt has since been placed for tag)
+2	0.0	1.0	6.0	1.0	RD LH wall
+3	1.5	0.5	4.0	0.0	
+4	-	-	-	-	RD bottom of chamber
+
+*end 2009-01

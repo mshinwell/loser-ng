@@ -1,0 +1,125 @@
+*equate BreezeBlock.10 BreezeThrough.1
+
+*begin BreezeThrough
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Kaninchenhöhle, 1623/161
+*title "136 -- BreezeThrough"
+*date 1999.07.29
+*team Insts Becka Lawson
+*team Notes Julian Haines
+*team Tape Julian Todd
+*instrument Compass #2 ; Clino #2
+; Calibration:  
+; ref.: 1998 KH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 10
+
+*calibrate tape -0.15   ; +ve if tape was too short, -ve if too long
+
+;from   to  tape    compass clino   ; remarks
+2   1   12.55   213 -28
+3   2   9.14    207 +09
+3   4   2.40    349 -20
+5   4   9.18    -   down
+6   5   8.45    193 -35
+7   6   18.91   -   down
+7   8   5.22    024 +39
+8   9   9.69    356 -02
+10  9   2.74    250 -16
+
+;station details
+;name   L   R   U   D   E   description
+;1  1.1 0.1 1.7 1.6 -   Red dot on RH wall at end of Wookey's survey
+;2  0.8 0   3.2 1.0 -   CM on RH wall
+;3  0   0.8 0   2   -   CM on LH wall, knobble
+;4  3   6   0   1.2 -   CM on rope
+;5  1   2   1   0   -   Bottom of hang knot
+;6  1.5 1.5 -   0   -   CM on wall at foot of pitch
+;7  0.5 2.5 -   -   -   Y hang middle knot
+;8  0.7 0.7 0.5 2.2 -   CM on top of v.pointy boulder
+;9  -   -   -   -   -   CM on rock on choss pile
+;10 -   -   -   -   -   Red point with '1' below
+
+*end BreezeThrough
+
+
+*begin BreezeBlock
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Kaninchenhöhle, 1623/161
+*title "136 -- BreezeBlock"
+*date 1999.07.29
+*team Insts Andrew Atkinson
+*team Notes Wookey
+*team Pics Wookey
+*team Tape Andrew Atkinson
+*instrument Compass #1 ; Clino #1, Red Tape.
+; Calibration:  Top->bottom: clino:-6.5, comp:89.5, 
+;               Bottom->top: clino:+7, comp:270
+; ref.: 1999 KH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 8 10 15 24
+
+*calibrate tape 0   ; +ve if tape was too short, -ve if too long
+
+;from   to  tape    compass clino   ; remarks
+1   2   14.44   014.5   +50
+2   3   12.98   042.5   -20
+4   3   14.19   000 -24.5
+4   5   10.47   221 -46
+5   6   5.04    -   down
+7   6   4.35    031 +03
+7   8   18.05   218.5   -11.5
+9   3   3.65    273 +25
+9   10  11.08   032 -42
+11  10  6.09    215 +53.5
+12  11  22.21   -   down
+13  12  4.70    021 -71
+14  13  4.90    -   down
+14  15  0.19    065 00
+16  15  4.68    195.5   -19.5
+16  17  6.96    026 +46.5
+17  18  1.71    304.5   +24.5
+19  18  7.53    -   down
+20  19  8.44    109 -24.5
+20  21  4.08    267 -05
+21  22  5.28    -   down
+22  23  4.59    278 -03
+24  23  15.10   205 +09
+
+
+;station details
+;name   L   R   U   D   E   description
+;1  3   0.10    ~5  1.6     red spot '1' on wall
+;2  1.4 0.3 1.2 0.4     CM on side of hole
+;3  0.5 5.5 10+ 2.0     red spot on wall
+;4  0.1 (pt2)   20+ 1.7     CM
+;5  0.5 0.6 0.5 5       CM on roof
+;6  0.5 0.0 5   0.3     Cairn at bottom of plumb
+;7  0.4 0.8 ~6  0.8     Not marked, roof flake
+;8  3.7 1.0 15+ 1.1     Red '.8' on wall
+;9  1.7 1.1 1.7 0.9
+;10 1.1 0.1 1.8 1.6     Red spot on wall
+;11 1.6 0.2 loads   1.2     Rock on floor
+;12 P0.4    P2.5    P0.7    P0      Bolt (NSEW at +30 degrees)
+;13 P0.4    P1.4    P0.1    P0.4        CM (P+30)
+;14                     Top of plumb (virtual stn)
+;15 P0.4    P0.8    P0  P1.0        Bolt (P+30)
+;15 1.5 0   2.2 1.5     (same stn as above)
+;16 0   0.7 0.9 0.2     CM, LH wall
+;17 1.4 0   ~8  ~5      White Mark 'X', RH wall
+;18                     pencil 'X' on LH wall (bottom of plumb)
+;19 P~7 P0.2    P1.2    P1.7        P+30
+;20 0.8 0   3.5 1.7     CM on RH wall
+;21 0   1.5 4   0.9     Bolt
+;22 1.8 0   -   1.9     'X' scratched RH wall
+;23                     top of rock on floor
+;24                     Red stn '4' of Overshoot survey
+    
+
+*end BreezeBlock

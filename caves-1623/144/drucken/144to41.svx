@@ -1,0 +1,94 @@
+;1995.08.01 AERW Source: converted from SU file $.Survey.Surveys.Austria.D.P144
+;1998.01.28 AERW added comments and refs
+;1998.05.29 AERW sorted exports and format
+;1999.09.28 TM split surveys into two files, from older dataset
+;2000.05.11 W Concatenated forked versions
+
+;Weg in p144
+
+; Date : 1985
+; Calib: 
+; Inst : 
+; Tape : 
+; Notes:
+
+;*equate 144to41.47 144main.20 ; presume same permanent station
+
+*begin 144to41 ; formerly "DQ" survey
+
+; Locn:	SE flank Vord. Schwarzmooskogel, Western massif, Totes Gebirge, Austria
+; Cave:	Wei&szlig;en Warze Schacht II
+; Survey Name:	Survey 144 from 41 streamway back through Roddick's dive
+; Date:	1985.08.07 trip 1985-144-6 in 1985 logbook
+; By:	Mike Martin, Mark Roddick, Chris Sharman
+;	Insts: 
+;	Tape: 
+;	Notes:
+; Instruments:
+; Calibration:
+; Ref.:	I know I've got these on paper somewhere ...
+
+;CHANGE               0.0   0.0      1985 surveys no compass hassles
+
+; ====== stations refindable to link to other surveys: ======
+
+;*export 47	; bolt at head of mud wall pitch
+;*export 1	; base of 11m pitch - findable if rigged ?
+		; no corresponding station to tie in (sigh!)
+; can we assume that is at floor level ? Because survey down that
+; streamway was carried out at Julian Griffiths' eye level (say 1.6m)
+*date 1985.08.07
+
+*DATA normal from to length bearing gradient ignoreall
+   1   2 11.     -      Up
+   2   3  3.8    7.   22.5
+   4   3  4.27 232.  -18.
+   4   5 10.56 322.   14.
+   6   5  4.65 175.5 -27.
+   6   7  3.17 292.    9.5
+   8   7  2.96 145.  -12.
+   8   9  6.88  32.    8.
+  10   9  3.57 138.  -53.
+  10  11  3.38 251.5  26.
+  12  11  3.15 109.    3.
+  12  13  3.74 243.  -31.
+  14  13  3.35 101.  -35.
+  14  15 10.   320.   40.
+  16  15  4.35  62.  -11.5
+  16  17  5.27 273.   40.
+  18  17  5.76 176.  -25.
+  18  19  4.76  28.5  10.5
+  20  19 14.33 108.  -41.
+  20  21  9.4   45.  -16.5
+  22  21  6.54 169.  -25.5
+  23  22 11.65 245.5   9.
+  23  24 15.8   24.5  19.5
+  25  24 14.54 164.  -24.
+  25  26  9.2  298.5  38.5
+  26  27  5.9  260.   25.5
+  28  27  4.57  81.5 -33.
+  28  29  9.75 323.   29.5
+  30  29  6.95 134.  -40.5
+  30  31  5.3  329.   46.
+  32  31  7.5  147.  -42.
+  32  33 10.44  49.   -6.5
+  34  33  4.45 237.   18.
+  34  35  9.46  33.    2.5
+  36  35  7.   248.   10.
+  36  37  3.45 185.  -58.
+  38  37  7.37 259.5  -3.5
+  38  39  1.9  304.   38.
+  40  39  3.25 207.5  -3.
+  40  41  6.2  315.   75.
+  41  42  1.68   -      Up
+  43  42  3.9  255.  -13.5
+  43  44 10.2   48.5  10.
+  45  44 12.   204.   11.
+  45  46  8.49  65.  -12.
+  46  47  7.48 113.   27.
+
+; station details
+; 1 in Stellerweg stream below Big Pitch
+
+*end 144to41
+

@@ -1,0 +1,48 @@
+*begin loop22
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "loop22"
+; (why? because someone said we couldn't have files with
+; names long enough to be meaningful - so note the irony of the six character
+; name...) Anyway, this is a survey from the bolt at the head of a pitch known
+; to Brian as 'Pink Elephant' to the head of a ~30m pitch in White Elephant.
+; It connects Brian's 'Pleasuredome' area with the 'White Elephant' series.
+*date 2000.08.08
+*team Insts Martin Green
+*team Notes Earl Merson
+*team Pics Earl Merson
+*team Tape Martin Green & Earl Merson
+*instrument Compass #1 ; Clino #1, Tape One of the new 2000
+; Calibration:
+;	Compass	Clino
+;	309.5	+06.0
+;	309.5	+06.5
+;	309.5	+07.0
+;	129.5	-08.0
+;	130.0	-07.0
+;	129.5	-06.5
+; ref.:	2000 #28
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 4
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	9.19	349.5	+14
+2	3	9.27	162	-60
+3	4	2.81	167.5	+10
+
+
+;station details
+; Left is looking in line of increasing station number.
+;name	L	R	U	D	description
+;1					Bolt at head of Pink Elephant pitch, pleasuredome.7
+;2	0	1.2	3	1.5	Red PM on rock on L, pointing to short pitch.
+;3	0.7	2	2.5	0.2	Red PM on tip of rock on floor.
+; 3 should not be confused with another paint mark, dome.18, which we may have gardened...
+;4	0	3	some	lots	Red PM on flake on left wall above ~30m pitch. dome.19.
+
+*end loop22

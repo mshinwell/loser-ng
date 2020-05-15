@@ -1,0 +1,14 @@
+*begin gps01
+
+; These coords are taken from the kataster forms,
+; and although it is not clear how they were converted
+; from the original UTM coordinates it doesn't agree
+; with any other method I know of.
+
+*fix p236 reference 36364 81928 1752 ; Moostunnelhoehle
+*fix p237 reference 36392 81931 1777 ; Dreieingangabdrosselnhoehle
+*fix p238 reference 36440 82114 1735 ; Flinkamiesesschacht
+*fix p235 reference 36477 82090 1727 ; Schakelfelsbrockenhoehle
+
+
+*end gps01

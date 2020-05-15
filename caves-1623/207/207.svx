@@ -1,0 +1,31 @@
+;1998.06.02 AERW added exports and comments
+;2000.07.23 MS Changed name to 207 from wook2
+
+*equate 207.0 	p207	; surface and u/g surveys same day, same man
+*entrance p207
+
+*begin 207
+
+*title "Plumpsklohöhle, 1623/207"
+
+; Locn:	Main plateau, beyond Brauning Sattel, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+; Cave:	tiny cave, marked '+' Near (upper) TopCamp
+;	located by surface survey 'NearTC'
+*team Insts Wookey
+*team Notes Wookey
+*team Pics Wookey
+*team Tape Wookey
+*date 1996.07.15
+*instrument MC1 compass
+; Calibration:
+;
+;
+; ====== stations refindable to link to other surveys: ======
+
+*export	0	; entrance
+
+;From  to  Tape Compass Clino 
+0	1	1.25	290	-73
+1	2	3.1	198	+02
+2	3	4.0	225	0
+*end 207

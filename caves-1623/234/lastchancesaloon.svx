@@ -1,0 +1,84 @@
+*begin lastchancesaloon
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Hauchhoehle (2000/09)
+*title "Spit or Swallow"
+*date 2008.08.02
+*team Insts Djuke Veldhuis
+*team Notes Edvin Deadman
+*team Tape both
+*instrument silva - no name
+; Calibration: Compass 150/147/148/327/326/327, Clino +23/+23/+22/-22/-22/-23
+; ref.:	2008#15
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 30 13 1
+
+*calibrate tape +0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	4.82	266	+10
+2	3	1.40	030	+29
+3	4	2.49	077	+08
+5	4	2.57	277	-26
+6	5	4.87	310	+15
+7	6	1.35	235	-18
+8	7	1.87	125	-17
+9	8	2.29	253	-17
+10	9	3.17	201	-24
+11	10	11.00	215	-07
+11	12	3.92	037	+23
+13	12	2.07	203	-12
+14	10	2.85	190	-04
+14	15	3.56	313	-51
+15	16	9.03	351	-06
+16	17	3.13	323	+19
+18	3	8.40	098	+34
+19	18	2.93	147	+10
+19	20	4.56	244	-31
+21	20	4.51	137	+19
+21	22	8.12	305	-24
+22	23	2.22	018	+02
+23	24	2.22	317	+00
+24	25	2.04	042	+06
+25	26	6.58	007	+25
+27	1	10.39	072	-55
+28	27	2.25	027	+19
+29	28	2.77	061	+28
+30	29	0.98	083	+30
+
+
+
+;station details
+*data passage station left right up down ; description
+; rp = red paint
+1	1.5	2	-	2	;rp boulder
+2	4	0.2	-	0.4	;rp rhw
+3	4.5	2	-	1.2	;rp lhw
+4	1	0	0	0.5	;rp rhw
+5	0	0.85	1.1	0.5	;rp lhw
+6	0.57	0	0.3	0.39	;rp rhw
+7	0.39	-	0.2	0.91	;rp rhw
+8	0	0.46	0.1	0.88	;rp lhw
+9	0.5	0	0.1	0.97	;rp rhw
+10	0	1.40	0.4	1.5	;rp lhw
+11	1	0.4	4.18	0	;rp
+12	1	0	1	1.5	;rp rhw
+13	0.05	0.4	0.05	1.7	;rp lhw
+14	1.5	0	2	2	;rp junction
+15	0	1.2	2	0.6	;rp lhw
+16	1	0	1	0.5	;rp rhw
+17	0	2	1	1	;rp rhw
+18	0.4	2	1.2	3	;rp lhw
+19	2	0	0.3	1.7	;rp rhw
+20	0.5	1.5	1	0.7	;rp rock
+21	0.45	0	0	0.56	;rp rhw
+22	0.3	-	-	0.5	;rp flAKE
+23	0.3	0.1	0.3	0.4	;rp flake
+24	0	0.5	0.9	0.3	;rp lhw
+25	1	0.2	0.3	0.5	;rp flake above pitch
+26	0	0.5	1.5	0.3	;rp rhw
+27	0	2	2	0.5	;rp window
+
+*end lastchancesaloon

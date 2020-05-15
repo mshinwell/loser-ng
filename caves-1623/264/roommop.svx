@@ -1,0 +1,29 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2005-5 "Balconhohle"
+
+*begin roommop
+
+*export	5x
+
+*title "room with a view mopping up"
+*date 2014.08.13
+*team Distox Holly Bradley
+*team Notes Noel Snape
+*team Dog  Rob Watson ;"nail varnish"
+
+*ref 2014#45
+	
+;from	to	tape	compass	clino	remarks
+5x	1	5.7	047.2	+21.9
+1	2	2.26	324.6	19.7
+2	3	2.87	025.3	0.1
+
+
+*data passage station left right up down ignoreall
+5x	0.4	1.3	5.1	1.5
+1	0.6	0	4.4	1.4
+2	0.2	0.4	6.6	1.8
+3	0.4	0	7	1.2
+
+*end roommop
+

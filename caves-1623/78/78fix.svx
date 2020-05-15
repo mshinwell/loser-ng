@@ -1,0 +1,9 @@
+
+;Schwabenschacht 1623/78
+;with fixed points
+
+
+*include 78
+*include entlink
+*include fixedpts
+

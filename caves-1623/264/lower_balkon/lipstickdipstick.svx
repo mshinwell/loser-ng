@@ -1,0 +1,92 @@
+*begin lipstickdipstick
+
+; stations linked into other surveys (or likely to)
+*export 20x	8
+
+; Cave: Balcony
+; Area in cave/QM: Pitstop
+*title "Lipstick Dipstick"
+*date 2019.07.17
+*team Insts Fleur
+*team Dog Reuben
+*team Notes Nadia
+
+*instrument Becka 2
+; Calibration: [Where, readings]
+*ref 2019#01
+; the #number is on the clear pocket containing the original notes
+
+
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+20x	1	5.24	263.5	-32
+1	2	3.67	259	-34
+2	3	8.62	264	-32
+3	4	2.82	264	-19
+4	5	5.03	281	-39
+5	6	6.04	256	-35
+6	7	5.35	186	-13
+7	8	2.33	119	-13.5
+8	B	6.75	120	+30
+8	9	3.4	202	0
+9	10	5.29	164	-13
+10	11	2.74	229.5	-03
+11	12	3.61	153.5	+06
+12	13	0.89	315	-17
+13	14	9.72	202	00
+14	15	1.95	111	-12
+15	16	5.08	234	+29
+15	17	4.93	164	-15.5
+17	18	7.23	129	+03
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Pink nail varnish markings
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down ignoreall
+20X	2.2	1.5	8	8	old numbered station at T junction, L is 7.7m on 90 degrees
+1	1.3	0.3	4.5	1.5	RW below pitch
+2	1.2	0.2	4	8	RW traverse
+3	1.2	0	4	3 	8 down RW 40cm before pitch bolt
+4	0	1	2.8	5	LW opposite pitch bolt
+5	1.1	0.3	3	7	RW at bottom of pitch
+6	2 	0.4	5.5	1.5	RW / boulder by traverse
+7	0.5	0.2	3.2	1.4	RW at corner
+8	0.5	1.5	4.5	3.6	numbered at junction
+9	1	0.4	2.6	5	(trench) RW
+10	0	1.3	2.7	1	LW
+11	1.5	0.5	3.4	2	RW
+12	0	1.4	2	2.5	numbered in pencil LW
+13	-	-	-	-short leg across passage to set up next leg
+14	2	0	2	2	RW by junction
+15	0	2.5	2.5	1.5	numbered at junction
+16	0.7	0.3	2	2	steep ramp
+17	2.5	0.5	2.2	1.7	RW numbered in pencil
+18	1.5	1.5	2	1	not marked into ramp beyond pitch
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    A	lipstickdipstick.8	- steep ramp upwards
+;QM2	B	lipstickdipstick.16	- easy climb up but needs a rope to protect
+;QM3	B	lipstickdipstick.15	- p35+ but probably links to QM4
+;QM4	A	lipstickdipstick.17	- p40? pitch
+;QM5	B	lipstickdipstick.18	- passage far side of pitch
+
+;------------
+;Cave description  ;(leave commented-out)
+;climb down to the right of the passage in to a chamber. To the left of the chamber ends in a mud wall. There is a high aven above the Chamber. Right is a boulder choke up a slope. On the right of boulder choke there is a small drafting hole. At the top of the slope the passage is stopped by a wall. Roof of passage is about 20m high and stays the same hight throughout. 
+
+*end lipstickdipstick

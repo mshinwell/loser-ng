@@ -1,0 +1,109 @@
+*begin gardeningschool
+
+; stations linked into other surveys (or likely to)
+*export 1 5 6 7 11 13
+
+; Cave: Fisch Gesicht
+; Area in cave/QM: Passage off at bottom of first pitch.
+*title "Gardening School"
+*date 2018.08.07
+*team Insts Adam Henry
+*team Notes Wookey
+*team Dog Ryan Boultbee
+*instrument Wook's DistoX2
+
+*ref 2018#59
+; the #number is on the clear pocket containing the original notes
+
+; This survey is tighly entwined with 12monkeys, having reached the same
+; place by a different route. Some of it is a resurvey of 12monkeys.
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+
+1   2	 3.501	    268.1     21.2
+3   2	 11.351	    111.4     82.7
+4   3	 3.648	    006.4     -29.3
+5   4	 4.425	    299.5     +09.4
+6   5	 5.684	    318.4     +32.6
+7   6	 3.396	    274.3     +20.8
+8   3	 9.056	    180.0     +78.2
+8   ..	 10.3	    151	      -19
+8   9	 3.287	    284.7     -10.9
+9   10	 4.741	    337.2     +03.8
+10  11	 5.917	    271.3     +03.1
+12  11	 8.492	    257.0     -48.3
+13  12	 2.562	    249.6     -23.0
+
+;-----------
+;recorded station details (leave commented out)
+;Station Left Right Up Down Description
+;Red and Pink nail varnish markings
+;*data passage station west east south north ignoreall
+;1    3.8   2.3	  0.2	1.0  RP bott of existing hang (existing stn)
+;2    2.3   3.4	  0.7	0    Pitch head bolt
+;*data passage station left right up down ignoreall
+;3    1.4   1.8   12	2    RP '3' edge of boulder over pitch
+;4    1.2   0.2	  8.3	1.4  RP existing stn RHW
+;5    0.1   1.6	  ~6	0.4  PP existing stn LHW
+;6    0.9   0	  12.4	0.9  PP existing stn RHW
+;7    0	    0.6	  - 	6.5  PP existing stn LHW
+;8    1	    0	  9.5	1.7  PP '8' RHW foot of pitch
+;9    0	    1	  9	1.6  RP LHW
+;10   1.7   0	  10.3	1.5  RP '10' RHW
+;11   0	    2	  9	5.6  RP '11' LHW
+;12   0.7   0	  1.1	1.1  RP edge of pitch
+;13   0	    1.1	  0.5	1.1  PP '8' existing survey LHW
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+;*data passage station west east south north ignoreall
+;1    3.8   2.3	  0.2	1.0  
+;2    2.3   3.4	  0.7	0    
+*data passage station left right up down ignoreall
+3    1.4   1.8   12	2    
+4    1.2   0.2	  8.3	1.4  
+5    0.1   1.6	  6	0.4  
+6    0.9   0	  12.4	0.9  
+7    0	   0.6	  - 	6.5  
+*data passage station left right up down ignoreall
+8    1	   0	  9.5	1.7  
+9    0	   1	  9	1.6  
+10   1.7   0	  10.3	1.5  
+11   0	   2	  9	5.6  
+*data passage station left right up down ignoreall
+11   0	   2	  9	5.6  
+12   0.7   0	  1.1	1.1  
+13   0	   1.1	  0.5	1.1  
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1      A    gardeningschool.11  -  ~40m pitch - big hole
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+
+;See 12monkeys, where top part is described. 33m rope sufficient to
+;get down p5,p11,p11.
+
+;From foot of 11m pitch, route goes under large boulder holding up
+;truly massive boulder. 2nd p11 drops from there onto floor (which is
+;just another traverse level in the canyon, but has a rocky
+;floor). The back of the canyon can be seen from here to the
+;east. Going west on the rocky floor soon (8m) reaches more (chossy)
+;holes in the floor, which soon develop into a traverse over a large
+;pitch rigged from a wide Y-hang.
+
+
+*end gardeningschool

@@ -1,0 +1,22 @@
+*begin part3to4
+
+; Locn:	Main plateau, beyond Brauning Sattel, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+; Cave:	Wolfhöhle (1623/145)
+*title "extra connecting leg done by pt5 surveyors"
+;		survey from bolt of pitch above 40m pitch to RH bolt of Y shaped belay
+*date 1984.08.05-1984.08.06
+*team John Parrington, Bill Hawkswell
+*instrument CUCC Compass 949847, NPC Clino 918653
+; Calibration:	generic calibration on NPC clino in 1984 - "add 1.0 to get true clino"
+; ref.:	p 43 of landscape-format brown-hardback notebook in AndyW's archive p 43
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0	; RH bolt of Y-shaped belay on pitch above 40m pitch (used 1984)
+*export 1	; undescribed point which was refound this year
+
+*calibrate compass 0
+*calibrate clino -1
+
+	1	0	9.4	240.	-60.
+*end part3to4

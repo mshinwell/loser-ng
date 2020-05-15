@@ -1,0 +1,260 @@
+;Created 1996.07.15
+;1997.08.14 AJD Added 186toTC to include list
+;1998.01.23 AERW removed include list - not appropriate at this level
+;1998.04.02 AERW Added comments, refs, exports
+;1998.07.18 W added 90to94 survey
+;1998.07.24 AERW corrected cave 159 to 160 in 90to94 survey
+;1998.07.24 AERW added 159toTC survey
+;2000.01.25 W corrected error in 90-91-160-93-94 survey (last leg is 19-20, not 17-20)
+;2000.03.07 W corrected 159 to 160 in 90to94 survey stn descs
+;2000.03.07 W Added 90to94bis
+
+; ====== links between surveys in this file ======
+
+*equate TCto90.5	159toTC.5
+*equate	TCto90.11	90to94.0
+*equate 90to94.0	90to94bis.1
+
+*equate wk2towk3.1	TCto90.2
+*equate wk2towk3.2	TCto90.1
+
+*begin TCto90
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 	Surface
+*title "Caves Near Top Camp: 1623/90 and two unnumbered caves nearby"
+*date 1996.07.15
+*team Insts SteveB
+*team Notes Wookey
+*team Pics Wookey
+*team Tape 
+*instrument Wookey's MC1 compass/clino, tape 0.25m too long
+; Calibration:	
+; ref.:	1996 surface survey book pp 3,6
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; bolt at WK3 entrance
+*export 2	; "+" at WK2 entrance
+*export 5	; fixed point on boulder at Upper Top Camp
+*export 7
+*export 11	; middle of "O" in "90" - bolt
+
+*sd compass 1 degrees
+*sd clino 2 degrees
+*set decimal ./
+*calibrate tape -0.25
+
+2	1	15/36	016	-12
+3	2	30/16	269	+13
+3	4	29/09	108	-01
+5	4	28/61	270	+06
+5	6	26/14	189	+10
+7	6	28/06	048	-21
+7	8	20/07	262	+11
+9	8	29/70	108	+03
+9	10	 2/76	229	+30
+10	11	 4/19	303	-06
+9	12	11/45	034	-06
+13	12	19/39	185	+08
+3	13	18/90	206	18
+
+*end TCto90
+
+*begin 90to94
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 	Surface
+*title "Caves Near Top Camp: 1623/90, 91, 93, 94, 160"
+*date 1998.07.18
+*team Insts Brian O
+*team Notes Wookey
+*team Pics Wookey
+*team Tape Brian
+*instrument set 4 clino #145132, compass #741127
+; Calibration:	clino +8/-8
+; ref.:	1998 surface survey book pp 
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0	; tag at 1623/90
+*export 10	; centre of 9 of 91
+*export 11	; tag bolt of 1623/91
+*export 12	; cairn probably refindable
+*export 14	; tag of 1623/160
+*export 15	; 1st rig bolt of 1623/160
+*export 18	; tag bolt (middle of "9") of 1623/93
+*export 21	; tag bolt (middle of "9") of 1623/94
+
+0	1	19.02	168.	+07.
+2	1	20.14	098.	+01.
+2	3	25.96	285.	-08.
+3	4	29.97	296.	-06.
+5	4	26.48	126.	+08.
+6	5	24.35	162.	+14.
+6	7	22.42	019.	-01.
+8	7	30.27	152.	+12.
+8	9	11.41	346.	+05.
+9	10	18.97	003.	-14.
+10	11	 2.60	098.	-45.
+12	11	15.95	248.	+08.
+12	13	18.87	079.	+03.
+13	14	 4.89	051.	-25.
+14	15	 0.15	   -	 up
+15	16	 3.75	282.	-27.
+12	17	17.81	301.	 00.
+17	18	 7.61	354.	-07.
+17	19	14.22	330.	-01.
+19	20	28.20	353.	-10. ; 17-20 in orig notes. 
+; Correction checked 1999.07.28 by Wookey & Brian
+20	21	17.06	319.	-10.
+
+;station details
+
+;0	0	p90 tag bolt
+;1	0.5	point of rock
+;2	1.0	ski pole
+;3	0.4	tip of scree boulder
+;4	1.0	ski pole
+;5	1.0	ski pole
+;6	0.4	top of rock near cairn
+;7	2.0	top of rock bulge, "X"
+;8	0.3	rock
+;9	0.5	ski pole in crack
+;10	-0.6	centre of "9" of 91
+;11	0	tag bolt of 91
+;12	0.3	cairn
+;13	0.8	ski pole
+;14	0	p159 tag (actually p160, determined later)
+;15	0.15	above tag
+;16	-	1st rigging bolt (inside cave)
+;17	0.3	rock on its edge
+;18	0.3	tag of 1623/93
+;19	1.0	ski pole
+;20	1.0	ski pole in only bit of grass
+;21	0	tag of 1623/94
+
+*end 90to94
+
+*begin 90to94bis
+
+; Repeat of previous survey a year later (accidental!)
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 	Surface
+*title "Caves Near Top Camp: 1623/90, 91, 93, 94, 160"
+*date 1999.08.11 ; (during total eclipse)
+*team Insts AndyA
+*team Notes Olly
+*team Pics 
+*team Tape AndyA
+*instrument set 2 (clino sticky)
+; Calibration:	Upper Top Camp: 268/088 ; 05.5/-06.5
+; ref.:	
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; tag at 1623/90
+*export 11	; tag bolt of 1623/91
+*export 12	; tag bolt 1623/93
+*export 14	; tag of 1623/160
+*export 17	; tag bolt 1623/94
+
+                           
+ 2  1  19.03  349   +08.5  
+ 2  3  16.76  272   +01    
+ 4  3  29.72  116   +08    
+ 4  5  30.33  302.5 -08.5  
+ 6  5  25.00  106   +03    
+ 6  7  29.26  350   -12    
+ 8  7  19.94  196.5 +01.5  
+ 8  9  29.06  336   -13.5  
+10  9  29.23  188   +11    
+10 11   5.84  281   -10    
+10 12  25.30  339.5 -04.5  
+10 13  27.56  067.5 -02    
+13 14   4.76  061.5 -23    
+15 12   3.83  272.5 -08    
+15 16  27.90  323.5 -10    
+16 17  24.81  340.5 -09    
+
+; 1 = 1623/90 tag bolt
+; 2 = tip of rock
+; 3 = point on rock
+; 4 = point of pavement
+; 5 = cairn top
+; 6 = joke cairn
+; 7 = cairn
+; 8 = rock on outcrop
+; 9 = on pavement
+; 10 = temp upright rock
+; 11 = 91 tag bolt
+; 12 = 93 tag bolt
+; 13 = temp cairn
+; 14 = 160 tag bolt
+; 15 = temp cairn
+; 16 = pt on wall
+; 17 = 94 tag bolt
+
+
+*end 90to94bis
+
+*begin 159toTC
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 	Surface
+*title "Cave Near Top Camp: 1623/159"
+*date 1998.07.23
+*team Insts Kate J
+*team Notes Andy W
+*team Pics Andy W
+*team Tape Kate J
+*instrument set 4 clino #145132, compass #741127
+; Calibration:	clino +4.5/-3, TC->Col R of Schonberg 351
+; ref.:	1998 surface survey book p 57
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0	; northerly (of 2 for Y-hang) bolt at 1623/159
+		; 0.5m below surface at this side (with tag)
+*export 5	; permanent station TC (green pointy bldr at UTC)
+
+1	0	 1.5	-	down
+2	1	17.37	032.	-13.
+3	2	29.48	294.	-05.
+4	3	29.70	320.	-05.
+4	5	33.33	076.	-10.	; two tapes joined
+
+;station details
+;0	Y-hang bolt N side of 1623/159 (with tag) height -0.5m
+;1	point in space 1m above surface
+;2	cairn 0.3m
+;3	bunde 1.6m
+;4	cairn 0.6m
+;5	TC pointy green boulder
+
+*end 159toTC
+
+*begin wk2towk3
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 	Surface
+*title "wook2 to wook3"
+*date 2000.08.06
+*team Insts Andy A
+*team Notes Wook
+*team Pics Wook
+*team Tape Andy A
+*instrument set 1, tape: Rabone red and black
+; Calibration:	Lower TC: 307,+07.5	128,-07
+; ref.:	...
+
+
+*export 1 2
+
+1	2	15.6	012	-12
+
+; stns:
+; 1		wk2 [207] tag bolt (middle of +)
+; 2		wk3 [208] tag bolt
+
+*end wk2towk3

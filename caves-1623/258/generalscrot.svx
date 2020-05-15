@@ -1,0 +1,31 @@
+*begin generalscrot
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export 50x 
+
+*title "General Scrot"
+*date 2014.08.11
+*team Notes David Walker
+*team Insts Julian Todd
+*instrument Noel's DistoX
+
+;ref.: 2014#37 
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+50x	1	9.67	212	-20
+1	2	6.85	203	-21
+2	3	4.80	205	-05
+
+*data passage station left right up down ignoreall
+
+;stn	L	R	U	D	Desc
+50x	-	-	-	-	
+1	0.5	0.5	0.0	1.2	ceiling
+2	0.9	0.0	1.0	0.3	right wall
+3	0.2	0.2	0.5	0.0	floor
+
+*end  generalscrot

@@ -1,0 +1,75 @@
+*begin tentacle
+
+; stations linked into other surveys (or likely to)
+*export 1 9
+
+; Cave: 258
+; Area in cave/QM: Kraken chamber, lower 
+*title "Tentacle Traverse"
+*date 2015.08.05
+*team Insts Anthony Day
+*team Notes Chris Densham
+*team Pics Chris Densham
+*team Tape DistoX
+*instrument DistoX ; Chris Densham's 
+*ref 2015#42
+
+
+; Centreline data
+*data normal from  to   tape      compass   clino
+1	2	20.56	112.7	+36.3
+2	3	18.76	099.4	+41.1
+4	3	09.03	352.7	-36.2
+5	4	03.56	283.8	+06.5
+6	5	05.94	232.6	+03.8
+7	6	05.93	246.4	-48.5
+8	7	06.02	246.2	+12.1
+9	8	03.74	247.1	+08.0
+
+;-----------
+;recorded station details
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;(leave commented-out)
+;Red nail varnish markings
+;1	5	3	4.5	0.5	Right bank at corner, pebble on bank
+;2	3.5	2.5	3	0.8	Right bank (looking up)
+;3	5	4	5	0.5	Bolt
+;4	3.1	1.6	3	1.8	RHW
+;5	1.3	0.3	3.2	3.2	RHW on traverse
+;6	0.4	2.4	7.4	3.3	LHW on traverse
+;7	1.0	0.2	2.1	2.4	RHW top of short pitch
+;8	0	1.4	2.1	4.5	LHW on traverse
+;9	0.6 - 3	4	Station 3 of Kraken survey
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down ignoreall
+1	5	3	4.5	0.5	Right bank at corner, pebble on bank
+2	3.5	2.5	3	0.8	Right bank (looking up)
+3	5	4	5	0.5	Bolt
+4	3.1	1.6	3	1.8	RHW
+5	1.3	0.3	3.2	3.2	RHW on traverse
+6	0.4	2.4	7.4	3.3	LHW on traverse
+7	1.0	0.2	2.1	2.4	RHW top of short pitch
+8	0	1.4	2.1	4.5	LHW on traverse
+;9	0.6 - 3	4	Station 3 of Kraken survey
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1 A    tentacle.1     livingthedream.29  Draughting 5m round phreatic tube continues down dip [Octopussy]
+
+;------------
+; Cave description
+;
+; A bolt traverse is rigged over a muddy floor trench, to a short drop followed by a further
+; traverse over a slot to reach solid ground. To the left here is a window into the lower
+; level of Kraken chamber. To the right a passage continues to a left hand bend where a
+; 5m round phreatic ramp with a mud floor descends at ~30deg. There is a draught heading
+; downhill. The ramp has been followed for 40m and continues (QM A).
+
+
+*end tentacle

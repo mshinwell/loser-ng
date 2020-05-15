@@ -1,0 +1,102 @@
+;1999.08.09 AJD created for surface surveys to 165, 194, 195, 196
+
+*begin 165tohsk
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Area:	West slope of Hinter SMK
+; Caves: 165, 194, 195, 196
+*title "Surface survey from 165 ent to HinterSMK trig pt via 196, 195, 194 ents."
+*date 1999.08.07
+*team Insts Duncan Collis
+*team Notes Anthony Day
+*team Pics Anthony Day
+*team Tape Both
+*instrument Compass set#4 ; Clino set#4, tape read from 1m mark
+; Calibration:	atTC a few days earlier for a survey in Steinbrueckenhöhle
+
+; ref.:	1999 notKH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+*export 7
+*export 11
+*export 15
+*export 34
+
+*calibrate tape +1.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino
+2	1	20.85	225	-12
+2	3	17.02	024	+04
+4	3	30.47	198	+11
+4	5	17.19	004	00
+6	5	24.95	208	+02
+6	7	16.34	304	-02
+8	7	10.08	152.5	+01.5
+8	9	19.03	259.5	-14.5
+10	9	29.95	052	+17
+10	11	9.80	195	+02
+12	11	9.34	048	-17.5
+12	13	26.24	275	-22.5
+14	13	25.48	078	+15
+14	15	13.50	229.5	-12
+16	7	28.20	267	-11
+16	17	21.38	132	+14.5
+18	17	20.30	268.5	-22.5
+18	19	28.24	057.5	+20
+20	19	25.56	242	-22
+20	21	19.90	067.5	+23
+22	21	25.79	238	-16
+22	23	25.34	052.5	+23
+24	23	17.42	234.5	-27
+24	25	10.24	089	+36
+26	25	8.37	268	-16.5
+26	27	29.34	064	+04
+28	27	8.56	226	+00.5
+28	29	23.87	125	+31
+30	29	25.36	279	-31	; dodgy clino - having to guess a bit where the station should be (bloody Bunde)
+30	31	20.38	096	+30
+32	31	21.07	275	-18
+32	33	12.75	081	+10
+34	33	22.69	236.5	-01
+
+;station details
+;name	D	description
+;1	0	Tag bolt at 165
+;2	1.00	top of rock
+;3	1.50	big rock tip
+;4	1.00	point of rock
+;5	1.20	pebble on rock
+;6	0.00	point on rock
+;7	0.00	tag bolt at 196
+;8	0.20	top of rock
+;9	0.00	point on pavement
+;10	0.30	boulder
+;11	0.00	tag bolt at 195
+;12	1.50	bit of bunde
+;13	0.00	flower head
+;14	0.25	cairn by entrance
+;15	0.00	tag bolt at 194
+;16	0.20	boulder near 196
+;17	1.00	tip of boulder
+;18	1.50	edge of boulder
+;19	1.50	top of boulder
+;20	0.00	point on terrace
+;21	1.80	top of big rock
+;22	1.00	boulder
+;23	1.80	boulder
+;24	2.00	rocky edge
+;25	1.50	bunde
+;26	-	bunde
+;27	1.00	pointy rock
+;28	0.00	rock route through bunde
+;29	1.80	bunde tip
+;30	-	bunde
+;31	-	bunde
+;32	-	bunde
+;33	-	bunde again
+;34	0.00	Hinter SMK trig point
+
+*end 165tohsk
+

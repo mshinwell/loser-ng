@@ -1,0 +1,390 @@
+;created Expo 96
+;1996.12.04 AJD in pt5, leg 1-2, the 062 in the notes _must_ be wrong 
+;               (from pics/memory/closure), 032 guessed
+;1998.03.26 AERW sort begin/end, add comments, refs, *calib clino
+
+*begin interview
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Interview Blues (QM 95-55)"
+
+*export pt1.1 pt5.1
+
+; ====== links between surveys making up the Interview survey: ======
+
+*equate pt1.13	pt2.1
+*equate pt2.11	pt3.1	pt4.1
+*equate pt5.10	pt4.9
+;*equate minoancon.plumb	pt5.9 ; survey so awful it has been removed
+*equate pt3.20	pt6.13
+*equate pt6.27	pt7.21
+
+*begin pt1
+
+*title "Interview Blues Part 1 - Gizza Job to the Doledrums"
+*team Insts Anthony Day
+*team Notes Nick Procter
+*team Pics Nick Procter
+*team Tape Anthony Day
+*date 1996.7.14 ; - trip 1996-161-13 in logbook
+*instrument Set 2 132004, 838638 [W, 194703]
+; Calibration:	161d entrance
+;	A - B	213 213 213
+;		+08 +08 +08
+;	B - A	033 033 033.5
+;		-09 -09 -08
+
+; Ref.:	1996 KH survey book pp 86-89
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; CM boulder 's5', NE side of Trifurcation
+*export 4	; CM on top of boulder at edge of Gizza job (needed to survey Fear-on
+		; traverse, meeting room pitch and QM 96-11
+*export 13	; foot of plumb of the Doledrums pitch (note location will depend on the
+		; length of sling used on the deviation on this pitch, so not useful for
+		; future years :-(
+
+*calibrate clino -0.33
+*calibrate tape  +0.2
+
+;From	to	Tape	Compass	Clino 
+2	1	 7.84	215	-27
+2	3	13.35	033	+18
+4	3	 6.03	226	-02
+5	4	 5.48	192	+72
+5	6	10.13	-	down
+6	7	11.85	-	down
+8	7	 2.11	293	-29
+8	9	 3.26	056	+06
+9	10	 6.84	-	down
+11	10	 3.58	223	-37
+12	11	 2.43	264	+59
+12	13	 7.84	-	down
+
+; LRUD data in book, not yet added (1996KHp86)
+
+*end pt1
+
+*begin pt2
+
+*title "Interview Blues Part 2 pitch 4 -> top pitch 5"
+*team Insts Nick Procter
+*team Notes Paul Hammond
+*team Pics Paul Hammond
+*team Tape Nick Procter
+*date 1996.7.17 ; - trip 1996-161-25 in logbook
+*instrument Set 4
+; Calibration:	161d entrance
+;	A - B	215 214 214
+;		+09 +09 +08
+;	B - A	034 034 033.5
+;		-08 -08 -08
+;
+; Ref.:	1996 KH survey book pp 124-125
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; foot of plumb of the Doledrums pitch (note location will depend on the
+		; length of sling used on the deviation on this pitch, so not useful for
+		; future years :-(
+*export 11	; CM on wall above Application for Life, also nearest QM 96-01
+
+*calibrate clino +0.33
+*calibrate tape  +0.2
+
+;From  to  Tape Compass Clino 
+2	1	 1.50	349	-10
+2	3	 0.93	107	-50
+4	3	 5.16	322	+72
+4	5	10.90	-	down
+6	5	 6.00	347	-29
+6	7	 3.59	187	-20
+8	7	 3.31	072	+04
+8	9	10.46	224	+08
+10	8	 4.00	004	-16
+11	10	 6.37	289	+07
+
+; LRUD data for all except station 4 1996KHp124, yet to add
+
+*end pt2
+
+*begin pt3
+
+*title "Interview Blues Part 3"
+*team Insts Becca Lawson
+*team Notes Anthony Day
+*team Pics Anthony Day
+*team Tape Both
+*date 1996.7.20 ; - trip 1996-161-39 in logbook
+*instrument Set 1
+; Calibration:	161d entrance
+;	A - B	216
+;		+07
+;	B - A	033
+;		-09
+;
+; Ref.:	1996 KH survey book pp 152-153
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; CM on wall above Application for Life
+*export 20	; CM RH wall after traverse forward from Volvo facing way to Early Retirement
+
+*calibrate clino -1.0
+*calibrate tape  -0.155
+
+;From	to	Tape	Compass	Clino 
+1	2	 1.70	282	-16
+2	3	 2.93	060	-40
+4	3	11.17	205	+73
+*calibrate tape 0
+4	5	38.5	- 	down ; measured the following day because
+				     ; tape shagged   AJD
+*calibrate tape -0.155
+6	5	 5.09	282	-27
+6	7	 5.32	126	+08
+7	8	 4.20	153	-16
+8	9	 2.24	238	-20
+10	9	 3.21	353	+39
+10	11	 3.85	192	+03
+11	12	 3.13	110	-69
+12	13	13.01	-	down
+14	13	 2.68	318	-60
+14	15	 3.78	095	-22
+15	16	16.41	-	down ;tape measurement + diameter of reel
+16	17	 4.80	-	down
+18	17	 4.11	165	-01
+18	19	 7.15	048	+19
+20	19	 4.65	002	+02
+
+; LRUD data for most points (not those on pitches) 1996KHp152, yet to add
+
+*end pt3
+
+*begin pt4
+
+*title "Interview Blues part 4 - top pitch 5 -> spatial awareness"
+*team Insts Nick Proctor
+*team Notes Brian Outram
+*team Pics Brian
+*team Tape Nick/Brian
+*date 1996.07.23 ; trip 1996-161-52 in logbook
+*instrument Set 4
+; Calibration:	None
+;
+; Ref.:	1996 KH survey book pp 139-140
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; CM on wall above Application for Life
+*export 9	; CM on rock at base of How Far to Tooting ?
+
+*calibrate tape -0.22
+
+;From	to	Tape	Compass	Clino 
+1	2	 4.12	242	+29
+3	2	10.76	039	-37
+4	3	 2.84	081	-47
+5	4	 6.37	035	-06
+5	6	 5.09	205	-17
+7	6	 5.62	013	+27
+8	7	 4.30	043	+07
+8	9	 9.10	 -	down
+10	9	 2.70	265	-33
+11	10	 5.50	071	+45
+
+; LRUD data for all points, 1996KHp139, yet to add
+
+*end pt4
+
+*begin pt5
+
+*title "Interview Blues part 5"
+*team Insts Craig Anderson
+*team Notes Nick Procter
+*team Pics Nick Procter
+*team Tape Both
+*date 1996.7.28 ; - trip 1996-161-67 in logbook
+*instrument Set 4
+; Calibration:	At 161d
+;	A - B	216 215 215.5
+;		+08 +09 +08.5
+;	B - A	034 034 034
+;		-09 -08 -08
+;
+; Ref.:	1996 KH survey book pp 179-182
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; CM on RH wall
+*export 9	; foot of tape plumb from Minoan Surprise
+*export 10	; CM on rock at base of How Far to Tooting ?
+
+;From	to	Tape	Compass	Clino 
+*calibrate tape +0.2
+1	2	12.25	032	-33  ; AJD the 062 in the notes _must_ be wrong, 032 guessed
+3	2	 6.90	292	-34
+3	4	 6.93	004	+01
+3	5	 2.52	053	+28
+6	5	20.85	-	down
+7	6	 8.96	171	-73
+8	7	 4.06	202	-31
+8	9	 5.00	306	+06 ; notes say tape is a guess
+10	8	10.60	206	-11 ; notes say 10 to 9, flagged as wrong 96KHp179
+
+; LRUD data for most stations 96KHp179 not yet added
+
+*end pt5
+
+;*begin minoancon
+;*title "Connection to Minoan Surprise"
+;*team Insts Craig Anderson
+;*team Notes Nick Procter
+;*team Pics Nick Procter
+;*team Tape Both
+;*date 1996.7.28 ; - trip 1996-161-67 in logbook
+;*instrument Set 4
+; Calibration:	At 161d
+;	A - B	216 215 215.5
+;		+08 +09 +08.5
+;	B - A	034 034 034
+;		-09 -08 -08
+;
+; Ref.:	1996 KH survey book p 179
+;
+; The plumb on the following survey is the biggest load of bollocks out and
+; completely screws up the loop through chaos, therefore it has been removed.
+; AJD, 4 Aug 96 [ AERW 98.03.25: The plumb appears to be c 15m too big, and
+; there is a considerable horizontal misclosure too. The size and direction
+; of the error suggest that there is a gross error elsewhere - even if the
+; plumb was misheard, the horizontal misclosure couldn't have been caused by
+; it alone... ]
+;
+; ====== stations refindable to link to other surveys: ======
+;
+;*export 1	; 's9' CM rock, between the three Minoan Surprise pitches (probably)
+;*export plumb	; foot of tape plumb from Minoan Surprise
+;
+;*calibrate tape +0.2
+;1	2	4.90	001	-08
+;2	3	8.47	078	-32
+;3	plumb	54.52	-	down
+;*end minoancon
+
+*begin pt6
+
+*title "Interview blues part 6"
+;		Early Retirement, Gravy Train, Mid-Life Crisis to the Daily Grind
+*team Insts Craig Anderson
+*team Notes Nick Procter
+*team Pics Nick Procter
+*team Tape Both
+*date 1996.7.29 ; - trip 1996-161-71 in logbook
+*instrument Set 3
+; Calibration:	At 161d
+;	A - B	214 215 215.5
+;		+07.5 +08 +08
+;	B - A	035 034 034
+;		-08.5 -08 -08
+;
+; Ref.:	1996 KH survey book pp 183-186
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; CM on RH (east) wall on edge of unexplored pitch QM 96-02
+*export 13	; CM RH wall after traverse forward from Volvo facing way to Early Retirement
+*export 27	; CM on left (east) wall of Daily Grind just before head of the End is Nigh
+
+*calibrate clino -0.17
+*calibrate tape  +0.2
+
+;From	to	Tape	Compass	Clino 
+2	1	 3.18	016	-17
+2	3	 3.08	172.5	+30
+3	4	 1.83	201	-52
+4	5	 0.45	-	down
+6	5	 2.06	302	+19
+7	6	 1.18	294.5	-09
+8	7	 1.72	227	-21
+9	8	 3.90	339	+02
+10	9	10.05	011.5	+08
+10	11	 4.90	173	-39
+11	12	 5.55	207	-46
+13	12	 4.38	119	-24
+13	14	 4.00	180	+15
+14	15	 3.55	197	-29
+15	16	 3.06	175.5	+18
+16	17	 2.27	214	+44
+17	18	 2.64	217	-17
+18	19	 3.28	202.5	+01
+19	20	 2.64	239	-13
+20	21	 6.46	140	-13
+22	21	 3.10	020	+44
+22	23	10.85	-	down
+24	23	 8.23	042	+03
+25	24	 3.48	327	-05
+26	25	 3.38	299	+22
+27	26	 1.35	292	+04
+
+; LRUD data for most stations 96KHp183 not yet added
+
+*end pt6
+
+*begin pt7
+
+*title "Interview blues part 7 - top pitch 9 -> bottom pitch 10"
+*team Insts Nick Procter
+*team Notes Brian Outram
+*team Pics Brian Outram
+*team Tape Both
+*date 1996.7.30 ; - trip 1996-161-72 in logbook
+*instrument Set 4
+; Calibration:	At 161d
+;	A - B	215 214 214
+;		+08 +08 +08
+;	B - A	035 034 034
+;		-08 -09 -08
+;
+; Ref.:	1996 KH survey book pp 176-178
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 4	; CM on right wall (outside of bend) opposite head of QM 96-03
+*export 6	; CM on R wall just at entry to chamber. QM 96-10 2m further NE
+*export 9	; CM on choss wall, end of RH branch. QMs 96-04, 96-05 to right
+*export 10	; CM on wall at top of "T"of T-jn, right to QMs 96-06, 96-07, 96-08
+*export 11	; CM SW wall (left branch) just NW of entry to QM 96-09
+*export 21	; CM on left (east) wall of Daily Grind just before head of the End is Nigh
+
+*calibrate clino -0.17
+*calibrate tape  +0.2
+
+;From  to  Tape Compass Clino 
+2	1	 6.50	204	-16
+2	3	 8.10	029	+24
+4	3	 2.40	290	-08
+5	4	 4.97	188	-18
+6	5	 4.25	197	-10
+7	6	 9.90	142	-12   ; notes say  6-7
+8	7	 3.95	359	+03   ; notes say  7-8
+9	7	 8.90	167	-07   ; notes say  7-9
+9	10	 5.25	226	-20   
+11	10	 8.46	337	+05   
+8	11	 2.67	293	-06   
+;12	8	no tape	296	-08
+13	6	 2.50	107	+09   
+14	13	16.80	-	down  ; notes say 13-14 down - obvious bollocks
+15	14	20.75	- 	down  ; clino reading -87, no compass
+16	15	 3.13	262	-54
+16	17	 7.18	332	+12
+17	18	 2.60	340	-09
+19	18	37.00	-	down
+20	19	11.70	-	down
+21	20	 1.00	155	+05
+
+; LRUD data for most stations 96KHp176 not yet added
+
+*end pt7
+*end interview

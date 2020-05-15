@@ -1,0 +1,66 @@
+*begin sovein2
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export 8x 12x 17x z 4
+
+; uncomment the following to make this block compile
+;*include sovein
+;*equate 8x sovein.8
+;*equate 12x sovein.12
+;*equate 17x sovein.17
+
+
+*title "So Vein 2"
+*date 2010.08.12
+*team Insts Becka
+*team Notes Chris Smith
+*instrument Set 6 
+
+; calibrate - maybe see notes in stringtheory.svx
+
+;ref.: 2010#15
+
+*calibrate tape 0.30	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+1	8x	4.75	287	0
+2	1	5.05	207	-20
+3	2	2.07	168	-14
+
+4	12x	11.59	130	+16
+
+5	17x	9.25	148	+06
+6	5	15.55	144.5	+13.5	; station reversed in notes, written 5 to 6
+z	6	2.31	039	+03
+				
+;original LRUD data from notes
+;8x	-	-	0.7	1.6
+;1	0.4	0	1.1	0.4
+;2	0.4	0	0.5	0.5
+;3	0.2	0.4	2.5	0.6
+;12x	-	-	0.5	0.3
+;4	1	0.2	1	0.5
+;5	0	1	0.4	0.4	right unclear
+;6	2.3	0	1.6	1.7
+;6	-	-	1.6	1.7     presumably in a different direction
+
+*data passage station left right up down ignoreall
+8x	-	-	0.7	1.6
+1	0.4	0	1.1	0.4
+2	0.4	0	0.5	0.5
+3	0.2	0.4	2.5	0.6
+
+*data passage station left right up down ignoreall
+12x	-	-	0.5	0.3
+4	1	0.2	1	0.5
+
+*data passage station left right up down ignoreall
+17x     0.3     1.1     0.3	0.4
+5	0	1	0.4	0.4	right unclear
+6	2.3	0	1.6	1.7
+
+
+*end   sovein2

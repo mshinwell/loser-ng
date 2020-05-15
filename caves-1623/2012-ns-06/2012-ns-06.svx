@@ -1,0 +1,17 @@
+*equate p2012-ns-06 2012-ns-06.GPS
+
+
+*begin 2012-ns-06
+
+; *title ""
+*date 2012.08.15
+*team Insts Ian Walker
+*team Notes Noel Snape
+
+*export GPS
+
+*data normal from to tape	compass clino
+
+GPS	1	20	-	down
+
+*end 2012-ns-06

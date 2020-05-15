@@ -1,0 +1,16 @@
+; 2009-01 = affenjagdhoehle
+; 2009-02 = schneehuhnhoehle
+; 2009-03 = headlessgemza
+; 2009-04 = caveft
+
+*entrance p2009-01
+*entrance p2009-02
+*entrance p2009-03
+*entrance p2009-04
+
+;From Martins GPS
+*fix p2009-01 reference 36799 84186 1888
+*fix p2009-02 reference 36836 84239 1872
+*fix p2009-03 reference 36862 84195 1887
+*fix p2009-04 reference 36823 84185 1886
+*fix argecamp reference 36609 84990 1889

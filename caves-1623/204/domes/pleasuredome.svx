@@ -1,0 +1,66 @@
+*begin pleasuredome
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "pleasuredome"
+*date 2000.08.02
+*team Insts Martin Green
+*team Notes Brian Outram
+*team Pics Brian Outram
+*team Tape Martin Green
+*instrument Compass #Set 1 ; Clino #Set 1, Tape Keen
+; Calibration: Compass 311.5    Clino  +6
+;                      311.5           +6
+;                      311.5           +6 
+;					   
+;					   131.5           -7
+;					   131.5           -7.5
+;					   132.0           -7.0
+					     
+; ref.:	2000#18
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0 1 2 3 7
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+0       1   22.41   146     -84
+2       1   9.07    041     -10.5
+2       3   10.92   123     -48
+; compass previously entered as 269, but notes look more like 209 which fits better
+2       4   14.22   209     -23
+5       4   4.17    338     +30.5
+6       5   3.75    340     +21
+7       6   .90     348     -48
+8       7   3.82    271     +62
+8       9   28.6    -		down
+10      9   5.21    282     -7.5
+11      10  8.31    191     -11
+12      9   3.97    161     -39
+13      12  6.64    148     +3
+14      13  5.02    166     +12
+15      14  6.87    209     -26
+16      15  4.75    347     -35   
+
+;station details
+;name	L	R	U	  D	    E	description
+;  1    2   6.4 22.41 0         Paint mark on rock
+;  2	3.5 0   7.0   1.0       Paint mark on rock
+;  3	1	.5	0	  1.0       carbide mark on roof
+;  4	1	0	1	  0.5		Paint mark on right wall
+;  5 	.15	.6	3.5	  0			Paint mark on right wall
+;  6	0 	.5	.6	  lots      Paint mark on left wall
+;  7	3.0	.6	5.0   lots      bolt at pitch head
+;  8	.4  3.0	10.0  lots      Crab on deviation
+;  9	3.5	1.5	lots	0       paint mark on rock on floor
+;  10	3.0	0	lots	1.8		paint mark on on wall
+;  11	.35	0	lots	1.6		paint mark on wall
+;  12	1.8	1.20	  lots		paint mark on rock
+;  13	0	1.5	5.0	  1.5		paint mark on rock
+;  14	1.0	0	105	  7.0		paint mark on left wall
+;  15	0	2.5	2.5	  1.0		paint mark on left wall
+;  16 	.6	36	3.5	  1.5		paint mark on rock in rift
+
+*end pleasuredome

@@ -1,0 +1,82 @@
+*begin pussyprance
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Pussyprance"
+*date 2008.08.03
+*team Insts Jess Stirrups
+*team Notes Kathryn Hopkins
+*team Tape Nial Peters
+*instrument Phil's Pony; Tape a tape
+; Calibration: none whatsoever
+; ref.:	2008 #16
+
+; ====== stations refindable to link to other surveys: ======
+*export 1
+*export 24 26 27 28
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	10.29	204	-70
+2	3	31.23	-	DOWN
+3	4	4.46	323	06
+5	4	5.62	052	29
+6	5	4.95	006	07
+6	7	2.70	293	23
+7	8	3.09	004	-41
+8	9	1.81	045	-13
+9	10	1.97	017	36
+10	30	1.56	071	-04	;changed from 10 11 in notes  originally to 6 to 11 - this is wrong, there is a 11 to 6 leg below. Think that station 11 was originally duplicated, so now 10 to 30
+11	6	1.43	024	14
+11	12	9.76	154	-81
+12	13	3.29	108	04
+13	14	3.23	033	-42
+16	15	7.15	021	-19
+15	11	3.50	001	60
+17	18	9.38	035	-80
+18	19	8.69	094	-59
+19	20	4.1	155	-55
+20	21	9.45	134	-64
+21	22	1.88	050	-37
+23	22	5.67	311	33;reversed 3/4/09
+24	23	1.76	071	01;reversed
+24	25	20.20	325	00
+25	26	3.95	353	-13
+27	24	11.43	037	+22
+27	28	6.73	194	-41
+29	15	2.50	177	-01
+29	17	2.80	248	-70
+
+
+*data passage station	left	right	up	down	ignoreall
+1	1.5	0	1	1	rp rhw station 1 of merry.svx
+2	0.3	0.3	10	-	bottom of boulder above rebelay
+3	1	4	-	0	rock on floor
+4	3	0.5	-	1	boulder lhw
+5	1.5	4	-	0.5	rp boulder floor
+6	0	1.3	2.5	0.5	rp lhw
+7	0	0.2	0.2	-	rp lhw
+8	0	0.4	1	-	rp lhw
+9	0.2	0.2	1	1	boulder
+10	-	-	-	-	-
+11	0.7	0.5	2	4	rp on floor
+12	0.5	0	5	0	rp on floor
+13	0.5	0.5	3	3	rp on floor
+14	3	0.5	2	1	rp on wall
+15	1	0.3	5	0	rp on floor
+16	0.5	0.5	2	0.5	rp on end wall
+17	1	3	5	9.5	rp on floor
+18	0	3	10	4	rp 
+19	0.5	0.5	8	3	rp rhw
+20	0	0.3	3	4	rp lhw
+21	0.5	0	5	3	rp lhw
+22	5	0.5	-	3	rp lhw
+23	0.5	0.5	-	1	rp rock on floor
+24	-	-	-	-	boulder in floor at junction
+25	0	3	0.7	1	rp lhw
+26	3	2	-	2.5	rp on boulder
+29	0.5	0	5	3	rp rhw
+
+
+*end pussyprance

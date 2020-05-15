@@ -1,0 +1,47 @@
+*begin kingcarbide
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "King Carbide"
+*date 2000.07.27
+*team Insts Simon Lee
+*team Notes Simon Flower
+*team Pics Simon Flower
+*team Tape both
+*instrument Compass #4 ; Clino #4, Tape 
+; Calibration: Compass: 90.0; Clino: +10
+; ref.:	2000 #3
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0 10 4
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1		0	13.43	154		-6.95
+2		1	3.38	126.5	+25.5
+3		2	10.64	143.5	-4.5
+3		4	2.72	298.0	-10.5
+4		5	3.94	304.0	-62.0
+5		6	3.90	87.0	-87.0
+7		6	13.55	74.0	+76.5
+7		8	2.20	118.5	-8.0
+9		8	6.12	10.0	+1.0
+7      10  3.48    270     +10.0
+
+;station details
+;name	L	R	U	D	E	description
+;0							Red point: As existing station 'Pretty.1'
+;1							Red point on L wall at head height
+;2							Red point on nose of rock
+;3							Red point ojn ceiling at mouth of chamber
+;4							Red point on boulder in chamber
+;5							red point on nose of rock above pitch
+;6							red point next to first rebelay
+;7							Red point on ledge at bottom of pitch
+;8		0.5	0.5	1.0	0		Red point on floor of side passage
+;9		0.5	0.5	1.0	0		Red point in ridge in ceiling
+;10							Red point next to bolt above pitch. Marked '10'.
+
+*end KingCarbide

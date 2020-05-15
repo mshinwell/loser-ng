@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.0" creator="GPSBabel - http://www.gpsbabel.org" xmlns="http://www.topografix.com/GPX/1/0">
+	<name>Caving-basic.gpx</name>
+	<desc>Expo2018</desc>
+	  <wpt lat="47.699974962" lon="13.826934993">
+    <ele>1932.361084</ele>
+    <name>0 4 GNT PTS CR</name>
+    <cmt>END OF CAIRNED PATH 6-ROCK CAI</cmt>
+    <desc>END OF CAIRNED PATH 6-ROCK CAI</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.702549966" lon="13.832582971">
+    <ele>1880.209961</ele>
+    <name>0 CAMP</name>
+    <cmt>Organhohle camp</cmt>
+    <desc>Organhohle camp</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.682557954" lon="13.812042363">
+    <ele>1683.862061</ele>
+    <name>0 Cave Shelt</name>
+    <cmt>05-JUL-18 14:19:07</cmt>
+    <desc>05-JUL-18 14:19:07</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.677331166" lon="13.806222891">
+    <ele>1683.621826</ele>
+    <name>0 col Ridge</name>
+    <cmt>05-JUL-18 9:04:22</cmt>
+    <desc>05-JUL-18 9:04:22</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.691120990" lon="13.821871988">
+    <ele>1824.453857</ele>
+    <name>0 Fr bd plc in</name>
+    <cmt>0 Far bed place in top camp</cmt>
+    <desc>0 Far bed place in top camp</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.677378943" lon="13.806182994">
+    <ele>1679.536133</ele>
+    <name>0 Lv pth at cl</name>
+    <cmt>0 Leave path at col</cmt>
+    <desc>0 Leave path at col</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.693733964" lon="13.825067924">
+    <ele>1870.116211</ele>
+    <name>0 MEADOW</name>
+    <cmt>0 MEADOW</cmt>
+    <desc>0 MEADOW</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.703375919" lon="13.831385951">
+    <ele>1880.690674</ele>
+    <name>0 O H</name>
+    <cmt>Organhohle</cmt>
+    <desc>Organhohle</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.696338976" lon="13.824149938">
+    <ele>1881.652100</ele>
+    <name>0 PATH SPLIT</name>
+    <cmt>0 PATH SPLIT</cmt>
+    <desc>0 PATH SPLIT</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.684780918" lon="13.814896988">
+    <ele>1739.137451</ele>
+    <name>0 PAVMT</name>
+    <cmt>0 PAVMT</cmt>
+    <desc>0 PAVMT</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.698476948" lon="13.824101994">
+    <ele>1889.102051</ele>
+    <name>0 PEAK ON PATH</name>
+    <cmt>0 PEAK ON PATH</cmt>
+    <desc>0 PEAK ON PATH</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.694841968" lon="13.821048969">
+    <ele>1868.674072</ele>
+    <name>0 TUNNOCK S H</name>
+    <cmt>0 TUNNOCK S H</cmt>
+    <desc>0 TUNNOCK S H</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.692013998" lon="13.822803972">
+    <ele>1859.781982</ele>
+    <name>00 CAVE PIT</name>
+    <cmt>New possible entrance</cmt>
+    <desc>New possible entrance</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.692132937" lon="13.811848992">
+    <ele>1678.815186</ele>
+    <name>009 2017 - GSH</name>
+    <cmt>GSH</cmt>
+    <desc>GSH</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.692474918" lon="13.811688982">
+    <ele>1667.760254</ele>
+    <name>023 2017</name>
+    <cmt>023 2017</cmt>
+    <desc>023 2017</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.691379990" lon="13.812847948">
+    <ele>1696.359375</ele>
+    <name>028 2017 - FGH</name>
+    <cmt>FGH</cmt>
+    <desc>FGH</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.666978929" lon="13.797012940">
+    <ele>1579.559814</ele>
+    <name>063 Fncd pt on</name>
+    <cmt>Fenced pit</cmt>
+    <desc>Fenced pit</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.691745944" lon="13.816123931">
+    <ele>1732.408447</ele>
+    <name>075</name>
+    <cmt>075</cmt>
+    <desc>075</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.691391977" lon="13.812925983">
+    <ele>1697.080322</ele>
+    <name>076</name>
+    <cmt>076</cmt>
+    <desc>076</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.692484977" lon="13.811679929">
+    <ele>1668.000488</ele>
+    <name>077</name>
+    <cmt>077</cmt>
+    <desc>077</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.692568963" lon="13.811900960">
+    <ele>1671.364990</ele>
+    <name>078</name>
+    <cmt>078</cmt>
+    <desc>078</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.692134948" lon="13.809860973">
+    <ele>1687.707520</ele>
+    <name>079 - DLCT BRD</name>
+    <cmt>DELICATE BRIDGE</cmt>
+    <desc>DELICATE BRIDGE</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.692963919" lon="13.808749951">
+    <ele>1677.613525</ele>
+    <name>080</name>
+    <cmt>3 BIG HOLES</cmt>
+    <desc>3 BIG HOLES</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.693074979" lon="13.808323983">
+    <ele>1680.497559</ele>
+    <name>080 2017</name>
+    <cmt>080 2017</cmt>
+    <desc>080 2017</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+	  <wpt lat="47.693091994" lon="13.807567935">
+    <ele>1674.969971</ele>
+    <name>081</name>
+    <cmt>081</cmt>
+    <desc>081</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.698569987" lon="13.823472932">
+    <ele>1883.574707</ele>
+    <name>082</name>
+    <cmt>082</cmt>
+    <desc>082</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.691621976" lon="13.817535946">
+    <ele>1778.791504</ele>
+    <name>082 BAD STEP</name>
+    <cmt>ON PATH</cmt>
+    <desc>ON PATH</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.695398945" lon="13.823162969">
+    <ele>1875.403320</ele>
+    <name>083</name>
+    <cmt>083</cmt>
+    <desc>083</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.692515990" lon="13.823588938">
+    <ele>1876.605225</ele>
+    <name>084</name>
+    <cmt>084</cmt>
+    <desc>084</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.692512972" lon="13.823587932">
+    <ele>1876.605225</ele>
+    <name>085</name>
+    <cmt>085</cmt>
+    <desc>085</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.702555917" lon="13.831876963">
+    <ele>1894.389160</ele>
+    <name>086</name>
+    <cmt>086</cmt>
+    <desc>086</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.702088961" lon="13.832196984">
+    <ele>1876.605225</ele>
+    <name>087</name>
+    <cmt>Guten Morgen Hohle</cmt>
+    <desc>Guten Morgen Hohle</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.701816969" lon="13.828087924">
+    <ele>1929.236816</ele>
+    <name>088</name>
+    <cmt>088</cmt>
+    <desc>088</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.701606918" lon="13.827894973">
+    <ele>1928.515869</ele>
+    <name>089</name>
+    <cmt>089</cmt>
+    <desc>089</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.700919937" lon="13.827238921">
+    <ele>1929.717529</ele>
+    <name>090</name>
+    <cmt>090</cmt>
+    <desc>090</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.699997928" lon="13.825707966">
+    <ele>1897.994141</ele>
+    <name>091</name>
+    <cmt>091</cmt>
+    <desc>091</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.699691989" lon="13.825693969">
+    <ele>1897.513428</ele>
+    <name>092</name>
+    <cmt>092</cmt>
+    <desc>092</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.699251939" lon="13.825491965">
+    <ele>1897.032959</ele>
+    <name>093</name>
+    <cmt>093</cmt>
+    <desc>093</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.699070973" lon="13.825385934">
+    <ele>1895.831299</ele>
+    <name>094</name>
+    <cmt>094</cmt>
+    <desc>094</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.697934974" lon="13.823562954">
+    <ele>1872.759766</ele>
+    <name>095</name>
+    <cmt>095</cmt>
+    <desc>095</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.697010953" lon="13.824074920">
+    <ele>1864.348389</ele>
+    <name>096</name>
+    <cmt>096</cmt>
+    <desc>096</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.667118488" lon="13.809754187">
+    <ele>1466.365723</ele>
+    <name>115y</name>
+    <cmt>18-JUL-18 13:03:04</cmt>
+    <desc>18-JUL-18 13:03:04</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.666984377" lon="13.809750751">
+    <ele>1489.196533</ele>
+    <name>115z</name>
+    <cmt>18-JUL-18 13:14:29</cmt>
+    <desc>18-JUL-18 13:14:29</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.667269865" lon="13.809961723">
+    <ele>1503.135742</ele>
+    <name>414</name>
+    <cmt>18-JUL-18 12:46:59</cmt>
+    <desc>18-JUL-18 12:46:59</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.652557613" lon="13.796190340">
+    <ele>744.420898</ele>
+    <name>ApplHaus jnct</name>
+    <cmt>13-JUL-18 14:56:55</cmt>
+    <desc>13-JUL-18 14:56:55</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.667834135" lon="13.810913572">
+    <ele>1558.170898</ele>
+    <name>Cave88</name>
+    <cmt>18-JUL-18 11:38:08</cmt>
+    <desc>18-JUL-18 11:38:08</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.667433228" lon="13.809445985">
+    <ele>1546.875244</ele>
+    <name>CUCC-ps01-2018</name>
+    <cmt>14-JUL-18 16:01:07</cmt>
+    <desc>14-JUL-18 16:01:07</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.655873075" lon="13.806122141">
+    <ele>817.240234</ele>
+    <name>End of my waik</name>
+    <cmt>13-JUL-18 15:27:35</cmt>
+    <desc>13-JUL-18 15:27:35</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.666842137" lon="13.806034299">
+    <ele>1556.729004</ele>
+    <name>Lookout to AHt</name>
+    <cmt>14-JUL-18 15:26:40</cmt>
+    <desc>14-JUL-18 15:26:40</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.667081021" lon="13.809801713">
+    <ele>1535.099365</ele>
+    <name>p115</name>
+    <cmt>p115</cmt>
+    <desc>p115</desc>
+    <sym>Pin, Green</sym>
+  </wpt>
+	  <wpt lat="47.667078674" lon="13.815604001">
+    <ele>1458.194336</ele>
+    <name>p115b</name>
+    <cmt>p115b</cmt>
+    <desc>p115b</desc>
+    <sym>Pin, Green</sym>
+  </wpt>
+	  <wpt lat="47.667182777" lon="13.809832977">
+    <ele>1544.952637</ele>
+    <name>p115c</name>
+    <cmt>p115c</cmt>
+    <desc>p115c</desc>
+    <sym>Pin, Green</sym>
+  </wpt>
+	  <wpt lat="47.666966943" lon="13.809837252">
+    <ele>1531.975098</ele>
+    <name>p115x</name>
+    <cmt>p115x</cmt>
+    <desc>p115x</desc>
+    <sym>Pin, Red</sym>
+  </wpt>
+	  <wpt lat="47.667499948" lon="13.807882424">
+    <ele>1558.891846</ele>
+    <name>Steej Ujre</name>
+    <cmt>14-JUL-18 15:33:39</cmt>
+    <desc>14-JUL-18 15:33:39</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.667866908" lon="13.810140844">
+    <ele>1563.217773</ele>
+    <name>Stoger W;tp</name>
+    <cmt>14-JUL-18 17:23:39</cmt>
+    <desc>14-JUL-18 17:23:39</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.691077990" lon="13.821605947">
+    <ele>1826.616943</ele>
+    <name>STONE BRIDGE</name>
+    <cmt>STONE BRIDGE</cmt>
+    <desc>STONE BRIDGE</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.668435955" lon="13.816322917">
+    <ele>1547.115723</ele>
+    <name>SW Limit</name>
+    <cmt>18-JUL-18 12:01:13</cmt>
+    <desc>18-JUL-18 12:01:13</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.691531954" lon="13.814256946">
+    <ele>1713.422363</ele>
+    <name>VIW PT</name>
+    <cmt>VIW PT</cmt>
+    <desc>VIW PT</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	  <wpt lat="47.667855090" lon="13.808860425">
+    <ele>1572.350098</ele>
+    <name>Windloch 32</name>
+    <cmt>18-JUL-18 17:04:41</cmt>
+    <desc>18-JUL-18 17:04:41</desc>
+    <sym>Pin, Blue</sym>
+  </wpt>
+	</gpx>

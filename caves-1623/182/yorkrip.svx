@@ -1,0 +1,54 @@
+;1998.06.02 AERW token addition of exports etc.
+
+*begin YorkRip
+
+; Locn:	Main plateau, WNW of Top Camp, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+; Cave:	Puffball & Icing Sugar Cave (1623/182)
+*title "Yorkshire Ripper"
+*date 1991.07.08
+; DL: I deduce this date from the sequential order of surveying trips and
+; a logbook comment about "God that rift is awful!".
+;*team ?
+; Ref.:	?
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	;
+*export 5	;
+*export 18	;
+*export 20	;
+*export 32	;
+
+2       1        4.54   033     +02
+2       3        1.79   292.5   -12.5
+4       3        2.52   151.5   +06
+5       4        2.76   061.5   +06
+5       6        3.04   297     -07
+6       7        3.18   237     +03
+8       7        1.48   154.5   -01.5
+9       8        1.74   078     +15
+10      9        2.93   095     -02
+10      11       1.71   300     -07.5
+11      12       2.41   277     -03
+12      13       2.25   242.5   -20
+13      14       6.18   341     -03
+15      14       2.61   050     -02
+15      16       4.30   281.5   +10
+17      16       4.45   341.5   +01.5
+17      18       5.79   184.5    00
+18      19      10.78   162     +02
+19      20       0.53   119     +22.5
+20      21       3.22    -      Down
+21      22       2.22   147     -04
+22      23       2.70   160     -29
+23      24       1.62   133     -04
+24      25       1.74   179     -18
+25      26       1.99   197      00
+26      27       2.23   120.5   -10
+27      28       2.26   182     -33
+28      29       3.31   118     -37
+29      30       2.03   141     -18
+30      31       4.49    -      Down
+32      31       4.80   347     -09.5
+
+*end YorkRip

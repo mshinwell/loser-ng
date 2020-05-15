@@ -1,0 +1,36 @@
+; All the surface stuff
+
+; This file is not intended to be used on its own.
+; It is to be included by other 'overview files'
+
+*begin
+
+*flags surface
+
+;=============== Plateau things: ===============
+
+*include allplateau
+
+;=============== KH area and up VSK ===============
+
+*include allnrkh
+
+*include allhinter
+
+;=============== 41 area, and all south of VSK ===============
+
+; Arge's 1999 work has now replaced nearly all CUCC's surveys except for
+; the deep stuff, and much improved the overall data quality as a result.
+
+*include allnr41
+*include allnr40
+
+;=============== stonebridge Bivi area ============
+
+; FIXME Commented out by PF as this breaks all.svx
+;*include 258to264
+
+;*include butterfly_to_fish
+
+*end
+

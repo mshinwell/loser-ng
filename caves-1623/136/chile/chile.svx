@@ -1,0 +1,50 @@
+;1999.07.24 JH created for Oatso survey
+;1999.07.26 JH added overrun survey
+;1999.07.27 W added lostinspace survey
+;1999.07.28 AJD added lostinspace part 2 survey
+;1999.07.28 PAH added GRADE 1 end of lostinspace part 2
+;1999.07.30 JAH added BreezeThrough, PitOfDamnation and connecting legs
+;1999.07.30 W added BreezeBlock
+;1999.08.03 Jon added watershoot and leftroute and loosebowels
+;1999.08.06 Simon added carpetworld 
+;1999.08.08 Becka added pebbledash (pebbled1, pebbled2, pebbled3) and left2route
+;1999.08.09 Simon added aven 
+
+*begin chile
+
+*export runnybowels.1
+*export oatso.14
+
+;Linking equates between chile surveys
+
+*equate overshoot.1.1 oatso.3
+*equate overshoot.2.1 lostinspace.1.1
+*equate	oatso.1 windybottom.5
+*equate BreezeBlock.24 overshoot.2.4
+*equate	BreezeThrough.10 overshoot.2.5
+*equate watershoot.1 lostinspace.2.1
+*equate leftroute.8 lostinspace.2.5 
+*equate runnybowels.39 watershoot.13
+*equate carpetworld.8 runnybowels.28
+*equate carpetworld.1 pebbled1.1
+*equate leftroute.1 left2route.1
+*equate watershoot.8 aven.5
+*equate aven.1 aven2.4
+
+; Chile surveys
+*include oatso
+*include ovrshoot
+*include lostspce
+*include windybot
+*include breeze
+*include watershoot
+*include leftroute
+*include runnyb
+*include carpetworld
+*include pebbled
+*include left2route
+*include aven
+*include aven2
+
+*end chile
+

@@ -1,0 +1,38 @@
+*begin left2route
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Kaninchenhöhle, 1623/161 (136)
+*title "left2route"
+*date 1999.08.04
+*team Insts Jon
+*team Notes Earl
+*team Pics Earl
+*team Tape Jon
+*instrument Not known
+; Calibration:	N/A
+; ref.:	1999 KH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+
+*calibrate tape -0.22	; Er - this was not noted but it was one of the encased tapes; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	8.61	255	-15.5
+2	3	7.94	117	-43
+4	3	1.11	125.5	+9.5
+4	5	14.64	194	-48
+5	6	7.00	284	-12	; Grade 1 survey for some reason
+7	3	3.79	191	-17
+8	7	11.69	114	+36
+9	8	8.45	61	+27.5
+9	10	8.55	94.5	-6.5
+
+	
+;station details
+;name	L	R	U	D	description
+;1					red number 1, top of boulder at foot of pitch, same as station1 of leftroute survey by Becka and Simon
+;2	we've left the rest for Earl to fill in as we don't understand them!	
+
+*end left2route

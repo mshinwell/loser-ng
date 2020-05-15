@@ -1,0 +1,32 @@
+*begin bullet3
+*export p p13
+
+*title "Bullet secound hoehle"
+*date 2013.08.05
+*team Insts Alex Crow
+*team Notes Martin Green
+
+; notes in 2013#09
+
+;tape yellow real 40cm short
+;compass 9
+;clino 4
+
+;bridge verification
+;326 (first reading was 320 initially) -22; 148 +23
+
+*calibrate tape +0.40
+
+*data normal from to tape	compass clino
+15	16	28.10	035	-80
+14	15	11.06	093	-44
+p13	14	4.80	124	-30
+16	p	3.60	-	down
+
+*data passage station left right up down ignoreall
+15	0.4	4.5	2.5	-	Pitch head L bolt Y hang knot
+16	-	-	-	-	Y hang knot
+14	3.5	1.8	6.0	1.3	Paint RH floor near pitch
+p13	-	-	-	-	first days survey 
+
+*end bullet3

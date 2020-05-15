@@ -1,0 +1,32 @@
+
+*begin 2007-neu
+
+;Moved to fixepts/misc.svx
+;*fix 1 35865	81341	1680
+
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Nachbarschacht vom Grießkogel
+*date 2007.07.08
+; Messteam: 
+; Zeichner: 
+
+; Gerät: 
+
+; Referenz: 
+
+; ====== Messpunkte, die an bereits bestehenden Vermessungen hängen: ======
+
+*export 1
+*entrance 1
+
+*data normal from to length clino compass ignoreall
+
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+1	2	20	-90	0
+
+
+*data passage station left right up down ignoreall
+1	4	4	0	0
+2	4	4	0	0
+
+*end 2007-neu

@@ -1,0 +1,15 @@
+*begin
+*cs long-lat
+;default to UTM33 output
+*cs out UTM33
+*fix fbmap_zinken reference 13.793389 47.676000 1899
+*fix fbmap_blaa-alm reference 13.744417 47.675472 902
+*fix fbmap_ischler-hutte reference 13.760833 47.700167 1369
+*fix fbmap_schonberg reference 13.793833 47.712972 2093
+*fix fbmap_dachstein reference 13.606389 47.475278 2995
+*fix fbmap_vord-smk reference 13.815278 47.666667 1353
+*fix fbmap_hinter-smk reference 13.833056 47.683333 1409
+*fix fbmap_loser reference 13.771111 47.660833 1837
+*fix fbmap_tresselwand reference 13.813333 47.646111 1754
+*fix fbmap_tresstein reference 13.789167 47.626667 1201
+*end

@@ -1,0 +1,50 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Tony's Second Höhle 1623/144
+
+*begin me2
+*title "Meander Abzweig"
+
+*export 35	; Meander.7_16_35
+
+; -1-
+; Messteam: Aiko Schütz, Stefan Mark, Thomas Holder
+; Zeichner: Stefan Mark
+; Referenz: SMK 8
+*date 2012.08.17
+
+*data normal from to length compass clino
+35	36	4.22	289	-50
+36	37	6.19	212	29
+37	38	5.70	318	-35
+38	39	1.82	235	-35
+39	40	6.04	217	9
+40	41	3.64	232	6
+41	42	8.31	301	-3
+42	43	11.81	290	3
+43	44	7.76	276	2
+44	45	4.40	4	1
+45	46	4.61	46	-13.5
+46	47	3.31	17	23
+47	48	13.00	-	DOWN
+48	49	5.80	286	18
+49	50	4.97	315	-40
+
+*data passage station left right up down
+35	0.3	0.3	3.5	3
+36	4	0	4	3
+37	2	2	2	1.5
+38	0.5	0	3.5	3
+39	0.2	0.5	3	2
+40	0	0.5	1.5	2
+41	0.5	0.8	4	1
+42	0.5	0.1	2	4
+43	0.6	0	0.6	0.5
+44	0.4	4	0	0.5
+45	2	0.4	0.5	1.5
+46	0.6	0	2.5	1.5
+47	0.2	0.4	0	-
+48	-	-	-	-
+49	0	0.8	0.3	3
+50	0.6	0	6	2
+
+*end me2

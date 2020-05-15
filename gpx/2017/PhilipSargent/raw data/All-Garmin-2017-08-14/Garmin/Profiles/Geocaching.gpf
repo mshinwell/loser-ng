@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><Profile><Settings>
+<BacklightTimeout>15</BacklightTimeout>
+<BatterySave>0</BatterySave>
+<MainMenu>
+  <MmItem>3</MmItem>
+  <MmItem>1</MmItem>
+  <MmItem>4</MmItem>
+  <MmItem>5</MmItem>
+  <MmItem>9</MmItem>
+  <MmItem>7</MmItem>
+  <MmItem>0</MmItem>
+  <MmItem>8</MmItem>
+  <MmItem>15</MmItem>
+  <MmItem>12</MmItem>
+  <MmItem>20</MmItem>
+  <MmItem>10</MmItem>
+  <MmItem>17</MmItem>
+  <MmItem>16</MmItem>
+  <MmItem>18</MmItem>
+  <MmItem>21</MmItem>
+  <MmItem>13</MmItem>
+  <MmItem>14</MmItem>
+  <MmItem>2</MmItem>
+  <MmItem>11</MmItem>
+  <MmItem>22</MmItem>
+  <MmItem>23</MmItem>
+</MainMenu>
+<MapOrientation>1</MapOrientation>
+<AutoZoom>1</AutoZoom>
+<GoToLine>0</GoToLine>
+<WaypointsZoom>1</WaypointsZoom>
+<WaypointsText>0</WaypointsText>
+<TrackLog>1</TrackLog>
+<TrackRecordMethod>2</TrackRecordMethod>
+<TrackInterval>25.000000</TrackInterval>
+<AnchorDrag>0</AnchorDrag>
+<AnchorDragDist>0.000000</AnchorDragDist>
+<OffCourse>0</OffCourse>
+<OffCourseDist>500.000000</OffCourseDist>
+<TimeFormat>1</TimeFormat>
+<DstMode>0</DstMode>
+<OtherTimeZone>0</OtherTimeZone>
+<TimeZone>28</TimeZone>
+<DistanceUnits>10</DistanceUnits>
+<ElevationUnits>30</ElevationUnits>
+<DepthUnits>7</DepthUnits>
+<HeadingDisplay>51</HeadingDisplay>
+<NorthReference>17</NorthReference>
+<MapShowDataFields>4</MapShowDataFields>
+<MapShowDataFieldsNav>4</MapShowDataFieldsNav>
+<MapDataField1>13</MapDataField1>
+<MapDataField2>16</MapDataField2>
+<MapDataField3>12</MapDataField3>
+<MapDataField4>23</MapDataField4>
+<CmpDataField1>13</CmpDataField1>
+<CmpDataField2>5</CmpDataField2>
+<CmpDataField3>10</CmpDataField3>
+<CmpDataField4>7</CmpDataField4>
+<TrpWdgtType>2</TrpWdgtType>
+<CmpWdgtType>4</CmpWdgtType>
+<MapNavWdgtType>6</MapNavWdgtType>
+<MapNoNavWdgtType>6</MapNoNavWdgtType>
+<TrpCnfgField1>13</TrpCnfgField1>
+<TrpCnfgField2>19</TrpCnfgField2>
+<TrpCnfgField3>24</TrpCnfgField3>
+<TrpCnfgField4>20</TrpCnfgField4>
+<TrpCnfgField5>25</TrpCnfgField5>
+<TrpCnfgField6>21</TrpCnfgField6>
+<TrpBigCnfgMode>0</TrpBigCnfgMode>
+<TrpBigCnfgField1>13</TrpBigCnfgField1>
+<TrpBigCnfgField2>24</TrpBigCnfgField2>
+<TrpWdgtBigCnfgField>23</TrpWdgtBigCnfgField>
+<TrpWdgtSmlCnfgField1>12</TrpWdgtSmlCnfgField1>
+<TrpWdgtSmlCnfgField2>23</TrpWdgtSmlCnfgField2>
+<TrpWdgtSmlCnfgField3>5</TrpWdgtSmlCnfgField3>
+<TrpWdgtSmlCnfgField4>10</TrpWdgtSmlCnfgField4>
+<UGridCat>0</UGridCat>
+<UGridSubCat>0</UGridSubCat>
+<UGridFE>1000000.000000</UGridFE>
+<UGridFN>100000.000000</UGridFN>
+<UGridK0>0.999600</UGridK0>
+<UGridLono>-1.658063</UGridLono>
+<UGridFld7>0.000000</UGridFld7>
+<UGridFld8>0.000000</UGridFld8>
+<UGridFld9>0.000000</UGridFld9>
+<UGridLatPt2>0.000000</UGridLatPt2>
+<UGridLonPt2>0.000000</UGridLonPt2>
+<UDatumDF>0.000000</UDatumDF>
+<UDatumDA>0.000000</UDatumDA>
+<UDatumDX>0.000000</UDatumDX>
+<UDatumDY>0.000000</UDatumDY>
+<UDatumDZ>0.000000</UDatumDZ>
+<PosnFormat>1</PosnFormat>
+<DatumIdx>108</DatumIdx>
+<SpheroidIdx>18</SpheroidIdx>
+<SymbolGroup>0</SymbolGroup>
+</Settings></Profile>

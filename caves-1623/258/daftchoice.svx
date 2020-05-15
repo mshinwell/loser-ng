@@ -1,0 +1,146 @@
+*begin daftchoice
+
+; stations linked into other surveys (or likely to)
+*export 26 31 38 40 
+
+; Cave:Tunnocks
+; Area in cave/QM: Champagne on Ice
+*title "daftchoice"
+*date 2016.07.02
+*team Insts Andrew Atkinson 
+*team Notes Luke Stangroom
+*team Points Becka Lawson 
+*instrument  Beckas DistoX 2
+; Calibration: UK 
+*ref 2016#06
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+2 1 2.80 351 +35 
+2 3 6.90 022 +32
+1 4 3.25 326 +24.5
+4 5 2.81 343 +10 
+5 6 3.35 109 +23 
+5 7 6.11 300 -20
+7 8 4.61 321 -13.7 
+8 9 5.54 266 -29.3 
+9 10 3.16 346 -3.2 
+10 11 4.78 0 -40.6
+10 12 13.76 275 -27.8 
+12 13 9.88 336 -11.6 
+13 14 9.77 344 -0.2
+14 15 5.85 345 +9.8
+15 16 9.98 354 -2.3 
+16 17 10.11 335 +3.0
+17 18 8.39 009 +6.7
+18 19 7.37 318 +11.7 
+19 20 7.31 212 -37.8; changed distance and compass baced distox downloAD  
+21 19 2.91 246 -32.6; changed distance bassed distox downloAD 
+21 22 4.18 032 -17.5
+22 23 9.11 062 +1
+23 24 9.89 064 +10.2
+24 25 5.78 068 -10.6
+26 23 4.98 066 -44.2
+27 26 5.53 075 -21.2 
+27 28 6.98 007 +20.2 
+28 29 7.57 294 -15.2; change clino from postive to negative based on disto 
+29 30 8.60 346 -0.3 
+30 31 7.18 299 -2.0
+; 31 32 5.65 060 +9.3	redundant - leg replaced by daftchoice3 survey
+31 33 2.21 195 -8.3
+33 34 5.33 333.3 -12.7
+34 35 5.11 314 -22.9
+35 36 1.64 344 +27.8
+36 37 6.49 264 +25.2
+37 38 4.94 344 +44.5
+39 2 12.09 029 +11.4
+39 40 9.38 199 -17.2
+
+*data passage station left right up down
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+40	-	-	-	-	; old station numbered zero on lw
+39	2.1	0.5	2.8	5	; mid bolted traverse 
+2 0.8 0 3 1.2 ; Rp RHW window on to pitch
+1 0.7 0.7 0.55 2 ; RP window 
+4 0.3 1.3 1 0.4 ; RPLW
+5 0.4 0.5 0.3 0.3; RP LW
+7 0 0.7 0.2 0.4 ;RP LW
+8 1.2 0 0.1 0.4 ; RP RW
+9 0 1.2 0.8 0.4 ; LW numbered at junction
+10 1.3 0 0.3 0.5 ; RP
+12 0.8 2 1.3 0.1 ; temp station on floor
+13 1.5 1.3 0.6 0.1 ;RP on floor
+14 2 2.5 0.4 0.5 ; RP large boulder 
+15 1.2 3.5 0.2 0.7; RP LW ceiling 
+16 2.2 1.2 0.7 0.3 ; temp station on floor 
+17  0 3.5 0.4 0.4 ; number 17 on LW
+18 1.8 2.3 1.2 1 ; temp station floor at junction
+19 -	-	2.5	2.2	; numbered 19 at 3 way jn
+21	0.5	0	2	1	;	
+22	0.5	2.5	1.3	1.2	; lw chamber
+23	1.5	0.4	2	0.5	; rp  on floor
+24	1	0.5	8.5	1.5	;	numbered l side
+25	0.5	0	1.2	1.2	; rp rw numbered
+*data passage station left right up down
+23	1.5	0.4	2	0.5	; rp  on floor
+26	-	-	-	-
+27	0	1.8	1	0.8	; lw
+28	1.3	0.3	1	3	; rw start tube
+29	0.1	1.2	0.4	1.4	; lw
+30	1.6	0	0.6	0.5	; rw
+31	0	3	0.5	0.5	; numnbered t jn
+33	0	1	0.6	0.6	; lw
+34	0.8	0.5	0.6	1	; rw
+35	0	1	1.2	0.2	; lw
+36	1.1	1.8	0.5	0.8	; rw
+37	0	4	1.2	3	; lw
+38	2.5	0	5.5	1.5	; rw
+
+*data passage station left right up down
+2 0.8 0 3 1.2 ; Rp RHW window on to pitch
+3 0 0.6 3 1.2 ; 
+
+*data passage station left right up down
+5 0.4 0.5 0.3 0.3; RP LW
+6 0.5 1 3 0.5 ; virtual station
+
+*data passage station left right up down
+10 1.3 0 0.3 0.5 ; RP
+11 0 1 - -; leg down pitch
+
+*data passage station left right up down
+19 -	-	2.5	2.2	; numbered 19 at 3 way jn
+20	-	-	-	-	;	
+
+*data passage station left right up down
+31	0	3	0.5	0.5	; numnbered t jn
+; 32	0.5	1.3	1	0	; leg up into t jn (into lead) - redundant - leg replaced by daftchoice3 survey
+
+;-----------
+;Question Mark List
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1	C	daftchoice.3	-  small
+;QM2	C	daftchoice.6	-  small
+;QM3	C	daftchoice.9	-  small
+;QM4	C	daftchoice.11	-  small p3 down
+;QM5	C	daftchoice.29	-  small
+;QM6	B	daftchoice.31	daftchoice3.10  right at the dead bat
+;QM7	A	daftchoice.38	wrongway.4  left at the end
+;QM8	B	daftchoice.38	daftchoice.38  right at the end [AD: shown on Tunnel survey as resolved to 2 x C leads (13 and 14)]
+;QM9	B	daftchoice.25	-  climb into ceiling at end of passage after pitch traverse
+;QM10	A	daftchoice.23	daftchoice2.1  passage continues other side of pitch traverse
+;QM11	X	daftchoice.19	-  avenb climb, drippy
+;QM12	B	daftchoice.20	-  where the aven water goes
+;QM13   C   daftchoice.38   -   AD: Right at end, C lead on Tunnel survey
+;QM14   C   daftchoice.38   -   AD: Right at end, C lead on Tunnel survey
+
+
+;------------
+;Cave description
+;some cave
+
+*end daftchoice

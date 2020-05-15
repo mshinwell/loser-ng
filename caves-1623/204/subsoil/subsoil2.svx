@@ -1,0 +1,96 @@
+*begin subsoil2
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "subsoil2"
+; Includes Heavily Soiled, most of Earthenware, and Stoneware. -- DL
+*date 2004.07.27
+*team Insts Becka Lawson
+*team Notes Earl Merson
+*team Tape Earl Merson
+
+*instrument set 4
+
+; ref 2004 # 26
+
+
+; ====== stations refindable to link to other surveys: ======
+
+*export p15 p1 p16 7 23 20 15
+
+*calibrate tape +0.40	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	comp	clino
+p15	1	10.01	271	-25
+p16	2	5.21	284	-31
+3	2	10.10	232	-47
+p1	3	10.89	292	-47
+4	3	9.16	207	-29
+5	4	5.79	108	-20
+5	6	9.50	004	+27
+7	6	8.38	252	-23
+7	8	7.00	004	+23
+8	9	3.40	304	-24
+10	9	7.08	204	-37
+10	11	4.87	356	+13
+11	12	0.50	228	0	; measured at 0.1 but uncalibrated on entry
+13	12	2.80	-	down
+14	13	7.78	197	-49
+14	15	9.47	008	+27
+p15	16	9.08	291	+25
+17	16	20.04	173	-02
+17	18	9.55	342	+03
+19	18	10.19	170	-10
+19	20	16.90	344	0
+21	20	22.55	172	-11
+21	22	9.53	003	+10
+23	22	11.01	156	-06
+23	24	9.53	220	-31
+25	24	17.63	142	+15
+25	26	4.31	258	-33
+27	26	5.48	155	+08
+28	27	5.07	044	+39
+28	29	8.20	259	-44
+30	29	5.06	004	-06
+31	30	8.38	319	-19
+
+
+
+;station details
+;stn	L	R	U	D	desc
+;p15					point 15 in subsoil
+;p1					point 1 in subsoil
+;1	1.7	0.5	5	1.3	RP 1 on pendant at entrance QM-A
+;2	2	5	4.5	1	RP 2 on rock in centre of passage
+;3	1	3	4	1.5	RP 3 on boulder
+;4	3.5	3	10	2	RP + scratched 4 on RH wall by QM-A
+;5	0	3	6	2.5	RP 5 on LH wall
+;6	0.5	4	4	1.3	RP 6 on pendant on LH wall
+;7	2	3	5	1	RP on top of boulder in passage
+;8	2	0.3	3	1	RP on RH low nobble
+;9	0	2	3	1.2	RP on LH wall
+;10	2.5	1.5	6	2	RP 10 on RH wall
+;11	0.5	0.4	5	0.9	RP on boulder in choke
+;12					hanging point
+;13	0.5	4	5	1	RP on LH wall
+;14					RP on boulder in passage
+;15					RP 15 on floor in chamber
+;16	0.6	3	1.5	1	RP on LH roof
+;17	1	4	3	1.7	tip of rock on roof
+;18	4	5	3.5	2	tip of stall on ceiling
+;19					RP 19 on roof pendant
+;20	2.5	8	5	1	RP 20 on boulder at crossroads
+;21	3	2	2.5	0.5	RP 21 on boulder
+;22	1.5	4	1.8	1.6	RP on right wall
+;23	2.5	0	1.5	1.5	RP on right wall
+;24	1	3.5	2	2	RP on flake on left wall
+;25	0.9	0.4	0.3	1.2	RP on roof
+;26	0	1	1	1.5	RP left wall corner
+;27	2.2	0.3	1	1	RP right wall corner
+;28	0.6	0.2	0.7	0.7	RP right wall
+;29	0.9	0	2.5	0.4	RP right wall near floor
+;30	1.5	0.4	5	1.5	RP 30 on tip of boulder
+;31	0	0.8	5	2	RP on left wall
+
+*end subsoil2
+

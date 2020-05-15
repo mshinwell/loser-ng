@@ -1,0 +1,41 @@
+;Eislufthoehle 1623/76
+
+*begin tap2
+
+*title "From the Tap Room"
+*date 2005.07.27
+*team Insts Jenny Black
+*team Notes Dave Loeffler
+*team Tape Jenny Black
+*instrument Compass+Clino+Disto Ol+Jenny
+; notes in 2005#08
+
+*export 1 7
+
+1       2       8.280   266     +10
+3       2       7.314   080     +01
+3       4       4.494   237     -28
+5       4       16.267  122     +60.5
+6       7       1.714   314     +32
+6a      5       35      075     +82 ; notes have ~35 for disto
+
+*end tap2
+
+*begin razoradvance
+
+*title "Razor Advance"
+*date 2005.07.27
+*team Insts Jenny Black
+*team Notes Dave Loeffler
+*team Tape Jenny Black
+*instrument Compass+Clino+Disto Ol+Jenny
+; notes in  2005#08
+
+*export 1 2 5
+
+2       1       2.546   222     +01
+2       3       6.637   068     +02.5
+3       4       3.704   058     -08
+4       5       3.976   128     -37
+
+*end razoradvance

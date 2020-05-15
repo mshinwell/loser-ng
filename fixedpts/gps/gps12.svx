@@ -1,0 +1,120 @@
+*begin
+
+*cs LONG-LAT
+; From Olly Betts' GPS, taken by Olly Betts (Lat-long, WGS84)
+; Needs converting to Austrian grid
+*entrance p99ob01
+*fix p99ob01 reference 013.80733 47.68286 1641
+
+*end
+
+; From Olaf Kaehler's Garmin ETREX 30 GPS, taken by Hannah Walker (Lat-long, WGS84)
+*entrance p2012-hw-01
+*fix p2012-hw-01 reference 36787.16 84086.81 1902 ;wgs84 N 47' 41.665 E 013' 49.359  Elevation 1902 m
+
+*entrance p2012-hw-02
+*fix p2012-hw-02 reference 36774.07 84179.38 1873 ;wgs84 N 47' 41.715 E 013' 49.349  Elevation 1873 m
+
+; From Olaf Kaehler's Garmin ETREX 30 GPS, taken by Olaf Kaehler
+*entrance p2012-ok-01
+*fix p2012-ok-01 reference 36993.94 84607.41 1893 ;utm 33 T 0411876 5283524 1893
+
+; From Olaf Kaehler's Garmin ETREX 30 GPS, taken by Olaf Kaehler
+*entrance p2012-ok-02
+*fix p2012-ok-02 reference 37020.31 84684.02 1898 ;utm 33 T 0411904 5283600 1898
+
+; From Olaf Kaehler's Garmin ETREX 30 GPS, taken by Olaf Kaehler
+*entrance p2012-ok-03
+*fix p2012-ok-03 reference 37440.01 85081.25 1879 ;utm 33 T 0412332 5283988 1879
+
+; From Noel's GPS, taken by Noel Snape UTM, WGS84
+;*entrance p2012-ns-01
+;*fix p2012-ns-01 reference 36636.53 84337.58 1815 ;utm 33 T 0411513 5283262 1815
+; replaced Aug 2013 by surface survey by Alex and Matt to Ants in Your Pants cave tag
+
+*entrance p2012-ns-02
+*fix p2012-ns-02 reference 36718.24 84539.45 1876 ;utm 33 T 0411599 5283462 1876
+
+*entrance p2012-ns-03
+*fix p2012-ns-03 reference 36702.38 84579.13 1875 ;utm 33 T 0411584 5283502 1875
+
+*entrance p2012-ns-04
+*fix p2012-ns-04 reference 36745.25 84633.08 1810.20 ;utm 33 T 0411628 5283555 1857
+
+*entrance p2012-ns-05
+*fix p2012-ns-05 reference 36750.62 84663.23 1867 ; utm 33 T 0411634 5283585 1867
+
+*entrance p2012-ns-06
+*fix p2012-ns-06 reference 36759.32 84677.42 1870 ; utm 33 T 0411643 5283599 1870
+
+*entrance p2012-ns-07
+*fix p2012-ns-07 reference 36770.33 84723.69 1876 ; utm 33 T 0411655 5283645 1876
+
+*entrance p2012-ns-08
+*fix p2012-ns-08 reference 36751.45 84764.30 1882 ; utm 33 T 0411637 5283686 1882
+
+*entrance p2012-ns-09
+*fix p2012-ns-09 reference 36740.02 84784.07 1888 ; utm 33 T 0411626 5283706 1888
+
+*entrance p2012-ns-10
+*fix p2012-ns-10 reference 36668.67 84798.54 1863 ; utm 33 T 0411555 5283722 1863
+
+*entrance p2012-ns-11
+*fix p2012-ns-11 reference 36628.36 84718.64 1877 ; utm 33 T 0411513 5283643 1877
+
+*entrance p2012-ns-12
+*fix p2012-ns-12 reference 36680.89 84834.83 1879 ; utm 33 T 0411568 5283758 1879
+
+*entrance p2012-ns-13
+*fix p2012-ns-13 reference 36770.42 84486.56 1885; utm 33 T 0411650 5283408 1885
+
+*entrance p2012-ns-14
+*fix p2012-ns-14 reference 36881.82 84563.99 1888; utm 33 T 0411763 5283483 1888
+
+*entrance p2012-ns-15
+*fix p2012-ns-15 reference 36735.12 84592.86 1875 ; utm 33 T 0411617 5283515 1875
+
+
+; From Martin Green's Garmin ETREX Venture Cx, taken by Duncan Collis
+*entrance p2012-dd-01
+*fix p2012-dd-01 reference 36861 84612 1889 ;utm 33 T 0411745 5283532 1889
+
+*entrance p2012-dd-02
+*fix p2012-dd-02 reference 36876 84614 1879 ;utm 33 T 0411760 5283533 1879
+
+*entrance p2012-dd-03
+*fix p2012-dd-03 reference 36884 84650 1879 ;utm 33 T 0411768 5283569 1879
+
+*entrance p2012-dd-04
+*fix p2012-dd-04 reference 37211 84687 1957 ;utm 33 T 0412096 5283599 1957
+
+; This fix superseded by 2016 fix and underground survey
+;*entrance p2012-dd-05
+;*fix p2012-dd-05 reference 37495 85029 1894 ;utm 33 T 0412387 5283935 1894
+
+*entrance p2012-dd-06
+*fix p2012-dd-06 reference 37565 84809 1881 ;utm 33 T 0412452 5283714 1881
+
+*entrance p2012-dd-07
+*fix p2012-dd-07 reference 37627 84716 1884 ;utm 33 T 0412512 5283619 1884
+
+*entrance p2012-dd-08
+*fix p2012-dd-08 reference 37662 84643 1902 ;utm 33 T 0412545 5283546 1902
+
+*entrance p2012-dd-09
+*fix p2012-dd-09 reference 37559 84645 1927 ;utm 33 T 0412443 5283550 1927
+
+*entrance p2012-dd-10
+*fix p2012-dd-10 reference 37735 84696 1886 ;utm 33 T 0412620 5283596 1886
+
+*entrance p2012-dd-11
+*fix p2012-dd-11 reference 37852 84696 1831 ;utm 33 T 0412737 5283594 1831
+
+*begin
+*CS UTM33
+
+*entrance p2012-js-1
+; Recorded: "WGS84 33T 0411320,5282745 elev 1762" wallet ref: 2012#13
+*fix p2012-js-1 reference 0411320 5282745 1762
+
+*end

@@ -1,0 +1,87 @@
+;1998.04.03 AERW Added comments, refs, exports
+
+*begin surfnr161
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Caves:	1623/162, 1623/163 (Surface)
+*title "Linking 163 via 162 to vd1"
+*date 1990.07.28 
+*team Notes Wookey
+*instrument Dave Fearon
+; Calibration:	(at 161)
+; 	clino 726974 -18.2, +16.5
+; compass 543693 cairn: 16     Brauning Zinken: 250
+; compass 721899				250.25
+; compass 949847				250.5
+; ref: 1990 survey book pp 59,61
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; top left point of slab inscribed "163 CUCC '88"
+*export 162	; centre of "+" of "+ '88 CUCC"
+*export 24	; cairn next to VD1
+*export 25
+
+*calibrate clino -0.85
+
+1	2	 5.38	025	+70
+2	3	12.83	025	+03
+4	3	23.99	197	+09
+4	5	29.6	332	-04.5
+6	5	19.03	157	-27.5
+6	7	28.98	331	+10
+8	7	26.24	234	-20
+9	8	27.69	204	-06
+9	10	29.25	021.5	-02
+10	11	28.14	010	-09
+11	162	 9.99	244	+01.5
+11	12	29.48	017	-10.5
+13	12	16.31	196.5	-05
+13	14	22.04	331.5	-03.5
+15	14	23.15	183	-02.5
+15	16	28.54	323	-12.5
+17	16	23.64	120	-20.5
+17	18	24.63	342	-01.5
+19	18	28.94	106	-03.5
+20	19	22.38	094.5	-13.5
+21	20	29.75	102	-01.5
+21	22	20.99	242.5	+15.5
+23	22	18.34	158	-22.5
+24	23	18.14	136.5	-01.5
+24	25	 1.65	046	-11.5
+
+; notes added AERW 1998.01.23
+; stn. 2-16 are points along cairned path around VSK
+; stn. 18-22 are in gully leading to VD1
+; stn. 23 is high on right of gully
+
+*end surfnr161
+
+*begin 163conn
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "163 connection"
+*date 2000.08.11
+*team Insts Andy A
+*team Notes Wook
+*team Pics Wook
+*team Tape Andy A
+*instrument Compass #3 ; Clino #3, Tape ?
+; Calibration: Lower TC: 308/+07   128/-07
+; ref.:	2000 #35
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 2
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	3.69	072	+10.75
+
+;station details
+;name	E	description
+;1	0.3	tip of rock marked '163 CUCC + 88'
+;2	2.2	163 tag bolt '1988 1623/163'
+
+*end 163conn

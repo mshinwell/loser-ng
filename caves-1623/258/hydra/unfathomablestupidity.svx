@@ -1,0 +1,49 @@
+*begin unfathomablestupidity
+
+; stations linked into other surveys (or likely to)
+*export x1
+
+; Cave: 258
+; Area in cave/QM: Hydra 
+*title "Unfathomable Stupidity"
+*date 2017.08.08
+*team Insts Mike Butcher George Breley
+*team Notes Rachel Turnbull
+*instrument ULSA1 DistoX
+*ref 2017#45
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+x1	1	2.83	174	+08		;x1 from Bahamas Tunnel survey station 1
+1	2	2.73	060	0
+2	3	4.00	060	-90
+3	4	20.00	060	0
+4	5	9.00	060	-90
+
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	1	2	5	1.5
+2	0.2	0.2	1	4
+3	0.2	1.2	1	9
+4	0.5	1	10	9
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    C    unfathomablestupidity.4    -    strong draft and sound of rushing water coming from aven at the end of the meander, possibly worth bolt climbing but looks too tight.
+
+;------------
+;Cave description
+; drafting rift at the base of Gryke of the Earth opposite the sloping continuation down. Very tight body sized rift can be squeezed for approx 20m to a 1.5m wide climbe down. Rift doubles back at base but too tight to follow far. Survey Grade 1, rift orientation measered by disto, but insufficient time survey legs, so lengths estimated from body lengths. 
+
+*end unfathomablestupidity

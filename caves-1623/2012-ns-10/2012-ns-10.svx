@@ -1,0 +1,38 @@
+*equate p2012-ns-10 2012-ns-10.GPS
+
+
+*begin 2012-ns-10
+
+; *title "Kleine Baum Hohle"
+*date 2012.08.16
+*team Insts Hannah Walker
+*team Notes Noel Snape
+
+*export GPS
+
+*entrance 1
+
+*data normal from to tape	compass clino
+
+*flags surface
+GPS	1	6.09	201.5	-48
+
+*flags not surface
+
+1	2	11.99	196	-37.1
+2	3	6.09	259.4	-8.6
+3	4	1.99	159.3	1.3
+4	5	6.04	164.4	40
+
+*data passage station left right up down ignoreall
+
+;stn	L	R	U	D	Desc
+
+1	1.2	2.1	1.6	0.5
+2	0	2.5	0.8	0.7	LRUDs rotated as if leg was reversed
+3	1.9	3.4	0.3	0.8
+4	0	0.6	1.7	1.1
+5	0	0	3	1.5	End of tightening rift
+
+
+*end 2012-ns-10

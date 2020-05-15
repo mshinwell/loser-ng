@@ -1,0 +1,79 @@
+;1998.02.27 AERW sorted begin/end, added refs, comments, export
+;1998.04.01 AERW added export. Moved vestaconn to Notwhat.svx
+
+*begin nightsoil
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Other way from bottom of Driller Killer (& back!)"
+*date 1994.07.16 ; trip 1994-161-9 in 1994 logbook
+*team Inst Mike TA
+*team Tape Bob Bloodworth
+*team Notes Andrew A
+*instrument Compass set 3, 512133, Clino 348123
+; Calibration:	1->2 237,   -10
+;		2->1 055.5, +07.5
+;		1->VSW 255, +01.5
+
+*export 1	; carbide mark, right wall, supposedly same place as notwhat.29
+; but originally down as notwhat.28. sketch makes it look as if it is on
+; same wall as notwhat.29, but further south, maybe opposite notwhat.28 ?
+*export 13	; carbide mark RH (E) wall in Doll Killer passage, just before
+		; entry to Doubting Thomas
+*export 21	; carbide mark overhanging flake, North end of Dreaming of
+		; Limo chamber
+*export 25	; carbide mark, left hand wall, by entry to QM 94-39
+*export 38	; "end hole" QM 94-40
+
+;*export ; several other points lie close to QMs, though it's not clear how
+; many can be reliably found: 3, 7, 15, 17, 22 would seem closest
+
+*calibrate clino -1.25
+; ref.:	1994 survey book pp 184-191
+; from to tape compass clino
+
+1       2       10.77   277.5   -11.5
+3       2        4.26   157.5   +13.5
+3       4        3.22   229.5   +01
+5       4        6.48   126     +13
+5       6        4.50   350     -12.5
+7       6        2.96   174     -10.5
+7       8        2.44   314.5   -20
+9       8        2.25   077     +28
+10      9        1.32   162     +09
+11      10       2.56   085.5   +10.5
+11      12       2.83   300.5   +02
+13      12       1.38   212.5   +02.5
+13      14       2.36   327     +18
+15      14       4.23   118     -42
+15      16       4.05   207     +24.5
+17      16       6.90   055     -03
+17      18       3.15   201     +24.5
+19      18       8.27   013     +44
+15      20      10.10   034.5   +09 ; from typed in as 19, but 15 is correct
+21      20       6.74   182     -05
+22      21      10.10   333.5   +20.5
+23      22       7.00   302     -09
+23      24       8.98   046     +31.5
+25      24       3.20   271     +16
+25      26       4.41   139     +06
+27      26       6.30   232     +03
+27      28       6.67   099.5   +12.5
+29      28       4.13   314.5   -06
+29      30      11.66   106     +17
+31      30       2.10   226     -21
+31      32       9.95   127     +21
+33      32       7.27   288.5   -15
+33      34       5.77   125     +34
+35      34       7.33   303.5   -01 ; notes say 203.5 compass
+36      35       4.75   293.5   -14.5
+37      36       7.41   271     -23.5
+38      37       6.73   271.5   -34
+23      39       3.96   185.5   +06
+40      39       6.12   294     -08.5
+40      41       7.37   110     +21
+42      41       4.45   014     +10
+42      43       9.88   224     -11
+3       43       2.20   159     +17.5 ; notes have this reversed
+
+*end nightsoil

@@ -1,0 +1,180 @@
+*equate p41 p41a ; SB moved from all.svx 05/08/04
+*equate p41 41.e41.0
+*entrance p41a
+
+*begin 41
+
+;Stellerweghöhle, 1623/41
+
+*export e41.0
+*export entlueft.0
+*export entlueft.14
+*export entlueft.15
+*export entlueft.1_1
+*export entlueft.8
+*export entlueft.9_1
+*export wetnwild.67_1
+
+*export verhall.12
+*export wetnwild.a
+*export rampe.30
+*export wetnwild.2
+*export entlueft.9_10
+*export alice.a7
+*export alice.14_1
+*export rampe.18
+*export diaet.25_43
+*export diaet.43_2
+
+;41 connections - see links41-142
+*export verhall.22_3
+*export verhall.eingang_9
+*export verhall.21
+*export blakwite.0
+*export blakwite.10
+*export stream.0
+
+*data normal from to length gradient bearing ignoreall
+
+;Teil 1: zweiter Eingang (142) bis Big Chamber 
+
+*include seiteng
+*include bonsai
+*include verhall
+*include blakwite
+*include stream
+*include bigchamber
+*include abstieg
+*include runway
+*include treppe
+*include platte
+
+*equate bigchamber.24 verhall.24
+*equate abstieg.8 bigchamber.8
+*equate runway.0 verhall.22_1
+*equate runway.6_f verhall.22_2
+*equate runway.20 bigchamber.6A
+*equate seiteng.0  verhall.12
+*equate verhall.21 bonsai.0
+*equate bonsai.3_3 bigchamber.3_3
+*equate bonsai.17 bigchamber.c17
+*equate verhall.8 blakwite.x
+*equate blakwite.mj13 verhall.13
+*equate stream.16 e41.13
+*equate platte.14 runway.14
+*equate verhall.22_3_5    runway.10
+*equate treppe.21  verhall.21
+*equate treppe.8  blakwite.x
+
+; zwischen Teil 1 und Teil 2
+*equate platte.22 e41.22
+*equate megalo.13 runway.13
+
+;Teil 2: Haupteingang bis Megalodontenschlinger
+
+*include e41
+*include steinsch
+*include din
+*include extblatt
+*include extradin
+*include edelmean
+*include rondos
+*include german
+*include mond
+*include oktar
+
+
+*equate oktar.g8 	e41.germanrt.8
+*equate e41.13_3 	megalo.13_3
+*equate steinsch.0 	e41.germanrt.6
+*equate din.24 		e41.24
+*equate extblatt.1 	e41.bloop.1
+*equate extblatt.n2_1 	e41.germanrt.7
+*equate extblatt.n5 	e41.germanrt.6a
+*equate extblatt.8 	e41.germanrt.8
+*equate extradin.0 	extblatt.o
+*equate extradin.10 	din.m
+*equate edelmean.0 	extradin.6
+*equate rondos.0 	extblatt.l
+*equate german.10_0 	extblatt.10
+*equate german.16_9 	din.b
+*equate rondos.31    	mond.31
+*equate rondos.34     	mond.34
+
+
+; zwischen Teil 2 und Teil 3
+*equate german.16_02 lampntot.2
+*equate german.4B wdr.6
+;*equate german.4_4 manhattn.4 ; Anschluß muß überprüft werden
+*equate basic.1	german.17_3
+
+
+
+;Teil 3: Megalodontenschlinger bis Hauptrampe und Sedimentallee
+
+*include megalo
+*include wdr
+*include lampntot
+*include manhattn
+*include entlueft
+*include glueck
+*include bus
+*include morphan
+*include basic
+*include tincan
+*include jade
+
+*equate megalo.13_3 wdr.0
+*equate wdr.7 lampntot.0
+*equate megalo.13_3 manhattn.13_3
+*equate wdr.9 entlueft.0
+;*equate glueck.10x wdr.10
+*equate glueck.1 entlueft.1_1
+;*equate bus.14_5 glueck.5x
+*equate doplbodn.13_6g megalo.13_6g
+*equate megalo.13_3 bus.3
+*equate bus.17_1 morphan.0
+*equate bus.15 morphan.15
+*equate megalo.13_3 morphan.13_3
+*equate basic.15	entlueft.14
+*equate lampntot.6    tincan.6
+*equate tincan.a15     entlueft.15
+*equate glueck.11_14 entlueft.8
+*equate glueck.11_H_2 entlueft.9_1
+*equate glueck.25_1	entlueft.8_10
+*equate glueck.2 jade.1
+;*equate wdr.7_1 jade.3
+;*equate wdr.8_1 jade.12
+
+
+; zwischen Teil 3 und Teil 4
+*equate glueck.23_2	doplbodn.s
+*equate bus.lotz	roehre.0
+*equate doplbodn.Boden 	bus.Lotu
+*equate roehre.A6	glueck.a6
+*equate roehre.A4	glueck.a4
+*equate roehre.A2	glueck.a2
+*equate roehre.NG	glueck.16
+*equate bus.17		rampe.17
+*equate glueck.16_6	rampe.23
+*equate roehre.H7	bus.17_4_H7
+*equate roehre.H5	bus.17_5_H5
+
+
+;Teil 4: Alice im Wunderland, Diätencanyon,Röhren, Quickie-Rampe, 100m-Schacht, Wet'n wild
+
+*include doplbodn
+*include alice
+*include wetnwild
+*include diaet
+*include roehre
+*include rampe
+
+
+*equate bus.17_9 alice.9
+*equate rampe.30 wetnwild.A
+*equate alice.14_2	diaet.2
+*equate roehre.R	doplbodn.r
+*equate doplbodn.q	diaet.12_Q
+
+*end 41

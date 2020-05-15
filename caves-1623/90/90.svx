@@ -1,0 +1,29 @@
+;2005.05.30 DL Created from faked data in NotKH book
+
+*equate 90.1 	p90	; fake survey
+*entrance p90
+
+*begin 90
+
+*title "Brauning Schacht 1623/90"
+
+; Locn:	Main plateau, beyond Brauning Sattel, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+*team Insts Wookey
+*team Notes Wookey
+*team Pics Wookey
+*team Tape 
+*date 1996.07.15
+*instrument None
+; Calibration: None
+;
+; Note this survey is entirely fictitious - it is generated from a
+; reasonable drawing of the cave and surrounding area (not KH book p4,
+; and p68-69.
+
+; ====== stations refindable to link to other surveys: ======
+
+*export	1	; entrance
+
+;From  to  Tape Compass Clino 
+1	2	13	0	-75
+*end 90

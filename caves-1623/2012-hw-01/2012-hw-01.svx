@@ -1,0 +1,33 @@
+*equate p2012-hw-01 2012-hw-01.tag ; assuming GPS fix was at the tag
+*begin 2012-hw-01
+*export tag 
+*entrance 3
+
+; Cave 2012-HW-01
+*title "Pfuetzenschacht"
+*date 2012.08.12
+*team Insts Hannah Walker
+; instrument set 3C
+; calibration - compass 147.5 325 - clino +23.5 -23
+*calibrate tape 0.1	; +ve if tape was too short, -ve if too long
+
+*team Notes Ian Walker
+; notes in folder 2012#12
+
+*data normal from to compass clino tape
+*flags not surface 
+2	1	312	-62	3.21
+3	2	332	-71	4.97
+*flags surface
+4	3	224	-43.5	3.13
+tag	4	326	-03	3.00
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc.
+1	1.8	0	-	1.7	red dot right wall
+2	1.0	0	-	0	red dot right wall
+3	0.5	0	-	0	red dot shaft lip
+4	-	-	-	-	tip of lechen branch on surface
+tag	-	-	-	-	tag bolt on surface slab = right bolt of Y-hang
+
+*end 2012-hw-01

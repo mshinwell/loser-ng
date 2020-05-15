@@ -1,0 +1,54 @@
+*begin darkartsiv
+
+; stations linked into other surveys (or likely to)
+*export 1 5
+
+; Cave: Balkonhoehle
+; Area in cave/QM: dark arts continuation 2015
+*title "Dark Arts"
+*date 2015.07.11
+*team Insts David Walker
+*team Notes Matt Watson
+*team Pics Matt Watson
+*team Tape David Walker
+*instrument SAP + disto
+; Calibration: unknown
+*ref 2015#02
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+1	2	4.28	103	-03
+3	2	6.67	210	-18
+4	3	5.31	217	-51
+5	4	10.6	228	-80
+
+;-----------
+;recorded station details
+
+*data passage station left right up down
+1	1.4	1.9	9.7	2.8	;	far wall of pitch
+2	0.2	0.5	0.7	0.6	;	LHW bend in tube
+3	0	0.5	0.3	0.8	;	LHW
+4	2.4	1.3	20	4.0	;	rock pile middle of chamber
+5	0	4.9	1.0	0	;	RHS pillar top of pitch
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    C    darkartsiv.1    -    aven at final chamber
+;QM2    C    darkartsiv.1    -    another aven at final chamber
+;QM3    C    darkartsiv.1    -    deathy hole in floor of final chamber
+;QM4    B    darkartsiv.5    -    wet pitch and aven
+
+;------------
+;Cave description  ;(leave commented-out)
+;continuing A lead at south end of dark arts, went in then surveyed out but didn't make it all the way to connect up the surveys.
+
+*end darkartsiv

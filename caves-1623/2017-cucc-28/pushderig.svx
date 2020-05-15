@@ -1,0 +1,125 @@
+
+
+*begin pushderig
+
+; stations linked into other surveys (or likely to)
+*export 35 i d1 5 1 2 
+
+; Cave:Fish Face 
+; Area in cave/QM:kublakhan 
+*title "pushderig"
+*date 2018.08.15
+*team Insts Chris Holt	
+*team Notes Radost 
+*team Pics Luke Stangroom
+*team Tape Max Weiser
+*instrument CHECCDisto
+; Calibration: Balcony Entrance 
+*ref 2018#57
+; the #number is on the clear pocket containing the original notes
+
+; if using a tape:
+;*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to  bearing gradient length ignoreall
+35 a 211 -38 2.29
+a b 178 -2 3.2 
+b c 224 +21 1.57
+c d 169 -8 2.49
+d e 243 -37 1.49
+e f 150 +8 2.98
+f g 223 -1 2.11
+g h 173 +8 6.10
+h i 284 +26 2.20 
+i j 133 +12 5.29
+j k 016 +12 13.25
+k l 294 +8 2.41
+l m 019 +1 3.00
+m b 282 -60 6.53; in the cave it was presumed to be e but in fact it was b 
+k n 112 +5 5.81
+n o 156 -1 7.56
+o p 075 +3 6.73
+p q 120 -23 7.02
+q r 022 +12 13.33
+r s 096 0 9.61
+s t 086 +3 10.26
+t u 135 +5 16.97
+u v 157 +15 4.13
+v w 104 +6 16.06
+w x 206 -8 7.22
+x y 137 +4 7.27
+y z 110 -14 6.66
+z a1 043 +9 12.33
+a1 b1 058 +18 18.48
+b1 c1 098 +13 4.25
+c1 d1 055 +21 7.98
+i 1 200 -16 7.48 
+1 2 170 -17 3.65
+2 3 185 -19 8.58
+3 4 217 -22 4.91
+4 5 206 -14 5.35
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+*data passage station left right up down ignoreall
+;[Red] nail varnish markings
+a   1.5   1     1     0    ; rock on floor
+b   2     1     0.5   0.5  ; to junction
+c   1     0     3.4   0.2  ; below ledge
+d   0	  0.7	1.3   1.6  ; crawl in
+e   0.6   0     1.6   0.5  ; crawl
+f   0	  1	0.5   0.5  ; crawl
+g   1	  0	0.5   0.5  ; crawl
+h   0	  2	5     1    ; window snipe
+i   2     0     3     3    ; wall/entrance NP "I" on wall (!)
+j   2     1     5     0    ; round
+k   0     3     5     0    ; junction (!)
+l   0     3     3     1    ; loop
+m   2.2   0     3.6   5.6  ; loop
+b   2     1     0.5   0.5  ; to junction
+*data passage station left right up down ignoreall
+k   0     3     5     0    ; junction (!)
+n   0     2     3     1    ; phreatic tube begin
+o   3     0     3     1
+p   2     2     0     1
+q   3     0     2     1
+r   0     3     2     1.5
+s   3     0     3     2
+t   0     2     2     2
+u   0     3     2     1
+v   2     0     2     1
+w   0     3     2     1
+x   3     0     2     1
+y   3     0     2     1
+z   3     0     2     1
+a1  0     3     2     1    ; rift in floor ends
+b1  0     3     2     1
+c1  0     2     3     1    ; phreatic tube end
+d1  3     0     3     8    ; multiple leads, small pitch in floor to waterfall sound
+*data passage station left right up down ignoreall
+i   2     0     3     3    ; wall/entrance NP "I" on wall (!)
+1   2     0     2     1
+2   0     2     2     1    ; junction with lead to the left
+3   2     0     2     1
+4   2     0     2     1    ; junction with lead to the right
+5   2     2     2     1    ; multi-junction multiple leads
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;all QMs listed here taken from drawn-up survey, 2018
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    A	pushderig.2	-	right hand fork from main passage, tube over 2m diameter, heading S into blank space. 
+;QM2    A   pushderig.2	-	left hand fork from main passage, tube over 2m diameter, heading S into blank space.
+;QM3	A	pushderig.4	-	right hand fork from main passage, tube over 2m diameter, heading S into blank space.
+;QM4	A	pushderig.5	-	right hand fork from way on, tube over 2m diameter, heading S into blank space.
+;QM5	A	pushderig.5	-	right hand fork from way on, tube over 2m diameter, heading S into blank space.
+;QM6	A	pushderig.d1	-	right-hand fork at 3-way junction, largest passage, blasting, requires traverse to be bolted to gain access. Heading east towards 204, same altitude as Subway (~1450m)
+;QM7	C	pushderig.d1	-	centre fork at 3-way junction, sound of waterfall (likely miserable going)
+;QM8	B	pushderig.d1	-	left-hand fork at 3-way junction, also heading east towards 204 Subway level
+;------------
+;Cave description  ;(leave commented-out)
+; On last trip (derig) found large phreatic tube leading NE that continues but requires bolting a traverse. Below the traverse water could be spotted and waterfall could be heard (possible lead, likely miserable). Going back to the ledge that starts the survey and taking road south found cheese-level with multiple corridors that don't seem to connect immidiately. Multiple QMA left for next year (Rad 2018)
+
+*end pushderig

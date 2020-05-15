@@ -1,0 +1,107 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	258 "Tunnockschacht"
+
+*begin maxpleasure2
+
+*export 0 31 36 48 56 59 63 66 68
+
+*title "Maximum pleasure 2"
+*date 2007.08.09
+*team Insts Andrew Atkinson
+*team Notes Wookey
+*team Dog Becka Lawson
+
+0	31	17.64	334	-02
+32	31	16.60	156	+10
+32	33	12.64	319.5	-10
+34	33	15.42	198	-09
+34	35	24.46	328	-02
+36	35	12.38	191	+04
+36	37	8.32	310	-03
+38	37	14.78	177	-03
+38	39	8.13	345	+26
+40	39	8.29	184	+18
+40	41	6.51	005	+23
+40	42	9.85	257	-23
+43	42	10.84	129	+01
+43	44	32.42	326	-14
+45	44	3.50	215	-08
+45	46	22.78	303	-20
+47	46	6.27	092	-05
+47	48	6.06	322	+03
+49	48	10.07	117	+28
+49	50	29.03	287	-21
+49	57	12.00	177	+12
+58	57	5.17	323	-13
+58	59	11.40	236	+17
+51	48	10.37	161	+18
+51	52	11.89	330	-23
+53	52	9.44	223	-24
+53	54	3.87	038	+39
+55	54	6.53	225	-14
+55	56	6.59	083	+45
+; 59	60	16.00	260	-50  ; approximate bodge leg - removed 2013 when surveyed properly
+
+36	61	9.23	069	+32
+62	61	4.07	292	-23
+62	63	21.6	038	+19
+64	63	11.90	333	-15
+64	65	10.81	113	+26
+66	65	13.19	277	-31
+66	67	32.23	103	+26
+68	67	12.69	264	-28
+
+
+*data passage station left right up down ignoreall
+0	0.6	2.6	2.4	0.3	RP marked '30' on rock on floor
+31	3	3	1.5	1.6	RP on roof
+32	2	0.2	0.9	1	RP on RHW
+33	2.1	2.5	2	2.2	RP marked '33' on large boulder
+34	6	0.5	3	3.50	RP RHW
+35	0.5	1.5	2.2	1	RP LHW
+36	5	2.5	3.2	-	RP on rock (down '?' in notes)
+37	2.2	2.5	1.3	1	RP floor knobble
+38	1.8	0.3	1.2	1.1	RP RHW
+39	3	0.3	5	1.7	RP RHW (up: ~5 in notes)
+40	1.3	1	2.2	0.2	temp station @ junction
+42	2	4	2	0.7	RP marked '42' (up: ~2 in notes)
+43	1.9	2	0,7	1.8	RP on ceiling
+44	1	4	2.5	0.5	RP LHW
+45	3.2	0.3	1.9	1.6
+46	3	1	1.2	1.6	RP RHW
+47	0.4	1.3	1.3	1.7	RP LHW @ arch lip
+51	1.2	0.4	0.7	0.3	RP RHW
+52	1.3	5	1	0.2	RP LHW (right: ~5 in notes)
+53	2.1	1.2	0.5	0.6	RP on rock marked '53'
+54	2	2	8.8	1.2	RP on rock
+55	0.4	1.5	1.6	0.4	RP LHW
+56	0.3	0.1	1.3	2.2	RP RHW marked '56'
+
+*data passage station left right up down ignoreall
+49	2.8	0.1	2.2	1.1	RP RHW opposite passage left @ 170degree57	1.7	0	3	1.5	RP RHW
+58	0.3	2.5	3.6	1	RP LHW
+59	2	0	4	5	(up: ~5 in notes)
+; 60	-	-	-	-	virtual point at pitch edge
+
+*data passage station left right up down ignoreall
+40	1.3	1	2.2	0.2	temp station @ junction
+41	0.3	0.3	0	0.6	Roof in tube/dig
+
+*data passage station left right up down ignoreall
+47	0.4	1.3	1.3	1.7	RP LHW @ arch lip
+48	2.5	4.5	0.5	1.6	RP marked '48'	on rock
+49	2.8	0.1	2.2	1.1	RP RHW opposite passage left @ 170degrees
+50	2.5	1.3	0.1	1.4	RP ceiling
+
+*data passage station left right up down ignoreall
+36	5	2.5	3.2	-	RP on rock (down '?' in notes)
+61	0.2	1.3	2	3	RP LHW
+62	1.9	1.2	2.1	1.6	RP RHW
+63	0	7	1	0.4	RP LHW
+64	2.1	2.5	0.5	1	RP
+65	1.3	2	1.8	1.6	RP boulder mid passage
+66	2	2	0.7	1.4	(lots down in canyon) RP on boulder
+67	1.7	3.7	2	1.2	RP on rock
+68	4	1.5	1.5	1.5
+*end maxpleasure2
+

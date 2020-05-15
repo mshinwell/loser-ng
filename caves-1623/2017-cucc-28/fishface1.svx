@@ -1,0 +1,81 @@
+*begin fishface1
+
+; stations linked into other surveys (or likely to)
+*export  B5 B6 X 21X 14
+
+; Cave: Fisch Gesicht Hoehle
+; Area in cave/QM: Entrance
+*title "Fisch Gesicht Hoehle"
+*date 2017.08.07
+*team Insts Radost Waszkiewicz
+*team Paint Alice Shackley
+*team Notes Becka Lawson
+*instrument Becka Lawson Distox2 No 1
+; Calibration: Becka UK
+*ref 2017#38	; notes for this on sheets for 2017_cucc_24
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+B6	1	8.09	016.5	-17
+B6	B5	7.48	128	-12
+B6	X	7.20	184	+02
+X	2	4.76	085	+12
+X	3	11.30	282	-21
+*flags duplicate
+3	4	9.28	299	-54
+*flags not duplicate
+;-------
+21X	5	3.03	095	+45	recorded as old stn 12 in notes but must be 21
+5	6	2.32	062	+66
+7	6	2.34	295	-11
+8	7	1.10	248	-46
+8	9	4.31	120	+57
+3	10	5.41	306	-51
+10	11	2.07	226	-38.5
+11	12	17.52	045	-79
+12	13	4.71	143	+01
+13	14	4.41	079	+35
+14	15	18.33	105	+55
+14	16	8.20	207	-23
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+*data passage station left right up down ignoreall
+B6	0.4	4	18	1	old nod stn chamber
+1	2	1	12	2	back wall under pitch
+B5	0	4	12	1	old nod stn
+X	0	8	1	1	old qm adam-aidan stn
+2	5	2	1	0.5	far chamber
+3	0.4	3	13	1.2	nod rp3 lw
+4	2	0	8	10	unmarked
+21X	0.4	0.2	8	0.4	old nod stn rob-adam
+5	0.3	0.3	3	2	by stream
+6	0	0.3	1	3	through squeeze
+7	0.5	0	4	2	rw above stream
+8	0.1	0.3	3	2	lw nod
+9	0.2	0.2	1	2	unmarked up srtream rift
+*data passage station left right up down ignoreall
+10	2	0.5	5	18	down pitch near rebelay
+11	0	3	3.7	18	rh of right rebelay bolt
+12	3	2	20	1.5	base pitch nod
+13	1	0	13	3	start of passage
+14	0	3	4	1	lw
+
+;LRUDs arranged into passage tubes
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surveyname.5    -    description of QM ]
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+
+; Resurvey main chamber below first pitch then survey down pitch from opposite wall to ice chamber plus finish very tight rift
+
+*end fishface1

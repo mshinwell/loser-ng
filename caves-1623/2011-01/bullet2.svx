@@ -1,0 +1,51 @@
+*begin bullet2
+*export 13
+
+*title "Bullet secound hoehle"
+*date 2013.08.04
+*team Insts Alex Crow
+*team Notes Martin Green
+
+; notes in 2013#08
+
+;tape yellow real 40cm short
+;compass 9
+;clino 4
+
+;bridge verification
+;326 -22; 148 +24
+
+*calibrate tape +0.40
+
+*data normal from to tape	compass clino
+1	2	3.60	040	+32	;compass reading error? notes say 220
+4	5	6.00	020	+05	;estimated
+4	2	1.00	060	00	;estimated
+2	3	4.22	080	+20
+3	6	14.38	035	+25
+*flags splay
+3	7	9.20	118	+13
+*flags not splay
+3	8	10.10	202	+22
+9	10	20.23	259	+35
+10	11	3.5	259	+35	;estimated
+12	9	4.49	303	+14
+8	12	4.16	285	+24
+*calibrate tape +1.00
+13	8	30.00	-	down
+
+*data passage station left right up down ignoreall
+1	2	1	0.4	0.4
+2	0.8	0.0	0.3	0.1	pm RHW
+3	-	-	-	1.5	pm on rock near small passage
+4	1.5	0.5	0.3	0.2	not marked - estimate
+5	0.3	0.2	2	1	not marked - estimate
+6	-	-	-	1.5	pm on far side of chamber
+7	-	-	-	1.8	not marked
+8	-	-	-	0.2	bottom on rope (cairn)
+9	0.4	0.8	1.6	0.2
+10	1.1	0.3	2.2	0.6	pencil on wall
+11	-	-	-	-	not marked - estimate
+12	-	-	-	0.2	top of rock in chamber
+
+*end bullet2

@@ -1,0 +1,38 @@
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 258 "Tunnockschacht"
+
+*begin stonemonkey6
+
+*export 14
+*export 15
+*export 17
+*export 18
+*export 19
+
+*title "Marconian Empire: Comedy of Errors"
+*date 2009.07.24
+*team Insts Jess Stirrups
+*team Notes Martin Jahnke
+
+; calibrations
+; 149, 150    329, 330
+; +24, +25    -23, -22
+
+;ref.: 2009#01
+
+*data normal from to compass clino tape 
+14  15  024     -25     1.69
+16  15  219     -18     7.47
+17  16  236     -25     12.75
+18  17  229     -08     5.68
+18  19  051     +39     6.07
+
+*data passage station left right up down ignoreall
+14  -       -   -   -       Point 14 of sombrero passage
+15  2       1   3   1.2     RP ceiling over start of pitch
+16  2       4   1.5 0       rock flake in middle of passage
+17  4       2   1.6 1       RP rock flake nose on roof
+18  3       4   1   0       rock middle of floor
+19  1.5     1.5 2   3       RP rock nose above hole marked 19
+
+*end stonemonkey6

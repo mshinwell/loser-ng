@@ -1,0 +1,59 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schwabenschacht 1623/78
+
+*begin parallel
+*title "Parallelgang Hauptmeander"
+
+*export 0	; haupt.19 fossimea.C0
+*export 11	; haupt.31
+*export 4_4	; keller.K1
+*export 1_3	; haupt.E5 stgneu.E5
+
+; -1- Meßzug umgedreht, da urspr. im Nichts begonnen, S8=1, S7=2 usw.
+; Messteam: Jens Römer, Markus Scheuermann
+; Zeichner: Jens Römer
+; Referenz:
+*date 1993.07.27
+
+*data normal from to length gradient compass
+0	1	7.20	58	260
+1	2	12.00	40	250
+2	3	8.15	-12	166
+3	4	19.50	3	214
+4	5	7.68	-20	218
+5	6	8.25	-2	206
+6	7	5.58	11	256
+7	8	11.20	-7	175
+8	9	10.10	-18	182
+9	10	7.50	15	181
+10	11	7.68	-47	152
+
+; Raumwerte
+; keine Raumwerte
+
+
+; -2- Vorsicht bei Umbenennungen ("S-Meßzug") und durch Zug-Umkehrungen
+; Messteam: ? (Markus Scheuermann, ?)
+; Zeichner:
+; Referenz:
+*date 1994.07.17
+
+*data normal from to length gradient compass
+6	6_1	1.33	-28	324
+6_1	6_2	10.70	-72	81
+6_2	6_3	3.95	-41	88
+6_3	6_4	4.10	-53	162
+
+4	4_1	5.35	3	31
+4_1	4_2	7.80	-49	126
+4_2	4_3	7.60	-34	77
+4_3	4_4	7.20	-33	153
+
+4_1	1_1	9.40	41	308
+1_1	1_2	12.30	52	325
+1_2	1_3	5.53	-15	180
+
+; Raumwerte
+; keine Raumwerte
+
+*end parallel

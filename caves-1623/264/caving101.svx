@@ -1,0 +1,43 @@
+*begin caving101
+
+; stations linked into other surveys
+*export 	12x 	1
+
+; Cave: Balcony
+; Area in cave/QM: Turtlehead
+*title "caving 101"
+*date 2016.07.05
+*team Insts Elliott Smith
+*team Notes Nathan Walker
+*team Bitch Rob Watson
+*instrument Franks Disto
+; Calibration: Outside steinbruken 0.48 error
+*ref 2016#29
+
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+12x	1	1.69	235.5	-7.6
+1	2	16.87	061.1	-88.8
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+;1	0.7	1.0	3.0	16.9	
+;2	2	4	19	7
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	0.7	1.0	3.0	16.9	
+2	2	4	19	7
+
+;------------
+;Cave description
+;(Pitch terminates in too tight vadose trench heading downwards.
+;freeform text describing this section of the cave
+
+*end caving101

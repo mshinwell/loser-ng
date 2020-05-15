@@ -1,0 +1,167 @@
+;Eislufthoehle 1623/76
+
+*entrance p76
+*entrance p76a
+*entrance p76b
+*entrance p106
+*entrance p99
+
+*equate p76 p106
+*equate p76a 76.entrance.1
+*equate p76 76.entrance.8 ; figures for one leg not clear - mismatch is tiny anyway
+*equate p76b 76.bent.1
+*equate p99 76.99pt2.13
+
+*begin 76
+
+*export entrance.1 entrance.8 bent.1 99pt2.13
+
+*include entrance
+
+*equate entrance.6 bitter.1
+
+*include bitter
+
+*equate entrance.5 bent.8
+
+*include bent
+
+*equate bitter.10 brave.35
+
+*include brave
+
+*equate brave.26 lovers.10
+
+*include lovers
+
+*equate brave.33 saved.24
+
+*include saved
+
+*equate brave2.19 brave.10
+
+*include brave2
+
+*equate brave2.11 brave3.7
+
+*include brave3
+
+*equate brave2.15 brave4.14
+
+*include brave4
+
+*equate brave2.11 brave5.1
+
+*include brave5
+
+*equate brave.19 brave6.5
+
+*include brave6
+
+*equate brave.6 brave7.1
+*equate brave.7 brave7.11
+
+*include brave7
+
+*equate brave2.2 brave8.1
+
+*include brave8
+
+*equate keg.16 saved.2
+*equate keg.17 saved.4
+*equate keg.20 saved.6
+
+*include keg
+
+*equate tap.17 saved.7
+*equate tap.22 saved.8
+
+*include tap
+
+*equate brave4.1 rift.16
+;*equate saved.15 riftconn.1
+*include rift
+
+*equate brave8.7 noways.16
+*include noways
+
+*equate rift.15 pitch.13
+*include pitch
+
+*equate brave4.12 boiling.16 ; 12 isn't quite right
+*include boiling
+
+*equate brave.18 99conn.1
+*include 99
+
+*equate tap2.1 tap.1
+*equate tap2.7 keg.10 razoradvance.5 
+*include tap2
+
+*include taprift
+*equate taprift.1 tap.3
+
+*include pleasant
+*equate pleasant.12 brave2.1
+*equate noname.0 brave2.1
+
+*include batman
+*equate batman.4 brave2.7
+
+*include pancake
+*equate pancake.10 noways.11
+
+*include loopy
+*equate loopy.21 brave7.8
+*equate loopy.34 brave3.4
+
+*include spent
+*equate spent.10 taprift.11
+
+*include strange
+*equate strange.25 brave.35
+
+*include stranger
+*equate stranger.1 saved.15
+*equate stranger.6 strange.1
+*equate stranger.1a rift.1
+
+*include waste
+*equate waste.10 tap.1
+
+*include hotgkpitch
+*equate hotgkpitch.1 spent.1
+
+*include hotgk
+*equate hotgk.20 hotgkpitch.9
+
+*include fiesta
+*equate fiesta.28 hotgk.11
+
+; 2007
+
+*include holes
+*equate holes.7 brave2.1
+
+*include boil2
+*equate boil2.1 boiling.2
+
+*include boil3
+*equate boil3.5 boiling.4
+
+*include choss
+*equate choss.5	brave2.17
+
+*include brave9
+*equate brave9.11 brave2.17
+
+*include electric_upper
+*equate electric_upper.1 razoradvance.2
+
+*include electric_lower
+*equate electric_upper.7 electric_lower.25
+
+*include atomic
+*equate atomic.3 electric_lower.20
+
+*end 76

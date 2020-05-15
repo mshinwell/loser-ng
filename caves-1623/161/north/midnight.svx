@@ -1,0 +1,115 @@
+;1998.08.20 DC/SB created for midnight survey
+
+; ====== links between individual Midnight surveys ======
+
+*equate midnght1.14 midnght2.5
+
+*begin midnght1
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Kaninchenhöhle, 1623/161
+*title "Midnight in Moscow part 1"
+*date 1998.07.20
+*team Insts Duncan Collis
+*team Notes Steve Bellhouse
+*team Pics Steve Bellhouse
+*team Tape Duncan Collis/Steve Bellhouse
+*instrument Compass 2 ; Clino 2
+; Calibration:	  To Cave: Compass: 033,  033,034
+*team Clino -08.5,-08,-08
+;		From Cave: Compass: 214,  214,214
+*team Clino +08,  +09.+09 	 	
+; ref.:	1998 KH survey book pp - 59-62
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 14	; Small upright stone on floor (next to boot mark!)
+*export 1	; CM on wall,last pt of SEP survey
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	8.59	013	+07	;
+2	3	9.71	241	-58	;
+3	4	7.52	201	-56	;
+4	5	23.18	215	-83	;
+5	6	28.67	-	down	; plumbed leg
+6	7	0.55	056	-21	;
+7	8	10.38	-	down	; plumbed leg
+8	9	4.85	030	-06	;
+9	10	1.90	058	-11	;
+10	11	3.09	060	+44	;
+11	12	2.74	347	-14	;
+13	12	9.50	316	0	;
+13	14	5.15	-	down	; plumbed leg
+
+; Estimated legs added in 2007 for choked phreatic level in
+; Midnight in Moscow pitch.
+;6	A	10.00	-	up
+;A	B	10.00	140	0
+;A	C	10.00	320	0
+
+;station details
+;name	L	R	U	D	E	description
+*data passage station left right up down ignoreall
+1	0	4	1	1.5		CM on wall,last pt of SEP survey
+2	2	1	0	3.5		CM on roof
+3	0.5	0.5	2	5		Y hang knot
+4	0	0.5	3	50 ish down 	Main hang bolt
+;				pitch, 3 to
+;				small ledge
+;	N	S	E	W
+;5	0.5	5	3	3		Deviation Crab
+;6	1	1	0	4.6		Rock on floor of pitch
+;	L	R	U	D	E	
+;7	0.5	0.5	0.5	10		Pitch head bolt
+;8	2.5	3	0	2.5		CM Nobble on wall near rope
+;9	1	0.5	1	0.2		CM Roof RHS
+;10	0.5	0.5	0.5	0		Top of head sized boulder on floor
+;11	1	0	4	1		CM right hand wall
+;12	0	1.5	0.5	0.5		CM in corner of passage LHS
+;13	0	0.5	1	5.15		CM over pitch
+;14	1	2	5	0		Small upright stone on floor ( next to boot mark!)
+
+*end midnght1
+
+*begin midnght2
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Kaninchenhöhle, 1623/161
+*title "Midnight in Moscow part 2"
+*date 1998.07.20
+*team Insts Duncan Collis
+*team Notes Steve Bellhouse
+*team Pics Steve Bellhouse
+*team Tape Duncan Collis/Steve Bellhouse
+*instrument Compass 2 ; Clino 2
+; Calibration:	  To Cave: Compass: 033,  033,034
+*team Clino -08.5,-08,-08
+;		From Cave: Compass: 214,  214,214
+*team Clino +08,  +09.+09 	 	
+; ref.:	1998 KH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 5	; Small upright stone on floor (next to boot mark!)
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	11.20	068	-53	;
+2	3	9.89	256	+44	;
+4	3	4.26	118	-23	;
+4	5	2.86	004	-16	;
+
+;Station details
+;name	L	R	U	D	E	Description
+;1	1	1	0.25	0		Lowest reachable point in mud
+;2	0	0.5	6	4		CM nobble left hand wall
+;3	0	3	4	2		CM left hand wall
+;4	0	0.7	0.6	0.7		CM left hand wall
+;5	Same as 14 above
+
+*end midnght2
+
+

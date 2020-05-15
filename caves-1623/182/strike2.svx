@@ -1,0 +1,21 @@
+*begin Strike2
+
+; Locn:	Main plateau, WNW of Top Camp, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+; Cave:	Puffball & Icing Sugar Cave (1623/182)
+*title "Strike 2"
+*date 1992.07.16
+;*team ?
+; Ref.:	?
+; I think this is trip id 1992-182-16, in which case team is Richie and Ali M.
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 2	; near (but not on) distinctive nodule 1.5m ish up in Strike 2
+*export 3	;
+
+2	1	 1.33	005	-11
+2	3	14.44	-	 Up
+4	3	 1.53	334	 00
+4	5	10.21	-	 Up
+
+*end Strike2

@@ -1,0 +1,38 @@
+*begin fatcat
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Fat Cat"
+*date 2009.07.31
+*team Tape Ian Walker
+*team Insts Ian Walker
+*team Notes Jessica Stirrups
+*instrument pony 1 ; Wookie's disto
+; Calibration: None
+; ref.:	2009#21
+
+; ====== stations refindable to link to other surveys: ======
+*export 8 14
+
+*calibrate tape 	0; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+9	8	2.07	056	+14
+9	10	3.98	023	-72
+10	11	8.10	328	-85
+11	12	3.00	270	-67
+12	13	5.07	357	-85	
+13	14	15.74	-	DOWN
+14	15	13.10	138	-47
+
+*data passage station	left	right	up	down	ignoreall
+8	3	4	10	15	old station 8 numbered, rp pinnacle in passage
+9	2.5	3	10	1.5	rp r wall
+10	1.5	3	2	8	rp boulder
+11	1	0.5	10	20 	rp boulder
+12	0	4	12	20	rp  spit at rebelay
+13	4	2	15	15	rp spike wall below rebelay
+14	2	7	15	5	rp spike
+15	4	1.5	15	8	rp spike on r wall
+
+*end fatcat

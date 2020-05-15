@@ -1,0 +1,97 @@
+*equate merry.1 merry2.3
+
+*begin merry
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Merry Fucking Christmas"
+*date 2001.08.23
+*team Insts Hilary Greaves
+*team Notes Duncan Collis
+*team Tape Duncan Collis
+*instrument Compass TSG ; Clino TSG, Tape Dunks
+; Calibration: Stone bridge: 326/-22.5   327/-22.5   327/-22.5
+;                            148.5/+22.5 149.5/+22.5 149/+22.5
+; ref: 2001#31
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 19
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+*data normal to from tape compass clino
+
+;to	from	tape	compass	clino	; remarks
+1	2	2.72	196	00
+2	3	1.32	134	+06
+3	4	4.55	189	00
+4	5	1.68	156	-08.5
+5	6	2.72	192	-06
+6	7	0.87	146	-02.5
+7	8	2.96	171	+01.5
+8	9	2.03	159	-01
+9	10	1.12	180	-04
+10	11	2.00	203	-01
+11	12	3.74	195	-04
+12	13	2.26	209	-13
+13	14	2.83	152	-12
+14	15	1.89	161	-18
+15	16	5.01	145	-66
+16	17	2.38	183	-36
+17	18	3.20	135	-86
+18	19	1.14	138	+03
+
+;station details
+;name	L	R	U	D	description
+;1	0	1.5	1	1	RP left wall labelled "1"
+;2	0.3	0	0.4	0.5	RP R wall labelled "2"
+;3	0	0.4	0.2	0.4	RP L wall
+;4	0.5	0	0.6	0.8	RP R wall
+;5	0	0.4	0.4	1.4	RP L wall labelled "5"
+;6	0.3	0	0.3	0.4	RP R wall 
+;7	0.3	0	0.3	0.4	RP R wall
+;8	0.4	0	0.5	0.2	RP R wall
+;9	0.3	0.1	0.2	0.2	RP R wall
+;10	0.4	0.2	0	0.3	RP ceiling
+;11	0.4	0	0.4	0.4	RP R wall
+;12	0.4	0	0.4	0.2	RP R wall
+;13	0	0.5	0.4	0.1	RP L wall
+;14	0.5	0	0.4	0.1	RP R wall
+;15	0.4	0.3	-	0.3	RP ceiling
+;16	0.1	0.4	0	5?	RP ceiling
+;17	0	1	~5?	1.3	RP left wall
+;18	-	-	-	-	RP right wall
+;19	-	-	-	-	CM left wall
+*end merry
+
+*begin merry2
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Merry Fucking Christmas (2)"
+*date 2001.08.28
+*team Insts Duncan Collis
+*team Notes Earl Merson
+*team Tape Both
+*instrument Compass 4; Clino 4, Tape Dunks
+; Calibration: Stone bridge: 146.5/+22 147/+22 146.5/+22
+;                            327/-22 328/-21.5 327.5/-21.5
+; ref: 2001#31
+; ====== stations refindable to link to other surveys: ======
+
+*export 3
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	9.62	318	+63
+2	3	11.02	359	+04
+
+;station details
+;name	L	R	U	D	description
+;1	-	-	-	-	CM on spike on W wall
+;2	0.5	2	20+	1	pencil mark on ridge of rock
+;					between two pitches (?)
+;3	0	1.8	1	1.3	=merry.1
+
+*end merry2

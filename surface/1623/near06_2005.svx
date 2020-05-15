@@ -1,0 +1,59 @@
+;2005.07.25 surface surveys near 0/6
+
+*begin near06_2005
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Surface
+*title "0/6 to 2004-01, 2004-02"
+*date 2005.07.25
+*team Insts Jenny
+*team Notes Olly
+*team Pics 
+*team Tape Jenny
+*instrument Olly & Jenny's set; CUCC yellow tape with missing 10cm
+; Calibration:
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 3 4 6 8
+
+*calibrate tape +1.00	; +ve if tape was too short, -ve if too long
+
+*data normal from to compass clino tape
+;from	to	compass	clino   tape	; remarks
+2       1       282     -05     21.34
+2       3       085     +03     14.86
+3       4       210     -09     14.13
+5       6       197     -11     13.49
+3       5       136     -11.5   12.25
+7       6       345     +01.5   25.91 ; notes say 6->7 but that's wrong
+7       8       284     -06     30.59
+
+;station details
+;name	L	R	U	D	E	description
+;1 ;laser 0/6
+;2 ;tip of temp rock
+;3 ;tip of small rock on pavement
+;4 ;pt on rock with pencil -> just above natural red mark
+;5 ;high pt of existing cairn
+;6 ;2004-02 tag bolt
+;7 ;bunde tip
+;8 ;2004-01 tag bolt
+
+*end near06_2005
+
+*begin near06_2005_2
+
+*export 1 3 4
+*date 2005
+
+*calibrate tape +1.00
+
+2       1       15.095  216     -12
+
+*calibrate tape +0.10
+
+2       3       30.01   341     +07
+2       4       29.58   342     +06
+
+*end near06_2005_2

@@ -1,0 +1,56 @@
+;> 1623/41
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Stellerweghöhle 1623/41
+; Abzweig-Rampe nach SE bei MP 24; DIN-Rampe
+
+*begin din
+*title "DIN-Rampe"
+
+*export 24
+*export m
+*export b
+
+; Messteam: Jörg Haussmann, Richard Geserer, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 2
+
+*date 1997.07.23
+
+*units compass degrees
+*units clino degrees
+
+*data normal from to length gradient bearing ignoreall
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+24      a       12.05   -12.5   237
+a       b       14.28   -29     123
+b       c       2.77    -90     0
+c       d       8.7     -26     173
+d       e       5.95    -44     146
+e       f       5.23    -14.5   54
+f       g       16.05   -30.5   144
+g       h       4.33    -25     121
+h       i       8.85    -30     162
+i       j       1.04    -21     99
+j       k       10.7    -7      180
+k       l       0.3     -10     216
+l       m       9.3     -4      199
+m       n       4.62    2       233
+
+;Raumwerte
+*data passage station left right up down
+a	-	-	-	-
+b	3	4	4	-
+c	-	-	-	-
+d	2	3	0.5	2
+e	-	3	0.5	1
+f	1	-	2	1
+g	3	0	3	1
+h	0	4	3	0.5
+i	1.5	2	2	1
+j	-	-	2	1
+k	0.5	3	2	1
+l	0.5	3	2	1
+m	0.3	1.5	2	1
+n	6	0	3	4
+
+*end din

@@ -1,0 +1,299 @@
+;*equate adrian.1.50	OldP2.6 ; this now obsolete
+
+*begin Adrian
+; Location:	Totes Gebirge, Austria
+; Cave:		Kaninchenhöhle, 1623/161
+
+; ======  stations refindable to link to other surveys: ======
+
+*export 2.11	; roof inside 161b (in161b) - interface to surface surveys
+*export 2.13	; middle of "6" of "161c" near entrance (p161c)
+*export b.01	; NW corner at top of block in France (The Dice)
+*export c.1	; bottom bolt at head of 2nd pitch (Automatic Doors)
+
+; ====== links between surveys making up the Adrian area: ======
+
+*equate e.00	1.70
+*equate a.02	b.19	e.02	2.01
+; KAR02a = KAR01 (traverse bolt) = 2.01 is 1st Adrian traverse bolt
+*equate c.17	a.10
+*equate b.09	guessed.00	; b & d surveys don't quite connect :-(
+*equate d.01	guessed.01
+
+*begin 1
+
+; Cave:		Kaninchenhöhle, 1623/161
+*title "Adrians route '88 survey"
+*date 1988
+*team 
+; Ref.:	AERW doesn't have the 1988 survey book (if it exists ?)
+
+*export 70	; Adrian Pitch hang bolt
+
+;o6 to Adrian.1.66 (=KAR05a) replaced by '90 re-survey
+
+; The initial (1988) survey was substantially replaced by later
+; (mostly 1990) resurvey. However, parts were never resurveyed, so
+; these data remain, connected to the rest at an identifiable pitch
+; head bolt pretty much in the middle of the 1988 survey (Adrian.1.70)
+; Legs from 50--->66 have been thrown away, though in the 3d plot,
+; station 67 looks more logical, being almost coincident with a.03
+
+*calibrate compass 0.00
+;*data normal bcra_3 from to length bearing gradient
+
+; 51  50       6.80     334     -31
+; 51  52      11.10     175     +05
+; 53  52       3.70     151     -18
+; 53  54       3.50     216     +21
+; 55  54       3.80     013     +18
+; 55  56       6.60     213     -44
+; 56  57       3.80     216     -31
+; 57  58       5.57     159     -06
+; 58  59       7.78     206     -08
+; 60  59       4.55     329     +48
+; 60  61       3.24     164     -03
+; 62  61       7.85     054     +25
+; 62  63       5.25     112     +11
+; 64  63      11.83     349     -13
+; 64  65       5.06     129     +10
+; 66  65       2.66     340     +21
+ 66        67       4.38     264     -67
+ 67        68       6.17      -      Down
+ 69        68       3.04     245     -40
+ 69        70       4.43     010     -44
+ 70        71      40.20      -      Down
+ 72        71       1.69     254.5   +31.5
+ 73        72       7.12     011     +46.5
+ 73        74       8.37     207.5   -38
+ 75        74       3.33     344     +57
+ 76        75       2.05     007     +67.5
+ 77        76      11.05     295.5   +79
+ 77        78       1.41     139     -09.5
+ 79        78      25.70     314.5   +68
+ 80        79      10.79     022.5   +61.5
+ 80        81       7.60     069     -19
+ 82        81      10.50     185     +34
+*end 1
+
+*begin 2
+
+; Cave:		Kaninchenhöhle, 1623/161
+*title "Rabbit Warren Series"
+;		Adrian's Route: From Adrian Pitch traverse -> 161B Entrance
+*date 1990.07.12 ; trip 1990-161b-1 in 1990 logbook
+*team Insts Juliette
+*team Notes Wookey
+*instrument 
+; Calibration:	Camp-Zinken 252, 252.5, 253, 252.5; +02.5, +03, +03
+;		Camp-Hollweiser 153, 153, 154; +02, +02, +01.5, +01.5
+;		Cairns: 017, 017, 017, 016; +14.5, +15, +15
+; ref.:	1990 survey book pp 1-2
+
+*export 01	; 1st Adrian traverse bolt - connect to rest of cave
+*export 11	; roof inside 161b (in161b) - interface to surface surveys
+		; point inside 161b, not quite at entrance, but nearest on
+		; this survey to surface/cave interface - probably should
+		; not be used again
+*export 13	; middle of "6" of "161c" near entrance
+
+*calibrate compass 0.00
+*calibrate clino 0.00
+
+ 02   01        1.86    143    +20 ;  01 1st traverse bolt
+ 02   03        8.90    126    +12
+ 03   04       10.56    046    +19
+ 05   03        7.60    320    -12
+ 05   06        8.07    136    +18
+ 07   06       10.69    311    -08.5
+ 07   08        9.10    056    +16
+ 09   08        4.30    265.5  -13
+ 09   10        2.03    112    +50
+ 11   10        5.45    211    -34
+
+*begin
+*flags surface
+ 12   11        4.01    243    -20
+ 12   13        3.34    234    +04
+*end
+
+*end 2
+
+*begin a
+
+; Cave:		Kaninchenhöhle, 1623/161
+*title "Adrian's Route: Adrian Pitch towards 161A Entrance"
+*date 1990.07.14 ; trip 1990-161b-2 in 1990 logbook
+*team Notes Juliette (Surprise surprise)
+*instrument Matt
+
+; 
+*instrument Compass, Clino - FIIK
+; Calibration:	FIIK
+; ref.:	1990 survey book pp 5-7
+
+*export 02	; Bolt on traverse route over old Adrian's 40m pitch
+*export 10	; Carbide mark on wall "as shown"
+
+ 02  01     6.38    095.5   07
+ 02  03     3.80    243.5   63
+ 04  03     1.21    140.5  -59
+ 04  05     4.69    089.5   67 ; 05 bolt head of 1st pitch
+ 06  05     4.00    254.5  -31
+ 06  07     2.97    044     11
+ 08  05     5.63    142.5  -05
+ 08  09     2.10    264    -06
+ 10  09    13.53    149.5   10
+ 10  11    26.36    226    -06
+ 12  11     7.47    048     22
+*end a
+
+*begin b
+
+; 98.03.02 what does this mean?:	This is Compass=157 Clino=-38
+
+; Cave:		Kaninchenhöhle, 1623/161
+*title "Adrians route French connection II"
+;		To Adrian pitch traverse from France
+*date 1990.07.21 ; trip 1990-161b-4 in 1990 logbook
+*team Notes Hugh
+*instrument Francis
+*team Tape Tony
+
+*instrument Compass 624931, Clino 736380
+; Calibration:	16.5; +17 -17
+; ref.:	1990 survey book pp 39-42
+
+*export 01	; NW corner at top of block in France (The Dice)
+*export 09	; boulder that forms 1st belay for continuation - this is very
+		; obvious ! (But not obvious enough - see the "d" survey)
+*export 19	; Bolt on traverse route over old Adrian's 40m pitch
+
+02  01     4.79    153    -04
+02  03     3.67    002     00
+04  03     7.73    134    +18
+04  05    13.35    298    -19.5
+06  05     8.95    153    +23
+06  07     5.56    272    +10
+08  07     3.56    038.5  -24
+09  07     9.12    233    -03
+09  10     2.00    003.5  -03.5
+11  10    13.94     -     Down
+12  11     1.40    325    -85
+13  12    11.78    040    -85
+14  13     8.88    050    -75
+15  14    12.70    050    -80
+16  15     7.15    028    +07
+17  16     4.12    051    +10
+18  17     3.32    082.5  +22
+19  18     7.58    038    +08
+*end b
+
+*begin c
+
+; Cave:		Kaninchenhöhle, 1623/161
+*title "Adrian's Route: The Basement"
+;		(Top of Automatic Doors) to traverse line
+
+*date 1990.07.28 ; trip 1990-161b-5 in 1990 logbook
+*team Notes Juliette
+*instrument Olly
+
+*instrument Compass 721899, Clino 240641
+; Calibration:	Compass 19,18.5,18, Clino +17.25,+17.5,+17.5, -17.5,-17.5,-17.5
+; (without glasses: 018,017.5,017.75; +17,+17,+17; -18,-17,-17.5)
+; ref.:	1990 survey book pp 63-65
+
+*export 1	; bottom bolt at head of 2nd pitch (Automatic Doors)
+*export 17	; carbide mark on LH wall
+
+  2   1    9.05     274      -05.5
+  2   3    5.20     094       01.5
+  4   3    8.82     009.5    -14
+  4   5    2.37     026.5     46
+; survey book says "26.5 can't be right, 265 ! or maybe crap 'cos of 46 clino"
+; sketch makes it look about 50, so nothing changed (265 clearly not right)
+; AERW 98.03.01
+  6   5    5.16     013       11
+  6   7    3.67     214.5    -42.5
+  8   7    4.60     036       51
+  8   9    3.67     209      -15.5
+  9  10    7.74     210      -06.5
+ 10  11    4.81     204      -08
+ 12  11    3.76     332       45
+ 12  13    1.75     160      -18
+ 14  13    1.70     020      -33
+ 14  15    6.98     238      -44
+ 16  15    5.97     320      -22.5
+ 16  17    2.40     081      -04
+*end c
+       
+*begin d
+
+; Cave:		Kaninchenhöhle, 1623/161
+*title "Adrians route below French Connection II - Belgium"
+;		AERW 98.01.21: "Adrian's route" is misleading - this is France
+
+*date 1990.07.28 ; trip 1990-161b-5
+*team Notes Juliette
+*instrument Olly
+
+*instrument Compass 721899, Clino 240641
+; Calibration:	Compass 19, 18.5, 18 Clino +17.25,+17.5,+17.5,-17.5,-17.5,-17.5
+; (without glasses: 018,017.5,017.75; +17,+17,+17; -18,-17,-17.5)
+; ref.:	1990 survey book pp 66-68
+
+*export 01	; carbide mark on rock "near" boulder of 1st belay used in "b"
+
+01   02      2.88    047    -19
+03   02      6.53    191     40.5
+03   04      4.73    047    -49
+05   04     24.07     -      Up
+05   06      3.61    237     17
+07   06      6.95    051     14
+05   08      5.95    044    -49
+09   08      8.94    260     55
+
+*end d
+
+*begin e 
+
+; Cave:		Kaninchenhöhle, 1623/161
+*title "Connection from Adrian's 1st traverse bolt (KAR01)"
+;		 to Adrian Pitch hang bolt (a70)
+
+*team Notes Wookey
+*instrument Damage
+
+*date 1990 ; guessed this was Damage's first expo
+
+*export 00	; Adrian Pitch hang bolt
+*export 02	; 1st Adrian traverse bolt
+
+01  00   5.68  282.5  -53.5
+01  02   4.91  243    -08.5
+
+*end e
+
+*begin guessed
+; Cave:		Kaninchenhöhle, 1623/161
+*title "grade 1 guesstimate of KAR01d to KAR09b connection."
+
+*team Olly/Francis/Wookey
+*date 1990.07.28 ; ish
+
+*instrument none used
+; Calibration:	none
+; ref.:	1990 survey book p 66 top right corner
+
+*export 00	; boulder that forms 1st belay for continuation - this is very
+		; obvious ! (But not obvious enough - hence this leg)
+*export 01	; carbide mark on rock "near" boulder of 1st belay used in "b"
+
+;*grade use bcra_1
+01  00   3.00  275    +10
+; original guess seems to have been 065+180=245, later revised to 265, then 275
+
+*end guessed
+
+*end Adrian

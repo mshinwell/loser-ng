@@ -1,0 +1,98 @@
+; Laser.SVX
+; Austrian Laser coordinates
+; Covering area from flank of Hinterer Schwarzmoos kgl onto plateau
+; ie. including caves 161, 145, 156, 82, 83, 107
+
+;Created 1994.03.06, from Wads file 'coordinates'
+;W 1995.08.08 Added Laser points from 0_7 to 14_16 (S & W of Vord)
+;W 1996.07.30 Note that 7_11 point seems to be in the wrong place
+
+;Austrian Laser Rangefound points, use grid coordinates which can cause a
+;great deal of confusion on several counts:
+
+;a) Y means easting, X means northing, so these symbols are the opposite of
+;    what seems normal to British punters.
+;b) a typical grid reference doesn't have the same number of digits in the
+;    easting and northing, because the origin is a long way south (its on the
+;    equator !), but not that far west, and no leading zeroes are added.
+;c) not all leading digits of the grid coordinates are quoted anyway.
+;d) Sometimes one version of the easting is quoted, with values in our area
+;    of around 36000, and sometimes a version from a system (BMN) where
+;    the equivalent is 486000. To be fair, the systems are not usually
+;    mixed in one area.
+
+;The coordinate system is called the Gauß + Krüger Landeskoordinatensystem,
+;which is in fact a designed-to-confuse alternative name for Universal
+;Transverse Mercator (UTM) and in this area is UTM zone 33 (BMN zone 31).
+;Within this system, there are a number of triangulation points surveyed
+;purely for the purpose of locating caves: these are the (it won't fit here)
+;Katastertriangulierungspunkte, or KT points. The X (or north) coordinate,
+;when quoted in full, is actually the distance in metres north of the equator.
+
+;    point     Y         X         Altitude where ?
+; prefix (52) for complete X co-ord.
+*begin Laser
+
+;default to output in utm33, input in 'Austria G&K'
+*cs out utm33
+*cs custom "+proj=tmerc +lat_0=0 +lon_0=13d20 +k=1 +x_0=0 +y_0=-5200000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232"
+
+*export KT114_96 0 0_1 0_2 0_3 0_4 0_5 0_6 0_7 7_8 7_9 7_10 7_11
+*export 8_12 8_13 8_14 14_15 14_16
+
+;; ; lines indicating what was surveyed from where (i.e there are lines of sight)
+;; *data nosurvey from to
+;; *begin
+;; *flags surface
+;; 0 0_1
+;; 0 0_2
+;; 0 0_3
+;; 0 0_4
+;; 0 0_5
+;; 0 0_6
+;; 0 0_7
+;; 0_7 7_8
+;; 0_7 7_9
+;; 0_7 7_10
+;; 0_7 7_11
+;; 7_8 8_12
+;; 7_8 8_13
+;; 7_8 8_14
+;; 8_14 14_15
+;; 8_14 14_16
+;; *end
+
+;================================
+	; These are the real coordinates
+;================================
+;0_1 means point 1, sighted from point 0 (and a distant hill)
+
+*FIX KT114_96 reference 36670.37  83317.43  1903.97  ;Hinterer Schwarzmooskogel Trig point
+*FIX 0        reference 36386.56  82804.16  1815.45  ;Hilfstandpunkt (hillock N of 161)
+*FIX 0_1      reference 36093.56  82337.43  1782.35  ;Near 156
+*FIX 0_2      reference 36029.92  82432.14  1750.06  ;Plateau, between 0_1 and 0_4
+*FIX 0_3      reference 35866.51  82424.03  1710.16  ;Plateau, SW of 0_4
+*FIX 0_4      reference 35927.72  82537.57  1687.45  ;Wolfhöhle
+*FIX 0_5      reference 36005.96  82782.82  1690.70  ;82, 83, 107 area
+*FIX 0_6      reference 35873.09  82944.29  1647.78  ;76
+
+;Here are some more from the Vord/Nase Area
+; These were all given with the X co-ord as +200,000 - normalised as above.
+; More details in the LaserVdtxt file.
+*FIX 0_7      reference 35419.56 82237.16 1769.77 ;Brauning Nase
+*FIX 7_8      reference 36040.75 81522.72 1732.39 ;The Nipple/Bunter's Bulge
+                                         ;Felskuppe im Beriech des Vd Schwz.
+*FIX 7_9      reference 35395.41 81044.60 1588.31 ;Elchhöhle 1623/31, Punkt am Weg
+*FIX 7_10     reference 35620.23 81945.22 1629.97 ;Graben zum Schwarzmoossattel
+*FIX 7_11     reference 35659.16 82394.55 1682.67 ;Schwarzmoossattel          ; this point is suspicious. 
+         ;The bolt we have found does not correspond by over 100m
+*FIX 8_12     reference 35924.02 81699.80 1725.04 
+*FIX 8_13     reference 36171.86 81947.11 1775.14 
+*FIX 8_14     reference 36458.17 81700.42 1689.48 ;Schwarzmooskogeleishöhle 1623/40a
+*FIX 14_15    reference 36464.69 81751.21 1686.66
+*FIX 14_16    reference 36558.32 81537.13 1660.39
+
+*end Laser
+;The Easting grid line +36000 (UTM zone 33) is the same as
+; BMN 486000 (which is the grid upon which the Arge surveys are plotted),
+; so now you know ! ?

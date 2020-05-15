@@ -1,0 +1,55 @@
+*begin juicybits
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Pretty Bits"
+*date 2001.08.15
+*team Insts Tony Rooke
+*team Notes Martin Green
+*team Tape Tony Rooke
+*instrument Compass #3 ; Clino #3, Tape Open Case (with a whirly bit)
+; Calibration: Stone bridge: 324.0/-21.5   323.5/-22.0  323.5/-21.5  148.0/+22
+;                            147.5/+22     148.0/+22
+; ref: 2001#XXX
+; ====== stations refindable to link to other surveys: ======
+
+*export p10 p8 1
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	p10	5.17	151	-05
+1	2	10.67	215	-15
+3	2	8.20	005	+32
+3	4	6.10	175	-22; compass changed from 021 to 175 due to resurvey by earl and Phil
+5	4	2.56	246	-08	
+5	6	6.75	015	+25
+7	6	4.09	314	-01
+7	p8	5.15	153	-08
+8	2	4.40	220	+35; compass changed from 324 to 220 tape from 9.42 to 4.40 due to resurvey by earl and phil
+
+;station details
+;name	L	R	U	D	description
+;1	3.0	1.0	1.6	1.6	RP boulder at entrance on right
+;2	1.4	2.5	1.4	2.2	RP on ceiling, plus CM
+;3	0.7	2.3	0.9	1.5	RP on ceiling
+;4	0.7	0.0	1.0	0.3	RP plus PM plus CM on outside bend
+;5	1.5	0.4	1.2	0.2	top of rock
+;6	0.2	0.5	0.8	0.3	number 6 in pencil
+;7	1.6	0.8	1.6	0.6	CM on L wall
+;8	0.5	1	2.5	1.8	-
+
+;Details of resurveyed legs
+;Date: 4/9/2001
+;Notes: Earl Merson
+;Inst/tape: Phil Underwood
+;Tape +50 (50cm too short)
+;From	to	tape	compo	clino
+;8	2	4.90	220	+34
+;3	2	8.74	008	+30
+;3	4	6.62	175	-23
+
+*end juicybits
+
+
+

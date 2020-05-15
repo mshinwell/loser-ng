@@ -1,0 +1,107 @@
+*begin noserock
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Balconhohle
+
+*export 77x 18
+
+*title "Nose Rock"
+*date 2015.07.17
+*team Notes Frank Tully
+*team Instruments Rachel Turnbull
+*instrument Comp, Frank's DistoX2
+*ref 2015#07
+
+;Nose Rock (Lead 87b) and Flapjack Lost (Lead 86a)
+;from 	to 	tape 	compass clino
+*flags splay
+77x	1	23.67	359.5	25.8  ; splay
+*flags not splay
+77x	2	3.83	117.9	42.0
+2	3	5.78	111.8	63.4
+3	4	1.51	149.7	-15.5
+4	5	5.47	152.0	69.5
+6	5	5.08	233.5	-4.4
+6	7	8.82	353.2	10.5
+8	7	12.23	211.8	-6.6
+9	8	12.53	312.7	7.2
+9	10	2.63	93.6	-0.7
+10	11	4.97	81.9	29.0
+12	8	3.73	286.9	42.6
+
+*date 2014.07.18
+;Flapjack Regained
+;from 	to 	tape 	compass clino
+12	13	8.3	354.2	-7.2
+13	14	6.62	356.4	1.6
+14	15	7.58	344.8	25.4
+14	16	1.05	276.9	-1.9
+16	17	10.47	260.5	-45.9
+17	18	5.72	024.8	-10
+18	19	15.79	63.2	-60.1
+17	20	8.83	252.8	12.3
+20	21	3.58	007.5	19.1
+21	22	10.32	326.8	26	
+23	22	5.86	143.2	-25.9
+23	24	7.73	18.4	8
+23	25	2.88	348.3	-33.4
+26	25	3.6	95.2	-11.13
+26	27	8.5	199.2	-3.1
+
+;17	30	5.66	153.3	-11.6  ; comment on drawn survey that this was backwards leg
+30	17	5.66	153.3	-11.6
+
+31	30	4.14	126.2	-4.4
+32	31	3.45	132.6	1.4
+32	33	1.87	309.9	30.2
+
+40	20	2.91	013.2	-6.8
+40	41	4.88	156.9	-30.2
+41	42	7.74	146.6	10.2
+43	42	3.60	2.2	-24.9
+43	44	2.71	125.7	14.4
+41	45	3.99	218.7	15.1
+45	46	8.89	172	0.8
+46	77x	13.18	181.9	-26.7
+
+
+*data passage station left right up down ignoreall
+;start of traverse
+2	4	.5	2	2	rd on boulder
+3	0	1	6	1.8	rd on wall
+4	1.5	.1	6	2	rd on boulder
+5	0	.4	2	.6	rd on wall of slot
+6	12	0	10	1	rd on wall of chamber
+7	0	5	6	3	rd on wall
+8	0	3.5	3	1	rd on wall
+9	0.5	0	2	1.5	rd on wall
+10	.25	.25	.8	0		
+11	0.3	20	2	0.2	
+13	0.2	1	.5	1.2	rd on boulder
+14	15	5	6	1.1	rd on corner
+15	15	0	25	0	rd on wall
+17	.5	6	31	2	rd on wall of chamber
+18	0	2	18	1.8	rd on wall next to pitch
+19	-	-	-	-	splay down pitch
+20	-	-	4	0.2	
+21	1.5	3.6	3.6	0.4	rd on boulder
+22	1.4	1.5	2	1.3	rd on boulder
+23	.7	1.0	3.2	2.0	rd on rock
+24	1.7	3.6	0.8	0.1	rd on rock
+25	2	1	4	10	rd on boulder
+26	.5	.3	1.3	1.6	rd
+27	2.6	.5	1.0	.8	rd on end of passage
+30	.8	.1	2.7	.8	rd on wall
+31	.4	.3	3.7	1.0	rd on wall
+32	.8	0	1.0	.1	rd on boulder
+33	.1	.1	.5	0	rd at end - small choke
+40	2.5	0.8	1.7	1.7	rd on boulder
+41	.6	3.3	1.3	.4	rd on boulder
+42	.3	2.5	2.5	.6	rd on boulder
+43	3.5	.2	1.5	.5	rd on point off wall
+44	1	1	.6	1.3	rd on boulder
+45	3.5	0	4.8	1.7	rd on wall
+46	2.0	4.4	4.4	2.3	rd on slope
+
+*end noserock
+

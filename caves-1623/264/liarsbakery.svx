@@ -1,0 +1,52 @@
+*begin liarsbakery
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2005-5 "Balcony Hohle"
+
+*export	42	15	7
+
+*title "liarsbakery"
+*date 2014.08.05
+*team Insts Andrea Futrell
+*team Tape Andrea Futrell
+*team Notes Mike Futrell
+
+*ref 2014#13
+
+;from	to	tape	compass	clino	remarks
+42	1	4.29	155	-10
+1	2	3.7	171	12
+2	3	0.99	-	up
+3	4	7.5	253	-16
+4	5	12.6	275.5	-24
+5	6	3.97	275	-13
+6	7	10.58	282	-14
+7	8	5.02	258	8.5
+8	9	7.76	210.5	-21
+9	10	8.02	182.5	-18
+10	11	19	208	-26.5
+11	12	9.71	176	-42
+12	13	6.42	189	-22
+13	14	2.44	240	-25
+14	15	7.13	206	-28
+
+*data passage station left right up down ignoreall
+42	1.5	1	0	1.5
+1	0.6	0.6	0.5	0.7
+2	1.5	0.5	1	0.6
+3	1.5	0.5	0	0.6
+4	0	1.2	1	1
+5	0	1.5	1.5	0.3
+6	1.5	0	2.5	0.5
+7	0.6	1	4	0
+8	2	0	4	1.5
+9	1.5	0	4	1
+10	0	1.5	4	0.5
+11	-	0	-	1.5
+12	1.4	0	1	1
+13	0	0.7	1	1
+14	0	1	1	1
+15	0.7	0	1	1
+
+*end liarsbakery
+

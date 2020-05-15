@@ -1,0 +1,42 @@
+;1998.04.07 AERW Added comments, refs, exports
+
+*begin 136surf
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinschlagchacht 1623/136
+*title "Surface Steinschlagschacht to Vord. Schwarzmooskogel"
+*date 1983.08.09 ; or earlier?
+*team Insts Chas.
+*team Notes Naomi
+*team Pics none
+*instrument Suunto compass, Silva Clino (Chas')
+; Calibration:	claim grade 3 compass, grade 5 stations & clino
+; ref.:	data from back of 1983 logbook, dated 1983.08.09
+; original data has no station names or numbers, just legs labelled
+; "R" or "F". Data proof checked against logbook (not original notes)
+; by AERW 1998.01.23
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 15	; summit of VSK - not clear which point
+*export 0	; entrance of Steinschalgschacht - unclear which point
+
+15	14	 2.6	077.	-25.5 ;Vorderer Schwarzmooskogel Summit 1843m
+13	14	17.06	223.	+18.
+13	12	12.75	012.	-19.
+11	12	12.51	153.	+27.
+11	10	15.67	037.	-27.5
+9	10	18.04	242.	+13.5 ; 
+9	8	19.9	043.	-11. 
+7	8	14.8	279.	+03.
+7	6	 9.9	115.	-11.5
+5	6	 7.3	003.	+07.
+5	4	 8.39	059.	+04.
+;3	4	13.8	272.	-01.5 ; red annotation in 1983 logbook
+; photocopy in AERW's archive says "should be -15 according to book !"
+3	4	13.80	272	-15.
+3	2	11.15	102.	-18.
+1	2	15.2	272.	+14.
+1	0	 7.6	096.	-39.
+*end 136surf
+; end of 136-VSK survey

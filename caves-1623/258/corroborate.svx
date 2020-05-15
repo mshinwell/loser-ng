@@ -1,0 +1,61 @@
+; Wookey's attempt to check errors in our surveys
+
+*begin corroborate1
+
+*export 6 5 3 2 1 35x
+*date 2018.07.01
+;resurvey of 2011#36 March of the penguins - far end, next to penguin fellatio
+; Wookey, Ryan Boultbee, Alex
+
+*flags duplicate
+6  5    3.03   004.1  +11.1
+5  4	5.56   318.4  +9.1
+3  4	4.98   175.3  +7.5
+3  2	4.86   281.0  -29.5
+2  1	9.44   293.8  -28.6
+1  35x	5.92   272.2  -29.6
+
+*end corroborate1
+
+*equate corroborate1.6 corroborate2.1
+
+*equate corroborate2.32 marchofthepenguins.32
+*equate corroborate2.33 marchofthepenguins.33
+*equate corroborate2.34 marchofthepenguins.34
+*equate corroborate2.35 marchofthepenguins.35
+*equate corroborate2.36 marchofthepenguins.36
+
+*begin corroborate2
+
+;day2
+; Wookey, Ryan Boultbee
+*export 32 33 34 35 36 
+*export 1 2 3 4 5 6 8 9
+;day2
+*date 2018.07.02
+; disto calibration poor for clino (1.7 degree difference upside/downside noted)
+; resurvey of marchofthepenguins
+32  33  5.14   010.6  -15.7   ;motp.32-33
+33  34  2.649  306.0   +1.0   ;motp.33-34 this was marked as 'unsure 2.69/3.69' in original survey.
+34  35  2.977  024.5   +3.9   ;motp.34-35
+35  36	4.858  354.8   +12.6  ;motp.35-36
+36  35	4.877  174.5   -14.2  ;motp 36-35 - checking clino. calib not good.
+
+
+;resurvey of penguinfellatio (Tunnocks side)
+1   2a   4.731  188.3   +2.7   
+6   5	 7.007  211.9  +26.8
+5   4	12.952  250.0  +32.9
+4   3	 9.821  042.7   +2.4
+3   2	11.172  304.1  -29.3
+2   2a	 1.411  334.3  -13.2
+7   6	10.447  249.4  +63.6
+8   7	 2.547  146.8  +13.4
+8   9	 1.114  171.8  -38.5
+9   ..	 25.42	27.3   -78
+
+;1  RP '6' end of motp
+;2  far traverse bolt
+;2a pf 
+
+*end corroborate2

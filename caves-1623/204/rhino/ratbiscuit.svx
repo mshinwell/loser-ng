@@ -1,0 +1,74 @@
+*begin ratbiscuit
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Rat Biscuit"
+*date 2003.07.27
+*team Insts Becka Lawson
+*team Notes Julian Todd
+
+*instrument set 3
+
+; ref 2003 #09
+
+; Calibration: stone bridge: 147/+23 332/-23
+
+; ====== stations refindable to link to other surveys: ======
+
+*export jb10
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+jb10	2	9.24	036	+18
+3	2	3.60	258	-10
+3	4	3.60	042	+21
+5	4	7.22	184	-05
+5	6	4.15	288	+03
+7	6	12.63	209	-15
+7	8	8.74	018	+19
+9	8	7.66	212	-12
+9	10	7.12	034	+17
+10	11	4.64	052	+19
+12	11	2.80	198	-11
+13	12	3.08	269	-31
+13	14	2.31	075	+19
+15	14	3.32	168	+02
+15	16	8.64	015	+06
+17	16	8.66	134	+06
+17	18	3.65	316	-08
+19	18	3.57	116	+46
+19	20	3.25	332	-34
+21	20	3.89	134	-04
+21	22	4.23	294	 00
+23	22	2.61	164	-09
+23	24	6.37	317	+16
+
+;station details
+;name	L	R	U	D	description
+;jb10	0.3	2	3	1.5	=onamission.10
+;2	1.5	0.3	1.8	1.2	RP R stal
+;3	1.3	0.15	2	1	RP cauli on RW
+;4	1.0	0.3	2.5	1.1	RP spike
+;5	0	1.5	3.0	0.3	RP wall
+;6	0.2	1.3	1.9	0.6	RP wall
+;7	0.1	1.0	0.7	1.6	RP LW painted number
+;8	0	0.5	2.5	1.2	CM LW
+;9	0.8	0	2.3	0.5	RP RW
+;10	0.2	0.5	3.5	0.6	CM LW
+;11	1.0	0.2	3.5	0.6	RP RW
+;12	0.1	1.2	3.0	0.2	RP floor, number scratched
+;13	0	0.4	2.0	1.7	RP wall
+;14	0.5	0	1.5	2	CM wall
+;15	0.6	0	2	0.5	RP wall
+;16	0.8	0	2.5	1	CM wall
+;17	0.5	0	1.5	1.5	RP wall
+;18	0.5	0	1.6	2.2	CM wall
+;19	0.1	0.8	2.5	0.5	RP wall
+;20	0.6	0.2	3.5	0	CM floor
+;21	0	0.4	3.5	0.8	RP wall
+;22	0	0.7	3.5	0.5	CM on ledge
+;23	0	0.4	4	0.8	RP wall
+;24	0.4	0	0.1	1.0	CM/RP on wall, dripping
+
+*end ratbiscuit
+

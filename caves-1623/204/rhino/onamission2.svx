@@ -1,0 +1,33 @@
+*begin onamission2
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "On a Mission 2"
+*date 2003.07.26
+*team Insts Martin Green
+*team Notes Earl Merson
+
+*instrument set 2
+
+; Calibration: stone bridge: 149/+23 149/+24 149.5/+23
+;                            330/-22 330.5/-23 328/-22
+
+; ref: 2003 #08
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 2 20
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+20	1	1.70	301	-25
+1	2	4.00	-	down
+
+;station details
+;name	L	R	U	D	description
+;20	0	1.4	4	1.4	RP RW
+;1	-	-	-	-	pitch-head bolt
+;2	-	-	-	-	bottom of plumb, RP
+
+*end onamission2
+

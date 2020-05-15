@@ -1,0 +1,36 @@
+*begin 245to204d
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "245 to 204d"
+*date 2003.08.02
+*team Insts Olly Madge
+*team Notes Mark Shinwell
+*instrument Set 1
+; Calibration: stone bridge: 331/-21 148/+22
+; ref.:	2003#31
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 7
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	24.28	160	-30.5
+2	3	30.22	078	+24
+3	4	23.66	013	+01
+4	5	29.14	064	+24
+5	6	20.42	155	+17
+6	7	13.67	026	-28
+
+;stn	height	desc
+;1	0	spit for tag bolt 2003-09
+;2	0	RP boulder
+;3	1.5	RP rock outcrop
+;4	0.5	RP top of cairn
+;5	2	RP rock outcrop
+;6	0.5	bunde tip
+;7	1	204d tag bolt
+
+*end 245to204d
+

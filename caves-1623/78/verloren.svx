@@ -1,0 +1,76 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schwabenschacht 1623/78
+
+*begin verloren
+*title "Rundzug Verlorene Halle"
+
+*export W0
+*export V1
+*export 10_0
+
+; -1-
+; Messteam: Bernd Feile, Jens Römer, Michael Brucklacher, Robert Winkler
+; Zeichner: Robert Winkler
+; Referenz: SMK 1
+*date 1993.07.26
+
+*data normal from to length gradient bearing
+W0	W1	14.44	1	356	; von '92er Messzug übernommen
+W1	W2	9.40	18	220
+W2	W3	23.65	42	270
+W3	W4	7.10	-45	120
+W4	W5	10.40	DOWN	-
+W5	W6	3.00	25	140
+W6	W7	11.10	-53	83
+W7	V1	1.80	8	98	; V1=U11 im Messbuch
+V1	W0	10.08	15	94	; V2=U12=W0
+
+; Raumwerte
+; keine Raumwerte
+
+
+; -2- L-Meßzug: Verlorene Halle in einen Schacht (verm. Forstenrieder 1);
+;     W-Meßzug: Hinter Verlorener Halle hoch (Richtung Predigtstuhlschacht)
+; Messteam: Klaus Gebhard, Robert Winkler, Thilo Müller
+; Zeichner: Robert Winkler
+; Referenz: SMK 1
+;*date 1992.08.24
+
+;*data normal from to length clino compass
+; NOTICE: Doppelvermessung in forsten.svx
+;W0	L1	15.70	-22	246
+;L1	L2	5.97	-43	62
+;L2	L3	8.30	DOWN	-
+;L3	L4	1.60	0	135
+;L4	L5	8.78	DOWN	-
+;L5	L6	3.28	13	137
+;L6	L7	7.87	-42	161
+;L7	L8	19.00	DOWN	-
+
+; NOTICE: Doppelvermessung 1993 (siehe oben)
+;W0	W1	14.44	1	356
+;W1	W2	14.77	29	231
+;W2	W3	12.65	49	277
+;W3	W4	9.60	46	273
+
+; Raumwerte
+; keine Raumwerte
+
+
+; -3- Verbindungsgang Stuttgarter Halle - Verlorene Halle
+; Messteam: Alexander Wöhrle, Dirk Riemann, Markus Scheuermann
+; Zeichner: Markus Scheuermann
+; Referenz: SMK 1
+*date 1993.07.26
+
+*data normal from to length clino compass
+; Änderung MP-Bezeichnung: MP18 wird zu MP10 usw., da MPE0=MP10
+10_0	10_1	15.20	30	250
+10_1	10_2	9.30	10	240
+10_2	10_3	9.35	-45	185
+10_3	W2	13.30	-53	158
+
+; Raumwerte
+; keine Raumwerte
+
+*end verloren

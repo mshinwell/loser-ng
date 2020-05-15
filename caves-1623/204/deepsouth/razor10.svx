@@ -1,0 +1,74 @@
+*begin razor10
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Razor Dance 10"
+*date 2007.07.18
+*team Insts Anthony Day
+*team Notes Duncan Collis
+*instrument Shetland Attack Pony
+
+; ref. 2007#15
+
+; Calibration at stone bridge: "Checked for consistency against sighting instruments"
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 15 22
+;1 is razor9.16
+
+*calibrate tape +0.00	; +ve if tape was too short, -ve if too long
+1	2	01.92	184	-27
+2	3	09.45	-	down
+4	3	12.00	129	+59
+4	5	02.03	274	-04
+5	6	03.29	343	-47
+6	7	04.79	256	-09
+7	8	05.54	359	+14
+8	9	14.08	301	-68
+9	10	02.40	047	+04
+10	11	13.04	322	-61
+11	12	05.56	300	-17
+12	13	02.85	347	 00
+13	14	03.48	020	+01
+14	15	02.49	305	-28
+15	16	04.97	314	-17
+16	17	02.61	235	+10
+17	18	02.20	167	-33
+18	19	03.53	241	-12
+19	20	04.34	235	-46
+20	21	04.28	244	+02
+21	22	08.30	190	-68
+
+
+
+;station details
+;name	L	R	U	D	description
+
+*data passage station left right up down ignoreall
+1	3.5	0.2	2	2	numbered, RHW
+2	4	2	2	-	bolt of Y-hang
+3	-	-	-	-	RP pitch wall
+4	0.6	1	5	1.6	RP L wall
+5	0	0.5	15	1.5	RP L wall
+6	1	0	7	0.5	RP R wall
+7	0.5	1	10	1.8	RP L wall
+8	3	2	15	2.5	RP R nose
+9	0.5	5	30	1 ;(10) RP L wall
+10	1.5	0	30	-	RP L wall
+11	3	1.5	20	2	RP R wall
+12	0	0.5	20	1	LW pencil X
+13	0.5	0	10	1.5	RW pencil X
+14	0.5	0.5	10	2.5	RW pencil X
+15	0.5	1	10	2.5	LW pencil X numbered
+16	1	0.5	10	1	RW pencil X
+17	0.5	0.5	10	1.6	RW pencil X
+18	1	0.5	10	1.7	L nodule pencil X
+19	0.5	0	5	1.5	LW pencil X
+20	0.7	0	5	1.5	RW pencil X
+21	1	0.5	5	1.5	LW pencil X
+22	0.2	1	12	1.5	Part drilled spit hole LW
+
+
+*end razor10
+

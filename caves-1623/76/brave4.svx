@@ -1,0 +1,46 @@
+;Eislufthoehle 1623/76
+
+*begin brave4
+
+*title "Brave New World 4"
+*date 2004.07.26
+*team Insts Jenny Black
+*team Notes Olly Betts
+*team Tape Jenny Black
+*instrument Compass 3 ; Clino 3
+; notes in 2004 #20
+
+*export 1 12 14
+
+2	1	5.10	055	-12.5
+2	3	3.085	253	-15
+4	3	5.39	333.5	-08.5
+5	4	2.00	-	down
+6	5	2.83	028	-10
+6	7	7.38	220	-01.5
+7	8	2.73	088.5	-33.5
+8	9	10.38	-	up
+10	9	1.05	310	00
+10	11	3.19	-	up
+11	12	2.255	159	+61
+12	13	3.90	191	+21
+14	13	2.10	220	-08
+
+*data passage station left right up down ignoreall
+
+1       0.8     0       7       1.25    backup bolt
+2       0       1.0     8       1.6     NP
+3       1       0       6       0.9     NP RHW
+4       0       0.7     8       1.2     NP LHW
+;5      -       -       -       -       NP LHW
+6       0.75    0.05    4       1.2     NP RHW
+7       3.2     0       9       1.55    NP bottom of pitch
+8       3.0     0.25    10      0       pebble on floor
+9       -       -       4       10.38   pebble on pitch
+;10     -       -       -       -       J on rope
+;11     -       -       -       -       deviation krab
+;12     -       -       -       -       NP near pitch head
+;13     -       -       -       -       pt on wall by pitch
+;14     -       -       -       -       station 15 of previous survey
+
+*end brave4

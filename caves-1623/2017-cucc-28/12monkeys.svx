@@ -1,0 +1,115 @@
+*begin 12monkeys
+
+; stations linked into other surveys (or likely to)
+*export 3 8 15 16 17 3x 4x 21
+
+; Cave: Fisch Gesicht Hoehle
+; Area in cave/QM: Entrance
+*title "Fisch Gesicht Hoehle"
+*date 2017.06.08
+*team Insts Adam Aldridge, Aidan Marks
+*team Notes Rob  Watson
+*instrument CHECC Disto
+; Calibration: Austria, Brendan Hall
+*ref 2017#50
+
+; if using a tape:	*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall	
+; stations linked into other surveys (or likely to)
+							
+4x	1	5.77	088.5	+7.5
+1	2	2.63	98.5	+8
+2	3x	2.34	153	+24
+2	3	4.92	059	-57.5
+3	4	4.67	061	-40
+4	5	4.37	353	-31
+5	6	5.04	103	+04
+5	7	5.36	277	-52
+7	8	8.96	301	-13
+8	..	7.27	249	-13 ;splay shot across pitch
+3	10	3.60	333	-34
+10	11	3.86	313	-37
+11	12	2.50	322	-32
+12	..	18.54	282	-50 ;splay shot down to pitchhead
+12	14	8.65	183	-20
+14	15	4.47	118	-10
+15	16	5.75	138	-33
+16	17	3.63	094	-21
+17	18	8.98	116	-35
+18	19	2.39	145	-10
+19	20	5.49	098	-37
+20	21	2.38	109	-11
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down ignoreall
+
+1	0.6	1.7	1.2	1.1
+2	1	3.4	1.4	1.2
+3	1.6	0	1	2
+4	0.6	0	4	2
+5	1	0	2.5	1
+6	-	-	-	-
+7	0	2	5	1.5
+8	1.5	0	1	1
+;9	2	3	8	5
+
+;Station Left Right Up Down Description
+*data passage station left right up down ignoreall
+3	1.6	0	1	2
+10	0.8	0	2	1
+11	0	0.7	0.6	0.4
+12	0	4.8	2	3.3
+14	1.5	1.5	8	2
+15	0	2.5	4.2	5
+16	1	0	8	1
+17	0	0.5	8	6
+18	0.3	2	8	8
+19	0.6	0.2	8	5
+20	0	0.5	5	2
+21	0.5	0.3	6	0.8
+
+;Station Left Right Up Down Description
+*data passage station left right up down ignoreall
+1	0.6	1.7	1.2	1.1
+4x	1.6	0	0.9	0.4
+
+;Station Left Right Up Down Description
+*data passage station left right up down ignoreall
+1	0.6	1.7	1.2	1.1
+3x	1.8	0	2.4	0.4
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+
+;------------
+;Cave description  ;(leave commented-out)
+
+;Drop down 4m pitch. There are 3 holes, a pitch (p11) to the left into
+;a large canyon, a steep descending rift climb down ahead, and to the
+;right a shallower passage in the same plane. They all end up in the
+;same canyon. Climbing down the middle route gets onto a large boulder
+;wedeged in the top of the canyon, from where one can climb to the
+;bottom of the p11 pitch. The passage to the right descends, then
+;doubles back (short dead-end crawl off to right) to end up at a
+;window looking out into the canyon.
+
+;From where the p11 lands one can climb left into a traverse level in
+;narrower rift. this can be followed 30m (and 14m down) to where it
+;meets a small streamway in the back of the canyon. This ascends very
+;steeply and can be followed for about 10m before becoming too tight.
+;The same point can be reached by traversing higher up.  From near the
+;lowest point you can drop down another level in the right and follow
+;yet another traversable level until it gets too right.
+
+*end 12monkeys

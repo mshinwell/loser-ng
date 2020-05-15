@@ -1,0 +1,55 @@
+
+
+;1998.08.05 DRJC
+
+*begin clearas
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Kaninchenhöhle, 1623/161
+*title "Clear as Mud"
+*date 1998.07.04
+*team Insts Brian Outram
+*team Notes Duncan Collis
+*team Pics Duncan Collis
+*team Tape Brian Outram
+*instrument Compass #4 ; Clino #4 
+; Calibration:	
+; ref.:	1998 KH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 26
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	2.15	070	0	;
+3	2	2.78	025	+28	;Surveyed out
+4	3	3.27	002	+05	;from end of
+5	4	2.68	349	-02	;passage without
+6	5	2.85	057	+36	;leapfrogging
+7	6	3.05	019	+38	;survey legs in
+8	7	4.25	037	+18	;original notes
+9	8	1.74	328	+10	;were all recorded
+10	9	3.20	025	+22	;in reverse (!)
+11	10	2.90	351	+03	;
+12	11	1.58	021	-04	;
+13	12	0.55	083	+12	;
+14	13	1.90	121	+10	;
+15	14	2.70	042	+17	;
+16	15	3.73	094	+03	;
+17	16	4.75	149	+02	;
+18	17	3.63	069	+19	;
+19	18	5.24	000	-02	;
+20	19	1.37	077	+27	;
+21	20	5.03	316	+07	;
+22	21	4.14	304	+05	;
+23	22	1.07	324	-02	;
+24	23	3.23	307	-06	;
+25	24	3.42	331	+12	;
+26	25	4.24	275	-23	;
+
+;station details
+;name	L	R	U	D	E	description
+
+*end clearas

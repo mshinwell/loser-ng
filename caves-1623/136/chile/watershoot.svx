@@ -1,0 +1,53 @@
+*begin watershoot
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Kaninchenhöhle, 1623/161 (136)
+*title "Watershoot"
+*date 1999.07.31
+*team Insts John
+*team Notes Becka
+*team Pics Becka
+*team Tape Simon
+*instrument Compass 3 ; Clino 3
+; Calibration:	N/A
+; ref.:	1999 KH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 8 13
+
+*calibrate tape -0.15	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+
+2	1	9.12	109	+31.5
+2	3	27.27	-	down
+4	3	9.83	143	+43
+4	5	14.01	229	-27
+5	6	9.32	229	-42.5
+6	7	17.78	286	-38
+7	8	10.07	244	-36.5
+9	8	5.49	081	+14
+9	10	12.42	177	-53
+10	11	3.17	102	-38
+11	12	3.06	167	-62
+13	12	2.265	235	+51
+	
+;station details
+;name	L	R	U	D	description
+;1	5	8	15	3	first of Andy's and Jon's lost in space marked one in pencil. Top of boulder, bottom of chamber
+;2	5	10	5	27	upper right bolt, head of pitch
+;3	0	2	30	2	red dot on wall, bottom of rope
+;4	4	4	2	15	red dot on wall, end of rift, bottom of pitch, top of boulders
+;5	3	5	12	3	red dot, fer side of huge boulder, perched in rift passage
+;6	0	3	5	8	red dot on left wall by final choke boulder
+;7	3	5	5	4	red dot, top of boulder, middle of passage
+;8	0.7	4	0	3	red dot, knobble on roof, left side of passage
+;9	5	0	3	1	red dot on righnt wall q. high on flake
+;10	5	2	0	1	red dot on spike on roof, middle of passage	
+;11	0.2	1	3	0	red dot, top of boulder, jammed into middle of small end to slope
+;12	1	1	0	2	red dot, bottom edge of largea boulder, wedged in roof
+;13	0	1	4	1	red dot and red 13 on left wall, started narrow canyon, Draught coming downslope into canyon
+
+*end watershoot
+

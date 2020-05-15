@@ -1,0 +1,10 @@
+*equate 244.skinny.26 p244
+
+*begin 244
+*export skinny.26
+
+*include skinny
+*include gravity
+*equate skinny.21 gravity.1
+
+*end 244

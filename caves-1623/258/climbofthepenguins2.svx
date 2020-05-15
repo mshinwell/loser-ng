@@ -1,0 +1,47 @@
+*begin climbofthepenguins2
+  
+*export 9x 10
+
+*title "Ticking off a QMC? climb from 39 steps in Tunnocks"
+*date 2012.08.08
+*team Instruments Stuart Walker
+*team Notes Frank Tully
+;*team Dogsbody Serena Povia
+*instrument SAP n2
+
+*calibrate tape +0.30	; +ve if tape was too short, -ve if too long
+
+;ref 2012#14
+
+;from	to	tape	compass	clino	remarks
+
+9x	1	2.66	112	+76
+1	2	4.30	302	+35
+2	3	6.07	246	+37
+3 	4	3.10	309	+31
+2	5	1.37	212	+47
+6	5	7.90	147	-23
+6	7	1.45	136	-82
+7	8	3.18	353	-53
+8	9	3.54	048	-58
+8	10a	3.18	305	-21
+10	10a	10.60	169	+02	
+
+*data passage station left right up down ignoreall
+
+9x 	-	-	-	- 	red dot on wall marked 9 in pencil
+1	-	-	-	-	red dot up climb above point 9
+2	-	-	-	-	red dot on R wall
+3	0.7	2	1	0.5	red dot on boulder
+4	0.4	0.1	0.3	0.1	red dot ?
+5	-	-	-	-	red dot on popcorn on wall
+6	1	0.3	3	1.5	red dot above ? 
+7	1	0.3	4.5	0	red dot on rock on floor of hole 
+8	2.5	1	4	1	red dot on projection of floor
+9	-	-	-	-	red dot on wall of T-junction
+10a	0.5	0.5	0.7	1.2	red dot on popcorn
+10	-	-	-	-	red dot with red '10' painted underneath
+
+*end climbofthepenguins2
+
+

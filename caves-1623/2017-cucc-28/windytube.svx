@@ -1,0 +1,61 @@
+*begin windytube									 									
+; stations linked into other surveys (or likely to)
+*export A7 B3 B5 B6 B4
+
+; Cave: Fisch Gesicht Hoehle
+; Area in cave/QM: Entrance
+*title "Fisch Gesicht Hoehle"
+*date 2017.08.03
+*team Insts Mike Butcher
+*team Notes Alice Shackley
+*instrument CHECC Disto
+; Calibration: Probably Austria
+*ref 2017#36	; the #number is on the clear pocket containing the original notes
+
+; if using a tape:	*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall	
+							
+B1	BSplay1	13.93	103.1	-14.8
+B2	B1	6.69	106.4	12.1
+B3	B2	13.18	125	27.9
+;B3	BSplay2	17.57	18.5	-52.6
+B4	B3	9.6	102.2	12.6
+B5	B4	4.76	59.3	3.7
+B6	B5	7.31	126	-10.9
+B7	B6	11.98	281.3	-80.6
+A7	B7	7.82	159.8	-45.9
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down ignoreall
+
+B1	1.6	1.8	2	1.4
+B2	1.4	0.6	0.9	2.2
+B3	1.8	0	2.4	0.4
+B4	1.6	0	0.9	0.4
+B5	0	1.6	1	0.5
+B6	1.3	3.9	18.1	4
+B7	3.3	0	6.8	13.1	
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surveyname.5    -    description of QM ]
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+
+; Phreatic tube terminating in meander, starts windy but lose draft	
+
+*end windytube

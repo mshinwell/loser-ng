@@ -1,0 +1,130 @@
+;1998.03.02 AERW sorted begin/end, added comments, refs. and clino calib.
+
+; ====== links between surveys in this file: ======
+
+*equate Pntless.13	ptchrp.2.6
+
+*begin PtchRp
+; ======  stations refindable to link to other surveys: ======
+
+*export 2.6	; boulder opposite rock bridge between two holes in Arrow cha.
+*export 2.7	; roof at entrance to Arrow Chamber
+
+*equate 2.1	1.16
+
+*begin 1
+
+; Cave:	Kaninchenhöhle, 1623/161
+; Locn:	Totes Gebirge, Austria
+*title "Pitch Ramp Series"
+*date 1993.07.14 ; trip 1993-161-11 in logbook
+*team Notes Lummat
+*instrument Dave Galvin
+*team Tape Nick Proctor
+*instrument Illuminated Compass 112518 & clino 834867
+; Calibration:	(Lummat) : 93 cairn: 
+*team clino +09.5,+10, (back) -10, -11
+*team compass 042, 041/5 (back) 219, 219
+;	Zinken (from higher cairn): +3/5, +3, 251/5, 252
+; ref.:	1993 survey book pp 148-151
+
+; ======  stations refindable to link to other surveys: ======
+
+*export 16	; junction to Arrow Chamber
+
+*calibrate clino -0.375
+
+;surveyed out
+
+1       2       3.9     203     -05
+3       2       2.5     299     +31
+3       4       3.3     118     -13
+3       5       12.9    -       UP
+6       5       2.0     135     -06
+7       5       3.4     338     +26
+7       8       2.4     011     -38
+9       8       2.65    320     +21
+5       10      4.85    160     +64
+11      10      3.1     310     -11
+11      12      3.7     127     -21
+13      12      6.7     325     +27
+11      14      10.2    163     +78
+15      14      6.0     137     +08
+15      16      9.5     314     -08
+17      16      11.3    285     -13
+17      18      4.3     058     +03
+19      18      2.0     291     +07
+19      20      3.0     307     -50
+20      21      3.7     327     -20
+22      20      3.5     322     +47
+22      23      2.7     142     +32
+24      23      2.1     328     -10
+25      23      4.0     255     +27
+*end 1
+*begin 2
+
+; Cave:	Kaninchenhöhle, 1623/161
+; Locn:	Totes Gebirge, Austria
+*title "Pitchramp to entrance of Arrow Chamber"
+*date 1993.07.17 ; trip 1993-161-15 in logbook
+*team Insts Dave Galvin
+*team Notes Hugh Adams
+*team Tape Hugh Adams
+*instrument Compass #721899, Clino #834867
+;Calibration:	none (same insts as next survey, so assume calib clino = 0)
+;surveyed out
+; ref.:	1993 survey book pp 162-163
+
+; ======  stations refindable to link to other surveys: ======
+
+*export 1	; LH wall just beyond T-jn (R to dead end, L to stn 1)
+*export 6	; boulder opposite rock bridge between two holes in Arrow cha.
+*export 7	; roof at entrance to Arrow Chamber
+
+1       2       4.15    321     -16
+2       3       6.25    009      00
+3       4       4.10    -        UP
+5       4       3.58    179     -01
+5       6       6.65    042     -19
+7       6      10.37    146     -31
+
+*end 2
+*end PtchRp
+
+*begin Pntless
+
+; Cave:	Kaninchenhöhle, 1623/161
+; Locn:	Totes Gebirge, Austria
+*title "Pointless and Not Quite"
+*date 1993.07.18 ; trip 1993-161-16 in logbook
+*team Insts Nick Proctor
+*team Notes Hugh Adams (Nick)
+*team Tape Nick and Hugh Adams
+*instrument Compass #721899, Clino #834867
+; Calibration:	(Nick) : 93 cairn:
+*team clino +10, (back) -10
+*team compass 040, (back) 220
+;		Zinken(from lower cairn): +9, 231
+;		Zinken(from higher cairn): +9, 231
+; the figures to Zinken are way off the norm. not clear why.
+; ref.:	1993 survey book pp 164-165
+
+; ======  stations refindable to link to other surveys: ======
+
+*export 13	; boulder opposite rock bridge between two holes in Arrow cha.
+; surveyed out
+
+1       2       5.15    151     -7
+1       3       8.89    -       UP      
+3       4       1.57    105     +18
+4       5       2.57    029     +7
+6       5       2.53    256     -40
+6       7       5.52    345     -18
+7       8       7.04    -       UP
+8       9       2.70    287     +36
+9       10      29.7    -       UP
+10      11      4.01    293     +40
+11      12      14.75   323     +87
+12      13      3.58    025     +11
+
+*end Pntless

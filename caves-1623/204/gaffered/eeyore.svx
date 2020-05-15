@@ -1,0 +1,36 @@
+*begin eeyore
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Pooh Styx"
+*date 2003.07.29
+*team Insts Becka Lawson
+*team Notes Martin Green
+
+*instrument set 2
+
+; ref 2003 #16
+
+; Calibration: stone bridge: 151/+22 327/-23
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 5
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+2	1	2.56	338	-23
+2	3	4.75	145	+05
+4	3	5.38	314	-30
+4	5	5.83	143	-25
+
+;station details
+;name	L	R	U	D	description
+;1	-	-	-	-	bolt
+;2	1.2	0.2	3	0.5	RP nobble
+;3	0.8	0.4	3	0.1	RP RW numbered
+;4	0.1	1	6	1.5	RP nobble, LW numbered
+;5	0.5	0.3	10	3.5	RP RW
+
+*end eeyore
+

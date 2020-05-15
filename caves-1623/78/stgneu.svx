@@ -1,0 +1,26 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schwabenschacht 1623/78
+
+*begin stgneu
+*title "Stuttgarter Halle - Neuer Schacht"
+
+*export E0	; haupt.10 schlepp.7_10 verloren.10_0
+*export E5	; haupt.E5 parallel.1_3
+
+; -1- E-Meßzug: Stuttgarter Halle - Neuer Schacht
+; Messteam: Frank Sarstedt, John Gebhard, Klaus Gebhard
+; Zeichner: Klaus Gebhard
+; Referenz: Messprotokolle
+*date 1991.07.18-1991.08.02
+
+*data normal from to length gradient compass
+E0	E1	13.85	-48	55
+E1	E2	3.98	-59	0
+E2	E3	8.60	-56	54
+E3	E4	12.30	-61	62
+E4	E5	5.20	69	25
+
+; Raumwerte
+; keine Raumwerte
+
+*end stgneu

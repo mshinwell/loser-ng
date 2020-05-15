@@ -1,0 +1,201 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Weiße Warzen Schacht 1623/143
+
+*begin rampe
+*title "Rampe"
+
+*export 17	; haupt.17
+*export 17_3_3	; iqcanyon.0
+*export 17_3_12	; iqcanyon.12_0
+*export 17_3_18 ; doppelrohr.0 
+*export 17_1	; canyon.3_6_17_1 	
+
+
+; -1-
+; Messteam: Robert Winkler, Stefan Mark, Thomas Holder
+; Zeichner: Stefan Mark
+; Referenz: "Robert + Saskia"
+*date 2006.08.16
+
+*data normal from to length gradient compass
+17	17_1	7.84	38	55
+17_1	17_2	13.89	11	60
+17_2	17_3	15.13	10	63
+17_3	17_4	17.55	-45	145
+
+17_3	17_3_1	7.29	-2	85
+17_3_1	17_3_2	7.40	25	32
+17_3_2	17_3_3	15.96	0	73
+17_3_3	17_3_4	9.57	-6	46
+17_3_4	17_3_5	6.47	-56	85
+17_3_5	17_3_6	8.11	-9	50
+17_3_6	17_3_7	13.72	18	33
+17_3_7	17_3_8	5.72	1	23
+17_3_8	17_3_9	6.84	-22	36
+17_3_9	17_3_10	1.97	3	75
+17_3_10	17_3_11	5.22	24	13
+17_3_11	17_3_12	5.59	-12	58
+
+*data PASSAGE	station	left	right	up	down
+17	3	4	1.5	2
+17_1	1.1	1.5	0	1.8
+17_2	1.2	0.7	0	0.5
+17_3	1.3	3	1.2	0
+;17_4	4	1.5	3	1.5
+
+*data PASSAGE	station	left	right	up	down
+17_3	1.3	3	1.2	0
+17_3_1	1.5	0.1	3	1.2
+17_3_2	1	2.5	0	0.7
+17_3_3	1	5	5	0
+17_3_4	2	0	1.5	4
+17_3_5	0	1	1.2	1.2
+17_3_6	0.6	0.7	0.5	0.2
+17_3_7	1.2	0	2.5	2.5
+17_3_8	1.2	0	1.5	2
+17_3_9	0	1.5	0.6	0.7
+17_3_10	1.5	0.2	0.5	1
+17_3_11	0	1	1.5	3
+17_3_12	1.2	0	2	2.5
+17_3_13	0.6	0.4	2	1.5
+17_3_14	0	1.5	0.5	1.5
+
+
+; -2-
+; Messteam: Stefan Mark, Thomas Holder
+; Zeichner: Stefan Mark
+; Referenz: "Robert + Saskia"
+*date 2006.08.17
+
+*data normal from to length gradient compass
+17_3_12	17_3_13	5.64	-14	38
+17_3_13	17_3_14	11.06	-10	54
+
+17_3_3	3a_1	10.93	3	34
+3a_1	3a_2	4.86	40	7
+3a_2	3a_3	8.25	10	46
+3a_3	3a_4	2.33	-19	77
+3a_4	3a_5	3.39	-5	48
+3a_5	3a_6	6.00	-20	62
+3a_6	3a_7	3.20	15	358
+3a_7	3a_8	6.35	30	30
+3a_8	3a_9	10.13	12	23
+3a_9	3a_10	3.71	17	60
+
+3a_2	3a_b1	2.88	0	156
+3a_b1	3a_b2	4.08	-2	212
+3a_b2	3a_b3	1.51	-10	170
+3a_b3	17_3_3	8.34	-22	225
+
+*data PASSAGE	station	left	right	up	down
+17_3_3	1	5	5	0
+3a_1	1	0	1	0.5
+3a_2	1	1.5	0.1	0.5
+3a_3	0	0.7	0.2	0.7
+3a_4	1.2	0.3	0	1
+3a_5	0.6	0.3	1	0.3
+3a_6	1.2	0.3	1.2	0
+3a_7	0	2.5	0.5	1.3
+3a_8	1.2	0	0.6	0.4
+3a_9	0	1.5	2	0.5
+3a_10	0	1.2	0	1.7
+
+*data PASSAGE	station	left	right	up	down
+3a_2	1	1.5	0.1	0.5
+3a_b1	0	1	0.5	0.5
+3a_b2	1	0	0.2	0.6
+3a_b3	0	1.5	0.2	4
+17_3_3	5	1	5	0
+
+
+; -3-
+; Messteam: Torben Schulz, Markus Scheurmann, Stefan Mark, Thomas Holder
+; Zeichner: Torben Schulz
+; Referenz: Ilja
+*date 2007.08.10
+
+*data normal from to length gradient compass
+17_3_14	17_3_15	4.73	-17	58
+17_3_15	17_3_16	2.80	-25	40
+17_3_16	17_3_17	8.83	23	33
+17_3_17	17_3_18	8.13	-1	16
+17_3_18	17_3_19	10.21	4	36
+
+*data passage station left right up down
+17_3_14	0	1.5	0.5	1.5
+17_3_15	0.5	1	1	0.2
+17_3_16	0.1	0.4	0	1
+17_3_17	1.6	0.5	1	0
+17_3_18	0	1.5	1.2	0.1
+17_3_19	0.2	0	0.2	0
+
+
+; -4-
+; Messteam: Helmut Stopka-Ebeler, Robert Winkler
+; Zeichner: Robert Winkler
+; Referenz: SMK 7
+*date 2012.08.08
+
+*data normal from to length clino compass
+17_2	17_2_1	2.13	+25	295
+17_2_1	17_2_2	7.96	+43	313
+17_2_2	17_2_3	6.46	+32	47
+17_2_3	17_2_4	6.62	-28	105
+17_2_4	17_2_5	6.32	-49	163
+
+*begin
+*flags duplicate
+17_2_5	17_3	9.81	+8	71
+*end
+
+*data passage station left 	right 	up 	down
+17_2	5	5	0.5	1
+17_2_1	5	0.2	1	0
+17_2_2	3	6	1.5	0
+17_2_3	0	1.5	0.1	1
+17_2_4	0	2.5	0.3	3
+17_2_5	2.5	0.5	1.5	0.5
+17_3	1	1	0.5	1.5
+
+
+*data normal from to length clino compass
+17_2_2	17_H1	3.11	-5	235
+17_H1	17_H2	4.22	-1	201
+17_H2	17_H3	3.42	+51	200
+
+*data passage station left 	right 	up 	down
+17_2_2	3	6	1.5	0
+17_H1	1	0.5	1	1.2
+17_H2	0.2	0.4	2	1.2
+17_H3	0	0.6	0.2	1
+
+
+*data normal from to length clino compass
+17_3	17_3_A1	5.39	+39	18
+17_3_A1	17_3_A2	2.67	-4	72
+17_3_A2	17_3_A3	3.39	-17	104
+
+
+*begin
+*flags duplicate
+17_3_A3	17_3_1	3.81	-40	178
+*end
+
+*data passage station left 	right 	up 	down
+17_3	1	1	0.5	1.5
+17_3_A1	1.2	0.1	0.2	1.2
+17_3_A2	1.5	0	1	0.2
+17_3_A3	5	2	0.5	1.2
+
+*data normal from to length clino compass
+3a_2	3a_2_1	3.10	+37	269
+3a_2_1	3a_2_2	4.41	+16	211
+3a_2_2	3a_2_3	4.27	-17	221
+
+*data passage station left 	right 	up 	down
+3a_2	1	2	1	1
+3a_2_1	3	0.5	1	0
+3a_2_2	0.3	1	0.5	1
+3a_2_3	0	1.2	1	2
+
+*end rampe

@@ -1,0 +1,162 @@
+;> 1623/Kat.Nr 41
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Stellerweghöhle Kat.Nr.41
+; 4 Vermessungen
+
+
+*begin oktar
+
+
+*export g8
+
+;-1-
+*title "Oktars Schacht"
+; Messteam: Jörg Haussmann, Robert Eckardt, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 2
+*date 1997.07.24
+
+*units clino degrees
+*units compass degrees
+
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+g8      g8a      0.87    38      90
+g8a     1       7.16    9       242
+1       2       2.4     -90     0
+2       3       5.85    -21     233
+3       4       7.44    -10.5   267
+;4       P8      17      -15     280
+; Messzug 4 auf P8 nur grob gemessen, MP 9 der Messung vom 142er Eingang
+; ist noch ca. 5-6 Meter von der Peilstelle entfernt
+
+;Raumwerte
+*data passage station left right up down
+g8a	-	-	-	-
+1	-	-	3	2
+2	-	-	-	-
+3	0.5	1.5	0.5	1
+4	-	-	-	-
+
+
+;-1-
+*title "Oktars Schacht"
+*date 2002.08.18
+; Messteam: Aiko Schütz, Robert Winkler, Uli Schütz
+; Zeichner: Robert Winkler
+; Referenz: Messbuch 7
+
+
+;------------------------------------------------
+;Neigungsmessung in GON
+
+*units clino grads
+*units compass degrees
+;------------------------------------------------
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung	Richtung
+4	5	0.39	17	260
+5	6	3.68	-54	185
+6	7	16.83	-100	0
+7	8	7.93	-50	178
+8	9	13.73	-100	0
+9	10	4.15	-4	194
+10	11	5.64	-31	168
+11	12	5.45	-42	348
+
+;Raumwerte
+*data passage station left right up down
+5	0	2	-	-
+6	4	10	5	-
+7	-	-	-	-
+8	2	0	6	-
+9	0	1.5	6	1
+10	0	3	3	2
+11	1.5	0	0.5	2.5
+12	0	2	0.5	2
+
+
+;-2-
+*title "Oktars Schacht"
+*date 2002.08.19
+; Messteam: Arjan Boonman, Matthias Jauss, Stefan Mark, Uli Schütz
+; Zeichner: Stefan Mark
+; Referenz: Messbuch 4
+
+;------------------------------------------------
+;Neigungsmessung in GON
+
+*units clino grads
+*units compass degrees
+;------------------------------------------------
+
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung	Richtung
+12	13	5.07	-67	2
+13	14	1.65	-38	47
+14	15	9.05	-100	0
+
+11	11_1	2.35	-3	243
+11_1	11_2	9.70	-39	185
+
+11_1	11_3	1.35	2	190  	;	11.3 = a im Schacht
+11_3	11_4	8.83	-100	0      	;       11.4 = b im Schacht
+
+;Raumwerte
+*data passage station left right up down
+12	0	2	0.5	2
+13	0	1.3	0	1.5
+14	0	1	5	9
+15	0.5	2	11	0
+
+*data passage station left right up down
+11	1.5	0	0.5	2.5
+11_1	0.8	2	0	1.5
+11_2	0	0.4	0.3	0.8
+
+*data passage station left right up down
+11_1	0.8	2	0	1.5
+11_3	0	2	0.1	9
+11_4	0.8	0.8	0	10
+
+;-3-
+*title "Oktars Schacht"
+*date 2002.08.23
+; Messteam: Aiko Schütz, Uli Schütz, Uli und Aiko Schütz
+; Zeichner: Uli Schütz
+; Referenz: Messbuch 7
+
+
+;------------------------------------------------
+*units clino degrees
+*units compass degrees
+;------------------------------------------------
+
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung	Richtung
+5	5_1	12.25	-69	235
+5_1	5_2	17.87	-77	202
+5_2	5_3	3.97	-33	145
+5_3	5_4	1.42	-41	208
+5_4	5_5	9.68	-90	0
+5_5	5_6	3.56	21	170
+5_6	5_7	5.08	-90	0
+5_7	12	2.28	27	82
+
+;Raumwerte
+*data passage station left right up down
+5	0	2	-	-
+5_1	2	4	3	-
+5_2	3	1	10	2
+5_3	1.5	0.2	6	1.5
+5_4	1	0	0.4	9.68
+5_5	-	-	-	-
+5_6	-	-	-	-
+5_7	-	-	-	0.2
+12	2	1	0.2	0.3
+
+*end oktar

@@ -1,0 +1,41 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	258 "Tunnockschacht"
+
+*begin thinredline
+
+*export 2 8 9 10
+
+*title "Thin Red Line"
+*date 2008.08.06
+*team Insts Steve Jones 
+*team Notes Becka Lawson 
+*instrument Becka's Pony
+
+;ref.:	2008 #30
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+8	10	16.76	201	-26
+
+2	1	5.62	227	-57
+3	2	20.40	121	-89
+4	3	13.14	-	down
+5	4	18.41	122	-77
+9	5	2.08	020	-09
+
+*data passage station left right up down ignoreall
+8	1.5	2	10	1	previous Ollie S & Becka station on boulder tip before pitch numbered 7
+10	3	1.5	8	1	rp final boulder before pitch, last station from Becka, Andrew and Wookey survey in 2007
+
+1	2.5	10	40	1.5	rp first ledge on opposite wall to y hang
+2	1	8	8	7	LRUD are NSEW measures; rp just R of first rebelay spit
+3	-	-	-	-	rp just left of double rebelay spit
+4	-	-	-	-	rp one metre left and 30cm above rebelay spit
+5	-	-	-	-	lip of pitch, foot level for traverse
+9	4	1	8	1.2	rp boulder mid traverse, the next to last station from Becka, Andrew and Wookey survey in 2007
+
+*end thinredline
+
+
+

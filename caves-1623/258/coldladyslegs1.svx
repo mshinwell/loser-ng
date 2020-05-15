@@ -1,0 +1,139 @@
+*begin coldladyslegs1
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export 30x	60	50 
+*export 43
+
+*title "Cold Lady's Legs"
+*date 2014.08.06
+*team Notes Mike Futrell
+*team Insts Becka Lawson
+*team dog Neil Pacey
+*instrument Becka's old DistoX
+
+*ref 2014#18 ;same reference as coldlfinger3 survey as done on same trip
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+30x	18	9.55	55	-48
+18	19	3.83	223	-25
+19	20	4.55	144	-33
+20	21	4.01	140	9
+21	22	3.58	160	-14
+22	23	8.34	199	-7
+23	24	2.77	273	16
+24	25	3.27	6	-55
+25	26	10.61	112	-71
+22	27	2.83	11	22
+27	28	4.01	144	9
+28	29	3.27	227	-27
+29	30	17.78	151	-65
+28	31	11.98	161	-6
+31	32	12.92	151	8
+32	33	1.55	246.5	-5
+33	34	17.31	125	15.5
+34	35	2.56	122	5
+35	36	7.69	176.5	-5.5
+36	37	3.03	86	17
+37	38	8.98	161	9
+38	39	5.03	146	-4
+39	40	5.15	171	3
+;40	41	13.36	262	-15 removed as pit now crossed
+40	42	7.90	73	20
+42	43	3.49	146	-13
+42	44	1.94	55	35
+44	45	3.23	30	6
+45	46	3.50	100	27
+46	47	4.34	39	16
+47	48	1.68	47	11
+48	49	8.59	299	-21
+47	50	3.25	152	7
+39	51	4.68	81	26
+51	52	2.66	84	-2
+52	45	4.68	93	32
+52	53	4.57	73	5
+33	54	10.59	164	10
+54	55	5.35	313	17
+54	56	5.40	146	20
+56	57	9.13	149	18
+56	58	13.65	158	2
+58	59	3.38	124	4
+59	60	4.52	147	9
+;60	61	25.49	154	9 removed as pit now crossed
+*flags duplicate
+;60	62	13.94	155	11 removed as pit now crossed
+*flags not duplicate
+33	63	2.89	217	21
+63	64	3.17	303	-16
+64	65	2.81	343	-1
+65	66	3.31	289	-12.5
+27	67	5.54	44	26
+67	68	5.16	20	23
+68	69	2.29	42	-2
+69	70	10.83	37	23
+
+
+*data passage station left right up down ignoreall
+
+;stn	L	R	U	D	Desc
+
+30x	0	1	-	9
+18	0	2	7	1.5
+19	2	0	8	3.5
+20	0	0.6	1.3	1
+21	0	0.6	2	1
+22	0	2.5	6	1.5
+23	1.5	0.5	1.6	0.4
+24	0	2	6	2
+25	1	2	4	2
+26	0	3	-	-	shot down
+27	0	3	3	2
+28	0	2	-	-	
+29	1	0	1	1
+30	-	-	-	-	down pit
+*data passage station left right up down ignoreall
+31	1	1.2	2	0.3
+32	0	2.5	1	1.5
+33	1.5	1	1	1.5
+34	3	0	1	1.5
+35	0	2	1	1.5
+36	2	0	2	1.5
+37	0	2	1.5	1.5
+38	1	6	6	1
+39	2	0.5	1.2	0
+40	1	0	3	1
+;41	-	-	-	-	back of Dome pit
+42	0	1	1.9	1
+43	0.2	0.2	1	6
+*data passage station left right up down ignoreall
+44	0.6	0	1.3	0.7
+45	0	1.5	2	1
+46	2	0	1.2	3
+47	0	2	-	-	
+48	0.4	0	-	-	
+50	1	1	0.3	0.5
+*data passage station left right up down ignoreall
+51	0.7	0	1	1.5
+52	-	-	-	-	tie in stn 45
+*data passage station left right up down ignoreall
+54	1	2.5	2.5	1
+55	0.4	0.4	13	0
+56	0	1.5	1.5	1.2
+57	0	0.3	0	0.2
+58	0.7	0	0.4	1
+59	0.2	1.4	-	1.5
+60	1	1.8	4	1
+;61	-	-	-	-	no count
+63	0.3	0.4	0	1
+64	0	0.9	0.7	0.6
+65	1	0	1.5	1
+66	0	1.4	1.3	1
+*data passage station left right up down ignoreall
+67	1.2	0	0.6	1.4
+68	0	2	1	0.5
+69	0	1.3	1.2	-
+
+*end  coldladyslegs1

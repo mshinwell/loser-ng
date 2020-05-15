@@ -1,0 +1,27 @@
+;2000.03.05 W Fictitions survey created
+
+*equate 135.0	P135	;Tag
+*entrance P135
+
+*begin 135
+
+; Note this is not a real survey - it exists just to 'give the general idea'
+
+; Locn:	flank of Vorderer Schwarzmoos Kgl, Loser Augst-Eck, Totes Gebirge, Austria
+*title "Schwa Schacht, 1623/135"
+*date 2000.03.06 ; (discovered 1983)
+*team Wookey
+*instrument none
+; Calibration:none
+; Ref.:	
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0	; the entrance tag
+
+;readings grade 1
+*data normal from to length bearing gradient
+    0      1        1      0        0
+    1      2        20     -     Down
+
+*end 135

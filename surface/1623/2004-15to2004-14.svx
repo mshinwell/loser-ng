@@ -1,0 +1,32 @@
+*begin 2004-15to2004-14
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "2004-15 to 2004-14"
+*date 2004.08.02
+*team Insts Olly Madge
+*team Notes Frank Tully
+*team Pics Stuart Bennett
+*team Tape Both
+*instrument Compass ? ; Clino #4 Tape: ?
+; Calibration: @204 329/-24 152/+24
+; ref.:	2004#40
+
+; ====== stations refindable to link to other surveys: ======
+
+*export p2004-15a p2004-14
+*entrance p2004-15a
+*entrance p2004-14
+
+;from	to	tape	compass	clino	; remarks
+1	p2004-15a	26.88	063	+09	; leg reversed
+p2004-14	1	4.66	202	+05	; leg reversed
+
+
+
+;station details
+;name	 description
+;p2004-15a 2004-15a tag
+;1	 RP on wall
+;p2004-14 2004-14 tag
+*end 2004-15to2004-14 
+

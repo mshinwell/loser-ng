@@ -1,0 +1,202 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Windloch 1623/032
+; 9 Messreihen
+
+*begin main
+*title "Windloch Hauptvermessung"
+
+*export 0
+*export 12
+; *export	15
+; *export	17
+; *export	19
+*export 21
+*export 22
+*export 30
+
+*units compass degrees
+*units clino degrees
+
+
+; -1-
+; Messteam: Uli Schütz, Wieland Scheuerle
+; Zeichner: Wieland
+; Referenz: Messbuch SMK 8
+*date 2008.09.17
+
+*data normal from to length clino compass
+0	1	8.27	-27	269
+1	2	4.75	-40	245
+2	2_1	3.35	-24	53
+2_1	2_2	11.81	-64	93
+
+2	3	4.67	-24	287
+3	4	6.67	-78	130
+4	5	4.21	-31	187
+5	6	4.10	-54	130
+6	7	5.74	-72	153
+7	8	1.86	-8	100
+8	9	5.12	-32	345
+9	10	1	-20	165	; TODO (Werte geraten)
+10	11	22.55	DOWN	-
+11	12	7.45	61	75
+12	13	9.31	-5	339
+13	14	8.66	7	3
+14	15	12.10	-2	41
+15	16	2.74	42	304
+16	17	5.30	11	88
+17	18	4.56	-37	71
+18	19	6.93	-26	172
+19	20	20.0	-34	109
+20	21	10.04	-28	79
+21	22	20.03	-5	186
+22	23	12.27	2	229
+23	24	8.76	-0.5	208
+24	25	7.48	-13	241
+25	26	11.99	-3	196
+
+; Raumwerte
+*data passage station left right up down
+0	1	0	1	1
+1	1.2	0.5	0.2	1
+2	0.2	0.5	0.3	1.1
+2_1	0	1.5	1.5	2
+2_2	0	1	1	0.3
+
+*data passage station left right up down
+2	0.2	0.5	0.3	1.1
+3	0.1	2	0	2
+4	1	4	3	1.2
+5	0.5	0.5	0	0.7
+6	1	0.5	0.5	4
+7	0.3	0	4	1
+8	0	1	0.4	0.2
+9	0	0.5	1	20	;vermutet
+10	1	1	1	19	;vermutet	
+11	1	1	22	0	;vermutet
+12	3	0.5	4	1
+13	2	2	0.6	1
+14	0.2	0.2	0	0.7
+15	4	5	1.3	0.4
+16	4	2	0.1	0.8
+17	2.2	1	0	0.5
+18	0	4	0.7	0.2
+19	3	0.5	1	1
+20	5	0	1	0.6
+21	4	8	4	2
+22	0.2	3	0.5	0.8
+23	1	1.2	0	0.7
+24	5	0	1	1.8
+25	1	0	4	1
+26	0	1.3	6	2
+
+
+; -2-
+; Messteam: Kyra, Tewje, Wieland
+; Zeichner: Wieland
+; Referenz: SMK 10
+*date 2009.08.13
+
+*data normal from to length clino compass
+26	27	4.19	-16	186
+27	28	9.55	-19	122
+28	29	13.11	1	234
+29	30	0.95	53	174
+30	31	6.68	-5	208
+31	32	12.86	-29	106
+32	33	15.45	-37	132
+33	34	6.40	-27	53
+34	35	8.80	-18	127
+35	36	3.63	-15	11
+36	37	8.71	16	336
+37	38	18.50	-32	93
+
+33	33_1	5.95	12	194
+33_1	33_2	17.78	36	274
+
+23	23_1	6.49	3	54
+23_1	23_2	12.40	-45	116
+23_2	23_3	5.37	-3	38
+23_3	23_4	4.62	-43	112
+23_4	23_5	3.77	-13	44
+23_5	23_6	6.08	-11	25
+23_6	23_7	9.20	-45	94
+23_7	23_8	5.10	-17	23
+23_8	23_9	2.12	-18	54
+23_9	23_10	15.90	-58	42
+
+; Raumwerte
+*data passage station left right up down
+26	0	1.3	6	2
+27	1	0	6	1.5
+28	5	6	4	0.5	
+29	1.5	0.5	3	0.3
+30	1	1	1	1
+31	3	1	1	0.5
+32	4	3.5	0	1.3
+33	3	6	0.5	1
+34	0	2	0.3	1
+35	2	1	0	2
+36	1	1	0	2
+37	0.5	4	0	2
+38	0.3	2	0	0.3
+
+*data passage station left right up down
+33	3	6	0.5	1
+33_1	2	4	0	1
+33_2	0.5	0.5	0.3	0.6
+
+*data passage station left right up down
+23	1	1.2	0	0.7
+23_1	2	1.5	0	2
+23_2	3	0.3	1	0.5
+23_3	0.5	0.3	0	0.5
+23_4	1.5	0.2	0.3	0.5
+23_5	1	0.5	0	1
+23_6	0.3	0.9	0.5	0
+23_7	1	0.3	0	0.4
+23_8	0.6	0.4	0.4	0.6
+23_9	0.6	0	0.3	1
+23_10	0	0.7	1	25
+
+
+; -3-
+; Messteam: Uli Schütz, Wieland Scheuerle, Ilja Anders, Thomas Holder, Helmut Stopka-Ebeler
+; Zeichner: Wieland
+; Referenz: Messbuch Ilja
+*date 2011.08.10
+
+*data normal from to length clino compass
+15	15_1	4.43	2.5	160
+15_1	15_2	4.77	-14	100
+15_2	15_3	1.87	-11	28
+15_3	19	1.89	-55	105
+
+; Raumwerte
+*data passage station left right up down
+15	4	5	1.3	0.4
+15_1	0.7	4	0	1
+15_2	0.8	0	0.2	0.5
+15_3	0	1.2	0.3	0.6
+19	3	0.8	1.9	1
+
+*data normal from to length clino compass
+17	17_1	4.58	-10	263
+17_1	17_2	14.59	DOWN	-
+17_2	17_3	5.43	-10	119
+17_3	17_4	6.30	-70	155
+17_4	17_5	2.18	14	35
+17_5	17_6	12.19	25	114
+
+; Raumwerte
+*data passage station left right up down
+17	2.2	1	0	0.5
+17_1	1.2	3	0.8	14.59
+17_2	0.4	0.4	15	0
+17_3	0.2	0.9	8	8
+17_4	1.5	0	9	1.8
+17_5	0	1	8	1.8
+17_6	1	0	7	2
+
+
+*end main

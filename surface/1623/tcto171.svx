@@ -1,0 +1,386 @@
+;1996.07.23 OJWB created
+;1998.04.03 AERW tidied, added comments, refs, exports, stn. details
+;1998.07.16 AERW added new B8 to 101 survey
+;1998.07.19 AERW added 1993-01 to 103 and 173 to 103 surveys
+;1998.07.24 AERW added lardysurf survey
+;2000.03.07 W Added not188 survey
+
+; ====== links between surveys in this file ======
+
+*equate	TCto171etc.27	B8to101.0
+*equate lardysurf.5	B8to101.10
+*equate 103toLRH.9	B8to101.22
+*equate 103to173.5	B8to101.24
+*equate not188.6	TCto171etc.8
+*equate TCto188.1	TCto171etc.8
+
+*begin TCto171etc
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "Link top camp to lower top camp and various holes"
+; Caves:	164, B11, 189, 190, B8, 171
+*date 1996.07.23
+*team Insts Andy W
+*team Tape both
+*team Notes Olly
+*instrument black rubber clino, NPC2 compass
+; Calibration:	none
+; Ref.: 1996 surface stuff survey book, pp 33-36
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; P100 is centre of 'tens' zero in "100" number in red
+*export 8	; TClower fixed point spit-hole in pavement in lower top camp
+*export 12	; TC upper top camp fixed: red dot on top of licheny boulder
+*export 14	; B11tag spit drilled for number tag next to red painted
+		; number at SW corner of shaft on flat pavement
+*export 17	; P164tag drilled spit for number tag
+*export 20	; t189 spit drilled for tag on flat pavement south of hole
+*export 24	; t190 spit drilled for number tag below surface level,
+		; SW corner (1623/190 = CUCC-1976-B9)
+*export 27	; B8tag newly drilled spit for tag, just below red painted
+		; "B8" on east facing wall above ground at NW corner of shaft
+*export 30	; t171 spit drilled for number tag on south facing wall
+		; to east of main entrance in south facing cliff.
+
+2	1	 6.46	283.5	-09
+2	3	 8.615	040	-19
+3	4	15.61	002	-20.5
+5	4	19.31	115	-00.5
+5	6	19.74	284	-02.5
+6	7	 9.64	309.5	+05
+8	7	18.34	169.5	+03
+9	7	23.83	028	-03
+10	9	27.28	059	-16.5
+10	11	15.69	189	+18
+12	11	 4.975	351	-12.5
+13	4	20.00	212.5	-00.75
+13	14	14.24	055	-11.5
+15	14	29.23	190	-00.5
+15	16	29.85	346	-07
+16	17	17.665	292.5	-03
+17	18	 0.105	020	+30
+19	17	 5.78	262	-05
+19	20	 3.30	003	-21
+21	20	22.93	159.5	+01
+21	22	22.67	061	+02
+23	22	17.36	239	-05.5
+23	24	13.87	234	-18
+23	25	24.36	096	-07
+26	25	19.47	319.5	+06
+26	27	 2.36	256	+00.5
+28	22	27.38	126	-00.5
+29	28	29.81	094	-05
+29	30	24.87	317	-00.5
+
+; station details
+
+; 1 = P100
+; 2 rock spike
+; 3 top of rock
+; 4 pencil X on rock
+; 5 top of rock lump
+; 6 high spot on ground
+; 7 point on top of tripod (no longer there :-)
+; 8 = TClower
+; 9 rock corner left of first section of climb up
+; 10 rock corner right of second section of climb
+; 11 random point on pavement
+; 12 = TC upper
+; 13 point on top of tripod (no longer there :-)
+; 14 = B11tag
+; 15 point on top of tripod (no longer there :-) leg straight down joint
+; 16 pointed edge of grike at ground level
+; 17 = P164tag
+; 18 centre of "6" in 164 (irrelevant)
+; 19 point on top of tripod (no longer there :-) 1.06m above random spit in
+;    pavement (presumed old backup bolt)
+; 20 = t189
+; 21 point on top of tripod (no longer there :-) 10m from north edge of hole
+;    therefore deduce that shaft is 13m across
+; 22 cairn above SW corner of 190 (unlikely to last long)
+; 23 point on top of tripod (no longer there :-)
+; 24 = t190
+; 25 cairn (original cairn quite old, but new top stone probably won't last)
+; 26 point on top of tripod (no longer there :-)
+; 27 = B8tag
+; 28 rock
+; 29 point on top of tripod (no longer there :-)
+; 30 = t171
+
+*end TCto171etc
+
+*begin B8to101
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "Link B8 to caves in 101-103 area"
+; Caves:	B8, 101, 103
+*date 1998.07.16
+*team Insts Andy W
+*team Tape Andy W
+*team Notes Andy W
+*team Pics Andy W
+*instrument set 4
+; Calibration:	at Top Camp
+;		TC-temp -0.5, temp-TC +1.5
+;		TC-Col R of Schonberg 351
+; Ref.: 1996-8 surface stuff survey book, pp 51,52
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0	; bolt of B8 tag
+*export 10	; stick in grike (only for use 1998)
+*export 22	; pencil cross on boulder marked in red
+		; (only intended for use in 1998 :-)
+*export 24	; bolt of tag, 1623/103
+*export 27	; bolt of tag, 1623/101
+
+*calibrate clino +0.5
+
+0	1	11.10	022.	+01.5
+2	1	15.93	108.	-05.75
+2	3	29.35	299.5	-00.5
+4	3	25.52	155.	-11.5
+5	4	27.78	160.5	-06.5
+6	5	29.65	192.5	-15.5
+6	7	 9.84	004.	+10.
+8	7	23.28	260.	+12.5
+9	8	20.07	207.5	-08.
+9	10	27.15	014.5	-02.5
+11	10	16.35	212.5	+06.
+11	12	25.05	303.5	-00.5
+13	12	29.91	160.	+12.
+14	13	26.48	175	-05.
+14	15	13.90	049.5	-08.
+16	15	30.26	206.5	+06.5
+17	16	26.36	183.5	+04.5
+17	18	28.98	337.5	-05.
+19	18	13.72	144.5	-06.25
+20	19	26.39	124.5	+07.
+21	20	28.13	150.	+06.
+22	21	 6.38	240.	+09.
+22	23	22.10	076.5	+01.
+23	24	10.36	067.5	-17.
+23	25	26.40	127.	-05.
+26	25	13.05	311.5	 00.
+26	27	 4.41	025.5	+02.5
+
+; station details
+
+; 0	bolt of CUCC-1976-B8 tag
+; 1	floor, karren
+; 2	small cairn (maybe part of TCto171 survey ?)
+; 3	rock on small scarp
+; 4	tripod above scarp
+; remaining survey follows no longer existing orange
+; paint marked route (he recorded, helpfully)
+; 5	larch tree (Larix decidua)
+; 6	tripod above climb up
+; 7	cliff face
+; 8	floor of karren, near cliff edge
+; 9	tripod perched on cliff edge
+; 10	stick wedged in grike
+; 11	tripod made tall
+; 12	bunde on edge of small cliff at climb down
+; 13	floor of karren
+; 14	tripod - top of climb marked with red paint
+; 15	edge of small slabby cliff (or cliffy slab ?)
+; 16	dead bunde above E wall of rift
+; 17	rock near choked shaft
+; 18	floor of karren
+; 19	existing cairn on large boulder with red paint mark
+; 20	tripod above slabby climb with red paint mark
+; 21	top of smallish boulder
+; 22	small boulder with red paint mark (pencil X)
+; 23	tripod with view of 103 and terrach with 101 and 102
+; 24	bolt of tag on 1623/103
+; 25	middling boulder
+; 26	biggish boulder with v sharp point
+; 27	bolt of tag of 1623/101
+
+*end B8to101
+
+*begin 103toLRH
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "Link 103 to Lost Rucksack area"
+; Caves:	103, CUCC 1993-01 (Lost Rucksack Cave = 1623/200)
+*date 1998.07.18
+*team Insts Brian O
+*team Tape both
+*team Notes Andy W
+*team Pics Andy W
+*instrument set 4
+; Calibration:	Brian reckons clino +/- the same
+; Ref.: 1996-8 surface stuff survey book, pp 53,54
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0	; bolt of tag at NE corner of Lost Rucksack Hole
+*export 9	; pencil cross on boulder marked in red
+		; (only intended for use in 1998 :-)
+
+1	0	29.35	295.	-11.
+1	2	21.05	152.	-01.
+3	2	30.50	022.	+12.
+3	4	17.93	184.	-19.
+5	4	10.70	260.	+29.
+5	6	23.24	128.	-03.
+7	6	19.80	321.	-09.
+7	8	14.05	163.	 00.
+9	8	11.61	359.	+03.
+
+*end 103toLRH
+
+*begin 103to173
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "Link 103 to CUCC 90/3 (1623/173)"
+; Caves:	103, 173
+*date 1998.07.19
+*team Insts Wookey (Andy W for first leg)
+*team Tape both
+*team Notes Andy W
+*team Pics Andy W
+*instrument set 4
+; Calibration:	none
+; Ref.: 1996-8 surface stuff survey book, pp 53,55
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0	; bolt of tag of 1623/173
+*export 5	; bolt of tag of 1623/103
+*export 10	; "+" sign on undocumented cave
+
+;*calibrate clino +0.5 probably can't justify this
+
+0	1	13.13	203.5	+03.5
+1	2	28.16	186.	-13.
+3	2	22.66	002.	-01.5
+3	4	18.40	114.5	-06.
+4	5	10.41	144.	-06.
+4	6	29.99	105.5	-06.
+6	7	14.92	147.	+07.
+8	7	27.18   289.	-06.
+8	9	13.76	115.	+13.5
+9	10	 8.49	133.	-15.
+
+*end 103to173
+
+*begin lardysurf
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "Surface survey to 210 (was: 98-03)"
+; Caves:	210
+*date 1998.07.19
+*team Insts Kate J
+*team Tape Kate J
+*team Notes Andy W
+*team Pics Andy W
+*instrument set 4
+; Calibration:	Clino +4.5/-3, TC->Col r of Schonberg 351
+; Ref.: 1996-8 surface stuff survey book, p 58
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; tag "CUCC 1998 03" on doline wall opposite cave
+*export 5	; stick in grike (station 10 of B8to101)
+
+*calibrate clino +0.75
+
+2	0	 7.54	313.	-24.
+2	1	 3.60	000.	-32.
+3	2	23.66	092.	-25.
+4	3	27.91	172.	-03.
+4	5	22.08	320.	+18.
+
+; station details
+;0	knob of rock at roof level on cave entrance
+;1	tag "CUCC 1998 03" 2m above floor of doline
+;2	unreasonably tall cairn (c 1m)
+;3	bunde branch 1.3m
+;4	dwarf willow branch 0.2m
+;5	stick in grike
+
+*end lardysurf
+
+*begin not188
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 	Surface
+*title "Cave Near Top Camp: '188 candidate' + cave next to it"
+;               note the candidate is _not_ 188. 
+;               Now numbered 99OB03 and 99OB04 respectively
+*date 1999.08.08
+*team Insts Tina
+*team Notes Olly
+*team Pics 
+*team Tape Tina
+*instrument Compass & Clino set 2 
+; Calibration:	Upper Top Camp: compass 269,268,269 [into sun] ;088,088,088
+;               clino +06,+05,+06 [into sun] ;-07,-07,-07
+; (same as 'near06' survey)
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; bolt on 99OB04
+*export 4	; bolt on 99OB03
+*export 6	; Lower TC fixed pt (bolt (added this year))
+
+
+1	2	 0.62	-	up
+3	2	 0.93	307.	00
+3	4	 3.02	182.	-06
+5	4	14.95	024.	-01.5
+5	6	29.93	202.	00
+
+;station details
+; 1 = bolt on cave (99OB04) next to 188 candidate 
+; 2 = pt in air
+; 3 = top of Ol's camera
+; 4 = bolt on 188 candidate (99OB03)
+; 5 = temp cairn
+; 6 = lower TC fixed pt (bolt)
+
+*end not188
+
+; olly and martin 2000-08-03
+*begin ob03
+*date 2000.08.03
+
+*export 1 3
+
+2	1	7.88	291.5	-10
+2	3	4.50	042.5	-25.5
+*end ob03
+
+*begin TCto188
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 	Surface
+*title "Cave Near (almost in) Lower Top Camp: 188"
+*date 1999.08.08
+*team Insts Olly
+*team Notes Olly
+*team Pics 
+*team Tape Olly
+*instrument Compass & Clino set 2 
+; Calibration:	none
+; Grade '3-ish'
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; Lower TC fixed pt bolt
+*export 2
+
+1	2	18.00	066	-01
+*flags not surface
+2	3	3.75	-	Down
+
+;station details
+; 1 = lower TC fixed pt (bolt)
+; 2 = 1623/188 entrance
+; 3 = bottom of 188 entrance
+
+
+*end TCto188

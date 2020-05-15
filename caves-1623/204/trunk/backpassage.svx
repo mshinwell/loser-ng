@@ -1,0 +1,37 @@
+*begin backpassage
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Back Passage"
+*date 2001.08.13
+*team Insts Brian Outram
+*team Notes Mark Shinwell
+*team Tape Mark Shinwell
+*instrument Compass #?? ; Clino #??, Tape unknown (yellow set minus lights)
+; Calibration: None
+; ref: 2001#XXX
+; ====== stations refindable to link to other surveys: ======
+
+*export 7
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	3.30	350	+15
+3	2	8.47	285	+02
+4	3	4.09	342	+08
+4	5	4.16	102	+19
+6	5	3.98	286	-48
+6	7	2.55	337	0
+
+;station details
+;name	L	R	U	D	description
+;1	0.6	0	0	0.1	flake on R wall
+;2	0	0.65	1.4	0.2	CM on L wall
+;3	0.20	2.5	1.10?	-	CM on L wall
+;4	1.10	0.5	0.78	-	CM on R wall
+;5	0	-	-	-	underside of flake in squeeze
+;6	-	-	0	2	point in roof of Treeumphant
+;7	-	-	-	-	existing Treeumphant station
+
+*end backpassage

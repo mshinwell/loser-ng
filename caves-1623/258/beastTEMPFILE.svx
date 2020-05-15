@@ -1,0 +1,29 @@
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 258 "Tunnockschacht"
+
+
+*begin 258tmp
+*title "Tunnockschacht"
+
+; 2011 surveys
+
+*include aboveandbeyond2
+
+*include thatsthewaytodoit
+*equate thatsthewaytodoit.13x aboveandbeyond2.13
+
+; 2017 surveys (hydra surveys in separate directory)
+
+*include not_the_beast.svx
+*equate not_the_beast.4x aboveandbeyond2.4
+
+*include riggermortis.svx
+;*equate riggermortis.1x not_the_beast.1
+*equate riggermortis.8x thatsthewaytodoit.8	; DODGY LOOP CLOSURE - CHECK SURVEY POCKET 15 FOR GEORGE / KATEY RESURVEY OF TOP OF BEAST 
+
+*include thebeastloop.svx
+;*equate thatsthewaytodoit.8 thebeastloop.8x
+*equate thatsthewaytodoit.15 thebeastloop.15x
+*equate aboveandbeyond2.4 thebeastloop.4x
+
+*end 258tmp

@@ -1,0 +1,133 @@
+*begin allswings
+
+*title "Swings and Roundabouts series"
+
+*export playground.0 swings.4 prettybits.7 swings9.11 swings9.tag crestarun.Q enth.tag enti.i entg.1
+
+; -- 2001 --
+
+*include playground
+
+*include swings
+*equate swings.p7 playground.7
+
+
+*include swings2
+*equate swings2.0 swings.23
+
+*include swings3
+*equate swings2.1 swings3.1
+*equate swings3.11 swings.11
+
+*include swings4
+*equate swings.13 swings4.sw13
+
+*include swings5
+*equate swings4.12 swings5.p12
+
+*include swings6
+*equate swings.14 swings6.p14
+
+*include swings7
+*equate swings4.20 swings7.p20
+
+*include swings8
+*equate swings4.21 swings8.p21
+*equate swings8.px juicybits.1
+
+*include swings9
+*equate swings.19 swings9.sr19
+
+*include prettybits
+*equate prettybits.p1 swings.6
+*equate prettybits.p2 swings.7
+*equate prettybits.3 swings.p3
+
+*include juicybits
+*equate juicybits.p8 swings.8
+*equate juicybits.p10 swings.10
+
+; -- 2002 --
+
+*include merrygoround
+*equate merrygoround.7 swings2.6
+
+*include merrygoround2
+*equate merrygoround2.1 merrygoround.1
+
+*include merrygoround3
+*equate merrygoround2.6 merrygoround3.8
+
+; -- 2003 --
+
+*include ermintrude
+*equate ermintrude.p5 swings.5
+
+; -- 2004 --
+
+*include trapeze
+*equate trapeze.1 swings5.1
+*equate trapeze.12a swings.12
+
+*include crestarun
+*equate crestarun.17 swings.17
+
+*include piledriver
+*equate piledriver.p15 crestarun.15
+
+; -- 2005 --
+
+*include toothless
+*equate crestarun.15 toothless.1
+
+*include highhopes
+*equate toothless.3 highhopes.1
+
+*include highhopes2
+*equate highhopes.11 highhopes2.1
+
+*include highhopeslink
+*equate highhopeslink.3 highhopes2.11
+
+*include highhopes3
+*equate highhopes3.8 highhopeslink.1
+
+*include enth
+*equate highhopes3.5 enth.18
+
+*include enti
+*equate enti.tagh enth.tag
+*equate enti.p2 enth.2
+
+*include ermintrude2
+*equate ermintrude2.1 ermintrude.3
+
+*include entg
+*equate entg.8 highhopes3.1
+
+; -- 2008 --
+*include ubantu
+*equate ubantu.8 toothless.10
+
+*include ubantu2
+*equate ubantu2.8 ubantu.1
+*equate ubantu2.1 highhopes.4
+
+*include zebedee
+*equate zebedee.4 ermintrude2.1
+
+*include ubantu3
+*equate ubantu3.1 ubantu2.5
+*equate ubantu3.12 highhopes.5
+
+*include ubantu4
+*equate ubantu4.26 ubantu.7
+
+*include 05-9cQMkilling
+*equate highhopes2.4 05-9cQMkilling.1
+
+*include ubantu5
+*equate ubantu5.4 highhopes.8 
+
+*end allswings
+

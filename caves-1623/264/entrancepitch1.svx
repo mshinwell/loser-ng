@@ -1,0 +1,27 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2005-5 "Balcony Hohle"
+
+*begin entrancepitch1
+
+*export	7	10
+
+*title "entrancepitch1"
+*date 2014.08.01
+*team Insts Katey Bender
+*team Tape Katey Bender
+*team Notes Katey Bender
+*ref 2014#09
+
+;from	to	tape	compass	clino	remarks
+7	8	8.45	-	down
+9	8	2.06	105	-15	;reversed
+9	10	10.55	-	down
+
+*data passage station left right up down ignoreall
+7	-	-	-	-   ; top bolt of top Y-hang
+8	1.5	1.8	9.5	0.2	;floor of stone bridge
+9	-	-	-	-	;rebelay bolt on 'Western Pitch' (?)
+10	5	7	-	-	;rebelay bolt
+
+*end entrancepitch1
+

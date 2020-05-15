@@ -1,0 +1,67 @@
+;===== Right Hand Routes =====
+
+; EXPORTS: these are the only points to which other surveys should link
+; No prefix level here, so nothing to export from...
+;*export	chunnel.18		; from entrance into Chunnel
+;*export	olympus.pt2.75		; from Ambidextrous
+;*export	BoltConn.2		; from entrance into Dreamtime
+
+*include chunnel
+
+*equate chunnel.22	Bladerun.21
+*include bladerun
+
+*equate Vesta.01	chunnel.24
+*include vesta
+
+;*equate PotGold.1	chunnel.29
+; This is wrong, AERW 98.04.01 - see 1989 survey book p 53-left which
+; explicitly states "point 26 on page 18": this is the one with the red blob
+*equate PotGold.1	chunnel.26
+*include pog
+
+*equate PitPend.pt2.5	boulder.2
+; dubious, one is the third 1990 bolt, the other is a 1989 natural
+*include pitpend
+
+*equate Tblocks.1	Boulder.1
+;page 30 1989 survey book
+*include tblocks
+
+*equate tblocks.26a	olympus.pt1.0
+*include olympus
+
+*equate Dream.26	BoltConn3.0
+*include dreamtme
+
+*equate Dream89.20	DeepSleep.3
+*include deepslp
+
+*equate Gnome.28	Dream89.9
+*include gnome
+
+; ===== 1994 =====
+*equate notwhat.52	gnome.1
+*equate vestaconn.e	Vesta.10
+*include notwhat
+
+;*equate nightsoil.1 notwhat.28 ; check with AndyA
+*equate nightsoil.1 notwhat.29 ;andy reckons it should be 29 (1996.05.25)
+; the errors are much the same either way round (0.65%). the change only makes
+; about 3cm difference per leg (less than 1% for these runs). The change makes 
+; stomping get a bit worse, gnome a bit better...
+*include nights
+
+; ===== 1995 =====
+
+*equate oral.1  	nightsoil.21
+*include oral
+
+*equate splattery.1	nightsoil.21
+*include splat
+
+*equate limolink.4	notwhat.23
+*include revenge
+
+*equate doubting.1	nightsoil.13
+*include doubting

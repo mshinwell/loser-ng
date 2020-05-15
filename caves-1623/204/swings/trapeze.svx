@@ -1,0 +1,44 @@
+*begin trapeze
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Swings and Roundabouts (Trapeze)"
+*date 2004.08.02
+*team Insts Stuart Bennett
+*team Notes Nial Peters
+*team Tape Becka Lawson + Stuart Bennett
+*instrument Set 2, red open reel tape
+; Calibration: Stone bridge: 148/+23 328/-24
+; ref: 2004#42
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 12a
+
+*calibrate tape 0.40	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino
+10	1	5.01	335	-23
+11	10	3.65	311	-37
+12	11	3.05	329	-25
+13	12	3.47	012	+15
+13	14	6.35	183	+13
+12	15	7.50	-	down
+16	15	2.29	049	-16 ; reversed
+12a	16	3.24	158	-62
+
+;station details
+;name	L	R	U	D	description
+;1	-	-	-	-	=swings5.1
+;10	2	8	0	1.6	RP LW
+;11	0	1.2	1	0.3	RP LW
+;12	0.4	3	0	1.2	RP roof RHS of shaft
+;13	0.3	2	3	0	RP on floor LHS of passage
+;14	0.3	1	0	0.5	RP roof at eyehole into Swings
+;15	0	1	0.2	0.7	invisible point 1m off chamber floor
+;16	0.3	0.9	2.5	0.6	knobble of rock at entrance
+;					to tight crawl
+;12a	-	-	-	-	=swings.12
+
+*end trapeze
+

@@ -1,0 +1,24 @@
+;Eislufthoehle 1623/76
+
+*begin choss
+
+*title "Chossy Bit"
+*date 2007.08.03
+*team Insts Jenny Black
+*team Notes Olly Betts
+*team Tape Jenny Black
+*instrument proto pony; our disto
+; notes in 2007 #
+
+*export 5
+
+*calibrate tape +0.00
+
+*data normal from to compass clino tape
+1	0	230	-15	6.509
+2	1	217	-16	3.285
+2	3	017	+07	2.571
+3	4	011	+06	4.839
+4	5	111	+53	0.897
+
+*end choss

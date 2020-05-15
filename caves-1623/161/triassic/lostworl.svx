@@ -1,0 +1,257 @@
+;1998.02.01 AERW added trip references, fettled begin/end structure
+
+*begin lostworld
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+
+; ====== stations refindable to link to other surveys: ======
+
+*export upstream.1	; CM LH wall
+*export upstream2.1	; LH wall corner of big passage
+*export downstream.1	; CM Cobble in floor
+
+; ====== links between surveys making up the LostWorld survey: ======
+
+*equate upstream2.14	upstream.14
+*equate upstream2.16	upstream.8
+*equate upstream2.18	upstream.11
+*equate downstream.8	downstream2.1
+*equate downstream2.12	downstream3.1
+
+*begin downstream
+*title "Lost World downstream survey"
+*team Inst Becka Lawson
+*team Notes Jon Barber
+*team Pics Becka
+*team Tape Both
+*date 1997.7.26 ; - trip 1997-161-6 in 1997 logbook
+*instrument Set 4
+; Calibration:	161d
+;		A - B 214, -09
+;		B - A 035, -08
+; if the above is correct, the clino under-reads by 8.5 deg ! AERW 98.02.03
+; However, A-B is uphill, so must be +09, so clino reads high by +0.5
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; CM Cobble in floor
+*export 8	;
+
+*calibrate clino +0.5
+
+;From	to	Tape	Compass	Clino 
+2	1	16.35	007	-02
+2	3	 9.39	190	-07
+4	3	12.42	124	+14
+4	5	13.69	219	-07
+6	5	 9.13	117	+19
+6	7	13.14	243	-04
+8	7	 4.56	042	+12
+*end downstream
+
+*begin downstream2
+*title "Lost World downstream survey #2"
+*team Insts Robert Winkler
+*team Notes Robert Winkler
+*team Pics Robert Winkler
+*team Tape Robert + Becka
+*date 1997.7.27 ; - trip 1997-161-7 in 1997 logbook
+*instrument Set 4
+; Calibration:	161d
+;		A - B 214, +07
+;		B - A 034, -07
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	;
+*export 12	; face of large boulder marked with a dot and large G in red
+
+*calibrate clino 0
+
+;From	to	Tape	Compass	Clino 
+1	2	 8.55	229	+05
+2	3	 1.95	230	-62
+3	4	 2.20	204	-01
+4	5	 3.99	268	+11
+5	6	 1.95	284	-11
+6	7	 4.27	-	down
+7	8	11.45	236	-12
+8	9	 2.22	213	+06
+9	10	18.73	223	-18
+10	11	 5.47	350	-10
+11	12	12.07	306	-41
+
+*end downstream2
+
+*begin upstream
+
+*title "Lost World - upstream survey"
+*team Insts Adam Cooper
+*team Notes Sam Lieberman
+*team Pics Sam
+*team Tape Both
+*date 1997.7.27 ; - trip 1997-161-8 in 1997 logbook
+*instrument Set 4
+; Calibration:	161d
+;		A - B 034, -07
+;		B - A 214, +08
+; NB. A and B interchanged compared with previous calibrations :-(
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+*export 8	;
+*export 11	;
+*export 14	;
+
+*calibrate clino +0.5
+
+;From	to	Tape	Compass	Clino 
+1	2	 5.14	025	-03
+2	3	 3.38	046	+03
+4	3	 9.10	231	-09
+5	4	 8.79	103	-19
+5	6	 8.22	263	+03
+7	4	 9.39	214	-02
+8	7	30.32	323	-07
+8	9	12.09	025	+13
+10	9	17.80	310	-09
+11	10	 9.63	058	+05
+12	10	 8.99	232	+10
+13	12	 3.02	177	+27
+13	14	 6.18	319	-55
+14	15	12.53	072	+23
+15	16	 5.44	127	-38
+17	16	29.45	237	 00
+17	18	18.46	073	-02
+20	19	23.19	163	-07
+19	18	 4.60	146	-16
+21	18	 4.80	245	+04
+22	21	15.74	277	+13
+22	23	 7.93	092	-05
+24	23	 8.54	289	+13
+25	24	 7.81	316	+12
+25	26	 3.30	102	+06
+27	26	 6.54	013	+26
+28	27	 9.20	329	+17
+29	27	 8.37	096	+01
+30	29	 5.39	008	-21
+*end upstream
+
+*begin upstream2
+
+*title "Lost World - upstream #2"
+*team Insts William Stead
+*team Notes Sam Lieberman
+*team Pics Sam
+*team Tape Both
+*date 1997.7.29 ; - trip 1997-161-10 (97.07.28 in 1997 logbook)
+*instrument Set 4
+; Calibration:	161d
+;		A - B 032, -08
+;		B - A 214.5, +08
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+*export 14	;
+*export 16	;
+*export 18	;
+
+*calibrate clino 0
+
+;From	to	Tape	Compass	Clino 
+2	1	 8.93	283	+01.5
+2	3	 6.46	124.5	+19
+4	3	16.64	334	-06.5
+4	5	 2.83	261	+00.5
+6	5	 4.46	080	-44.5
+6	7	 3.76	295	+18.5
+8	7	 5.65	235	-41.5
+8	9	 5.50	011.5	+25
+4	10	17.84	038.5	+09
+11	10	10.55	316.5	+01.5
+11	12	17.88	017	-02.5
+13	12	 7.27	255	-02.5
+14	13	11.07	231	-10
+15	10	 9.54	222.5	-29.5
+15	16	 2.72	341	-20
+17	18	12.60	078	+55
+11	17	 7.71	356	-04
+*end upstream2
+
+*begin downstream3
+
+*title "Lost World downstream chamber"
+*team Insts Dave H.
+*team Notes Dave H.
+*team Pics Dave H.
+*team Tape Mike B. and Juliet
+*date 1997.8.4 ; - trip 1997-161-19 in 1997 logbook
+*instrument Set 2
+; Calibration:	214 +7 34.5 -9.5
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; face of large boulder marked with a dot and large G in red 
+
+*calibrate clino -1.25
+;
+;From  to  Tape Compass Clino 
+
+2	1	 9.24	007.5	-12
+2	3	 8.34	265	-09
+3	4	 4.955	242	-11
+5	4	 4.47	253	+13
+5	6	 4.49	033	-08
+7	6	 2.90	227	+02
+8	7	 4.21	190	+12
+9	8	 4.04	196	+13
+9	10	 8.63	022	-21.5
+11	10	 7.24	271	+14
+11	12	 9.03	074	-31
+13	12	 5.08	258	+24
+14	13	15.80	258	+17
+14	15	20.39	049	+11
+17	16	 4.93	212	-03
+11	17	 4.54	186	-28
+
+;	left	right	up	down	description
+;1	4.42	0	? 	0.8	on face of large boulder marked with
+;					a dot and large G in red 
+;2	0.1	5	?	0.5	top small rock CM
+;3	3.28	1.86	?	2.6	top of large rock CM
+;4	1.35	1.18	?	2.0	rock lip, edge of pool
+;
+;LRUD data for 1-4 is in the direction of the survey
+;
+;LRUD data for 5 is looking towards 4
+;
+;5	0.5	boulder	?	0.75 	top small boulder at stream level
+;				to boulder
+;
+;LRUD data now in direction of survey ie opposite to above
+;
+;7	1.05	0		1.81	on side of boulder wall CM
+;		(boulder wall)
+;8	0.59	1.55	0 	1.64	on base boulder roof CM
+;		(boulder wall)
+;9	0.15	1.32	?	1.65	protrusion from left wall CM
+;		(boulder wall)
+;10	0	5.85	?	1.12	protrusion from left wall
+;11	3.45		?	0	top of large rock CM and 11 in carbide
+;12	0	2.19	?	2.45	left wall CM
+;13	1.26	1.31	?	2.10	top of water smoothed boulder CM
+;				(to boulders)
+;14	1.66	0	?	1.60	right wall, water sculpted rock, looks a
+;					a bit like stal (but isn't) CM
+;15	0	1.21	0.95	1.26	flake on left wall CM
+;distance from 15 to where roof meets floor 1.86
+;
+;LRUD data is looking towards pool
+;16	0	0.52	4	1.22	final station at pool marked with carbide X
+;17	0	1.30	3	1.85	on left wall small blackish growth 
+
+*end downstream3
+
+*end lostworld

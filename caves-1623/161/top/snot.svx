@@ -1,0 +1,43 @@
+*begin Snot
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "Snot Pitch (Squeeze Bypass)"
+*date 1991.07.13-1991.07.14 ; trip 1991-161-4 in logbook
+*team Insts MarkS
+*team Notes JulianH
+*instrument Illuminated ones
+; ref.:	1991 survey book pp 69-71
+
+*export 1	; lower bolt for start of traverse line, Automatic Doors
+*export 24	; red spot, left hand wall, ~2m off floor nr. bottom of squeeze
+
+*calibrate compass 0
+*calibrate clino 0
+ ;readings grade 5
+
+1       2       13.96   006     -49
+3       2       10.83   315     +33
+3       4        4.42   156     -67
+5       4        2.18   288     +72
+5       6        4.61   234     -34
+7       6        1.85   026     +01
+7       8        5.71   187     -67
+8       9       12.12   230     -87
+9       10       3.04   194     -18
+10      11      14.16   161     -70
+12      11       4.24   237     +30
+12      13      19.90   312     -25
+14      13       7.87   202     +21
+14      15       6.29   041     +12
+16      15       8.13   216     +20
+16      17       6.00   047     -10
+18      17       8.60   161     -02
+18      19       6.21   040     +05
+20      19       7.07   346     -11
+20      17       7.70   202     -12
+21      19      18.20   134     +15
+21      22      11.23   234     -04
+23      22       7.90   062     +23
+23      24       2.38   200     -15
+
+*end Snot

@@ -1,0 +1,36 @@
+;1998.06.02 AERW added exports and comments
+
+*equate 148.MM0 	P148	; surface and u/g surveys 3 years apart
+*entrance P148
+
+*begin 148
+
+; Locn:	Main plateau, beyond Brauning Sattel, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+*title "Marilyn Munroe Höhle, 1623/148"
+; 148 data, which really doesn't make a lot of sense when
+; related to either sketch or description.
+*date 1987
+*team Mike Martin, Juliette
+*instrument 
+; Calibration:
+;CHANGE               0.0   0.0
+
+; ====== stations refindable to link to other surveys: ======
+
+*export MM0	; entrance
+
+*calibrate compass 56 ; fudge to align with 2007 compass readings!
+*calibrate clino 0
+   MM0  MM1 10.18 270.5  -2.5    ;  Entrance crawl
+   MM1   MM2  7.3  241.  -12.
+   MM3   MM2  8.48  35.   57.     ;  Freeclimb
+   MM3   MM4  6.47 101.  -37.     ;  Little chamber at bottom of passage
+   MM5   MM4  5.   262.   11.
+   MM5   MM6  4.47 102.  -12.
+   MM7   MM6  2.21 263.   12.
+   MM7   MM8  5.75  64.  -18.
+   MM9   MM8  8.59 225.   18.
+   MM9  MM10 13.08  89.5 -15.     ;  MM10 overlooks pitch
+  MM11  MM10  7.24 285.5  32.     ;  MM11 top of pitch
+  MM11  MM12 12.85  29.  -72.     ;  MM12 on floor of ice-chamber
+*end 148

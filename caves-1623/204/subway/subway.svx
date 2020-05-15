@@ -1,0 +1,24 @@
+*begin subway
+*export apocalypse.15
+
+*include apocalypse
+
+*include thetube
+*equate apocalypse.3 thetube.1
+
+*include thetube2
+*equate thetube2.20 thetube.14
+*equate thetube2.24 thetube.15
+
+*include thetube3
+*equate thetube3.2 thetube2.8
+*equate thetube3.23 thetube2.1
+*equate thetube3.24 thetube.21
+
+*include thetube4
+*equate thetube4.1 thetube3.25
+
+*include morningtoncrescent.svx
+*equate apocalypse.5 morningtoncrescent.1
+
+*end subway

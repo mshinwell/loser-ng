@@ -1,0 +1,63 @@
+*begin fatworm3
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Fat Worm Blows a Sparky, part 3"
+*date 2004.07.31
+*team Insts Nial Peters
+*team Notes Becka Lawson
+*team Tape Both
+
+*instrument set 1
+
+; ref 2004 # 34
+
+; Calibration: stone bridge: 146/+23, 323.5/-23
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 2 26 15
+
+*calibrate tape +0.08
+; +ve if tape was too short, -ve if too long
+
+
+;from	to	tape	comp	clino
+26	1	14.40	162	+13
+2	1	4.01	90.5	+37
+2	3	8.27	217	-40
+4	3	5.16	149	-10
+4	5	3.80	335	-14
+5	6	1.73	033	+01
+7	6	2.09	143	-12
+7	8	3.88	352	-21
+9	8	5.68	221.5	-42
+9	26	5.56	072	+22
+10	8	5.38	095	+07
+10	11	5.75	321	-12
+12	11	3.11	140	+26
+12	13	2.63	042	+25
+15	13	2.71	190	+03
+
+
+
+;station details
+;name	L	R	U	D	description
+;26	-	-	-	-	=fatworm.26
+;1	0	2	10	3.5	RP LHW at junction, main passage
+;2	2	1	7	2.5	RP boulder, main passage
+;3	1.5	1	5	2.5	RP on boulder (LHS) numbered
+;4	0.8	2	4	3	RP on L roof pendant numbered
+;5	0.3	0	1	1.7	RP RHW
+;6	0.1	0.3	2.5	1.5	RP RHW at corner
+;7	0	1	2	1.7	RP LHW by thin rift up to main chamber numbered
+;8	-	-	4	0.2	RP on floor numbered in pencil
+;9	0	2	3.5	1	RP RHW in main passage
+;10	0.4	1	1.9	5	RP LHW numbered
+;11	0.3	0.4	0	2	RP ceiling
+;12	0.5	2.5	0.5	2	RP roof pendant
+;13	0	1.2	0.5	1.7	RP LHW
+;15	-	-	-	-	=fatworm2.15
+
+*end fatworm3
+

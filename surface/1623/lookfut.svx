@@ -1,0 +1,51 @@
+;1998.05.29 AERW Added comments, refs, exports, etc.
+
+*begin LookFutile ; formerly "FU" survey
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Area:	SE flank Vord. Schwarzmooskogel, Western massif, Totes Gebirge, Austria
+*title "Surface survey down from 115 looking for nearest point to"
+;		possible dig inside cave at Futility Series
+*date 1983.07.27
+*team Insts Pete Lancaster
+*team Notes Chas Butcher
+; ref:	immediately inside back cover of 1983 logbook
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0	; 115 entrance station. Pretty certain this is same point as
+		; used on underground survey, as PAL was on both trips
+*export 24	; marked station at end of survey. Note that coordinates
+		; were being calculated in the field so that the surveyors
+		; could search for the nearest point to the passage.
+
+;CHANGE               0.0   0.0      Search for entrance 1983 - good compass
+   1   0  6.7  318.   14. ; Down gully from Schnellzughöhle
+   1   2 24.2   49.    3. ; 2 on rock at head of valley
+   3   2 28.2  328.   21.
+   3   4 24.0  125.  -21. ; 4 on tree
+   5   4 27.2  297.   24.
+   5   6 30.8  146.  -32. ; 6,7,8,9 along cliff top
+   7   6 13.0   70.    3.
+   7   8 14.6  223.   -6.
+   9   8 27.2   83.   13.
+   9  10  2.1   66.    0.
+  10  11 29.2  165.  -48.
+  12  11 23.2  309.   28.
+  12  13 17.5  117.  -49.
+  14  13  9.7  340.   45.
+  14  15 30.2  219.  -33.
+  16  15 22.3   10.   37.
+  16  17 22.1  114.  -28.
+  18  17 20.3  294.    8.
+  18  19 10.2  149.  -22.
+  20  19 16.2  355.   26.
+  20  21 14.8  169.  -32.
+  22  21 27.2   29.   35.
+  22  23 26.1  215.  -37.
+  23  24  8.5  321.   34. ; Estimated closest to futility series (vertically)
+
+; in fact, station 19 looks closer horizontally, though still c 30m higher.
+; however, given the upward trend at the end of the passage, that would be OK
+
+*end LookFutile

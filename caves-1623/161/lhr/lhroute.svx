@@ -1,0 +1,105 @@
+;1998.03.02 AERW sorted begin/end, added comments and refs.
+
+; ====== links between surveys in this file: ======
+
+*equate lh.24   FrnchCon.1
+
+*begin lh
+
+; Cave: Kaninchenhöhle, 1623/161
+; Locn: Totes Gebirge, Austria
+*title "Left Hand Route from Squeeze to Niflheim"
+*date 1989.08.26 ; trip 1989-161-30 in 1989 logbook
+*team Insts Del
+*team Insts Dave
+*team Notes Juliette
+*team notes David
+*instrument Compass 543693 Clino 240641
+; Calibration:  
+; ref.: 1989 survey book pp 57-60
+
+; ======  stations refindable to link to other surveys: ======
+
+*export 1   ; red spot, left hand wall, ~2m off floor nr. bottom of squeeze
+*export 4   ; carbide mark on LH wall above small ledge
+*export 9   ; CM on end wall of passage (across entry to Powerstation) before turning right to Arrow chamber, 1.5m off floor on rock shelf
+*export 11  ; carbide mark on ceiling at entry to Arrow chamber (2m above floor)
+*export 24  ; bolt at head of small Y hang
+
+*calibrate compass 0
+*calibrate clino 0
+
+;readings grade 5
+
+;from below the squeeze to arrow chamber & down butcher & niflheim
+
+1       2       10.80   043     +27
+3       2        5.73   252     -01
+3       4        7.02   056     +03
+5       4       16.45   336     -16
+5       6        8.22   095     +04
+7       6        8.00   180     -03
+7       8       11.10   111     +22
+9       8        9.79   219     -10
+9       10      11.88   173     -03
+11      10       6.40   022      00
+11      12      11.35   115     -15
+13      12       4.2    173     +19
+13      14       3.23   025     -53
+15      14       5.65   193     -15
+15      16       1.77   115     +04
+16      17       8.45   070     -75
+17      18      21.25   070     -83
+18      19      13.68   110     -77
+20      19       4.33   031     -11
+21      20       2.36   093     +38
+22      21       4.56   335     +29
+23      22      13.36   350     +67
+23      24       1.96   099     -46
+*end lh
+
+*begin FrnchCon
+
+*title "LH Route - French Connection"
+*date 1989.09.05 ; trip 1989-161-42 in logbook
+*team Unknown Mike
+*team Unknonwn David
+*team Unknown Juliette
+*instrument Compass 625078, Clino 736380
+; ref.: 1989 back of logbook pp 79-82
+
+; ======  stations refindable to link to other surveys: ======
+
+*export 1   ; bolt at head of Y hang (last point of early Niflheim survey)
+*export 6   ; bolt at head of French Connection pitch
+*export 7   ; Bolt of next pitch after French Connection pitch
+*export 11  ; CM on edge of large boulder opposite exit from Niflheim
+        ; better sketch of stn 11 in the Ragnarok survey (89logp84/87)
+
+1       2        9.45    -      Down
+2       3       15.99   100     -67
+;readings grade 4
+3       4       51.10    -      Down     ; this leg measured from rope
+;readings grade 5
+4       5        5.10   105     +10
+6       5        8.47   041     +05
+7       6       13.00   072     +58 ; FrnchCon.7 = "d80" = WetNappy.B ?
+4       8        2.76   027     -45
+9       8        8.70   328     +60
+9       10       7.67   083     -18
+11      10       4.90   028     +68 ; 4.90 recorded with "?" in '89 log book
+
+; station details
+; 1 bolt at head of Y hang (last point of early Niflheim survey)
+; 2 point on side of shaft
+; 3 knot of large Y hang of long Niflheim pitch
+; 4 point below bolt, bottom of pitch 2m from floor (measured from knots)
+; 5 point on RH of rift (looking in) at edge of rock bridge
+; 6 bolt at head of French Connection pitch
+; 7 Bolt of next pitch (end of spur)
+; 8 Pencil mark on tip of ledge at bottom of Niflheim
+; 9 Boulder at bottom of ladder pitch where stream enters hole in floor
+;10 CM on wall at space between boulders, LHS looking into cave
+;11 CM on edge of large boulder opposite exit from Niflheim
+
+*end FrnchCon

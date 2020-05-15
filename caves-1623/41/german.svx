@@ -1,0 +1,186 @@
+;> 1623/41
+
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Stellerweghöhle 1623/41
+; 7 Vermessungen
+
+
+*begin german
+
+*export 10_0 16_02 16_9 17_3 4b
+
+;-1-
+*title "German Route Anfang"
+*date 2001.06.04
+; Messteam: Kai Schwekendiek, Jens Römer
+
+*data normal from to length clino compass
+10_0	10_1	11.44	4.5	88
+10_1	10_2	7.72	-11.5	100
+10_2	10_3	14.62	11	43
+10_3	10_4	13.63	-12	40
+10_4	10_5	3.54	-23.5	65
+10_5	10_6	21.85	35	35
+10_6	7	2.74	-14	85
+
+;Raumwerte
+*data passage station left right up down
+10_1		1.5	0	4	0.5
+10_2		1.5	0	1.5	1.2
+10_3		1.8	0	4	1.7
+10_4		0	2.5	4	4
+10_5		1	1	7	-
+10_6		0	2.5	-	2
+
+
+
+;-2-
+*title "Germanroute-Schächte"
+*date 1999.08.08
+; Messteam: Dominik Jauch, Matthias Kirschner, Ole Fahnick, Robert Winkler
+; Zeichner: Dominik Jauch (?)
+; Referenz: Messbuch SMK 4
+
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung	Richtung
+7	8	1.14	-25.5	343
+8	9	4.37	-54	43
+9	10	18.73	-90	0
+10	11	7.0	-31	54
+11	12	14.16	-90	0
+12	13	2.08	-2.5	218
+13	14	12.74	-90	0
+14	15	4.05	11	125
+15	16	9.85	18	11
+
+;Raumwerte
+*data passage station left right up down
+8	1	8	4	0
+9	-	-	-	-
+10	-	-	-	-
+11	-	-	-	-
+12	-	-	-	-
+13	0	1.5	0	12
+14	-	-	-	-
+15	2.5	2	1.5	1.5
+16	2	5	5	4
+
+
+;-3-
+*title "Germanroute, Verbindung zu Lampentot"
+*date 2001.06.04
+; Messteam: Jens Römer, Kai Schwekendiek, Thomas Holder
+; Zeichner: Jens Römer
+; Ausbau: Saskia Bartmann, Robert Winkler
+; Referenz: Messbuch SMK 4
+
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung	Richtung
+16	16_02	3.54	-31.5	150	; Anschluß an Lampentot 16.02 = Lampntot.2
+16_02	17	3.90	-40	182	; Mittelwerte aus der Messung von Kai und von Thilo
+
+;Raumwerte
+*data passage station left right up down
+16	2	5	5	4
+17	6	0	2.5	-
+
+
+;-4-
+*title "-"
+*date 2001.06.06
+; Messteam: Thilo Müller, Andreas Jakob, Tobias Tränkle und Thomas Holder 
+;Meßbuch: SMK 5
+
+*data normal from to length clino compass
+17	17_2	10.83	-34	109
+17_2	17_3	4.00	-35	220
+
+;Raumwerte
+*data passage station left right up down
+17	6	0	1.5	2.5
+17_2	4	4	6	1
+17_3	1.5	4	5	2
+
+
+;-5-
+*title "-"
+*date 2001.06.04
+; Messteam: Jens Römer, Kai Schwekendiek, Thomas Holder
+
+*data normal from to length clino compass
+16	16_1	4.78	26	262
+16_1	16_2	21.50	41	301
+16_2	16_3	7.91	31	330
+16_3	16_4	5.22	42	299.5
+16_4	16_5	8.5	28	257
+16_5	16_6	5.05	12	210
+16_6	16_7	24.85	36.5	280
+16_7	16_8	4.53	42	292
+16_8	16_9	3.0	30	140 ;  16.9 = 8 von Din-Rampe
+
+;Raumwerte
+*data passage station left right up down
+;16	0	4.5	6	1.6	; Blick auf MP2
+16	4	0	6	1.6	; Blick auf MP16.1
+16_1	1.2	0	2	1.3
+16_2	3	1	4	1.5
+16_3	1	0	2	1.1
+16_4	1.8	2.5	0.8	1.5
+16_5	0.3	1.5	1	1
+16_6	0.5	6	3	1.2
+16_7	1.2	0	3	1
+16_8	5	0	-	1
+
+
+;-6-
+*title "-"
+*date 2001.06.06
+; Messteam: Thilo Müller, Andreas Jakob, Tobias Tränkle und Thomas Holder 
+;Meßbuch: SMK 5
+
+*data normal from to length clino compass
+16_1	16_1_1	6.80	30	250
+16_1_1	16_1_2	11.32	40	280
+16_1_2	16_1_3	3.60	30	310
+16_1_3	16_1_4	1.60	0	35
+
+
+;Raumwerte
+*data passage station left right up down
+16_1	1.2	0	2	1.3
+16_1_1	0.4	0.5	0.7	0.5
+16_1_2	0	1	0.5	0
+16_1_3	0	0.5	0.5	0.5
+16_1_4	0.15	0	0.5	0.5
+
+
+;-7-
+*title "-"
+*date 2001.06.05
+; Messteam: Jens Römer und Thomas Holder 
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+16_4	4_1	8.20	28	295
+4_1	4_2	3.58	-28	69
+4_2	4_3	4.42	-5	12
+4_3	4_4	3.84	-39	30	; 4.4 = MP4.6 unterhalb von Megalo
+
+16_4	4A	11.88	-31	60
+4A	4B	18.03	-44	112	; 4B = MP6 in WDR
+
+;Raumwerte
+*data passage station left right up down
+16_4	1.8	2.5	0.8	1.5
+4_1	1.2	0.5	0.5	0.8
+4_2	-	0	0.4	0.6
+4_3	0.5	0.5	1.3	0.5
+
+*data passage station left right up down
+16_4	1.8	2.5	0.8	1.5
+4A	-	3	5	3
+
+
+*end german

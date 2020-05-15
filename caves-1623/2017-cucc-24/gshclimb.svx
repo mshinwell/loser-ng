@@ -1,0 +1,51 @@
+*begin gshclimb
+
+; stations linked into other surveys (or likely to)
+*export 1
+
+; Cave: gsh
+; Area in cave/QM: entrance
+*title "gshclimb"
+*date 2018.07.28
+*team Insts Luke Stangroom
+*team Notes Max Weiser
+*team Pics 
+*team Tape 
+*instrument DistoX Becka 2
+; Calibration: Becka calibrated it
+*ref 2018#25
+; the #number is on the clear pocket containing the original notes
+
+; if using a tape:
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+1 2 10.36 264 50
+2 3 7.17 310 -15
+3 4 4.5 206 -08
+
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Pink nail varnish markings
+
+;2 0.8 1.7 0.2 1.6 
+;3 2.8 2.3 3.6 1.9 
+;4 0.5 1.6 0.5 0.8
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+
+2 0.8 1.7 0.2 1.6 
+3 2.8 2.3 3.6 1.9 
+4 0.5 1.6 0.5 0.8
+
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+
+*end gshclimb

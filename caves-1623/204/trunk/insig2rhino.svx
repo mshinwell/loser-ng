@@ -1,0 +1,35 @@
+*begin insig2rhino
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Insignificant chamber to Rhino Rift."
+*date 2004.08.02
+*team Insts Stuart Bennett
+*team Notes Nial Peters
+*team Tape Becka Lawson + Stuart Bennett
+*instrument Set 2, red open reel tape
+; Calibration: Stone bridge: 148/+23 328/-24
+; ref: 2004#43
+
+; ====== stations refindable to link to other surveys: ======
+
+*export T2 2A
+
+*calibrate tape 0.40	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino
+2	3	2.79	-	up
+2	T2	0.70	275	00
+4	3	3.11	294	-19
+4	2A	5.01	024	+12
+
+;station details
+;name	L	R	U	D	description
+;2	0.5	0	3	1.7	RP bottom of climb
+;3	1.2	0	0.2	0.4	RP top of climb
+;4	2	0	3	0.7	RP RW
+;T2	-	-	-	-	=rhinorift3.T2
+;2A	-	-	-	-	=insig.2
+
+*end insig2rhino
+

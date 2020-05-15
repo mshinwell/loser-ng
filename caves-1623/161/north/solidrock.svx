@@ -1,0 +1,48 @@
+*begin solidrock
+
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Kaninchenhöhle, 1623/161
+*date 2009.07.30
+*team Insts Ian Walker
+*team Notes Edvin Deadman
+*team Disto Ian Walker
+*instrument Pony #1; Disto Wook
+
+; Calibration:  
+; ref.: 2009 #10
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 10
+
+*calibrate tape +0.0    ; +ve if tape was too short, -ve if too long
+*data normal from to compass clino tape
+
+;from   to    compass clino   tape ; remarks
+*title "Private Investigations"
+2    1    307    -54    13.73
+3    2    245    -76    12.96
+4    3    227    -12    3.89
+5    4    185    -75    4.51
+6    5    146    -47    8.17
+*title "Solid Rock"
+7    6    186    -75    17.81
+8    7    189    -55    5.20
+9    8    195    -44    3.46
+*title "Silent Fellow"
+10   9    120    -48    9.18
+
+*data passage station     right   left  up  down    ignoreall
+1    0    1    10    6    rp left hand wall
+2    1.5  2    10    1    rp left hand wall
+3    0.5  0.7  13    10   rp left hand wall
+4    0.0  1.5  6     0.5  rp left hand wall
+5    1    0.3  3     3    rp flake
+6    4    6.2  4.7   4    rp window
+7    1    1    3     32   rp on flake above pitch
+8    0.5  1.5  0.5   2    rp flake near anchor
+9    0.75 0.25 0     1.5  rp ceiling
+10   15.8 3.8  3     2    CM silent fellow
+
+*end solidrock

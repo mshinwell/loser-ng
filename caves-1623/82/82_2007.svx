@@ -1,0 +1,23 @@
+*equate 82_2007.1 82to85.3
+
+*begin 82_2007
+*export 1 7
+*export 4 ; for bodged connection of digitised survey
+
+*team Notes Olly Betts
+*team Insts Jenny Black
+; guessed -- DL.
+
+*date 2007.08.14
+
+*data normal from to compass clino tape
+1	2	034	+06	11.645
+2	3	068	+02	4.749
+3	4	046	-12	16.967
+4	5	055	+06	15.098
+4	6	288	+62	10.050
+5	7	060	+01	9.504
+5	8	022	+17	6.647
+8	9	062	-01	5.489
+
+*end 82_2007

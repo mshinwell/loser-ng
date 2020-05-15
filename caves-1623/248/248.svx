@@ -1,0 +1,13 @@
+; 248, aka 248
+
+*equate p248 248.248-1.1
+*entrance p248
+
+*begin 248
+*export 248-1.1
+*equate 248-1.8 248-2.1
+
+*include 248-1
+*include 248-2
+*end 248
+

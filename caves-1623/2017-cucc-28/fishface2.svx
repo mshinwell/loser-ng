@@ -1,0 +1,66 @@
+*begin fishface2
+									 									
+; stations linked into other surveys (or likely to)
+*export B6 1
+
+; Cave: Fisch Gesicht Hoehle
+; Area in cave/QM: Entrance
+*title "Fisch Gesicht Hoehle"
+*date 2017.08.07
+*team Insts Adam Aldridge
+*team Notes Aidan Marks
+*instrument CHECC Disto
+; Calibration: Probably Austria
+*ref 2017#46
+       
+       
+; if using a tape:	*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall	
+							
+B6	11	2.32	076	-06	; used station numbers 1 and 2 here but then reused these names later so have changed to 11 and 12 respectively
+11	12	5.14	333	-20
+
+*flags duplicate
+B6	1	7.14	185	+04
+
+1	2	8.00	286	-20
+*flags not duplicate
+3	2	3.85	294	-11
+3A	3	1.48	045	-19
+3A	3B	12.95	259	-72	
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down ignoreall
+
+B6	-	-	-	-	Old numbered station
+11	2.4	1.7	10.3	1.4
+12	-	-	-	-	drippy
+1	0	1.6	1	1.3	LW
+2	1.3	0.7	0	1.7	ceiling stal
+3	-	-	-	-	
+3A	-	-	-	-	edge of pitch
+3B	-	-	-	-	splay up aven
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surveyname.5    -    description of QM ]
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+
+; Chamber below first pitch	
+
+*end fishface2

@@ -1,0 +1,76 @@
+*begin 11sr
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "11 Second Rattle"
+*date 2007.07.21
+*team Insts Djuke Veldhuis
+*team Notes Richard Mundy
+*team Tape Ollie Stevens & Sarah White
+*instrument Compass Pony ; Clino Pony, Tape unknown
+; Calibration: None
+; ref: 2007#19
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 8 17
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	1.46	088	+68
+2	3	6.70	-	down
+4	3	5.19	033	+48
+5	4	8.76	184	+71
+6	5	12.17	352	+80
+7	6	4.48	252	+59
+8	7	12.84	343	+66
+9	8	12.05	192	+41
+10	9	4.36	296	+73
+11	10	3.0	347	+37
+12	11	2.35	025	+49
+13	12	3.05	343	+31
+14	13	3.64	029	+19
+15	14	5.0	348	+77
+16	15	7.52	222	+03
+17	15	5.58	183	+17
+18	17	9.9	172	+00
+19	18	5.64	314	+12
+20	19	5.5	199	-02
+21	10	11.24	257	+54
+22	21	2.7	323	+01
+23	22	2.83	222	-06
+24	23	3.38	141	+09
+
+
+
+
+;station details
+;name	L	R	U	D	description
+;1	1.4	0.2	1.6	0.1	Point 19 of More Balls survey at pitch head.
+;2	0	-	2.5	3.5	Floor on slope after initial drop.
+;3	2.5	2.0	1.5	0	U&D are forward & back.
+;4	0	4	1.5	-	Pink paint on wall.
+;5	1.5	1.7	-	-	Nobble on wall.
+;6	4	0.3	-	-	Pink paint on wall.
+;7	1.3	5	7	-	Pink paint on wall.
+;8	2	0	-	3	Pink paint on boulder top edge.  Numbered.
+;9	0	1.4	7	2	
+;10	0	1.2	-	1	Point on ledge at junction.
+;11	0,3	0.5	2.7	0.2	Nobble at entrance to tube going left.
+;12	1	0	2.2	0.4	Nobble down tube.
+;13	0	0.6	0.15	0.3	Wall after hole in floor of tube.
+;14	0.4	0	1	-	Wall of tube over pitch.
+;15	1.2	0	5	1	U&D are forward & back. Nobble on chamber wall.
+;16	-	-	-	-	Wall on opposite side of chamber from 15.
+;17	1.4	1.4	1.5	1.1	Flake down onward passage from chamber.
+;18	1.0	2.0	3.0	1.0	On far side of next chamber.
+;19	5.0	2.0	0	1.75	Through onto wall of final bouldery chamber with strong draught.
+;20	1.6	3	3.5	1.2	Chamber wall by boulder choke.
+;21	2	1.4	-	1.8	Roof at bottom of climb.
+;22	2	0	1.3	0.2	Pink paint on wall.
+;23	0.6	0	0.3	1.6	
+;24	0	0.25	1	0.1	In tight crawl with mud floor at very bottom.
+
+
+
+*end 11sr

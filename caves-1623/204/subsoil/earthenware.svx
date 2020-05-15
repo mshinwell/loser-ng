@@ -1,0 +1,59 @@
+*begin earthenware
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Earthenware"
+; File name is misleading (mea culpa, sorry). This is the very end bit of Earthenware
+; and the northerly branch of Underware. -- DL
+*date 2004.07.31
+*team Insts Becka Lawson
+*team Notes Frank Tully
+*team Tape Both
+
+*instrument set 2
+
+; ref 2004 # 31
+
+; Calibration: stone bridge: 149/+23, 326/-23
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 23 4 10 7 6 8 9
+
+*calibrate tape +0.17
+; +ve if tape was too short, -ve if too long
+; blue open reel tape
+
+;from	to	tape	comp	clino
+1	23	4.80	218	-25
+1	2	4.93	352	+43	; could be tape 4.83?
+3	2	4.35	169	+21
+3	4	6.53	353	+07
+5	4	14.16	175	-24
+5	6	1.98	315	+19
+7	6	7.08	248	-18
+7	8	9.74	328	-02
+9	8	6.53	166	-04
+9	10	12.41	321	+37
+11	10	12.73	181	-21
+11	12	4.52	304	+11
+
+
+;station details
+;name	L	R	U	D	description
+;23	-	-	-	-	=subsoil2.23
+;1	0	0.3	4	0	RP LHW
+;2	0.4	0	2	2	RP RHW upper rift oxbow of passage
+;3	0.5	0.5	4	2	Vertical rift at top 45degree rift at bottom quite sandy
+;4	1	2	4	1.5	Enlargement of passage. Two additional ways on. QM A 1 left floor level; QM A 2 climb up right. Survey continues straight on
+;5	2	0.5	1	2.5	Survey continues up right. QM A straight on, QM A down left.
+;6	0	1.5	1.5	3	Short leg near 5 to get better angle
+;7	2	3	2	1.5	Left wall of long passage [I guessed that from the survey leg lengths - typist]
+;8	2	4	4	1.5	Large boulder & sand floored passage, draughting strongly with [? - tails off]
+;9	4	1.5	4	2	RP roof pendant. Continuing large sandy passage.
+;10	0.5	4	1	1.5	RP left wall. Passage continues upwards at 45deg same size. Floor rock of large slabs covered in sand. Draught small. Passage big.
+;11	2.5	1	2	2	RP right wall. Passage on large fallen boulders. Large holes in floor may lead under boulder choke.
+;12	0.2	2.5	0.75	0.3	RP on right wall. Passage ends at boulder choke of gravel & small rocks. Draughts strongly through boulders. Possible dig.
+
+*end earthenware
+

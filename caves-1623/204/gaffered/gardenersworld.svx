@@ -1,0 +1,36 @@
+*begin gardenersworld
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Gardener's World"
+*date 2004.07.22
+*team Insts Becka Lawson
+*team Notes Earl Merson
+*team Tape Dave Loeffler
+
+*instrument set 4
+
+; ref 2004 # 11
+
+; Calibration: stone bridge: 143/+23 326/-24
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 17 1
+
+*calibrate tape +0.07	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	comp	clino
+2	1	19.02	081	-58
+3	2	12.79	011	-57
+17	3	7.76	111	-30
+
+;station details
+;name	L	R	U	D	description
+;1					RH bolt at y hang
+;2	2	5	10	1	RP 40cm above rebelay spike
+;3	1	2	4	1	RP on tip of rock
+;17	0	1			Point 17 in sirens2
+
+*end gardenersworld
+

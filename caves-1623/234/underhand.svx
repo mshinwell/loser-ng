@@ -1,0 +1,53 @@
+*begin underhand
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Hauchhoehle (1623/234)
+*title "Underhand Passage"
+*date 2004.08.07
+*team Insts Nial Peters
+*team Notes Dave Loeffler
+*team Tape both
+*instrument Compass #3 ; Clino #3; yellow Stanley open reel tape (rather knackered)
+; Calibration: A->B 149/+22, B->A 326/-23
+; ref.:	2004#53
+
+; ====== stations refindable to link to other surveys: ======
+
+*export p5
+
+*calibrate tape +0.07	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	p5	3.82	152	+09
+1	2	2.48	274	-13
+3	2	4.08	159	-07
+3	4	7.52	206	-11
+5	4	7.23	069	+33
+5	6	3.73	206	-20
+6	7	2.26	239	-39
+
+;station details
+; (note that red paint had been left at the end of Crust Passage in Pie Series
+; and there was no way I was going back there for love nor money so all
+; station markings are in pencil - DL)
+;name	L	R	U	D	description
+;p5	-	-	-	-	=flatulence.5
+;1	1.0	0.8	2.0	0.3	Sharp point of rock
+;2	0.60	0	0.60	0.50	Pencil LHW
+;3	2.50	1.0	>5	1.60	Pencil point on ledge, numbered
+;4	0	1.20	3.5	2.2	Pencil high up LHW
+;5	1.80	0.20	1.0	3.0	Point on RHW
+;6	0	0.4	0.4	2.0	Pencil LHW
+;7	0	0.20	1.30	1.30	Numbered pencil cross on pillar
+
+*data passage station left right up down ignoreall
+p5	-	-	-	-	=flatulence.5
+1	1.0	0.8	2.0	0.3	Sharp point of rock
+2	0.60	0	0.60	0.50	Pencil LHW
+3	2.50	1.0	5	1.60	Pencil point on ledge, numbered
+4	0	1.20	3.5	2.2	Pencil high up LHW
+5	1.80	0.20	1.0	3.0	Point on RHW
+6	0	0.4	0.4	2.0	Pencil LHW
+7	0	0.20	1.30	1.30	Numbered pencil cross on pillar
+
+*end underhand

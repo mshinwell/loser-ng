@@ -1,0 +1,66 @@
+*begin gosserwager
+
+*export 8 9 6
+
+; Cave: Balkonhohle (264)
+; Area in cave/QM: 
+*title "Gosser Wager"
+*date 2015.07.28
+*team Insts Jacob Podesta
+*team Notes Martin Green
+*team Tape Elliott Smith
+*instrument Compass Blue Silva, Clino Yellow #3
+; Calibration: 204 145/+44 146/+43 144/+43
+*ref 2015#23
+*calibrate tape +0.30	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from  to   tape      compass   clino	backcompass	backclino
+*begin
+*sd compass backcompass 2 degrees
+1	2	3.10	355	+20	180	-20
+*sd clino backclino 2 degrees
+2	3	2.40	035	+30	210	-25	
+*end
+3	4	4.10	007	+15	-	-
+3	5	4.00	330	+45	-	-
+*begin 
+*sd compass backcompass 8 degrees
+*sd clino backclino 4 degrees
+1	6	2.94	085	+30	286	-17
+*end
+6	7	8.90	179	-06	358	+06
+*begin 
+*sd compass backcompass 1.5 degrees
+7	8	3.04	186	-37	009	+35
+*end
+9	8	9.95	-	down	-	-
+
+
+;LRUDs arranged into passage tubes
+*data passage station left right up down 
+1	0.0	1.2	1.0	1.3	;RP LHW
+2	0.1	0.7	1.6	1.0	;RP	LHW
+3	0.7	0.3	1.6	1.8	;RP RHW
+4 	-	-	-	-	;unmarked end of passage
+5 	-	-	-	-	;unmarked end of passage
+6	0.5	0.1	1.4	3.6	;RP RHW
+7	0.4	0.3	1.0	1.8	;RP RHW
+8	0.9	1.2	-	6.7	;RP pencil #8 bottom of pitch
+9	-	-	-	4.0	;RP LHW top of pitch PM #9 30cm from spit 	
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    C    gosserwager.6    -    small but doable pitch 4-7 second rattle
+;QM2    B    gosserwager.7    -    north end of parallel rift
+;QM3    B    gosserwager.7    -    also north end of parallel rift
+;QM4    B    gosserwager.8    gosserwager3.1    passage continuing underneath pitch
+
+*end gosserwager

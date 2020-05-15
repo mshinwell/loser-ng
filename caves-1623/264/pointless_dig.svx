@@ -1,0 +1,57 @@
+*begin pointless_dig
+
+; stations linked into other surveys (or likely to)
+*export x
+
+; Cave: Balkonhole 264
+; Area in cave/QM: Cathedral Chasm 
+*title "Pointless Dig"
+*date 2017.07.27
+*team Insts Elaine Oliver
+*team Notes Ashley Gregg
+*instrument CHECC Distox2
+*ref 2017#20
+
+; Centreline data
+*data normal from to bearing gradient length
+*alias station - ..
+  x - 231.29 0.95 0.542
+  x - 129.56 -1.77 0.873
+  x - 140.18 -0.38 1.786
+  x - 161.99 0.15 1.119
+  x 1 145.81 -0.31 2.617
+  1 - 234.67 0.30 0.379
+  1 - 213.46 33.19 0.325
+  1 - 326.73 -83.38 0.332
+  1 2 130.13 -4.44 2.172
+  2 - 101.61 -24.66 1.165
+  2 - 25.72 8.39 1.446
+  2 - 338.17 2.09 1.291
+  2 - 320.53 4.88 1.576
+  2 - 298.22 -5.61 1.698
+  2 - 253.78 -0.81 0.852
+  2 - 286.26 4.58 1.139
+  2 3 166.84 -40.72 3.565
+  3 - 107.77 83.33 0.705
+  3 - 252.47 -82.63 0.311
+  3 - 249.40 3.10 0.720
+  3 4 187.06 -28.89 1.981
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surveyname.5    -    description of QM ]
+
+;------------
+;Cave description  ;(leave commented-out)
+;five trowel fulls of dirt broke through into 10m of crawling. The draft 
+;links back through a voice connection into main passage.
+
+*end pointless_dig

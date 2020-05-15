@@ -1,0 +1,270 @@
+;NOTES > $.Survey.Surveys.Austria.D.P142
+;1995.08.01 AERW Source: converted from SU file
+
+*equate 142.142Ent.0	p142
+*entrance p142
+
+; ====== links between surveys in this file: ======
+
+*begin 142
+
+; Locn:	SE flank Vord. Schwarzmooskogel, Western massif, Totes Gebirge, Austria
+*title "Stellerweghöhle back entrance, 1623/142"
+
+*export 142to41.1
+*export 142ent.0
+
+*equate 142To41.15	142Ent.34
+*equate 142To41.50	142Ent.18
+*equate 41to142.bolt	142Ent.39
+*equate 142side.14	142to41.53
+;*equate 41to142.13	41ent.19
+*equate 142Bcha.1	41to142.0
+
+*begin 142Ent ; formerly "VD" survey
+
+*title "Entrance series"
+*date 1983
+*team Insts Mike Thomas 
+*team Tape
+*team Notes Dave Brindle 
+*instrument unknown
+; Calibration:	None
+; ref.:	photocopy dated 22 AUG 1983 of original notes (supplied by Phil
+;	Sargent I think, or maybe it was Mike Martin, in AERW's archive)
+;	NB there are NO STATION NUMBERS in original notes - all have been
+;	deduced from numbers on the sketch
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0	; bolt at entrance
+;*export 14	; cairn above ramp intended for future survey (not used)
+*export 18	; group of boulders on RH wall after passing top of ramp
+		; with a pillar
+*export 34	; prominent boulder in chamber below ramp up towards the Big
+		; chamber (and, as it happens, the way in from 1623/78)
+; note station 35 is not relocatable, but is next to 1623/78 connection
+*export 39	; bolt at top of 32m pitch into Big Chamber
+
+;CHANGE        0.0    0.0             1983 Survey - no compass problems
+;GRADE USE 5N
+   0   1  1.     -   Down
+   1   2  4.6   75.  -49.
+   2   3  4.18 123.5 -33.
+   3   4  3.14  79.  -37.
+   4   5  2.65  63.  -50.
+   5   6  5.9   93.   -4.
+   6   7  5.0  166.  -72.
+   7   8  3.42 254.  -24.
+   8   9 11.05 353.   -4.
+   9  10  3.35 335.  -16.
+  10  11  5.12  31.  -16.
+  11  12  9.02   4.   -7.
+  12  13  6.15   8.  -17.
+  13  14  7.77  54.  -17.
+  14  15 11.92 357.   -6.
+  15  16 16.4   34.    6.
+  16  17  7.9  358.   33.
+  17  18 14.15  15.   36.
+  18  19 16.02  18.   23.
+  19  20 11.8   49.   -5.
+  20  21  2.48 104.  -21.
+  21  22 15.16  28.    1.
+  22  23  3.71  14.   -9.
+  23  24  3.72  45.    9.
+  24  25  9.14  26.  -26.
+  25  26  5.34 349.   15.
+  26  27 10.62  20.  -13.
+  27  28  4.40  32.  -22.
+  28  29  6.60  32.   11.
+  29  30 12.62  42.    4.
+  30  31  3.45  18.   -5.
+  31  32  3.61  91.   29.
+  32  33  3.50  34.   -9.
+  33  34 11.04  31.  -53.
+  34  35 15.77 289.   43.
+  35  36  8.91   1.    5.
+  36  37 10.56  43.  -10.
+  37  38  2.90  86.  -13.
+  38  39 10.40  61.  -58.
+  39  40 32.     -   Down
+  40  41  7.95 218.   -2.
+  41  42 29.70 231.  -16.
+  42  43 16.50 229.   -9.
+  40  44 27.85  39.   11.
+  40  45 12.56 279.   -7.
+  45  46 10.04 346.  -21.
+  46  47 24.70  44.  -22.
+  47  48 11.95 352.  -26.
+*end 142Ent
+
+*begin 142To41 ; formerly "SR" survey
+
+*date 1983.08.09
+*team Insts 
+*team Tape 
+*team Notes Gail Smith
+*instrument Compass 949847, Clino 113782
+; Calibration:	None
+; Ref.	very scrotty photocopy of original notes in AERW's archive, almost
+;	certainly supplied by Phil Sargent
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; top of boulder in chamber below 18m pitch in 41
+*export 15	; mark on boulder in corner chamber before Big Chamber
+*export 50	; group of boulders on right past rubble pillar
+*export 53	; in middle of passage - painted cairn
+
+   1   2  9.40 288.   39.
+   3   2 16.46 119.  -22.
+   3   4  7.21 301.   25.
+   5   4  7.85  73.   11.
+   5   6  8.33 138.  -27.
+   7   6 20.50  47.   30.
+   7   8  5.43 249.   -6.5
+   9   8  3.87 156.  -46.5
+   9  10  7.23 285.   23.
+  11  10  3.71 178.  -25.
+  11  12 10.86 294.   32.
+  13  12 12.00  72.5  37.
+  13  14  5.36 212.5 -35.
+  15  14  5.84 270.   34.  ; VD34=SR15 AT CORNER BEFORE BIG CHA.
+
+  50  51  9.14 174.  -35.
+  52  51 13.00  31.   31. ; 51 on rubble pillar above ramp
+  52  53  9.82 213.  -16.5
+*end 142to41
+
+*begin 142side ; formerly "SQ" and "SP" surveys
+*date 1983
+*team Insts 
+*team Tape 
+*team Notes 
+*instrument compass 111368 (added to photocopy in ink)
+; Calibration:	None
+; ref:	very scrotty photocopy of original notes in AERW's archive - no
+;	sketching included
+
+; ====== stations refindable to link to other surveys: ======
+
+;*export 1	; start of survey - no clue where
+*export 14	; painted cairn in middle of passage on main route
+;*export 21	; top of 1 foot cairn at top of 1 metre climb
+
+   1   2  9.35 299.   56.
+   2   3  3.4  315.   27.
+   3   4  5.55 215.5 -22.
+   4   5  4.5  270.5 -43.
+   5   6  8.37 227.  -30.
+   6   7  7.68 267.5 -27.
+   7   8  4.28 341.5 -10.5
+   8   9  3.45 319.5  33.5
+   9  10  2.31 254.   30.
+  10  11  7.6  241.  -10.5
+  11  12  8.5  228.  -11.
+  12  13 10.7  248.5  13.
+  13  14 15.37 210.  -25.
+
+  14  15  5.59 163.    7.
+  15  16  8.22 198.   -5.
+  16  17 10.75 171.    9.
+  17  18  6.20 251.5  11.
+  18  19 13.6  178.5  12.
+  19  20  7.29 199.   13.
+  20  21  9.07 165.5  10.5 ; ON .3M CAIRN
+
+; Up Wiggies' Way on
+ SP1   3  4.07   5.   31.
+ SP1 SP2 16.52 316.   45.
+
+*end 142side
+
+*begin 41to142 ; formerly "TB" survey. A different connection from 142to41
+
+*date 1985 ; seems likely to be trip 1985-142-2 on 1985.06.30
+*team in which case it would be Mike M, Gavin & Tina
+*instrument 
+*team Tape 
+*team Notes 
+*instrument 
+; Calibration:	None?
+; Ref.:	Photocopied single page ("p 17") of squared-paper exercise book (which
+;	appears to be back of 1985 logbook) with transcribed figures in AERW's
+;	archive. Yet to trace copy of original notes (I know I've got these
+;	somewhere, because I can remember being impressed with the sketching)
+
+; ====== stations refindable to link to other surveys: ======
+
+*export bolt	; bolt at head of 32m pitch into Big Chamber
+*export 0	; floor at foot of rope on 32m pitch
+*export 13	; boulder in chamber at foot of 18m pitch in 41
+
+;CHANGE               0.0   0.0      1985 data assumed OK
+bolt   0 29.64   -   Down ; NB 1983 figure was 32m !
+   1   0  7.62 245.5  -3.
+   1   2 18.75  26.   13.
+   3   2 14.59 216.  -35.
+   3   4  8.65  93.5  50.
+   5   4  7.17 313.  -44.
+   5   6  3.3    1.  -22.
+   7   6  6.06 246.  -16.5
+   7   8  6.93 155.   27.5
+   9   8 10.14  11.  -43.
+   9  10 10.9  249.5  36.
+  11  10 18.5   15.  -30.
+  11  12 14.6  220.5  35.
+  11  13 12.83 110.  -33.5
+;  13   T19  0.                    assumed the same boulder again !
+
+*end 41to142
+
+*begin 142Bcha ; formerly "VE" survey
+
+; Locn:	SE flank Vord. Schwarzmooskogel, Western massif, Totes Gebirge, Austria
+; Cave:	Stellerweghöhle back entrance (142)
+*title "Big Chamber"
+*date 1985.08.11 ; deduced - "Sunday evening", trip 1985-142-3
+*team Gavin, Mike TA, Chris, Tina
+*instrument 
+*team Tape 
+*team Notes 
+; Calibration:	None
+; Ref.:	Photocopies of transcribed notes from squared-paper exercise book
+;	(back of 1985 log) in AERW's archive, pages 35 and 36
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; floor at foot of rope on 32m pitch (assumed same point)
+		; transcribed notes say "survey mark at bottom of pitch"
+
+   2   1  3.17 320.  -21.
+   2   3  3.7   45.   -9.
+   4   3 11.39 231.  -15.
+   4   5  9.5   62.  -11.
+   6   5  8.45 150.5 -30.5
+   6   7 10.91  65.5  42.
+   6   8  9.13  99.5  45.
+   6   9  9.9  113.5  34.
+   6  10 16.38 118.   32.5
+   6  11 13.97 249.  -21.5
+  12  11  6.65  58.   -3.5
+  13  11  5.68   3.5  21.
+  13  14  8.35 207.5   1.
+   1  14  6.03   1.    -.5
+   1  15  6.83 198.    1.5
+  16  15  9.21  57.5  24.
+  16  17 22.28 237.  -12.
+  18  17 17.96  35.5  12.
+  19  17  8.4  160.   13.
+  19  20  6.82  11.5  14.
+  21  20  7.4  222.  -29.
+  21  22 12.85  29.    6.
+  23  22 13.33 220.5  18.5
+  23  24 14.39 147.5  40.
+  25  24  7.76 230.  -16.
+  25  12  5.02 323.  -39.5
+
+*end 142Bcha
+
+*end 142

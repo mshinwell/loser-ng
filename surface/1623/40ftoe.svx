@@ -1,0 +1,21 @@
+*begin gruensurf
+;Außenvermessung vom neuen Grünen Eingang zum Schlufeingang der SVH
+*date 1999.10.31
+;Vermessung am 31.10.1999, Uwe Krüger, Thilo Müller
+;update 17.9.00, Thilo
+;Referenz: Meßbuch "SMK 3" 
+
+*export 9  ;MP 9 = Gruen.9 = P40s
+*export g  ;MP g = eisSVH.SV1 = P40e
+
+*DATA normal from to length gradient bearing ignoreall
+
+9	a	12.88	-10	54
+a	b	46.64	3	22
+b	c	30.92	-16	47
+c	d	14.66	5	2
+d	e	6.45	-8	111
+e	f	9.43	-9	56
+f	g	8.92	-3	330
+
+*end gruensurf

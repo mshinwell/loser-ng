@@ -1,0 +1,29 @@
+*begin antigrav
+
+*export 1 12 15
+
+*title "Anti-gravity"
+*date 2015.08.05
+*team Insts Jenny Black
+*team Notes Olly Betts
+*instrument Our disto; CUCC Pony #3
+; Survey folder reference: 2015#58
+
+1	0	15.993	178	-57
+1	2	2.536	021	+21
+3	2	3.575	123	-10
+4	3	3.945	212	-21
+5	4	7.936	190	+20
+6	5	7.061	190	+41
+7	6	4.371	180	+22
+8	7	2.951	306	+09
+8	9	3.211	160	-25
+9	10	3.533	201	-39
+11	10	7.307	020	+52
+11	12	1.367	284	+38
+8	13	12.383	045	+63
+13	14	2.195	014	+11
+13	...	6.273	026	+32
+15	14	5.340	354	-20
+
+*end antigrav

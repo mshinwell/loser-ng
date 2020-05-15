@@ -1,0 +1,65 @@
+; *** DO NOT SAVE THIS FILE WITHOUT RENAMING IT !! ***
+;[Stuff in square brackets is example text to be replaced with real data, 
+; removing the square brackets]
+
+*begin pitstop_2
+
+; stations linked into other surveys (or likely to)
+*export 2x 2
+
+; Cave:Balcony
+; Area in cave/QM: Pitstop
+*title "pitstop_2"
+*date 2018.08.02
+*team Insts nadia
+*team Notes becka
+*team Pics 
+*team Tape 
+*instrument Becka 2
+; Calibration: [Where, readings]
+*ref 2018#35
+; the #number is on the clear pocket containing the original notes
+
+; if using a tape:
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+2x 1 6.42 329 19
+1 2 8.28 025 15
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Pink nail varnish markings
+
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+2x 5 1 2 0.5
+1 1.3 2.5 2.8 1.5
+2 1.1 0.3 3 1.5
+
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    A    pitstop_2.1    2    pitch that likely connects into mongal rally 
+;QM2    x    pitstop_2.2    2    aven above pitch
+
+;------------
+;Cave description  ;(leave commented-out)
+;off a junction at the start of pitstop. climb over a boulder and then false floor over a pitch. likely connects to mongal rally. 
+
+*end pitstop_2

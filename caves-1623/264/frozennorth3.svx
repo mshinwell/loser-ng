@@ -1,0 +1,76 @@
+*begin frozennorth3
+
+; stations linked into other surveys
+*export 27x 30x
+
+; Cave:Balkonhoehle
+; Area in cave/QM: going north from frozen north
+*title "Frozen North 3"
+*date 2015.07.29
+*team Insts George Breley
+*team Notes Sarah Parker
+*team Pics None
+*team Tape Robert Rignall
+*instrument Tape/Compass/Clino
+; Calibration: not applicable
+*ref 2015#30
+*calibrate tape +0.20	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from  to   tape      compass   clino
+27x	1	9.77	172	+02
+1	2	2.06	134	-15
+2	3	4.58	173	-05
+3	4	4.91	162	-13
+3	5	2.37	089	-17
+;5	30x	6.62	009	+29 ;original loop 12% error
+;steep compass leg suspicious - should be checked
+5	30x	6.62	047	+29 ;around 47 is much more convincing.
+
+
+;-----------
+;recorded station details
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;27x	3	6	35	0.3	;	NP on boulder on floor
+;1	0.5	0.1	1.2	1	;	RHW
+;2	0.1	1.2	1.5	3.3	;	overhang at junction
+;3	2	0	1.5	5	;	RHW at junction
+;4	0.2	0.8	1.2	2.5	;	overhang on LHW
+;5	0	1	2.5	5	;	knob on left corner
+;30x	4	2	20	1	
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+27x	3	6	35	0.3	;	NP on boulder on floor
+1	0.5	0.1	1.2	1	;	RHW
+2	0.1	1.2	1.5	3.3	;	overhang at junction
+3	2	0	1.5	5	;	RHW at junction
+5	0	1	2.5	5	;	knob on left corner
+30x	4	2	20	1	
+*data passage station left right up down
+3	2	0	1.5	5	;	RHW at junction
+4	0.2	0.8	1.2	2.5	;	overhang on LHW
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    C    frozennorth3.4    -    Hole with 2 passages continuing on other side
+
+;------------
+;Cave description
+
+;A rift passage that loops round and links 2 chambers, with possible leads at the end at station 5. 
+
+
+*end frozennorth3

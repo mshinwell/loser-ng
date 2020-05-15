@@ -1,0 +1,52 @@
+*begin 2004-15ato204a
+
+*title "Surface 2004-15a to 204a"
+*date 2006.07.24
+*team Insts Oliver Stevens and Sarah White
+*team Notes Richard Mundy
+*team Tape -
+*instrument 1 & Pony
+
+*export 1 6 7
+
+*calibrate tape +0.00
+
+2	1	15.63	275	-15	;1 is tag 2004-15a
+2	3	15.84	082	+22
+3	4	9.80	030	+19
+4	5	10.72	019	-22
+5	6	4.80	250	-25	;6 is tag 2004-15b
+;Legs between stations 1-6 were done with Set 1.  Calibration bolt-to-hole 156 +22, hole-to-bolt 335 -22.
+7	8	9.19	072	+18	;7 is tag 204a
+8	9	15.75	338	+00
+9	10	15.25	318	-02
+10	11	13.49	291	-13
+11	12	23.33	242	+12
+12	13	12.45	238	-08
+13	14	14.20	238	-10
+14	15	20.60	289	+00
+15	16	20.42	294	-02
+16	17	10.44	277	+20
+17	18	2.97	284	+17
+18	19	1.26	303	-10
+19	20	4.90	252	-12
+20	21	7.09	284	-17
+;Legs between stations 7-21 were done with the first CUCC pony.
+23	6	19.2	273	-33.5
+24	23	2.03	020.5	-05.5
+25	24	3.53	345	+05
+26	25	5.64	262	-20.5
+27	26	13.03	314	+03.5
+28	27	29.82	270	-05
+29	28	6.70	266.5	-28
+30	29	9.62	271	+04
+31	30	25.70	187	-04.5
+32	31	20.60	304.5	-21
+33	32	30.33	193.5	-07
+34	33	9.72	201	-09.5
+35	34	19.45	254	-31
+35	36	5.34	065.5	+33.5
+21	36	11.15	204.5	-06
+;Legs between stations 6-36 were done with Set 1.  Calibration bolt-to-hole 150.5 +22, hole-to-bolt 329 -22.5.
+
+*end 2004-15ato204a

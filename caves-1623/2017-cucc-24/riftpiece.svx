@@ -1,0 +1,78 @@
+
+*begin riftpiece
+
+; stations linked into other surveys (or likely to)
+*export 1x
+
+; Cave: GSOH
+; Area in cave/QM: Entrance
+*title "Rift Piece"
+*date 2017.08.02
+*team Insts Becka Lawson
+*team Notes Luke Stangroom 
+*instrument Becka's Distox2 
+; Calibration: UK by Becka
+*ref 2017#30	; the #number is on the clear pocket containing the original notes
+
+; if using a tape:	*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+
+34	33	6.83	303	-32
+35	34	2.25	196	-05
+36	35	2.77	144	-44
+37	36	4.68	227	-16
+38	37	3.37	135	+05
+39	37	10.29	038	-49
+40	39	3.62	098	-15	
+41	40	3.18	145	+33
+41	42	8.62	285	-19
+43	41	5.43	067	-62
+44	43	9.51	221	-81
+44	45	15.94	114	-01	splay
+1x	44	4.22	066	+06
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down ignoreall
+
+33	2	0	3.4	0.5
+34	1.4	1.5	23	0.5
+35	0	3.5	20	1.7
+36	1.7	0	19	3
+37	0.5	1	9	6
+38	1	5.4	7.2	10.4	CHECK if LRUDS correct
+39	0	1.5	6.5	12
+40	1.5	0.5	13	2.5
+41	1	1	13	14
+42	0	1.5	12	12
+43	0	1.5	7.5	19
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surveyname.5    -    description of QM ]
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+
+; Swing in to short passage from window off pitch
+
+*end riftpiece

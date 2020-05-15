@@ -1,0 +1,116 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schwabenschacht 1623/78
+
+*begin bartl
+*title "Wo dr Bartl dr Moscht holt"
+
+*export S0	; haupt.63
+*export S14	; Anschluss Windloch vs14
+*export s43	; Anschluss Windloch vs43
+
+; Messteam: Klaus Gebhard, Robert Winkler, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: SMK 1
+*date 1992.08.28
+
+*data normal from to length gradient compass
+S0	S1	10.05	-15	239
+S1	S2	3.25	-45	320
+S2	S3	8.90	DOWN	-
+S3	S4	2.80	15	192
+S4	S5	2.60	-33	128
+S5	S6	14.42	DOWN	-
+S6	S7	3.00	-49	250
+S7	S8	3.92	-12	198
+S8	S9	1.74	-7	140	;Spit
+S9	S10	16.64	DOWN	-
+S10	S11	2.00	5	0	;Spit
+S11	S12	2.88	-51	355	;Spit
+S12	S13	12.52	DOWN	-
+S13	S14	5.27	-2	337
+
+; Raumwerte
+; keine Raumwerte
+
+
+; -2- Nägschdmol-Meander, Alexander der Große (MP S37),
+;     der gute Abgang (ab MP S40)
+; Messteam: Alexander Wöhrle, Patrick Hauzinger, Jens Römer,
+;           Markus Scheuermann, Robert Winkler
+; Zeichner: Robert Winkler
+; Referenz: SMK 1
+*date 1993.07.30-1993.07.31
+
+*data normal from to length gradient compass
+S14	S15	8.70	-14	240
+S15	S16	2.80	30	186
+S16	S17	2.60	6	202
+S17	S18	3.10	-6	246
+S18	S19	1.25	20	213
+S19	S20	3.95	-35	156
+S20	S21	1.70	-32	167
+S21	S22	3.40	-4	82
+S22	S23	2.30	-35	48
+S23	S24	5.15	-14	128
+S24	S25	5.45	-37	111
+S25	S26	1.70	-25	122
+S26	S27	2.65	-60	308
+S27	S28	3.00	-11	102
+S28	S29	2.85	11	52
+S29	S30	4.50	5	190
+S30	S31	2.85	-7	225
+S31	S32	1.25	-5	172
+S32	S33	1.40	5	154
+S33	S34	2.15	-26	220
+S34	S35	1.65	-7	102
+S35	S36	2.70	18	66
+S36	S37	1.75	-32	16
+S37	S38	2.00	30	125
+S38	S39	7.35	20	60
+S39	S40	3.80	-11	33
+S40	S41	6.55	22	150
+S41	S42	5.95	-14	154
+S42	S43	2.20	2	194
+S43	S44	7.10	DOWN	-
+S44	S45	4.90	0	5
+S45	S46	1.30	14	115
+S46	S47	2.80	-34	78
+S47	S48	6.95	-78	142
+S48	S49	2.70	-1	194
+S49	S50	1.65	-26	230
+S50	S51	1.30	-32	180
+S51	S52	5.85	-70	235
+
+; Raumwerte
+; keine Raumwerte
+
+
+; -3- Alexander der Große - Leopardencanyon
+; Messteam: Robert Winkler, Thilo Müller
+; Zeichner: Robert Winkler
+; Referenz: SMK 1
+*date 1993.08.24
+
+*data normal from to length gradient compass
+S38	1	16.65	-6	235
+1	2	3.41	3	223
+2	3	6.09	-14	253
+3	4	11.76	-1	226
+4	5	2.99	-17	153
+5	6	5.71	-1	215
+6	7	5.46	-4	189
+7	8	4.78	5	239
+8	9	6.16	-3	246
+9	10	3.75	-2	179
+10	11	6.59	0	220
+11	12	5.23	5	117
+12	13	4.00	3	100
+13	14	3.31	-50	179
+14	15	4.43	-14	237
+15	16	2.81	-13	191
+
+; Raumwerte
+; keine Raumwerte
+
+*end bartl
+

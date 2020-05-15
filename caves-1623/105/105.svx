@@ -1,0 +1,16 @@
+; 1623/105
+
+*entrance p105
+
+*equate p105 105.1
+
+*begin 105
+
+*export 1
+*date 1977
+
+; made up from description and memory of looking at the entrance
+1 2  9 045 -060
+2 3 31 - down
+
+*end 105

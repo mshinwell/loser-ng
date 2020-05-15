@@ -1,0 +1,57 @@
+*equate p2009-02 2009-02.1
+*entrance p2009-02
+
+*begin 2009-02
+
+*title "Schneehuhnhoehle"
+*date 2009.08.05
+*team Insts Frank Tully
+*team Notes Frank Tully
+
+; Disto blue one
+; Pony no. 2
+; notes in 2009#26
+
+*export 1 
+
+*data normal from to compass clino tape  
+2	1	350	+48	1.78
+3	4	244	-72	1.91
+3	2	057	+45	3.50
+5	4	305	+20	1.34
+5	6	124	-56	20.36
+7	6	084	-36	4.79
+7	8	199	+08	8.13
+6	9	054	-37	11.55
+9	10	043	-32	3.14
+10	11	139	-43	1.40
+12	13	174	-19	3.24
+12	11	236	-13	0.78
+14	13	338	-24	2.96
+14	15	161	-08	2.99
+14	16	165	-12	4.04
+16	17	195	+23	1.69
+17	18	219	-03	2.35
+
+*data passage station left right up down ignoreall
+;station    L   R   U   D   Desc.
+1	-	-	-	-	Bolt on entrance (placed for tag)
+2	-	-	-	-	RD on boulder
+3	-	-	-	-	RD edge of pitch
+4	-	-	-	-	RD above y hang
+5	-	-	-	-	RD on rock with view down pitch
+6	-	-	-	-	RD on rock at other side of pitch bottom
+7	-	-	-	-	RD wall of chamber
+8	-	-	-	-	RD in corner
+9	1.5	0.0	2.0	0.7	RD on wall just in passage off chamber
+10	0.0	0.4	1.3	0.2	RD on LH side wall
+11	3.0	1.0	0.4	0.0	RD on boulder floor
+12	-	-	-	-	
+13	0.4	0.1	0.3	0.2	RD boulder on floor
+14	0.0	0.5	0.3	1.5	RD RH side wall
+15	0.0	0.6	3.0	1.0	RD on end wall
+16	0.1	0.3	0.0	2.0	RD on squeeze at bottom
+17	0.0	0.5	1.0	1.5	RD LH side wall
+18	0.0	0.2	5.0	1.3	RD on LH side wall
+
+*end 2009-02

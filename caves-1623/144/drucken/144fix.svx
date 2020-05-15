@@ -1,0 +1,5 @@
+; 144/144fix.svx
+
+*include entlink
+*include 144
+*include fixedpts

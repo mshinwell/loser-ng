@@ -1,0 +1,48 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Earl + Brian's Unnamed Hoehle
+
+; Entered Jan 2004 from scans of original survey notes; apparently never entered in or drawn up.
+
+*entrance p240
+*equate 240.8 p240
+
+*begin 240
+
+*title "1623/240 - Gewoelbeschacht (Arch Shaft)"
+*date 2003.08.06
+*team Insts Brian Outram
+*team Notes Earl Merson
+*team Tape Brian Outram
+*instrument Tape New yellow open reel
+*instrument Set 5
+; Calibration: stone bridge: {328/-22, 327/-22.5, 327/-22}, {146/+22.5, 146.5/+22.5, 146/+22.5}
+; ref.:	2003#29
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 8
+
+;from	to	tape	compass	clino	; remarks
+1	2	18.16	-	UP
+3	2	0.8	354	+10
+4	3	6.13	090	-60
+5	4	4.32	097	-41
+6	5	12.71	065	-79
+7	6	3.75	033	-54
+8	7	5.04	164	-24
+
+
+;station details
+; left+right are going *out* of the cave
+;name	L	R	U	D	description
+;1	-	-	-	-	bottom of pitch
+;2	0	0.6	1	18.16	pitch bolt
+;3	0	1	8	2.5	tip of rock with RP mark
+;4	0.8	2.5	0	2	RP on flake by bolt on wall
+;5	6	5	3	1	RP on corner of boulder at base of shake hole
+;6	-	-	-	-	Rebelay bolt
+;7	-	-	-	-	RP Tip of rock
+;8	-	-	-	-	Tag bolt
+;	(6,7,8 outside)
+*end 240
+

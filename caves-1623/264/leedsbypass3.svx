@@ -1,0 +1,26 @@
+*begin leedsbypass3
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2005-5 "Balconhohle"
+
+*export	4
+
+*title "Leeds bypass 3"
+*date 2014.08.19
+*team Insts Martin Green
+*team Tape Martin Green
+*team Notes Martin Green
+;instruments estimated distances, yellow/blue comp & clino
+*ref 2014#49
+
+;from	to	tape	compass	clino	remarks
+ 1      2   4       156     +12     ;Distance estimated
+ 3      1   2.5     116     0       ;Distance estimated
+ 4      3   1       45      0       ;Estimated
+
+*data passage station left right up down ignoreall
+1	1.8	0.2	1.5	0.2
+3	0.3	1.0	1.2	0.5
+
+*end leedsbypass3
+

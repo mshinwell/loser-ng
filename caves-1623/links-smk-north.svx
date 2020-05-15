@@ -1,0 +1,26 @@
+; Connections between cave systems in the Hinter. SMK-Höhlensystem
+; Verbindungen innerhalb des Hinter. SMK-Höhlensystems
+
+; 136:161 interface
+*equate 136.HotMC.1 	161.rocky.8
+
+; 204:258 (Steinbrucken:Tunnockschacht) connections
+*include links204-258
+
+; 161:204 (Kaninchenhoehle:Steinbrucken) connections
+*include links161-204
+
+; 161:107 (Kaninchenhoehle:Gemsehoehle) connections
+; *equate 161.blownout.18 107.161connection.18x some legs duplicate but this connection to a numbered station in blown out
+*equate 161.blownout.21 107.161connection.3
+
+; 258:264 (Tunnockschact:Balkonhoehle) connections
+*equate 258.penguinfellatio2.4 264.penguinfellatio.9
+*equate 258.feckingtight.7 264.lower_balkon.prangman.22
+; if both above connections are disconnected there is +7m V and 37m H for penguinfellatio
+; and -11m V and 7m H for fecking tight / prangman
+*equate 258.anthemusa.9 264.lower_balkon.littleboy.42
+;checking connection
+
+
+

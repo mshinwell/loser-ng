@@ -1,0 +1,69 @@
+; Includes two surveys:
+;   - 204c to 2002-04
+;   - 204f to 204c
+; latter survey included to connect 204c fixed point
+
+; links between surveys in this file
+*equate 204cto242.2 204ftoc.4
+
+*begin 204cto242
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "204c to 242"
+*date 2003.07.24
+*team Insts Julia Bradshaw
+*team Notes Anthony Day
+*team Pics none 
+*team Tape Both
+*instrument Compass #1 ; Clino #1 Tape: unknown
+; Calibration: none 
+; ref.:	2003#12
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 2 4 5 
+
+;from	to	tape	compass	clino	; remarks
+2	1	6.57	298	-22	
+2	3	20.72	132	+11
+3	4	4.47	134	-11
+3	5	7.61	152	-19
+
+;station details
+;name	ht	description
+;1	1.0	204c tag bolt
+;2	0.0	point on ridge
+;3 	0.25	furthest tip of Bunde#
+;4	0.50	2002-04 tag bolt (now 242)
+;5	- 	pitch head bolt
+
+*end 204cto242
+
+*begin 204ftoc
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "204f to 204c"
+*date 2003.07.29
+*team Insts Julia Bradshaw
+*team Notes Anthony Day
+*team Pics none 
+*team Tape Both
+*instrument Compass #3 ; Clino #3 Tape: new yellow open reel
+; Calibration: none 
+; ref.:	2003#12
+
+; ====== stations refindable to link to other surveys: ======
+*export 1 4
+
+; from	to	tape	compass	clino	; remarks
+2	1	16.17	223	-21
+3	2	25.83	237.5	-11
+3	4	13.88	079.5	+17
+
+;name	ht	description
+;1	0.6	204F tag bolt
+;2	0.0	rock on ridge
+;3	0.0	rock on ridge
+;4	-	point 2 from 204c to 2002-04 survey by same team on 24/7/03
+
+*end 204ftoc

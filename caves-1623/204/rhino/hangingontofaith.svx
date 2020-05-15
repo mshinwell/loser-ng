@@ -1,0 +1,55 @@
+*begin hangingontofaith
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "hanging on to faith"
+*date 2005.08.11
+*team Insts Becka Lawson
+*team Notes Andrew Atkinson
+*team Pics 
+*team Tape 
+*instrument TSG comp/clino Compass #Set 5 ; Clino #Set 5, Tape New, China,
+;Yellow
+; Calibration:  146/+23 326/-24
+; ref.:	2005 #37
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+
+*calibrate tape -0.12	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	9.30	173	-22
+3	2	7.65	306	+48
+4	3	16.50	196	+81
+5	4	25.62	-	up
+5	6	2.38	137	-62
+7	6	1.29	023	+47
+8	7	5.08	302	+76
+9	8	6.83	316	+76
+10	9	16.17	-	up
+11	10	13.24	263	+76
+11	12	5.10	027	-62
+12	13	26.32	066	-67
+13	14	9.86	163	-18
+15	14	19.35	191	+27
+
+;station details
+;name	L	R	U	D	E	description
+;1	5	2	8	1.5		rp from qm survey
+;2	2.5	0.3	1.5	4		rp rhw
+;3	N:4	S:3	E:0	W:2.5		lhw above pitch '3'
+;4	N:1.5	S:4	E:2	W:1		rp 20cm above rebelay bolt
+;5	N:2	S:5	E:3	W:0.2		rp above shelf	
+;6	N:1	S:4	E:2	W:1.5		rp below shelf
+;7	N:3	S:2	E:2.3	W:0.3		rebelay rp
+;8	N:2	S:6	E:1.5	W:0.5		rp 20cm from rebelay
+;9	N:5	S:1.2	E:1	W:2		deviation krab
+;10	N:6	S:5	E:4	W:0		rp '10'
+;11	N:4	S:0	E:1.2	W:2		rp
+;12	N:5	S:6	E:8	W:1		rock pendant
+;13	N:4	S:10	E:6	W:1		rp 
+;14	N:3	S:4	E:7	W:1.8		rp
+;15	N:1.5	S:0	E:2	W:3		rp back wall
+*end hangingontofaith

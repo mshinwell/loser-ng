@@ -1,0 +1,253 @@
+*begin GPS96
+;1998.07.17 AERW fix so Survex doesn't whinge about illegal chars
+
+;GPS locations 1996
+;These taken over a number of wandering trips on expo 96
+;Created 1996.07.30 Wookey
+
+;Datum is 'Austria', co-ord system is 'German' (ie Gauss&Krueger)
+;numbers are not in same range as existing GK co-ords...
+
+;These are the raw figures: all preceded by 54 and 52 respectively
+;*fix 139        11169    82900  0
+;*fix 145        10784    83077  0
+;*fix 158        10156    83041  0
+;*fix 161a_1     11356    83203  0
+;*fix 161a_2     11321    83205  0
+;*fix 161d_1     11791    82931  0
+;*fix 161d_2     11729    82971  0
+;*fix 161d_3     11738    83098  0
+;*fix 161d_4     11804    82938  0
+;*fix 161d_5     11711    82962  0
+;*fix 162        11364    82854  0
+;*fix 163        11735    83070  0 ; this is wrong, probably a 161d fix in fact, wrongly labelled
+;*fix 164_189    10460    83090  0
+;*fix 185        11262    83073  0
+;*fix 195        11161    83786  0
+;*fix 36         10533    82782  0
+;*fix 78         10572    82052  0
+;*fix 80         10593    83082  0
+;*fix 90         10186    82943  0
+;*fix 96_1       11559    83540  0
+;*fix 96_2       11651    83621  0 
+;*fix B11        10453    83041  0 
+;*fix B4         10474    83145  0
+;*fix LSR0_6     10736    83563  0
+;*fix LSR7_9     10223    81636  0
+;*fix LSR0_7     10296    82836  0  ;laser pt on nase
+;*fix LSR7_11    10555    82836  0  ;laser pt on sattel
+;*fix Vord       11066    82789  0
+;*fix Vord_2     11091    82711  0
+;*fix 91         10141    83007  0
+;*fix WK11       11087    82470  0
+;*fix WK3        10256    82985  0
+;*fix WK4        11531    82409  0
+;*fix 218        11291    82969  0 ; was WK6
+;*fix WK7_1      11215    82860  0
+;*fix WK7_2      11262    82834  0
+;*fix RIFT       11254    83855  0  ; big rift near 195
+
+;*fix TC96_1     10347    83032  0
+;*fix TC96_2     10317    82981  0
+;*fix VD1          11404    83025  0
+
+;*fix BRGRST     08954    81023  0
+;*fix DIVING     17336    78585  0
+;*fix BASCAMP    10791    76058  0
+
+;To deal with the diff from G&K GPS co-ords to G&K everything else coords
+;------------------------------------------------------------------------
+;Laser.0_7 (Brauning Nase) is at 35419.56, (52)82237.16, 1769.77 
+;In GPS co-ords it is (54)10296, (52)82836, so the offset is
+;5374877, 599, or in more useful co-ords: +25123 ,-599
+;This assumes that the two co-ordinate sets are both in metres and are
+;aligned and co-scalar across the area we are interested in. This assumption
+;is at least aproximately valid, but it would be nice to _know_
+
+; using GPS fixes on five laserpoints, the average offset is
+; +25141.5, -589.3 (nothing has been changed to reflect this...)
+
+; so using these offsets (well, +25123, -600 actually) we get:
+;These are the new figures: all preceded by 54 and 52 respectively
+
+*Set names ?/-_
+;*fix 139        reference  36292    82300  0
+;*fix 145        reference  35907    82477  0
+;*fix 158        reference  35279    82441  0
+;*fix 161a_1     reference  36479    82603  0
+;*fix 161a_2     reference  36444    82605  0
+;*fix 161d_1     reference  36914    82331  0
+;*fix 161d_2     reference  36852    82371  0
+;*fix 161d_3     reference  36861    82498  0
+;*fix 161d_4     reference  36927    82338  0
+;*fix 161d_5     reference  36834    82362  0
+;*fix 162        reference  36487    82254  0
+;*fix 163        reference  36858    82470  0 ; very wrong. 
+     ; These figures suggest it is an incorrectly labelled 161d fix, in fact.
+;*fix 164/189    reference  35583    82490  0
+;*fix 185        reference  36385    82473  0
+;*fix 195        reference  36284    83186  0
+;*fix 36         reference  35656    82182  0
+;*fix 78         reference  35695    81452  0
+;*fix 80         reference  35716    82482  0
+;*fix 90         reference  35309    82343  0
+*fix 96_1       reference  36682    82940  0
+;*fix 96_02      reference  36774    83021  0 
+;*fix B11        reference  35576    82441  0 
+;*fix B4         reference  35597    82545  0  ;this seems to be in the wrong place too
+;*fix LSR0_6     reference  35859    82963  0
+;*fix LSR7_9     reference  35346    81036  0
+;*fix LSR0_7     reference  35419    82236  0  ;laser pt on nase
+;*fix LSR7_11    reference  35678    82236  0  ;laser pt on sattel
+;*fix Vord       reference  36189    82189  0
+;*fix Vord_2     reference  36214    82111  0
+;*fix 91         reference  35264    82407  0
+;*fix WK11       reference  36210    81870  0
+;*fix WK3        reference  35379    82385  0
+;*fix WK4        reference  36654    81809  0
+;*fix 218        reference  36414    82369  0 ; was WK6
+;*fix WK7_1      reference  36338    82260  0
+;*fix WK7_2      reference  36385    82234  0
+;*fix RIFT       reference  36377    83255  0  ;big rift near 195
+
+;*fix TC96_1  reference  35470    82432  0
+;*fix TC96_2  reference  35440    82381  0
+;*fix VD1          reference  36527    82425  0
+
+;these three removed for normal viewing, as not really required
+;*fix BRGRST     reference  34077    80423  0
+;*fix DIVING     reference  42459    77985  0
+;*fix BaseCamp   reference  35914    75458  0
+
+*end GPS96
+
+*begin GPS96AV
+;;finally we get the averaged GPS data - with the label GPSAV<whatever>
+;;these are produced from the excel spreadsheet track96.xls, and may be refined further
+;
+;*SET names _?-/
+;
+;*fix ??_1       36274    82501  0
+;*fix ??_2       35457    82413  0
+;*fix 136        36284    82155  0
+;*fix 139        36220    82275  0
+;*fix 145        35791    82457  0
+;*fix 158        35148    82424  0
+;*fix 161a_1     36397    82567  0
+;*fix 161a_2     36459    82665  0
+;*fix 161d_1     36864    82333  0
+;*fix 161d_2     36842    82407  0
+;*fix 161d_3     36847    82466  0
+;*fix 161d_4     36725    82380  0
+;*fix 161d_5     36835    82363  0
+;*fix 162        36452    82254  0
+;*fix 161d_6     36858    82470  0 ; was labelled 163. 
+;     ; These figures suggest it is a 161d fix, in fact.
+;*fix 164/189    35446    82442  0
+;*fix 185        36337    82542  0
+;*fix 194        36274    83207  0
+;*fix 195        36249    83179  0
+;*fix 36         35552    82178  0
+;*fix 78         35588    81455  0
+;*fix 80         35600    82422  0
+;*fix 90_?       35184    82309  0
+;*fix 90_1       35208    82290  0
+;*fix 91         35080    82426  0
+;*fix 96         36682    82940  0
+;*fix 96-02      36717    82971  0 
+;*fix 96-04      36725    82999  0 
+;*fix B11        35312    82420  0 
+;*fix B8         35470    82472  0  ;this seems to be in the wrong place too
+;*fix B4         35560    82123  0  ;this seems to be in the wrong place too
+;*fix LSR0_6     35770    82912  0
+;*fix LSR7_9     35228    81026  0
+;*fix LSR0_7     35265    82185  0  ;laser pt on nase
+;*fix LSR7_11    35563    82200  0  ;laser pt on sattel
+;*fix Vord       36151    82100  0
+;*fix Vord_2     36214    82111  0
+;*fix Hinter     36370    83260  0
+;*fix WK11       36179    81902  0
+;*fix WK3        35234    82373  0
+;*fix WK4        36663    81809  0
+;*fix 218        36361    82311  0 ; was WK6
+;*fix WK7_1      36309    82216  0
+;;*fix WK7_2      36385    82234  0
+;*fix RIFT       36274    83196  0  ;big rift near 195
+;*fix PLUS       36544    82868  0
+
+;*fix TC96_1     35288    82338  0
+;*fix TC96_2     35324    82417  0
+;*fix VD1_1      36264    82385  0
+;*fix VD1_2      36298    82432  0
+
+;;*FIX BGSRT      33856    80374  0
+;;*fix DIVING       43053    78137  0
+;;*fix BaseCamp     35915    75459  0
+*end GPS96AV
+
+*begin GPS96bestfit
+;GPS data pasted from track96.xls spreadsheet
+;this data uses linear regression on 20 GPS-converted points for latlon->G&K interpolation
+;Brauning nase is used for offset from GPS G&K to Austrian G&K
+;
+; Unsurprisingly, this doesn't give very accurate results compared to post-SA GPS fixes and
+; the proper conversion formulae which we now know, so all these fixes are commented out.
+;
+; This points are believed better than those above, and are generally about
+;100m NE of the above (bottom LH corner) to 50m NE (top RH corner).
+
+;*fix TC96_1	reference  35440	82393	0
+;*fix 91 	reference  35251	82483	0
+;*fix 90_1	reference  35345	82364	0
+;*fix WK3	reference  35391	82429	0
+;*fix 90_2	reference  35367	82344	0
+;*fix 158	reference  35313	82481	0
+;*fix 78		reference  35713	81492	0
+;*fix LSR7_9	reference  35386	81054	0
+;*fix BRGRST	reference  34137	80388	0
+;*fix TC96_2	reference  35473	82474	0
+;*fix 80		reference  35724	82480	0
+;*fix 185	reference  36395	82602	0
+;*fix 161a_1	reference  36450	82628	0
+;*fix 161a_2	reference  36506	82727	0
+;*fix PLUS	reference  36583	82935	0
+;*fix 96_02	reference  36741	83040	0
+;*fix 96_04	reference  36748	83068	0
+;*fix Hinter	reference  36425	83335	0
+;*fix Rift	reference  36337	83269	0
+;*fix 195	reference  36315	83252	0
+;*fix 194	reference  36337	83281	0
+;*fix LSR0_6	reference  35879	82979	0
+;*fix 164	reference  35584	82500	0
+;*fix B11	reference  35462	82477	0
+;*fix 145	reference  35898	82515	0
+;*fix VD1	reference  36329	82441	0
+;*fix 161d	reference  36874	82388	0
+;*fix WK4	reference  36692	81853	0
+;*fix 161d_2	reference  36842	82407	0
+;*fix 218	reference  36417	82366	0 ; was WK6
+;*fix 139	reference  36289	82329	0
+;*fix WK7	reference  36370	82269	0
+;*fix WK11	reference  36251	81948	0
+;*fix 162	reference  36499	82308	0
+;*fix QM_1	reference  36337	82560	0
+;*fix 161d_3	reference  36859	82525	0
+;*fix QM_2	reference  35594	82470	0
+;*fix 161d_4	reference  36748	82437	0
+;*fix 36		reference  35680	82230	0
+;*fix LSR7_11	reference  35690	82252	0
+;*fix B4		reference  35688	82174	0
+;*fix LSR0_7	reference  35420	82237	0
+;*fix Vord	reference  36225	82150	0
+;*fix 161d_5	reference  36848	82419	0
+;*fix 136	reference  36347	82207	0
+;*fix VD1_1	reference  36360	82489	0
+
+;*fix Base_1	reference  36010	75369	0
+;*fix NrBase	reference  35650	75095	0
+;*fix Base_2	reference  35997	75395	0
+;*fix Base_3	reference  35962	75404	0
+;*fix Diving	reference  42506	78103	0
+*end GPS96bestfit
+
+;*fix 161d_Survey 36859.58 82405 0 (from 161d survey stuff), for comparison

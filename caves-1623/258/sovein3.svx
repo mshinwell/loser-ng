@@ -1,0 +1,32 @@
+*begin sovein3
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export 4x
+
+*title "So Vein 3"
+*date 2011.08.03
+*team Notes Becka Lawson
+*team Insts Neil Pacey
+*team Tape Emma Wilson
+*instrument Chris Smith's Bristol Geography comp + clino and Neil's DistoX 
+
+; calibrate - A to B 326 -21 B to A 147 +20
+
+;ref.: 2011#15
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+2	1	13.03	-	down
+4x	2	1.35	295	-38
+				
+*data passage station left right up down ignoreall
+
+1	1.5	2.5	13	1.6	numbered at large ledge
+2	0.5	0.5	1.3	13	knot for pitch Yhang (rigged with 20m rope)
+4x	0	0.7	0.9	0.9	old numbered station, sovein2.4
+
+*end   sovein3

@@ -1,0 +1,39 @@
+*begin gravity
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Skinny Festers Cave
+*title "Skinny Festers Cave - Gravity anomoly"
+*date 2004.08.09
+*team Insts Martin
+*team Notes Brian
+*team Tape Stuart
+*instrument Compass set #4; Clino set #4
+; ref.:	2004 #56
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 ; list all exported survey points
+
+*calibrate tape +0.085	; +ve if tape was too short, -ve if too long
+;calibration 328 -23 327.5 -23 326 -23 148 +24 148 +24.5 147.5 +24
+;from	to	tape	compass	clino	; remarks
+2     1 5.64 294     -07        
+2     3 3.53 164     +19
+4     3 4.63 276     +52 ;this leg is reversed from notes
+4     5 6.31 154     -23
+5     6 2.65 211     +04
+6     7 8.0  -       down
+8     7 5.00 320     -18
+
+
+;stn	L	R	U	D	Desc
+;1        Station 21 2003-10
+;2        0       1.0       7.0 0.6 RP L side of passage
+;3        0.70    0         7.0 1.6 RP R side of passage
+;4        0.6     0.7       4.0 2.7 RP L side of rift
+;5        0.60    0.1       0   0.4 RP RH roof
+;6        1.0     0.7       2.0 4.0 Pitch head bolt
+;7        1.0     1.1       8.0 0.1 RP top rock base pitch
+;8        0.50    0.4       1.2 2.6 RP RH wall #8
+
+*end gravity

@@ -1,0 +1,34 @@
+*begin sandpit3
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Sand Pit 3"
+*date 2011.07.29
+*team Insts Fernando Abarquero
+*team Notes Aiora Zabala
+*team Pics 
+*team Tape Kathryn Hopkins
+*instrument unknown
+; Calibration: clino +23 -24, compass 154 334, 
+; ref.:	2011 #23
+
+; ====== stations refindable to link to other surveys: ======
+
+*export X
+
+*calibrate tape +0.1	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	X	2.55	335	-13	;
+2	1	1.80	305	-08	;
+
+
+
+*data passage station left right up down ignoreall
+;name	L	R	U	D	description
+X	-	-	-	-	old station (number 25 in sandpit.svx)
+1	0.80	0.00	2.00	4.00	Red Paint, Red wall on top
+2	0.00	0.30	1.00	3.50	RP, left wall
+
+
+*end sandpit3

@@ -1,0 +1,97 @@
+*begin gknodel
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Germknoedel's Revenge - a saga in two parts"
+
+*export part1.1 part2.5
+
+*equate part1.10 part2.12
+
+*begin part1
+*date 2001.08.19
+*team Insts Julia Bradshaw
+*team Notes Anthony Day
+*team Tape Both
+*instrument Compass Set 4 ; Clino Set 4, Tape Bar of soap
+; Calibration: Stone bridge: 323/-23 
+;                            148/+23.5 
+; ref: 2001#29
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 10
+
+*calibrate tape -0.195	; +ve if tape was too short, -ve if too long
+
+;from to	tape	compass	clino	; remarks
+1	2	0.97	-	down
+2	3	2.17	300	-24
+4	3	1.76	120	+46
+4	5	1.37	001	-03.5
+5	6	2.00	029	-08
+6	7	2.13	018	+14
+7	8	2.40	-	down
+8	9	2.05	037	-14
+9	10	3.28	-	up
+
+;station details
+;name	L	R	U	D	description
+;1	-	-	-	-	tag bolt
+;2	1.10	0.70	-	-	rock on floor
+;3	0.80	0.40	0.60	0.90	rp on roof
+;4	-	-	-	-	temp station on cairn
+;5	0.30	0.40	0.30	1.20	rp lh wall
+;6	0.40	0.40	0.50	0.30	rp rh wall
+;7	0.20	0.60	0.30	-	rp roof over pit
+;8	0.0	1.20	-	0.8	rp plumb foot
+;9	-	-	-	-	rp foot of plumb
+;10	0.70	0.60	0.40	-	rp top of climb
+
+*end part1
+
+*begin part2
+*date 2001.08.20
+*team Insts Julia Bradshaw
+*team Notes Anthony Day
+*team Tape Both
+*instrument Compass Set 4 ; Clino Set 4, Tape Bar of soap
+; Calibration: Stone bridge: 326/-23 
+;                            144/+23
+; ref: 2001#29
+; ====== stations refindable to link to other surveys: ======
+
+*export 5 12
+
+*calibrate tape -0.195	; +ve if tape was too short, -ve if too long
+
+;from to	tape	compass	clino	; remarks
+1	2	19.55	-	down
+3	2	2.65	106	+34.5
+4	3	0.94	073	+06.5
+5	4	2.80	238	-04.0
+1	6	5.10	258	+73.0
+6	7	1.25	-	up
+7	8	4.63	146	+80.0
+8	9	0.53	153	-12.0
+9	10	1.46	160	+11.0
+10	11	1.79	200	+03.0
+11	12	2.43	167	00.0
+
+;station details
+;name	L	R	U	D	description
+;1	-	-	-	-	deviation krab
+;2	-	-	-	-	rp foot of pitch
+;3	1.45	2.00	-	1.40	pebble on snowplug
+;4	-	-	-	-	rp back wall
+;5	-	-	-	-	rp from earlier survey
+;6	-	-	-	-	rp at rebelay
+;7	-	-	-	-	rp above rebelay
+;8	-	-	-	-	rp pitch head
+;9	0.00	0.80	0.50	0.50	rp nobble
+;10	0.10	0.45	0.50	0.40	rp lh wall
+;11	0.45	0.15	0.30	0.45	rp rh wall
+;12 -	-	-	-	rp joining station
+*end part2
+
+*end gknodel
+

@@ -1,0 +1,32 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau
+; Area: Plateau
+; Cave:	Bad Forecast. 1623/[cave-kataster-num]
+;(check if 1623 or 1626 if near boundary)
+; See gps17.svx for GPS coordinates
+
+*equate 2017-pw-01.entrance.1 p2017-pw-01a
+*equate 2017-pw-01.entrance.3 p2017-pw-01b
+*equate 2017-pw-01.thirdentrance.u1 p2017-pw-01c
+
+*begin 2017-pw-01
+
+*export entrance.1
+*export entrance.3
+*export thirdentrance.u1
+*export thirdentrance.s1
+
+*include entrance
+
+*include gardeningshoots
+*equate gardeningshoots.8x entrance.8
+
+*include thirdentrance
+*equate thirdentrance.1 entrance.1
+*equate thirdentrance.2 entrance.2
+*equate thirdentrance.3 entrance.3
+
+*include badforecastthree
+*equate badforecastthree.16x gardeningshoots.16
+
+*end 2017-pw-01
+

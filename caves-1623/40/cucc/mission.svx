@@ -1,0 +1,338 @@
+*begin mission
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Eishöhle, 1623/40
+; file containing surveys: mission (mit fudge),missionconnection, mission 2-4, modern (mit bodge)
+*title "Mission Impossible"
+*date 2000.08.01
+*team Insts Dave Horsley
+*team Notes Mark Shinwell
+*team Pics Mark Shinwell
+*team Tape Dave Horsley
+*instrument Compass #3 ; Clino #3, Tape CUCC 1997 (red one)
+; Calibration: <not yet done>
+*Ref 2000#10
+
+
+*export 1 10
+
+; Station 1 is marked "20" in Schneevulkanhalle (*equated elsewhere)
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+*data normal from to tape compass clino
+1	2	19.90	019	+05
+2	3	4.45	-	up
+4	3	4.89	191	-68
+4	5	0.67	301	-09
+6	5	4.28	212	-30
+6	7	7.92	062	+11.5
+8	7	6.41	126	-33
+8	9	5.00	296.5	-26.5
+9	10	24.45	-	down
+; estimated from here
+;10	11	4	023	0
+;11	12	5	-	down
+
+;*equate 12 fudge.10
+
+;*begin fudge
+;2	1	10	0	-
+;3	2	10	320	-
+;4	3	6	70	-
+;5	4	30	330 -
+;6	5	30	330 -
+;7	6	20	330	-
+;8	7	45	-	down
+;9	8	15	023 -
+;10	9	25	023	-
+;*end fudge
+
+*end mission
+
+;*equate mission.fudge.6 mission2.12
+
+; Connection between "20 cross" on boulder at bottom of rubble
+; slope up to PoV and main survey.
+
+
+*equate missionconnection.2 mission.1
+
+*begin missionconnection
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Eishöhle, 1623/40
+*title "Mission Impossible [connection bit]"
+*date 2000.08.02
+*team Insts Fay
+*team Notes Wook
+*team Pics Wook
+*team Tape Fay
+*instrument Compass #2 ; Clino #2, Tape Fisco Ranger black open reel
+
+*export 1 2
+
+*data normal from to tape compass clino
+1	2	6.04	331	+1.0
+
+; stns:
+; stn	h	desc
+; 1	1.2		red mark on lump sticking out of wall (0.4m from wall)
+; 2 1.5		"20" in pencil on rock tip
+
+*end missionconnection
+
+
+*equate mission.10 mission2.1
+
+*begin mission2
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Eishöhle, 1623/40
+*title "Mission Impossible 2 - down the big pitch"
+*date 2000.08.05
+*team Insts Andy A
+*team Notes Wook
+*team Pics Wook
+*team Tape Andy A
+*instrument Compass #2 ; Clino #2, Tape Fisco Ranger black open reel
+
+*export 1 6 11 12
+
+*units compass degrees
+*units clino degrees
+
+
+*data normal from to tape compass clino
+2	1	6.59	181	-01
+2	3	11.10	061	-47.5
+4	3	11.53	201	-01.5
+4	5	3.08	004	-07
+6	5	9.02	211	+03.5
+6	7	3.60	045	-07.5
+7	8	12.40	-	Down
+8	9	1.58	015	-05
+9	10	11.32	-	Down
+21	20	6.43	-	Down
+19	20	1.42	045	+50
+22	21	1.45	203	-36
+22	23	4.89	023	+51
+23	10	1.78	042.5	+07
+11	12	9.17	146	+02.5
+13	12	12.33	317	-10.5
+13	14	11.75	172	+11
+15	14	6.01	349.5	-08
+15	16	4.21	261	+10.5
+16	17	2.90	003	+24
+18	17	7.34	-	down
+19	18	1.84	-	down
+
+; stns: [surveying in]
+*data passage station left right up down
+; stn	L	R	U	D	;desc
+1	4	5	10	0	;stones at foot of (previous) hang
+2	0.1	2.5	3	0.9	;RP LHW
+3	1	0.5	3	0.55	;RP rock tip before pool
+4	1	0.1	0.4	1	;RP RHW
+5	0	0.5	0	0.4	;RP LHW (rubbed off)
+6	0.3	1.7	15	0.2	;RP rock on L of pitch
+7	1.2	1	-	-	;CM top of plumb
+8	-	-	-	-	;RP wall, bottom of plumb
+; stn	N	S	E	W	;desc    [N entirely arbitrary---see pics]
+; 9	0.3	1.5	0.6	1.3	;rebelay bolt
+; 10	2.5	1.2	4	3.5	;RP on cairn
+; 19	0.2	0.5	1	0.2	;RP on thread
+; 20	-	-	-	-	;CM on wall (E)
+; 21	0	0.3	0.6	0.2	;RP on wall (W)
+; 22	0.1	0.6	~6	1.1	;CM LHW
+; 23	0.2	0.6	~6	~2.5	;RP LHW level with bolt
+; now surveying out:
+; stn	L	R	U	D	desc
+ 11	6	2.5	0.5	1.5	;RP roof nodule
+ 12	2.3	6	0.6	1.1	;RP roof (L was ~6)
+ 13	0	3	0.4	0.4	;RP LHW
+ 14	2	0.6	0.5	0.6	;RP roof
+ 15 	0	1.3	3	0.4	;RP RHW (U was ~3)
+ 16	0	0.8	10	2.4	;RP LHW (up was 'lots')
+ 17	0.4	0	10	3	;CM RHW (up was 'pitch')
+; stn	N	S	E	W	desc [arbitrary N]
+; 18	~3	0	0	~7	RP edge of hole
+
+*end mission2
+
+
+
+*equate mission3.1 mission2.12
+
+*begin mission3
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Eishöhle, 1623/40
+*title "Mission Impossible 3 - sandy passage to the end"
+*date 2000.08.08
+*team Insts Bob
+*team Notes Becka
+*team Pics Becka
+*team Tape Not specified
+*instrument Compass #2 ; Clino #2, Tape "read from 0cm"
+; Calibration: none
+*ref 2000#30
+
+*export 1
+
+*units compass degrees
+*units clino degrees
+
+*data normal from to tape compass clino
+1  2  10.37  339   +01
+3  2   5.66  175   +11
+4  3   4.71  054.5 +32
+B  A  10.08  021.5 -01
+B  C   5.33  181   +06
+D  C   3.24  320   +39
+D  E   6.70  142   +05
+F  E   1.83  003.5 -35
+G  F   8.68  058   -18
+G  H   8.25  156   -22
+I  H   1.50  028   +03
+J  I   8.80  340   -07
+K  J   8.07  316   -15
+K  3   6.50  149   -22
+
+;	Station	L	R	U	D		Description
+
+;	NB stations 1-4 are LRUD going INTO cave (surveyed in)
+;	Stations A-K are LRUD LEAVING cave (surveyed out)
+
+*data passage station left right up down
+1	4	2	0	2	;Red mark on roof knobble station 2 of Wooks last
+					;survey
+2	4	2	0	1.75	;CM marked 1 on roof knobble
+3	6	3	2	1	;Cross and date scratched on boulder above where
+					;stream rift with 6m pitch goes off
+4	0.5	2	0.5	1	;CM on boulder just before stream rift
+A	4	5	3	3	;CM marked "A" at far end of sandy chamber
+B	4	1.5	0.5	5	;Scratch on rock on mud bridge, mid chamber
+C	0.5	3	0.2	1	;Pencilled star on top of boulder, end chamber/
+					;start of sandy crawl
+D	0	1.5	0.5	0.4	;Knobble on L wall of sandy crawl
+E	2	0.5	0.5	0.2	;Loose rock on R side crawl DEAD BAT just here!
+F	2	0.75	0	0.75	;Roof knobble CM in corner of passage, smaller
+					;CM is station
+G	2.5	0.2	0.8	0.6	;CM on R wall above 2m climb
+H	1	1	0.2	0.25	;CM on R roof knobble, start of low belly crawl
+I	1.5	0.2	0.3	0.05	;Small stone, R side belly crawl
+J	1.5	1	0.3	0.4	;CM on tip of rock poking into passage from
+					;L side, rock is large flake
+K	1	1.5	0	1	;CM on roof of sandy crawl as it enters mud
+					;chamber
+
+*end mission3
+
+
+*equate mission4.6 mission2.6
+
+*begin mission4
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Eishöhle, 1623/40
+*title "Modern Way traverse"
+*date 2000.08.10
+*team Insts AndyA
+*team Notes Wook
+*team Pics Wook
+*team Tape ?
+*instrument Compass #3; Clino #3, Tape fisco ranger black and red
+; Calibration: 
+; ref.:	....
+
+*export 1 6
+
+*units compass degrees
+*units clino degrees
+
+
+*data normal from to tape compass clino
+2  1   4.02  307   +18.5
+2  3   7.59  183   +52
+4  3   4.65  086.5 +21
+4  5  12.07  164   -29
+5  6   6.84  232   -12
+
+
+*data passage station right left up down
+; 1 1.5 1(5) ~10 0.4  RP marked 1 on side of large rock at pitch head
+1 	1 	1.5 	10 	0.4 ;RP marked 1 on side of large rock at pitch head
+*data passage station left right up down
+; 2 1.6  3   ~15   1.3  rock in chamber floor
+2 	1.6  3    15   1.3 ;rock in chamber floor
+; 3 1.4 ~1   ~1   ~0.9 RP on wall at LHS edge of hole
+3 	1.4  1    1    0.9 ;RP on wall at LHS edge of hole
+; 4 2.3  0   ~4.5  0.6 CM RH wall
+4 	2.3  0    4.5  0.6 ;CM RH wall
+5 	0.5  1.4  1.1  1.3 ;RP marked 5 LHW
+; 6  .1  1.8 ~3    0      RP at start of Ol's pitch
+6 	0.1  1.8  3    0   ;RP at start of Ol's pitch
+
+*end mission4
+
+
+*equate modern.13 mission2.11
+*equate modern.20	mission4.1
+
+
+*begin modern
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Eishöhle, 1623/40
+*title "OTT pitch and streamway at bottom of MI"
+*date 2000.08.12
+*team Insts AndyA
+*team Notes Wook
+*team Pics Wook
+*team Tape AndyA
+*instrument Compass #3; Clino #3, Tape fisco ranger black open reel
+; Calibration: 
+; ref.:	....
+
+*export 13 19 20
+
+*units compass degrees
+*units clino degrees
+
+*data normal from to tape compass clino
+1	2	6.77	271.5	-01
+2	3	4.45	-	down
+4	2	2.65	327	-40.5
+5	4	8.10	060	-25
+1	6	2.59	020	-28
+6	7	4.94	-	up
+9	8	5.02	-	down
+7	8	8.03	068.5	+14
+10	9	3.16	273	-42
+11	10	2.40	206	-35
+11	12	9.03	064.5	+25.5
+13	12	7.04	338	-24
+13	14	6.45	104	-17
+15	14	19.42	-	down
+15	16	1.45	074.5	-16
+17	16	12.12	-       down
+17	18	25.78	121	+74
+18	19	5.02	161	+70
+19	20	2.23	131.5	-13
+
+*equate 3 bodge.1
+
+*begin bodge
+*export 1
+
+*units compass degrees
+*units clino degrees
+
+*data normal from to tape compass clino
+1	2	11.00	000	-10
+2	3	4.00	260	-10
+3	4	5.00	350	-10
+4	5	2.00	310	-10
+5	6	3.00	050	-10
+6	7	4.00	330	-10
+7	8	1.00	270	-10
+8	9	1.00	330	-10
+*end bodge
+
+*end modern

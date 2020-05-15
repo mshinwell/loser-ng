@@ -1,0 +1,116 @@
+;1999.07.31 AJD & DRJC created for Steinbruckenhöhle survey
+;2000.07.08 MS moved to 204 directory + changed to 204.svx
+;2000.07.23 PU changed *begin from steinbrk to 204
+;2000.11.12 MS merged 2000 stuff into this file
+;2004.01.13 DL changed to a hierarchical directory structure and chased most of the content of this elsewhere
+
+; this is to do all the equates from the point(s) exported by individual
+; cave surveys to the points either fixed by an Ents file or linked to
+; a surface survey.
+
+*entrance p204a
+
+
+*equate 204.nearend.ent.2	p204b
+*entrance t204b
+
+*equate 204.allswings.swings9.tag t204d
+*equate 204.allswings.swings9.11 p204d
+*entrance t204d
+
+*equate 204.trunk.gknodel.part1.1 p204e
+*entrance p204e
+
+*equate 204.nearend.atob.3 t204b
+*equate 204.nearend.atob.4 p204a
+
+*equate 204.allswings.enth.tag p204h
+*entrance p204h
+
+*equate 204.allswings.enti.i p204i
+*entrance p204i
+
+*equate 204.allswings.entg.1 p204g
+*entrance p204g
+
+*begin 204
+
+*title "Steinbrückenhöhle, 1623/204"
+
+*export nearend.ent.2
+*export allswings.swings9.11
+*export allswings.swings9.tag
+*export trunk.gknodel.part1.1
+*export nearend.atob.3
+*export nearend.atob.4
+*export trunk.treeumphant.29
+*export allswings.enth.tag
+*export allswings.enti.i
+*export allswings.entg.1
+*export allsubsoil.whereoware.23 ; Tunnocks connection
+*export allsubsoil.whereoware.31 ; Second Tunnocks connection
+*export midlevel.farfromsupport.5 ; Kaninchenhoehle connection
+
+*begin
+;extra leg recorded by Julia and Duncan on 1999.08.08 to link to tag 204b
+*date 1999.08.08
+nearend.ent.2	nearend.atob.3	7.34	042.5	+26
+*end
+
+*include nearend/nearend.svx
+
+*include midlevel/midlevel.svx
+*equate	midlevel.veined.17 nearend.ent.27
+*equate midlevel.pendulum.21 nearend.ent.39
+*equate midlevel.veined.16 nearend.stitchthis.0
+
+*include domes/domes.svx
+*equate domes.millennium.1 midlevel.pendulum.17
+*equate domes.pleasuredome.0 nearend.kingcarbide.10
+*equate domes.allroads.7 trunk.insig.4
+*equate domes.pleasuredome.3 midlevel.phat2.1
+
+*include deepsouth/deepsouth.svx
+*equate deepsouth.ariston1.6 midlevel.rainbow.12
+
+*include trunk/trunk.svx
+*equate midlevel.110_bidet_b.9 trunk.nopainnogain.9
+*equate trunk.scroat.p10 nearend.kingcarbide.10
+*equate domes.micturation.8 trunk.insig2.6
+*equate nearend.deathglory.14 trunk.colonade.7
+
+*include swings/allswings.svx
+*equate allswings.playground.0 trunk.insig.8
+*equate allswings.crestarun.Q trunk.helterskelter.3
+
+*include gaffered/allgaffered.svx
+*equate allgaffered.plan.1 allswings.swings.4
+
+*include rhino/allrhino.svx
+*equate allrhino.21boltsalute.10 allswings.swings.4
+*equate allrhino.rhinorift.1 allswings.prettybits.7
+*equate allrhino.rhinorift3.T2 trunk.insig2rhino.T2
+
+*include subsoil/allsubsoil.svx
+*equate allsubsoil.subsoil.19 allgaffered.gardenersworld.1
+
+*include subway/subway.svx
+*equate subway.apocalypse.15 allsubsoil.fatworm.27
+
+
+; visual connection between these points - DL + DV
+*begin slimylink
+*date 2007.07.24
+*export 1 2
+*data nosurvey from to
+1	2
+*end slimylink
+*equate slimylink.1 allsubsoil.fatworm2.6
+*equate slimylink.2 allgaffered.slimy2.11
+
+*include convenience/allconvenience.svx
+*equate allconvenience.convenience.1 allsubsoil.thinrift.5
+
+
+
+*end 204

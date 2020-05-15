@@ -1,0 +1,102 @@
+*begin Ulysses_to_Toto
+
+; stations linked into other surveys (or likely to)
+*export 3 20 1 5
+
+; Cave:Fisch Gesicht
+; Area in cave/QM: 
+*title "Ulysses to Toto"
+*date 2018.07.21
+*team Insts Anthony Day
+*team Notes Lydia-Clare Leather
+*team pics Lydia-Clare Leather
+*team pics Philip Withnall
+
+*instrument "Disto X"
+
+*ref 2018#06
+; the #number is on the clear pocket containing the original notes
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+*alias station - ..
+1	2	11.654	344.4	-13.2	cross section of ulysses entrance
+1	-	48.85	148.6	+46.0	Leg across Ulysses. Surrvey station does not exist.
+2	3	6.389	287.9	-32.2
+3	4	5.396	016.3	+04.8	Odius odium splits
+4	5	6.992	068.5	-65.7	Pitch
+5	6	7.175	099.3	+45.9
+6	7	9.043	061.2	-01.3
+7	8	7.437	303.7	-33.7	Corner - big boulder choke
+7	9	6.432	029.9	+07.2	Big boulder choke with a very strong draft
+3	10	4.557	278	+12.8 	10 lies below the pitch and is on a false floor. Rift behind pitch continues as a large meander
+10	11	2.759	283.6	+65.8	above bolt
+11	12	3.247	229.4	+34.3
+12	13	1.342	272.7	-0.7
+13	14	2.906	255.4	-05.3
+14	15	4.067	288.8	-23.5	A lead
+13	16	5.459	179.6	+66.9	up pitch
+17	16	4.424	132.1	+0.2
+17	18	4.828	232.5	+10.9
+18	19	2.523	315.0	+1.3
+19	20	4.196	263.9	-27.0
+*flags splay
+1	1a	16.835	154.6	+0.5	
+1	1b	23.168	134.7	+35.43
+1	1c	9.928	199.4	+4.9
+1	1d	19.062	117.7	+45.2
+5	5a	11.484	011.5	+34.5
+5	5b	7.615	239.0	-10.4
+5	5c	6.8	151	+23
+*flags not splay 
+
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	2.5	3.3	7.1	0.8
+2	2.9	0.6	3.2	4.0
+3	0	5.5	11.3	2.2
+4	1.6	1.7	1.1	8.8
+5	3.9	2.7	9	0.8
+6	3.6	1.7	5	1.7
+7	1.8	0.8	5.5	1.5
+9	1.5	1.0	3.0	1.6
+10	0.1	1.3	9.5	2.5
+11	0.5	1.6	6.7	8.6
+12	1.1	1.7	7.1	2.0
+13	2.6	1.4	7.7	2.2
+14	0.6	1.3	6.4	3.7
+16	0	1.1	3.3	1.5
+17	1.7	1.4	3	1.3
+18	1.5	2.8	2.8	0.4
+19	2.8	2.4	4.2	1.4
+
+
+
+;-----------
+;Question Mark List
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    A       Ulysses_to_Toto.1       ulysses_to_colericchamber.2  Opposite side of survey stationone on the other side of Ulysses sits a very obvious railway sized phreatic passage. To get through to this passage will require a traverse and bolt climb up into it. Very large draft and very promising as slapys to the end of Ulysses chamber sits at23.163, whilst splay into the railway passage is 48.85 (slay name:1->1u), so passage estmated to be 26 metres in width.
+;QM2 	A	Ulysses_to_Toto.5	-  Passage sits behind the pitch bellow survey station 4. Would need to be bolted and dropped as falls in roughly 10-15 metres in depth. Promising meandering passage with minimal draft
+;QM3	B	Ulysses_to_Toto.5	-  When facing the pitch bellow survey station 4, to your left with be a walking meandering passage, roughly a meter in width, with stable floor. minimal draft.
+;QM4	C	Ulysses_to_Toto.8	-  Decending rift with wall on one side that is boulder choky (South), decending wall (North). Could go but would need to be done by someone who dosnt value there life.
+;QM5	A	Ulysses_to_Toto.9	-  Small passage underneath a massive boulder choke but an extreamly large draft can be felt coming from said boulder choke. Whilst surveyed, it would need it be carefully crawld through in order to get into passage that sits behind, but again, needs someone who dosnt value there life to try it.
+;QM6	A	Ulysses_to_Toto.15	-  Follows a meandering rift, roughly a metre in diametre and 2 metre in hieght, with anoth strong drafte flowing from station 15 to 14. Definatly worth exploring.
+
+;------------
+;Cave description
+;Station 20 of Ulysses_to_Toto connects from the rebelay bolt of the higher level of Toto chamber. Instead of following the rigging down to Toto chamber, traverse along the higher level passage, following with the phreatic developement from freeattic_flys. This leads into a contiuation of the meandering/rifting/phreatic passage. Follow the passage with 2 small pitches no deeper than 10 metres. After the second pitch you arrive in Odius odium which continues both left and right. Following left will lead to a pitch (roughly 15m) which drops into the Shit Show. The chamber is made up of of false floor and massive boulder chokes, and is not an area to tread heavily. Seriously its shit. However as shit as it is, its drafting in multiple places. The chamber has not been excessively explored as of this surveys creation, but contiuse onworts NE and contiues to draft.
+
+;Back in Odius Odium, turning right will lead you toward Ulysess. Ulysses is a very large chamber, roughly 20 metres in diameter, and a currently unknow depth but expected to be greater than 50 metre. The walls aroud the this chamber however is not great, infact its pretty crap. The day this survey was made, a traverse began to be rigged along the right side wall, with the intension of either A) traversing half way round the chamber and droping it to find the expected depth, or B) continuing to travese the chamber, in order to reach the strong lead on the oposite wall, which is a massive rail way sized, continuing phreatic tunnel. See QMR 1. This is still to be explored, however has strong draft facing SE. The chamber itself is excesivly crumbly, and likely no amount of gardening will make the chamber "safe", so if the pitch is dropped, decents should be very carefully made, one by one, with awareness on very possible falling rock.  
+
+*end Ulysses_to_Toto

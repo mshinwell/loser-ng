@@ -1,0 +1,39 @@
+*begin ubantu2
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Ubantu 2"
+*date 2008.07.24
+*team Insts Djuke Veldhuis
+*team Notes Martin Jahnke
+*team Tape Djuke Veldhuis
+*instrument CUCC Pony; Tape disto
+; Calibration: none whatsoever
+; ref.:	2008 #01
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 5 8
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	10.95	006	-26
+3	2	1.68	283	49
+4	2	5.26	293	61
+5	4	4.33	221	63
+6	5	4.83	334	15
+7	6	2.40	007	16
+7	8	4.12	270	59	;reversed from survey notes and corrected in notes
+
+
+*data passage station	left	right	up	down	ignoreall
+1	2.5	1.0	1.5	2.0	existing point in high hopes survey (point 4)
+2	1.2	0.5	1.0	1.5	10cm left of lh hanger on pitch head
+3	0.7	0.0	0.4	10	1.5m down pitch on rh wall
+4	1.0	0.0	2.5	4.0	rh wall
+5	1.5	1.5	0.0	1.6	hanging nodule on bottom of pitch
+6	0.0	0.7	1.0	2.0	on flake sticking out from wall, false floor below
+7	0.0	1.0	1.5	3.5	bolt
+8	0.0	1.0	3.0	0.7	point from ubantu survey (point 1)
+*end ubantu2

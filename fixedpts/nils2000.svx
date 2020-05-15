@@ -1,0 +1,148 @@
+;am 18.11.00 von Thilo zusammengestellt für die Außenmeßdaten von Nils Bräunig (ARGE)
+;am 26.11.00 ergänzt, Thilo
+
+*begin
+; Ort:			Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle:			Schwarzmooskogel, Außenmeßdaten
+*title "Diplomarbeit"
+*date 2000 ; Sommer 2000
+; Von:			Nils Bräunig , Monika Skupien et al
+*instrument Laser-Theodolit sowie (für die meisten Höhleneingänge) GPS mit Referenzstation
+*cs out UTM33
+*cs custom "+proj=tmerc +lat_0=0 +lon_0=13d20 +k=1 +x_0=0 +y_0=-5200000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232"
+
+
+;Meßpunkte 1. Ordnung, mit GPS sehr genau gemessen, mit Meßbolzen und
+;markierter Unterlagscheibe festgelegt, Standardabweichung im Kommentar
+
+*set names _-
+
+; these are nils network of benchmarks - set up for his surveying
+; project, but potentially useful as more fixed points for us
+
+;Punkt Nr.	Rechtswert	Hochwert	Ortho. Höhe	Stdabw. R	Stdabw. H	Stdabw. Höhe	;Name
+*fix 1000 reference	35130.7170	81080.4828	1607.7840	;0.0016		0.0023		0.0052		Diplomhügel
+*fix 1100 reference	36021.3269	81892.8659	1772.1055	;0.0014		0.0018		0.0031		Chappi
+*fix 1110 reference	35481.3375	81284.7195	1614.0663	;0.0019		0.0025		0.0052		Kletterbaum
+*fix 1120 reference	35549.7562	81263.0575	1637.9897	;0.0018		0.0021		0.0036		Exzenter
+*fix 1130 reference	35676.3268	81285.6863	1661.7274	;0.0024		0.0029		0.0057		Kahle Stelle
+*fix 1150 reference	35330.0608	81159.5736	1591.2688	;0.0017		0.0024		0.0035		Bobo
+*fix 1160 reference	35386.8808	81014.1044	1595.5365	;0.0015		0.0019		0.0044		Jägersitz
+*fix 1170 reference	35303.0585	80926.7130	1594.8844	;0.0011		0.0014		0.0031		Finish
+*fix 1200 reference	35839.1836	81919.1603	1757.6039	;0.0037		0.0047		0.0097		Älbler
+*fix 1300 reference	35697.2880	81623.5908	1670.7975	;0.0025		0.0034		0.0090		Gamsfels
+*fix 1400 reference	35698.0101	81467.2754	1669.0618	;0.0016		0.0022		0.0054		Telefonfels
+*fix 1500 reference	35903.2138	81613.2765	1714.3064	;0.0009		0.0012		0.0030		Trollinger
+*fix 1600 reference	35806.8722	81392.3246	1695.1647	;0.0031		0.0041		0.0086		Platte
+*fix 1700 reference	35960.0444	81472.5287	1720.3842	;0.0018		0.0031		0.0038		Löwenbräu
+*fix 1800 reference	35710.0808	81718.3080	1673.9360	;0.0036		0.0046		0.0110		Block
+*fix 1900 reference	35630.2135	81388.8743	1655.5401	;0.0012		0.0016		0.0035		Altimeter
+*fix 2000 reference	36041.3494	81523.0563	1733.7821	;0.0032		0.0047		0.0082		Weiße Warze, Laser08
+*fix 3000 reference	36204.2640	82139.9700	1835.0228	;0.0049		0.0063		0.0107		Vord. SMK
+
+; These seem to be the Austrian equivalent of trig points - many aren't
+; at all close to our caves, but some may be of use.
+
+; 166-96 is definitely the Schönberg. The others it's hard to be sure about; I've annotated with what I think they are in brackets -- DL
+
+; Verschiedene Meßpunkte der Landesvermessung, die hier verwendet wurden:
+;*fix 8-96 reference	32616.79	71574.02	1862.03				;Kreuzspitze (?)
+; Commented out 8-96 since it's miles off our area -- Mark S.
+*fix 16-96 reference	38644.46	79810.62	1720.60				;Kreuzspitze (?)
+*fix 17-96 reference	32931.28	80321.29	1837.41				; (Loser?)
+;*fix 17-96 reference	32933.03	80319.44	1841.69				;Kreuzspitze 
+*fix 99-97 reference	38058.04	86904.32	2020.37				;Kreuzspitze (Rinnerkogel?)
+*fix 114-96 reference	36670.37	83317.43	1903.97	 	 	 	; (Hinterer Schwarzmooskogel)	
+*fix 159-97 reference	37884.82	82816.42	1340.78				; (?)	
+*fix 166-96 reference	34363.61	86096.81	2096.05				;Kreuzspitze (Schönberg)
+*fix 225-96 reference	34790.57	81538.41	1616.32	 	 	 	; (Bräuning Alm)	
+*fix 226-96 reference	34542.57	81967.18	1899.41	 	 	 	; (Bräuning Zinken)	
+
+
+;Meßpunkte 2. Ordnung, genau gemessen mit GPS (meist mit Referenz), Standardabweichung im Kommentar 
+;p+3-stellige Nummern=Katasternummern von Höhlen
+;Meßpunkte direkt vor Höhleneingängen, mit Meßbolzen versehen
+*fix p032x reference	35771.1131	81126.0878	1567.0308	;0.0440	 0.0568	 0.1017	 Ausgeglichen
+*fix p040ex reference	36630.0876	81989.7621	1641.3157	;0.0564		0.0703		0.1499		Ausgeglichen
+*fix p041ax reference	35827.8819	81244.8609	1621.3757	;0.1064		0.1780		0.2574		Ausgeglichen
+*fix p088x reference	36310.5114	81391.3399	1648.1927	;0.0529		0.0770		0.1567		Ausgeglichen
+*fix p115x reference	35844.0356	81028.8676	1485.1684	;0.1037		0.0935		0.1862		Ausgeglichen
+*fix p143x reference	36047.5593	81494.1938	1711.9424	;0.0754		0.1005		0.2559		Ausgeglichen
+*fix p144x reference	36102.3417	81514.8144	1711.5803	;0.0620		0.0806		0.1481		Ausgeglichen
+*fix p215x reference	36621.4067	81982.4287	1643.6335	;0.0942		0.0624		0.0982		Ausgeglichen
+*fix p216x reference	36588.0301	81928.1584	1649.2277	;0.1085		0.0703		0.1028		Ausgeglichen
+
+
+;Meßpunkte 2. Ordnung, nur Höhleneingänge,
+;genau gemessen mit GPS (meist mit Referenz), Standardabweichung im Kommentar 
+;EPP=Einzelpunktpositionierung, p+3-stellige Nummern=Katasternummern von Höhlen
+
+;Punkt Nr.	Rechtswert	Hochwert	Ortho. Höhe	Stdabw. R	Stdabw. H	Stdabw. Höhe	Punktklasse
+
+*fix p032 reference	35766.432	81126.560	1567.929								;Spitloch
+*equate p32 p032
+;*fix p040a	;siehe Laser14
+*fix p040e reference	36625.886	81993.397	1642.286	
+*equate p40e p040e
+*fix p041a reference	35832.340	81245.976	1621.593								;Meßpunkt links unten	
+*equate p41a p041a
+*fix p078a reference	35731.0837	81430.8633	1666.2882	;0.0868		0.1083		0.2160		Ausgeglichen, direkt gemessen
+*equate p78a p078a
+*fix p078d reference	35730.8450	81662.7472	1666.2153	;0.0887		0.1213		0.1940		Ausgeglichen, direkt gemessen
+*equate p78d p078d
+*fix p080 reference	35752.3588	82468.2929	1666.2556	;1.0674		1.6533		4.6197		EPP
+*equate p80 p080
+*entrance p80
+*fix p088 reference	36311.228	81391.082	1646.012	
+*equate p88 p088
+*fix p115 reference	35841.288	81041.535	1488.280								;Spitloch links am Eingang
+*fix p116 reference	35688.8009	81448.8602	1662.9903	;0.1165		0.1331		0.2766		Ausgeglichen, direkt gemessen
+*fix p136 reference	36363.6364	82220.0276	1795.6137	;0.2897		0.3583		0.6986		Ausgeglichen, direkt gemessen
+*fix p142 reference	35770.6528	81210.3193	1613.4832	;0.1159		0.1743		0.4243		Ausgeglichen, direkt gemessen
+*fix p143 reference	36050.800	81492.452	1710.810								;Farbpunkt auf Fels
+*fix p144 reference	36103.065	81514.634	1711.440	
+*fix p147 reference	36270.7983	82406.9935	1774.0424	;0.0073		0.0123		0.0233		EPP
+*fix p161d reference	36853.7007	82409.6016	1614.2243	;0.0173		0.0149		0.0250		EPP, direkt gemessen
+*fix p161c reference	36507.5511	82551.8869	1752.6501	;0.1222		0.1570		0.4127		EPP
+*fix p161b reference	36497.8319	82540.4320	1752.4955	;0.3786		0.4664		1.0847		EPP
+*fix p161a reference	36468.1918	82623.7515	1787.7150	;0.4352		0.4714		1.0588		EPP
+*fix p185 reference	36381.8774	82531.9782	1763.4623	;0.5342		0.7696		1.5546		EPP
+*fix p195 reference	36305.7080	83245.6455	1778.8475	;1.4989		1.4500		2.1514		EPP
+*fix p204a reference	36697.3408	83699.9058	1812.4030	;0.2411		0.3616		0.4297		EPP
+*fix p215 reference	36611.800	81983.094	1645.159	
+*fix p216 reference	36580.121	81930.783	1650.954								;Spit an der Seite, Vermessung geht an der Decke los
+
+;Sonstige Punkte, AußenMPs, Eingänge ohne nähere Bezeichnung (Höhle), Kalibrierungsstrecken
+*fix Vd1 reference		36354.2067	82487.6471	1763.9584	;0.4759		0.5045		1.1275		EPP
+*fix OTHoehle reference		36778.5917	83489.7255	1850.2485	;0.5311		0.7527		1.2067		EPP, Höhle Nähe p204
+*fix ThilosBrue reference	35896.3606	82669.5665	1667.1472	;1.3670		1.9148		4.7668		EPP
+*fix Kalibrier01 reference	35465.9402	82463.6782	1635.2110	;0.7611		1.1815		3.5114		EPP, CUCC Kalibrier
+*fix Kalibrier02 reference	35458.7899	82468.6613	1634.1242	;0.7708		1.1836		3.5349		EPP, CUCC Kalibrier
+*fix TopcampVP reference	35494.9601	82456.0984	1629.7820	;0.7626		1.1503		3.4495		EPP
+*equate TopcampVP tclower ; lower top camp fixed point (marked with a bolt)
+*fix Hoehle001 reference	35512.7138	82499.1512	1625.4922	;1.0259		1.4825		4.4494		EPP, Höhle Nähe Topcamp
+*fix Hoehle002 reference	35513.0916	82495.4313	1624.7837	;1.0733		1.5398		4.6182		EPP, Höhle Nähe Topcamp
+*fix Hoehle003 reference	35523.0499	82495.0890	1622.9784	;1.0031		1.4132		4.2283		EPP, Höhle Nähe Topcamp
+; Hoehle001-003 must be p227,p226a,p226b from the location and spacing.
+*equate Hoehle001 p227
+*equate Hoehle002 p226a
+*equate Hoehle003 p226b
+*fix Wasserh reference		35463.0222	82368.8221	1636.4551	;0.8114		0.9153		2.3435		EPP, Höhle Nähe Topcamp
+*fix 1000_042 reference		35528.1755	81121.8140	1608.2279	;0.0397		0.0520		0.1444		Ausgeglichen, Abzweig Pfad 78/40
+*fix Kalibrier03 reference	35265.7417	81108.5435	1585.4429	;0.0333		0.0429		0.0927		Ausgeglichen, ARGE Kalibrier
+*fix Kalibrier04 reference	35273.0812	81121.4416	1585.4576	;0.0607		0.0796		0.2178		Ausgeglichen, ARGE Kalibrier
+*fix Laser05 reference		36015.3253	82796.1574	1695.4254	;0.5133		0.6498		1.4251		EPP
+;*fix Laser08	;siehe 2000
+*fix Laser09 reference		35397.1872	81044.8467	1588.4428	;0.0732		0.1030		0.1411		Ausgeglichen
+*fix Laser14 reference		36459.4949	81700.9294	1689.6784	;0.0320		0.0393		0.0880		Ausgeglichen, =p040a
+*fix Laser16 reference		36406.3975	81516.3171	1669.1471	;0.3116		0.2719		0.9964		EPP, AußenMP Nähe Lärchenschacht
+
+; These were in caves/078/fixedpts.svx - p78a and p78d are rounded
+; versions of data above.  p78b and p78e aren't anywhere I can see - Olly
+;Nils-Daten ab 10/00:
+;*fix p78a		35731.08		81430.86		1666.29		;Haupteingang
+;*fix p78b	35717.34		81416.78		1659.15		;Klufteingang (E2) 
+;*fix p78d	35730.85		81662.75		1666.22		;Tannenzäpfle
+;*fix p78e		35787.78		81427.58		1682.61 		;Steinbläser
+
+*end

@@ -1,0 +1,47 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schwabenschacht 1623/78
+
+*begin forsten
+*title "Forstenrieder Schacht 1 + 2"
+
+*export L14	; haupt.33
+*export A14	; eisdom.A14 bayberg.H25 e2.U12 verloren.W0
+
+; Messteam: Egmund Gabler, Jürgen Bölzle, Markus Bölzle
+; Zeichner: Jürgen Bölzle
+; Referenz: Messprotokolle
+*date 1992
+
+*data normal from to length clino compass
+
+; Forstenrieder Schacht 1
+A14	L1	15.65	-20	242
+L1	L2	6	-42	58
+L2	L3	19.3	-80	144
+L3	L4	3.1	-40	100
+L4	L5	1.5	0	124
+L5	L6	19.65	-70	160
+L6	L7	3.6	-14	70
+L7	L8	5.95	10	172
+L8	L9	3.45	-70	184
+L9	L10	3.95	-80	200
+L9	L11	4.82	13	84
+L11	L12	3.7	-50	104
+L12	L13	9.05	5	76
+L13	L14	7.15	-32	128
+
+; Forstenrieder Schacht 2
+A14	m1	11.1	-27	289
+m1	m2	1.93	-26	16
+m2	m3	2.18	-68	160
+m3	m4	5.8	-44	30
+m4	m5	3.2	-17	292
+m5	m6	9.4	DOWN	-
+m6	m7	16	-52	35
+m7	m8	16.85	-38	46
+m8	m9	9	-45	40
+
+; Raumwerte
+; keine Raumwerte
+
+*end forsten

@@ -1,0 +1,35 @@
+*begin L8to158
+;Außenvermessung vom LaserMP 8 (Weiße Warze) zum Eingang der Donner und Blitzen Höhle (1623/158) und zur 7-Eingangs-Höhle (1623/206)
+*date 1999.10.31
+;Vermessung am 31.10.1999, Uwe Krüger, Jörg Haussmann, Thilo Müller
+;update 17.9.00, Thilo
+;Referenz: Meßbuch "SMK 3" 
+
+*export q  ; Eingang zur 1623/158
+*export L  ; Eingang der 7-Eingangs-Höhle 1623/206
+*export Laser8
+
+*DATA normal from to length gradient bearing ignoreall
+; already fixed *fix Laser8 	36040.75		 81522.72 	1732.39 
+Laser8	a	48.60	-12	342
+a	b	26.95	0.5	54
+b	c	8.09	-7	41
+c	d	14.3	11	143
+d	e	8.94	3.5	98.5
+e	f	49.34	-10	38
+f	g	16.39	4	51.5
+g	h	48.4	-13	69.5
+h	i	35.8	-5.5	40
+i	j	38.65	-12	37
+j	k	23.52	-8.5	12
+k	L	10.7	44	263
+L	m	33.88	8.5	312
+m	n	26.8	4	307
+n	o	30.65	15	342.5
+o	p	5	2	39.5
+p	q	7.5	4	321
+
+;k	1	16.47	-0.5	84	;Teil der Höhlenvermessung von 1623/206
+
+
+*end L8to158

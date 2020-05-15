@@ -1,0 +1,45 @@
+*begin 241surf
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "Dreieckhoehle (241)"
+*date 2003.08.03
+*team Insts Frank Tully
+*team Notes Dave Loeffler
+*team Pics <none>
+*team Tape Frank Tully
+*instrument Compass #2 ; Clino #2, Tape Yellow Stanley
+; Calibration: Stone bridge 152/+23 153/+23 326/-23 327/-23
+; ref: <what does this mean?>
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 5 8
+
+*calibrate tape +0.07	; +ve if tape was too short, -ve if too long
+
+*flags surface
+
+;from	to	tape	compass	clino	; remarks
+2	1	30.34	200	-10
+2	3	24.73	017	+11
+4	3	12.78	213	-08
+4	5	26.85	001	+05
+6	5	21.79	187	-23
+6	7	0.32	125	0
+7	8	8.46	018	+44
+
+
+;station details
+;name	height	description
+;1	0	231a tag
+;2	0.30	Top of cairn
+;3	0.50	Bunde tip
+;4	0.30	Cairn on boulder
+;5	0.10	Cairn on large boulder in choss bowl
+;6	0	Flake in triangular tunnel
+;7	0.10	Cairn on rock
+;8	1.40	2003-04 tag (now 241)
+*end 241surf
+
+
+; data for 2003-03 (247) was here, but removed as surface survey makes no sense at all

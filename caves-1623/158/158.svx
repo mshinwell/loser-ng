@@ -1,0 +1,28 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Donner- und Blitzen-Höhle 1623/158
+
+;neue Koordinaten von Aiko 2016
+*fix p158	36141		81804		1721
+
+;alte Koordinaten
+;*fix p158	36143		81798		1714
+
+*entrance p158
+*equate   p158	158.bigberta.1
+
+*begin 158
+*title "Donner und Blitzen-Höhle"
+
+*export bigberta.1
+*export fruttidelmare.x6 fruttidelmare.x5 fruttidelmare.x4 fruttidelmare.x3
+
+*equate bigberta.13 nagellackentferner.0
+*equate nagellackentferner.5	fruttidelmare.0
+*equate lasvegas.0	nagellackentferner.39
+
+*include nagellackentferner
+*include bigberta
+*include fruttidelmare
+*include lasvegas
+
+*end 158

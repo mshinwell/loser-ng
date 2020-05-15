@@ -1,0 +1,40 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	258 "Tunnockschacht"
+
+*begin literalnorth3
+
+;ref.:	2007 #54
+
+*export y 6
+
+*title "Literal North 3"
+*date 2007.08.08
+*team Insts Wookey
+*team Notes Becka Lawson
+*team Tape both
+;Pony
+;calib 1>2 326 -23 pony horizontal
+;calib 1>2 325 -23 pony vertical
+;calib 2>1 144 +22 pony vertical
+;calib 2>1 146 +23 pony horizontal
+;disto (bosch DLE50)
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+3	y	9.19	128	+10
+3	4	5.13	272	-24
+5	4	15.90	116	+13
+5	6	4.08	264	-21
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+y	1	2	5	4	RP previous survey top of climb down before cobble pile
+3	3	0.2	6	4	RP RW above climb
+4	0.5	2	4	1	RP LW
+5	2.5	0.7	2.5	1.8	RP RW
+6	2	2.4	3	2.1	RP number '6' on pillar at pitch head
+
+*end literalnorth3
+
+

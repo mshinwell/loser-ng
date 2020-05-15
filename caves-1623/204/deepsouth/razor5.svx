@@ -1,0 +1,76 @@
+*begin razor5
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Razor Dance 5"
+*date 2003.07.25
+*team Insts Dave Loeffler
+*team Notes Mark Shinwell
+
+; Calibration at stone bridge: 150/+22, 330/-22
+; ref: 2003 #4
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 16
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; survey notes are somewhat hard to decipher, and occasionally
+; erroneous in to/from columns!  the following is correct though - Mark S
+1	2	0.82	171	+28
+2	3	2.72	233	-14
+3	4	1.08	237	+11
+4	5	2.28	263	-13
+5	6	4.14	188	-23
+7	6	3.06	110	-34
+7	8	9.20	253	-12
+8	9	2.68	200	-58
+9	10	2.21	157	-37
+10	11	2.19	230	+13
+11	12	3.83	212	+34
+12	13	6.22	162	-25
+13	14	1.37	210	-10
+14	15	8.05	185	-66
+15	16	3.30	084	-03
+
+;station details
+*data passage station left right up down ignoreall 
+;name	L	R	U	D	description
+1	0.7	0.7	-	1.5	RP RW
+2	0.5	0	-	0.7	RP RW
+3	0.5	0	-	1.3	RP RW
+4	0.4	0	-	3	RP RW over pitch
+5	0	3	-	2	RP LW
+6	2	0	-	3	RP RW
+7	0.6	0	-	1	RP RW
+8	0.4	0	-	2.5	RP RW
+9	0.4	0	-	1.5	RP RW
+10	0.4	0	5	2.5	pt RW
+11	5	4	0	2	pt on ceiling
+12	0.5	0	-	2.5	pt RW
+13	0	0.7	-	8	pt LW top of pitch
+14	3	0	-	1.5	pt RW
+15	2	0	-	1.5	RW bolt (traverse bolt before Y-hang)
+
+;original notes
+;name	L	R	U	D	description
+;1	0.7	0.7	lots	1.5	RP RW
+;2	0.5	0	lots	0.7	RP RW
+;3	0.5	0	lots	1.3	RP RW
+;4	0.4	0	lots	3	RP RW over pitch
+;5	0	3	lots	2	RP LW
+;6	2	0	lots	3	RP RW
+;7	0.6	0	lots	1	RP RW
+;8	0.4	0	lots	2.5	RP RW
+;9	0.4	0	lots	1.5	RP RW
+;10	0.4	0	5	2.5	pt RW
+;11	5	4	0	2	pt on ceiling
+;12	0.5	0	lots	2.5	pt RW
+;13	0	0.7	lots	8	pt LW top of pitch
+;14	3	0	lots	1.5	pt RW
+;15	2	0	lots	1.5	RW bolt (traverse bolt before Y-hang)
+
+
+*end razor5
+

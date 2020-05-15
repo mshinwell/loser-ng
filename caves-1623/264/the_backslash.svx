@@ -1,0 +1,57 @@
+; 2019.07.21 created by TopoDroid v 4.1.3u
+; the_backslash - qm 83x
+; Instrument: SM-G850F
+
+*begin the_backslash
+
+  *export old18
+ 
+  *date 2019.07.20 
+  *team "Rad + Crossley" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *alias station - ..
+  *flags not splay
+  *data normal from to tape compass clino
+    old18 1   11.24 342.0 76.0
+    1 2   7.36 18.0 68.0
+    2 3   6.34 280.0 85.0
+    3 4   5.30 308.0 70.0
+    4 5   8.50 293.0 67.0
+    5 6   4.10 245.0 39.0
+    6 7   9.33 263.0 14.0
+    7 8   2.24 331.0 -22.0
+    20 21   1.98 62.0 -25.0
+    21 22   10.36 174.0 -64.0
+    22 8   7.66 141.0 -61.0
+  *flags not splay
+  *flags splay
+    6 s1   2.61 333.0 -5.0
+    6 s2   0.71 144.0 11.0
+    6 s3   12.25 250.0 4.0
+    6 s4   12.85 56.0 -5.0
+    6 s5   2.29 0.0 87.0
+    6 s6   24.50 272.0 44.0
+    6 s7   13.48 240.0 5.0
+    6 s8   5.12 251.0 -30.0
+    6 s9   27.67 55.0 -20.0
+    20 s10   26.90 307.0 72.0
+  *flags splay
+
+  *data passage station left right up down ignoreall
+		;stn	L		R		U		D		Desc
+		old18	1.6	2		14	5		18 from farside.svx
+		1			2.5	2.5	2.5	2.5	1st rebelay
+		2			2		2		3		3		Side passage
+		3			2		0		2		2		Back wall
+		4			1		3		0		2		Back wall
+		5			0.5	0.5	0		0.5	Pitch head
+		6			1		3		6		0		Rock on top of pitch
+		7			3		0		10	5		Rock in entrance to stream aven
+		8			0.5	0.5	6		0		Floor of stream aven next to pool
+		22		0		1		10	1		Pointy rock above stream aven pool
+		21		0		1		10	1		Wall at top of bolt climb
+		20		0		1		10	1		Wall in aven at top of bolt climb
+
+*end the_backslash

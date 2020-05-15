@@ -1,0 +1,210 @@
+;1998.03.31 AERW sorted begin/end, exports, refs, comments, calib clino
+
+*begin sep
+
+; noted complete lack of useful comments and added my interpretation, AERW 1998.01.11
+; siberia.1 was the end of the 1994 survey, some way short of the end of exploration
+; fuzzy.nt  is "Not This Junction" in almost exactly the same place, but later
+;           linked to siberia.2 by one linking leg.
+; fuzzy.    survey is down the QM 94-58 passage - presume this is newly explored ?
+; part2.1   is the end of 1994 exploration at the top of Somebody Else's Problem
+ 
+; ====== stations refindable to link to other surveys: ======
+
+*export fuzzy.lkg	; presumed carbide mark on LH wall (=siberia.2)
+*export Part2.20	; end of 1997 survey at QM 97-26
+*export fuzzy.12 ; olly 2001-04-29
+
+; ====== links between surveys making up the  survey: ======
+
+*equate TeamA.1 	fuzzy.nt ; this is now linked in properly, honest
+*equate TeamA.11	greengables.1 
+*equate TeamA.14	TeamB.1
+*equate Part2.1 	teamb.8
+
+*begin TeamA
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "Somebody Else's Problem"
+*team Insts Phil U
+*team Notes Jon B
+*team Pics Jon B
+*team Tape Phil U
+*date 1997.08.03 ; trip 1997-161-17 in logbook
+*instrument Set 1
+;Calibration: 161d:	A-B	217, +8;	B-A	035, -8
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; Not This Junction
+*export 9	; nearest hole in the floor "40m past Not this Junction", QM 97-22
+*export 11	; by junction to GreenGables
+*export 13	; nearest station to QM 97-30
+*export 14	; link to Team B survey, nearest to QMs 97-31, 97-32
+
+*calibrate tape -0.20
+; done by Team A
+;From	to	Tape	Compass	Clino
+2	1	 7.46	165	-03
+2	3	 4.17	318	+31
+4	3	 4.81	168	-16
+4	5	 5.72	359	-13
+6	5	 8.30	165	-04.5
+6	7	 3.75	334	-01
+8	7	 6.12	214	-16
+8	9	 9.34	004	-03
+10	9	 5.10	182	-14
+10	11	12.40	322	+01
+12	11	 6.05	092	+23
+12	13	 2.33	244	-02
+14	13	 4.08	192	+02
+*end TeamA
+
+*begin TeamB
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "Somebody Else's Problem"
+;			Team A	Team B
+*team Inst Duncan
+*team Notes Andrew K
+*team Pics Andrew K
+*team Tape Joint effort
+*date 1997.08.03 ; trip 1997-161-17 in logbook
+*instrument Set 1
+;Calibration: 161d:	A-B	217, +8;	B-A	035, -8
+; done by Team B
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; link to Team A survey, nearest to QMs 97-31, 97-32
+*export 8	; top of Somebody Else's Problem (end of 1994 explo)
+
+*calibrate tape -0.20
+
+;From  to  Tape Compass Clino
+2	1	8.40	122	-13.5 ; this has been fettled
+2	3	3.32	325	-23
+4	3	3.82	147	+04
+5	4	1.60	221	-42
+6	5	5.12	146	-04
+7	6	1.51	114	+32
+7	8	2.46	342	-51
+;8	joke	65	-	DOWN	;this is an estimated depth - 75m rope
+					;at full length
+*end teamb
+
+*begin fuzzy
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "Fuzzy Logic"
+*date 1997.08.06 ; trip 1997-161-20 in logbook (which says 5th)
+*team Insts Phil U
+*team Notes Andrew K
+*team Pics Andrew K
+*team Tape Phil B
+*instrument 2
+;Calibration:
+;
+; ====== stations refindable to link to other surveys: ======
+
+*export lkg	; presumed carbide mark on LH wall (=siberia.2)
+*export nt	; Not This Junction
+*export 12	; top of Paradox Rift, QM 97-27, CM on L wall
+
+;From  to  Tape Compass Clino 
+lkg	nt	6.18	197	-14
+nt	1	2.15	243	-36
+2	1	6.47	031	+07
+2	3	5.31	185	-25
+4	3	1.77	051	-04
+4	5	3.63	127	+08
+6	5	2.09	245	-12
+6	7	3.46	260	+56
+8	7	3.74	353	+16
+9	5	2.04	020	+09
+10	9	1.68	288	-15
+10	8	2.28	210	+75
+11	10	2.64	068	-02
+12	11	0.98	329	+05
+12	13	3.40	-	DOWN
+
+; All LRUD data bar 12 down are estimates, mostly by Phil U
+;
+;	Left	Right	Up	Down	Desc
+*data passage station left right up down ignoreall
+ 1	0	1	2	3	CM on flake on LH wall
+ 2	1.5	0	0	2	CM on RH wall
+ 3	0	1	1.5	2.5	CM on LH wall
+ 4	1	0	0.5	2	CM on RH wall
+ 5	0.5	0	0	1	CM on flake between passage branches
+;
+; 5 is a junction; LRUD is along the line of passage from Not This.
+;
+ 6	1	0	4	0	CM to right of climb
+ 7	0.5	0	0.2	0.7	Scratched cross on RH wall
+ 8	0	1	2	2.5	CM on LH wall
+ 9	1	0	0.5	0.5	CM on LH wall
+;
+; LRUD for 9 is as viewed from 5
+;
+ 10	0.5	1	4	0.5	CM roughly below 8
+ 11	1	0	6	2	CM on RH wall
+ 12	0	1	6	3.4	CM on LH wall
+ 13	-	-	-	-	Unmarked point on floor below 12
+
+*end fuzzy
+
+*begin greengables
+*date 1997.08.06
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; main passage in Team A survey
+*export 2	; in GreenGables, nearest QMs 97-23, 97-24, 97-25
+
+1	2	5.81	309	-30
+*end greengables
+
+*begin Part2
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "SEP ctd"
+*date 1997.08.06 ; trip 1997-161-22 in logbook
+*team Insts Duncan Collis
+*team Notes William Stead
+*team Pics William Stead
+*team Tape Jon Barber
+*instrument 1
+;Calibration: 216 214 215  +07 +07 +07.5
+;             032 033 033  -08 -08.5 -08.5
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; top of Somebody Else's Problem (end of 1994 explo)
+*export 14	; top of 18m pitch, nearest QMs 97-28, 97-29
+*export 20	; end of 1997 survey at QM 97-26
+
+;
+;From  to  Tape Compass Clino 
+1	2	42.33	-	down
+2	3	1.00	225	00
+3	4	27.32	-	down
+5	4	3.22	227	-32
+5	6	5.97	113	-32
+7	6	5.75	-	up
+8	7	2.28	186	-22
+8	9	7.49	348	-43
+10	9	8.88	047	+23
+10	11	1.45	244	-15     ; notes say 11 to 10 -WS thinks this is unlikely
+11	12	6.08	-	down
+13	12	2.47	064	-32
+13	14	1.62	224	-10
+15	14	17.65	-	up
+16	15	2.98	346	-25
+16	17	4.06	179	+08
+17	18	1.82	064	-21
+18	19	10.71	-	down
+19	20	4.28	048	-28
+
+*end Part2
+*end sep
+

@@ -1,0 +1,62 @@
+*equate 243.p204dtag t204d
+*equate 243.5 t243
+
+*begin 243
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "Goes Nowhere, Does Nothing Cave, CUCC 1623/243"
+*date 2001.08.20
+*team Insts Becka
+*team Notes Becka
+*team Tape Mick Thompson
+*instrument Compass #2 ; Clino #2, Tape Grey enclosed, read at 0
+; Calibration: Stone bridge: 148/+21 147/+22 329/-23 329/-24
+
+; ref.:	Survey book 2001 #19
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 5 p204dtag
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+*entrance 5
+
+;from	to	tape	compass	clino	; remarks
+*flags surface
+1	p204dtag	5.34	077	-33
+1	2	10.42	324	+04
+3	2	21.05	083	+36
+3	4	19.73	301	-25
+5	4	26.02	191	-13
+*flags not surface
+6	5	1.24	043	+64
+6	7	5.49	048	+05
+8	7	4.45	212	+15
+8	9	2.10	053	-22
+10	9	7.38	282	+44
+10	11	2.78	132	-22
+12	11	7.89	269	+47
+13	12	14.80	-	up
+13	14	6.70	067	-13
+
+;station details
+;name	description
+;p204dtag	tag bolt on NW wall, lower section of shakehole for 204d
+;1	RP on W ridge, upper shakehole
+;2	RP on next ridge, marked 2
+;3	RP on N wall gully
+;4	RP on slab, middle bowl
+;5	tag bolt for 2001-05
+;name	L	R	U	D	description
+;6	-	-	-	-	RP on L wall before entrance, outside
+;7	-	-	-	-	RP on roof nodule
+;8	3	0	0.5	1.5	RP on R wall, end of entrance tube
+;9	2	1.5	1	2	RP on boulder, marked 9
+;10	0	2	2	1.5	RP on L wall, top of loose boulders
+;11	1.2	0	0.7	2	bolt on R wall
+;12	2.5	0.5	3	15	RP on flake between 2 pitch deviations
+;13	5	2	15	2	RP base of pitch
+;14	2	2	15	3	RP on E wall chamber, marked 14
+
+*end 243

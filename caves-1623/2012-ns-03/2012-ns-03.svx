@@ -1,0 +1,35 @@
+*equate p2012-ns-03 2012-ns-03.GPS
+
+
+*begin 2012-ns-03
+
+; *title "Slime Cave"
+*date 2012.08.20
+*team Insts Julian Todd
+*team Notes Noel Snape
+
+*export GPS
+
+*entrance 1
+
+*data normal from to tape	compass clino
+
+*flags surface
+GPS	1	4.39	167	-35
+
+*flags not surface
+1	2	13.8	185	-38
+2	3	8.43	238	28
+1	4	7.28	128	-36
+4	5	6.72	26	12
+
+*data passage station left right up down ignoreall
+
+;stn	L	R	U	D	Desc
+1	2.8	0.3	1	2
+2	0.7	2.4	2.5	0.4
+3	0	0	1	2.5	in crack at end of pasage
+4	2.6	0	0	0	LRUDs rotated
+5	0	0	0	0	in crack at end of pasage
+
+*end 2012-ns-03

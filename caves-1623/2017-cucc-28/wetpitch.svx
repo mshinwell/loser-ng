@@ -1,0 +1,56 @@
+*begin wetpitch
+
+; stations linked into other surveys (or likely to)
+*export 6x 1
+
+; Cave: 2017-cucc-24 Fishface
+; Area in cave/QM: 
+*title ""
+*date 2018.07.26
+*team Insts "Olly Hall"
+*team Notes "Adam Aldridge"
+*team Pics 
+*team Tape 
+*instrument checc disto
+; Calibration: 
+*ref 2040#27
+; the #number is on the clear pocket containing the original notes
+
+; if using a tape:
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+6x 1 1.72 272 -52
+1 2 3.72 242 -65
+2 3 4.53 204 -70
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;red nail varnish markings
+;1 0.5 7 1 2  
+;2 0.5 3 6 0.5
+;3 0.5 2 2 0.5
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1 2 0.5 7 1 
+2 0.5 0.5 3 6 
+3 0.5 0.5 2 2 
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    C    wet_pitch.3    -    wet continuation ]
+
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+
+*end wetpitch

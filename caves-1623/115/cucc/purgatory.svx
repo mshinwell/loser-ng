@@ -1,0 +1,41 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schnellzughöhle 1623/115
+
+*begin cuccpurgatory
+*title "Pete's Purgatory (only first 90m)"
+
+*export 0	; 115eing.54
+
+; Messteam: Phil/Janet
+; Referenz:
+*date 1982
+
+*data normal from to length bearing gradient
+   1   0  8.35 117.   36.5
+   2   1  5.6  101.   47.
+   3   2  3.5   85.   40.5
+   4   3  1.85 109.   14.
+   5   4  3.3   94.5  13.
+   6   5  3.2   69.   12.
+   7   6  3.0  108.    6.
+   8   7  1.35 154.    4.
+   9   8  1.6   69.     .5
+  10   9  2.68  60.   21.
+  11  10  3.15  60.    5.
+  12  11  2.35   0.   30.
+  13  12  6.85  92.   12.
+  14  13  4.54 133.   43.
+  15  14  4.42 126.   -1.
+  16  15  4.91 174.    8.
+  17  16  2.68 192.   -4.
+  18  17  6.48 145.   11.5
+  19  18  1.8  163.   26.
+  20  19  2.5  143.    9.
+  21  20  2.45 129.   -3.
+  22  21  3.55 194.  -10.
+  23  22  3.00 146.5   7.
+  24  23  3.73 176.   24.
+  25  24  2.93 129.    -  ; NO CLINO !
+
+*end cuccpurgatory
+

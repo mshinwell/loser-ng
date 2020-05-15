@@ -1,0 +1,68 @@
+;1998.03.27 AERW sort begin/end, add comments, refs, exports, *calib clino
+;2009.07.27 AJD sorted titles
+
+*begin shafts1
+
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+;*title "1st Shaft in 'Where the Wind Blows', NB this is misleading -"
+;       it is further into WTWB than the "2nd shaft" below.
+*title "Where the Wind Blows"
+*date 1996.07.26 ; - trip 1996-161-61 in logbook
+*team Insts Craig
+*team Notes Sam
+*team Pics Sam
+*team Tape Craig
+*team Tape Sam
+;       Becka helped when Sam was dangling down pitches
+*instrument Black set red string on compass, yellow on clino
+; Calibration:  At 161d
+;   a>b 216 +7/5
+;   b>a 035 -8
+;Tape - add 30cm to measurements
+; Ref.: Found no trace of this survey in 1996 KH survey book (AERW 98.03.27)
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 3   ; CM on rock stuck in mud floor, in hading fault chamber
+        ; before Bloody Hairfire Passage, on LH side slightly beyond
+        ; being opposite 13m shaft with aven above
+
+*calibrate clino -0.25
+*calibrate tape  -0.30
+;From   to  Tape    Compass Clino 
+2   1   15.48   058 -62
+2   3    4.80   346 +07
+
+*end shafts1
+
+*begin shafts2
+
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+;*title "2nd Shaft in 'Where the Wind Blows' (Pencil Shaft)"
+*title "Pencil Shaft"
+*date 1996.07.26 ; - trip 1996-161-61 in logbook
+*team Insts Craig
+*team Notes Sam
+*team Pics Sam
+*team Tape Craig
+*team Tape Sam ;       Becka helped when Sam was dangling down pitches
+*instrument Black set red string on compass, yellow on clino
+; Calibration:  At 161d
+;   a>b 216 +7/5
+;   b>a 035 -8
+; Ref.: Found no trace of this survey in 1996 KH survey book (AERW 98.03.27)
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 4   ; CM on flake on LH wall opposite Pencil Shaft and QM 96-62
+
+*calibrate clino -0.25
+*calibrate tape  -0.30
+;From   to  Tape    Compass Clino 
+1   2   14.47   -   Up
+3   2    2.07   059 -54
+3   4    3.33   256 +59
+
+*end shafts2

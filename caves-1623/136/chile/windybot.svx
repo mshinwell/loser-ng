@@ -1,0 +1,34 @@
+*begin windybottom
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Kaninchenhöhle, 1623/161
+*title "136 -- Windy Bottom"
+*date 1999.07
+*team Insts Erin Lynch
+*team Notes Julian Haines
+*team Pics 
+*team Tape Erin Lynch
+*instrument Compass # ; Clino # 
+; Calibration:  
+; ref.: 1999 KH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 5
+
+*calibrate tape -0.15   ; +ve if tape was too short, -ve if too long
+
+;from   to  tape    compass clino   ; remarks
+2   1   6.70    206 +05
+3   1   4.10    309 +19 
+4   1   3.95    115 -49
+5   4   1.86    010 -13
+
+;station details
+;name   L   R   U   D   E   description
+;1                      Top of massive boulder, bottom of aven
+;2  2   0   -   1.5     LH corner choss bank.  CM on wall
+;3  3   5   -   1.7     RH CM on wall
+;4  0   2.5 0.3 5.10        Main hang bolt
+;5                      Corner of rock overhanging pitch
+*end windybottom

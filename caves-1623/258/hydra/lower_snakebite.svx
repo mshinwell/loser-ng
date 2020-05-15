@@ -1,0 +1,72 @@
+*begin lower_snakebite
+
+; stations linked into other surveys (or likely to)
+*export 15x 
+
+; Cave: 258
+; Area in cave/QM: Hydra 
+*title "Lower Snakebite"
+*date 2017.08.09
+*team Insts Rebecca Lawson
+*team Notes Jacob Podesta
+*team dog Rob Watson
+*instrument Rebecca Lawson's Distox2 no.1
+*ref 2017#40
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+01	15x	10.09	093	+66
+01	02	06.70	143	-14
+02	03	05.27	207	-47
+03	04	04.13	188	-14
+04	05	02.67	274	-33
+05	06	10.72	242	-41
+06	07	06.76	219	-27
+07	08	05.27	178	-19
+08	09	01.13	055	-02
+09	10	07.72	190	-62
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+; nail varnish markings
+;01	04.0	00.0	10.0	1.0	RHW NP
+;02	00.5	00.7	03.0	1.5	LHW NP
+;03	01.3	00.1	03.6	0.2	RHW NP
+;04	00.5	00.7	00.6	2.4	LHW NP
+;05	01.5	00.5	00.5	2.4	RHW NP
+;06	01.8	00.5	01.6	1.6	RHW NP
+;07	01.0	01.0	01.0	0.6	RHW NP
+;08	01.4	01.0	01.3	0.2	Boulder, numbered
+;09	00.0	00.4	01.0	3.3	pitchhead
+;10	-	-	-	-	unmarked by waterfall
+;15x	-	-	-	-	old station, numbered 15
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+01	04.0	00.0	10.0	1.0
+02	00.5	00.7	03.0	1.5
+03	01.3	00.1	03.6	0.2
+04	00.5	00.7	00.6	2.4
+05	01.5	00.5	00.5	2.4
+06	01.8	00.5	01.6	1.6
+07	01.0	01.0	01.0	0.6
+08	01.4	01.0	01.3	0.2	
+09	00.0	00.4	01.0	3.3
+10	-	-	-	-
+15x	-	-	-	-
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    B    lower_snakebite.10    -  p5, waterfall, probably just drops into song of the earth
+
+;------------
+;Cave description
+; passage continues with stream, down a 7ish metre pitch and more narrow stream
+; ends at waterfall with crouching height passage
+
+*end lower_snakebite

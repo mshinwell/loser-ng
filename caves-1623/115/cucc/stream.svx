@@ -1,0 +1,16 @@
+;NOTES > $.Survey.Surveys.Austria.D.Stream
+;1995.08.01 AERW Source: converted from SU file
+;1995.05.20 AERW added loads of comments when clarifying description
+;1998.06.02 AERW added exports and comments
+
+; ====== links between surveys in this file: ======
+
+*equate 12foot.0	confluence.0
+*equate commando.0	12foot.22
+*equate orgasm.66	commando.86
+
+*include 12foot
+*include confluence
+*include commando
+*include orgasm
+

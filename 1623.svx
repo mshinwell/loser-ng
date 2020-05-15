@@ -1,0 +1,14 @@
+*title "Caves in Kataster areas 1623 and 1626"
+
+*include kataster/1623
+
+; JGT inlined the all_gpx file without the 2018/additional_info as it contains references to 
+; the 1626 caving area.  
+;*include gpx/all_gpx
+*include gpx/2017/svx/all_gpx.svx
+*include gpx/2017/additional_info.svx
+*include gpx/2018/svx/all_gpx.svx
+;*include 2018/additional_info.svx
+
+
+*include kataster/kataster-boundaries-lukas-plan-2018-07-17/kataster-boundaries

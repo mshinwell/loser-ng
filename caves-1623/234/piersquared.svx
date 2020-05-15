@@ -1,0 +1,125 @@
+*begin piersquared
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Hauchhoehle (1623/234)
+*title "Pie R Squared Passage"
+*date 2005.08.09
+*team Insts Phil Underwood
+*team Notes Dave Loeffler
+*team Tape Both
+*instrument Compass #4 ; Clino #4; tape new Chinese
+; Calibration: 325/-23; 326/-23; 150/+23; 148/+22
+; ref.:	2005#39
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 p7 25
+
+*calibrate tape +0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	3.64	024	-20
+3	2	3.76	010	+09
+4	3	4.91	004	+02
+5	4	2.40	113	-24
+6	5	0.27	045	-22
+7	6	3.33	011	-09
+8	7	2.75	113	+04
+9	8	1.70	143	+17
+10	9	2.30	044	+21
+11	10	3.20	346	+01
+12	11	2.90	288	-19
+13	12	3.77	007	+16
+14	13	3.95	124	+15
+15	14	8.61	139	+17
+16	15	3.58	113	+23
+17	16	2.28	164	-15
+18	17	4.24	223	-21
+19	18	5.14	138	+11
+20	19	3.38	085	+13
+21	20	3.00	022	+10
+22	21	3.245	145	+07
+23	22	4.86	131	+09
+24	23	3.85	049	-01
+25	24	7.50	030	+26
+26	25	0.73	274	+39
+26	27	1.14	-	DOWN
+28	27	3.66	352	+05
+29	28	2.22	062	+10
+30	29	3.25	029	+08
+1	31	1.72	039	+14
+32	31	5.00	146	-27
+33	32	0.8	253	-22
+34	33	6.95	-	DOWN
+35	34	2.84	17	0
+36	35	8.99	93	-44
+37	36	2.40	095	-04
+37	p7	1.61	148	+20
+
+
+;stn	L	R	U	D	desc
+;1	2.0	0	0.7	3.5	RP #1 near rope end
+;2	0.4	0.5	0.15	0.7	RP LHW
+;3	0.5	0	0.5	0.5	RP RHW
+;4	0	1.0	0.5	0.2	Lower of 2 RP marks LHW
+;5	0	0.6	0.4	0.6	RP LHW
+;6	-	-	-	-	RP LHW
+;7	0	0.6	0.5	0.6	RP LHW
+;8	0.1	0.8	0.7	0.4	RP LHW near floor
+;9	0.7	0	0.6	0.5	RP RHW
+;10	0.4	0.2	0	0.8	RP ceiling
+;11	0.6	0	0.15	0.5	RP RHW
+;12	0.1	0.5	0.3	0.5	RP LHW
+;13	0	0.6	0.5	0.3	RP LHW
+;14	0.6	0.2	0.5	0.4	RP under projection
+;15	0.5	0	0.3	0.6	RP #15 on RHW
+;16	0	0.75	0.4	0.4	RP LHW
+;17	-	-	-	-	RP stal
+;18	0.5	0	0.6	0.5	RP #18 RHW
+;19	0.8	0	0.4	0.5	RP RHW
+;20	0.4	0	0.4	0.4	RP RHW
+;21	0	0.5	0.5	0.5	RP LHW
+;22	0.3	0.4	0.1	0.8	RP stal ceiling
+;23	1.0	1.6	1.0	0.5	RP before pseudo-junction
+;24	0.6	0	0.6	0.6	RP #24 RHW
+;25	1.0	2.0	0	lots	RP ceil
+;26 	-	-	-	-	RP ceil
+;27	-	-	-	-	-
+;28	0	0.7	0.3	0.4	RP LHW
+;29	0.5	0.2	0.6	0.2	RP RH side
+;30	-	-	-	-	Phil's head!
+
+*data passage station left right up down ignoreall
+1	2.0	0	0.7	3.5	RP #1 near rope end
+2	0.4	0.5	0.15	0.7	RP LHW
+3	0.5	0	0.5	0.5	RP RHW
+4	0	1.0	0.5	0.2	Lower of 2 RP marks LHW
+5	0	0.6	0.4	0.6	RP LHW
+6	-	-	-	-	RP LHW
+7	0	0.6	0.5	0.6	RP LHW
+8	0.1	0.8	0.7	0.4	RP LHW near floor
+9	0.7	0	0.6	0.5	RP RHW
+10	0.4	0.2	0	0.8	RP ceiling
+11	0.6	0	0.15	0.5	RP RHW
+12	0.1	0.5	0.3	0.5	RP LHW
+13	0	0.6	0.5	0.3	RP LHW
+14	0.6	0.2	0.5	0.4	RP under projection
+15	0.5	0	0.3	0.6	RP #15 on RHW
+16	0	0.75	0.4	0.4	RP LHW
+17	-	-	-	-	RP stal
+18	0.5	0	0.6	0.5	RP #18 RHW
+19	0.8	0	0.4	0.5	RP RHW
+20	0.4	0	0.4	0.4	RP RHW
+21	0	0.5	0.5	0.5	RP LHW
+22	0.3	0.4	0.1	0.8	RP stal ceiling
+23	1.0	1.6	1.0	0.5	RP before pseudo-junction
+24	0.6	0	0.6	0.6	RP #24 RHW
+25	1.0	2.0	0	-	RP ceil
+26 	-	-	-	-	RP ceil
+27	-	-	-	-	-
+28	0	0.7	0.3	0.4	RP LHW
+29	0.5	0.2	0.6	0.2	RP RH side
+30	-	-	-	-	Phil's head!
+
+
+*end piersquared

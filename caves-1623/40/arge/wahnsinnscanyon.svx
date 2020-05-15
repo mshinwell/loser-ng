@@ -1,0 +1,59 @@
+;> 1623/40
+
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schwarzmooskogel-Eishöhle
+; Messteam: Artur Hofmann, Günter Forstmair, Jens Freigang, Marcel Flesch
+; Zeichner: Jens Freigang
+; Referenz: Messbuch SMK 3
+
+
+
+*begin wahnsinnscanyon
+*title "Wahnsinnscanyon"
+*date 2002.08.23
+
+
+*export 28
+
+*units compass grads
+*units clino grads
+
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+28	29	20.20	-85	327 	; 1 = wahnsinn.28
+29	30	2.69	35	300
+30	31	18.87	-100	0	; bis hier noch Vermessung vom 30.10.2000
+13	31	1.40	0	45	; Rückwärtsvermessung von unten nach oben
+12	13	6.20	92	130
+11	12	8.70	76	49
+10	11	21.10	90	40
+9	10	1.65	46	38
+8	9	8.00	71	122	; Länge geschätzt!
+7	8	0.59	40	260
+6	7	6.90	68	182
+5	6	8.93	36	268
+4	5	10.50	37	337
+
+
+
+;Raumwerte
+*data passage station left right up down
+28	1.0	0	8	20	
+29	1.5	1.0	0	20
+30	1.0	0	20	3
+31	1.0	5	0	23
+
+*data passage station left right up down
+4	15	6	4	4
+5	4	5	30	2
+6	2	0	30	4
+7	0	2	20	2
+8	4	10	25	5
+9	7	0	30	12
+10	2	0	30	2
+11	0	2	10	20
+12	0	1	15	6
+13	3	1	12	10
+
+*end wahnsinnscanyon

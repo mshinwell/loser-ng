@@ -1,0 +1,79 @@
+*begin hilti_nts_near_bats
+
+; stations linked into other surveys (or likely to)
+*export x
+
+; Cave: Balkonhole 264
+; Area in cave/QM: Nothing To See (Hilti-a-plenty)
+*title "Nothing to See lead near bats"
+*date 2017.07.28
+*team Insts Kristian Brooke
+*team Notes Ashley Gregg
+*instrument CHECC Distox2
+*ref 2017#22
+
+; Centreline data
+*data normal from to bearing gradient length
+*alias station - ..
+    x 1 355.35 26.63 3.121
+  1 - 114.40 1.38 2.240
+  1 - 138.59 -1.25 1.647
+  1 - 116.45 74.94 3.559
+  1 - 114.66 -42.13 2.469
+  1 - 188.65 -28.21 5.201
+  1 - 195.04 -26.66 3.363
+  1 - 59.32 39.04 3.010
+  1 2 120.32 13.60 5.404
+  2 - 31.40 8.33 0.407
+  2 - 181.51 84.78 3.752
+  2 - 63.04 -70.76 1.760
+  2 - 114.55 13.49 4.487
+  2 - 103.25 0.38 1.527
+  2 - 293.09 -16.07 3.628
+  2 - 303.82 -15.36 2.186
+  2 3 117.32 0.15 4.606
+  3 - 299.02 -3.73 2.718
+  3 - 330.46 -8.13 1.973
+  3 - 1.91 -10.18 2.382
+  3 - 347.93 -8.24 5.743
+  3 - 296.60 69.17 3.918
+  3 - 324.00 -35.46 1.548
+  3 - 263.86 -2.08 0.935
+  3 4 338.37 -9.50 6.383
+  4 - 159.04 4.73 4.233
+  4 - 68.45 -4.50 0.344
+  4 - 233.62 1.46 0.472
+  4 - 337.47 82.31 1.853
+  4 - 200.87 -66.76 1.074
+  4 - 183.39 -5.86 2.195
+  4 - 143.14 4.01 3.907
+  4 - 123.52 1.51 3.110
+  4 5 128.98 -6.75 6.001
+  5 - 47.79 -6.78 0.965
+  5 - 233.22 -6.01 1.174
+  5 - 268.00 88.14 2.645
+  5 - 344.41 -78.04 1.167
+  5 - 4.91 65.59 1.868
+  5 - 7.58 65.93 3.329
+  5 - 328.55 -4.87 2.759
+  5 - 291.58 -9.37 3.444
+  5 - 278.09 10.28 2.152
+  5 - 248.55 22.36 1.824
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surveyname.5    -    description of QM ]
+
+;------------
+;Cave description  ;(leave commented-out)
+;A rift leads to a small chamber with no ways on.
+
+*end hilti_nts_near_bats

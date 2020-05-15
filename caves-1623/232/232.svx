@@ -1,0 +1,15 @@
+*equate 232.griess.1 p232
+*entrance p232
+
+*begin 232
+;> 1623/232 Grießkogelschacht
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: 1623/232 Grießkogelschacht
+
+*export griess.1 griess.pg1
+
+*equate pille.0 griess.18
+
+*include griess
+*include pille
+*end 232

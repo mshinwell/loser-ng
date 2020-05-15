@@ -1,0 +1,61 @@
+*begin indianropetrick
+
+; stations linked into other surveys (or likely to)
+*export 01 06
+
+; Cave: 258
+; Area in cave/QM: Hydra 
+*title "Indian Rope Trick"
+*date 2016.07.09
+*team Insts Luke Stangroom
+*team Notes Anthony Day
+*team Pics Anthony Day
+*instrument Chris Densham's DistoX
+*ref 2016#25
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+01	02	20.37	061.5	+44.1
+01	03	08.21	251.9	-18.4
+*flags splay
+03	03A	14.35	229.7	-12.9
+*flags not splay
+03	04	24.00	226.6	+66.3
+04	05	04.53	239.6	+77.5
+06	05	01.62	208.6	-52.1
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Pink nail varnish markings
+;01	02.6	02.7	12.0	00.5	Boulder, numbered
+;02	00.9	05.6	26.8	01.2	LH wall, numbered
+;03	07.6	02.5	-	02.0	Boulder point, numbered
+;04	-	-	-	-	3m above rebelay
+;05	01.5	01.0	02.0	-
+;06	-	-	-	-	Station 15 from Living the Dream
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+03A	0.5	0.5	31	7
+03	2.5	7.6	28	02.0
+01	02.6	02.7	12	00.5
+02	00.9	05.6	26.8	01.2
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    A    indianropetrick.02    indianropetrick.02  Continuing steeply sloping uphill phreatic ramp (rope required) [AD: connects to snakecharmer.25]
+
+;------------
+;Cave description
+; 25m pitch in a rift lands on a boulder pile. A further 5m descent to the floor at the point
+; gains access to Song of the Earth to the west. To the east, a steeply ascending phreatic ramp
+; can be followed for 20m, from where the continuation would require a rope [QM-1 A]. This area
+; is close to QM-4 in Living the Dream which might provide easier access.
+
+*end indianropetrick

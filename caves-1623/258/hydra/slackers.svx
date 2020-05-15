@@ -1,0 +1,340 @@
+*begin slackers
+
+; stations linked into other surveys (or likely to)
+*export 1 9 14 28 39 52 57 61 73 75 79
+
+; Cave:
+; Area in cave/QM: 
+*title "Easy Slackers Walking Passage"
+*date 2016.07.05
+*team Insts "Nat Dalton"
+*team Notes Wookey
+*team Dog "Chris Densham"
+*instrument "Wookey's Disto X2"
+; Last two survey legs were ChrisD distoX, as Wookey's went flat.
+; Calibration:
+; Stone Bridge points:
+; Foresight: 328.3, -23.3, upside down: 327.1, -23.8  (diff 1.2, 0.5)
+; Backsight: 144.8, 22.7   upside down: 145.1, 23.0   (diff 0.3, 0.3)
+; Random points:
+; Foresight: 293.3, -8.5,  upside down: 292.4, -8.7   (diff 0.9, 0.2)
+; Backsight: 112.6, 5.7    upside down: 111.6, 5.7    (diff 1.0, 0)
+
+*ref 2016#12
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+
+28    29   24.313   327.8     +03.5
+*flags splay
+29    30   16.54    065.3     +21.1
+*flags not splay
+29    31    8.62    329.9     -10.4
+31    32    5.53    340.6     +10.3
+32    33    5.86    085.6     +25.6
+33    34    8.82    152.9     -04.3
+34    35   12.88    102.8     +22.2
+35    .    11.98    329.8     -04.9
+36    33    6.44    241.9     -23.1
+37    36   12.93    314.7     -4.0
+37    35    4.45    159.2     +10.7
+38    36    4.94    132.5     +07.6
+39    38    9.26    184.4     -18.4
+40    39    6.77    138.5     +20.3
+41    40    6.43    167.3     -01.3
+42    41    3.99    181.0     +04.4
+43    42   10.57    118.0     +19.6
+43    44   10.30    300.9     -16.6
+44    45   25.96    309.3     -17.3
+45    46   26.01    316.9     -14.6
+46    47   29.35    345.3     +03.6
+47    48    4.16    308.3     -12.5
+48    49   10.52    330.6     -01.4
+49    50    8.54    305.2     -11.9
+50    51   10.25    314.9     -14.7
+51    52    6.96    333.0     -09.0
+52    53    4.39    322.4     -24.4
+53    54    6.36    329.9     -07.7
+54    55    6.509   307.4     -20.3
+55    56    4.83    291.3     -23.5
+56    57    4.67    323.9     -12.3
+57    58    3.29    271.9     +22.6
+58    59   14.37    309.7     -15.8
+59    60    7.40    199.7     -34.7	
+60    61    3.81    253.1     -14.3
+46    62    9.09    159.1     +00.5
+62    63   11.27    157.5     -04.2
+63    64    5.00    105.5     +09.7
+64    65    8.63    132.4     +14.8
+65    66   20.46    128.2     +19.4
+66    67   12.88    152.4     +22.6
+67    68    9.29    120.0     +14.3
+83    68    4.66    004.2     +01.4
+83    32   16.83    158.7     -01.5
+
+47    69   20.67    101.1     +26.4
+69    70   20.94    107.2     +26.1
+70    71   12.00    350.3     +16.8
+71    72    4.45    080.4     +07.9
+72    73   17.50    325.9     -06.7
+73    74   24.38    042.0     +26.9
+74    75   20.59    014.0     +29.7
+75    76   25.48    024.5     +24.9
+76    77    6.49    342.3     +00.9
+77    78   10.99    297.3     +10.3
+78    79   21.22    032.5     +18.3
+79    80   17.30    162.5     -06.9
+80    81   14.11    114.4     +06.9
+81    82    9.82    136.4     +24.8
+81    .     9.54    232	      -25.6
+
+
+; Part 2 the next day
+*date 2016.07.05
+*team Insts Nat Dalton
+*team Notes Wookey
+*team Notes Chris Densham
+*team Dog Chris Densham
+*team Dog Wookey
+*instrument Wookey's Disto X2
+
+1     2	    14.52    021.7     +09.1
+3     2	    23.49    267.2     -30.4
+4     3	    20.40    203.5     -32.3
+4     5	    16.49    353.8     +11.1
+5     6	     9.62    337.2     -11.1
+6     7	    16.86    310.9     -16.5
+7     8	    16.50    301.6     -30.8
+8     9	    12.31    340.8     -07.6
+9     10     7.06    351.1     +15.5
+10    11    24.19    044.0     +22.4
+12    11    12.16    130.1     +03.0
+13    12    10.71    141.8     +05.5
+13    14     8.07    063.3     +28.8
+13    15    36.56    305.7     -14.2
+15    16    39.49    309.7     -16.6
+16    17    10.00    316.3     -23.6
+*equate 17 72
+
+
+;-----------
+;recorded station details (leave commented out)
+;(RP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Pink nail varnish markings
+;28    2.6   0.7   1.7	 1    ; RP '28' RHW
+;29    1.4   3.4   0.5	 1.5  ; RP
+;30    -     -	   -	 -    ; unmarked (splay)
+;31    2.0   6.6   0.7	 0.2  ; RP
+;32    2.6   5.1   0	 0.6  ; RP
+;33    -     -	   -	 -    ; Pencil X on wall
+;34    -     -	   1	 0    ; Mud floor (disposable stn)
+;35    0.6   1.6   0	 1.3  ;	RP '35'
+;36    0.2   2.1   0.7	 0.8  ; RP upper wall
+;37    -     -	   -	 -    ; RP upper wall
+;38    2.6   2.0   1.1	 0.1  ; RP rock on floor
+;39    2.1   1.3   0.5	 1.3  ; RP '39' Roof
+;40    3.5   0(5.4) 1.3	 0.3  ; RP '40'
+;42    2.3   0.2   1.0	 0.4  ; RP RHW
+;41    1     1.5   0	 0.5  ; RP Roof
+;43    1.8   0.2   1.4	 1.2  ; RP '43' RHW
+;44    0.1   2.5   1.5	 1.2  ; RP LHW
+;45    0.3   1.8   1.0	 1.2  ; RP LHW
+;46    2.3   3.3   1.6	 0    ; RP Nubbin on floor
+;47    2.5   1.0   1.4	 1.3  ; RP '47' RHW
+;48    0.8   0.8   1.3	 1.3  ; RP shelf LHW
+;49    1.4   0	   0.7	 1.9  ; RP RHW
+;50    0     1.8   1.0	 2.0  ; RP LHW
+;51    0.5   1.5   0.9	 1.9  ; RP spike
+;52    0     0.7   0.7	 0.95 ; RP '52' LHW
+;53    0.5   0.6   0.9	 1.8  ; RP LHW
+;54    0.5   0	   1.8	 1.4  ; RP RHW
+;55    0.7   0.6   1.4	 1.5  ; RP flake middle of passage
+;56    0.3   0.6   0.5	 0.5  ; RP LHW
+;57    1.5   0.1   5.7	 0.5  ; RP '57' RHW
+;58    0.4   1.8   2.2	 1.1  ; RP LHW
+;59    0.4   5.4   2.1   1.2  ; RP LHW  R=327
+;60    1.5   2.5   2.5	 4    ;	RP trench edge (floor)
+;61    0.2   3.5   1.8	 4.3  ; RP '61' LHW
+;62    1.0   1.0   0.4	 1.0  ; RP on roof
+;63    1.0   1.0   1.5	 0.2  ; RP RHW
+;64    0.7   2.0   1.0	 0.5  ; RP LHW
+;65    1.3   0.7   2.3	 1.2  ; RP RHW ledge
+;66    0.8   2.8   2.2	 0.9  ; RP spike
+;67 1.1(5.4) 0.2   0.4	 4.0(1.0)
+;68    2     2.2   2.3   1.6  ; RH knot of pitch (True right)
+;83    1     2.0   1.9	 1.4  ; RP LHW
+
+;47    0.4   2.9   3.5	 1.3  ; RP '47'
+;69    0.2   2.2   2.8	 1.0  ; RP LHW
+;70    3.1   1.4   3.0	 1.5  ; RP RHW
+;71    0.9   3.0   2.0	 1.6  ; RP on pillar
+;72    4.0   1.0   2.4	 0.2  ; RP '72' RHW (floor level)
+;73    2.2   5	   5	 1    ;	RP '73' large boulder
+;74    4.3   3.3   6	 1    ; RP on boulder
+;75    0     7.8   3	 1.8  ; RP LHW '75'
+;76    1.0   6.8   4.4	 1.0  ; RP '76' LHW
+;77    2.4   2.3   3.9	 0    ; RP pebble on floor
+;78    0     4.0   1.7	 0.2  ; RP LHW near floor
+;79    4.8   0.1   2.1	 1.5  ; RP '79' RHW
+;80    4.7   0.2   2.8	 1.2  ; RP RHW
+;81    1.8   2.5   2.5	 0    ; RP rock on floor
+;82    2.0   2.0   0	 1.8  ; RP roof
+
+;1     0.5   13.4  3	 1    ; Stn 1 from 'living the dream'
+;2     3.8   6.5   5.8	 1    ; RP loose stone (R=113)
+;3     9.4   3.6   7.4	 0.8  ; RP bridge middle of passage
+;4     3     9	   1.2	 1.3  ; RP '4' on pillar
+;5     0     7.3   5.8	 1.8  ; RP
+;6     0     7.1   8.3	 1.7
+;7     2.9   4	   1.4	 2
+;8     3     2.5   3	 0.3
+;9     4.4   0.2   2.3	 1.6
+;10    0.2   6.3   4.4	 2
+;11    4     0.5   1.6	 3
+;12    0     5	   3	 1.5
+;13    3.5   0	   0.5	 1
+;14    -     -	   -	 -
+;15    2.2   2.2   2	 1.7
+;16    0     5.3   4	 1.5
+;17    -     -	   -	 -	; Stn72 from yesterday's segment
+
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+
+*data passage station left right up down 
+28    2.6   0.7   1.7   1    ; RP '28' RHW                     
+29    1.4   3.4   0.5   1.5  ; RP                                           
+31    2.0   6.6   0.7   0.2  ; RP                              
+32    2.6   5.1   0     0.6  ; RP                              
+*data passage station left right up down 
+33    -     -     -     -    ; Pencil X on wall                
+34    -     -     1     0    ; Mud floor (disposable stn)      
+*data passage station left right up down 
+35    0.6   1.6   0     1.3  ; RP '35'
+37    -     -	   -	-    ; RP upper wall
+36    0.2   2.1   0.7	0.8  ; RP upper wall
+38    2.6   2.0   1.1	0.1  ; RP rock on floor
+39    2.1   1.3   0.5	1.3  ; RP '39' Roof
+40    3.5   0     1.3	0.3  ; RP '40'
+*data passage station left right up down 
+40    3.5   5.4   1.3	0.3  ; RP '40'
+41    1     1.5   0	0.5  ; RP Roof
+42    2.3   0.2   1.0	0.4  ; RP RHW
+43    1.8   0.2   1.4	1.2  ; RP '43' RHW
+44    0.1   2.5   1.5	1.2  ; RP LHW
+45    0.3   1.8   1.0	1.2  ; RP LHW
+46    1     3.3   1.6   0    ; RP Nubbin on floor              
+47    2.5   1.0   1.4   1.3  ; RP '47' RHW                     
+47    1.6   0     1.4   1.3  ; RP '47' RHW                     
+48    0.8   0.8   1.3   1.3  ; RP shelf LHW                    
+49    1.4   0     0.7   1.9  ; RP RHW                          
+50    0     1.8   1.0   2.0  ; RP LHW                          
+51    0.5   1.5   0.9   1.9  ; RP spike                        
+52    0     0.7   0.7   0.95 ; RP '52' LHW                     
+*data passage station left right up down 
+52    0     0.7   0.7   0.95 ; RP '52' LHW                     
+53    0.5   0.6   0.9   1.8  ; RP LHW                          
+54    0.5   0     1.8   1.4  ; RP RHW                          
+55    0.7   0.6   1.4   1.5  ; RP flake middle of passage      
+56    0.3   0.6   0.5   0.5  ; RP LHW                          
+57    1.5   0.1   5.7   0.5  ; RP '57' RHW                     
+58    0.4   1.8   2.2   1.1  ; RP LHW                          
+59    0.4   5.4   2.1   1.2  ; RP LHW  R=327                   
+60    1.5   2.5   2.5   4    ; RP trench edge (floor)          
+61    0.2   3.5   1.8   4.3  ; RP '61' LHW                     
+
+*data passage station left right up down 
+46    3.3   2.3   1.6   0    ; RP Nubbin on floor              
+62    1.0   1.0   0.4   1.0  ; RP on roof                      
+63    1.0   1.0   1.5   0.2  ; RP RHW                          
+64    0.7   2.0   1.0   0.5  ; RP LHW                          
+65    1.3   0.7   2.3   1.2  ; RP RHW ledge                    
+66    0.8   2.8   2.2   0.9  ; RP spike                        
+67    1.1   0.2   0.4   4.0                               
+67    5.4   0.2   0.4   4.0                               
+68    2     2.2   2.3   1.6  ; RH knot of pitch (True right)   
+83    1     2.0   1.9   1.4  ; RP LHW                          
+32    5.1   2.6   0     0.6  ; RP                              
+                                                               
+*data passage station left right up down 
+47    0.4   2.9   3.5   1.3  ; RP '47'                         
+69    0.2   2.2   2.8   1.0  ; RP LHW                          
+70    3.1   1.4   3.0   1.5  ; RP RHW                          
+71    0.9   3.0   2.0   1.6  ; RP on pillar                    
+72    4.0   1.0   2.4   0.2  ; RP '72' RHW (floor level)       
+*data passage station left right up down 
+73    2.2   5	   5	 1    ;	RP '73' large boulder
+74    4.3   3.3   6     1    ; RP on boulder                   
+75    0     7.8   3     1.8  ; RP LHW '75'                     
+76    1.0   6.8   4.4   1.0  ; RP '76' LHW                     
+77    2.4   2.3   3.9   0    ; RP pebble on floor              
+78    0     4.0   1.7   0.2  ; RP LHW near floor               
+79    0.5   1     2.1   1.5  ; RP '79' RHW                     
+*data passage station left right up down 
+79    0.1   4.8   2.1   1.5  ; RP '79' RHW                     
+80    4.7   0.2   2.8   1.2  ; RP RHW                          
+81    1.8   2.5   2.5   0    ; RP rock on floor                
+82    2.0   2.0   0     1.8  ; RP roof                         
+                                                               
+*data passage station left right up down 
+1     0.5   13.4  3     1    ; Stn 1 from 'living the dream'   
+2     3.8   6.5   5.8   1    ; RP loose stone (R=113)          
+3     9.4   3.6   7.4   0.8  ; RP bridge middle of passage     
+4     3     9     1.2   1.3  ; RP '4' on pillar                
+5     0     7.3   5.8   1.8  ; RP                              
+6     0     7.1   8.3   1.7                                    
+7     2.9   4     1.4   2                                      
+8     3     2.5   3     0.3                                    
+9     4.4   0.2   2.3   1.6                                    
+10    0.2   6.3   4.4   2                                      
+11    4     0.5   1.6   3                                      
+12    0     5     3     1.5                                    
+13    3.5   0     0.5   1                                      
+15    2.2   2.2   2     1.7                                    
+16    0     5.3   4     1.5                                    
+72    4.0   1.0   2.4   0.2  ; RP '72' RHW (floor level)       
+73    2.2   5     5     1    ; RP '73' large boulder           
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surveyname.5    -    description of QM ]
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+
+; Walking passage reaches confusing area or very low, wide passage
+; developed on the dip, with various pillars. Sandy crawl along
+; bottom, or move up to largest section at top.  Lower part reaches 6m
+; pitch after 20m. Upper part bypasses pitch via short crawl and 4
+; junctions to reach gently down-sloping passage heading NW.
+
+; 1st of 4 junctions is medium-sized ramp up (walking) QMA
+; 2nd is passage down to overlook p6 (would need rope)
+; 3rd is small chamber to right which joins quickly to 4th
+
+; Back in pleasant down-sloping passage NW it continues 
+; past another hole off left to overlook pitch area. After 20m there
+; is an area of nice formations (for Austria) on the roof and a low
+; sandy passage off sharp left which joins back to pitch area. (Dog
+; sized passage connects crawl to here as well).
+
+; 50m more gentle downslope (draughting towards SW) leads to junction
+; where this joins the main passage from the p6.
+
+
+
+*end slackers

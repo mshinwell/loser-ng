@@ -1,0 +1,92 @@
+;1999.02.10 W Created (from Allnr41.svx)
+;2000.03.08 W Added e6ausen (moved from 040.svx)
+
+
+; 2000 stuff:
+
+;nichts-50 entrance
+*equate p40e 40entlink.2 
+*equate p215a 40entlink.5
+*equate p40h 40entlink.7
+*equate p216 40entlink.10 ;aka p2000_06
+*equate p217 40entlink.12
+;weiss höhle entrance
+*equate p216 weisausn.c
+*equate p229 weisausn.0
+*include weisausn
+
+*include 2002-W-02surf
+*equate p2002-W-02 2002-W-02.3
+*equate p2002-W-02 2002-W-02surf.1
+*equate p40s 2002-W-02surf.3
+*entrance p2002-W-02
+
+; VfHO Surface traverse from Eishöhle main entrance to Schneevulkanhalle entrance
+;*equate EisSurf.Theo14	P40a	Laser.8_14   ;main entrance
+
+; Survey appears dubious (after Expo 2000).
+*equate p40a Laser.8_14
+*equate EisSurf.SV0	40entlink.1              ;SVH entrance [this is correct point]
+*include eissurf
+
+; Arge survey between SVH entrance and Gruener eingang
+*equate gruensurf.9	P40s
+*equate gruensurf.g	P40e
+*include 40ftoe
+
+; 1980s Franco-German surface survey from Eishöhle main entrance to Lerchenschact
+*equate 40to88.400   P40a
+*equate 40to88.516   P88FrGr ; Some disagreement about where this entrance is!
+*include 40to88
+
+; ARGE survey between Brennerbeserlschluf and Konigschacht SVH entrances
+*equate e6ausen.sv1 p40e
+*equate e6ausen.j  p40f
+*include e6ausen
+
+; Bodge to position 1980s underground data to 'best fit'
+;*fix p40enearby  36584.74 81954.5  1645  ;Brennerbeserlschluf, Eingang zur Schneevulkanhalle
+; this is very close to EisSVH.0, but not quite. 
+; Best guess is dx, dy,dz: +1m, -4.4m, +1.9m, but we can't enter this directly ATM
+
+;1984 VfHM (lindenmayr/lorenz) data
+; This is a bit of a mess - some data is missing, it's not clear where the entrances are
+;*equate vfhmdata.1 P40a ; commented Expo 2000
+*equate vfhmdata.1 40entlink2.16
+;*equate vfhmdata.19 P40enearby ;disconnect this for the time being as something is wrong
+*equate vfhmdata.910 Pkuppel
+;*equate vfhmdata.8?? PKonigschacht
+;*equate vfhmdata.831 PSchwarzblatthöhle ; This inferred from survey ending here
+*equate vfhmdata.1016 Plamperl
+*equate vfhmdata.1109 P88_84
+;*equate vfhmdata.19?? Pgrunsteineis
+
+; The following two equates were moved by Mark S on Expo 2004
+; from all.svx.
+*equate 40entlink.7 vfhmdata.14
+*equate p40h vfhmdata.14
+
+*include vfhmdata
+
+; this isn't yet connected until we can work out which shaft entrance
+;they are referring to...
+; Konigschacht is suggested...but that gives very suspicious results
+; Connecting to 40e gives impossible results!
+;*equate seniorsurf.26  Pbraun    ;braun.1
+;*equate seniorsurf.16  Psenior   ;senior.1
+;*equate seniorsurf.9   P40f ; one of the shaft entrances....
+;*include senioren
+
+; this isn't connected as we have no real idea where it is...
+;*equate hagelsurf.0 Somewhere, maybe hagelschacht ; where does it start?
+;*equate hagelsurf.9 Hagelschacht?
+;*include hagel
+
+;CUCC 2000 "link 40's entrances" surface survey
+*equate 40entlink.2  p40e
+*equate 40entlink.5  p215a
+*equate 40entlink.7  p40h
+*equate 40entlink.10 p216
+*equate 40entlink.12 p217
+*entrance p217
+*include 40ents

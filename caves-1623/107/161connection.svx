@@ -1,0 +1,55 @@
+*begin 161connection
+
+*export x y 18x 3
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 107 
+
+*title "161 Connection"
+*date 2014.08.02; 2014.08.03
+*team notes David Walker on 2nd plus Becka Lawson on 3rd for tie-in legs (two legs only)
+*team distox Rob Watson
+
+*instrument SAP on 2nd; Becka's old Distox on 3rd
+
+;ref 2014#16
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino ignoreall
+
+*begin
+*flags duplicate
+18x	2	4.86	300	+07
+2	3	4.57	276	-17
+*end
+
+3	4	10.58	220	-10	; CONNECTION LEG!
+4	5	1.61	148	-21
+5	6	13.45	231	+80
+6	7	4.50	178	+72
+7	8	3.23	185	+57
+
+*begin
+*flags duplicate
+x	5	1.62	145	-20	; leg by Becka to station 5 from yesterday 
+*end
+y	8	21.59	035	+17	; leg by Becka 
+
+*data passage station left right up down ignoreall
+
+18x	7	1	4	2.5	corner of chamber, old numbered station in 161
+2	2	1.5	3.5	1.8	large boulder
+3	1	0.2	1.8	1.7	sticky down rock towards pitch
+4	1.8	1.2	2.9	1.8	
+5	10.1	2.8	10.5	1.6	bottom of pitch
+6	1.2	0.2	13.2	14	rift heading off at bearing of 40 degrees
+7	6.5	0.2	6.3	1.5
+
+x	-	-	-	-	marked but not numbered station on ceiling tip in Blown Out
+y	-	-	-	-	possibly station 4 of Olly and Jenny on large ridge of rock in China chamber
+8	-	-	-	-	old station from Rob and David's survey on 2nd Aug 2014
+5	-	-	-	-	old station from Rob and David's survey on 2nd Aug 2014
+
+*end 161connection
+

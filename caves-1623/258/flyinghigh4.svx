@@ -1,0 +1,35 @@
+*begin flyinghigh4
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export 15
+
+*title "Flying High 4"
+*date 2010.08.14
+*team Insts Julian
+*team Notes Becka
+*instrument Set 6 
+
+; calibrate 
+
+;ref.: 2010#22
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+12	11	2.32	010	-38
+12	13	2.87	055	+77
+13	14	3.35	227	+37
+14	15	1.89	052	+32
+				
+*data passage station left right up down ignoreall
+
+11	0.1	0.4	0.1	0.4
+12	1.2	0	2.5	1
+13	0	1.5	0.5	4
+14	2	0	5	1.6
+15	-	-	-	-	station in Flying High by inlet, not numbered
+
+*end   flyinghigh4

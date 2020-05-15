@@ -1,0 +1,88 @@
+; *** DO NOT SAVE THIS FILE WITHOUT RENAMING IT !! ***
+;[Stuff in square brackets is example text to be replaced with real data, 
+; removing the square brackets]
+
+*begin pitstop_4
+
+; stations linked into other surveys (or likely to)
+*export 44x 4
+
+; Cave: Balcony
+; Area in cave/QM: Pitstop
+*title "Pitstop_4"
+*date 2018.08.02
+*team Insts Becka
+*team Notes Nadia
+
+*instrument Becka 2
+; Calibration: [Where, readings]
+*ref 2018#37
+; the #number is on the clear pocket containing the original notes
+
+
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+1	44x	4.24	125	+34
+1	2	10.23	168	-49
+3	1	5.91	224	-29
+4	3	6.32	181	-07
+5	3	17.25	180	-38
+5	6	5.31	046	-20
+7	6	11.88	190.5	-28
+8	7	8.07	202	-24
+9	7	12.59	280	-31
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Pink nail varnish markings
+
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	0	3.8	31	5.4
+2	0	3	6	1
+
+*data passage station left right up down
+1	0	3.8	31	5.4
+3	4.1	2.7	3.6	0.5
+4	4.1	2.5	12	4
+
+*data passage station left right up down
+3	4.1	2.7	3.6	0.5
+5	0	3.8	18	7
+6	2.1	2.1	18	2.7
+7	1.5	10.5	19	0.1
+8	0.5	0.5	1.5	1.5
+
+*data passage station left right up down
+7	1.5	10.5	19	0.1
+9	1.5	0	1.2	1.9
+
+
+
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    A    pitstop_4.4    -    Small hole in the floor drafting best surveyed from point 4 on a marked boulder. On the left handside of the boulder choke.
+;QM2    X    pitstop_4.3    -    Aven above chamber, chamber could be dropped into from another lead, not a bolt climb
+;QM3	X	 pitstop_4.1	-	 30m, A+. Taken from drawn-up survey; same as QM2?
+
+;------------
+;Cave description  ;(leave commented-out)
+;climb down to the right of the passage in to a chamber. To the left of the chamber ends in a mud wall. There is a high aven above the Chamber. Right is a boulder choke up a slope. On the right of boulder choke there is a small drafting hole. At the top of the slope the passage is stopped by a wall. Roof of passage is about 20m high and stays the same hight throughout. 
+
+*end pitstop_4

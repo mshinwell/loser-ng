@@ -1,0 +1,34 @@
+*begin grater
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "grater"
+*date 2004.07.19
+*team Insts Nial Peters
+*team Notes Martin Green
+*team Tape Nial Peters
+*instrument Compass #4, Clino #4, Tape Yellow open stanley
+; Calibration: 146.5/146/145/328/327/327, +20,+21,+21,-23,-23,-22.5
+; ref.:	2004 #02
+
+; ====== stations refindable to link to other surveys: ======
+
+*export p3
+
+*calibrate tape +0.06	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+p3	1	2.31	162.5	-52
+2	1	4.96	223.5	+38
+3	2	3.39	161	+30
+4	3	2.20	154	+05
+
+;station details
+;name	L	R	U	D	description
+;p3					previous station RP#3 on flake from wall 
+;1	0.8	0.1	2.0	0.8	pp#1 on left wall
+;2	0.0	0.3	0.9	0.8	pp nose of rock lw
+;3	0.6	0.1	2.0	0.9	PP loose rock in pile
+;4	0.0	0.5	2.5	1.2	
+
+*end grater

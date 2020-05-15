@@ -1,0 +1,211 @@
+;1996.05.15      Algeria & Orient split off into own files. renamed to VertFran
+;1996.07.17 W+AA added LRUDE data
+;1998.03.02 AERW sorted begin/end, added comments, refs. and *calib clino
+
+; ====== links between surveys in this file: ======
+
+*equate DiceRoll.1	France.a.11
+*equate NotAlgeria.1	DiceRoll.12	;this is a bit of an approximation
+
+*begin France
+
+; ======  stations refindable to link to other surveys: ======
+
+*export a.1	; top of pointy boulder, also in BtoC survey
+*export a.10	; NW corner at top of block in France (The Dice)
+*export a.11	; 1st bolt at head of Roll of the Dice pitch
+
+; ====== links between surveys making up the France survey: ======
+
+*equate a.8	b.10
+
+*begin a
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "161c to France (Francophobia)"
+*date 1991.07.11 ; trip 1991-161c-3 in logbook
+*team Notes Paul S
+*instrument Mark F
+*team Tape Julian S
+*team Dog Mark D
+*instrument compass:illuminated 11...., clino:illuminated 83....
+; Calibration:	'91 cairn: clino +9, -8.5; compass 91.0 (backsight 221.5)
+
+; ref.:	1991 survey book pp 62-65
+
+*export 1	; top of pointy boulder, also in BtoC survey
+*export 8	; 5th rebelay bolt RH wall
+*export 10	; NW corner at top of block in France (The Dice)
+*export 11	; 1st bolt at head of Roll of the Dice pitch
+
+*calibrate clino 0.25
+*calibrate compass 0 ;not checked - here for safety
+
+1       2        3.64   290     -55.5
+2       3        8.60   005     -85
+4       3        1.61   050     +54
+4       5        4.91   181.5   -33
+5       6        5.45   193     -55.5
+6       7        5.39    -      Down
+7       8       11.89    -      Down
+8       9       12.54    -      Down
+10      9        2.86   261.5   -38.5
+10      11       4.32   232     -22
+
+; LRUDE data 1996.07.17 Wook +AndyA inferred from survey book.
+;*LRUDE
+;1	1	1	0.8	0.2		;top of pointed boulder top of francophobia
+;2	(1.5)	(1.5)	(0.5)	(0.5)	P(015)	;bearing for N.  1st rebelay bolt
+;3	(1.5)	(8)	(0.5)	(0.5)	P(105)	;CM nose of rock, base of 1st hang
+;4	(2)	(8)	(0)	(1)	P(105)	;2nd rebelay bolt RH wall
+;5	(3)	(7)	(1.2)	(0)	P(105)	;3rd rebelay bolt LH wall
+;6	(12)	(9)	(1.4)	(0)	P(105)	;4th rebelay bolt LH wall
+;7	(14)	(3)	(2.3)	(0.1)	P(105)	;deviation bolt LH wall
+;8	(14)	(1)	(0)	(3)	P(105)	;5th rebelay bolt RH wall
+;9	1	10	6	2	P	;CM mark on small boulder at pitch base
+;10	10	4	10	10	P	;top corner of cube boulder France
+;11	4	6	15	5	P	;1st bolt at head of roll of the dice pitch
+;*endLRUDE
+
+*end a
+
+*begin b
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "France: Francophobia/robinson crusoe/FC II/man friday"
+*date 1991.07.11 ; trip 1991-161c-3 in logbook
+*team Notes Paul S
+*instrument Mark F
+*team Tape Julian S
+*instrument compass:illuminated 11...., clino:illuminated 83....
+; Calibration:	'91 cairn: clino +9, -8.5; compass 91.0 (backsight 221.5)
+
+; ref.:	1991 survey book pp 66-68
+
+*export 10	; 5th rebelay bolt RH wall
+
+*calibrate clino 0.25
+
+2       1       10.70   320     -18.5
+2       3        4.75   136.5   +16.5
+3       4        7.00   108     -04
+5       4        6.77   337     -16
+5       6        6.15   122     +23
+7       6       17.93   325     -17
+7       8        3.68   141.5   +01.5
+8       9        2.16   147     +65
+9       10       0.27    -      Up
+
+; LRUDE data 1996.07.17 Wook +AndyA inferred from survey book.
+; all real data apart from 5,9 & 10
+;*LRUDE
+;1	0.25	0.5	0.75	0.2	0.5	;CM on pointed boulder end of passage
+;2	1	1	2.5	0		;top of boulder nr junction with FCII rift
+;3	3	1.5	3	0		;pointed boulder on edge of rift
+;4	2	3	2	0		;top of boulder in continuation
+;5	1.6	0	1.5	1.5		;CM on RH wall
+;6	0	1.5	1.25	1.25		;CM LH wall
+;7	3.5	2	0	1.5		;CM on phreatic roof pendant in centre of passage
+;8	3.5	1	2	0		;Cm large boulder at pitch head
+;9	3	0.1	J1	J1	1.5	;Knot on rebelay
+;10	(14)	(1)	(0)	(3)	P(105)	;5th rebelay bolt RH wall
+;*endLRUDE
+
+*end b
+*end France
+
+*begin DiceRoll
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "France - down Roll of the Dice"
+*date 1991.07.21 ; trip 1991-161c-5 in logbook
+*team Notes Fran
+*instrument Henri
+*instrument compass:illuminated, clino:illuminated
+; Calibration:	'91 cairn: clino +9, -8.5; compass 253(Zinken),42(cairn)
+; ref.:	1991 survey book pp 15-16
+
+*export 1	; 1st bolt at head of Roll of the Dice pitch
+*export 12	; CM on wall on small pointy bit of rock below bolt
+
+*calibrate clino 0.25
+
+1       2        2.54   098     -25
+3       2        9.43   289     +74
+4       3       15.585   -      Up
+5       4        9.69   266     +33
+6       5        9.11   330     +19
+7       6       11.74    -      Up
+8       7        2.28   182     -18
+9       8       15.27   265     +56
+10      9        5.70   320     +28
+11      10       3.49   189     +24
+12      11       2.82   214     +38
+
+; LRUDE data 1996.07.17 Wook +AndyA inferred from survey book.
+; LRUDs converted to NSEW
+;*LRUDE
+;1	12	5	J10	0.4	2.5	;bolt at top of ROTD pitch
+;2	0	5	10	J0.4	4	;point on cube
+;3	3	3	1	4	P	;CM on large boulder close to rebelay down pitch
+;4	2	2	10	2.5	0	;CM 10ft above bottom of pitch
+;5	0	5.6	8	1		;CM LH wall bottom of pitch
+;6	3.6	0.3	5	J1.8	0	;lower of two bolts at top of Deja Vu 
+;7	5	2	3	2	P	;stone on ledge  10m above bottom of pitch
+;8	7	0	5	2	P	;CM on LH wall @ bottom of pitch
+;9	0	4.5	J7	1	(5.5)	(270);pointed rock 1m above floor
+;10	3	0	5	0.5		;CM at end of boulder slope
+;11	0.9	0.5	0.1	1.3		;CM on roof of crawl to next pitch
+;12	1.4	0	1.3	J0.5	5	;CM on wall on small pointy bit of rock below bolt
+;*ENDLRUDE
+
+*end DiceRoll
+
+*begin NotAlgeria
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "France - beyond Deja-Vu (Toothless to Algeria)"
+*date 1992.07.30 ; trip 1992-161c-4 in logbook
+*team Notes Wookey
+*instrument Henri
+*instrument compass:illuminated, clino:illuminated
+; Calibration:	none
+; ref.:	1992 survey book pp 130-131 (plus inserted page after 118 - same plan as Algeria)
+
+*export 1	; CM on flake (down) - further out of pair
+*export 3	; carbide mark on wall above shelf 25m down Toothless
+*export 13	; Rebelay bolt of pitch into Algeria
+
+; Toothless:
+2       1       7.27    293     +77
+3       1       24.79   305     +76
+4       3       3.69    224     +50
+; Frogs' Legs:
+5       4       2.28    311     +62     ; compass read wrong way (4->5)
+5       6       7.43    -       Down
+7       6       3.59    251     +45
+8       7       3.68    320     +46
+8       9       5.09    -       Down
+10      9       0.75    250     +12
+10      11      3.92    -       Down
+12      11      2.78    304     -21
+13      12      26.68   321     +86
+; 13    14      17.5    -       Down    ; approx down to floor
+
+;*LRUDE
+;1	(J4)	(J2)	(1)	(0.1)	P(20)	;CM on flake (down) - further out of pair
+;2	(5)	(2.5)	(0)	(2.5)	P(20)	;CM on LH wall 3m below rebelay bolt
+;3	2.7	0	7	2.5	P	;CM on wall above shelf
+;4	0	1.3	6	2	P	;CM 2m above next shelf
+;5	0.4	0	6	1	P	;nobble by knot of rope (0.4 m below bolt)
+;6	0.5	0	7	0	P	;CM (wall)
+;7	0	1.5	3.5	2	P	;CM above ledge
+;8	1.1	0.3	4	2	P	;CM on edge 
+;9	0.8	0.4	4	1	P	;shelf
+;10 	0.4	0.8	3	0	P	;small CM on edge, rebelay
+;11	0.4	0.4	4	0.3	P	;rock at back of shelf
+;12	1.1	0.1	1.5	3	P	;hinge on green end of deviation crab
+;13	0	15	12	5	P	;rebelay bolt
+;*endLRUDE
+
+*end NotAlgeria

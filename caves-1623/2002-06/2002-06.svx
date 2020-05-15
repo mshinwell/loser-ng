@@ -1,0 +1,37 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Custard
+
+*equate 2002-06.2002-06 p2002-06
+*entrance p2002-06
+
+*begin 2002-06
+
+*title "Custard"
+*date 2006.07.28
+*team Insts Matt Bent
+*team Notes Phil Underpants
+*team Tape both
+*instrument set A=1
+
+
+; Calibration: 204 bivvy: Compass 327/327/150/146/147 Clino: -21/-21/+24/+24/+26
+; ref.: Wallet 2006#07
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 2002-06
+
+*calibrate tape +0.0
+
+*data normal from to compass clino tape
+
+;from	to	compass	clino   tape	; remarks
+2002-06	1	065	-26	2.76
+1	2	-	down	2.84
+
+;stn	L	R	U	D	description
+;2002-06	-	-	-	-	Tag 2002-06
+;1	0.50	0	0.60	2.84	noddle on r wall
+;2	0.30	1.0	2.84	0	point on floor
+*end 2002-06
+

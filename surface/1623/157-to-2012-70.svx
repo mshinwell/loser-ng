@@ -1,0 +1,27 @@
+*equate 157to201270.1 p2012-70
+*equate 157to201270.7 p157
+
+*begin 157to201270
+*export 1 7
+*date 2012.08.07
+; Ref: 2012#12
+*team notes Olly
+*team inst Jenny
+*instrument CUCC Pony #3; our disto
+
+2	1	10.849	260	-16
+2	3	10.214	041	+05
+3	4	10.806	060	+15
+4	5	7.772	019	+06
+5	6	4.803	040	-05
+6	7	2.701	074	-39
+
+; (1)	'70 tag
+;  2	bunde tip
+;  3	cairn tip
+;  4	cairn tip
+;  5	cairn tip
+;  6	rock
+; (7)	p157 tag
+
+*end 157to201270

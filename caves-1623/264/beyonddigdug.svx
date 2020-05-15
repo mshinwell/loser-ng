@@ -1,0 +1,58 @@
+*begin beyonddigdug
+
+; stations linked into other surveys (or likely to)
+*export 42x 16
+
+; Cave: 264 Balconyhoehle
+; Area in cave/QM: Bottom of entrance pitch
+*title "Beyond Dig Dug"
+*date 2015.07.26
+*team Insts Rob Rignall
+*team Notes George Braily
+*instrument blue SAP, Disto
+; Calibration: None
+*ref 2015#29
+
+; Centreline data
+*data normal from  to   tape      compass   clino
+42x	1	2.37	304	-05
+1	2	5.48	007	+15
+2	3	4.14	119	+05
+3	4	4.98	079	+15
+4	5	1.45	317	+09
+5	6	5.5 	086	+15
+6	7	7.57	094	+16
+7	8	2.17	044	+25
+8	9	3.67	097	+22
+1	10	9.04	340	+03
+10	11	5.12	039	+20
+11	12	6.1 	324	+15
+12	13	6.21	184	-07
+11	14	9.78	358	+12
+14	15	4.03	112	+24
+15	16	8.77	344	+03
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	0	1.3	2.2	1.3
+42x	1.1	0	1.3	1.2
+2	0.2	0.6	1.4	0.8
+3	0.8	0	0.2	0.6
+4	1.5	0.4	0.2	0.5
+5	0.4	4.8	0.2	0.6
+6	0.8	0	0.4	0.6
+7	1.2	0.2	0.3	0.2
+8	0	0.6	0.4	0.4
+9	0	0.5	0.2	2.2
+10	0	1.3	0.9	1.1
+11	6.1	0	2.1	1.8
+12	1.9	0	8.6	7.5
+13	0	1.2	5.6	0.4
+14	0.9	4.3	1.2	1.4
+15	2.4	0	1.9	1.4
+16	9.7	1.6	12.1	1.2
+
+
+*end beyonddigdug

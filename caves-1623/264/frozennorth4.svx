@@ -1,0 +1,78 @@
+*begin frozennorth4
+
+; stations linked into other surveys (or likely to)
+*export 1   8
+
+; Cave: Balkonhoehle
+; Area in cave/QM: sandy crawls out of frozennorth
+*title "Frozen North 4"
+*date 2015.08.01
+*team Insts Jacob Podesta
+*team Notes Michael Sargent
+*team Pics Michael Sargent
+*team Tape Jacob Podesta
+*instrument SAP #2 and Wookey's disto
+; Calibration: yes
+*ref 2015#57
+
+; Centreline data
+*data normal from  to   tape      compass   clino
+1	2	0.57	220	-03
+2	3	7.79	137	-02
+3	4	5.32	058	+09
+4	5	4.52	011	-03
+4	6	6.66	140	+26
+7	6	6.56	001	+25
+8	7	9.75	350	+28
+
+
+;-----------
+;recorded station details
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;1	0	0.4	0.3	0.7	;	almost end of survey for frozennorth 2
+;2	0.5	0	0.4	0.6	;	RP RHW junction
+;3	0.9	0	9.4	0.2	;	RP RHW above hole
+;4	0	2.5	4.7	0.4	;	RP junction
+;5	0.8	0.7	0	1.8	;	RP ceiling, choke
+;6	0	1.4	0.9	0.5	;	RP LHW sand
+;7	1.5	0	1.7	0.3	;	RP RHW sand
+;8	1.3	0	3.0	0.5	;	RP RHW top of pitch
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	0	0.4	0.3	0.7	;	almost end of survey for frozennorth 2
+2	0.5	0	0.4	0.6	;	RP RHW junction
+3	0.9	0	9.4	0.2	;	RP RHW above hole
+4	0	2.5	4.7	0.4	;	RP junction
+6	0	1.4	0.9	0.5	;	RP LHW sand
+7	1.5	0	1.7	0.3	;	RP RHW sand
+8	1.3	0	3.0	0.5	;	RP RHW top of pitch
+
+*data passage station left right up down
+4	2.5	0	4.7	0.4	;	RP junction, reversed LR for this tube
+5	0.8	0.7	0	1.8	;	RP ceiling, choke
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    A    frozennorth4.8    oneshotwonder.1-1    massive fucking hole, 3.5s rock drop time; LS, 13/718 the A lead has been pushed
+;QM2    D    frozennorth4.5    -    dodgy looking boulder choke, possibly digable
+
+;------------
+;Cave description
+
+;left juction in frozennorth where there are sandy crawls, comes out on a precarious ledge above a big hole. Traversing around this leads to a medium sized sandy crawl sloping downwards to a huge chamber with a pitch suspected to be the north end of lead 93B from the start of expo2015 in turtlehead.
+
+
+*end frozennorth4

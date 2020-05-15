@@ -1,0 +1,30 @@
+*begin hiltiaplenty
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Balconhohle
+*ref 2014#35
+
+*export 7x 4 
+
+*title "Hilti-a-plenty"
+*date 2014.08.14
+*team Notes David W
+*team Instruments Martin G
+*instrument Comp, Clino, Uni-T disto
+
+;from 	to 	tape 	compass clino
+2	1	8.29	189	-12
+3	2	6.16	138	-03
+4	3	7.81	172	-10
+1	7x	10.10	169	-09
+
+*data passage station left right up down ignoreall
+7x	-	-	-	-	Noel's station at start of traverse
+1	0.1	1.2	0.5	0.8	left wall
+2	0.9	0.1	0.5	0.6	right wall
+3	0.7	0.5	0.2	0.8	right wall top
+4	0.9	0.2	0.2	0.6	right wall
+
+
+*end hiltiaplenty
+

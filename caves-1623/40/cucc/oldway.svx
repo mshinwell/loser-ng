@@ -1,0 +1,63 @@
+;1999.08.03 Becka created for Eishöhle survey
+;6.11.2000 Meßpunkte 4-10 abgehängt wegen Arge Nachmessung, Thilo
+
+*begin oldway
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Eishöhle, 1623/40
+*title "Old Way"
+*date 1999.08.01
+*team Insts Paul Hammond
+*team Notes Becka Lawson
+*team Pics Becka Lawson
+*team Tape Julian Todd
+*instrument Compass #3 ; Clino #3 
+; Calibration:	none
+*ref "1999 Not-KH survey book pp ?"
+
+
+*export 4 10
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+2	1	18.89	199	+14
+2	3	8.86	002	+03
+3	4	14.78	032	+11
+
+;Deaktiviert wegen ARGE Neuvermessung
+;Superceded by ARGE resurvey
+;4	5	22.43	341.5	-18.5
+;*begin
+;*sd compass 100 degrees
+;6	5a	24.06	160	+15.5 ; this leg is way off...
+;*end
+;6	7	21.48	341.5	0
+;8	7	7.86	114.5	-01
+;9	8	13.45	231	-54.5
+;10	9	1.79	289	-07
+
+;station details (original format)
+;name	L	R	U	D	description
+;1	0	2	1	1	red point and red number one on Left wall at top towards ice slope
+;2	5	0	4	0.5	red point on rock near floor and ice flow
+;3	0	3	2	1.5	red point on left wall just before next ice section
+;4	3	8	5	2	red point, top tip of large middle boulder
+;5	0	6	4	2	red dot on left wall of passage, quite high
+;6	2	3	5	2	tip of lump of ice
+;7	4	2	3	4	red tip on boulder on right side passage with red number 7
+;8	0	5	0	2	red spot on left wall opposite pitch
+;9	30	0.5	0	2	top of pitch in main ice chamber, red dot on roof inbetween two bolts
+;10	50	0	0	2	point 15 written in black of original survey (with red station mark) - actually Wooks reckons this is point 26 of the old survey so we've joined to this
+
+
+*data passage station left right up down
+2	5	0	4	0.5	;red point on rock near floor and ice flow
+1	0	2	1	1	;red point and red number one on Left wall at top towards ice slope
+
+*data passage station left right up down
+2	5	0	4	0.5	;red point on rock near floor and ice flow
+3	0	3	2	1.5	;red point on left wall just before next ice section
+4	3	8	5	2	;red point, top tip of large middle boulder
+
+*end oldway
+

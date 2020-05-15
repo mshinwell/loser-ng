@@ -1,0 +1,59 @@
+;> 1623/41
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Stellerweghöhle 1623/41
+
+
+*begin jade
+
+*export 1  ; Rote Punkt'.2' on floor at start of neues glueck
+*export 3  ; Rote Punkt'7.1' on wall just off wdr main route
+*export 12 ; Rote Punkt '8.1' LHW just off wdr main route
+
+
+*title "jade"
+*date 2000.05.28
+;Messteam Wookey und Mark Morgan
+;Zeichnung: Wookey
+;Referenz: Meßbuch Florian Gruner 1
+
+
+*data normal from to tape clino compass
+*sd clino 5 degrees
+
+1	2	27.77	+38	284
+2	3	2.63	+07	205
+2	4	6.62	+22	310
+4	5	10.20	+34	320
+5	6	5.10	+28	087
+6	7	6.78	+06	031
+7	8	0.78	+24	127
+2	9	5.90	-44	036
+9	10	12.70	+19	068
+10	11	9.55	+32	226
+11	12	2.17	+47	161
+12	13	8.55	+21	069
+11	14	11.27	-03	037
+14	15	8.70	-07.5	045
+15	16	7.92	-03	034
+
+
+*data passage station left right up down
+;RP=rote punkt
+1	2.5	2.5	-	0	;'.2' on floor in neues glueck
+2	3	4	1.5	1.7     ;'2.1' on roof
+3	0	7	1.5	1.7	;'7.1' on wall just off wdr main route
+4	2.5	0	1.5	1.7	;RP RHW
+5	0.8	0.2	0.5	0.5	;RP LHW
+6	1	0	0.5	0.8	;RP RHW
+7	0	0.8	4.5	2	;RP LHW
+8	0.8	0	4.5	2	;RP RHW
+9	0.9	1.2	0.8	1.4	;RP am boden
+10	0.5	0	5	1.3	;RP RHW
+11	0.5	1	7	2.5	;RP am block
+12	1.3	0.2	1.9	1.8	;RP '8.1' LHW just off wdr main route
+13	0	0.4	1.1	-	;RP
+14	0	0.5	2	1.1	;RP LHW
+15	0.5	0	0.4	1.6	;RP RHW
+16	0	0.4	0.6	1.6	;RP LHW
+
+*end jade

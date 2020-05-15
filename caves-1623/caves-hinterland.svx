@@ -1,0 +1,18 @@
+; Caves of the Schwarzmooskogelhoehlensystem
+
+;Hinterland caves (on the 1623/1626 border, near GreissKogel)
+; Connections/Verbindung
+
+*include E02/e02
+*include E09/e09
+*include E16/e16
+*include E28/e28
+*include 260/260
+*include 261/261
+*include 262/262
+*include casino/casino
+*include blaubeer/blaubeer
+;*include haldenloch/haldenloch
+*include upside-down/upside-down
+*include 232/232 ;greisskogelschacht
+

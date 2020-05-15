@@ -1,0 +1,63 @@
+*begin pendulum
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle
+*title "Pendulum Pitch"
+*date 1999.08.04
+*team Insts Nick Procter
+*team Notes Julia Bradshaw
+*team Pics Anthony Day
+*team Tape Nick Procter & Julia Bradshaw
+*instrument Compass set #5 ; Clino set #5 
+; Calibration:	at TC Down - Comp: 088 Clino: -06
+;                      Up     Comp: 272 Clino: +5.5
+; ref.:	1999 NotKH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 12 13 17 18 21
+1	2	6.93	-	DOWN
+3	2	2.12	004	-14
+4	2	4.49	162	-23
+4	5	2.41	039	8
+6	4	7.10	278	-32.5
+1	7	2.76	156	51
+8	7	9.39	003	2
+8	9	4.68	178	-41
+10	9	2.95	058	-2
+10	11	3.78	100	-26
+12	11	3.47	221	-10
+13	9	4.79	065	7
+13	14	8.14	209	-20
+15	14	3.62	022	11
+15	16	3.83	245	-12
+16	17	5.14	298	-11
+18	17	5.15	078	27
+1	19	11.82	-	UP
+19	20	5.0	224	62
+21	20	2.89	155	-30
+
+;stn	L	R	U	D	Desc
+;1	-	-	-	-	CM on flake at base of plumb
+;2	0.05	0.61	-	0.41	CM on boulder foot of plumb
+;3	0.28	0.00	4.00	1.49	CM on wall
+;4	0.00	1.90	-	2.02	CM back of wall
+;5	0.15	0.00	-	0.75	CM on wall
+;6	0.05	0.00	-	1.65	CM on back wall
+;7	1.16	1.60	-	1.45	PM on spike
+;8	1.13	0.46	8.00	3.00	CM on top of boulder
+;9	0.00	4.87	4.50	1.90	PM on wall
+;10	2.50	1.95	0.75	5.00	CM on wall
+;11	0.90	0.05	0.80	1.00	PM on spike
+;12	-	-	-	-	spike with red dot (stn 7 on veined survey)
+;13	0.84	1.66	2.00	1.46	CM on spike on boulder
+;14	1.04	1.09	1.75	1.61	PM on flake
+;15	0.00	0.84	0.50	2.02	CM on wall
+;16	0.00	0.78	0.78	1.60	Pm on wall
+;17	1.17	1.13	2.50	1.83	PM on wall
+;18	0.54	0.46	0.46	1.13	CM on nobble
+;19	-	-	-	-	deviation krab when loaded
+;20	-	-	-	-	spike near pitch (PM)
+;21	-	-	-	-	stn 39 on ent survey
+
+*end pendulum

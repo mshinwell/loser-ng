@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.0" creator="GpsPrune v18.6 activityworkshop.net"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+
+	<name>lookfutile3-wpts</name>
+	<desc>lookfutile3-wpts</desc>
+	<wpt lat="47.667202977" lon="13.809649162">
+		<name>D16</name>
+		<desc>03-AUG-18 14:26:44</desc>
+	</wpt>
+	<wpt lat="47.666919334" lon="13.811089257">
+		<ele>1475.498047</ele>
+		<name>D01</name>
+		<desc>03-AUG-18 9:38:45</desc>
+	</wpt>
+	<wpt lat="47.667004662" lon="13.809108948">
+		<ele>1510.105225</ele>
+		<name>D17</name>
+		<desc>03-AUG-18 14:34:51</desc>
+	</wpt>
+	<wpt lat="47.666048873" lon="13.809537767">
+		<ele>1411.570801</ele>
+		<name>D02</name>
+		<desc>03-AUG-18 10:06:34</desc>
+	</wpt>
+	<wpt lat="47.665680489" lon="13.809155887">
+		<ele>1382.491211</ele>
+		<name>D04</name>
+		<desc>03-AUG-18 10:31:16</desc>
+	</wpt>
+	<wpt lat="47.665524837" lon="13.808998726">
+		<ele>1385.375000</ele>
+		<name>D05</name>
+		<desc>03-AUG-18 10:44:58</desc>
+	</wpt>
+	<wpt lat="47.665025610" lon="13.808937455">
+		<ele>1314.958984</ele>
+		<name>D06</name>
+		<desc>03-AUG-18 11:02:52</desc>
+	</wpt>
+	<wpt lat="47.665701108" lon="13.811196210">
+		<ele>1343.317871</ele>
+		<name>D07</name>
+		<desc>03-AUG-18 11:35:53</desc>
+	</wpt>
+	<wpt lat="47.664817823" lon="13.809148259">
+		<ele>1313.757324</ele>
+		<name>D08</name>
+		<desc>03-AUG-18 12:11:56</desc>
+	</wpt>
+	<wpt lat="47.663891707" lon="13.810951123">
+		<ele>1637.238525</ele>
+		<name>D09</name>
+		<desc>03-AUG-18 12:24:41</desc>
+	</wpt>
+	<wpt lat="47.665167348" lon="13.809218248">
+		<ele>1322.168945</ele>
+		<name>D0scree</name>
+		<desc>03-AUG-18 11:54:30</desc>
+	</wpt>
+	<wpt lat="47.665726421" lon="13.808908872">
+		<ele>1341.875732</ele>
+		<name>D11</name>
+		<desc>03-AUG-18 13:01:32</desc>
+	</wpt>
+	<wpt lat="47.665935885" lon="13.809295781">
+		<ele>1408.446533</ele>
+		<name>D12</name>
+		<desc>03-AUG-18 13:15:59</desc>
+	</wpt>
+	<wpt lat="47.666383395" lon="13.808840811">
+		<ele>1432.719727</ele>
+		<name>D13</name>
+		<desc>03-AUG-18 13:29:02</desc>
+	</wpt>
+	<wpt lat="47.667265171" lon="13.809695598">
+		<ele>1497.127686</ele>
+		<name>D14 CAVE</name>
+		<desc>03-AUG-18 13:52:33</desc>
+	</wpt>
+	<wpt lat="47.667284114" lon="13.809591075">
+		<ele>1526.447510</ele>
+		<name>D15 CAVE</name>
+		<desc>03-AUG-18 14:01:58</desc>
+	</wpt>
+</gpx>

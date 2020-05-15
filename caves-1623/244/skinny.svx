@@ -1,0 +1,76 @@
+*begin skinny
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Skinny Festers Cave
+*title "Skinny Festers Cave"
+*date 2003.08.10
+*team Insts Frank
+*team Notes Brain
+*team Tape Frank
+*instrument Compass set #5; Clino set #5
+; ref.:	2003 #33
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 26 21; list all exported survey points
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	1.45	355	-04
+3	2	5.33	022	-10
+4	3	5.43	060	-48
+5	4	3.29	172	0
+6	4	3.06	312	+47
+7	6	1.05	345	0
+7	8	1.10	-	DOWN
+9	8	1.19	302	+19
+10	9	7.07	000	+06
+11	10	4.45	009	-04
+12	11	7.02	354	0
+12	13	5.13	155	-31
+14	13	4.55	-	UP
+15	14	1.52	320	+10
+15	16	6.19	075	-45
+16	17	10.10	-	DOWN
+18	17	6.26	254	-53
+18	19	3.00	057	-02
+20	19	3.65	310	+10
+21	13	7.05	080	-22
+21	22	2.43	233	+15
+23	22	19.00	-	DOWN
+24	23	1.30	090	0
+25	24	9.55	-	DOWN	;Dodgy
+25	26	1.09	349	0
+
+
+;stn	L	R	U	D	Desc
+;1	0.5	0	0.2	0.4	RP right roof
+;2	0.5	0.5	1.0	0.5	RP right roof
+;3	0	0.5	0.8	0.3	RP left wall
+;4	0.5	0.5	0	1.3	RP right roof
+;5	0.3	0	0.5	0.5	RP right wall
+;6	0	1.3	0.5	0.5	RP left wall
+;7	0.2	0.3	0	1.1	RP roof
+;8	0.5	0.5	1.1	0	RP floor
+;9	0	0.5	0.5	0.4	RP left wall
+;10	0.5	0	0.5	1.2	RP right wall
+;11	0.5	0.2	0.4	0.5	RP nose of rock
+;12	0	0.7	0.2	1.5	RP right wall
+;13	0	1.0	4.0	4.55	RP left wall
+;14	0	2.0	4.55	1.60	RP right wall
+;15	1.0	0	lots	1.60	RP right wall
+;16	1.1	0	3.0	10.10	RP pitch head bolt
+;17	0.4	0	0.2	1.4	Stone on floor
+;18	0.6	0	3.0	1.6	RP right wall
+;19	1.0	1.2	0.7	0	RP rock ledge
+;20	0.5	0.7	0.05	0.3	RP flake on ceiling
+;21	3.0	0	5.0	1.8	RP right wall of chamber
+;22	2.0	2.0	19.0	0	rock at base of pitch
+;23	0.5	2.0	9.55	19.00	Rebelay bolt on first pitch
+;24	0.5	2.0	9.55	0	point on ledge
+;25	-	-	-	-	Outside rp on rock
+;26	-	-	-	-	Tag bolt
+
+
+*end skinny

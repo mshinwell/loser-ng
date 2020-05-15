@@ -1,0 +1,37 @@
+*begin bipedalpassage3
+
+*export  1 37
+
+; Cave: Balkonhoehle
+; Area in cave/QM: Beyond Bipedal Traverse, Inaural Lecture Passage
+*title bipedal_passage3
+*date 2015.08.01
+*team Insts Matt
+*team Notes Pete
+*instrument Pete/Fleur DistoX
+; Calibration: none
+*ref 2015#48
+
+*data normal from  to   tape  compass   clino
+2	1	3.46	243	-28
+2	3	13.1	042.5	56
+3	4	0.82	092.2	-35.7
+4	37	1.15	355.3	-63.8
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	2	0	8	3
+2	1	0.3	14	3.8
+3	0.5	0	4	2
+4	0	0.5	0.4	2
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1  A	bipedalpassage3.1	bipedalpassage5.2       Very good and very drafty. This lead was later extended by Micheal Sargent et al. to drop pitch into continuing tight rift. 
+;QM2  C	bipedalpassage3.1	-	Pete also looked here and found two possible ways on, both with very good drafts. The first is a climb down into base of rift on left, and then poke head through gap to see ongoing rift. Bit your head pokes through just needs hammer to knock off nobbles to allow way through.
+;QM3  A bipedalpassage3.1	-	(cont'd from QM2) The second lead is a climb up and straight ahead. Rift is narrow but a promising lead and very drafty, could be major feature/rift.
+
+*end bipedalpassage3

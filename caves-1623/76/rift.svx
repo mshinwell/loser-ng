@@ -1,0 +1,51 @@
+;Eislufthoehle 1623/76
+
+*equate rift.1 riftconn.2
+
+*begin rift
+
+*title "Brave New World Rift"
+*date 2004.08.03
+*team Insts Jenny Black
+*team Notes Olly Betts
+*team Tape Jenny Black
+*instrument Compass 5 ; Clino 3
+; notes in 2004 #47
+
+*export 1 15 16
+
+*calibrate tape +1.00
+
+2	1	3.965	187	-13
+2	3	2.26	326	+19
+3	4	2.96	243	+29
+4	5	7.595	228	+28
+5	6	3.655	232	+12.5
+7	6	3.31	055	+29
+7	8	10.34	226	+30
+8	9	9.71	242	+34.5
+10	9	6.45	045	+17.5
+10	11	7.71	318	-13
+11	12	5.76	286	-01
+13	12	8.91	206	-02
+14	13	4.09	189	+34 ; notes say 289 which is clearly wrong
+14	15	4.82	228	+08.5
+15	16	2.92	240	+10
+
+*end rift
+
+*begin riftconn
+
+*title "Brave New World Rift Connection"
+*date 2005.07.27
+*team Insts Jenny Black
+*team Notes Dave Loeffler
+*team Tape Jenny Black
+*instrument Compass+Clino+Disto Ol+Jenny
+; notes in
+
+*export 1 2
+
+1       2       8.546   296     +57
+
+*end riftconn

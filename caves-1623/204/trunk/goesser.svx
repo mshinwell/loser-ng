@@ -1,0 +1,47 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+
+*begin goesser
+
+*title "The Goesser Streamway"
+*date 2006.07.21
+*team Insts Aaron Curtis
+*team Notes Mark Shinwell
+*team Tape Aaron Curtis
+; Calibration: 150/+25 149/+22 151/+23 332/-22
+; ref.:	2006 #04
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 11
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	2.21	328	+14
+2	3	4.80	015	+12
+3	4	2.07	316	+15
+4	5	5.05	005	+22
+6	5	7.82	057	-50
+7	6	1.36	135	+03
+7	8	6.72	222	+21
+9	8	5.91	145	-74
+10	9	8.58	114	-51
+10	11	8.00	144	+14
+
+*data passage station left right up down ignoreall
+
+1	0	0.6	5	1.5	RP LW (going towards Cave Tree Ch.)
+2	0	0.5	4	1.8	RP LW
+3	0.4	0	5	1.7	RP RW
+4	0	0.6	2	5	RP LW
+5	3	0	-	1.5	numbered RP chamber wall
+6	0	0.6	10	8	RP LW
+7	0.7	0	-	2.5	RP RW
+8	0	2.5	-	1.5	RP chamber wall
+9	-	0	-	-	Y-hang bolt
+10	-	-	-	-	RP wall of Cave Tree Chamber by bolt
+11	-	-	-	-	RP boulder before Cave Tree Chamber
+
+*end goesser
+

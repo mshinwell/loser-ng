@@ -1,0 +1,151 @@
+;AERW 1998.02.27 made order more logical, sorted begin/end, clarified BoltConn2
+;		 by return to original numbering (also removed duplicate of
+;		 this survey from entrance.svx). Hived off various side passages
+;		 whose connection to the main way depended on DeepSleep to the
+;		 DeepSlp.svx file.
+
+; ====== links between surveys in this file: ======
+
+*equate BoltConn2.21	Dream89.21
+*equate Dream.1 	Dream89.1
+
+*begin BoltConn2
+; Cave:	Kaninchenhöhle (1623/161)
+*title "Bolt Connections (Wook'll fix it)"
+*date 1990.08.30 ; trip 1990-161-36 in 1990 logbook
+*team Notes Wookey
+*instrument Tim (&Whinging)
+*instrument Compass 624931, Clino 736380
+; Calibration:	Comp: 16,13,14,14.5,(BZ)250.5 ; Clino: +17.5,+17,-17
+; ref.:	1990 survey book p 94
+
+;extra readings from 3rd (2nd?) rebelay bolt to pitch head bolt
+;required to join Dreamtime to rest of survey
+
+*export 10	; bolt of first rebelay on 3rd pitch (Checkout) in entrance series
+*export 21	; is lower bolt at head of third pitch (Checkout)
+
+  21     4	9.46	018	-19
+   4    10	7.62	178.5	-04.5
+
+*end BoltConn2
+
+*begin Dream89
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Dreamtime - At end of Big Sainsburys"
+*team Mike & Tina
+*date 1989 ; summer 1989 (c late August?) - trip 1989-161-36 in logbook
+*instrument compass 721899, clino 613561
+; Calibration:
+; Ref.:	1989 back of logbook, pp 75-78
+
+*export 1	; nobble of rock in pit before Dreaming Pitch
+*export 9	; bottom of climb, 0.5m off floor, opposite entry to Gnome passage
+*export 20
+*export 21	; is lower bolt at head of third pitch (Checkout)
+
+*calibrate compass 0
+*calibrate clino 0
+;readings grade 5
+
+; Dreamtime - over third pitch
+
+1       2       5.56    331    +44
+3       2       8.15    075    -45
+3       4       2.83    321    +03
+5       4       8.43    037    +05
+5       6       8.88    224    +05
+7       6       6.9     074    -53
+7       8       3.37    035    +11
+9       8       3.03    077    -17
+9       10      7.5     226    +72 ; climb (Eyehole Pitch)
+10      11      2.03    188    +31
+11      12      4.65    212    +57
+13      12      5.46    064    -24
+13      14      6.43    187     00
+15      14      4.26    047    +07
+15      16     12.67    118    +19
+17      16      5.64    017    -06
+17      18      9.36    042    +23
+19      18     18.0     278    -22
+19      20      8.9     185    +22
+21      20     10.71    321    -15
+
+; station details
+; 1	on knobble of rock (carbided)
+; 2	on wall
+; 3	by narrow blocked rift
+; 4	LH wall
+; 5	RH wall by hole (carbide)
+; 6	RH wall bottom of climb
+; 7	RH wall 1.5 off floor
+; 8	LH wall 1.5 off floor
+; 9	Bottom of climb (Eyehole Pitch) 0.5 off floor
+;10	bottom of Eyehole in wall, about 3m off floor
+;11	on rib of rock in chamber
+;12	on rock on rock bridge (over 15m pitch)
+;13	on LH wall
+;14	on RH wall
+;15	on LH wall
+;16	On RH wall just before rift (doesn't go)
+;17	on "small" boulder 0.5 off floor
+;18	in middle (4m from each wall)
+;19	on roof near RH wall
+;20	bolt nearest pitch at end of "traverse line"
+;20 is bolt nearest alternative shopper on dreamtime side (LH wall on way in to dreamtime)
+;21 is lower bolt at head of third pitch
+
+*end Dream89
+
+*begin Dream
+; Cave: Kaninchenhöhle (1623/161)
+*title "Dreamtime - From end of '89 survey down to Bungalow pitch (RH Route)"
+*date 1990.07.19 ; trip 1990-161-17 in logbook
+*team Insts Mike the Animal
+*team Tape Tina
+*team Notes Tina
+*team Bolting Jared!
+*instrument Compass 624931, Clino 736380
+; ref.:	1990 survey book pp 15-18
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; nobble of rock in pit before Dreaming Pitch
+*export 26	; Bungalow lower backup bolt (NOT the lowest (1989 hang) bolt)
+
+
+; same survey sheet as DreamBull, but start numbering again ...
+; very confusing to read as F/T always looks forward, but "B" "F" ...
+; but this is fixed in Survey book, so must mean original notes
+; AERW 1998.02.27 was additionally confusing 'cos all the station numbers
+;                 had been changed. Restored numbering to same as survey book
+
+2      1       3.74   295.0   -31.0 ; up climb to Indian Scoop
+2      3       2.66   179     +25
+4      3       1.74   294     +43
+5      4      11.87   230     +72   ; Dreaming Pitch
+6      5       4.12   248     +03.5
+7      6       3.43    -      Up    ; Hinge Pitch
+7      8       2.00   128     -03
+9      8       3.58   298     +50   ; free climb
+9      10      8.07   062     -03.5 ; traverse over holes
+11     10      7.37   251.5   +20
+11     12      9.04   051.5   +15.5
+13     12      7.62   214     -07
+13     14      3.69   121.5   +23
+15     14     10.40   201.5   -01.5
+15     16      3.40   018     +10.5
+17     16      4.20   295.5   -23.5
+17     18      2.67   151     -11
+; Hole in the roof pitch
+19     18      3.76   214     +47
+20     19     11.46   288     +65
+21     20     16.42    -      Up
+21     22      6.41   123     -37
+23     22      3.63   002.5   -07
+23     24      6.50   207     -18
+25     24      2.66   356     -21
+25     26     11.04   089.5   -02.5
+*end Dream
+

@@ -1,0 +1,61 @@
+;1998.03.31 AERW sorted begin/end, exports, refs, comments, calib clino
+
+*begin siberia
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+*title "Duckpond - Exhaustion - Siberia"
+*date 1994.07.21 ; trip 1994-161-11 in logbook
+*team Insts OLLY
+*team Tape OLLY
+*team Notes ANDYA
+*instrument Tritium illuminated, Compass 741127, Clino 145132
+; Calibration:	2-1 234.5;-7.5  1-2 055.5;+8 1-HILL 251.5
+; ref.:	1994 survey book pp 34-37
+
+*export 1	; point on RHS marked "END" meant to be found again
+*export 2	; carbide mark LH wall actually used
+*export 35	; carbide mark on wall at T-jn between Siberia and two
+		; routes to Vom pitch. Identified with Burblmaze.14, but
+		; sketching makes it look as if it could be a new point
+		; between .14 and .13. However, the latter are only 1.82m
+		; apart, so this must be v.close to Burblmaze.14
+
+; from to tape compass clino
+2       1        5.29   193.5   -16
+2       3        4.60   355.5   +12
+4       3        6.96   223.5   -01
+5       4        1.14   302     -04
+5       6        2.435  084     +14
+7       6        1.78   338     +05
+7       8       10.52   066.5   +17
+8       9        2.68   056     +49
+10      9        2.77   270     -20
+10      11       0.945  030     -06.5
+11      12      10.295  069     +09
+13      12       2.26    -      Down
+14      13       0.68   285     +25
+15      14       3.39    -      Down
+15      16       3.70   105     +30.5
+16      17       1.955  239     +05.5
+18      17       2.83    -      Down
+19      18       2.73   008     +05
+19      20       2.43   091     +20
+21      20      10.55    -      Down
+22      21       1.89   019     -12.5
+23      22       2.40    -      Down
+24      23       2.58   357     -34
+25      24       6.89    -      Down
+26      25       5.93   327     +02
+26      27       9.60   153     -07
+28      27       3.90   312     -02
+29      28       1.50   245     -15
+29      30       5.92   155     +07
+31      30       1.53    -      Down
+32      31       2.43   082     -26
+32      33      10.26   155     +05
+34      33       2.66   006     -02
+34      35       4.99   152     +01
+
+; LRUD data and descriptions on 1994p34 not yet added
+
+*end siberia

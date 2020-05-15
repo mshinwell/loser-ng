@@ -1,0 +1,42 @@
+*begin razor12
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Razor Dance 12"
+*date 2007.07.22
+*team Insts Duncan Collis
+*team Notes Anthony Day
+*instrument set 1
+
+; Calibration at stone bridge: not done due to profound slackness
+
+; ====== stations refindable to link to other surveys: ======
+
+; ref. 2007#20
+
+*export 10 16
+;16 is razor11.13
+
+*calibrate tape +0.00	; +ve if tape was too short, -ve if too long
+
+2	1	17.40	336	-14
+3	2	8.09	286	-31
+4	3	7.26	308	-31.5
+5	4	8.42	208	-23.5
+6	5	4.60	302	-10
+7	6	4.19	294.5	+3
+8	7	5.35	031	-46
+9	8	8.06	322	-2
+10	9	10.32	333	-11.5
+1	11	7.55	331	-11
+11	12	5.32	322	+15
+12	13	5.25	340	+2
+13	14	2.45	349	+2.5
+14	15	5.50	027	+16
+15	16	2.37	101	+28
+
+;station details
+;name	L	R	U	D	description
+
+*end razor12
+

@@ -1,0 +1,94 @@
+;Eislufthoehle 1623/76
+
+*equate 99.7 99pt2.1
+
+*begin 99
+
+*title "99"
+*date 2005.07.24
+*team Insts Jenny Black
+*team Notes Olly Betts
+*team Pics Olly Betts
+*team Tape Jenny Black
+*instrument Compass+Clino Olly+Jenny; Tape Disto
+; notes in 2005 #
+
+*export 7
+1       2       7.678   -       up
+3       2       1.830   188     -50
+3       4       1.193   015     +53
+4       5       1.830   017     +38
+5       6       1.154   117     +53
+6       7       1.242   -       up
+
+*data passage station left right up down
+
+1       0.35    0.35    8.0     0
+2       0.05    0.45    0.3     7.7
+3       0       1.0     0.8     1.6
+4       0.6     0.65    1.0     0.2 ; down is 1.4 / 0.2
+5       0       0.4     0.4     0.2
+6       0.4     0.1     1.3     0.2
+
+*end 99
+
+*begin 99pt2
+
+*title "99 part 2"
+*date 2005.07.27
+*team Insts Jenny Black
+*team Notes Olly Betts
+*team Pics Olly Betts
+*team Tape Jenny Black
+*instrument Compass+Clino Olly+Jenny; Tape Disto
+; notes in 2005 #06
+
+*export 1 3 13
+
+2       1       2.011   300     -37
+2       3       2.799   293     +04
+2       4       2.202   104     +29.5 ; notes say 3 to 4
+5       4       0.953   349     -15
+5       6       1.928   273     +79
+6       7       3.630   108     +74
+7       8       4.878   156     +52.5
+8       9       11.162  079     +62
+
+9       10      3.577   103     +44 ; something wrong with this leg
+11      10      2.791   054.5   -19 ; and this
+11      12      5.505   167     +68
+12      13      1.568   031.5   +18
+
+*data passage station left right up down ignoreall
+
+3	0.6	0.05	1.3	0.7	nobble ??????
+4	0	0.5	0.6	0.4
+5	0.2	0.3	0.3	0.45
+6	0	1.9	0	2.3
+7	0.8	0	1.4	-
+8	0.7	1.0	1.5	1.2
+9	0.25	0.6	0.6	0.3
+10	0	1	0.7	1.0
+11	0	0.5	0.5	0.9
+
+*end 99pt2
+
+*equate 99pt2.3 99conn.2 ; check with notes
+
+*begin 99conn
+*date 2005.08.10
+*team Insts Jenny Black
+*team Notes Olly Betts
+*team Pics Olly Betts
+*team Disto Jenny Black
+*instrument Compass+Clino Olly+Jenny; Tape Disto
+; notes in 2005 #45
+
+*export 1 2
+
+1	2	1.642	116	-27.5
+
+;1 = brave.18
+;2 = top point of cairn in narrow rift to 99
+
+*end 99conn

@@ -1,0 +1,18 @@
+*begin 2018-ntu-02
+*date 2018.08.09
+;team: Natalie Uomini exploration
+;team: Paul Fox sketching
+; ref.:	2018 #43
+;instrument: none
+*calibrate declination 3.71° E  ± 0.35° taken from NOAA website
+;warning: all of the below numbers are totally made up from my head! We did not measure anything except the depth of the pitch is 4.6m. We don't even have a compass bearing. Use with caution!!
+
+*data	from	to	tape	compass	clino
+1	2	4.6	0	-90	;vertical pitch
+2	3	2.0	0	0	;horizontal passage at bottom of pitch
+*data	station	left	right	up	down
+1	0.5	0.5	0.5	0.5	;entrance
+2	1	1	4.6	0	;bottom of pitch
+3	0.2	0.2	0.2	0	;boulder choke at end
+
+*End 2018-ntu-02

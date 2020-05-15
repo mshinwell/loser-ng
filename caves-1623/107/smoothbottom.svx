@@ -1,0 +1,94 @@
+; Smooth Sandy Bottom
+*begin smoothbottom
+*export china4 20 21 22 7 8 9
+*team notes Matt
+*team tape Joe
+*team instruments Luke
+
+*date 2015.07.11
+
+;the distox2 readings don;t agree very well with the analogue
+;insts used by novices - lets assume they did a mediocre job
+; compass error
+; 95.44% of readings are within 2.5 degrees (2 S.D.)
+*sd bearing backbearing   1.25 degrees
+; clino error
+; 95.44% of readings are within 2.5 degrees (2 S.D.)
+*sd gradient backgradient 1.25 degrees
+
+*data normal from to tape compass clino
+
+china4	1	11.77	245	-28
+1	2	5.58	-	down
+2	3	2.08	250	-30
+3	4	7.12	-	down
+4	5	6.24	283	-69
+5	6	4.85	329	-55
+6	7	4.11	274	-70
+7	8	4.13	29	-6
+8	9	3.17	345	+5
+9	10	4.0	349	-9
+10	11	3.11	270	-70
+11	12	1.24	338	-2
+12	13	2.21	278	-8
+13	14	2.99	315	-25
+14	15	2.01	303	-3
+15	16	1.49	005	+30
+16	17	1.32	282	-4
+17	18	3.29	306	+5
+19	18	1.15	210	+4
+19	20	2.27	312	+3
+20	21	2.14	37	+10
+21	22	1.56	009	-15
+
+*end smoothbottom
+
+*equate smoothbottom.20 smoothbottom2.1
+*equate smoothbottom.21 smoothbottom2.2
+*equate smoothbottom.22 smoothbottom2.3
+
+*equate smoothbottom.7 smoothbottom2.19
+*equate smoothbottom.8 smoothbottom2.20
+*equate smoothbottom.9 smoothbottom2.21
+
+*begin smoothbottom2
+*export 19 20 21 1 2 3
+*team notes Wookey
+*team insts Matt
+; Wookey's distoX2
+
+*date 2015.08.01
+
+*data normal from to tape compass clino
+
+1    2    1.945	  037.8    +04.5
+2    3	  1.357	  000.9	   -15.0
+3    4	  1.801	  305.4	   -13.8
+4    5	  0.564	  216.5	   +18.3
+5    6	  3.424	  314.8	   -05.4
+6    7	  2.565	  021.3	   -00.2
+7    8	  2.833	  087.5	   +25.9
+8    9	  1.588	  058.2	   +39.9
+9    10	  3.288	  309.8	   -02.4
+10   11	  2.295	  031.4	   +20.0
+11   12	  0.802	  241.8	   -26.5
+12   13	  4.709	  357.7	   -03.7
+13   14	  1.266	  064.0	   +10.3
+14   15	  1.985	  306.9	   +06.6
+15   16	  1.741	  009.8	   +11.3
+16   17	  3.687	  058.5	   +21.2
+17   18	  1.510	  009.9	   -09.2
+18   -	  5.5	  079.6	   +74.7
+
+19   20	  3.932	  026.4	   -12.8
+20   21	  3.000	  341.9	   +05.4
+21   22	  3.489	  006.6	   +50.1
+22   23	  6.515	  149.5	   +34.6
+24   23	  3.674	  165.0	   +11.3
+24   25	  6.891	  123.8	   +08.3
+25   26	  4.723	  130.3	   +36.6
+23   27	  2.492	  193.4	   -50.3
+27   28	  3.504	  179.6	   -10.5
+19   28   4.865	  109.6	   +41.4
+
+*end smoothbottom2

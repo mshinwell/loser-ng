@@ -1,0 +1,115 @@
+; 1998.02.27 AERW split to pt1,pt2,pt3 and restore numbering from survey book
+;		  sort begin/end, add comments, refs., exports
+
+*begin FBS
+
+*export pt1.S	; RH wall of Yapate before traverse over Gob, point marked "S"
+
+*equate pt1.23	pt2.0
+*equate pt2.S3	pt3.0
+
+*begin pt1
+
+; Cave:	Kaninchenhöhle
+*title "Flat Battery series off Yapate Inlet"
+*date 1990.07.18 ; trip 1990-161-13 in logbook
+*team Notes William
+*team Insts Adam
+*team Tape Mark D
+*instrument Compass 624931,  Clino 736380
+; Calibration:	None
+; ref.:	1990 survey book pp 11-13
+
+*export S	; RH wall of Yapate before traverse over Gob, point marked "S"
+*export 23	; "S" on R wall 2m up, shortly before 1st bolt of pitch
+
+*calibrate compass 0
+*calibrate clino 0
+;readings grade 5
+
+S       01     11.52   193.5  -12.0 ; yapate.10 = carbide 'S' at end of Yapate
+02      01      9.83   299.0  -13.5
+02      03     10.93   034.5   02.0
+04      03      2.66   198.5   49.0
+04      05      5.90   087.0  -19.5
+06      05      1.78   202.0   12.0
+06      07      3.59   317.5   45.0
+08      07      1.60   190.5  -23.0
+08      09      5.55   055.5  -20.5
+09      10     25.08     -     down
+11      10      3.15   034.5   06.0
+11      12      3.83   271.5  -37.5
+12      13      2.07   162.0  -38.0
+13      14      6.17     -     down
+15      14      2.15   314.5  -39.0
+15      16      3.82   268.0  -17.5
+16      17      1.06   204.5  -40.5
+17      18     13.17     -     down
+19      18      5.00   066.0  -12.5
+19      20      7.93     -     down
+21      20      4.63   082.0  -10.5
+21      22     41.84     -     down
+22      23      5.07   344.5   26.5
+
+*end pt1
+
+*begin pt2
+
+; Cave:	Kaninchenhöhle
+*title "Flat Battery series - Bottom of pitches (to the left)"
+*date 1990.07.21 ; trip 1990-161-20 in logbook
+*team Notes William
+*instrument Mark D
+*instrument Compass 543693, Clino 726974
+; Calibration : (161 Cairns) Comp:020, Clino:+17,-17.5
+; ref.:	1990 survey book pp 37-38
+
+*export 0	; "S" on R wall 2m up, shortly before 1st bolt of pitch
+*export S3	; prominent rock, middle of chamber below FX2 pitch
+
+*calibrate compass 0
+*calibrate clino -0.25
+1      0     16.90   119.0   77.5
+1      2      2.76   122.0   04.5
+S3     2      8.25   288.0   64.0
+S3     3a    10.48   358.5  -04.0
+3b     3a     8.76    54.5  -04.0
+
+*end pt2
+
+*begin pt3
+
+; Cave:	Kaninchenhöhle
+*title "Flat Battery series - Phreatic level at -400m"
+*date 1990.07.25 ; trip 1990-161-27 in logbook (which says 26th)
+*team Inst Jeremy
+*team Tape Mike TA
+*team Book Adam
+*instrument Compass 543693, Clino 726974
+; Calibration:	016; +17, -18
+; ref.:	1990 survey book pp 45-50
+
+*export 0	; prominent rock, middle of chamber below FX2 pitch
+*export 1	; LH wall, start of Electrolyte Level (nearest QM 90-12)
+
+*calibrate compass 0
+*calibrate clino -0.5
+0      L1	 2.10	035.0	-44.0 ; left hand bit to Ariadne's Aven
+L2     L1	 9.39	165.0	+03.5
+0      1	 4.43	141.5	+15.0 ; right hand bit
+2      1	 9.33	024.5	+15.5
+2      3	 7.50	118.0	-29.0
+4      3	 9.60	008.5	-17.0
+4      5	10.58	117.0	+14.5
+6      5	 7.54	218.5	-08.5
+6      7	 9.34	065.5	-42.0
+8      7	 5.21	043.5	-25.5
+8      9	 5.16	059.5	 36.5
+10     9	 2.91	291.0	-06.0
+10     11	10.00	028.0	+39.0
+12     11	 2.88	110.0	+11.0
+12     13	 2.65	010.0	-47.0
+13     14	 8.30	-	down
+
+*end pt3
+*end FBS

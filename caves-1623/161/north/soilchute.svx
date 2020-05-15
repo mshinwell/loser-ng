@@ -1,0 +1,40 @@
+*begin soilchute
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Kaninchenhöhle, 1623/161
+
+*title "Soil chute"
+*date 2012.08.20
+*team Insts "Becka"
+*team Notes "Dour"
+*instrument "Becka's distox"
+; Calibration: none
+; ref.: 2012#36
+
+; THIS DOESN'T CONNECT IN PROPERLY AND DOESN'T TIE THE OXBOW TOGETHER AS EXPECTED
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+
+1 	2	4.57	145	-22
+3	2	03.77	341	-01
+4	3	1.92	348	05
+4	5	6.69	164	-37
+5	6	12.74	84	-45
+
+1	7	4.54	214	-10
+8	7	7.12	105	-04
+
+
+*data passage station left right up down ignoreall
+1   -   -   -   -   pm from prev survey point
+2   1.0 1.8 0.0 2.1 pm roof
+3   1.3 2.5 0.3 0.2 pm ceiling
+4   1.2 1.3 0.3 0.2 pm ceiling
+5   2.0 3.0 3.0 1.0 pm top of slope
+6   5.0 0.0 3.0 1.0 numbered pm rh wall
+7   -   -   -   -   pm right hand wall
+8   0.0 1.5 1.0 1.0 pm at jn
+
+*end soilchute

@@ -1,0 +1,7 @@
+﻿<!-- Edit this file to display a message while your unit is powering on                -->
+<!-- Allow one full power cycle after editing for your message to be updated           -->
+
+<!-- Set the display number to the minimum number of seconds your message is displayed -->
+<display = 0>
+
+<!-- Type your message on the next line -->

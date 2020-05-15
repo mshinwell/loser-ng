@@ -1,0 +1,230 @@
+*begin flatulence
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Hauchhoehle (2000/09)
+*title "Hauchhoehle part 3 - Flatulence Series"
+*date 2004.07.23
+*team Insts Peter Clifton
+*team Notes Dave Loeffler
+*team Pics Dave Loeffler
+*team Tape Both and Olly Madge
+*instrument Set #2
+*instrument Tape yellow Stanley
+; Calibration: One way 157/157/154, +24/+23/+23; other way 334/335/333, -22/-22/-22
+; ref.:	2004#15
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 5 9 19 24 37 40  48 53 54 59
+
+*calibrate tape +0.065	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+*begin
+*flags duplicate
+1	2	3.41	064	-59
+2	3	9.89	-	DOWN
+4	3	0.92	345	-15
+4	5	5.96	61	0
+*end
+6	5	8.82	212	-23
+6	7	10.70	46	+31
+8	7	4.96	196	-30
+9	8	3.96	212	+23	; reversed in notes
+*begin
+*flags duplicate
+10	5	4.645	214	-12
+10	11	6.48	096	-55	; compass barely legible
+*end
+12	11	4.52	267	+31
+13	12	7.00	228	+03
+14	15	1.69	-	DOWN
+
+*calibrate tape +0.085 			; end dropped off mid-survey!
+
+16	13	1.09	-	DOWN
+16	15	0.98	011	+49
+14	17	2.22	030	+09
+18	17	3.55	248	-06
+19	18	5.43	245	+51
+19	20	7.58	345	+54
+20	21	3.92	290	+16
+22	21	3.56	115	+18
+22	23	3.47	044	+18
+23	24	14.62	349	+11	; Suspicious compass reading - great timing Pete
+25	24	8.43	264	-09
+26	25	1.07	338	-39
+26	27	2.79	100	+27
+27	28	1.56	142	+21
+29	28	1.02	240	-20	; XXX Compass and clino estimated
+30	29	2.28	326	-44
+31	30	4.10	279	-09
+32	31	6.50	294	-01
+33	32	1.65	012	+11
+33	34	3.48	152	+06
+34	35	5.01	130	+16
+35	36	2.83	199	-41
+36	37	3.64	122	-19
+38	37	3.99	226	-32
+38	39	3.50	062	+14
+40	39	5.34	294	-10
+40	41	4.30	071	+06
+42	41	3.92	200	-41
+43	42	2.17	137	-32
+44	31	1.35	317	-32
+45	44	5.28	194	+78
+46	44	3.60	186	-22
+46	47	3.54	297	-24
+48	47	6.56	188	-04
+49	46	7.92	185	-15
+50	49	6.12	223	-13
+50	51	7.57	015	+01
+51	52	10.88	334	+04
+53	52	11.03	199	-14
+54	11	2.32	231	+15
+*begin
+*flags duplicate
+55	1	3.37	090	-13
+55	56	5.55	207	-24
+56	57	3.17	198	-22
+57	58	20.59	242	+29
+58	59	1.52	007	+27
+*end
+
+
+;station details
+;name	L	R	U	D	description
+; L-R going inwards
+;1	1.7	0	4.0	lots	Pitch head bolt
+;2	0.5	0	1.3	lots	Deviation bolt
+;3	1.0	1.0	lots	0	Pebble on floor
+;4	2.0	0.7	lots	0.8	RP RHW
+;5	1.5	0	3.0	1.0	RP RHW numbered
+;6	0	0.2	infinity	0.7	RP nose LHW (below 234b ent aven)
+;7	1.0	0	3.5	1.0	RP RHW
+;8	0	0.8	0.7	2.0	RP LHW
+;9	0	1.2	0.4	3.0	RP LHW above hole
+;10	0.8	0.4	2.5	-	RP LHW on flake
+;11	0.5	0	4	0.2	RP RHW
+;12	0.3	0.3	0	1.5	RP roof flake
+;13	?	?	?	?	RP boulder in tedious rift (too tedious for LRUD it seems!)
+;14	?	?	?	?	Pt high on RHW
+;15	?	?	?	?	Pt low on LHW
+;16	?	?	?	?	Pt on RHW
+;17	0	0.6	lots	0	RP LHW
+;18	1.0	0	0	4.0	RP RH roof flake
+;19	?	0	?10	1.8	RP RHW
+;20	lots	lots	lots	4.0	RP nose of crumbly boulder
+;21	0	1.2	lots	0.6	RP cross LHW under hole in ceiling
+;22	1.2	1.0	0	0.5	RP nobble ceiling on RH side of passage
+;23	0.9	0	0.2	0.8	RP RHW
+;24	?	?	?	?	RP on wall at T-junction in ~3m dia chamber
+;25	0	0.4	0	1.0	Nobble LHW
+;26	0.20	0.15	1.5	1.7	Nose RHW
+;27	0	0.5	1.2	lots	Nose LHW
+;28	0.5	0	1.0	0.3	Pt RHW
+;29	0	0.5	1.0	1.0	Pt LHW (L-R transposed from notes)
+;30	0.4	0	0	1.5	Pt RHW
+;31	0	0.60	2.0	0.20	RP LHW numbered
+;32	0	1.5	1.5	0.6	RP LHW
+;33	0.9	2.0	0	0.6	Stal tip
+;34	0.8	0	1.8	0	Pt nose rock RHW
+;35	0.5	5	0.4	0.4	Far wall at bend
+;36	0.9	0	0	1.30	Pt on roof arch RH side
+;37	1.4	0	1.0	0.3	Pt on RH wall of L side passage
+;38	0	1.5	0.5	1	Nodule on LH wall/roof
+;39	0.10	1.3	1.5	0	Pt on dodgy boulder
+;40	1.5	0	0.5	0.5	Protrusion from chamber ceiling near RHW
+;41	0.50	0	1.0	0.5	Nobble on RHW
+;42	1.5	2	1.5	0	Point on edge of large tilted slab
+;43	?	?	?	?	Fin of rock at window into large chamber
+;44	?	?	?	?	RP on ceiling
+;45	1	1	lots	0.5	Nobble on floor boulder
+;46	1.0	0.5	0	2.0	RP ceiling
+;47	0	0.2	1.2	0.6	RP LHW
+;48	-	-	-	-	RP on ceiling, numbered, in aven chamber
+;49	0	1.0	1.3	0.8	RP LHW
+;50	1.0	0	0.4	1.0	Pt RHW near roof
+;51	1.0	0.8	1.2	0	RP boulder
+;52	0	1.2	0.2	lots	RP LHW over too-tight hole in floor
+;53	1.5	2.0	lots	0	Pt on boulder
+;54	-	-	-	-	Dour's end-of-survey marker (=trunk.11)
+;55	-	-	-	-	Cairn
+;56	-	-	-	-	RP ceiling
+;57	-	-	-	-	RP RHW near floor
+;58	-	-	-	-	Middle of circle of lichen
+;59	-	-	-	-	234a tag bolt
+
+*data passage station left right up down ignoreall
+
+1	1.7	0	4.0	3
+2	0.5	0	1.3	12	
+3	1.0	1.0	12	0
+4	2.0	0.7	12	0.8	
+5	1.5	0	3.0	1.0
+6	0	0.2	4.0	0.7
+7	1.0	0	3.5	1.0
+8	0	0.8	0.7	2.0
+9	0	1.2	0.4	3.0
+
+*data passage station left right up down ignoreall
+5	1.5	0	3.0	1.0
+10	0.8	0.4	2.5	-
+11	0.5	0	4	0.2
+12	0.3	0.3	0	1.5
+17	0	0.6	3	3.5
+18	1.0	0	0	4.0
+19	-	0	10	1.8
+20	-	-	-	4.0	
+21	0	1.2	-	0.6
+22	1.2	1.0	0	0.5
+23	0.9	0	0.2	0.8
+24	-	-	-	-	RP on wall at T-junction in ~3m dia chamber
+25	0	0.4	0	1.0
+26	0.20	0.15	1.5	1.7
+27	0	0.5	1.2	-	Nose LHW
+28	0.5	0	1.0	0.3
+29	0	0.5	1.0	1.0
+30	0.4	0	0	1.5
+31	0	0.60	2.0	0.20
+32	0	1.5	1.5	0.6	
+33	0.9	2.0	0	0.6	
+34	0.8	0	1.8	0	
+35	0.5	5	0.4	0.4
+36	0.9	0	0	1.30
+37	1.4	0	1.0	0.3
+38	0	1.5	0.5	1
+39	0.10	1.3	1.5	0
+40	1.5	0	0.5	0.5
+41	0.50	0	1.0	0.5
+42	1.5	2	1.5	0
+43	-	-	-	-
+
+*data passage station left right up down ignoreall
+44	-	-	-	-	
+45	1	1	2.0	0.5
+
+*data passage station left right up down ignoreall
+44	-	-	-	-
+46	1.0	0.5	0	2.0
+49	0	1.0	1.3	0.8
+50	1.0	0	0.4	1.0
+51	1.0	0.8	1.2	0
+52	0	1.2	0.2	-
+53	1.5	2.0	-	0
+
+*data passage station left right up down ignoreall
+46	1.0	0.5	0	2.0
+47	0	0.2	1.2	0.6
+48	-	-	-	-	
+
+;54	-	-	-	-	Dour's end-of-survey marker (=trunk.11)
+;55	-	-	-	-	Cairn
+;56	-	-	-	-	RP ceiling
+;57	-	-	-	-	RP RHW near floor
+;58	-	-	-	-	Middle of circle of lichen
+;59	-	-	-	-	234a tag bolt
+
+
+
+*end flatulence

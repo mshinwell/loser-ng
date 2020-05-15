@@ -1,0 +1,64 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Weiße Warzen Schacht 1623/143
+
+*begin flammen
+*title "Gänge in Flammen"
+
+*export 0
+
+; -1- 
+; Messteam: Aiko, Kyra, Thomas
+; Zeichner: Thomas
+; Referenz: SMK 8
+*date 2009.08.14
+
+*data normal from to length clino compass
+0	1	2.76	28	82
+1	2	10.23	3	92
+2	3	9.96	14	122
+
+*data passage station left right up down
+0	8	2	10	3.5
+1	1.5	0	6	1.5
+2	1	0.6	2	0
+3	0	0.7	0.5	1.5
+
+
+; -2- Seitencanyon Hades
+; Messteam: Aiko, Kyra, Schnitzel
+; Zeichner: 
+; Referenz: SMK 8
+*date 2010.08.08
+
+*data normal from to length compass clino
+3	4	8.42	135	-24
+4	5	7.31	183	4
+5	6	7.69	149	-2
+6	7	3.45	191	6
+7	8	5.75	110	44
+8	9	6.15	190	34
+9	10	3.52	155	29
+10	11	4.11	-	DOWN
+11	12	2.67	81	24
+12	13	6.82	155	-38
+13	14	2.30	58	-3
+14	15	2.07	127	-16
+15	16	5.06	29	-16
+
+*data passage station left right up down
+3	0	0.7	0.5	1.5
+4	0	0.3	3	1.5
+5	1.2	0	0.6	0.7
+6	0.1	1	6	0.6
+7	1.5	0	5	1
+8	0	1.8	6	5
+9	4	1	4	1
+10	4	1	8	3.5
+11	3	1	7.5	1.2
+12	0	2	1	1.7
+13	3	0	10	1.5
+14	0	1	5	4
+15	1	0	4	3	
+16	0	0.8	10	1.5
+
+*end flammen

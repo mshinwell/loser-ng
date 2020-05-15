@@ -1,0 +1,227 @@
+*begin alice
+
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Stellerweghöhle 1623/41
+; von Bus.17.9 weiter bis zu 'Alice im Wunderland' - blödes Eck - der Turm der unsichtbaren Universität
+; 4 Vermessungen
+
+*title "Alice im Wunderland"
+
+*export 9
+*export a7
+*export 14_2
+*export 14_1
+
+
+;-1-
+; Messteam: Florian Gruner, Kasia Zenker, Robert Eckardt, Robert Winkler
+; Zeichner: Kasia Zenker
+; Referenz: Messbuch Florian Gruner 1
+
+*date 1998.06.02
+
+*units compass grads
+*units clino grads
+
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+14      15      10.05   -4      15
+15      16      7.73    19      378
+16      17      8.07    -2      14
+17      18      3.35    -18     80
+18      19      4.29    -21     15
+19      20      9.62    -5      29
+20      21      2.93    -57     86
+21      22      4.45    -33     51
+22      23      12.87   5       82
+23      24      2.30    10      117
+24      25      2.78    6       62
+25      26      3.81    20      79
+26      27      2.75    -4      66		
+
+
+;-2-
+; Messteam: Jens Römer, Saskia Bartmann, David Cole, Robert Winkler
+; Zeichner: Jens Römer
+; Referenz: Messbuch Jens Römer
+
+*date 2001.06.02
+
+
+*units compass degrees
+*units clino degrees
+
+*data normal from to length clino compass
+27	28	2.55	-26	34
+28	29	4	0	357
+29	30	8.3	-90	0
+30	31	5	0	356
+31	32	19.75	-90	0
+32	33	16.05	-90	0
+33	A1	1.5	40	350	; Meßzug ist geschätzt und muß noch gemessen werden
+A1	A2	7.2	27	263
+A2	A3	6.18	5	45
+A3	A4	3.8	-71	27
+A4	A5	9	-80	243
+A5	A6	17.7	-90	0
+A6	A7	6.45	2	10 	; A7=MP24 Tony Second Höhle
+
+
+;-3-
+; Messteam: Ilja Anders, Uwe Kirsamer, Robert Winkler
+; Zeichner: keine Zeichnung da Nachvermessung
+; Referenz fehlt
+
+*date 2005.08.10
+
+14_2	9	6.49	62	191
+9	10	5.67	17	48
+10	11	5.34	-9	17
+11	12	3.25	6	342
+12	13	2.04	15	334
+13	14	4.46	-90	0
+14	14_1	3.93	12	216
+14_1	14_2	7.10	-28	186
+
+*data passage station left right up down
+9	3.2	4.5	6	0
+10	2	0	1.8	1.4
+11	0.5	0.1	1.3	0
+12	1.4	0.3	0.2	0.8
+13	0.6	0	1.3	5.2
+14	1.5	0.3	2.2	7.5
+15	1.4	0.3	2	3.3
+16	0	1.4	4.6	1
+17	0	1.6	1.5	2.6
+18	1.5	0	0.5	2.2
+19	1	1	0.9	1.6
+20	0.2	0.3	1	4
+21	0.7	0.6	3.6	1.5
+22	0.9	0.9	4.0	1.7
+23	2.3	0.7	1.8	1.9
+24	0.3	0	3.2	1.7
+25	0.5	2	25	1 
+
+28	0	10	5	2
+29	1	4	10	40
+30	0	10	18	32
+31	0	4	18	32
+32	0	3	35	15
+33	1.5	1	50	0
+A1	2.9	0	30	1.8
+A2	1.8	1.5	30	0
+A3	0	1	30	2
+A4	0	2	1	2
+A5	4	12	9	17.7
+A6	3	0	30	1
+;A7=MP24 in Tony's Second Höhle
+
+
+;-4-
+; Messteam: Uli Schütz, Robert Winkler, Wieland Scheuerle
+; Zeichner: Wieland
+; Referenz: SMK 12
+
+*date 2013.08.05
+
+*units compass degrees
+*units clino degrees
+
+*data normal from to length clino compass
+19	19_1	2.99	9	345
+19_1	19_2	2.74	90	0
+19_2	19_3	1.78	45	295
+
+19_3	19_3_1	3.37	5	240
+19_3_1	19_3_2	6.39	16	199
+19_3_2	19_3_3	4.08	40	232
+19_3_3	19_3_4	5.50	42	339
+
+19_3_1	19_3_1a	6.84	65	238
+19_3_1a	19_3_1b	2.55	30	195
+19_3_1b	19_3_4	2.53	13	264
+
+19_3	19_4	3.18	6	43
+19_4	19_5	1.74	90	0
+19_5	19_6	7.22	1	70
+19_6	19_7	5.62	-30	41
+19_7	19_8	3.14	-24	90
+19_8	19_9	9.62	-56	48
+
+*begin
+*flags splay
+19_9	22	9.87	3	252
+*end
+
+21	21_1	3.28	-42	61
+21_1	21_2	3.60	-29	156
+21_2	21_3	7.10	-47	132
+21_3	21_4	6.40	-67	70
+21_4	21_5	8.18	-45	132
+21_5	21_6	3.48	-57	81
+21_6	21_7	4.53	-18	84
+21_7	21_8	4.67	-13	133
+
+*data passage station left right up down
+19	1	1	0.5	2
+19_1	0.3	4	2.74	0
+19_2	0	1.5	1	2.74
+19_3	1	0.8	10	9.5
+
+*data passage station left right up down
+19_3		1	0.8	10	9.5
+19_3_1	0.5	0.3	6	0.7
+19_3_2	0.3	1	3	2
+19_3_3	0	2.5	6	0
+19_3_4	1	3	1.5	1.8
+
+*data passage station left right up down
+19_3_1	0.5	0.3	6	0.7
+19_3_1a	1.2	0	0.5	3
+19_3_1b	0	1.5	1	1.5
+19_3_4	1.5	0	1.5	1.8
+
+
+*data passage station left right up down
+19_3		1	0.8	10	9.5
+19_4		0.2	0.3	1.74	1.0
+19_5		0.4	0.4	0	2.74
+19_6		0.8	0.3	6	3
+19_7		0	1	2.5	1.5
+19_8		1	0	2	8
+19_9		2	0.5	15	1.6
+22		1	0.5	6	1
+
+*data passage station left right up down
+21		0.7	0.6	3.6	1.5
+21_1		2.5	1.5	10	8
+21_2		0	0.5	2	7
+21_3		1	0	1	8
+21_4		0	3	8	1.6
+21_5		0.4	0	7	4
+21_6		1.5	0	8	1.5
+21_8		2	0	2.5	1.7
+
+
+;-5-
+; Messteam: Uli Schütz, Wieland Scheuerle, Andreas Länge,Robert Winkler Römer
+; Zeichner: Robert
+; Referenz: SMK 12
+
+*date 2014.08.09
+*units compass degrees
+*units clino degrees
+
+*data normal from to length clino compass
+21_8		21_9		2.27		-53.0		6.6
+21_9		21_10		7.17		-55.7		119.2
+21_10		21_11		12.39		-70.1		68.1
+
+*data passage station left right up down
+21_8		2	0	2.5	1.7
+21_9		0.2	1	4	7
+21_10		0.5	0.2	7	1.5
+21_11		1	1	1	1	; keine Angaben
+
+*end alice

@@ -1,0 +1,45 @@
+*begin sauron
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Kaninchenhöhle, 1623/161
+
+*title "No sign of Sauron"
+*date 2012.08.16
+*team Insts "Rob Adams"
+*team Notes "Anthony Day"
+*team Tape "Anthony Day"
+*instrument "compass C, clino 3"
+; Calibration: none
+; ref.: 2012#16
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 18
+
+01	02	27.66	-	down
+03	02	04.89	359	+01
+04	03	03.25	352	+35
+05	04	02.25	029	+24
+06	05	07.71	351	+34
+01	07	03.96	162	+56
+07	08	05.49	158	-13
+09	08	06.51	358	+29
+09	18	01.01	061	+13
+
+;*data passage station north south east west ignoreall
+;01	2.5	3.5	5.0	0.5	deviation krab
+
+*data passage station left right up down ignoreall
+02	3.2	0.0	-	0.0	PM foot of plumb
+03	0.7	0.6	-	1.0	PM nodger by rift
+04	0.5	0.6	-	3.1	PM LH wall
+05	1.7	0.6	-	2.5	PM RH wall
+06	1.4	0.0	3.0	1.0	numbered PM RH wall
+
+*data passage station left right up down ignoreall
+07	2.5	0.7	2.5	-	numbered PM by LH y-hang bolt
+08	2.2	0.8	3.5	0.8	PM on thread
+09	1.0	1.0	1.5	0.0	PM bottom of slope
+18	-	-	-	-	numbered station from previous survey (mordor)
+
+*end sauron

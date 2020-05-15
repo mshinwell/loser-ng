@@ -1,0 +1,58 @@
+*begin larchenrepublic
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Kaninchenhöhle, 1623/161
+
+*title "Laerchen Republic"
+*date 2012.08.20
+*team Insts "Becka Lawson"
+*team Notes "Anthony Day"
+*instrument "Becka's distox"
+; Calibration: none
+; ref.: 2012#36
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 40 41x
+
+25      41x     16.11   356     09
+26      25      05.13   028     12
+27      26      06.42   111.5   12
+28      27      08.10   192     -05
+29      28      06.04   156     -01
+30      27      02.56   145     -04.5
+31      30      16.14   029     14.5
+32      31      21.36   348     09
+33      32      12.77   349     03
+34      33      7.78    015     25
+35      34      11.85   008     10
+36      35      06.15   082     03
+36      37      11.95   223     -15
+38      35      8.00    112     -11
+39      38      3.31    017     -39
+40      39      8.24    059     -06
+41      40      05.92   046     22
+41      42      06.47   218     -20
+
+*data passage station left right up down ignoreall
+25  0.5 2.7 0.6 2.7 pm lh wall
+26  0.1 2.9 2.1 2.9 pm lh wall
+27  0.5 2.7 2.8 1.7 numbered pm lh wall at junction
+28  1.8 1.1 1.5 1.4 pm middle of passage
+29  0.2 0.7 1.4 2.3 numbered pm lh wall
+30  -   0.5 2.2 1.8 pm rh wall
+31  2.5 0.2 2.0 1.5 pm rh wall
+32  1.2 2.3 2.1 1.2 pm lh wall/pillar
+33  0   3.6 1.9 2.2 pm lh wall
+34  0.5 4.2 4.8 1.8 pm lh wall
+35  0   6   10  1.6 pm lh wall
+36  -   -   -   -   numbered pm by rift
+37  -   -   -   -   into rift
+38  1.1 0   2   1.7 pm rh wall
+39  0.2 2   6   3.8 pm lh wall
+40  0.2 1.5 12  1.5 pm lh wall
+41  0.2 1   13  2   numbered pm lh wall
+42  -   -   -   -   unmarked
+
+*end larchenrepublic
+

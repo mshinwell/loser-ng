@@ -1,0 +1,58 @@
+*begin morningtoncrescent
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Mornington Crescent"
+*date 2005.08.18
+*team Insts Andrew Atkinson
+*team Notes Nial Peters
+*team Pics none
+*team Tape Andrew Atkinson
+*instrument TSG comp/clino Compass #set5 ; Clino #set5, Tape New, yellow, china
+; Calibration: 
+; ref.:	2005 #47
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+
+*calibrate tape -0.12	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	16.00	-	down
+3	2	4.32	322	-32
+3	4	3.46	139	-62
+4	5	6.63	-	down
+6	5	4.28	330	-58
+6	7	9.76	-	down
+8	7	2.93	296	-12
+8	9	14.92	-	down
+10	9	4.30	315	+63
+10	11	10.97	-	down
+12	11	6.55	053.5	+28
+12	13	2.77	338	-57
+13	14	6.35	-	down
+15	14	4.14	077	+12
+15	16	5.31	182	-31
+
+;station details
+;name	L	R	U	D	E	description
+;1	-	-	-	-		rp on spike part way down pitch
+;previous point from Nial and martin survey apocalypse.5
+;2	0.5	2.5	pitch	0.3		rp rock on floor
+;3	0.2	1.2	4	3.5		rp LHW over '3' near top of big
+;rock
+;4	0.2	0.3	4	3		y-hang knot
+;5	1	2	10	0.2		rp on rock on floor
+;6	1.4	0	5	-		bolt marked'6'
+;7	1.4	2	-	0.2		rp on rock on floor
+;8	1	0	-	-		rp RHW
+;9	2	1	-	-		rp on boulder middle of shaft
+;10	N:2	S:3.5	E:2.4	W:3		rp on RHW of shaft
+;11	2.5	0.5	-	1.8		rp on ledge at bottom of shaft
+;12	0.1	1.6	10	0.4		rp LHW
+;13	0.5	0	12	-		rebelay bolt marked '13'
+;14	1.5	1.4	-	1.8		rp on wall
+;15	3	0.4	5	1.7		rp RHW	
+;16	0	0.5	0.5	1.4		unmarked wall of passage 
+*end morningtoncrescent

@@ -1,0 +1,34 @@
+;1998.06.02 AERW token addition of exports etc.
+
+*begin OTT
+
+; Locn:	Main plateau, WNW of Top Camp, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+; Cave:	Puffball & Icing Sugar Cave (1623/182)
+*title "Lead Over the top of Shell Pitch"
+*date 1992.08.01-1992.08.02
+*team Olly Betts (solo) 
+; Ref.:	?
+; I think this is right - DL
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	;
+*export 16	;
+
+1       2        9.24   156     -08
+3       2        3.24   004     -18
+3       4        9.46   113     -06
+5       4        7.33   004     +10
+5       6        0.42    -      Down
+6       7        1.18   139     -29
+7       8        4.01    -      Down    ;Tape=11.91-7.90
+8       9        1.39    -      Up
+9       10       2.39   166     -11
+11      10      10.60   004     +18
+11      12       1.59   336     -26
+13      12       1.14    -      Up
+14a     15       5.01    -      Down
+14      14a      0.33    -      Down
+13      14       0.29   295     -35
+16      15       1.69   154.5   -24
+*end OTT

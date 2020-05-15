@@ -1,0 +1,204 @@
+;NOTES > $.Survey.Data88.115Top
+;1998.05.29 AERW split off Futility and Purgatory to 115mid/svx, tidied,
+;		 added comments, refs, exports etc.
+
+*equate 115Ent.pt1.0	P115
+
+*begin 115Ent ; originally GE survey (Gemsescheissen Entrance)
+
+; Locn:	SE flank Vord. Schwarzmooskogel, Western massif, Totes Gebirge, Austria
+; Cave:	Schnellzughohle 1623/115
+; Source:	converted from SU file by AERW 1995.08.01.
+
+; ====== stations refindable to link to other surveys: ======
+
+;*export pt1.0	; permanent station on left wall at 115 entrance
+;*export pt3.57	; drilled in prominent boulder in Big Cha. in front of brew ledge
+
+; ====== links between surveys in this file: ======
+
+*equate pt1.35	pt2.35
+*equate pt2.48	pt3.48
+
+*begin pt1
+
+; Cave:	Schnellzughohle 1623/115
+; Survey Name:	Survey from 115 entrance to the top of the Ramp
+;		replaces 1981 survey which was thought inadequate
+*date 1982.08.08 ; trip 1982-115-16 in 1982 logbook
+; By:	Insts:	Pete Lancaster
+;	Notes:	Andy Waddington
+;	Tape:	both?
+; Instruments:	unknown
+; Calibration:	none
+; ref.:	Blue paper cover notebook "1 CUCC" subtitled "113 survey, 115 too"
+;	in Andy W's archive
+
+;CHANGE        0.0    0.0 ; Good compass used throughout 115
+
+; ====== stations refindable to link to other surveys: ======
+
+;*export 0	; permanent station on left wall at 115 entrance
+;*export 35	; Below protector, RH wall, drilled, at start of rigging for
+; the ramp - protector was on a backup belay, not the main rope down the pitch.
+
+   0   1 14.3   22.    1.
+   1   2  6.6    3.   -8.
+   2   3  5.0  308.  -29.
+   3   4  8.3  332.  -18.
+   4   5  4.7  338.   -3.
+   5   6  7.4  340.  -39.
+   6   7 12.1  252.  -24.
+   7   8  6.4  303.   33.
+   8   9  2.1   25.   66.
+   9  10  6.1   23.   12.
+  10  11 10.7   19.   -9.
+  11  12  2.3  274.  -28.
+  12  13  1.5  350.  -50.
+  13  14 19.4    -   Down
+  15  14  3.6  307.  -14.
+  14  16  3.8  155.   -8.
+  16  17  2.5  105.  -35.
+  17  18  8.0    -   Down
+  19  18  2.7  300.  -33.
+  19  20  6.5  118.  -50.
+  20  21  3.4  135.  -27.
+  21  22  4.3  109.  -18.
+  22  23  2.0  117.   -7.
+  23  24  3.8  114.  -26.
+  24  25  2.5  137.  -10.
+  25  26  2.7  123.    4.
+  26  27 14.3   41.    1.
+  27  28  6.8   50.   15.
+  28  29  6.7    8.   25.
+  29  30 12.6   28.  -25.
+  30  31  2.8  135.  -51.
+  31  32 13.8   35.  -21.
+  32  33 17.0   52.   13.
+  33  34  4.8   51.    3.
+  34  35  1.3   70.   50.
+  31  36  8.3  320.   -9.
+
+; station details
+; name	L	R	U	D	notes
+;*LRUDE v0.1
+; 0	0.0	2.6	2.5	-	;P115 on wall of entrance
+; 1	2.0	1.1	0	1.0	;on roof in low section
+; 2	1.2	0	0.5	0.5	;R H Wall
+; 3	0	0.6	0.3	0.2	;L H wall
+; 4	1	1	1.5	2	;On boulder just out of crawl
+; 5	1.6	2.2	0	2.0	;On roof as it drops, NB D is to general
+; floor level - there is actually a large boulder below the station so D=0.4
+; 6	3.5	0.6	4.5	0.4	;Boulder on floor
+; 7	0.6	0.7	2.8	1.0	;Flake on left before pitch
+; 8	2.3	0.0	3.6	J4.5	;Wall on climb up left of ladder - NB
+; LRUD are in main chamber, not in crawl above climb, and D doesn't count the
+; pitch in the chamber floor, which is c 10m deep unsurveyed
+; 9	0.4	1.0	1.4	0.3	;Knob of rock left side of roof passage
+; 10	0.6	0.6	0.6	0.0	;Rock on floor in roof passage
+; 11	3.0	1.0	1.4	1.6	;Boulder on balcony - D to other rocks
+; all of which is a false floor over the 20m pitch
+; 12	1.0	0.5	2.3	0.8	;another boulder, D again meaningless
+; 13	2.0	0.0	1.2	19.4	;Bell pitch takeoff bolt
+; 14	P3.0	P3.5	P7.5	P1.8	;plumb to shaft floor (NSEW)
+; 15	-	-	-	-	;random boulder offline in chamber
+; 16	2.0	2.0	20	0.5	;Boulder over ladder drop, LRUD
+;	meaningless in thrutch through boulders between pitches
+; 17	0.5	0.5	1.0	8.0	;Belay boulder, LRUD joke
+; 18	0.3	0.4	9.0	0.0	;To floor of awkward drop
+; 19	0	0.6	4.5	3.5	;LH wall
+; 20	0.2	0.3	1.5	0.6	;start of The Hedgehog
+; 21	0.6	0.2	0.6	0.8	;on RH wall. UD cover accessible passage
+; Der Igel is a narrow rift with a body-sized widening, U=5, D=1.5 ?
+; 22	0.1	0.5	0.3	0.3	;LHS ledge level, U=5, D=2 in rift
+; 23	0.5	0.1	5.0	2.0	;RH wall at edge of c2 below inlet aven
+; 24	0.1	0.5	2.0	1.8	;LH wall 1.8m up
+; 25	0.5	0.1	1.2	1.8	;RH wall
+; 26	0.35	0.55	2.2	1.1	;smoked on boulder in bigger cross-passage
+; leg 26-27 goes through biggish chamber L 2.2, R 2.5, U 8, D 1.5 from tape
+; 27	0.6	0.6	2.0	1.8	;Knob on RH wall
+; 28	0.7	1.6	1.8	0.5	;scratched on LHS. D=3.5 in trench
+; 29	0.5	0.9	0.3	2.0	;roof between phreatic pockets D=5 trench
+; 30	0.0	2.2	0.6	4.4	;Left side. D 4.4 includes climb down
+; 31	1.5	1.5	3.5	2.0	;drilled on rock bridge
+; 32	0.0	3.4	1.4	0.3	;Under (another) rock bridge to low on LHS
+; still a trench in floor of at least 2m below the floor to which D relates
+; 33	2.0	0.2	1.5	1.2	;Right side
+; 34	0.0	2.0	1.5	1.0	;Left wall, LRUD rather guessed
+; 35	2.0	0.0	1.5	1.0	;Below protector, RH wall, drilled, at
+; start of rigging for the ramp - protector was on a backup belay, not the
+; main rope down the pitch. D=indeterminate in the trench - start of pitch
+; 36	2.0	0.0	-	-	;RHS in side lead - continues.
+;*endLRUDE
+; Start of The Ramp
+
+*end pt1
+
+*begin pt2
+
+; Cave:	Schnellzughohle 1623/115
+; Survey Name:	from Top of the Ramp to Inlet pitches (then too wet)
+*date 1982.08.14 ; trip 1982-115-21 in 1982 logbook
+; By:	Insts:	Mike Thomas
+;	Notes:	Andy Waddington
+; Instruments:	Compass 949847, Clino 214435
+; Calibration:	none
+
+; ref: blue paper cover notebook "3 CUCC Survey" in Andy W's archive as far as
+; station 48 - still searching after that (I'm sure it was the same trip)
+
+; ====== stations refindable to link to other surveys: ======
+
+;*export 35	; Below protector, RH wall, drilled, at start of rigging for
+; the ramp - protector was on a backup belay, not the main rope down the pitch.
+;*export 48	; Second bolt on first of Inlet pitches (I think)
+
+  35  37  7.7   70.  -51.
+  37  38  8.5   95.  -70.
+  38  39  4.03  70.  -17.
+  39  40  9.7   73.  -18.
+  40  41 16.61 129.  -52.
+  42  41  5.9  301.   47. ; BACKSIGHT
+  42  43 15.85 175.  -34.
+  43  44  6.52 263.  -62.
+  44  45 16.8  191.  -70.
+  45  46  8.5    -   Down
+  47  46  2.75 352.  -23. ; BACKSIGHT
+  47  48  4.1  113.  -31.
+
+; station details - rather sketchy, cold trip, only elevation drawn
+; 48 bolt (second one)
+
+*end pt2
+
+*begin pt3
+
+; Cave:	Schnellzughohle 1623/115
+; Survey Name:	from bottom of ramp to Big Chamber - can't find notes yet, even
+;		though I have two different survey books used on this trip...
+*date 1982.08.16 ; trip 1982-115-23 in 1982 logbook
+; By:	Insts:	Andy Dolby
+;	Notes:	Andy Waddington
+; Instruments:	unknown
+; Calibration:	none
+; ref.:	not yet located
+
+; ====== stations refindable to link to other surveys: ======
+
+;*export 48	; Second bolt on first of Inlet pitches (I think)
+;*export 57	; drilled in prominent rock in Big Cha. in front of brew stop
+
+  48  49  8.7  150.  -59.
+  49  50 26.0    -   Down ; redirection bolt 10.7m down
+  50  51  2.2  120.  -25.
+  51  52  1.4  149.   12.
+  52  53 18.8  100.  -72.
+  53  54 28.1  108.  -65. ; 15.7m to traverse line
+  54  55  5.3  137.  -40.
+  55  56 23.7    -   Down ; pitch into Big Chamber
+  57  56  7.8  325.  -15. ; BACKSIGHT  57=GP0 drilled in Big Cha.
+
+*end pt3
+
+*end 115Ent
+

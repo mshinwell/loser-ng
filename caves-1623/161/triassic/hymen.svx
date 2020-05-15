@@ -1,0 +1,41 @@
+;1998.03.02 AERW sort begin/end, add comments, refs, *calib clino
+
+*begin hymen
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Hymen crawl"
+*date 1996.07.28 ; trip 1996-161-68 in logbook
+*team Insts guessed at BCRA 5c by Dunks
+*team Notes Steve
+*team Pics Steve
+*team Tape Shared responsibility for crapness
+*instrument Set:2
+; Calibration:	a-b comp 215,215,215
+;		 clino +7.5,+7,+7.5
+;		b-a comp 33.5,34,34
+;		 clino -8,-8,-8
+;
+;	Tape is 26.5 cm too long
+; ref.:	1996 KH survey book pp 194-195
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; RH (NE) wall, at entry to Alternative Universe (probably)
+
+*calibrate tape  -0.265
+*calibrate clino -0.33
+
+;From	to	Tape	Compass	Clino 
+2	1	4.40	177	+01.5
+2	3	8.85	064	+03
+4	3	4.19	223	-22
+4	5	2.50	310	-16.5
+6	5	3.96	206	 00
+7	6	1.45	168	-12
+8	7	0.77	249	-12
+9	8	0.82	212	+09
+10	9	7.64	180	-03
+;survey incomplete and also really shite
+
+*end hymen

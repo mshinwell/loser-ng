@@ -1,0 +1,74 @@
+*begin nopainnogain
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "no pain, no gain (2000_11c_part3)"
+*date 2000.08.15
+*team Insts Mark Byers
+*team Notes Martin Green
+*team Pics Martin Green
+*team Tape Mark Byers
+*instrument Compass #1 ; Clino #1, Tape ?
+; Calibration: 311, +07 ; 311, +07; 312, +07 ; 132, -07 ; 132, -07 ; 132, -07
+; ref.:	2000 #40
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 9 15 29
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+13	12	2.90	058	-21
+14	13	3.27	068	-24
+15	16	3.58	179	-35
+17	16	4.20	029	+27
+17	18	2.40	093	+01
+19	18	3.51	308	+15
+19	20	3.73	017	+12
+21	20	3.11	239	-10
+21	22	1.85	170	-08
+23	22	1.46	240	+82
+23	24	2.86	084	-16
+14	24	3.43	223	+03
+14	25	2.79	162	-21
+26	25	4.03	276	+41
+26	27	3.25	074	+10
+28	27	4.50	335	-02
+28	29	2.00	102	+19
+30	29	4.09	293	-11
+30	31	4.26	154	+06
+32	31	1.70	300	-02
+32	33	3.84	164	-03
+34	33	2.02	290	-02
+34	11	11.14	168	-06
+9	11	1.54	272	-09
+
+;station details (going out)
+;name	L	R	U	D	E	description (all RP, going IN)
+;12	0.4	0.0	2.0	1.0	0.3	LHW near waterfall
+;13	0.0	0.4	LOTS	1.5	-	RHW in rift far end
+;14	1.0	0.8	3.0	4.7	-	on boulder at junction
+;15	0.0	0.7	0.2	0.4	-	RHW
+;16	0.0	1.6	0.5	0.3	-	RHW
+;17	1.6	0.0	0.7	0.1	-	at junction
+;18	0.2	0.7	0.8	0.7	-	point of RHW
+;19	1.0	0.3	0.4	4.0	-	point of rock on ceiling above pitch
+;20	0.0	0.7	1.5	0.5	-	LHW
+;21	0.0	1.2	0.7	1.5	-	nose of rock
+;22	0.2	1.4	3.5	2.1	-	LHW under ???
+;23	0.1	?	?	0.9	-	up on left as u enter
+;24	0.6	0.0	0.4	0.4	-	left on crawl
+;25	0.85	0.3	1.15	0.9	-	nodule
+;26	0.6	1.2	1.0	0.0	-	rock on floor
+;27	0.0	0.7	0.7	0.45	-	at T junction
+;28	0.6	N/A	0.7	0.0	-	spike on floor
+;29	N/A	N/A	0.4	0.3	-	crossroads
+;30	0.0	1.5	1.0	0.6	-	1/2 way up wall
+;31	0.65	0.1	0.7	0.55	-	on protrusion on right
+;32	0.4	0.5	0.9	0.6	-	protrusion from floor
+;33	0.8	0.5	0.9	0.0	-	looking into chamber
+;34	0.0	0.5	0.2	0.8	-	nose near roof
+;11	1.4	0.0	0.5	0.3	-	[none]
+
+*end nopainnogain

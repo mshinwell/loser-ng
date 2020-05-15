@@ -1,0 +1,101 @@
+;1998.04.07 AERW created from data in 1985 logbook previously missed !
+;1998.04.07 AERW added data connecting TC to BB from Nipple.svx
+;1998.05.29 AERW More comments, refs, exports
+
+*begin Nipto155
+
+; ====== stations refindable to link to other surveys: ======
+
+*export pt1.1	; 1623/155
+*export pt1.8	; 1623/154
+*export pt1.11	; other ent to 1623/154 (unmarked)
+*export pt1.17	; 1623/153
+*export pt2.tc	; permanent station from last day of 1985 trip "TC" in large
+		; slab in depression below gully
+*export pt2.bb	; Bunter's Bulge - probably the Austrian Bolt (laser point)
+
+
+; ====== links between surveys making up the Nipto155 survey: ======
+
+*equate pt1.24	pt2.tc
+
+*begin pt1 ; formerly "QZ" survey but never in a computer ?
+
+; Locn:	Southern Flank of Vorderer Schwarzmooskogel, north of "Bunter's Bulge"
+; Caves:	1623/153, 1623/154, 1623/155
+*title "surface survey from VSK caves towards Nipple (ran out of time)"
+; Date given here was originally "1985.08.middleish"; 1985 log book has an
+; entry which describes this survey and gives date as "1985.08.12?" so let's
+; assume 1985.08.12.
+*date 1985.08.12
+*team Chris and Tina
+*instrument 
+*team Notes 
+; ref.:	back of 1985 logbook, immediately after last write up.
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; 1623/155
+*export 8	; 1623/154
+*export 11	; other ent to 1623/154 (unmarked)
+*export 17	; 1623/153
+*export 24	; survey mark "TC" in large slab in depression below gully
+
+2	1	 4.08	062	-33
+2	3	26.55	304	+31.5
+4	3	21.20	153	-13.5
+4	5	29.03	224	+01
+6	5	28.10	102	-16
+6	7	29.16	265	-02
+8	7	20.39	042	+22
+9	8	 5.40	007	-32
+9	10	26.51	093	-08
+11	10	15.26	041	+29
+12	10	26.09	344.5	-06
+12	13	27.43	206	-23
+14	13	14.58	038.5	+04
+14	15	26.16	210	-19
+16	15	27.31	005	+16
+16	17	18.89	149	-04.5
+18	17	27.425	037.5	+03
+18	19	21.83	182	-02
+20	19	23.775	038.5	+07.5
+20	21	24.58	197	-08.25
+22	21	22.56	346	+03
+22	23	21.25	178	-01
+24	23	25.88	335	+39
+
+*end pt1
+
+*begin pt2
+
+; unclear when this was done, but connects above to rest of world...
+; "TC" is a permanent station on a large slab in the centre
+; of a depression above which a gully leads to 1623/153 (and 154 and 155)
+; Since "TC" was created on the last day of the 1985 trip and there was
+; no expedition in 1986, this survey was presumably done in 1987 or later.
+; Best upper bound I've found so far is 2001-10-11.
+
+; ====== stations refindable to link to other surveys: ======
+
+*export tc	; permanent station from last day of 1985 trip
+*export bb	; Bunter's Bulge - probably the Austrian Bolt (laser point)
+
+; Suppress warning about lack of survey date
+*calibrate declination 0
+
+tc	t1	 0.93	-	 Up
+t2	t1	22.4	009	-20.5
+t2	t3	10.95	214	-05.5
+t4	t3	26.23	042.5	+03
+t4	t5	26.67	162.5	 00
+t6	t5	20.14	015	-01
+t6	t7	29.2	231	-03
+t8	t7	16.45	021	+03
+t8	t9	26.9	209	+04.5
+t10	t9	30.2	323	-18
+t10	bb	 2.31	158	-09.5
+
+*end pt2
+
+*end Nipto155

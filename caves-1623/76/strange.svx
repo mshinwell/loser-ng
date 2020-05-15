@@ -1,0 +1,44 @@
+;Eislufthoehle 1623/76
+
+*begin strange
+
+*title "Strangeways"
+*date 2006.07.30
+*team Insts Jenny Black
+*team Notes Olly Betts
+*team Disto Jenny Black
+*instrument Ours!
+; notes in 2006 #13
+
+*export 1 25
+
+2	1	1.972	274	+11
+2	3	1.855	088	+07.5
+4	3	2.538	001	-31
+5	4	2.441	028	+05
+6	5	2.632	313	-13
+6	7	2.089	165	+14
+8	5	1.500	322	-06.5
+8	9	4.331	235	+15
+9	10	4.771	220	+56
+10	11	5.676	259	+31
+12	11	2.192	323	+02
+13	12	0.976	313	+46
+13	14	2.625	142.5	-11
+14	15	7.006	-	down
+14	16	3.602	073	+38
+14	17	7.7	-	up
+13	18	1.430	078	+17
+18	19	7.471	035	-18
+18	20	3.555	060	+58
+21	20	1.452	315	-17
+21	22	4.776	000	+23
+22	23	3.897	-	up
+24	23	1.766	114	+00.5
+24	25	9.629	-	up
+
+*data passage station left right up down ignoreall
+
+;2       1.15    0.1     -       1.55    j palm out from RHW
+
+*end strange

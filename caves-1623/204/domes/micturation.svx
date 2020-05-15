@@ -1,0 +1,41 @@
+*begin micturation
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Micturation Pot"
+*date 2001.08.29
+*team Insts Mick Thompson
+*team Notes Brian Outram
+*team Tape Mick Thompson
+*instrument Compass #5; Clino #5, Tape Keentools
+; Calibration: Stone bridge: 157/+22 155/+21.5 156/+22 329/-21.5 330/-22 330/-22
+; ref: 2001#36
+; ====== stations refindable to link to other surveys: ======
+
+*export 0 8
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	0	10.37	125	-26
+2	1	13.10	-	down
+3	2	5.34	160	-85
+4	3	4.66	102	-84
+5	4	1.39	061	-07
+6	5	4.71	124	-50
+7	6	6.16	169	-82
+8	7	2.23	200	+03
+
+;station details
+;name	L	R	U	D	description
+;0	-	-	-	-	pleasuredome.1
+;1	1.0	3.0	3.0	0	CM wall base of pitch
+;2	3.0	3.0	lots	3.10	rebelay bolt
+;3	3.0	3.0	lots	18.44	rebelay bolt
+;4	6.0	3.0	lots	23	LH bolt of Y hang
+;5	0	0.6	lots	1.5	CM wall
+;6	1.0	1.3	lots	5.5	belay bolt
+;7	0	1.0	4.0	11.7	LH bolt of Y hang
+;8	-	-	-	-	insignificant2.6
+
+*end micturation

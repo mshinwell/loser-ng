@@ -1,0 +1,28 @@
+*equate 2006-09.17 t2006-09
+*entrance t2006-09
+*begin 2006-09
+*date 2006.08.09
+*title "Random Shaft"
+*team Instruments Chantalle Mouwer
+*team Notes Phil Underpants
+*instrument #5 
+; Ref. 2005#05
+
+*export 17 ; Tag bolt
+
+*calibrate tape 0.00
+
+*data normal from to tape compass clino
+19	20	12.10	2.63	+80
+17	20	1.90	105	-38
+
+;station description left right up down
+;17	rock near hole
+;19	boulder on floor of pitch	1.50	1.00	-	0.30
+;20	point on lip of pitch
+*end 2006-09
+
+
+
+
+

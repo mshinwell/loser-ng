@@ -1,0 +1,34 @@
+*begin fudgedup
+*export 1
+*export 8
+ 
+*date 2014.08.04
+
+*team notes David
+*team distox Matt
+*team something sophie
+
+;ref 2014#27
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino ignoreall
+1	2	4.9		144	+06   ; [tape measured to closest 10cm?!]
+2	3	3.3		314	+41
+4	3	2.43	251	-18
+4	5	3.7		099	+26
+5	6	3.3		125	+41
+6	7	0.9		005	+20
+7	8	3.8		056	+45
+
+
+*data passage station left right up down
+1	-		-		-		-	;original
+2	-		-		-		-	;outside of bend
+3	0.8		0.5		1.4		3.5	;in ceiling
+4	0		0.4		0.4		0.3	;on rock
+5	0.6		0.3		0.3		0.3	;rock in middle
+6	0.7		2.1		1.1		0.3	;wall at top
+7	0.1		1.1		0.4		0.8	;left wall
+
+*end fudgedup

@@ -1,0 +1,62 @@
+;1998.03.26 AERW sort begin/end, add comments, refs, *calib clino
+
+*begin fcr
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Fine clean rock:"
+*team Insts Dave F
+*team Notes Andrew A
+*team Pics Andrew A
+*team Tape Juliet M
+*date 1996.7.14 ; - trip 1996-161-11 in logbook
+*instrument Set 4
+; Calibration:	At 161d 
+;	ab	comp 212/75 clino 9/25
+;	ba	comp 032/50 clino -8/0
+;
+; Ref.:	1996 KH survey book pp 154-156
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; CM rock 's7' in middle at Bugger, below FCR climb/pitch
+*export 3	; rebelay bolt of Fine Clean Rock ascent
+*export 15	; second bolt 's15' at head of 80m pitch
+
+*calibrate clino +0.625
+*calibrate tape  -0.20
+
+;From	to	Tape	Compass	Clino 
+2	1	15.53	115	-10
+2	3	 2.95	-	UP
+4	3	 9.65	099	-51
+5	4	 3.86	145	-27.5
+5	6	 1.50	-	DOWN
+7	6	 6.87	174	+22
+8	7	 5.74	098	+21
+8	9	11.23	307	-20.7
+9	10	 7.48	320	+28
+11	10	 6.46	170	-18
+11	12	11.31	240	-37
+12	13	 7.93	223	-19
+13	14	10.76	287	-21
+9	15	 6.73	242	-02
+
+;stat	L	R	U	D	E	Notes
+;1	6	3	7	0	NR	S7 on tip of rock
+;2	6	1.5	7	1.2	0	cm base of fcr
+;3	p(0)	p(17)	p(6)	p(7)	NR	(-30) rebelay bolt
+;4	10	4	9	2.5	15	cm shit rock
+;5	8	0	4	3	0	cm nodule
+;6	2	1.7	1	2	0	floor
+;7	3.0	0.5	1.0	1.6	NR	cm roof s7
+;8	2.0	9	4.2	0.8	Nr	cm point rock s8
+;9	5	2	2.5	1	nr	rock
+;10	0.4	2	0.3	1.4	NR	LHW
+;11	5	0	7	5	(3.0)	(320) cm wall s11
+;12	3.5	1	4	1.2	NR	cm rock point s12
+;13	0.4	1.6	2.3	1.5	NR	cm base LHW
+;14	0	2.3	3.5	1.8	NR	cm LHW s14
+;15	(4)	(6)	2	2	(0)	(280) (100) (190) second bolt s15
+;
+*end fcr

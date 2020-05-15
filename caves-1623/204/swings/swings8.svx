@@ -1,0 +1,38 @@
+*begin swings8
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Swings and Roundabouts (8)"
+*date 2001.08.18
+*team Insts Becka Lawson
+*team Notes Earl Merson
+*team Tape Earl Merson
+*instrument Compass #2 ; Clino #2, Tape grey, totally enclosed
+; Calibration: Stone bridge: 147/+22 146/+22 327/-23 327/-23.5
+; ref: 2001#21
+; ====== stations refindable to link to other surveys: ======
+
+*export p21 px
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	p21	4.44	328	+12
+1	2	2.39	152	+20
+2	3	4.84	183	-26
+4	3	1.45	263	-55
+4	5	6.14	159	-07
+px	5	6.62	183	-20
+
+;station details
+;name	L	R	U	D	description
+;p21	-	-	-	-	swings4.21
+;1	1	0.4	1.2	1.2	CM R wall nobble, scratched 1
+;2	1.4	0.1	1	2	CM R wall
+;3	2.0	0.1	1.8	0.5	CM R wall before boulder
+;4	-	-	-	-	CM L wall by crawl to big passage
+;5	-	-	-	-	CM on south far wall
+;px	-	-	-	-	RP on tip of boulder
+
+*end swings8
+

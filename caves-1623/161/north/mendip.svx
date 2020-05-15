@@ -1,0 +1,40 @@
+*begin mendip
+
+*title "Massive for mendip"
+*date 2011.08.07
+*team Wookey notes
+*team Catherine Hulse insts
+*team Adam Henry insts
+; ref.: 2011#34
+*instrument "SAP#3,wook distoX"
+;calibration at stone bridge
+;down: 317 -26, up:145 +21
+
+*export 2
+2	3	10.66	178	-06
+3	4	5.93	177	-04
+4	5	2.40	147	-21
+5	6	10.01	257	+34
+6	7	7.50	210	-30
+7	8	4.64	256	+27
+8	9	2.54	205	-05
+9	10	13.17	223	-11
+10	11	5.31	240	+15
+11	12	3.90	269	+42
+12	13	5.56	245	+39
+
+*data passage  station left right up down ignoreall
+2	1.8	4	0	1.0	stn 24 of 'CFOM'
+3	0	1.2	1.1	0.1	 stone on floor (tmp station)
+4	0.9	0	0.6	0.3	RP RHW
+5	0	2.0	1.7	0.5	RP marked '5' LHW
+6	0.3	0.5	0	0.9	RP roofish
+7	1.0	0.9	3.2	2.5	RP pendant LHW
+8	0.7	0	2.2	1.8	RP RHW
+9	0.7	0.3	-	3.5	RP 
+10	1.9	0.8	7.8	1.6	RP RHW
+11	1.0	0.6	13.1	1.0	RP bottom of wedged boulder
+12	0.8	0.2	11.1	1.3	RP RHW
+13	-	-	-	1.8	RP back wall
+
+*end mendip

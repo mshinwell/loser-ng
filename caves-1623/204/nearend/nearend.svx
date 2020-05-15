@@ -1,0 +1,44 @@
+*begin nearend
+
+*title "Entrance and The Near End series"
+
+*export ent.2 ent.27 ent.39 stitchthis.0 kingcarbide.10 atob.3 atob.4 deathglory.14
+
+; -- 1999 --
+
+*include ent
+
+*include link
+*equate link.1 ent.35
+
+*include junction
+*equate link.3 junction.2
+*equate junction.1 ent.20
+
+*include updip
+*equate updip.1 ent.17
+
+;*include pretty
+;*equate pretty.1 ent.38 ; pretty replaced by kingcarbide
+
+; -- 2000 --
+
+*include stitchthis
+*equate stitchthis.5 ent.7
+
+*include kingcarbide
+*equate ent.38 kingcarbide.0
+
+*include kidney
+*equate kidney.X kingcarbide.4
+
+; -- 2003 --
+
+*include atob
+
+; -- 2006 --
+
+*include deathglory
+*equate deathglory.1 kidney.5
+
+*end nearend

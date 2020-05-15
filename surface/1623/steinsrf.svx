@@ -1,0 +1,93 @@
+;1999.07.31 W & DRJC created for Steinbruckenhöhle Surface survey
+
+*equate steinsrf.1 steinbrk_atob.1
+
+*begin steinsrf
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Area:	Col between Hinter SMK and & Nied Augst-eck
+; Caves: Steinbruckenhöhle - CUCC99-03
+*title "Surface survey from SBH entrance A to HinterSMK trig pt."
+*date 1999.07.29
+*team Insts Duncan Collis
+*team Notes Mick Thompson
+*team Pics Hardly any
+*team Tape Both
+*instrument Compass set#3 ; Clino set#3, good tape
+; Calibration:	atTC (Morning after) Down: comp:88,88,88 clino:-6.5,-6.5,-6.5
+;                                    Up: comp:269,269,268 clino:+6.5,+6.5,+6.5
+; ref.:	1999 notKH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+*export 22
+
+*flags surface
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino
+
+1	2	29.40	136	+13.5
+3	2	17.10	022	-13.0
+3	4	23.60	147	+08
+5	4	30.20	324.5	-11
+5	6	8.50	147	-10
+7	6	16.40	016	+01
+7	8	12.20	201	-11
+9	8	30.40	016	+05
+9	10	24.50	210	-04
+11	10	18.40	333	-11
+11	12	23.60	194	+03
+13	12	30.00	022	+04
+13	14	27.30	199	+25
+15	14	20.30	029	-12
+15	16	26.10	206.5	+18
+17	16	15.40	017	-28
+17	18	29.80	183	+25
+19	18	29.60	312	-27
+19	20	12.40	164	+43
+21	20	25.40	009	-05
+21	22	5.80	269	+09
+
+;station details
+;name	D	description
+
+*end steinsrf
+
+*begin steinbrk_atob
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Area:	Col between Hinter SMK and & Nied Augst-eck
+; Caves: Steinbruckenhöhle - CUCC99-03
+*title "Surface survey from SBH entrance A to B."
+*date 1999.07.30
+*team Insts Duncan Collis
+*team Notes Mick Thompson
+*team Pics Hardly any
+*team Tape Both
+*instrument Compass set#3 ; Clino set#3, good tape
+; Calibration:	atTC  Down: comp:88,88,88 clino:-6.5,-6.5,-6.5
+;                                    Up: comp:269,269,268 clino:+6.5,+6.5,+6.5
+; ref.:	1999 notKH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1  ; entrance A
+*export 4  ; entrance B
+
+*flags surface
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino
+
+1	2	4.80	061.5	+12
+3	2	22.50	148	-00.5
+3	4	8.40	190	-20
+
+;station details
+;name	D	description
+
+*end steinbrk_atob

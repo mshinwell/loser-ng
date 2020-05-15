@@ -1,0 +1,78 @@
+*begin scoopyloopy
+
+; stations linked into other surveys (or likely to)
+*export 28 40 
+
+; Cave: Balcony hole 
+; Area in cave/QM: Little boy
+*title scoopyloopy
+*date 2018.08.09
+*team Insts Rachel Turnbull
+*team Notes Luke Stangroom	
+*team Pics Rachel Turnbull
+*team Tape Rachel Turnbull
+*instrument Becka 1
+; Calibration: Balcony Entrance
+*ref 2018#45
+; the #number is on the clear pocket containing the original notes
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+29 28 22.22 184.4 -12.5 
+30 29 6.76 223.3 +11.8
+31 30 4.30 170.5 -9.6 
+32 31 6.01 206.3 +10.6
+33 32 5.06 206.0 -0.9
+34 33 5.31 253.0 -10.9
+35 34 4.48 269.4 -16.0
+36 35 3.19 227.1 -62.5
+37 36 3.61 284.8 -44.3
+38 37 4.81 293.6 -34.1
+39 38 16.06 185.3 -7.8
+40 39 2.08 065.9 +9.9 
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Pink nail varnish markings
+*data passage station left right up down 
+29 0.3 1 1.3 0.5
+30 1.5 0 1 2
+31 0 1.2 1.5 1.6
+32 1 1 0.3 0.8
+33 3 1.2 1 0
+34 1.4 3 1.2 0.8
+35 1.3 1.7 1.6 0.3
+36 0.5 1 0.4 1.5 
+
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+;[ 1   0.8   0     5.3   1.6 ]
+;[ 2   0.3   1.2   6     1.2 ]
+*data passage station left right up down
+;[ 1   1.3   1.5   5.3   1.6 ]
+;[ 3   2.4   0     3.4   0.2 ]
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM2	C	scoopyloopy.28	-	small side-passage to south-east close to oxbow passage leading to 'one direction', listed as QMB on drawn-up survey
+
+;------------
+;Cave description  ;(leave commented-out) ;description split between scoopyloopy and onedirection
+;Scoop it until you loop it Unpromising c lead from 28, leads to cracked mud floor crawling tunnel, similar to 'one direction', 
+;with promising a lead, down junction in clean washed rock, sketchy c6, requires rope, heads into rifty stuff.
+
+*end scoopyloopy

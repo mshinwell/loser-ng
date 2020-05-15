@@ -1,0 +1,442 @@
+; also contains farsidecoN surveys (the crapped out leads from junctions)
+
+
+*begin farside
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Balcon Hohle
+
+*export 9x	12x	47 12
+*export 46	69	44	36	34
+*export 77 65 37
+*export 18
+
+*title "The Far Side"
+*date 2014.08.17
+*team Notes Noel Snape
+*team Insts Andy Chapman
+*team Nail Varnish Bitch Holly Bradley
+*instrument Hollys disto x 2
+
+;ref.: 2014#42
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+9x	1	1.4	170.5	-06
+1	2	9.04	214.6	-56
+2	3	2.9	299.3	-32.7
+3	4	8.46	261.2	0
+5	4	9.02	102.8	18.9
+6	5	4.86	104.4	11.2
+7	6	5.2	143	0
+8	7	3.66	195	-14.5
+9	8	4.05	122.2	8.1
+10	9	1.84	208.0	6.7
+11	10	5.29	96.9	0.2
+12	11	3.09	150.0	4.8 
+13	11	4.65	165.6	-8.7
+14	13	1.85	079.1	-63
+15	14	2.38	125.9	-62.9
+16	15	1.98	138.0	4.1
+16	17	3.95	064.9	36.6
+17	18	4.44	003.4	-10.1
+
+19	16	3.41	089.0	-5.5
+20	19	2.65	142.0	-3.6
+21	20	10.61	204.3	-11.3
+22	21	2.53	164.5	-14.5
+23	22	3.83	138.1	-14.7
+24	23	7.39	168.0	-13.6
+25	24	4.34	214.1	-13.1
+26	25	7.08	146.0	-1.0
+27	26	3.86	135.0	-2.9
+28	27	10.54	165.0	-12.7
+29	28	10.55	156.2	-9.1
+30	29	8.40	155.1	-10.2
+31	30	14.66	127.3	-4.6
+32	31	12.15	142.6	-7.6
+33	32	10.63	189.6	-10.1
+34	33	3.76	150.3	-14.5
+
+*flags duplicate
+34	35	3.73	098.5	12.9
+*flags not duplicate
+
+34	36	5.00	349.0	11.2
+
+37	34	5.61	100.0	-3.3
+38	37	9.71	150.0	-10.0
+39	38	8.87	180.8	-15.2
+40	39	9.98	168.7	-19.6
+41	40	7.25	203.5	-7.8
+42	41	7.18	171.0	-14.5
+43	42	2.68	189.5	-11.6
+44	43	3.41	143.9	1.1
+45	44	6.36	273.4	-10.3
+46	45	5.18	229.8	-21.2
+47	46	8.87	315.2	-4.7
+*flags duplicate
+47	48	5.04	152.3	-17
+*flags not duplicate
+
+49	47	3.83	272.6	6.6
+50	49	12.72	282.2	-13.5
+51	50	9.6	270.9	-2.1
+52	51	8.29	339.2	-12.7
+53	52	7.26	279.9	30.8
+54	53	9.56	330.0	-1.5
+55	54	10.79	326.0	4.8
+56	55	16.58	332.3	3.4
+57	56	5.23	335.5	9.0
+58	57	8.49	001.9	3.3
+59	58	4.24	283.3	14.9
+59	60	13.72	227.3	-7.5
+
+61	59	7.50	346.4	-2.5
+62	61	12.36	333.5	6.5
+63	62	10.07	351.0	18
+64	63	4.96	285.0	27.0
+65	64	11.29	319.2	07.0
+12x	65	19.12	312.8	-0.7
+
+64	67	12.55	213.0	-8.7
+
+68	53	5.17	274.3	-12.9
+69	68	4.87	291.7	-8.3
+70	69	7.27	275.8	-17.0
+71	70	4.72	289.6	-15.5
+72	71	2.82	245.9	-5.5
+73	72	3.82	321.3	-14.7
+74	73	2.06	301.3	-20.4
+75	74	2.57	257.4	-2.6
+76	75	6.17	298.9	-10.3
+77	76	2.91	307.6	14.8
+
+
+
+
+*data passage station left right up down ignoreall
+
+;stn	L	R	U	D	Desc
+9x	1	0	6	2	
+1	0	1	6	2
+2	0	2	18	3
+3	0.7	0	10	2
+4	0	1.5	3	7
+5	1	0.2	1	2	right wall
+6	0	2	2	1	left wall
+7	0.5	1	1.3	1	on boulder
+8	0	1.5	1.6	1
+9	2	2	0.8	1.4
+10	1.4	0	1	1
+11	0	0.8	0.2	1.4
+;12	1.5	5	2.4	7.4
+13	1	1.6	3.6	0.8
+14	4	0.5	1.5	2.3
+15	0.4	0.5	0	1.3
+16	0.6	2	2.5	0.6
+17	1.2	2.3	3	0.3	cairn
+18	1.6	2	14	5
+
+*data passage station left right up down ignoreall
+16	0.6	2	2.5	0.6
+19	0	0.7	0.9	0.6
+20	0	1	1.4	1
+21	1	0	1	1
+22	0.4	1.4	1.5	1.5
+23	0	1.6	1	1.4
+24	1.1	0	1	1
+25	0	1	1	1
+26	1	0	1	1
+27	0	1.4	1.2	0.7
+28	1	0	1	1.4
+29	0.9	0	0.7	1
+30	0.8	0	1	1.2
+31	1	1.4	1	1.3
+32	0	2	1.1	1.2
+33	1.2	0	1	1.1
+34	0	1	2	1.5
+35	1	0	1	1.3
+
+*data passage station left right up down ignoreall
+
+34	-	-	-	-
+36	0.8	0.5	0.6	1.2
+
+*data passage station left right up down ignoreall
+34	1	0	2	1.5
+37	0	1	2	1.5
+38	0	0.7	3	1.4
+39	0.6	0	3	1.2
+40	0	1	2	2
+41	1.4	0	2.5	1.4
+42	0	1	3	1.2
+43	1	0	2	1.3
+44	2.5	1.3	2.5	1
+45	0.7	1	3	1
+46	0	2	5	1
+47	2	7.5	5	1.5
+48	0	5.7	-	6
+*data passage station left right up down ignoreall
+47	-	-	5	1.5
+49	2	0.5	6	0.5
+50	0.7	1.8	4.6	2
+51	0	3	10	1.5
+52	3.5	0	6	4
+53	0.8	2.5	5	0.5
+54	2.3	0	2	1
+55	0	2.5	2	1.2
+56	2	3	0	1.2
+57	0	3.5	1.5	0.7
+58	3.5	1.4	7	2
+59	0	-	3.5	2
+60	-	-	-	-
+*data passage station left right up down ignoreall
+59	0	-	3.5	2
+61	2	1.4	1.3	1
+62	0	4.5	0.6	1.3
+63	4	1.2	1.6	1
+64	6	-	5	0
+65	2.5	3	1	1
+12x	0	3.5	2	1
+*data passage station left right up down ignoreall
+64	-	-	5	0
+67	0.5	2	2	0.5
+*data passage station left right up down ignoreall
+53	0.8	2.5	5	0.5
+68	0	1.6	2.8	1.2
+69	2	0	9	1
+70	1.2	0	9	1.3
+71	1	0	10	1.4
+72	0	1.4	11	1
+73	0.7	1	9	1.4
+74	0	1.8	7	2
+75	0.5	2	7	2
+76	1	1.5	5	3
+77	10	1	14	3
+
+*end  farside
+
+
+*begin farsideco1
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Balcon Hohle
+
+*export 46x
+
+*title "The Far Side crap out 1"
+*date 2014.08.18
+*team Notes Rob Watson
+*team Insts Becka
+*instrument Beckas disto
+
+;ref.: 2014#47
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+46x	1	7.82	288	05
+1	2	1.79	266	18
+2	3	4.06	321	-6.5
+3	4	1.8	016	-3
+
+*data passage station left right up down ignoreall
+46x	0.7	0	5	1
+1	0.7	0	1.3	0.2	rhwall low down
+2	0	0.5	0.3	0.3	lhwall
+3	0	0.5	0.3	0	lhwall
+4	0.2	0.2	0.3	0	mid passage mud filled dig
+
+*end farsideco1
+
+
+
+*begin farsideco2
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Balcon Hohle
+
+*export 69x  
+
+*title "The Far Side crap out 2"
+*date 2014.08.18
+*team Notes Rob Watson
+*team Insts Becka
+*instrument Beckas disto
+
+;ref.: 2014#47
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+5	69x	2.98	195.5	-6
+6	5	3.56	173	8
+7	6	6.11	106	-34
+8	7	8.77	108	3.5
+8	9	4.15	221	-16
+
+8	10	4.36	332	03
+
+11	6	4.98	162	-02
+12	11	8.27	170	-8
+
+
+*data passage station left right up down ignoreall
+
+69x	2	0	9	1
+5	0.4	1.3	7.5	1
+6	2	0	5	0.5
+7	1.5	0.5	1.6	1
+8	0.5	2	1.2	1
+9	2	2.5	11	2.8
+
+*data passage station left right up down ignoreall
+8	0.5	2	1.2	1
+10	0	0.5	1	0.2
+
+*data passage station left right up down ignoreall
+6	2	0	5	0.5
+11	1	0.4	1.4	1.3
+12	0.6	0.2	0.3	1.1
+
+*end farsideco2
+
+
+*begin farsideco3
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Balcon Hohle
+
+*export 44x  
+
+*title "The Far Side crap out 3"
+*date 2014.08.18
+*team Notes Rob Watson
+*team Insts Becka
+*instrument Beckas disto
+
+;ref.: 2014#47
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+13	44x	0.77	120	+52
+14	13	3.27	109	+5
+15	14	9.12	118	4
+16	15	12.29	115	6
+17	16	11.32	107	13
+18	17	4.97	097	-29
+18	19	5.1	351	41
+
+
+*data passage station left right up down ignoreall
+44x	0	2	2.5	1
+13	0.4	2	3.8	1.1
+14	1	0.4	1.4	0.5
+15	1.1	0	0.3	1
+16	1.4	0.5	0.4	1
+17	1.3	0.4	1	0.3
+18	0.4	1.5	0.7	0.3
+19	1	1.5	0.5	0.5
+
+*end farsideco3
+
+*begin farsideco4
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Balcon Hohle
+
+*export 36x  
+
+*title "The Far Side crap out 4"
+*date 2014.08.18
+*team Notes Rob Watson
+*team Insts Becka
+*instrument Beckas disto
+
+;ref.: 2014#47
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+20	36x	7.1	149	-12   ; reversed leg
+20	21	10.47	079	24.5
+
+22	20	3.51	187	-16
+23	22	8.99	176	-14
+24	23	6.82	192	-21
+24	25	9.41	354	12
+
+
+*data passage station left right up down ignoreall
+36x	0.8	0.5	0.6	1.2
+20	0	1.5	1	0.6
+21	0.3	0.3	0.3	0.8
+
+*data passage station left right up down ignoreall
+20	0	1.5	1	0.6
+22	1.4	2	1.2	0.3
+23	1	1	1.1	0.2
+24	0	0.5	0.5	0.2
+25	0.2	0.2	0.2	0.2
+
+
+*end farsideco4
+
+
+*begin farsideco5
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Balcon Hohle
+
+*export 34x  47x
+
+*title "The Far Side crap out 5"
+*date 2014.08.18
+*team Notes Rob Watson
+*team Insts Becka
+*instrument Beckas disto
+
+;ref.: 2014#47
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+26	34x	5.36	271	-13.5
+27	26	3.09	306	-9
+28	27	1.63	343.5	-10
+29	28	2.52	292	12
+30	29	1.39	265.5	19
+31	30	2.87	185.5	11.5
+32	31	3.72	175	-46
+33	32	3.00	188	-21
+34	33	4.63	159	-32
+35	34	9.65	176	-18
+36	35	6.74	167	-15
+37	36	5.85	167.5	-6
+38	37	3.36	158	-13
+39	38	3.33	173	-21
+39	40	6.99	004.5	1.5
+40	47x	1.38	298	23
+
+
+*data passage station left right up down ignoreall
+34x	0	1	2	1.5
+26	0	0.4	1.1	1.5
+27	0.5	0	0.8	1.7
+28	0.5	0.3	0.4	1.9
+29	0	0.4	0.4	1.5
+30	0.5	0	0.6	1.8
+31	0.3	0.3	2	0.7
+32	0	0.4	0.4	2
+33	0.4	0	0.6	2.2
+34	0.1	1	0.4	1.2
+35	0	0.6	0.5	2
+36	0.6	0	0.3	1.6
+37	0.5	0	3.6	2.4
+38	0	0.4	1	6
+39	0	0.5	0.5	2.5
+40	1.9	1.4	2.3	1
+47x	-	-	-	-	
+
+
+*end farsideco5
+
+

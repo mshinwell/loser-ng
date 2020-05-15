@@ -1,0 +1,41 @@
+*begin sandpit2
+
+*export 1 
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Sand Pit 2"
+*date 2008.08.10
+
+*team Insts Eeva Makiranta
+*team Notes Nial Peters
+
+*instrument set club pony
+
+; ref 2008#32
+
+; Calibration: none
+
+; ====== stations refindable to link to other surveys: ======
+1	2	1.59	359	-17
+2	3	0.93	061	-27
+3	4	13.43	-	DOWN
+4	5	2.49	351	14
+6	5	4.19	192	51
+
+*calibrate tape +0.00
+; +ve if tape was too short, -ve if too long
+
+
+*data passage station left right up down ignoreall
+1	1	0	0.2	2.5	number 14 from sandpit survey
+2	0.4	0.4	0.4	1.8	rp lhw
+3	1.5	0	-	-	pitch head bolt
+4	0.2	0.3	-	0	rock on floor
+5	0	0.5	-	4	rp lhw
+6	2	2.3	-	1.8	rp wall
+	
+
+
+*end sandpit2
+

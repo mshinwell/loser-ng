@@ -1,0 +1,28 @@
+*equate p2007-12 2007-12.4
+*entrance p2007-12
+
+*begin 2007-12
+
+*date 2007.08.01
+*team Insts Jon Telling
+*team Notes Morven Beranek
+
+*instrument GPS + guesswork -- grade 2
+; notes in 2007#57
+
+*export 4 
+
+*data normal from to tape compass clino ; was *data diving ... depthchange
+1	2	7.46	280	53.5 ; 6
+3	2	3.09	120	-29.04 ; -1.5
+3	4	1.66	320	46.29 ;	1.2
+
+
+*data passage station left right up down ignoreall
+;station	L	R	U	D	Desc.
+1	0.5	0.5	4.5	1	
+2	0.5	0.5	0.5	0
+3	2	1.5	-	0
+
+
+*end 2007-12

@@ -1,0 +1,40 @@
+*begin gps03_bis
+
+*title "Caves on Hinter north flank"
+*date 2003.07.22
+*team notes Becka
+*team GPS Earl
+*instrument Martin's GPS (E-Trex Vista?)
+*export 1 2 4 5 6 7 8 10
+
+; This didn't come to light for nearly two years and hence several caves listed here have been re-GPSsed since.
+
+*equate 1 p2003-X11
+*entrance p2003-X11
+*equate 2 p2003-X12
+*entrance p2003-X12
+*equate 4 p2003-X13
+*entrance p2003-X13
+*equate 5 p2003-X14
+*entrance p2003-X14
+*equate 6 p2003-X15
+*entrance p2003-X15
+*equate 7 p2003-X16
+*entrance p2003-X16
+*equate 8 p2003-X17
+*entrance p2003-X17
+*equate 10 p2003-X18
+*entrance p2003-X18
+
+*fix 1 reference	36700	83635	2000
+*fix 2 reference	36626	83584	2000
+*fix 3 reference	36609	83629	2000 ; this is 2000-08
+*fix 4 reference	36584	83508	2000
+*fix 5 reference	36620	83518	2000
+*fix 6 reference	36719	83310	2000
+*fix 7 reference	36787	83511	2000
+*fix 8 reference	36848	83660	2000
+; *fix 9 reference	36820	83858	2000 ; this is 247 (2003-03)
+*fix 10 reference	36581	83696	2000
+
+*end gps03_bis

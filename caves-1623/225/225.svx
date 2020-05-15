@@ -1,0 +1,13 @@
+*equate p225 225.0
+*entrance p225
+
+*begin 225
+*title "Jahrzehnschacht, 1623/225"
+*date 1990.07.12
+
+*export 0
+
+; Grade 1 survey data from Adam Cooper's logbook write-up
+0	1	12	-	down
+
+*end 225

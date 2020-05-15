@@ -1,0 +1,88 @@
+*begin nothing2see
+
+; stations linked into other surveys (or likely to)
+*export 8x 10x 11x 15x
+
+; Cave: 264 balkonhoehle
+; Area in cave/QM: Nothing_to_see
+*title "nothing to see 2"
+*date 2017.07.27
+*team Insts Luke stangroom 
+*team Notes Adam Aldridge
+*team Tape Racheal turnball aka EWE
+*instrument ULSA DistoX2
+; Calibration: its,probably_fine
+*ref 2017#24
+; the #number is on the clear pocket containing the original notes
+
+; if using a tape:
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+;Lots of errors if notes found check
+8x	1	3.59	169	+01
+1	2	5.26	169	+04
+2	3	8.30	138	-13.5
+3	4	1.11	060	+02
+4	5	10.52	203	-35
+5	15x	2.09	252	-26
+5	6	8.68	194	-21
+6	8	3.06	195	-25
+8	9	1.74	253	-15
+9	10	3.19	154	-14
+10	11	1.93	195	-19.5
+11  7 7.95	165.5	-16
+6	12	3.07	228	+09
+12	13	4.68	309	-07
+13	14	6.16	353	+19
+14	15	5.29	341	0
+15 10x	2.79	037.5	+36
+15 11x	2.46	265	+13
+
+;-----------
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	1	1.2	0.7	1.4
+2	0.9	0	1.2	1.5
+3	0.8	0	2	1.4
+4	0	1.2	2.5	1.7
+5	1.2	0.2	3.2	0.9
+6	0	1.8	3	2
+7	-	-	-	-
+8	0.1	0.5	4.2	1.7
+9	0.7	0	3.7	1.7
+10	0	0.7	3.7	1.7
+11	0	0.7	3.7	1.7
+12	0	1.3	2.2	1
+13	-	-	-	-
+14	0	1.9	1.2	1
+15	-	-	-	-
+8x	-	-	-	-
+10x	-	-	-	-
+15x	-	-	-	-
+11x	-	-	-	-
+
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surveyname.5    -    description of QM ]
+
+
+;------------
+;Cave description  ;(leave commented-out)
+
+;its a cave,underground,in austria.
+
+*end nothing2see

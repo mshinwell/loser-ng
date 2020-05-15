@@ -1,0 +1,21 @@
+*equate 220.1 p220
+
+*begin 220
+*title "1623/220 -- Kennedy Alternative (CUCC 2000-04)"
+*date 2000.08.01
+*team Notes Wookey
+*team Instruments Andy Atkinson
+
+; Ref 2000#08
+
+*export 1
+
+*data normal from to tape compass clino
+
+1	2	8.33	181	-41
+
+; Descriptions
+; 1	Tag bolt
+; 2	Left wall; 0.4m wide 2.5m high at this point
+
+*end 220

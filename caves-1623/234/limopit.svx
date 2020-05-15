@@ -1,0 +1,38 @@
+*begin limopit
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Hauchhoehle (1623/234)
+*title "Limo Pit"
+*date 2008.07.28
+*team Insts Peter Harley
+*team Notes Edvin Deadman
+*instrument Compass/Clino set #pony; tape Disto
+; Calibration:
+; ref.:	2008#08
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 7
+
+*calibrate tape +0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	6.88	190	-62
+2	3	1.78	073	+03
+4	3	2.92	121	-66
+5	4	9.02	284	-75
+7	6	0.51	181	-31
+6	5	2.31	292	-28
+
+*data passage station left right up down ignoreall
+1	1	1	-	-	Rock in pit in floor
+2	2	0	2	1	RP RH wall
+3	0	0.5	-	-	RP LH wall
+4	1	-	-	-	RP pitch
+5	-	1	2	-	1 foot below bolt
+6	1	0	0.2	-	RP above pit
+7	-	-	-	-	piersquared.25
+
+
+
+*end limopit

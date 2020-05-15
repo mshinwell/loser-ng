@@ -1,0 +1,15 @@
+; GPS locations from 2003
+*begin gps03
+*export near2003-01 248 246Earl 240
+*entrance 2003-07
+*fix 204g_maybe reference 36386.79 83849.92 1750 ; guessed altitude
+*fix 2000-08 reference 36609 83629 2000
+*fix near2003-01 36946 83663 1865; (altitude estimated from TDM - DL)
+*fix 248 36960 83654 1865; (altitude estimated from TDM - DL)
+*fix 246Martin reference 36929 82752 1772 ; this is very suspect - DL
+*fix 246Earl 36849 83231 1788
+*fix 2003-07 reference 36918 83108 1775
+*fix 240 reference 36919 83134 1791
+;*fix 161g reference 37112 82920 1718
+
+*end gps03

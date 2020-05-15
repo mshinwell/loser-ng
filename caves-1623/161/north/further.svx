@@ -1,0 +1,85 @@
+;1995.06.12 W corrected date from 1933 to 1993
+;1998.03.31 AERW sorted begin/end, exports, refs, comments, calib clino
+
+; ====== links between surveys in this file: ======
+
+*equate FurtCham.1	Further.4
+
+*begin Further
+
+; Cave:	Kaninchenhöhle: 1623/161, Loser plateau, Austria
+*title "Beyond Black Velvet: Further, Scrofulosity"
+*date 1993.07.22 ; trip 1993-161-19 in logbook
+*team Notes Wookey
+*team Insts Pete Lord
+*instrument Comp:112518  Clino:834867
+; Calibration:	040/5, 041, 040/5, clino:+09.5, +10, +09.5, -10, -10.5, -10
+; ref.:	1993 survey book pp 171, 173
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; carbide mark high up at corner in Far Too Far survey
+*export 4	; carbide mark on rock tip at base of Axle Stand pitch
+*export 18	; RH wall above narrow rift (QM 93-05)
+*export 25	; RH wall before pitch (QM 93-02)
+
+*calibrate clino -0.25
+
+2       1        5.48   170     +38
+2       3        5.10   043     -48
+4       3       14.58   302     +50
+4       5        2.11   314     +20
+6       5       11.23   057     -07
+6       7        5.00   214     +08
+8       7        5.41   021     -03
+8       9        6.05   262     -08
+4       10       7.40   133     -09
+10      11       5.67   140     -02
+11      12       1.85   144     -12
+13      12       9.45   324     -03
+13      14       9.40   162     +03
+14      15       3.75   140     -52
+16      15      10.20   337      00
+16      17       4.56   158     +03
+18      17       6.76   328     -08
+18      19       2.09   101     -14
+20      19       3.93   340     -02
+20      21       1.12   062     -18
+21      22       5.97   167     -09
+23      21       5.88   210     +06
+24      23       5.10   176     -06
+24      25       4.50   035     +08
+
+*end Further
+
+*begin FurtCham
+
+; Cave:	Kaninchenhöhle: 1623/161, Loser plateau, Austria
+*title "More of Further, The Needle, Final chamber"
+*date 1993.07.23 ; trip 1993-161-19 in logbook
+*team Notes Wook
+*team Insts Sapling
+; clino readings all in percent due to unreadable normal scale, standard
+; clino readings inferred by looking at one in daylight to translate
+*instrument same as Further (2nd day of camping trip)
+
+; ref.:	1993 survey book p 172-173
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; carbide mark on rock tip at base of Axle Stand pitch
+*export 5	; wall(-ish), white mark "END", below Weasel Pit, above pitch (QM 93-01)
+
+*calibrate clino -0.25
+
+2       1       17.00   206      00     ; original readings:
+3       2       10.70   167     -54     ;-138%
+3       4        9.50   028     +04.5   ;+08%
+4       5        9.05   127     -24     ;-45%
+4       6        9.60   055     -34     ;-67%
+4       7       10.90   023     -44     ;-96%
+7       8        8.50   218     -21.5   ;-39%
+8       9        5.85   262     -24     ;-44%
+10      9        5.45   115     +20     ;+36%
+
+*end FurtCham

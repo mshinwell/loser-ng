@@ -1,0 +1,87 @@
+;1998.03.02 AERW sorted begin/end, added comments and refs.
+
+*begin ambi
+; ======  stations refindable to link to other surveys: ======
+
+*export pt1.1	; rock in middle of passage, top of slope down to Black Lagoon
+*export pt2.29	; carbide mark on bottom of flake in roof in Wobbling,
+		; directly opposite entry to Wormhole
+
+; ====== links between surveys in Ambidextrous: ======
+
+*equate pt1.9	pt2.9
+
+*begin pt1
+
+; Cave:	Kaninchenhöhle, 1623/161
+; Locn:	Totes Gebirge, Austria
+*title "Ambidextrous - part 1 'Time Dilation'"
+*date 1991.07.20 ; trip 1991-161-13 in logbook
+*team Insts AndyA
+*team Notes Wookey
+*instrument illum compass, illum clino
+; Calibration:	252(cloudy zinken),043.5(cairn); +11,-09
+; ref.:	1991 survey book p 88
+
+; ======  stations refindable to link to other surveys: ======
+
+*export 1	; rock in middle of passage, top of slope down to Black Lagoon
+*export 9	; S wall opposite foot of Time Dilation pitch 1.6m off floor
+
+*calibrate clino +1.0
+
+1       2       13.07   206.5   19
+3       2       6.93    174     44.5
+3       4       3.51    276.5   -34
+5       4       9.09    058.5   00
+5       6       13.32   305     02
+6       7       6.35    229     -30.5
+7       8       7.90    -       down
+9       8       2.58    347.5   38.5
+
+*end pt1
+*begin pt2
+
+; Cave:	Kaninchenhöhle, 1623/161
+; Locn:	Totes Gebirge, Austria
+*title "Ambidextrous - part 2"
+*date 1991.07.22 ; 23 - trip 1991-161-14 in logbook
+*team Insts Wookey
+*team Notes Olly
+*instrument illum compass, illum clino
+; Calibration:	1-2 040.5, 040; +11, +11
+;		2-1		-09, -08.5
+; ref.:	1991 survey book pp 89-91 (survey), p 81 (calibration)
+
+; ======  stations refindable to link to other surveys: ======
+
+*export 9	; S wall opposite foot of Time Dilation pitch 1.6m off floor
+*export 29	; carbide mark on bottom of flake in roof in Wobbling,
+		; directly opposite entry to Wormhole
+
+*calibrate clino +1.125
+
+9      10     4.10    316    -16
+11     10     7.98    211.5   26
+12     11     4.43    142     24.5
+12     13     6.93    223     41
+14     13     4.73    155    -08
+15     14     4.60    064    -04
+15     16     2.66    -      down
+17     16     3.54    038     13
+17     18     3.10    218     08
+18     19     4.59    282.5  -15
+19     20     8.95    229    -14
+20     21     8.30    321    -12
+22     21     3.88    200     00
+23     22     3.36    143     18
+24     23     5.86    167     08
+24     25     4.61    342    -05
+25     26     1.71    310     11
+27     26     1.54    253     11
+28     27     1.39    225     31
+28     29     3.00    092    -48.5
+
+*end pt2
+*end ambi
+

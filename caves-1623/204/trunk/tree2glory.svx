@@ -1,0 +1,47 @@
+*begin tree2glory
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Tree2Glory"
+*date 2002.08.17
+*team Insts Martin Green
+*team Notes Simon Redhead
+*team Tape Martin Green
+*instrument Compass #2 ; Clino #2, Tape: open reel with two fixed breaks
+; Calibration: 148/+23, 147/+23.5, 147.5/+23, 327.5/-22, 327/-24, 328/-23
+; ref.:	2002 #20
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 9 
+
+*units tape 0.01 metres
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	649	295	-9
+3	2	950	183	+14
+4	3	595	198	+02
+5	4	344	118	-21
+6	5	333	208	-29
+7	6	432	80	+22
+8	7	271	45	+22
+9	8	884	40	+3
+
+;station details
+;name	L	R	U	D	description
+;1	0	650	800	200
+;2	650	0	800	100
+;3	0	110	70	80
+;4	130	20	150	70
+;5	20	300	250	150
+;6	160	10	250	40
+;7	120	10	180	100
+;8					CM
+;9					RP no. 5
+
+
+*end tree2glory
+
+

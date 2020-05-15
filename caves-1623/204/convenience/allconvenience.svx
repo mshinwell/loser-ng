@@ -1,0 +1,40 @@
+*begin allconvenience
+*export convenience.1
+
+*include convenience
+
+*include worry
+
+*equate worry.1 convenience.63
+*equate worry.6 convenience.64
+
+*include cakes
+*equate cakes.1 convenience.54
+
+*include engaged
+*equate engaged.1 convenience.42
+
+*include shit
+*equate shit.1 convenience.39
+*equate shit.10 engaged.10 ; not sure if either of these links is right, need to check with Nial -- DL 2007-07-27
+
+*include sltr
+*equate sltr.0 engaged.3
+
+*include crapper1
+*equate crapper1.X cakes.9
+*equate crapper1.3 engaged.11
+
+*include crapper2
+*equate crapper2.a convenience.66
+
+*include crapper3
+*equate crapper3.b convenience.69
+
+*include channelfive1
+*equate channelfive1.5x crapper1.5
+
+*include channelfive2
+*equate channelfive2.1x channelfive1.1
+
+*end allconvenience

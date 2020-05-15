@@ -1,0 +1,67 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	258 "Tunnockschacht"
+
+*begin literalnorth
+
+*export 2 ; = ribsknodel2.2
+*export 6 ; start of squirrel survey
+*export 17 ; pleasure series junction
+*export 19 12 3 8
+*export 13 ; = literalnorth13 in franklyfreezing
+
+*title "258: Literal North (Ribs and Knoedel part 3)"
+*date 2007.08.07
+*team Insts Pete Harley
+*team Notes Frank Tully
+*instrument Set ??
+
+; 2007#45
+
+*calibrate tape +0.00
+
+*data normal from to tape compass clino
+
+2	3	4.79	327	-36
+3	4	6.97	304	-49
+4	5	2.17	325	-02
+5	6	16.92	238	-49	;not sure if this bearing is correct, it feels wrong
+7	6	26.95	140	-03
+7	8	8.45	314	-23
+9	8	5.32	168	+15
+9	10	11.44	325	-03
+11	10	1.72	258	-40
+11	12	3.82	350	-25
+13	12	9.10	165	+25
+13	14	10.18	027	+34
+15	14	5.16	155	-01
+15	16	10.38	029	+29
+17	16	7.29	239	+04
+17	18	11.68	017	+21
+19	18	12.75	224	-17
+
+;###################################
+;Possible compass error due to interference between compass and light!! Looks ok though.
+;###################################
+
+*data passage station left right up down ignoreall
+; LRUDs looking up the passage (towards ribsknodel part 1)
+2	5	0.5	2	1	pt on boulder in floor, part of existing survey from 2006
+3	8	0	3	1	pt on wall below QM C
+4	8	2	6	1	spike near drafting passage
+5	8	1.2	3	0.6	edge of spike out of wall near drafting QM
+6	0.8	7	10	0.7	pt on edge of chamber
+7	2.5	2.5	0	2	pt on ceil
+8	2.5	4.5	0	1.5	pt ceil near jct
+9	1.2	0.5	0.5	0.3	pt spike on floor
+10	3	3	8	0.3	pt wall
+11	0	0.5	8	3	pt wall below boulder
+12	0	3	9	3	pt wall
+13	0	4	6	1.2	pt on wall of trench
+14	3.5	0	2.5	2	pt wall
+15	0.3	2.5	3	1.5	spike down on wall
+16	1.5	2	0.4	1.5	sharp point [notes not very legible]
+17	4.	2.5	1.5	1.5	pt on wall
+18	2.5	4.5	4.0	2.5	v large boulder
+19	2	2	10	0.6	"big-ass boulder" (sic)
+
+*end literalnorth

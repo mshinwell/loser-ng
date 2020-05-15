@@ -1,0 +1,63 @@
+*begin penguinfellatio
+
+; stations linked into other surveys (or likely to)
+*export 1 4 9
+
+; Cave: Balcony
+; Area in cave/QM: 
+*title "Penguin Falatio"
+*date 2015.08.11
+*team Insts Brendon
+*team Notes Matt
+*team Nail Polish Monkey Sarah
+*instrument Bredons DistoX
+; Calibration: ?
+*ref 2015#78
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+1	2	3.40	70.1	-8.8
+2	3	14.32	160.3	+61.3
+3	4	10.79	236.6	+77.8
+4	5	1.17	179.4	-42.3
+5	6	6.44	205.8	+52.7
+6	7	5.01	286.1	+73.1
+8	7	7.10	33.0	-29.1
+9	8	12.48	70.7	-34.6
+
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+;Rebelays numbered from the bottom using 2015 rig
+*data passage station left right up down 
+1	8.5	0.4	38.0	1.5	;Ice cock survey station 11
+2	6.6	3.4	38	1.1	;Boulder middle of chamber
+3	5.5	1.5	19.7	14.1	;LHW 2m above deviation
+4	3.0	0.3	14.4	4.3	;Flake right of second rebelay
+5	7.5	3.1	10.5	2.5	;Right of second rebelay
+6	3.0	2.0	13	1.1	;5m below third rebelay (pitch head)
+7	3.5	1.1	14.6	1.8	;1m from third rebelay (pitch head)
+8	3.2	2.79	9.4	1.1	;Boulder mid passage
+9	4.2	2.9	7.2	1.6	;Pencil X on wall at top of boulder slope, (previous station 4)
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surveyname.5    -    description of QM ]
+
+;------------
+;Cave description  ;(leave commented-out)
+
+*end penguinfellatio

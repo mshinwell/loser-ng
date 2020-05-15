@@ -1,0 +1,34 @@
+;default to output in utm33, input in 'Austria G&K'
+*cs out utm33
+*cs custom "+proj=tmerc +lat_0=0 +lon_0=13d20 +k=1 +x_0=0 +y_0=-5200000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232"
+
+; From Rob Adams's GPS, taken by Mark Shinwell
+; GPS was set directly to BMN
+*entrance p2014-ms-09
+*fix p2014-ms-09 reference 37067 83007 1778 
+*entrance p2014-ms-11
+*fix p2014-ms-11 reference 37345 83188 1667
+*entrance p2014-ms-12
+*fix p2014-ms-12 reference 37531 83334 1613
+*entrance p2014-ms-13
+*fix p2014-ms-13 reference 37564 83408 1660
+; superseded by 2018 GPS fix at tag location
+;*entrance p2014-ms-14
+;*fix p2014-ms-14 reference 37670 83503 1669
+
+;From Sams GPS 
+;GPS was set to WGS84
+;originally recorded as t2014-neo-01
+*entrance t273
+*fix t273 reference 36445.20 84353.38 1766 ; 20m accuracy was report by GPS (1766m Alt N47d41.810' E013d49.087'
+
+;From Robs GPS
+;GPS was set to Austrian system 
+;MJG this seems like it needs fixing.  An austrian system with lat long?
+*entrance p2014-sd-01
+*fix p2014-sd-01 reference 36498 84501 1822 ; original data was 13d49.114'E 47d41.768'N 1790A
+
+;From Beckas GPS
+;GPS was set to WGS84
+*entrance p2014-BL888
+*fix p2014-BL888 reference 36431.69 84516.38 1801	; original data was N47d41.898' E013d49.077', 1801 elevation, Becka's GPS

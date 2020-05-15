@@ -1,0 +1,39 @@
+;2000.03.08 W Created. Data moved out of 40/altsvx
+;2013.05.13 W Not clear if this is in 40 or a different cave, and if so where it is.
+
+*begin jutta
+
+; Locn:	flank of Vorderer Schwarzmoos Kgl, Loser Augst-Eck, Totes Gebirge, Austria
+; Cave:	 1623/Juttahöhle
+*title "JuttaHöhle"
+*date 1984.08.26 ; ???
+
+;Daten der Entdecker der Schneevulkanhalle
+;Schwarzmooskogel-Eishöhle (1623/40)
+;erhalten am 12.11.1999 von Franz Lindenmayr
+;Einzige Aufschrift: "3. Fassung vom 26.8.84"
+;Erläuterungen aufgrund einer anderen Liste, die aber hier zu passen scheint
+
+;data from the first explorer of Schneevulkanhalle
+; Schwarzmooskogel-Eishöhle (1623/40)
+;received from Franz Lindenmayr (Nov. 12. 1999)
+;only information on the datasheet: "3d edition from 26. August 84"
+;comments based on another paper, which seems to fit here
+
+
+*data normal from to compass clino length
+951	952	210	-32	11.3
+952	953	0	-90	13.1
+953	954	139	0	3.25
+954	955	148	40	9.1
+955	956	191	14	2.95
+956	957	138	-49	3.03
+957	958	190	-32	7
+
+951	959	213	-42	6.8
+959	960	207	-10	3.8
+960	961	196	29	6.4
+961	962	155	0	1.55
+962	963	172	20	6.5
+
+*end jutta

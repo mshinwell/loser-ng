@@ -1,0 +1,23 @@
+*entrance p2010-02
+*entrance p2010-04
+*entrance p2010-05
+
+; From Martin Green's GPS, taken by Martin Green
+*fix  gps2010-01 reference 36373 84394 1770
+
+; From Martin Green's GPS, taken by Mark Shinwell:
+*fix p2010-02 reference 36746 84306 1859
+*fix p2010-03 reference 36743 84640 1866
+*fix p2010-04 reference 36721 84636 1860
+*fix p2010-05 reference 36683 84576 1885
+
+
+*begin
+; From Neil Pacey's GPS taken by Frank Tully
+; Not set up for Austrian Grid
+; GPS 2010-07 reference WGS84 Zone 33T 0411503 5283072
+*cs UTM33
+*fix gps2010-07 reference 0411503 5283072 1896.14
+; The GPS fix lack an altitude, but appears to be < 2m from p2010-06 which has
+; a surface survey to it so altitude taken from there for now.
+*end

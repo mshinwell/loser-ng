@@ -1,0 +1,351 @@
+; 2006 surface surveys near(ish) 0/6
+
+*equate 99ob02_to_2005-93.1 p99ob02
+*equate 99ob02_to_2005-93.5 103_to_108.15 p2005-93
+*entrance p2005-93
+*equate 103_to_108.1 t103
+*equate 103_to_108.4 p101a
+*entrance p101a
+*equate 103_to_108.9 p1998-x01
+*equate 103_to_108.13 p2005-92
+*entrance p2005-92
+*equate 103_to_108.16 p2005-95
+*entrance p2005-95
+*equate 103_to_108.22 p108
+*equate 103_to_108.24 p2005-99
+*entrance p2005-99
+*equate 103_to_108.27 2005-98_to_200.1
+*equate 2005-98_to_200.2 p2005-98
+*entrance p2005-98
+*equate 2005-98_to_200.4 p2005-97 ; notes incorrectly say p2005-99
+*entrance p2005-97
+*equate 2005-98_to_200.8 p97
+*equate 2005-98_to_200.14 p2006-71
+*equate 2005-98_to_200.20 p2004-08
+*equate 2005-98_to_200.23 p2004-07
+*entrance p2004-07
+*equate 2005-98_to_200.28 p176
+*equate 2005-98_to_200.30 p175
+*equate 2005-98_to_200.39 p174
+*equate 2005-98_to_200.44 t200
+*equate 176_to_111.1 p176
+*equate 176_to_111.6 p98
+*entrance p98
+*equate 176_to_111.14 p111
+*entrance p111
+*equate 176_to_111.13 p112
+*entrance p112
+*equate 2005-92_to_2005-94.1 p2005-92
+*equate 2005-92_to_2005-94.3 p2005-94
+*entrance p2005-94
+*equate 2005-96surf.1 103_to_108.12
+*equate 2005-96surf.2 p2005-96
+*entrance p2005-96
+
+*begin 99ob02_to_2005-93
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Surface
+*title "99ob02 to 2005-93"
+*date 2006.08.04
+*team Insts Jenny
+*team Notes Olly
+*team Pics 
+*team Tape Jenny
+*instrument Olly & Jenny's set; CUCC red open frame 50m tape
+; Calibration:
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 5
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+2	1	13.46	127	-06
+2	3	24.97	346	+02.5
+4	3	11.59	163	 00
+4	5	1.07	-	down
+
+;station details
+; 1	990b02 tag
+; 2	J's eye
+; 3	tip of cairn
+; 4	J's eye
+; 5	tag for 2005-93
+
+*end 99ob02_to_2005-93
+
+*begin 103_to_108
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Surface
+*title "103 to 108 and more"
+*date 2006.08.04
+*team Insts Jenny
+*team Notes Olly
+*team Pics 
+*team Tape Jenny
+*instrument Olly & Jenny's set; CUCC red open frame 50m tape
+; notes in 2006 #24
+
+; Calibration:
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 4 9 12 13 15 16 22 24 27
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+2	1	4.36	228.5	+21.5
+3	2	25.67	283	+01.5
+3	4	9.44	168	+07
+5	4	26.45	288	-06
+5	6	19.76	123	+08
+7	6	12.08	279	-07 ; notes say compass 179
+7	8	9.40	278	-21
+8	9	0.20	-	down
+7	10	26.70	121	+03
+10	11	26.36	100	-01
+11	12	27.75	061	-03
+14	13	14.83	117	-03
+14	15	15.95	264	-14.5
+14	16	8.22	010	-05
+17	16	1.205	-	down
+18	17	32.04	205.5	 00
+18	19	25.23	341	-02
+19	12	29.03	308.5	 00
+19	20	25.39	019	 00
+21	20	19.38	217	+05
+21	22	4.43	046	+04.5
+21	23	34.62	331.5	+02.5
+23	24	15.56	304	-25
+23	25	27.96	337	-02
+26	25	30.35	216	-08
+27	26	12.07	287	+11
+
+;station details
+; 1	103 tag bolt
+; 2	tip of cairn
+; 3	tip of cairn
+; 4	centre of paint '0' in '101A'
+; 5	tip of bunde
+; 6	top of ski pole
+; 7	tip of bunde
+; 8	above 9
+; 9	red paint '+'
+; 10	cairn tip
+; 11	top of trekking pole nr cairn
+; 12	rock on cairn
+; 13	2005-92 tag
+; 14	J's trekking pole
+; 15	2005-93 tag
+; 16	2005-95 tag
+; 17	ski pole top
+; 18	cairn tip
+; 19	point on top of bldr
+; 20	bunde tip
+; 21	bunde tip
+; 22	p108 spit
+; 23	ski pole
+; 24	2005-99 tag
+; 25	pebble on bldr
+; 26	bunde tip
+; 27	cairn on small bldr by hanger pot
+
+*end 103_to_108
+
+*begin 2005-98_to_200
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Surface
+*title "2005-98 to 200 and more"
+*date 2006.08.05
+*team Insts Jenny
+*team Notes Olly
+*team Pics 
+*team Tape Jenny
+*instrument Olly & Jenny's set; CUCC red open frame 50m tape
+; notes in 2006 #25
+
+; Calibration:
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 2 4 8 10 14 20 23 28 30 39 44
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+1	2	2.585	039	+13
+1	3	9.33	101	+20
+3	4	5.64	050	-19.5
+3	5	35.95	016	+04
+5	6	15.06	013.5	+04
+7	6	28.14	244.5	-02
+7	8	6.41	250	-34
+9	8	4.83	233	-34
+9	10	24.93	031	+03
+10	11	20.10	125	+07
+12	11	30.37	276	-04.5
+13	12	17.35	297	-08
+13	14	8.06	004	-14.5
+10	15	22.60	312	+00.5
+16	15	30.15	134	-04
+16	17	43.61	021	+11
+18	17	42.05	188	-01
+18	19	22.53	274.5	-00.5
+19	20	21.75	271.5	-05.5
+21	20	29.02	161	-09.5
+21	22	15.59	262	+07
+22	23	18.47	302	-11
+24	23	9.31	203	-15
+24	25	27.37	333	+11
+25	26	19.18	290	+14
+26	27	24.53	317	+02
+27	28	28.50	017	+11
+27	29	17.62	205	-04
+29	30	22.29	220	-05
+29	31	25.56	217	-01.5
+32	31	25.48	057	+05
+32	33	30.23	225	-04
+33	34	28.03	232	+05
+35	34	24.50	037	 00
+35	36	32.25	223	+02
+37	36	23.53	034	-04
+38	37	28.06	042	-06
+38	39	6.50	240	-23
+40	38	43.30	046	+12.5
+41	40	18.00	065	-03
+41	42	16.78	206	-15
+43	42	9.97	344	+12
+43	44	3.63	278	-29
+
+;station details32.42
+
+*end 2005-98_to_200
+
+*begin 176_to_111
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Surface
+*title "176 to 98, 111, 112"
+*date 2006.08.12
+*team Insts Jenny
+*team Notes Olly
+*team Pics 
+*team Tape Jenny
+*instrument Olly & Jenny's set; CUCC red open frame 50m tape
+; notes in 2006 #32
+; Calibration:
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 6 13 14
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+2	1	32.42	235	-13
+2	3	16.60	085	+09
+4	3	8.89	343	+21
+4	5	36.20	037	+03
+5	6	29.18	043	-04
+7	6	9.03	107	+01
+8	7	28.90	174	-06
+8	9	16.53	035	+09
+9	10	8.99	082	 00
+10	11	41.90	012	+06
+12	11	24.04	206	+04
+12	13	15.36	215	-12.5
+12	14	15.31	282	-10
+
+;station details
+
+*end 176_to_111
+
+*begin 2005-92_to_2005-94
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Surface
+*title "2005-92 to 2005-94"
+*date 2006.08.11
+*team Insts Jenny
+*team Notes Olly
+*team Pics 
+*team Tape Jenny
+*instrument Olly & Jenny's set; Disto
+; Calibration:
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 3
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+2	1	10.124	150	-06
+2	3	2.825	351	-28
+
+;station details
+;1	"2005-92" tag
+;2	bunde tip
+;3	"2005-94" tag
+
+*end 2005-92_to_2005-94
+
+*equate 1998-03_to_2004-03.1 t210 ; 1998/03 is now 1623/210
+*equate 1998-03_to_2004-03.4 p2004-03
+*entrance p2004-03
+*begin 1998-03_to_2004-03
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Surface
+*title "1998-03 (aka 1623/210) to 2004-03 surface survey"
+*date 2006.08.11
+*team Insts Jenny
+*team Notes Olly
+*team Pics 
+*team Tape Jenny
+*instrument Olly & Jenny's set; red CUCC open reel tape (assumed)
+; Calibration:
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 4
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+2	1	8.83	037	-19
+2	3	13.97	166	-10.5
+3	4	14.11	206	+16.5
+
+;station details
+;1	"1998/03" tag aka t210
+;2	rock pavement
+;3	tip of new cairn
+;4	"2004/03" tag
+
+*end 1998-03_to_2004-03
+
+*begin 2005-96surf
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Surface
+*title "2005-96 surface survey"
+*date 2006.08.12
+*team Insts Jenny
+*team Notes Olly
+*team Pics 
+*team Tape Jenny
+*instrument Olly & Jenny's set; Disto
+; Calibration:
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 2
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+1	2	25.626	181	-04
+
+;station details
+;1	cairn with rock on top (103_to_108.12)
+;2	"2005-96" tag
+
+*end 2005-96surf

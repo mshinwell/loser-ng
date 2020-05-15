@@ -1,0 +1,52 @@
+*begin 204dto2004-18
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "204d to 2004-18 surface survey"
+*date 2005.08.1
+*team Insts Frank Tully
+*team Notes Earl Merson
+*team Tape both
+;* instrument whatever
+; Calibration: none
+; ref: 2005#20
+; ====== stations refindable to link to other surveys: ======
+
+*export start end 11
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+start	1	11.93	021	-24
+1	2	28.12	026	+18
+3	2	30.35	252	-34	
+3	4	30.1	347	+11
+5	4	18.20	220	-28
+5	6	24.65	352	-04
+7	6	11.10	178	-10
+7	8	22.90	0	-05
+9	8	22.20	284	-14
+9	10	20.90	20	+01
+11	10	13.30	284	-12
+11	12	25.37	99.5	+09
+13	12	4.33	224	+24
+13	end	1.35	126	-21
+;station details
+;name	L	R	U	D	description
+;start	-	-	-	-	204d tag
+;1	-	-	-	0.1	rock in crack at edge of shake hole
+;2	-	-	-	0	scratched cross on rock
+;3	-	-	-	0.3	bunda tip
+;4	-	-	-	1.4	bunda tip
+;5	-	-	-	1.3	bunda tip
+;6	-	-	-	1.0	bunda tip
+;7	-	-	-	0.7	bunda tip
+;8	-	-	-	0.8	bunda tip
+;9	-	-	-	0	point on rock by a trench leading to a cave
+;10	-	-	-	1.2	bunda tip
+;11	-	-	-	0.6	obvious pointy rock with a scratched cross
+;12	-	-	-	1.0	top of boulder in centre of valley
+;13	-	-	-	0.7	tip of rock
+;14	-	-	-	1.5	2004-18 tag bolt
+
+*end 204dto2004-18

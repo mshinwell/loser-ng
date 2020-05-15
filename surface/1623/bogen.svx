@@ -1,0 +1,49 @@
+*begin 2006-06
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "Bogenhöhle (2006-06) and 157"
+*date 2001.08.12
+*team Insts Mark Shinwell
+*team Notes Mike Cox
+*team Pics Mike Cox
+*team Tape Mark Shinwell
+*instrument Compass #XX ; Clino #XX Tape: unknown  (yellow inst set, no light)
+; Calibration: None
+; ref.:	2001 #11
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 9 7 4 5
+*entrance 4 ; 2006-06 (Bogenhöhle)
+*entrance 7 ; 157
+
+*flags not surface
+;from	to	tape	compass	clino	; remarks
+2	1	2.59	166	+50
+3	2	3.82	111	+30
+4	3	25.08	120	+17
+*flags surface
+4	5	3.215	348.5	+19.5
+6	5	19.96	097.5	+21
+6	7	1.67	007	-45
+8	7	11.86	153	-31
+9	8	8.27	189.5	-2
+
+;station details
+;name	ht	description
+;1	0	top of fissure (vocal connection to Bogenhöhle)
+
+;name	L	R	U	D	description
+;2	3	4	0.2	0.5	rock jammed in fissure
+;3	4	2	1	0	nose of rock
+
+;name	ht	description
+;4	0	nose of rock at drip line
+;5	1	Tag bolt for Bogenhöhle
+;6	1	Plant leaf
+;7	0	Tag bolt for 157
+;8	0.75	Bunde tip
+;9	0	Laser 0/5 tag bolt
+
+*end 2006-06
+

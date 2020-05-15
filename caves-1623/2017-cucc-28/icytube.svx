@@ -1,0 +1,68 @@
+*begin icytube
+									 									
+; stations linked into other surveys (or likely to)
+*export 14x 7
+
+; Cave: Fisch Gesicht Hoehle
+; Area in cave/QM: Entrance
+*title "Fisch Gesicht Hoehle"
+*date 2017.08.08
+*team Insts Aidan Marks
+*team Notes Radost Waszkiewicz
+*instrument CHECC Disto
+; Calibration: Probably Austria
+*ref 2017#48
+
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall	
+							
+1	2	5.33	123	-53
+2	3	1.15	144	+05
+1	4	4.72	161	+24
+4	5	1.35	165	+03
+5	6	1.23	235	+02
+7	1	26.29	016	-85
+7	8	10.46	173	+78
+8	9	6.21	132	+68
+9	10	4.48	080	+25
+10	11	4.25	355	+69
+11	14x	4.09	030	+20
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down ignoreall
+
+1	0	3	28	1	pitch bottom, start tube
+2	0.3	0.3	0	0.4	tube ceiling
+3	0.5	0	0.4	0.3	tube RW
+4	1	0	15	1.5	rift entrance
+5	0	0.2	15	1	rift
+6	0	0.2	15	1	rift
+7	0	1	10	27	rebelay
+8	1	1	6	0	icy passage
+9	0.5	1	4	1	icy passage
+10	0.3	0	2	5	end icy passage
+11	0	0.5	1	1	drafting crawl
+14x	-	-	-	-	numbered stn from previous survey 
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surveyname.5    -    description of QM ]
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+
+; Continuation from ice block through icy tube down approx 30m pitch	
+
+*end icytube

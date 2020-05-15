@@ -1,0 +1,40 @@
+*begin highhopes
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle
+*title "High Hopes"
+*date 2005.07.23
+*team Insts Nial Peters
+*team Notes Wookey
+
+; instrument set 3
+; calibration at stone bridge: 331/-22 150/+22
+
+*export 1 4 5 7 8 11
+
+1       2       6.72    342     +52
+3       2       1.07    179     +33
+4       3       4.17    146     +18
+5       4       9.33    175     +25
+6       5       5.24    210     +02
+6       7       5.37    341     -32     ; reversed from notes
+7       8       3.60    -       down
+8       9       4.64    032     -25
+9       10      2.48    310     +49
+10      11      5.47    312     +49
+
+; stn   L       R       D       U       desc    <-- note order!
+; 1     3.5     4       0.7     ~10
+; 2     0       2.5     1.1     2.5
+; 3     -       -       -       -
+; 4     1.5     0.5     2       1
+; 5     0.5     2       0.4     1.5
+; 6     1.5     0.5     0       0.5
+; 7     1       1.2  0.2 or ~4  0.7
+; 8     0       1.3     1.6     4.5
+; 9     1.5     1       1       2.5
+; 10    1       1.7     1.6     0.8
+; 11    0       1.2     0.6     1.4
+
+*end highhopes
+

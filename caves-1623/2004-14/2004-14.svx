@@ -1,0 +1,31 @@
+*equate 2004-14.3 p2004-14
+*entrance p2004-14
+
+*begin 2004-14
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "2004-14"
+*date 2004.08.01
+*team Insts Olly Madge
+*team Notes Mark Shinwell
+*team Tape Stuart Bennett
+; ref.:	2004 #41
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 3
+
+*calibrate tape 0.40	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino
+1	2	23.25	092	-36
+*flags surface
+3	1	6.74	095	-27
+
+;stn	L	R	U	D	Desc
+;1	2	2	sky	0	pt on snow
+;2	0	0.5	4.5	0.5	pt LW base of slope
+;3	-	4	sky	0	tag bolt
+
+*end 2004-14
+

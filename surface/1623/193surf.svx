@@ -1,0 +1,54 @@
+*begin 193surf
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "193"
+*date 2000.08.10
+*team Insts Martin
+*team Notes Julia
+*team Pics Julia
+*team Tape Both
+*instrument Wook's geological ones; Tape ?
+; Calibration: None.
+; ref.:	2000 #37
+
+; Bearings from stn 11: Cross on Trisselberg 186
+;                       Vord                 237
+;                       Summit of Hinter     001
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 a
+
+*calibrate tape +0.10	; +ve if tape was too short, -ve if too long
+*calibrate compass +180;All readings on compass changed by 180deg
+
+;from	to	tape	compass	clino	; remarks
+2	1	25.47	122	+06		
+2	3	13.64	303	+13
+4	3	30.38	074	-08
+4	5	19.83	315	+06
+6	5	19.21	063	+14
+6	7	26.53	309	-06
+8	7	19.10	116	-01
+8	9	22.60	235	-05
+10	9	8.39	043	-03
+10	11	35.20	227	-08
+11	A	4.64	255	-21	; A is station 6 of underground 193 survey
+					; (in notes this station is in the
+					;  underground part, 2000 #36)
+;station details
+;name	description
+;1	161c tag bolt
+;2	top of rock in rift
+;3	top of different rock
+;4	Martin's hammer
+;5	top of rock on bulge
+;6	cairn
+;7	rock on rock
+;8	rock
+;9	rock
+;10	lump on rock
+;11	top of cairn by entrance
+;A	193 tag bolt
+
+*end 193surf

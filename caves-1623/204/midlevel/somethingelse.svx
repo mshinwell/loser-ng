@@ -1,0 +1,8 @@
+*include catgut
+
+*include cirquedusoleil
+
+*include pussyriot
+*equate cirquedusoleil.1 pussyriot.22
+*equate catgut.14 pussyriot.14
+

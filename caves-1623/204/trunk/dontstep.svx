@@ -1,0 +1,60 @@
+; Apparently doesn't connect to anything: survey trip aborted mid-way through after Olly fell down something or other. Suspect it may have been an attempt to tie in the southern end of Rhino Rift to Insignificant Chamber (it does connnect, but wasn't surveyed due to the airy traversing involved). 
+
+*begin dontstep
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle
+*title "Don't Step"
+*date 2003.08.05
+*team Insts Martin Green
+*team Notes Olly Madge
+*team Tape Both
+*instrument Compass set #4; Clino set #4 
+; ref.:	2003#25
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	4.80	207	-21
+2	3	2.16	080	+12
+4	3	3.81	200	-27
+5	4	1.50	248	-02	; reversed leg
+6	5	2.77	229	-12
+7	6	3.01	333	+10
+4	8	6.28	328	+14
+9	8	4.03	045	-03
+9	10	8.40	171	+41
+
+*begin
+*calibrate tape +0.10
+
+;from	to	tape	compass	clino	; remarks
+11	10	4.10	277	-39
+11	12	5.10	134	+40
+12	13	2.53	201	-08
+13	14	3.88	075	+49	; clino sign reversed
+
+*end
+
+;stn	L	R	U	D	Desc
+;1	4	2	0	1	RP on ceiling
+;2	0.8	1	0.4	0.8	RP on left wall
+;3	0.2	0.3	0.6	0.8	RP RW
+;4	1	1.1	0.3	0.7	RP on top of left undercut
+;5	0.1	0.4	0.3	0.4	RP LW
+;6	0	0.5	0.4	0.5	RP half way up LW
+;7	0.5	0.1	0.5	0.4	RP RW
+;8	0.7	0.4	2.5	0.3	RP rock on floor
+;9	1.2	0.2	3	1.4	RP bottom of lump of chest height rock
+;10	0.6	0.1	2.2	1.2	RP lump sticking out of wall
+;11	0	0.8	2	1.1	RP left wall just before and under 2nd bridge
+;12	0.3	1	2	0.7	RP LW
+;13	-	-	-	-	RP RW
+;14	-	-	-	-	-
+
+*end dontstep
+

@@ -1,0 +1,112 @@
+*begin hippohollows
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+
+*title "Hippo Hollows area"
+; Various loops and side branches around Chalk/Cheese. (Hippo Hollows passage itself
+; is in subsoil.svx.) --DL
+*date 2004.07.30
+
+*team Insts Becka Lawson
+
+*team Notes Nial Peters
+
+*team Tape Becka Lawson
+
+
+
+*instrument set 2
+
+
+
+; ref 2004 # 29
+
+
+
+; Calibration: stone bridge: 148/+23, 325/-24
+
+
+
+; ====== stations refindable to link to other surveys: ======
+
+
+; these 1ss are stations borrowed from subsoil1
+*export 1ss11 1ss12 1ss13 11
+
+
+
+*calibrate tape +0.40	; +ve if tape was too short, -ve if too long
+
+
+
+;from	to	tape	comp	clino
+
+1	1ss12	7.15	293	-37
+
+1	2	4.79	151	+11
+
+1	3	4.60	008	-05
+
+4	3	8.39	126	+29
+
+1ss11	4	6.31	203	-16
+
+5	1ss11	6.79	299	-38
+
+5	6	9.72	116	+27
+
+7	6	5.29	303	-29
+
+7	8	4.49	106	+33
+
+
+;station details
+
+;name	L	R	U	D	description
+
+;1	1.5	1.5	0.2	1.5	RP roof
+
+;2	1.5	0.7	0	1.8	RP roof
+
+;3	0	3.5	1	0.5	RP LHW
+
+;4	2.5	2	3	0.5	RP on rock on floor mid passage between 11 and 12 from subsoil1
+
+;5	1.2	3	2	1.7	RP + painted 5 RHW
+
+;6	1	0.7	0.5	1	RP RHW
+
+;7	1	1	2	0.5	RP + painted 7 on floor
+
+;8	1	1.5	1	0.4	RP on knobble at pitch head
+
+
+
+
+
+; separate bit down the pitch
+
+;from	to	tape	comp	clino
+
+10	11	22.89	252	-63
+
+10	9	3.38	070	+18
+
+1ss13	9	1.71	179	-01
+
+
+
+;station details
+;name	L	R	U	D	description
+
+;9	3	0.8	1	4	unmarked roof pendant above rift
+
+;10	2.5	2	2	pitch	RP + painted 10 RHW
+
+;11	-	-	-	-	RP on boulder floor of chamber
+
+*end hippohollows
+
+
+

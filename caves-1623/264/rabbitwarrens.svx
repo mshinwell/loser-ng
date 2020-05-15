@@ -1,0 +1,110 @@
+*begin rabbitwarrens
+
+; stations linked into other surveys (or likely to)
+*export 21x 5x 7x 8x
+*export 11 5 9 16 
+
+; Cave:balkonhoehle
+; Area in cave/QM: connecting ice cock to ein und zwanzig
+*title "Ice Cock 3"
+*date 2015.07.28
+*team Insts Elaine Oliver
+*team Notes George Breley
+*team Pics George Breley
+*team Tape Elaine Oliver
+*instrument SAP#2 + disto
+; Calibration: unknown
+*ref 2015#80
+
+; Centreline data
+*data normal from  to   tape      compass   clino
+21x	1	4.32	155	+10
+1	2	4.11	187	-14
+2	3	2.68	141	+02
+3	4	4.80	172	-07
+4	5	1.87	274	-21
+5	6	3.04	315	00
+8x	6	3.70	359	-09
+4	7	2.26	090	+23
+7	8	1.79	191	-15
+4	9	2.49	212	-22
+9	10	3.53	168	-13
+10	11	2.48	177	-09
+11	12	3.46	197	-18
+12	5x	2.06	317	+02
+10	13	2.77	063	+20	
+13	14	2.40	123	+43
+14	15	4.66	167	-09
+15	16	4.31	105	+32	
+16	7x	2.24	002	+17
+
+
+;-----------
+;recorded station details
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;(leave commented-out)
+;[Red] nail varnish markings
+;1	0.2	0.4	2.0	0.5
+;2	0.6	0.2	0.7	0.8
+;3	0	0.5	0.4	0.7
+;4	2.4	0.58	0.43	0.85
+;5	0	0.42	0.37	0.51
+;6	0	1.47	2.6	1.38
+;7	0	0.9	0.6	0.7
+;8	0.8	0	0.8	0.2
+;9	0.3	0	0.45	0.49
+;10	2.06	0	0.85	0.48
+;11	0	0.4	0.64	0.85
+;12	0.41	2.86	0.56	1.09
+;13	0	0.57	1.05	0.27
+;14	0.46	0.34	0	0.68
+;15	0.76	0	0.23	0.1
+;16	2	0	1.4	1.67	;	Paper LRUD has overly large L
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	0.2	0.4	2.0	0.5
+2	0.6	0.2	0.7	0.8
+3	0	0.5	0.4	0.7
+4	2.4	0.58	0.43	0.85
+9	0.3	0	0.45	0.49
+10	2.06	0	0.85	0.48
+11	0	0.4	0.64	0.85
+12	0.41	2.86	0.56	1.09
+
+*data passage station left right up down 
+6	0	1.47	2.6	1.38
+5	0	0.42	0.37	0.51
+4	2.4	0.58	0.43	0.85
+7	0	0.9	0.6	0.7
+8	0.8	0	0.8	0.2
+
+*data passage station left right up down 
+10	2.06	0	0.85	0.48
+13	0	0.57	1.05	0.27
+14	0.46	0.34	0	0.68
+15	0.76	0	0.23	0.1
+16	2	0	1.4	1.67
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+; None
+
+;------------
+;Cave description
+
+;Sandy crabwalk turning into a tube parallel to main passage connecting to ein und zwanzig
+
+
+*end rabbitwarrens

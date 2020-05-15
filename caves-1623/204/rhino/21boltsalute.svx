@@ -1,0 +1,45 @@
+*begin 21boltsalute
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "21 Bolt Salute"
+*date 2003.07.21
+*team Insts Julian Haines
+*team Notes Earl Merson
+*team Pics Earl Merson
+*team Tape Julian Haines
+*instrument Compass #1 ; Clino #1, Tape Yellow Open
+; Calibration:
+; ref.:	2003 #2
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 9 10
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	3.16	312	+21
+2	3	0.96	353	-25
+4	3	7.73	122	+26	; compass misread? - notes say 138
+5	3	4.13	124	+35
+5	6	4.80	-	DOWN
+7	6	2.70	165	-48
+7	8	3.08	337	+05
+7	9	4.13	045	-28
+9	10	20.66	030	+10
+
+;station details
+;name	L	R	U	D	E	description
+;1	0.5	0.4	0	0.6	-	Pencil X on roof in chamber of boulders
+;2	0.96	0	0.8	0.75	-	CM on right wall
+;3	0.3	0.3	0	1	-	CM on rubble on roof in ? of passage
+;4	0.5	0.5	0	0.5	-	CM on ceiling
+;5	0.88	0.15	1.5	-	-	CM on nose of rock above climb
+;6	2	0	0.5	0.4	-	Tip of rock on floor at foot of climb
+;7	2.2	1.4	0	1	-	CM on nobble on ceiling arching?
+;8	0.2	0.5	0	0.2	-	RP on roof at small ???
+;9	1	0.2	4	0.5	-	RP on right wall on boulder slope
+;10	-	-	-	-	-	RP no.4 at head of gaffered 70m pitch
+
+*end 21boltsalute

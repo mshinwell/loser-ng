@@ -1,0 +1,39 @@
+*begin insig2
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Insignifcant chamber II"
+*date 2001.08.10
+*team Insts Brian Outram
+*team Notes Martin Green
+*instrument Compass #2 ; Clino #2, Tape unknown
+; Calibration: None
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0 6
+
+*calibrate tape -0.22	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+0	1	7.95	104	+49
+1	2	4.50	013	+31
+3	2	9.35	250	-09
+4	1	1.10	325	+46
+5	4	8.38	012	+18
+5	6	3.89	083	-13
+7	5	6.85	163.5	-13.5
+7	0	5.04	327	-48.5
+
+;station details
+;name	L	R	U	D	description
+;0	-	-	-	-	= insignificant.2
+;1	2.6	0.1	4.0	3.42	CM on tip of rock near tube QM
+;2	0.1	1.4	1.42	1.2	red paint on tip of underhang
+;3	-0.22	1.12	8.00	2.50	red paint waist height above drop
+;4	-0.1	0.3	0.25	0.2	red paint on top of rock
+;5	2.80	0.1 	2.5	3.75	CM on bottom of long spike	
+;6	-	-	-	-	red paint at waist height on wall
+;7	1.1	0	0.6	0.5	-
+
+*end insig2

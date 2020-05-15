@@ -1,0 +1,46 @@
+*begin feckingtight
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export 1x 7
+
+*title "Fecking Tight"
+*date 2014.08.11
+*team Notes Rob Watson
+*team Insts Julian Todd
+*instrument Noel's DistoX
+
+;ref.: 2014#37 
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+1x	2	2.16	077	-73	
+2	3	9.04	037	-10
+3	4	8.99	042	+4	
+4	5	4.12	033	-23
+6	5	1.80	213	-35	
+
+*title "000 separation leg"
+6	7	3.60	039	-20
+*title "Fecking Tight"
+
+
+7	8	10 	049	+10	; across to pitchhead	
+7	9	9.50	091	-50
+
+*data passage station left right up down ignoreall
+
+;stn	L	R	U	D	Desc
+1x	1.7	1	1.5	2.9	rock tip from ceiling	
+2	0.6	0	3	0.6	small ledge RHW knee level
+3	0.4	0.4	1.5	0 	boulder/rock (small) on floor
+4	0.8	0.4	0.5	4.7	jutting down rock, RHW	
+5	0	0.3	0.3	0	very small slot, LHW
+6	0.5	0	2.3	0.8	rift, RHW, numbered
+7	0	2.2	12	2.8	sloping LHW, edge of unknown pitch
+8 	-	-	-	-	edge of unknown pitch
+9 	2	0	9.5	1
+
+*end  feckingtight

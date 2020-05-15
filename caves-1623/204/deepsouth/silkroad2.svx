@@ -1,0 +1,74 @@
+*begin silkroad2
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Silk Road 2"
+*date 2007.07.28
+*team Insts George North
+*team Notes Andrew Atkinson
+*team Tape Andreas Forsberg
+*instrument set  clino 512410
+
+; Calibration at stone bridge: 324 -24 142 +24
+
+; ====== stations refindable to link to other surveys: ======
+
+; ref. 2007#32
+
+*export 1 11 14 17 23
+;1 is silkroad.37
+
+*calibrate tape +0.00	; +ve if tape was too short, -ve if too long
+
+2	1	21.44	256	-38
+2	3	20.26	033.5	+20
+4	3	9.76	234	-30
+4	5	21	013.5	-5
+6	5	16.98	201.5	-20
+6	7	5.59	314.5	+37.5
+8	7	3.86	207	-5
+9	8	6.92	211.5	+20
+9	10	17.28	006	+30
+10	11	7.86	038	+37
+11	12	11.28	063	+18
+13	12	6.68	252	-32.5
+13	14	12.44	076	+18.5
+15	14	17.02	000	+09   ;original notes show -ve 9, but was definitely going up
+15	16	20.15	154.5	+1
+17	16	17.40	085	+15
+17	18	13.20	174	-2
+19	18	13.31	332	-1
+19	20	14.06	211	-12.5
+21	20	10.78	345	+10
+21	22	10.94	190.5	-06
+23	22	5.60	036.5	0
+
+;station details
+*data passage station left right up down
+;name	L	R	U	D	description
+1	0	-	30	2	;station not last possibly 3 from last
+2	7	4.5	5	2.5	;point on large boulder
+3	1	4	4	2.4	;white cross
+4	1.5	4	2	6	;NV
+5	0	2	1.5	2	;LH wall 
+6	1.5	4.5	4	1.5	;Rock #6 scratched
+7	0	5	3	5	;LH wall #7 scratched
+8	1.5	5	3	4
+9	4	3.5	8	2	
+10	1	2	5	5	
+11	2	2	0.5	0.6	;flake scratched 11
+12	1	1	0.7	0	
+13	3	2	0.2	2.5	;Ceiling scratched gold NV #13
+14	0	5	2	1	
+15	3	0.7	1	0.5	;Cairn
+16	0.2	3	0.5	1.5	;Scratch #16
+17	2	1.5	1.5	1	;Pencil #17 NV
+18	3	0.2	2.5	0.7	
+19	0.2	2	1.5	1.5	
+20	3.5	1	0.2	0.5	
+21	3	1	1.5	1	
+22	2	2.5	3	3	;Cross #27 pencil
+23	2	0.2	2	2.5	;NV #23
+
+*end silkroad2
+

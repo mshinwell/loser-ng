@@ -1,0 +1,51 @@
+;1998.03.27 AERW sort begin/end, add comments, refs, *calib clino
+
+*begin Gravel
+
+; Cave: 1623/161, Kaninchenhöhle (via 1623/136, Steinschlagschacht)
+; Locn: Totes Gebirge, Austria
+*title "Gravel Pit, Forbidden Land, 161"
+*date 1997.08.03 ; trip 1997-136-7 in logbook
+*team Insts William Stead
+*team Pics Andrew Atkinson
+*team Notes Andrew Atkinson
+*team Tape William Stead
+*instrument Set 2
+; Calibration:  None
+;   Tape is 0.22 m longer than the readings
+;   LRUD are correct as written
+;
+; ====== stations refindable to link to other surveys: ======
+
+*export 22  ; pitch head bolt for descent from Tirolia Werke
+
+*calibrate tape -0.22
+;From   to  Tape    Compass Clino 
+1   2    8.50   242.5   +3
+3   2    8.77   114 -21
+3   4    7.92   283.5   +35
+5   4    9.87   096 -2
+5   6    0.69   021 -11
+7   6    4.46   121 -1
+
+*team Insts Andrew Atkinson    ;Swapped as william's glasses steamed up
+*team Notes William Stead
+*team Pics William Stead
+*team Tape William Stead
+
+7   8    3.94   318 +23.5
+9   8    2.14   115 -37
+9   10   5.43   344 +28
+11  10   5.34   039 -13
+11  12   5.05   295 +42.5
+13  12   3.95   172 -27
+14  13   6.32   -   down
+14  15   2.83   267.5   +51
+15  16   3.12   169.5   -11.5
+16  17   3.77   263.5   +17
+18  17   4.00   089 -32
+18  19   1.88   230.5   +16.5
+19  20  10.88   298 +36
+21  20   1.64   122 -28
+21  22   7.16   -   up
+*end Gravel

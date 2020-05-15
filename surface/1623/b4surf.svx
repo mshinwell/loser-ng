@@ -1,0 +1,32 @@
+*begin b4surf
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "b4 surface survey"
+*date 2000.08.09
+*team Insts Martin
+*team Notes Mark S
+*team Pics Mark S
+*team Tape Martin
+*instrument Compass #5 ; Clino #5, Tape ?
+; Calibration: Lower TC: 308/+07	128.5/-07
+; ref.:	2000 #31
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 4
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	29.74	054.5	+21
+2	3	12.22	242	-06
+3	4	1.21	-	down
+
+;station details
+;name	description
+;1	bit of spit hole on boulder between B4 and laser 7/11
+;2	top of skipole
+;3	top of skipole above B4 tag bolt
+;4	B4 tag bolt
+
+*end b4surf

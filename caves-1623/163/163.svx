@@ -1,0 +1,34 @@
+;1998.06.02 AERW added export, comments
+
+*equate 163.1	P163
+*entrance P163
+
+*begin 163
+
+; Locn:	flank of Vorderer Schwarzmoos Kgl, Loser Augst-Eck, Totes Gebirge, Austria
+; small cave surveyed at same time as surface survey back to vd1
+*title "Schwa Schacht 1623/163"
+*date 1990.07.28
+*team Insts Dave Fearon
+;	Notes	Wookey
+*instrument some subset of these below:
+; Calibration:	(at 161)
+;		clino 726974 -18.2, +16.5
+;		compass 543693 cairn: 16 Brauning Zinken: 250
+;		compass 721899				250.25
+;		compass 949847				250.5
+; ref:	1990 survey book pp 59,61
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; NW corner of slab at entrance saying "163 CUCC '88"
+
+*calibrate clino -0.85
+
+2	1	26.60	222	+17.5
+2	3	10.85	014	+07
+2	4	 7.89	254	-11
+4	5	 2.98	-	DOWN
+5	6	 9.29	271	-28.5
+
+*end 163

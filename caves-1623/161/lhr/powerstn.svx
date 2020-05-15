@@ -1,0 +1,61 @@
+;1998.03.28 AERW sorted begin/end, added comments and refs.
+
+*begin PowerStn
+
+*title "1990 Survey of Power Station Series (LH route)"
+*date 1990.08.06 ; trip 1990-161-41 in logbook
+*team Notes Olly
+*team Tape Olly
+*instrument Tim
+*instrument Compass 721899, Clino 726974
+; Calibration:	(161 cairns) 016.5,014,014 (to Braunig Zinken Top) 251
+;		(161 cairns)+16.5,+16,+16.5,-17.5,-18,-17.5
+; ref.:	1990 survey book pp 90-93
+
+*export 24	; CM on end wall of LHR passage before turning right to Arrow chamber, 1.5m off floor on rock shelf
+
+*calibrate compass 0
+*calibrate clino -0.67
+
+01      02      12.73   0       90
+02      03      2.93    170     55
+03      04      2.78    138     82
+04      05      2.60    194     00
+05      06      3.87    0       90
+07      06      1.14    236     -37.5
+07      08      4.35    228     20
+08      09      2.66    151     00
+09      09a     26.60   0       90
+09a     10      22.96   0       90
+11      10      2.99    212     -36
+12      11      1.53    278     00
+12      13      9.07    0       90
+13      14      6.71    003.5   61
+14      15      3.70    347     84
+17      15      15.63   098     -87
+18      17      0.42    187     00
+18      19      20.48   0       90
+20      19      0.90    081     -37
+20      21      11.23   0       90
+21      22      1.26    0       90
+22      23      1.88    213     71
+24      23      3.34    185     -32
+
+; 1990 Survey of Power Station Series (LH route)
+*date 1990.08.06 ; trip 1990-161-41 in logbook
+*team Notes Olly
+; ref.:	1990 survey book p 93
+
+;readings grade 2
+*calibrate compass 0
+*calibrate clino 0
+; Olly's guesstimates for passage off part way up last pitch
+
+01      25      1.0     270     00
+25      26     15.0     -       up
+26      27      1.0     240     00
+27      28      7.0     -       up
+28      29      6.0     240     00
+29      30      1.5     285     00
+
+*end PowerStn

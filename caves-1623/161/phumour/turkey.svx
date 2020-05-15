@@ -1,0 +1,55 @@
+
+;1999.07.31 AJD created
+
+*begin turkey
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Kaninchenhöhle, 1623/161
+*title "Frozen Turkey"
+*date 1999.07.30
+*team Insts Julia Bradshaw
+*team Notes Anthony Day
+*team Pics Anthony Day
+*team Tape Both	
+*instrument Compass set #4 ; Clino set #4 
+; Calibration:	at TC Down Comp 087 Clino -06
+;                      Up   Comp 266.5 Clino +06.5
+;		
+; ref.:	1999 KH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	4.40	155	+10	;tape read to nearest 5cm throughout
+2	3	5.05	317	-44
+3	4	3.10	005	-27
+4	5	12.95	-	down
+5	6	3.50	114	-53
+6	7	7.35	-	down
+7	8	5.70	064	-19
+8	9	12.20	-	down
+10	9	3.95	258	+22
+10	11	2.84	322	+34
+11	12	0.95	015	-14	; foggy compass
+
+;Stn	L	R	U	D	E	details
+;1	-	-	-	-	-	CM from last Iceland survey
+;2	4.20	2.00	1.70	1.80	-	CM nobble
+;3	0.00	2.00	~3.50	1.00	-	CM LH wall
+; pitch cross section dimensions recorded for station 4
+;4	~1.80	0.00	~3.50	0.00	-	CM pitch head
+;	(190)	(010)	(280)	(100)		directions for dimensions on line above
+;5	0	1.50	-	1.50	-	CM wall foot of plumb
+;6	-	-	-	-	-	CM top of plumb
+;7	0.50	1.50	-	0.00	-	Cairn foot of plumb
+;8	- 	-	-	-	-	Pitch head bolt
+;9	-	-	-	1.70	-	Pencil X on wall
+;10	-	-	-	1.00	-	CM back wall
+;11	0.00	0.50	3.00	1.00	-	CM window
+;12	-	-	-	-	-	RH bolt at pitch head
+
+*end turkey

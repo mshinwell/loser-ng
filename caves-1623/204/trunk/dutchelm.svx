@@ -1,0 +1,52 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+
+*begin dutchelm
+
+*title "Dutch Elm Disease"
+*date 2006.07.28
+*team Insts John Billings
+*team Notes Pete Harley
+*team Tape Chantalle Mouwer
+*team Consultant Dave Loeffler
+
+; Calibration: none
+; ref.:	2006 #19
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 7
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	5.47	183	-06
+3	2	1.81	053	-06
+4	3	4.61	295	-09
+4	5	9.45	184	-07
+6	5	4.09	023	+18
+6	7	6.90	251	-11
+7	8	2.29	-	down
+9	8	5.48	082	-12
+9	10	1.73	332	+19
+10	11	4.09	357	+15
+12	11	3.39	109	+20
+12	13	2.03	020	+17
+
+*data passage station left right up down ignoreall
+1	-	-	-	-	RP corner of boulder (thought erroneously to be existing survey station)
+2	-	-	-	-	RP LHW
+3	-	-	-	-	RP RHW
+4	-	-	-	-	RP LHW
+5	-	-	-	-	RP LHW
+6	-	-	-	-	RP projection from floor LH side
+7	-	-	-	-	RP wall RH side of Treeumphant
+8	-	-	-	-	loose rock (now destroyed)
+9	-	-	-	-	RP RHW at lip of crawl
+10	-	-	-	-	RP LHW
+11	0.6	0.1	0.4	2.2	RP RHW
+12	0.3	-	0.6	0.4	RP tip of boulder on floor
+13	0.4	0	0.5	0.7	RP RHW
+
+*end dutchelm
+

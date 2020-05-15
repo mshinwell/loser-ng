@@ -1,0 +1,53 @@
+;1998.03.27 AERW sort begin/end, add comments, refs, export, *calib clino
+;1998.04.02 AERW removed brian to DeadBats, as not connected to Asturias
+
+*begin asturias
+
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+*title "Tipico Asturias"
+*date 1996.07.24 ; - trip 1996-161-56 in logbook
+*team Insts Dave Milne
+*team Notes Chris Densham
+*team Pics Chris Densham
+*team Tape Chris Densham
+*team Tape Dave Milne
+*instrument Set 3
+; Calibration:  To come - no record in survey book
+;
+; Ref.: 1996 KH survey book p 170, elevation sketch p 169, plan lost ?
+
+; ====== links between surveys in this file: ======
+
+*export 18  ; CM in front of bolt on LH wall, top of Tipico Asturias
+
+*calibrate tape -0.30
+;From   to  Tape    Compass Clino 
+5   6   25.1    -   up
+7   6    1.52   116 +15
+8   7    4.43   027 +13
+9   8    1.32   115.5   +15
+10  9    5.71   359.5   +06
+11  10   1.69   321 +04.5
+12  11   5.20   048 -01
+13  12   6.15   021 -65
+13  14   1.86   160 -11
+14  15   3.81   170 +13
+16  15   2.93   027 -13
+17  16  18.29   303.5   -73
+18  17   4.08   309 -42
+; "The direction of leg 18-17 is not noted (ie. it may be the other way
+; round) I am assuming it is this way round based on the compass reading
+; for the previous leg. The plan, however, is unclear. AJD"
+
+; Can't find the remaining legs in survey book; AERW 98.03.26
+19  7    3. 116 +20 ;points 19 to 24 are to grade 2 - 3
+19  20   3. 044 +60
+21  20   7.5    044 -80
+20  22   3. 044 -60
+22  23   4. 044  00
+23  24  17. 015 -50
+
+; LRUD data for stations 12-16 only in 96KHp170 - not yet added
+
+*end asturias

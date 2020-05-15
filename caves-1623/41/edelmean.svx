@@ -1,0 +1,36 @@
+;> 1623/41
+
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Stellerweghöhle 1623/41
+; Messteam: Dominik Jauch, Markus Bölzle, Robert Winkler
+; Zeichner: Markus Bölzle
+; Referenz: Messbuch ?
+
+*begin edelmean
+*title "Gangstück zwischen Eingangshalle E41 und Din-Rampe"
+*date 1997.07
+
+
+
+*export 0
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung	Richtung	
+
+0       1       0.9     -6.3     43.2
+1       2       3.14    -11.7   97.2
+2       3       2.7     -14.4   7.2
+3       4       6.15    -35.1   154.8
+4       5       3.66    -21.6   96.3
+5       6       4.54    -33.3   38.7
+6       7       1.95    -33.3   99.9
+7       8       1.71    -28.8   59.4
+8       9       6.30    -34.2   111.6
+9       10      2.98    -40.5   113.4
+10      11      7.22    -29.7   95.4
+
+;Raumwerte
+;Name	Links	Rechte	Oben	Unten	
+;keine Raumwerte
+
+*end edelmean

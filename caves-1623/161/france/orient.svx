@@ -1,0 +1,58 @@
+;1995.05.15      split from France.svx
+;1998.03.02 AERW sorted begin/end, added refs and calib data, *calib clino
+
+*begin orient
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "France - Orient express to Black Bullshit (and sump)"
+*date 1993.07.17 ; trip 1993-161c-5 in logbook
+*team Notes Ali Morris & Pete Lord
+*instrument Pete Lord & Ali Morris
+*instrument compass: black rubber compass 721899 & attached clino 834867
+;		(recalled c 2months after)
+; Calibration:	PeteL:	040, 041, 038; +09, +08, +09; -10, -09.5, -09.5; Nase 250
+;		AliM:	040, 040.5, 041; +09, +09, +09; -10, -10, -10; Nase 251
+;		JulianH 043, 043.5, 043.5; +12, +11, +11; -11, -10, -11; Nase 251
+
+; ref.:	1993 survey book pp 155-161
+
+*export 1	; Backup bolt of Orient Express pitch
+*export 18	; Right Hand Bolt, Fat Knot Fruity
+
+*calibrate clino -0.5
+
+1       2       3.15    033     -28
+2       3       52.10   -       down
+3       4       4.70    118     +03
+5       4       9.68    054.5   +22
+5       6       3.90    114     -21
+7       6       11.60   329     +27
+5       8       17.54   034.5   +31
+9       8       7.95    236.5   -41
+3       10      11.50   143     -17
+11      10      4.37    203     +13     ; notes suspect - nothing like 30 degrees steep (13, 03?)
+; also survey book says 10->11, but sketch makes it apparent that 11->10 is right
+11      12      1.36    142     +01
+13      12      12.80   230     +53
+13      14      9.90    -       down
+14      15      1.50    351     -17
+15      16      8.80    -       down
+17      16      4.43    273     +47
+17      18      9.00    066     -39
+19      18      3.60    243     +58
+19      20      7.30    -       down
+21      20      4.65    244     +18
+22      21      5.70    -       up
+22      23      5.00    126     -42
+24      23      3.37    249     +30
+24      25      2.25    104     -28
+26      25      3.83    340     +22
+26      27      2.49    115     -07
+28      27      2.96    021     +15
+28      29      3.87    194     +01
+29      30      17.77   217     -80
+31      30      6.06    001     +06
+
+; station details and patchy LRUD are in book - not yet added
+
+*end orient

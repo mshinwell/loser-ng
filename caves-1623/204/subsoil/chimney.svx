@@ -1,0 +1,40 @@
+*begin chimney
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Chimney"
+*date 2004.08.03
+*team Insts Nial Peters
+*team Notes Becka Lawson
+
+*instrument set 2; tape red open reel
+; Calibration: stone bridge: 150/+23, 327/-23
+
+; ref 2004 #44
+
+*export 20
+
+*calibrate tape +0.40
+
+;from	to	tape	comp	clino
+20	1	6.10	024	+12
+2	1	16.57	285	-34
+2	3	4.68	107	+49
+4	1	9.27	290	-30
+4	5	4.28	175	+13
+7	6	3.80	-	down
+6	5	0.90	245	00
+
+;station details
+;name	L	R	U	D	description
+;20	-	-	-	-	=subsoil.20
+;1	2	8	2.5	0.4	RP LW
+;2	1	1.5	1.5	0.4	RP roof pendant, numbered
+;3	1.2	0	2.5	0.3	RP rock in floor
+;4	1.4	1	0.4	0.7	RP on roof
+;5	0.4	1.5	6	0.3	RP RW
+;6	0.3	0.2	6	0	unmarked on floor
+;7	0.2	0	6	4	RP RW
+
+*end chimney
+

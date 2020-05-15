@@ -1,0 +1,169 @@
+*begin quality
+
+; stations linked into other surveys (or likely to)
+*export 12 1 9 6
+
+; Cave: Kaninchenhöhle (161)
+; Area in cave/QM: Off Wellypopper, Runnelstone KH/KH connection area
+*title "Quality Belays"
+*date 2015.08.02
+*team Insts Jenny
+*team Notes Wookey
+*instrument CUCC SAP #3, Jenny/Olly Disto
+; Calibration: None
+; Survey folder reference: 2015#36
+
+; Centreline data
+*data normal from  to   tape      compass   clino
+1    -     5.631   196  -13
+1    2	   5.783   018  +03
+3    1	  17.925   161  -77
+4    3	   4.411   136	-77
+5    4	   1.476   016	-18
+6    5	   2.323   025	+07
+7    6	  15.007   092	-56
+8    7	   4.673   126	-23
+9    8	   6.472   072	-08
+10   9	   5.435   038	+24
+11   10	   6.103   012	+45
+11   12	   5.141   202	-31
+
+
+;-----------
+;recorded station details
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;purply-pink nail varnish markings
+; Surveying out
+;1   2.3    0.5	   wet    1.9   ; RP '1' near pitch edge
+;2   0.6    0.6	   16.5+  1.1   ; RP back of pitch
+;3   N:3.0  E:3.7  S:6.9  W:1.4 ; (Aligned with pitch axes) RP on flake
+;4   as 5   	   	  	; RP at pitch edge
+;5   4.0    1.5    29     0.4	; RP on wobble rock on shelf
+;6   3.5    1.0	   27.1	  0.6	; RP on boulder
+;7   1.2    3.0	   22.0	  -	; RP on boulder at pitchhead
+;8   3.6    1.5	   9.2	  0.8	; NP boulder '8' scraped
+;9   0.2    5.1	   12.5	  3.1	; NP LHW '9' (badly drawn)
+;10  5.3    0.2	   13.0	  1.6	; (Down also 11.2) RP pendant on traverse
+;11  0.9    1.6	   7.3	  6.1   ; (Down also 0) RP
+;12  0	    1.0	   4.0	  1.4	; RP in wellypopper @ climb (stn 17 of wellypopper)
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1   2.3    0.5	   20    1.9   ; RP '1' near pitch edge
+2   0.6    0.6	   16.5  1.1   ; RP back of pitch
+*data passage station left right up down 
+1   2.3    0.5	   20    1.9   ; RP '1' near pitch edge
+;3   N:3.0  E:3.7  S:6.9  W:1.4  ; (Aligned with pitch axes) RP on flake
+4   4.0    1.5    29     0.4 	; RP at pitch edge
+5   4.0    1.5    29     0.4	; RP on wobbly rock on shelf
+6   3.5    1.0	   27.1	  0.6	; RP on boulder
+7   1.2    3.0	   22.0	  -	; RP on boulder at pitchhead
+8   3.6    1.5	   9.2	  0.8	; NP boulder '8' scraped
+9   0.2    5.1	   12.5	  3.1	; NP LHW '9' (badly drawn)
+10  5.3    0.2	   13.0	  1.6	; (Down also 11.2) RP pendant on traverse
+11  0.9    1.6	   7.3	  6.1   ; (Down also 0) RP
+12  0      1.0	   4.0	  1.4	; RP in wellypopper @ climb (stn 17 of wellypop
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1  A    quality.9     -  4m climb into large passage appearing to take wind
+;QM2  X    quality.4     -  Entry into pitch at top of side-stream/rift
+;QM3  X    quality.11    -  Various holes high in the roof
+;QM4  X    quality.6     -  Hole in wall about level of QB pitchhead in far wall above and to R of Back-tot-future rift. May go into space above Gob?
+
+;------------
+;Cave description
+
+;(leave commented-out)
+;freeform text describing this section of the cave
+
+;A bolted traverse on the left wall from the climb down in
+;welly-popper gains first a bridge 8m above welly-popper floor, then
+;(via some tettering rocks) the top of the large choke that blocks the
+;Runnelstone rift passage. This is large passage, 8m high, 4m wide,
+;the floor of which is entirely false, comprised of large wedged
+;boulders. A large open space is quickly reached (15m). 20m away a
+;narrow, high, rift continuation can be seen across a pitch. There are
+;other passages up higher. The immediate pitch is p15 down the end of
+;the boulder choke (care!). 8m down one can get off and go back 8m
+;under the false floor to more bits of the choke. At the base there is
+;a stream coming in on the LH (N) wall. Over a small wall of boulders
+;is another drop of ~50m, made very damp by the stream re-appearing a
+;few metres down. A wide shelf round the LH wall provides a clean, dry
+;hang of 21m into a side-canyon joining the main rift here from the N.
+
+*end quality
+
+*equate quality.6 backfuture.6
+
+*begin backfuture
+
+; stations linked into other surveys (or likely to)
+*export 1 6
+
+; Cave: Kaninchenhöhle (161)
+; Area in cave/QM: Runnelstone KH/KH connection area
+*title "Back to the Future"
+*date 2015.08.04
+*team Insts George Breley
+*team Notes Wookey
+*instrument Wookey DistoX
+; Calibration: None
+; Survey folder reference: 2015#50
+
+; Centreline data
+*data normal from  to   tape      compass   clino
+1    2	  11.028   318.2  -09.0
+1    3	  12.497   350.2  +20.5
+2    4	   2.434   182.5  -07.5
+5    4	   9.967   106.7  -41.1
+5    6	   9.623   282.1  -19.4
+
+;-----------
+;recorded station details
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;Red nail varnish markings
+;Surveying out
+;P=pencil
+;1   4.5    0	  5.8    1.4   ; Huge carbide 'S' at end of yapate (RHW)
+;2   4.2    0	  28.9	 1.3   ; RP '2' P 1.6m R of bolt
+;3   -	    -	  -	 -     ; Pitchhead bolt of staircase 36
+;4   1.9    1.6	  28.9	 0.6   ; Boulder tip NP '4'
+;5   0.9    0.4	  6.6	 1.8   ; NP '5' RHW in rift
+;6   3.0    0.9	  22.4	 0.3   ; NP stn 6 on QB survey
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down ignoreall
+1   4.5    0	  5.8    1.4   ; Huge carbide 'S' at end of yapate (RHW)
+2   4.2    0	  28.9	 1.3   ; RP '2' P 1.6m R of bolt
+3   -	    -	  -	 -     ; Pitchhead bolt of staircase 36
+4   1.9    1.6	  28.9	 0.6   ; Boulder tip NP '4'
+5   0.9    0.4	  6.6	 1.8   ; NP '5' RHW in rift
+6   3.0    0.9	  22.4	 0.3   ; NP stn 6 on QB survey
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    X    backfuture.3    -    possible passage above CFN (15m up)
+
+;------------
+;Cave description
+
+;(leave commented-out)
+;freeform text describing this section of the cave
+
+;At the end Yapate, at the foot of staircase 36 up-pitch, follow a
+;rope to the left on the RHS above Gob series. Ascend 8m to a short
+;rift, then drop down 4m at the other end to a roped traverse around
+;the pitch to the foot of 'Quality Belays' pitch.
+
+*end backfuture

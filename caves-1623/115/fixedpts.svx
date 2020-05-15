@@ -1,0 +1,11 @@
+;Alte Daten:
+; --Don't know which of these are correct  MS 23rd July 2000
+;*fix	p115	35838.52	81047.87	1477.56
+;*fix p115 35763.10   81070.20   1517.56 -ganz falsch
+
+;Nils-Daten ab 10/00:
+*fix p115		35841.288	81041.535	1488.280
+
+;Anschluss an CUCCrest:
+;*fix 115.115haupt.72_6 	35990.65	81273.77	1269.73 	;=115rest.bypass.35 (Anschluss zu 115rest Arge Messung)
+*fix 115.115eing.54 	35963.20	81090.04	1265.44 	;=115rest.purgatory.0 (Anschluss zu 115rest Arge Messung)

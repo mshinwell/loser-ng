@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="Maps 3D" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+	<wpt lat="47.697810" lon="13.816470">
+	<ele>1777.916870</ele>
+	<time>2018-07-11T10:23:23Z</time>
+	<name>CUCC 2018 DM01</name>
+	<desc></desc>
+</wpt>
+	<wpt lat="47.697560" lon="13.813310">
+	<ele>1784.924072</ele>
+	<time>2018-07-11T11:19:22Z</time>
+	<name>CUCC2018 dm02</name>
+	<desc></desc>
+</wpt>
+	<wpt lat="47.698130" lon="13.809670">
+	<ele>1786.001465</ele>
+	<time>2018-07-11T12:20:56Z</time>
+	<name>CUCC2018 dm03</name>
+	<desc></desc>
+</wpt>
+	<wpt lat="47.694290" lon="13.805340">
+	<ele>1683.483887</ele>
+	<time>2018-07-11T16:45:35Z</time>
+	<name>CUCC2018 dm07</name>
+	<desc></desc>
+</wpt>
+	<wpt lat="47.696650" lon="13.805970">
+	<ele>1741.990234</ele>
+	<time>2018-07-11T15:29:14Z</time>
+	<name>cucc2018 dm05</name>
+	<desc></desc>
+</wpt>
+	<wpt lat="47.697140" lon="13.806180">
+	<ele>1755.303223</ele>
+	<time>2018-07-11T15:31:19Z</time>
+	<name>cucc2018 dm04</name>
+	<desc></desc>
+</wpt>
+	<wpt lat="47.695140" lon="13.805910">
+	<ele>1702.404297</ele>
+	<time>2018-07-11T16:29:52Z</time>
+	<name>cucc2018 dm06</name>
+	<desc></desc>
+</wpt>
+</gpx>

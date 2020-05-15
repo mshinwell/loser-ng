@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<gpx version="1.1" creator="OsmAnd+" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <wpt lat="47.6984383" lon="13.8245083">
+    <name>1</name>
+  </wpt>
+  <wpt lat="47.7007433" lon="13.8261683">
+    <name>10 no, just a pocket</name>
+  </wpt>
+  <wpt lat="47.7007883" lon="13.8262717">
+    <name>11, no, choked, down sloping rift</name>
+  </wpt>
+  <wpt lat="47.7006317" lon="13.8276517">
+    <name>12, choked twin shafts</name>
+  </wpt>
+  <wpt lat="47.7003667" lon="13.827695">
+    <name>12, steep scree narrow pitch, needs torch and rope, probably choked</name>
+  </wpt>
+  <wpt lat="47.7002333" lon="13.8273683">
+    <name>13, steep rift, floor mostly choked, no draft, needa rope and light, probably choked</name>
+  </wpt>
+  <wpt lat="47.70" lon="13.8272417">
+    <name>14, steep plane, not choked, potential draft, no snow, needs rope and torch, it goes!, 2017PW01</name>
+  </wpt>
+  <wpt lat="47.69977" lon="13.8270167">
+    <name>15, tagged 2011-1, big open top, sloping passage continues, not choked, need rope and torch, drippy</name>
+  </wpt>
+  <wpt lat="47.6995717" lon="13.82648">
+    <name>16, deep drippy rift,  disto leg 18m, deeper than that</name>
+  </wpt>
+  <wpt lat="47.6994683" lon="13.8263433">
+    <name>16, deep wide rift, 40m+, drippy, promising, 14m disto leg to first ledge</name>
+  </wpt>
+  <wpt lat="47.6986817" lon="13.8242733">
+    <name>2 probably not</name>
+  </wpt>
+  <wpt lat="47.698345" lon="13.824605">
+    <name>2017NR01</name>
+  </wpt>
+  <wpt lat="47.6991217" lon="13.8254167">
+    <name>2017NR02</name>
+  </wpt>
+  <wpt lat="47.6992683" lon="13.8239567">
+    <name>6 needs rope and spade</name>
+  </wpt>
+  <wpt lat="47.7000433" lon="13.824315">
+    <name>8 no</name>
+  </wpt>
+  <wpt lat="47.700295" lon="13.82547">
+    <name>9 need headtorch</name>
+  </wpt>
+  <wpt lat="47.6971583" lon="13.8248417">
+    <name>Balcony</name>
+  </wpt>
+  <wpt lat="47.69969" lon="13.825735">
+    <name>CUCC OW1 2012</name>
+  </wpt>
+  <wpt lat="47.6161222" lon="13.8125914">
+    <name>Expo base camp</name>
+  </wpt>
+  <wpt lat="47.69065" lon="13.8216283">
+    <name>Top Camp</name>
+  </wpt>
+</gpx>

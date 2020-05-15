@@ -1,0 +1,36 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+
+*begin goodvibrations
+
+*title "Good Vibrations"
+*date 2008.07.29
+*team Insts Jess Stirrups
+*team Notes Kathryn Hopkins
+*team Tape Nial Peters
+
+; Calibration: none
+; ref.:	2008 #05
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+
+*calibrate tape +0.20	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	3.59	051	-23
+2	3	2.82	337	-61
+3	4	6.15	114	-74
+4	5	23.06	060	-83
+5	6	6.74	355	+14
+*data passage station left right up down ignoreall
+		1	1.2	1.5	0.7	0.4	RP RHW			
+		2	2	0	3	25	RP RHW
+		3	0	1	4	21	RP LHW
+		4	5	0	8	17	RP RHW
+		5	2	2	25	2	boulder on floor
+		6	2	1.4	25	1.8	RP wall
+*end goodvibrations
+
+

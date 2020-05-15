@@ -1,0 +1,91 @@
+*begin kippercock
+
+; stations linked into other surveys (or likely to)
+*export 01
+
+; Cave: 258
+; Area in cave/QM: Hyra
+*title "Kipper Cock Passage"
+*date 2016.07.09
+*team Insts Luke Stangroom
+*team Notes Anthony Day
+*team Pics Anthony Day
+*team Dog Mark Dougherty
+*instrument Chris Densham's DistoX
+*ref 2040#24
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+01	02	07.65	248.6	-12.2
+02	03	10.57	263.4	-35.3
+03	04	07.25	240.0	-25.7
+04	05	08.51	262.2	-26.2
+05	06	09.18	284.2	-32.4
+06	07	05.52	237.8	-45.4
+07	08	11.07	264.4	-30.0
+08	09	08.09	149.8	-11.2
+09	10	02.89	253.4	-29.8
+10	11	13.08	288.1	-28.9
+11	12	06.62	252.6	-30.1
+12	13	02.80	224.3	-39.6
+13	14	14.75	278.6	-27.6
+14	15	27.31	275.5	-32.0		
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Pink nail varnish markings
+;01	-	-	-	-	Station 03 from Living The Dream
+;02	00.0	01.6	01.5	01.1	Numbered
+;03	01.3	01.1	01.0	00.2
+;04	02.4	03.0	00.0	00.7	On roof
+;05	03.0	01.7	00.0	01.0
+;06	03.8	02.5	01.0	01.4
+;07	02.2	01.4	02.0	00.9
+;08	02.2	01.2	03.2	01.6
+;09	01.7	01.8	00.8	00.9
+;10	03.0	01.0	00.5	00.5	Unmarked
+;11	01.4	00.7	00.6	00.4
+;12	03.6	02.3	00.0	01.3	Numbered
+;13	02.1	01.9	00.8	00.4
+;14	02.0	02.0	00.0	00.8	Numbered
+;15	-	-	-	-	Unmarked
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+02	00.0	01.6	01.5	01.1
+03	01.3	01.1	01.0	00.2
+04	02.4	03.0	00.0	00.7
+05	03.0	01.7	00.0	01.0
+06	03.8	02.5	01.0	01.4
+07	02.2	01.4	02.0	00.9
+08	02.2	01.2	03.2	01.6
+09	01.7	01.8	00.8	00.9
+10	03.0	01.0	00.5	00.5
+11	01.4	00.7	00.6	00.4
+12	03.6	02.3	00.0	01.3
+13	02.1	01.9	00.8	00.4
+14	02.0	02.0	00.0	00.8
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    C    kippercock.04    -    Small hole to south of passage near start
+
+;------------
+;Cave description
+; A phreatic ramp, mostly stooping or crawling height, descends steeply for 140m. The 
+; lower 2/3 is full of sticky mud, and the passage ultimately terminates in a 
+; mud choke. One crappy lead to the south near the start [QM-1 C].
+
+
+*end kippercock

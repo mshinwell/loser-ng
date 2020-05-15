@@ -1,0 +1,49 @@
+; All caves and surface surveys in 1623, with loop closures
+; determining entrance locations where applicable.
+
+*begin 1623
+
+; Stations which are used for linking across to other kataster areas.
+;*export p2018-ad-01
+
+;to have real-world co-ordinates (that work properly) we need 1.2.21
+*require 1.2.21
+
+; for output in UTM
+*cs out UTM33N
+; for output in old BMN coordinate system
+;*cs out custom "+proj=tmerc +lat_0=0 +lon_0=13d20 +k=1 +x_0=0 +y_0=-5200000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232"
+
+*cs custom "+proj=tmerc +lat_0=0 +lon_0=13d20 +k=1 +x_0=0 +y_0=-5200000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232"
+
+; Set the summit of the Hinter as our declination point
+*declination auto 36670.37        83317.43        1903.97
+
+; Fixed points:
+*include ../fixedpts/allfixedpts.svx
+
+; Caves not in the SMK-system:
+*include ../caves-1623/caves.svx
+
+; Caves in the SMK-system:
+*include ../caves-1623/caves-smk.svx
+
+; Surface surveys entirely within the 1623 area:
+*include ../surface/1623/allsurface.svx
+
+; Old GPS tracks entirely within the 1623 area:
+*include ../fixedpts/gps/tracks/alltracks
+
+; experimental section made for groundwindow
+;*begin basecampsquare
+;*cs long-lat
+;*fix hildejunction 13.813333 47.846111 1754
+;*fix tattie 13.813333 47.656111 1754
+;*data nosurvey from to
+;hildejunction tattie
+;*end basecampsquare
+
+*cs long-lat
+*fix rockpath reference 13.8012217 47.6568033 791
+
+*end 1623

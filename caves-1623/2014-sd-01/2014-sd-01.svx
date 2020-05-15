@@ -1,0 +1,66 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2014-sd-01 1623/XXX
+
+*equate p2014-sd-01 2014-sd-01.14
+
+*begin 2014-sd-01
+
+*title "2014-sd-01"
+*date 2014.08.05
+*team Insts Sophie Draper
+*team Notes David Walker
+*team Photos Matt Watson
+*team Tape Sophie Draper
+*instrument SAP
+*instrument "Xact Disto"
+
+; ref.:	2014 #26
+; the #number is on the clear pocket containing the original notes.
+
+;LOCALEXPORTS
+*export 14		; surface point
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+*data normal from to length bearing gradient ignoreall
+;from	to	tape	compass	clino	remarks
+1	2	4.67	229	+06
+3	2	1.72	338	-25
+4	3	2.85	036	+16
+1	5	8.84	015	+1
+5	6	8.5	319	-28
+6	7	5.52	258	-32	
+7	8	3.86	335	-46
+8	9	2.42	010	-4
+10	9	1.5	212	+13
+11	10	4.24	203	+7
+4	12	2.26	235	-22
+13	12	2.66	038	-6
+14	1	11.9	165	-25
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+1	4.1	3.7	1.3	0.2	nose of rock to south
+2	1.1	0	0.3	0.7	right wall of small passage
+3	0	0.6	0.4	0.4	left wall
+4	0.7	0.5	0.7	0.3	middle
+12	0.5	0	0.2	0.3	ceiling of squeeze
+13	0.5	0.6	1.9	0.3	bottom of back wall
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+1	4.1	3.7	1.3	0.2	nose of rock to south
+5	3.5	0.5	0	2.1	ceiling
+6	4.3	0	0	1.2	right wall
+7	0.9	1.4	0.9	0.6	middle, bottom, rock
+8	0	0.7	0.7	0.7	left 
+9	0	0.3	1	0.2	left
+10	0.3	0.1	1.6	0.6	pointy rock
+11	0.5	0	0.1	0.4	rock on right
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+;1	4.1	3.7	1.3	0.2	nose of rock to south
+;14	-	-	-	-	lower bolt of y hang
+
+*end 2014-sd-01
+

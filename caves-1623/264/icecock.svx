@@ -1,0 +1,69 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2005-5 "Balconhohle"
+
+*begin icecock
+
+*export	1 11 9	13 7
+
+*title "Icecock"
+*date 2015.07.21
+*team Insts Sarah Parker
+*team Dog Matt Watson
+*team Notes Wookey
+
+;ref.: 2015#11
+
+;from	to	tape	compass	clino	remarks
+1	2	2.225	239.2	-07.2
+2	3	1.218	327.6	+12.0
+3	4	10.812	202.3	-08.0
+1	5	1.74	319.3	+11.4
+5	6	5.543	330.7	+48.7
+6	7	3.773	297.5	+33.7
+;7	8	5.168	047.5	+02.7 	;	duplicate in rabbitwarrenstoeinundzwanzig
+7	9	4.548	216.3	+31.9
+9	10	7.068	317.1	+02.2
+10	11	10.166	274.8	+12.2
+;10	12	8.668	325.4	+17.2	;	duplicate now that icecockLC1 goes down this pitch
+11	13	10.267	341.6	-22.5
+; fake distox leg up aven
+*flags splay
+11      -       35      -       up
+
+; original LRUD data from notes
+;1     1.0     0       3.7    1.9 ; 1=15 RP
+;2     0.6     0.5     4      1.5 ; pencil X LHW
+;3     0.9     0       2.4    2.2 ; pencil X RHW
+;4     0.5     1.5     2      1.2 ; pencil X, Protrusion back wall
+;5     0.2     0.8     2.7    1.6 ; pencil X LHW '5'
+;6     0.4     0       1.0    ~5  ; pencil X RHW @ pitch head
+;7     0.1     2.5     4      1.5 ; pencil X '7' Wall
+;8     1.5     0.5     0.5    0.8 ; pencil X '8' RHW
+;9     0       2.5     ~28    1.6 ; pencil X '9' LHW
+;10    1       0       2      1.5 ; pencil X '10' RHW
+;11    0       -       -      1.6 ; pencil X
+;12    -       0       -      1.6 ; pencil X '12' RHW @ pitch
+;13    0       1.5     4      1.4 ; pencil X 
+
+*data passage station left right up down ignoreall
+1     1.0     0	      3.7    1.9 ; 1=15 RP
+2     0.6     0.5     4	     1.5 ; pencil X LHW
+3     0.9     0	      2.4    2.2 ; pencil X RHW
+4     0.5     1.5     2	     1.2 ; pencil X, Protrusion back wall
+*data passage station left right up down ignoreall
+1     1.0     0	      3.7    1.9 ; 1=15 RP
+5     0.4     0.6     2.7    1.6 ; pencil X LHW '5'
+6     0.4     0	      1.0    5   ; pencil X RHW @ pitch head
+7     2.5     0.1     4	     1.5 ; pencil X '7' Wall
+9     0       2.5     28     1.6 ; pencil X '9' LHW
+10    1	      0	      2	     1.5 ; pencil X '10' RHW
+11    0	      5	      35     1.6 ; pencil X
+13    0	      1.5     4	     1.4 ; pencil X 
+*data passage station left right up down ignoreall
+;10    1	      0	      2	     1.5 ; pencil X '10' RHW
+;12    8	      0	      30     1.6 ; pencil X '12' RHW @ pitch
+*data passage station left right up down ignoreall
+;7     0.1     2.5     4	     1.5 ; pencil X '7' Wall
+;8     1.5     0.5     0.5    0.8 ; pencil X '8' RHW
+
+*end icecock

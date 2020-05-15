@@ -1,0 +1,404 @@
+[1mSurvey name                 Survey date  QM name  Grade  Nearest station                Resolution station
+[0m──────────────────────────────────────────────────────────────────────────────────────────────────────────
+[4minferno[0m                     2015.07.22   [4mQM1[0m      [32mA[0m      inferno.5                                        
+  Phreatic passage with floor trench at foot of Magic Glue. Little draught.
+[4mcathedralchasm[0m              2015.07.23   [4mQM4[0m      [32mA[0m      cathedralchasm.12                                
+  Passage continues, traverse around pit needed
+[4micecock2[0m                    2015.07.24   [4mQM1[0m      [32mA[0m      icecock2.8                                       
+  continuation of passage, opens out drafting outward
+[4mbipedal[0m                     2015.07.29   [4mQM2[0m      [32mA[0m      bipedal.1                                        
+  down huge hole, rocks fall for 2s and rattle for further 8!! These leads also noted in Bipedal Passage file.
+[4mbipedalpassage3[0m             2015.08.01   [4mQM2[0m      [32mA[0m      bipedalpassage3.1                                
+  (cont'd from QM1) The second lead is a climb up and straight ahead. Rift is narrow but a promising lead and very drafty, could be major feature/rift.
+[4mquality[0m                     2015.08.02   [4mQM1[0m      [32mA[0m      quality.9                                        
+  4m climb into large passage appearing to take wind
+[4manthemusa[0m                   2015.08.03   [4mQM3[0m      [32mA[0m      anthemusa.12                                     
+  Pitch
+[4mhrv[0m                         2015.08.05   [4mQM1[0m      [32mA[0m      hrv.3                                            
+  2m climb on left; nearest-station may be bollocks because somebody didn't follow the template properly
+[4mlongdrop[0m                    2016.07.06   [4mQM1[0m      [32mA[0m      longdrop.25                                      
+  Yet more pitches that need to be dropped, roughly 80m?
+[4mwrongway[0m                    2016.07.06   [4mQM1[0m      [32mA[0m      wrongway.1                                       
+  50m pitch
+[4mnorthernstraight[0m            2016.07.08   [4mQM2[0m      [32mA[0m      northernstraight.28                              
+  passage ends as a window in an aven
+[4msongoftheearth.part2[0m        2016.07.11   [4mQM1[0m      [32mA[0m      songoftheearth.part2.17                          
+  opening of rift approx 5m up in wall, 2m wide by 8m tall
+[4msongoftheearth.part2[0m        2016.07.11   [4mQM2[0m      [32mA[0m      songoftheearth.part2.30                          
+  phreatic borehole 21m up on wall/slope, approx 5m diameter
+[4mwhatwouldyourmothersay[0m      2016.07.12   [4mQM2[0m      [32mA[0m      whatwouldyourmothersay.10                        
+  main continuation of rift passage round corner; heading ~ 225; bolted rope traverse required
+[4mcathedralchasm2[0m             2016.07.17   [4mQM1[0m      [32mA[0m      cathedralchasm2.46                               
+  Traverse and pitch started by David to be finished at some point.
+[4mkeepsongiving[0m               2016.07.18   [4mQM1[0m      [32mA[0m      keepsongiving.21                                 
+  P10 undescended in bottom of chamber but exact depth of pitch uncertain. drafts.
+[4mkeepsongiving[0m               2016.07.18   [4mQM2[0m      [32mA[0m      keepsongiving.27                                 
+  P10-15 undescended on far side of traverse from block. probably goes to same place as stn21 a lead. drafts.
+[4mnothingtosee[0m                2017.07.25   [4mQM1[0m      [32mA[0m      nothingtosee.15                                  
+  unmeasurable pitch, est +100m [very likely a connection into Galactica]
+[4mnothingtosee[0m                2017.07.25   [4mQM2[0m      [32mA[0m      nothingtosee.15                                  
+  walking passage, sloping upward
+[4mnothingtosee[0m                2017.07.25   [4mQM6[0m      [32mA[0m      nothingtosee.8                                   
+  walking passage perpendicular to main passage
+[4mnothingtosee[0m                2017.07.25   [4mQM7[0m      [32mA[0m      nothingtosee.13                                  
+  crawling passage to the right
+[4msecondwind[0m                  2017.08.07   [4mQM1[0m      [32mA[0m      secondwind.18                                    
+  Right hand pitch at base (station 18): ongoing pitch in small tube; wet
+[4msecondwind[0m                  2017.08.07   [4mQM2[0m      [32mA[0m      secondwind.27                                    
+  Left hand pitch at base (station 27): ongoing 2m wide ramp (subsequently pushed to conclusion in second hand)
+[4msecondwind[0m                  2017.08.07   [4mQM5[0m      [32mA[0m      secondwind.5                                     
+  From station 5 there is another hole (which probably drops to lower level), but traversing across may yield more passage; would need a bolt to reach lip then a further rising bolt traverse over void
+[4mtheloserlido[0m                2017.08.07   [4mQM1[0m      [32mA[0m      theloserlido.6                                   
+  Phreatic ramp upwards ends in an aven
+[4mdog_end_series[0m              2017.08.08   [4mQM1[0m      [32mA[0m      dog_end_series.9                                 
+  wet muddy draughting pitch series continuing from station 9 onwards
+[4mbeckoning_silence[0m           2017.08.09   [4mQM2[0m      [32mA[0m      beckoning_silence.30                             
+  passage continues down climb. strongly draughting, echoey
+[4mcanyon[0m                      2017.08.13   [4mQM2[0m      [32mA[0m      canyon.C16splay                                  
+  continuation of the meadering rift at depth, 15m pitch undropped
+[4mcanyon[0m                      2017.08.13   [4mQM3[0m      [32mA[0m      canyon.C14splay                                  
+  phreatic tube after a 3m climb up on the left hand side
+[4mhangman[0m                     2018.06.17   [4mQM1[0m      [32mA[0m      hangman.4                                        
+  5m x 8m window visible from pitch rebelay, 9m down pitch, accessible from a hang on far wall
+[4mmudslope[0m                    2018.06.20   [4mQM1[0m      [32mA[0m      mudslope.13                                      
+  Hangryman Pitch continues from large ledge
+[4msluggish[0m                    2018.06.20   [4mQM1[0m      [32mA[0m      sluggish.0                                       
+  Continuation of rift to the north beyond the base of Sluggish Pitch, tricky to make progress, would needs traverses and climbs with rope but good draft
+[4mFreeAttic_Flys[0m              2018.07.15   [4mQM1[0m      [32mA[0m      FreeAttic_Flys.4TT                               
+  Bottom of Toto,facing SW is a continuation of a meander, which leads into crystal crumble, Here you can find really impressive stalagites
+[4mThe_second_coming[0m           2018.07.17   [4mQM4[0m      [32mA[0m      The_second_coming.23                             
+  large pitch beyond aven chamber
+[4mThe_second_coming[0m           2018.07.17   [4mQM5[0m      [32mA[0m      The_second_coming.23                             
+  traverse over large pitch into continuation of relict passage
+[4mThe_second_coming[0m           2018.07.17   [4mQM6[0m      [32mA[0m      The_second_coming.44                             
+  passage at head height heading back south
+[4mThe_second_coming[0m           2018.07.17   [4mQM7[0m      [32mA[0m      The_second_coming.47                             
+  walk through knee deep pool in lower level passage heading north, or bolt across if you want to stay dry
+[4mwilfully_endangering_lives[0m  2018.07.20   [4mQM1[0m      [32mA[0m      wilfully_endangering_lives.10                    
+  pitch at end of rift to right of station 10
+[4mwilfully_endangering_lives[0m  2018.07.20   [4mQM2[0m      [32mA[0m      wilfully_endangering_lives.10                    
+  traverse over pitch at end of rift to right of station 10
+[4mUlysses_to_Toto[0m             2018.07.21   [4mQM1[0m      [32mA[0m      Ulysses_to_Toto.1                                
+  Opposite side of survey stationone on the other side of Ulysses sits a very obvious railway sized phreatic passage. To get through to this passage will require a traverse and bolt climb up into it. Very large draft and very promising as slapys to the end of Ulysses chamber sits at23.163, whilst splay into the railway passage is 48.85 (slay name:1->1u), so passage estmated to be 26 metres in width.
+[4mUlysses_to_Toto[0m             2018.07.21   [4mQM2[0m      [32mA[0m      Ulysses_to_Toto.5                                
+  Passage sits behind the pitch bellow survey station 4. Would need to be bolted and dropped as falls in roughly 10-15 metres in depth. Promising meandering passage with minimal draft
+[4mUlysses_to_Toto[0m             2018.07.21   [4mQM5[0m      [32mA[0m      Ulysses_to_Toto.9                                
+  Small passage underneath a massive boulder choke but an extreamly large draft can be felt coming from said boulder choke. Whilst surveyed, it would need it be carefully crawld through in order to get into passage that sits behind, but again, needs someone who dosnt value there life to try it.
+[4mUlysses_to_Toto[0m             2018.07.21   [4mQM6[0m      [32mA[0m      Ulysses_to_Toto.15                               
+  Follows a meandering rift, roughly a metre in diametre and 2 metre in hieght, with anoth strong drafte flowing from station 15 to 14. Definatly worth exploring.
+[4mmyopia[0m                      2018.07.24   [4mQM1[0m      [32mA[0m      myopia.10                                        
+  big wet pitch
+[4mmyopia[0m                      2018.07.24   [4mQM2[0m      [32mA[0m      myopia.10                                        
+  horizental passage
+[4mradiosilence[0m                2018.07.26   [4mQM1[0m      [32mA[0m      radiosilence.02                                  
+  Continuing pitch, ~2s drop, sound of water, strong draft up pitch
+[4mkublakhan[0m                   2018.08.02   [4mQM5[0m      [32mA[0m      kublakhan.35                                     
+  traverse in higher level passage to short section requiring roping (or very airy dodgy bridging) to reach further phreatic passage opposite. Draught into face.
+[4mpitstop_4[0m                   2018.08.02   [4mQM1[0m      [32mA[0m      pitstop_4.4                                      
+  Small hole in the floor drafting best surveyed from point 4 on a marked boulder. On the left handside of the boulder choke.
+[4mbigbastard[0m                  2018.08.03   [4mQM1[0m      [32mA[0m      bigbastard.b                                     
+  pitch head with 3.8s drop (~70m)
+[4mturnbacktime[0m                2018.08.03   [4mQM1[0m      [32mA[0m      turnbacktime.13                                  
+  Pitch +30m down
+[4mgardeningschool[0m             2018.08.07   [4mQM1[0m      [32mA[0m      gardeningschool.11                               
+  ~40m pitch - big hole
+[4mlipstickdipstick[0m            2019.07.17   [4mQM1[0m      [32mA[0m      lipstickdipstick.8                               
+  steep ramp upwards
+[4mlipstickdipstick[0m            2019.07.17   [4mQM4[0m      [32mA[0m      lipstickdipstick.17                              
+  p40? pitch
+[4mdarkartsiv[0m                  2015.07.11   [4mQM4[0m      [33mB[0m      darkartsiv.5                                     
+  wet pitch and aven
+[4mtightyorkshireman[0m           2015.07.24   [4mQM1[0m      [33mB[0m      tightyorkshireman.9                              
+  p15
+[4mgosserwager[0m                 2015.07.28   [4mQM2[0m      [33mB[0m      gosserwager.7                                    
+  north end of parallel rift
+[4mgosserwager[0m                 2015.07.28   [4mQM3[0m      [33mB[0m      gosserwager.7                                    
+  also north end of parallel rift
+[4mkraken[0m                      2015.07.29   [4mQM1[0m      [33mB[0m      kraken.9                                         
+  ~10m pitch [downgraded from A after coming back with a better light]
+[4manthemusa[0m                   2015.08.03   [4mQM1[0m      [33mB[0m      anthemusa.4                                      
+  Pitch beneath boulders
+[4manthemusa[0m                   2015.08.03   [4mQM2[0m      [33mB[0m      anthemusa.7                                      
+  Ascending rift, no obvious draught
+[4mhiltiaplentypitch[0m           2015.08.03   [4mQM5[0m      [33mB[0m      hiltiaplentypitch.22                             
+  short angled pitch, low pitch head
+[4mbipedalpassage5[0m             2015.08.04   [4mQM1[0m      [33mB[0m      bipedalpassage5.4                                
+  rift continues, gets a bit narrow but might open up again
+[4mbipedalpassage5[0m             2015.08.04   [4mQM2[0m      [33mB[0m      bipedalpassage5.5                                
+  climbs up where the water and narrow streamway enters the chamber
+[4mhiltiaplentychamber[0m         2015.08.05   [4mQM1[0m      [33mB[0m      hiltiaplentychamber.13                           
+  Dodgy climb up, protection probably required
+[4mhiltiaplentychamber[0m         2015.08.05   [4mQM2[0m      [33mB[0m      hiltiaplentychamber.16                           
+  Large pitch head approx 35m deep (3s drop + scatter)
+[4mlivingthedream[0m              2016.06.30   [4mQM3[0m      [33mB[0m      livingthedream.03                                
+  Tube heading downhill, fairly small
+[4mlivingthedream[0m              2016.06.30   [4mQM7[0m      [33mB[0m      livingthedream.08                                
+  Continuation of rift across pitch head (rope required), sound of water, probably ends up above QM 8
+[4mdaftchoice[0m                  2016.07.02   [4mQM9[0m      [33mB[0m      daftchoice.25                                    
+  climb into ceiling at end of passage after pitch traverse
+[4mdaftchoice[0m                  2016.07.02   [4mQM12[0m     [33mB[0m      daftchoice.20                                    
+  where the aven water goes
+[4mlobsterpot[0m                  2016.07.08   [4mQM1[0m      [33mB[0m      lobsterpot.10                                    
+  Possible phreatic ramp paralleling entry route at pitch head
+[4mroundabout[0m                  2016.07.11   [4mQM1[0m      [33mB[0m      roundabout.12                                    
+  P10 undescended with water at base
+[4mroundabout[0m                  2016.07.11   [4mQM2[0m      [33mB[0m      roundabout.12                                    
+  Continuing small phreatic passage above (and to the left) of the P10
+[4mcathedralchasm2[0m             2016.07.17   [4mQM2[0m      [33mB[0m      cathedralchasm2.24                               
+  Rift heading up to the right from chamber to be explored.
+[4mlower_snakebite[0m             2016.08.09   [4mQM1[0m      [33mB[0m      lower_snakebite.10                               
+  p5, waterfall, probably just drops into song of the earth
+[4mtherestherub[0m                2017.07.19   [4mQM3[0m      [33mB[0m      therestherub.11                                  
+  pitch down from LH end of HL tube
+[4mgalactica[0m                   2017.07.21   [4mQM1[0m      [33mB[0m      galactica.20                                     
+  17m deep drippy rift to right of pitches.
+[4mnothingtosee[0m                2017.07.25   [4mQM9[0m      [33mB[0m      nothingtosee.10                                  
+  small hole in roof
+[4mmastercave[0m                  2017.07.26   [4mQM1[0m      [33mB[0m      mastercave.4                                     
+  small streamway drops down deep rift, muddy phreatic tube with sloped walls above rift, needs bolt traverse at the top of the rift to follow phreatic tube
+[4mriggermortis[0m                2017.08.06   [4mQM5[0m      [33mB[0m      riggermortis.40                                  
+  Up ramps
+[4mtheloserlido[0m                2017.08.07   [4mQM3[0m      [33mB[0m      theloserlido.21                                  
+  Traverse around the left of the sump pool to investigated far end
+[4mbeckoning_silence[0m           2017.08.09   [4mQM1[0m      [33mB[0m      beckoning_silence.14                             
+  pitch on the right possibly descending back into rift which takes water
+[4mbeckoning_silence[0m           2017.08.09   [4mQM3[0m      [33mB[0m      beckoning_silence.24                             
+  AD: passage at top of climb; could also be accessed by traversing from pitch
+[4mbeckoning_silence[0m           2017.08.09   [4mQM4[0m      [33mB[0m      beckoning_silence.28                             
+  AD: climb up to west on corner
+[4mnaturecalls[0m                 2017.08.10   [4mQM1[0m      [33mB[0m      naturecalls.10                                   
+  20m+ drafting out pitch, wet
+[4mcanyon[0m                      2017.08.13   [4mQM1[0m      [33mB[0m      canyon.C10                                       
+  part way down the 35m pitch there is a ledge, possibly phreatic with the stream having cut down through it forming the pitch,the ledge possibly continuing at a higher level
+[4mhangman[0m                     2018.06.17   [4mQM2[0m      [33mB[0m      hangman.5                                        
+  continuation of Hangman pitch, a large, wet pitch with possible interesting undercut
+[4mblitzen_to_LiquidLuck[0m       2018.07.13   [4mQM1[0m      [33mB[0m      blitzen_to_LiquidLuck.2                          
+  After a roughly 2 m climb down, the passage spokes off to the left and slims down in size. Not very drafty but possibly links into the BBBBypass later on.
+[4mblitzen_to_LiquidLuck[0m       2018.07.13   [4mQM2[0m      [33mB[0m      blitzen_to_LiquidLuck.4                          
+  When in Benign bubble baby bypass, facing the formation, to your right ight is an awkward look crawl. Whilst investigate, this crawl leads into a drop, roughly 15 metres and would potientially link into the blitsen boulovard canyon.
+[4mThe_second_coming[0m           2018.07.17   [4mQM1[0m      [33mB[0m      The_second_coming.3                              
+  short bolt climb to phreatic tube in roof
+[4mThe_second_coming[0m           2018.07.17   [4mQM3[0m      [33mB[0m      The_second_coming.23                             
+  pitch in floor on RHS of aven chamber; looks immature
+[4msnagged_and_shagged[0m         2018.07.18   [4mQM1[0m      [33mB[0m      snagged_and_shagged.13                           
+  clean washed pitch about 20m no noticible draft
+[4mhobnob_hallway_2[0m            2018.07.19   [4mQM2[0m      [33mB[0m      hobnob_hallway_2.14                              
+  upstream meander
+[4mUlysses_to_Toto[0m             2018.07.21   [4mQM3[0m      [33mB[0m      Ulysses_to_Toto.5                                
+  When facing the pitch bellow survey station 4, to your left with be a walking meandering passage, roughly a meter in width, with stable floor. minimal draft.
+[4mkublakhan[0m                   2018.08.02   [4mQM3[0m      [33mB[0m      kublakhan.33                                     
+  rift with stream flowing away down it
+[4mmiraclemaze1[0m                2018.08.02   [4mQM1[0m      [33mB[0m      miraclemaze1.17                                  
+  continuation of rift
+[4mcoconutchamber2[0m             2018.08.03   [4mQM1[0m      [33mB[0m      coconutchamber2.7                                
+  Wide dry rift, crumbly rock, needs gear
+[4mcoconutchamber3[0m             2018.08.03   [4mQM3[0m      [33mB[0m      coconutchamber3.14                               
+  Pitch down into rift (10m?), possible high level continuation
+[4mturnbacktime[0m                2018.08.03   [4mQM2[0m      [33mB[0m      turnbacktime.13                                  
+  rift on other side of pitch traverse
+[4mlipstickdipstick[0m            2019.07.17   [4mQM2[0m      [33mB[0m      lipstickdipstick.16                              
+  easy climb up but needs a rope to protect
+[4mlipstickdipstick[0m            2019.07.17   [4mQM3[0m      [33mB[0m      lipstickdipstick.15                              
+  p35+ but probably links to QM4
+[4mlipstickdipstick[0m            2019.07.17   [4mQM5[0m      [33mB[0m      lipstickdipstick.18                              
+  passage far side of pitch
+[4mcustardcavalry[0m              2019.07.20   [4mQM2[0m      [33mB[0m      custardcavalry.1                                 
+  stream descends down small drops (approx 5m) in rift, good lead but wet
+[4mdrunkdrivers[0m                2019.07.20   [4mQM2[0m      [33mB[0m      drunkdrivers.9                                   
+  4 to 5 bolt traverse in upward trending large rift
+[4mwheresthemilk[0m               2019.07.20   [4mQM1[0m      [33mB[0m      wheresthemilk.5                                  
+  upward trending rift, big, but needs bolts to climb
+[4mdarkartsiv[0m                  2015.07.11   [4mQM1[0m      [31mC[0m      darkartsiv.1                                     
+  aven at final chamber
+[4mdarkartsiv[0m                  2015.07.11   [4mQM2[0m      [31mC[0m      darkartsiv.1                                     
+  another aven at final chamber
+[4mdarkartsiv[0m                  2015.07.11   [4mQM3[0m      [31mC[0m      darkartsiv.1                                     
+  deathy hole in floor of final chamber
+[4minferno[0m                     2015.07.22   [4mQM2[0m      [31mC[0m      inferno.6                                        
+  Climb up to window - may simply connect to pitch below
+[4mgosserwager[0m                 2015.07.28   [4mQM1[0m      [31mC[0m      gosserwager.6                                    
+  small but doable pitch 4-7 second rattle
+[4mfrozennorth3[0m                2015.07.29   [4mQM1[0m      [31mC[0m      frozennorth3.4                                   
+  Hole with 2 passages continuing on other side
+[4mbipedalpassage2[0m             2015.08.03   [4mQM1[0m      [31mC[0m      bipedalpassage2.46                               
+  narrow rift for small person with howling draft. Very close to Dark Arts 1 (< 10m) and at same level.
+[4mhiltiaplentypitch[0m           2015.08.03   [4mQM2[0m      [31mC[0m      hiltiaplentypitch.6                              
+  phreatic horizontal crawl
+[4mhiltiaplentypitch[0m           2015.08.03   [4mQM3[0m      [31mC[0m      hiltiaplentypitch.11                             
+  stooping upward tight passage
+[4mswingers[0m                    2016.06.16   [4mQM1[0m      [31mC[0m      swingers.1                                       
+  small rift at top of 4m free climb. Takes water and too small for most people. Don't bother.
+[4mlivingthedream[0m              2016.06.30   [4mQM2[0m      [31mC[0m      livingthedream.01                                
+  Pile of rocks near bottom of Octopussy ramp - probably choked but should be checked
+[4mlivingthedream[0m              2016.06.30   [4mQM5[0m      [31mC[0m      livingthedream.06                                
+  Small hole, rocks thrown down QM 6 connect to here
+[4mlivingthedream[0m              2016.06.30   [4mQM6[0m      [31mC[0m      livingthedream.08                                
+  Short pitch at top of climb
+[4mlivingthedream[0m              2016.06.30   [4mQM9[0m      [31mC[0m      livingthedream.21                                
+  Two small holes very close together, presumed to join up, probably choked
+[4mlivingthedream[0m              2016.06.30   [4mQM12[0m     [31mC[0m      livingthedream.11                                
+  Tight crawl, likely to connect to other C leads
+[4mdaftchoice[0m                  2016.07.02   [4mQM1[0m      [31mC[0m      daftchoice.3                                     
+  small
+[4mdaftchoice[0m                  2016.07.02   [4mQM2[0m      [31mC[0m      daftchoice.6                                     
+  small
+[4mdaftchoice[0m                  2016.07.02   [4mQM3[0m      [31mC[0m      daftchoice.9                                     
+  small
+[4mdaftchoice[0m                  2016.07.02   [4mQM4[0m      [31mC[0m      daftchoice.11                                    
+  small p3 down
+[4mdaftchoice[0m                  2016.07.02   [4mQM5[0m      [31mC[0m      daftchoice.29                                    
+  small
+[4mdaftchoice[0m                  2016.07.02   [4mQM13[0m     [31mC[0m      daftchoice.38                                    
+  AD: Right at end, C lead on Tunnel survey
+[4mdaftchoice[0m                  2016.07.02   [4mQM14[0m     [31mC[0m      daftchoice.38                                    
+  AD: Right at end, C lead on Tunnel survey
+[4mwrongway[0m                    2016.07.06   [4mQM2[0m      [31mC[0m      wrongway.0                                       
+  traverse over pitch, looks to close down, but cannot be certain
+[4mlobsterpot[0m                  2016.07.08   [4mQM2[0m      [31mC[0m      lobsterpot.10                                    
+  Possible phreatic ramp on opposite side of pitch below rebelay. Very long bolt traverse required for access
+[4mnorthernstraight[0m            2016.07.08   [4mQM1[0m      [31mC[0m      northernstraight.11                              
+  small crawl in RHW with mud floor
+[4mkippercock[0m                  2016.07.09   [4mQM1[0m      [31mC[0m      kippercock.04                                    
+  Small hole to south of passage near start
+[4mroundabout[0m                  2016.07.11   [4mQM3[0m      [31mC[0m      roundabout.31                                    
+  Base of aven/pitch, but survey shows this is 17m below Natural Highs traverse in Leeds Bypass.
+[4mwhatwouldyourmothersay[0m      2016.07.12   [4mQM1[0m      [31mC[0m      whatwouldyourmothersay.7                         
+  high level continuation of hading rift (possibly rejoins passage later
+[4mwhatwouldyourmothersay[0m      2016.07.12   [4mQM3[0m      [31mC[0m      whatwouldyourmothersay.7                         
+  smaller wet (sounding) contiuation of passage ~perpindicular to QM2A
+[4mwhatwouldyourmothersay[0m      2016.07.12   [4mQM5[0m      [31mC[0m      whatwouldyourmothersay.16                        
+  miserable stream canyon, possible water source of hole in wall in nochoiceatall
+[4mScreamer[0m                    2016.07.18   [4mQM2[0m      [31mC[0m      Screamer.30a                                     
+  undescended p6
+[4mlongdrop2[0m                   2016.07.18   [4mQM1[0m      [31mC[0m      longdrop2.10                                     
+  Very bottom continues down around corner, fairly rubbish wet lead
+[4mwatertorture[0m                2016.07.18   [4mQM1[0m      [31mC[0m      watertorture.23                                  
+  tube in floor on right allows squirm down to small stream in narrow rift that is too tight for more progress without lump hammer.
+[4mhiltigalactica[0m              2016.07.25   [4mQM2[0m      [31mC[0m      hiltigalactica.9                                 
+  Three small tight crawly leads off of the small sandy chamber as yet to be explored
+[4mtherestherub[0m                2017.07.19   [4mQM1[0m      [31mC[0m      therestherub.4                                   
+  degenerating drafting crawl at top of thrutch up RH rift for small & determined
+[4mtherestherub[0m                2017.07.19   [4mQM2[0m      [31mC[0m      therestherub.5                                   
+  increasingly arduous thrutch up degenerating LH rift
+[4mhilti_nts_bones_pitch[0m       2017.07.28   [4mQM1[0m      [31mC[0m      hilti_nts_bones_pitch.4                          
+  The pitch looks to connect as an aven to Galactica
+[4mhilti_nts_near_start[0m        2017.07.28   [4mQM1[0m      [31mC[0m      hilti_nts_near_start.6                           
+  Continuation of large pitch believed to link into Galactica
+[4mriggermortis[0m                2017.08.06   [4mQM1[0m      [31mC[0m      riggermortis.48                                  
+  Top of 4m climb
+[4mriggermortis[0m                2017.08.06   [4mQM2[0m      [31mC[0m      riggermortis.45                                  
+  Pit in floor
+[4mriggermortis[0m                2017.08.06   [4mQM3[0m      [31mC[0m      riggermortis.44                                  
+  Pit in floor
+[4mriggermortis[0m                2017.08.06   [4mQM4[0m      [31mC[0m      riggermortis.43                                  
+  Hole in ceiling
+[4mriggermortis[0m                2017.08.06   [4mQM6[0m      [31mC[0m      riggermortis.38                                  
+  Pit in floor
+[4mriggermortis[0m                2017.08.06   [4mQM7[0m      [31mC[0m      riggermortis.51                                  
+  Continuation of passage
+[4mriggermortis[0m                2017.08.06   [4mQM8[0m      [31mC[0m      riggermortis.35                                  
+  Wet 15m pitch
+[4mriggermortis[0m                2017.08.06   [4mQM9[0m      [31mC[0m      riggermortis.34                                  
+  Wet 12m pitch
+[4mriggermortis[0m                2017.08.06   [4mQM10[0m     [31mC[0m      riggermortis.50                                  
+  Wet inlet
+[4msecondwind[0m                  2017.08.07   [4mQM3[0m      [31mC[0m      secondwind.11                                    
+  Hole in mid level between stations 11 and 11A; but probably above pitches subsequently pushed below
+[4msecondwind[0m                  2017.08.07   [4mQM4[0m      [31mC[0m      secondwind.9                                     
+  There are three mud ramps into the midlevel (near stations 9 and 10); however, these are likely to connect to the level above where there are plenty of other holes that we did not drop
+[4mtheloserlido[0m                2017.08.07   [4mQM2[0m      [31mC[0m      theloserlido.3                                   
+  Base of meandering rift disappears off, presumably a muddy oxbow
+[4mdog_end_series[0m              2017.08.08   [4mQM2[0m      [31mC[0m      dog_end_series.4                                 
+  muddy tube from station 4 ramp, shit
+[4munfathomablestupidity[0m       2017.08.08   [4mQM1[0m      [31mC[0m      unfathomablestupidity.4                          
+  strong draft and sound of rushing water coming from aven at the end of the meander, possibly worth bolt climbing but looks too tight.
+[4msnailtrail[0m                  2018.06.19   [4mQM1[0m      [31mC[0m      snailtrail.7                                     
+  pitch below Snail Trail Traverse
+[4mblitzen_to_LiquidLuck[0m       2018.07.13   [4mQM3[0m      [31mC[0m      blitzen_to_LiquidLuck.25b                        
+  The Urinal is a fairly wet chamber, which is suspected to link into happy butterfly. West of the driping water inlet is a grotty, wet meander that would need crawling through. Dosent look nice... But could lead to a bigger water way.
+[4mblitzen_to_LiquidLuck[0m       2018.07.13   [4mQM4[0m      [31mC[0m      blitzen_to_LiquidLuck.25b                        
+  East of 25b is an aven that has a water inlet coming back into it. There is a strong possibilty that this is where happy butterfly could connect into Fish Face.
+[4mThe_second_coming[0m           2018.07.17   [4mQM2[0m      [31mC[0m      The_second_coming.21                             
+  pitch in floor leading to tight immature rift
+[4mUlysses_to_Toto[0m             2018.07.21   [4mQM4[0m      [31mC[0m      Ulysses_to_Toto.8                                
+  Decending rift with wall on one side that is boulder choky (South), decending wall (North). Could go but would need to be done by someone who dosnt value there life.
+[4mulysses_to_colericchamber[0m   2018.07.24   [4mQM2[0m      [31mC[0m      ulysses_to_colericchamber.6                      
+  To one side of the chamber is a tight rift, that has been reffered to as 'too-tight'. This leads to a large, echo'y space within sight. This is probably accessed via following the water below, but if the water goes elsewhere this is very worth checking out. A determined, brave, and thin individual could likely find a way through: although even this person may want a backup of some sort.
+[4mkublakhan[0m                   2018.08.02   [4mQM1[0m      [31mC[0m      kublakhan.5                                      
+  straight ahead at crossroads opposite descent rope. Shitty crawl.
+[4mkublakhan[0m                   2018.08.02   [4mQM2[0m      [31mC[0m      kublakhan.alpha                                  
+  small sandy-floored crawl, inside loop of known cave.
+[4mkublakhan[0m                   2018.08.02   [4mQM4[0m      [31mC[0m      kublakhan.35                                     
+  low sandy crawl in bottom of passage
+[4mbigbastard[0m                  2018.08.03   [4mQM2[0m      [31mC[0m      bigbastard.a                                     
+  tight climb/pitch down to opening
+[4mcoconutchamber3[0m             2018.08.03   [4mQM1[0m      [31mC[0m      coconutchamber3.12                               
+  Traverse across rift to small crawl on left
+[4mcoconutchamber3[0m             2018.08.03   [4mQM2[0m      [31mC[0m      coconutchamber3.12                               
+  Traverse across rift to small crawl straight ahead
+[4mdrunkdrivers[0m                2019.07.20   [4mQM1[0m      [31mC[0m      drunkdrivers.9                                   
+  10-12m bolt climb to 3m phreatic circular hole heading up
+[4mnorthhole[0m                   2015.07.24   [4mQM1[0m      [31mD[0m      northhole.8                                      
+  small sandy crawl out of ice pit, needs digging
+[4mfrozennorth4[0m                2015.08.01   [4mQM2[0m      [31mD[0m      frozennorth4.5                                   
+  dodgy looking boulder choke, possibly digable
+[4mbipedalpassage2[0m             2015.08.03   [4mQM2[0m      [31mD[0m      bipedalpassage2.47                               
+  not as drafty as C lead above; easy digging in sand. If choice suggest insert thin person into lead above.
+[4msnowhole[0m                    2016.07.05   [4mQM1[0m      [31mD[0m      snowhole.1                                       
+  Vertical up snow plug!!!!!
+[4mslackers7[0m                   2016.07.08   [4mQM1[0m      [31mD[0m      slackers7.04                                     
+  Muddy dig at top of phreatic ramp.
+[4msecondhand[0m                  2017.08.09   [4mQM1[0m      [31mD[0m      secondhand.1                                     
+  base of main pitch is draughting boulders; through small hole access narrow rift filled with sediment (much less draught). All a very long term prospect!
+[4mtoto_to_crystalcrumble[0m      2018.07.24   [4mQM1[0m      [31mD[0m      toto_to_crystalcrumble.11                        
+  A widening to the meander about halfway below the way into Crystal Crumble and the floor. Leads back towards Toto at a lower level to the way into Crystal Crumble. Probably not worth pursuing, definitly not until the floor of Toto has been dropped (as somewhwere from there probably leads to here).
+[4mmysterious_schlag[0m           2017.07.27   [4mQM1[0m      [31mE[0m      mysterious_schlag.3                              
+  very wet continuation of pitch, walls made of choss
+[4minferno[0m                     2015.07.22   [4mQM4[0m      [37mX[0m      inferno.14                                       
+  Aven entering Kraken chamber
+[4mkraken[0m                      2015.07.29   [4mQM3[0m      [37mX[0m      kraken.3                                         
+  Aven entering high in roof
+[4mbipedalpassage4[0m             2015.08.01   [4mQM2[0m      [37mX[0m      bipedalpassage4.50                               
+  Large aven comes in from above. Big bolting job not recommended.
+[4mnorthhole2[0m                  2015.08.01   [4mQM1[0m      [37mX[0m      northhole2.5                                     
+  continuing aven climbs, handling would be helpful but not actually required.
+[4mbackfuture[0m                  2015.08.02   [4mQM1[0m      [37mX[0m      backfuture.3                                     
+  possible passage above CFN (15m up)
+[4mquality[0m                     2015.08.02   [4mQM2[0m      [37mX[0m      quality.4                                        
+  Entry into pitch at top of side-stream/rift
+[4mquality[0m                     2015.08.02   [4mQM3[0m      [37mX[0m      quality.11                                       
+  Various holes high in the roof
+[4mquality[0m                     2015.08.02   [4mQM4[0m      [37mX[0m      quality.6                                        
+  Hole in wall about level of QB pitchhead in far wall above and to R of Back-tot-future rift. May go into space above Gob?
+[4manthemusa[0m                   2015.08.03   [4mQM4[0m      [37mX[0m      anthemusa.4                                      
+  Aven with water entering
+[4mhiltiaplentypitch[0m           2015.08.03   [4mQM4[0m      [37mX[0m      hiltiaplentypitch.18                             
+  probably a solution pocket
+[4mdaftchoice[0m                  2016.07.02   [4mQM11[0m     [37mX[0m      daftchoice.19                                    
+  avenb climb, drippy
+[4mwrongway[0m                    2016.07.06   [4mQM3[0m      [37mX[0m      wrongway.4                                       
+  Aven (added by AD from Tunnel survey)
+[4mslackers4[0m                   2016.07.07   [4mQM3[0m      [37mX[0m      slackers4.9                                      
+  aven in fault above pitch lead 1
+[4mslackers6[0m                   2016.07.07   [4mQM2[0m      [37mX[0m      slackers6.05                                     
+  Aven to NW at pitch lead
+[4mlobsterpot[0m                  2016.07.08   [4mQM3[0m      [37mX[0m      lobsterpot.01                                    
+  20+m high aven above stream inlet at base of pitch
+[4mwrongcustard[0m                2016.07.08   [4mQM1[0m      [37mX[0m      wrongcustard.01                                  
+  Aven above 12m pitch
+[4mwhatwouldyourmothersay[0m      2016.07.12   [4mQM4[0m      [37mX[0m      whatwouldyourmothersay.14                        
+  drippy aven, ~20 m to ceiling
+[4mScreamer[0m                    2016.07.18   [4mQM1[0m      [37mX[0m      Screamer.5                                       
+  aven, drafting up
+[4mtherestherub[0m                2017.07.19   [4mQM5[0m      [37mX[0m      therestherub.12                                  
+  AD: aven shown on plan
+[4msnakecharmer2[0m               2017.07.31   [4mQM3[0m      [37mX[0m      snakecharmer2.1                                  
+  Wet aven; possibly water from Camp Kraken
+[4msnakecharmer3[0m               2017.08.01   [4mQM1[0m      [37mX[0m      snakecharmer3.31                                 
+  aven climb, looks promising
+[4mriggermortis[0m                2017.08.06   [4mQM11[0m     [37mX[0m      riggermortis.22                                  
+  45+m aven
+[4mtoto_to_crystalcrumble[0m      2018.07.24   [4mQM2[0m      [37mX[0m      toto_to_crystalcrumble.10                        
+  The water flowing into Crystal Crumble almost certainly just flows along the rift from Liquid Luck. This really isn't worth pursuing.
+[4mpitstop_4[0m                   2018.08.02   [4mQM2[0m      [37mX[0m      pitstop_4.3                                      
+  Aven above chamber, chamber could be dropped into from another lead, not a bolt climb

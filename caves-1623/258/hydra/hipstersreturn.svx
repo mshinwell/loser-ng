@@ -1,0 +1,67 @@
+*begin hipstersreturn
+
+; stations linked into other surveys (or likely to)
+*export 40 6
+
+; Cave: 258	
+; Area in cave/QM: Snake Charmers
+*title "Hipsters Return"
+*date 2017.08.02
+*team Insts Ashley Gregg	
+*team Notes Pete Tallig
+*team Pics None
+*team Tape None
+*instrument Pete & Fleurs DistoX2
+; Calibration: yes
+*ref 2017#35
+; the #number is on the clear pocket containing the original notes
+
+; if using a tape:
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+40	41	3.22	300.6	+12.7
+41	42	6.73	265.6	-35.7
+42	43	4.34	226.5	-29.3
+43	44	7.64	326.5	+06.9
+44	45	5.52	270.2	+54.5
+45	46	2.53	230.7	-35.1	
+46	47	4.68	277.6	-16.3
+47	48	6.22	253.1	-05.4
+48	49	9.47	225.5	-08.1
+49	6	14.69	258.7	-22.4
+
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+*data passage station left right up down 
+41	0.6	0	2	1.5
+42	2	0	1.9	2.6
+43	0	1.5	2	1.5
+44	1.1	1.4	0.9	0.5
+45	3.5	1.2	0	3
+46	5	3.4	1	1.5
+47	8	5	10	1.6
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surveyname.5    -    description of QM ]
+
+;------------
+;Cave description  ;(leave commented-out)
+;narrow catchy passage, overflow during flood, ends in song of the earth
+
+*end hipstersreturn

@@ -1,0 +1,57 @@
+*equate p2007-01 gps07.2007-01
+*equate p2007-02 gps07.2007-02
+*equate p2007-03 gps07.2007-03
+*equate p2007-04 gps07.2007-04
+*equate p2007-04a gps07.2007-04a
+*equate p2007-05 gps07.2007-05
+*equate p2007-06 gps07.2007-06
+*equate p2007-07 gps07.2007-07
+*equate p2007-11 gps07.2007-11
+*equate p2007-12 gps07.2007-12
+
+*entrance p2007-01
+*entrance p2007-02
+*entrance p2007-03
+*entrance p2007-04
+*entrance p2007-04a
+*entrance p2007-05
+*entrance p2007-06
+*entrance p2007-07
+*entrance p2007-11
+
+*begin gps07
+
+*infer exports on
+
+*fix 234dl reference 36448 83435 1788 
+; I think the old 2000 surface survey
+; for 234 is about 20-30m wrong, which 
+; would also put 249, 2004-14, 2004-15, 
+; and 2002-03 in the wrong places. This
+; is where my GPS thinks 234a is.
+
+; From Aaron's GPS:
+
+*fix 2007-01 reference 36804 83602 1861
+*fix 2007-02 reference 36749 83623 1846
+
+; from Aaron's GPS, 01/08/07:
+; ref 2007#41
+
+*fix 2007-03 reference 36970 82767 1747
+
+;2007-04 tagged as such and from Aaron's GPS. 2007-4a and above untagged.
+
+*fix 2007-04 reference 36873 83773 1869
+*fix 2007-04a reference 37017 82845 1750
+*fix 2007-05 reference 37070 82945 1758
+*fix 2007-06 reference 36931 83264 1810
+*fix 2007-07 reference 36916 83559 1873
+
+;from Dave's gps, 23/07/07
+*fix 2007-11 reference 37045 84497 1909
+
+;from Nials gps 6/08/07
+*fix 2007-12 reference 36785 83898 1783
+
+*end gps07

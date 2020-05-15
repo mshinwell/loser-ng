@@ -1,0 +1,49 @@
+*begin 161h
+
+*export 1 12
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Kaninchenhöhle, 1623/161
+*title "Transylvania Avenue"
+
+*date 2004.08.04 ; Taken from Exif tag on one of Julian's photos (!!)
+
+*team Instruments Julian Todd
+*team Notes Brian Outram
+
+*instrument Set 2
+*instrument Tape ???
+
+
+*calibrate tape +0.07
+
+
+; ref: 2004#45
+
+2   1   5.55    201 -25
+2   3   4.94    346 +17
+4   3   5.13    204 -30
+5   4   1.86    202 -21
+6   5   0.90    281 -07
+7   6   1.22    240 -10
+8   7   4.80    196 -20
+8   9   11.69   043 +17
+10  9   7.07    269 -16
+11  10  1.91    247 -06
+*flags surface
+11  12  1.54    250 +70
+
+;stn    L   R   U   D   description
+;1  3.0 0.5 6.0 1.0 Red paint from 2003 Iceland resurvey (number unknown)
+;2  1.0 3.0 0   0.7 RP roof
+;3  1.0 3.0 0   0.7 RP LH roof
+;4  0.6 0.2 0.2 0.2 RP roof flake
+;5  0.1 0.8 2.0 0.3 RP roof flake
+;6  0.15    0.20    0   0.3 RP roof flake
+;7  0.5 0   0.40    0.50    RP roof flake
+;8  5.0 1.0 0   1.0 RP RH roof flake
+;9  0.5 2.5 0.2 0.5 RP LH roof flake
+;10 1.5 1.0 0   0.30    RP roof flake at ent
+;11 -   -   -   -   RP floor at entrance
+;12 -   -   -   -   Tag bolt
+*end 161h

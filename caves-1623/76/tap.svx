@@ -1,0 +1,69 @@
+;Eislufthoehle 1623/76
+
+*begin tap
+
+*title "To the Tap Room"
+*date 2004.08.01
+*team Insts Jenny Black
+*team Notes Olly Betts
+*team Tape Jenny Black
+*instrument Compass 3 ; Clino 3
+; notes in 2004 #38
+
+*export 1 3 17 22
+
+*calibrate tape 0.10 ; tape 10cm too short
+
+2	1	1.945	269	+06.5
+3	2	5.52	238	+12
+3	4	3.15	-	down
+4	5	2.85	299	+05.5
+6	5	2.085	174	+07
+6	7	4.94	330	+40
+8	7	2.47	057	-34
+8	9	0.98	-	down
+9	10	11.97	-	up
+10	11	7.42	248	+42
+
+*begin
+*calibrate tape 1.10 ; tape 10cm too short, and measured 1m in
+11	12	12.17	-	up
+*end
+
+12	13	3.10	249	+42.5
+14	13	3.10	049	-09
+15	14	0.94	331	-09
+15	16	4.75	283	+42
+16	17	1.20	238	-26
+16	18	2.26	242	-07.5
+18	19	3.82	275	+27
+19	20	2.82	340	+58
+20	21	0.965	327	+10
+21	22	1.76	288	-07
+
+*data passage station left right up down ignoreall
+
+1	2.1	0	15	0.9	NP "1"
+2	2	0	15	1	NP "2" RHW
+3	1.2	15	20	5	NP nobble on rock
+4	0.9	0.6	20	2.0	NP on rock
+5	0	0.5	8	2.0	LHW
+6	0.1	0.2	8	2.0	LHW
+7	0.9	0	20	3.5	broken stal RHW
+;8	-	-	-	-	Jenny
+;9	-	-	-	0	ledge
+10	0.5	0.5	12	12	Y hang knot
+;11	-	-	-	-	on rope
+12	0.25	0.4	7	11	deviation crab
+13	0.2	0.4	6	2.5	nobble (NP by ??
+14	1	0	5	1.4	NP RHW
+;15		
+16	0.2	0.7	2	1.5	pencil "X" on ??
+17	0	0.8	3	1.0	70's spit Keg tie in station
+18	0	0.3	2	1.8	LHW
+19	0.05	0.7	2	1.8	NP LHW
+20	0	0.7	0.9	0.4	NP LHW
+21	0.05	0.6	0.4	0.4	NP LHW
+;22	-	-	-	-	point on prev survey (NP on boulder)
+
+*end tap

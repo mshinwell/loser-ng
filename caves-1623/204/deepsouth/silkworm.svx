@@ -1,0 +1,41 @@
+*begin silkworm
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Silkworm"
+*date 2007.07.29
+*team Insts Mark Dougherty
+*team Notes Duncan Collis
+*team Tape Ollie Stevens
+*instrument set CUCC Pony
+
+; Calibration - unknown
+
+; ====== stations refindable to link to other surveys: ======
+
+
+*export 1 5
+;1 is silkroad2.17
+;5 is silkroad2.11
+
+*calibrate tape +0.00	; +ve if tape was too short, -ve if too long
+1	2	07.83	326	-13
+2	3	08.25	355	+06
+3	4	17.07	274	-24
+4	5	10.95	017	+19
+
+
+;station details
+;name	L	R	U	D	description
+
+*data passage station left right up down ignoreall
+1	0.5	1	0.2	1.2	numbered station
+2	0	1	0.6	0.2	start L wall
+3	0	1.5	0.4	0.5	pencil mark
+4	3	1.5	2	0.5	paint nose
+5	-	-	-	-	scratched X
+
+
+
+*end silkworm
+

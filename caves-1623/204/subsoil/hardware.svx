@@ -1,0 +1,50 @@
+*begin hardware
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Hardware"
+*date 2004.08.03
+*team Insts Nial Peters
+*team Notes Becka Lawson
+
+*instrument set 2; tape red open reel
+; Calibration: stone bridge: 150/+23, 327/-23
+
+; ref 2004 #44
+
+*export 4x 7 8 9 10
+
+*calibrate tape +0.40
+
+;from	to	tape	comp	clino
+4x	1	5.63	307	-12
+2	1	4.40	090	+16
+2	3	3.25	313	-16
+4	3	2.19	088	+11
+4	5	3.83	336	00
+5	6	1.30	055	+27
+7	6	5.27	130	+13
+7	8	5.50	042	+20
+9	8	16.08	153	-05
+9	10	14.92	353	+20
+11	10	7.00	142	-34
+11	12	8.47	015	+42
+
+;station details
+;name	L	R	U	D	description
+;4x	-	-	-	-	=earthenware.4
+;1	1	0	0.4	0.6	numbered RP RW
+;2	1	1	0	1.8	RP roof
+;3	0.4	1.5	1	0.7	RP RW
+;4	0.6	0.8	0.8	0.4	RP LW
+;5	0	0.6	0.3	0.6	RP LW numbered in pencil
+;6	0	0.5	0.1	1.2	RP roof numbered in pencil
+;7	0	2	2.5	0.8	RP numbered on roof
+;8	0	4	2.5	1.5	RP RW numbered in pencil
+;9	0.4	4	1.8	3	RP LW numbered
+;10	3	2	5	3.5	RP boulder numbered in pencil
+;11	0	2	4	1.8	RP LW numbered
+;12	2.5	0	3	1.5	RP RW at pitch-head
+
+*end hardware
+

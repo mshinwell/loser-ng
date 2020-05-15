@@ -1,0 +1,41 @@
+;1998.06.09 AERW Inherited from Wookey, who presumably converted this...
+;1998.06.09 AERW split surface data, removed equates, added exports, comments etc.
+
+*begin EisSurf
+
+; Locn:	SE flank Vord. Schwarzmooskogel, Western massif, Totes Gebirge, Austria
+; Cave:	Schwarzmooskogel Eishöhle
+*title "Link from HauptEingang to Schneevulkanhalle"
+*date 1991.07.28
+*team P. Jeutter, K. Jdger, S. Steinberger, R. Seebacher
+
+; ====== stations refindable to link to other surveys: ======
+
+*export Theo14 	; laser point at 40a entrance
+*export SV0    	; fixed point at entrance to Schneevulkanhalle
+		; in fact there are two entrances giving straightforward access
+		; to Schneevulkanhalle: Koenigsschachts and Brennerbeselschluf
+		; it's not clear which this is, though it would appear not to
+		; have a vertical entrance pitch, if that's a clue...
+
+;DECLINATION:    0.00  FORMAT: DMMDLRUDLDAN  CORRECTIONS:  0.00 0.00 0.00
+
+*units length feet
+
+*data normal FROM  TO LENGTH BEARING GRadient ignoreall ; LEFT UP DOWN RIGHT FLAGS COMMENTS
+
+  Theo14      AV1   163.39   342.00    10.00     0.00     0.00     0.00     0.00  #|LLL#
+     AV1      AV2   159.68    22.00     3.00     0.00     0.00     0.00     0.00  #|LLL#
+     AV2      AV3   114.99    65.00   -19.00     0.00     0.00     0.00     0.00  #|LLL#
+     AV3      AV4    63.09    56.00   -18.00     0.00     0.00     0.00     0.00  #|LLL#
+     AV4      AV5    90.06    64.00   -37.00     0.00     0.00     0.00     0.00  #|LLL#
+     AV5      AV6   144.59     4.00   -19.00     0.00     0.00     0.00     0.00  #|LLL#
+     AV6      AV7   147.97    24.00     0.00     0.00     0.00     0.00     0.00  #|LLL#
+     AV7      AV8    30.61    16.00     6.00     0.00     0.00     0.00     0.00  #|LLL#
+     AV8      AV9    85.14    52.00   -20.00     0.00     0.00     0.00     0.00  #|LLL#
+     AV9     AV10    59.97    31.50    -2.00     0.00     0.00     0.00     0.00  #|LLL#
+    AV10     AV11    16.08    52.00    -6.00     0.00     0.00     0.00     0.00  #|LLL#
+    AV11     AV12    29.53    42.00    -8.00     0.00     0.00     0.00     0.00  #|LLL#
+    AV12      SV0    16.24   282.00    11.00     0.00     0.00     0.00     0.00  #|LLL#
+
+*end EisSurf

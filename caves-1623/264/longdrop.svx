@@ -1,0 +1,139 @@
+*begin longdrop
+
+; stations linked into other surveys (or likely to)
+*export 1x	 20
+
+; Cave: Balcony 264
+; Area in cave/QM: Far Side
+*title "Long Drop"
+*date 2016.07.06
+*team Insts Nathan Walker
+*team Notes Elliott Smith
+*instrument Distox2 - UBSS 3
+; Calibration: ?
+*ref 2016#11
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+
+1x	1	2.77	094.8	-06.8
+1	2	7.91	103.9	-51.4	
+2	3	9.21	183.8	-82.2	
+3	4	1.73	104.2	-09.2
+4	5	11.80	243.9	-75.5	
+5	6	3.38	107.9	-67.8	
+6	7	19.50	189.1	-80.4	
+7	8	10.40	176.3	24.3
+7	9	3.03	032.3	02.1
+9	10	6.84	018.4	-43.9
+10	11	10.06	083.0	-82.6
+11	12	6.97	113.4	-67.7
+12	13	2.84	000.5	-28.7
+13	14	2.12	007.6	-30.14	
+14	15	3.48	006.1	-36.1	
+15	16	10.58	043.7	-80.7
+16	17	12.77	017.8	-77.6	
+17	18	7.22	059.8	-80.3
+18	19	22.32	327.8	-86.8	
+19	20	14.42	346.1	-70.9	
+;20	21	3.26	355.2	19.6
+;21	22	9.81	027.1	-17.2
+;22	23	9.92	010.0	16.2
+;20	24	3.86	150.0	-30.3
+;24	25	11.91	215.3	-48.6	
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+
+;1	0.3		3.9		2.2		1.3		; 1x is # 65 in Farside 2014#42
+;2	0.3		4.0		13.3	8.7	    ; LHW, below Y hang
+;3	0		10.0	23.9	43.2	; LHW 2m above rebelay
+;4	0		9.0		23.9	43.2    ; LHW right of rebelay
+;5	0		8.3		35.3	24.7	; LHW left rebelay bolt
+;6	0.4		7.5		?		21.6    ; 3m below right hand rebelay bolt
+;7	0.3		10.3	?		0		; On ledge L of traverse
+;8	1.5		1.0		8.0		1.7		; Up small scrot
+;9	0		5		?		9		; Just off shelf, LHW
+;10	0		9.6		11.9	?		; Scary...
+;11	0		11.1	19.1	SHIT!   ; More scary
+;12	0.8		0		3.1		1.3		; Just outside small window, RHW
+;13	0		4.0		19.2	1.4		; LHW, in small chamber
+;14	1.0		0		29.0	0.7		; RHW, below Y hang
+;15	0.2		0.7		1.8		SHIT    ; LHW
+;16	4.4		0		10.9	MY		; RHW (looking from 15), below rebelay
+;17	4.2		0		25.7	PANTS   ; Left of rebelay
+;18	6.1		0		27.7	?		; Left of rebelay, level with bolt.
+;19	2.5		0		48.5	20.6	; Right of single rebelay bolt
+;20	0.8		1.3		?		0.9		; Up slope, on large boulder on left. Labelled
+;21	0		0.9		?		1.4		; LHW, towards drips
+;22	3.3		2.0		?		0		; Top of boulder, near middle of aven
+;23	1.0		1.0		7.0		1.3		; At back of water inlet
+;24	0.4		1.5		?		1.9		; LHW, red paint
+;25	?		?		?		?		; Labelled, on choss bridge, left hand side.
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+
+1	0.3		3.9		2.2		1.3		; 1x is # 65 in Farside 2014#42
+2	0.3		4.0		13.3	8.7	    ; LHW, below Y hang
+3	0		10.0	23.9	43.2	; LHW 2m above rebelay
+4	0		9.0		23.9	43.2    ; LHW right of rebelay
+5	0		8.3		35.3	24.7	; LHW left rebelay bolt
+6	0.4		7.5		-		21.6    ; 3m below right hand rebelay bolt
+7	0.3		10.3	-		0		; On ledge L of traverse
+8	1.5		1.0		8.0		1.7		; Up small scrot
+9	0		5		-		9		; Just off shelf, LHW
+10	0		9.6		11.9	-		; Scary...
+11	0		11.1	19.1	100	    ; More scary
+12	0.8		0		3.1		1.3		; Just outside small window, RHW
+13	0		4.0		19.2	1.4		; LHW, in small chamber
+14	1.0		0		29.0	0.7		; RHW, below Y hang
+15	0.2		0.7		1.8		-	    ; LHW
+16	4.4		0		10.9	-		; RHW (looking from 15), below rebelay
+17	4.2		0		25.7	-	    ; Left of rebelay
+18	6.1		0		27.7	-		; Left of rebelay, level with bolt.
+19	2.5		0		48.5	20.6	; Right of single rebelay bolt
+20	0.8		1.3		70		0.9		; Up slope, on large boulder on left. Labelled
+;21	0		0.9		70		1.4		; LHW, towards drips
+;22	3.3		2.0		30		0		; Top of boulder, near middle of aven
+;23	1.0		1.0		7.0		1.3		; At back of water inlet
+
+*data passage station left right up down
+
+;20	1.3		0.8		70		0.9		; Up slope, on large boulder on left. Labelled
+;24	0.4		1.5		-		1.9		; LHW, red paint
+;25	-		-		72		-		; Labelled, on choss bridge, left hand side.
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    A    longdrop.25    commented-out    Yet more pitches that need to be dropped, roughly 80m?
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+
+;Approached from the North side of Far side, you reach a small ledge, descending 8m. At the foot of this, approach the ~40m pitch series 
+;to an obvious ledge from the left hand wall. From the ledge, follow the left hand wall again down another ~30m pitch series to a small window 
+;on the right.The shaft is fairly  rounded and drippy, but the rebelays keep you out of this The shaft below you has a 6.5 second drop 
+;from this window, so be careful! From the window, you enter a small chamber, with a chossy floor - ICU with a view. There's a bolt on the right hand wall
+;to approach the next pitch. Follow the rift directly ahead, to the Y-hang on the left hand wall. Looking down the rift, rebelays along the right hand 
+;wall keep you out of the way of any fallout from the rift. Be VERY CAREFUL here, as the pitch head is loose and has a long way to go! The pitch 
+;series descends another 70-80m? to another ledge. To the right (heading North) in a small water inlet, which craps out. To the South, yet more 
+;pitches follow. Use the bolts at the the ledge for a Y-hang to descend down the small 'valley'. Bolts on the right hand wall follow a high traverse to a 
+;Y-hang. The 10m pitch puts you at the end of the 'valley', at the head of yet more pitches.
+
+
+*end longdrop

@@ -1,0 +1,47 @@
+*begin trunk
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Hauchhoehle (2000/09)
+*title "Hauchhoehle part 2"
+*date 2002.08.23
+*team Insts Anthony Day
+*team Notes Julia Bradshaw
+*team Pics Julia Bradshaw
+*team Tape both
+*instrument Compass #2 ; Clino #2
+; Calibration: none
+; ref.:	2002#30
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 8 11
+
+*calibrate tape +0.50	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	6.94	228	+23
+2	3	4.02	026	+28
+4	3	4.68	218	-27
+4	5	3.97	096	-22
+6	5	4.17	248	+62
+6	7	10.03	-	down
+8	7	6.59	247	-07
+8	9	4.47	039	-09
+10	9	4.02	276	+38
+11	10	4.60	231	+40
+
+;station details
+;name	L	R	U	D	description
+;1	-	-	-	-	part drilled spit hole from first survey
+;2	0.5	1.0	0.9	0.2	CM corner of rock
+;3	3.0	1.5	2.5	0.3	corner of rock, main passage
+;4	2.0	2.2	1.5	0.9	CM LH wall near pitch
+;5	1.0	0.6	2.5	-	pitch head bolt
+;6	-	-	-	-	CM halfway down pitch
+;7	1.5	2.0	lots	0.5	base of plumb
+;8	1.7	0.0	4.0	1.5	small red PM RH wall
+;9	0.0	0.7	3.0	0.8	CM LH wall
+;10	1.0	0.0	lots	1.3	CM RH wall
+;11	0.0	1.2	3.5	1.6	PM on wall
+
+*end trunk

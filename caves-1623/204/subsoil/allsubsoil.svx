@@ -1,0 +1,140 @@
+*begin allsubsoil
+*export fatworm.27 ; connection to Subway
+*export subsoil.19 ; connection to Gaffered
+*export fatworm2.6 ; connection to Gaffered via Slimy
+*export thinrift.5
+*export whereoware.23 ; Tunnocks connection
+*export whereoware.31 ; Second Tunnocks connection
+
+; -- 2004 --
+
+*include subsoil
+*include subsoil2
+*equate subsoil.15 subsoil2.p15
+*equate subsoil.16 subsoil2.p16 ; something slightly suspicious about this
+*equate subsoil.1 subsoil2.p1
+
+*include hippohollows
+*equate hippohollows.1ss11 subsoil.11
+*equate hippohollows.1ss12 subsoil.12
+*equate hippohollows.1ss13 subsoil.13
+
+*include fatworm
+*equate fatworm.11 hippohollows.11
+
+*include heavilysoiled
+*equate heavilysoiled.1 subsoil.2
+*equate heavilysoiled.s27 subsoil2.7
+
+*include earthenware
+*equate earthenware.23 subsoil2.23
+
+*include fatworm2
+*equate fatworm2.FW11 fatworm.11
+*equate fatworm2.FW22 fatworm.22
+*equate fatworm2.FW26 fatworm.26
+*equate fatworm2.FW30 fatworm.30
+
+*include fatworm3
+*equate fatworm3.26 fatworm.26
+*equate fatworm3.15 fatworm2.15
+
+*include thinrift
+*equate thinrift.26 fatworm.26
+
+*include earthenware2
+*equate earthenware2.p7 earthenware.7
+*equate earthenware2.EW4 earthenware.4
+
+*include earthenware3
+*equate earthenware3.p10 earthenware.10
+
+*include chimney
+*equate chimney.20 subsoil2.20
+
+*include hardware
+*equate hardware.4x earthenware.4
+
+; -- 2005 --
+
+*include someware
+*equate someware.1 hardware.8
+*equate someware.7 earthenware.6
+*equate someware.11 earthenware.8
+*equate someware.12 earthenware.9
+*equate someware.17 hardware.9
+
+*include software
+*equate chimney.20 software.1
+
+*include hardware_QM04-43a
+*equate QM04_43a.1 hardware.7
+
+*include hardware_QM04-38b
+*equate QM04_38b.1 hardware.10 
+
+*include nightsoil
+*equate nightsoil.6 subsoil2.15
+
+*include hippocratic
+*equate hippocratic.1 nightsoil.7
+
+*include hippocratic2
+*equate hippocratic.4 hippocratic2.1
+
+; -- 2007 --
+
+*include software2
+*equate software2.1 software.4
+
+*include software3
+*equate software3.0 software2.4
+
+*include whereoware
+*equate whereoware.20x earthenware2.20
+
+;-----2011----
+*include whereoware2
+*equate whereoware.30 whereoware2.30
+
+*include whereoware3
+*equate whereoware.4 whereoware3.x
+*equate whereoware3.7 hippocratic.17
+
+*include whereoware4
+*equate whereoware.12 whereoware4.12
+
+*include whereoware5
+*equate whereoware.3 whereoware5.x
+
+*include wareforartthou
+*equate wareforartthou.x someware.24
+
+*include wareforartthou2
+*equate wareforartthou.28 wareforartthou2.28
+
+*include stupidhole
+*equate stupidhole.x fatworm.11
+
+*include stupidhole2
+*equate stupidhole.9 stupidhole2.x
+
+*include stupidhole3
+*equate stupidhole2.21 stupidhole3.21
+
+*include granddayout
+*equate granddayout.15 fatworm3.2
+
+*include granddayout2
+*equate granddayout.14 granddayout2.x
+
+*include birdonawire
+*equate whereoware4.9 birdonawire.7
+
+*include birdonawire2
+*equate birdonawire.1 birdonawire2.x
+
+*include granddayout3
+*equate granddayout3.x granddayout.5
+
+*end allsubsoil

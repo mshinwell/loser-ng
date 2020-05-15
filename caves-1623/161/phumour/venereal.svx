@@ -1,0 +1,50 @@
+;1998.03.27 AERW sort begin/end, add comments, refs, *calib clino
+;2009.07.27 AJD sorted titles
+
+*begin venereal
+
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+; "Venereal Diseases"
+*date 1996.07.24 ; - trip 1996-161-57 in logbook
+*team Insts Anthony D
+*team Notes Phil U
+*team Pics Phil U
+*team Tape Phil U
+*instrument Set 4
+; Calibration:  none (weather too miserable at 161d)
+;
+; Ref.: 1996 KH survey book pp 149-150
+
+*export 1
+
+*calibrate tape 0
+;From   to  Tape    Compass Clino 
+*title "Between the Thighs"
+2   1   11.38   271 -10
+*title "Venereal Diseases"
+2   3    8.92   107 -38
+4   3    7.18   116 -08
+5   4    4.20   136 +56
+5   6    4.41   348 -69
+6   7   17.41   -   DOWN
+8   7    1.30   109 +23
+8   9   13.40   -   DOWN
+10  9    3.75   160.5   +14
+10  11   5.14   237 -33.5
+11  12  14.10   -   DOWN
+
+; Stat  L   R   U   D   Notes
+;2  -   1   3   1.50    CM on R wall
+;3  2   2   8   2   Nobble on far wall of pit
+;4  0   0.5 -   3   CM in Rift
+;5  0   0.70    -   1.40    CM over bolt
+;6  1   1.30    3   1.5 L bolt on shit Y-hang
+;7  -   -   -   -   Point on ledge half way down pitch
+;8  -   -   -   -   Near 7
+;9  2   3   -   2   CM below 8
+;10 3   2   -   3   CM on far side of chamber
+;11 0.5 0   4   -   Bolt over pitch
+;12 ?   ?   ?   ?   
+
+*end venereal

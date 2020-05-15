@@ -1,0 +1,120 @@
+; Cave: 258 "Tunnockschacht" Below Kraken (Hydra)
+
+*begin
+
+*include kraken.svx
+
+*include tentacle.svx
+*equate tentacle.9 kraken.3
+
+*include livingthedream
+*equate livingthedream.30 tentacle.1
+
+*include slackers.svx
+*equate livingthedream.01 slackers.1
+*equate livingthedream.28  slackers.28
+
+*include slackers2.svx
+*equate slackers.14 slackers2.14x
+
+*include slackers3.svx
+*equate slackers.9 slackers3.9x
+*equate slackers.39 slackers3.39x
+
+*include slackers4.svx
+*equate slackers.52 slackers4.52x
+*equate slackers.57 slackers4.57x
+*equate slackers.73 slackers4.73x
+
+*include slackers5.svx
+*equate slackers.79 slackers5.79x
+
+*include slackers6.svx
+*equate slackers5.28 slackers6.01
+
+*include wrongcustard.svx
+*equate slackers4.9 wrongcustard.01
+
+*include slackers7.svx
+*equate slackers.75 slackers7.01
+
+*include lobsterpot.svx
+*equate slackers5.14 lobsterpot.11
+
+*include kippercock.svx
+*equate livingthedream.03 kippercock.01
+
+*include indianropetrick.svx
+*equate livingthedream.15 indianropetrick.06
+
+*include songoftheearth.svx
+*equate indianropetrick.01 songoftheearth.part1.1x
+
+*include dontstopmenow.svx
+*equate dontstopmenow.1	songoftheearth.part3.13
+
+*include screamer.svx
+*equate songoftheearth.part2.30 screamer.30A
+
+*include papawpassage.svx
+*equate papawpassage.X24 dontstopmenow.24
+
+; 2017 surveys 
+
+*include therestherub.svx		; ref 2017#02
+*equate therestherub.1  papawpassage.3
+
+*include biglad.svx			; ref 2017#04
+*equate biglad.13x therestherub.13  
+
+*include slackerstidyup1.svx		; ref 2017#05
+*include slackerstidyup2.svx		; ref 2017#05
+*equate slackerstidyup1.1x slackers4.1
+*equate slackerstidyup2.z slackers5.6
+
+*include snakecharmer.svx		; ref 2017#06
+*equate snakecharmer.5x songoftheearth.part1.5
+*equate snakecharmer.6x livingthedream.06
+
+*include mastercave
+*equate mastercave.61x slackers.61
+
+*include gryke-of-the-earth
+*equate gryke-of-the-earth.3x slackerstidyup2.40
+
+*include snakecharmer2.svx
+*equate snakecharmer.16 snakecharmer2.16x
+
+*include snakecharmer3.svx
+*equate snakecharmer2.19 snakecharmer3.19
+
+*include hipstersreturn.svx
+*equate snakecharmer3.40 hipstersreturn.40
+*equate hipstersreturn.6 songoftheearth.part2.6
+
+*include beckoning_silence
+*equate slackers6.05 beckoning_silence.5x
+
+*include theloserlido
+*equate gryke-of-the-earth.13 theloserlido.18
+
+*include bahamastunnel
+*equate theloserlido.15 bahamastunnel.x15
+
+*include unfathomablestupidity
+*equate unfathomablestupidity.x1 bahamastunnel.1
+
+*include lower_snakebite
+*equate	lower_snakebite.15x	snakecharmer2.15	
+
+; 2018 surveys
+*include radiosilence
+*equate	radiosilence.30x	beckoning_silence.30
+
+*include scumoftheearth
+*equate scumoftheearth.0 scum2.1
+
+*include scum2
+*equate scum2.11 radiosilence.02
+
+*end

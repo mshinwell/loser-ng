@@ -1,0 +1,72 @@
+;1998.04.01 AERW sorted begin/end, added comments, refs, exports
+;1998.04.01 AERW note that exported point = chunnel.26 NOT .29 !!
+
+*begin PotGold
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Pot Of Gold"
+*date 1989.08.27 ; on camping trip 1989-161-34 in 1989 logbook
+*team Jeremy, Julian, Mike TA
+*instrument Compass 928847, Clino 726974
+; ref.:	1989 survey book pp 52-56
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; Red Spot at Over the Rainbow
+
+*calibrate compass 0
+*calibrate clino 0
+
+;readings grade 5
+
+; Inwards from "Over the Rainbow"
+1       2        5.32   257     -10
+3       2        4.46   155     +64
+3       4        5.25   351     -33
+3       5        9.84   304     -24
+3       6        6.29   269     -31
+7       6        6.11   325     -21
+8       6        6.35   124     +20
+
+; Backwards from final pitch (ie. coming out)
+10      9        4.55   326     -11
+10      11       1.28   025     +22
+12      11       2.05   235      00
+12      13       1.28   333     +16
+14      13       5.89   218     -8
+15      14       1.45   260     +12
+16      15       2.07   320     -19
+17      16       2.97   290     +10
+17      18       6.86   038     +19
+19      18       8.40   180     -78
+20      19       5.90   126     -71
+21      20       2.73   210     -40
+22      21       4.97   072     -33
+23      22       3.31   240     -43
+23      24       3.76   321     +65
+25      24       3.80   091     -14
+26      25       8.35   -       Down
+27      26       3.56   123     -27
+28      27       2.52   017     -45
+29      28       4.39   -       Down
+8       29       2.58   057     -47
+
+; and later (we assume)
+30      9        2.32   130     +28
+31      30      26.00    -      Up
+
+; Inwards to Alphetta streamway (through Free Attics)
+50      13       4.63   325     -36
+50      51       6.36   261     +41
+52      51       2.00   46      -16
+52      53       4.66   263     +33
+54      53       0.91   156     -01
+54      55       4.69   251     -17
+56      55       6.00   328     -16
+57      55       4.50   251     +39
+; 57-> 350 -20 general direction of stream (which is too tight)
+
+; station details
+; PotGold.1 is red spot at "Over the Rainbow"
+
+*end PotGold

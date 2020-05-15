@@ -1,0 +1,47 @@
+*begin purplelupine 
+
+*export gpstag a12
+
+*date 2015.07.30
+;Location GPS Tag - 411768,  5283469, ELEV 1888.
+
+*team "Mike Futrell" "Sketch"
+*team "Andrea Futrell" "Instruments"
+
+*entrance a4
+
+*data normal from to tape compass clino
+;From       To          Distance    Compass     Clino      
+;a1          a2          10          0           -90     ;	actually a different cave, 2012-ns-14
+a4          a5          36          0           -90        
+a5          a6          3           300         0          
+a6          a7          14          0           -90        
+a4          a8          2.37        0           -90        
+a8          a9          8.96        118         -72        
+a9          a10         13.05       0           -90        
+a10         a11         21.88       0           -90        
+a11         a12         34.33       0           -90        
+;a12         xx          38          0           -90	;	imaginary leg to guess at floor level
+;xx          xx2         25          0           -90	;	imaginary leg to guess at floor level
+
+*flags surface        
+;a1          a3          18.56       119         5    ;	leads to 2012-ns-14  
+a3          a4          16.91       301         -29   
+a3          gpstag      3.11        234.5       -9       
+
+*data passage station left right up down ignoreall       
+a4          0.2         0.2         2           0          
+a5          0           2           35          1.5        
+a6          0           2           36          14         
+a7          0           2           20          0          
+
+*data passage station left right up down ignoreall
+a4          0.2         0.2         2           0          
+a8          0.5         0           8           9          
+a9          0           0           0           0          
+a10         0           0           0           0          
+a11         0           0           0           0          
+a12         0.5         4           0           1          
+
+
+*end purplelupine

@@ -1,0 +1,47 @@
+*begin regurg
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Regurgitation (end of Mohr im Hemd)"
+*date 1995.07.26 ; trip 1995-161-23 in logbook
+*team Inst Dave Scout
+*team Tape Balasz (Hungarian guest)
+*team Notes Anthony
+*instrument ?
+; Calibration:	What's that?
+; ref.: 1995 survey book pp 26-27
+
+*export 2	; carbide mark on flake at end of Mohr im Hemd
+*export 3	; carbide mark on wall, 2m above floor, by one of QM 95-10
+		; shafts at SW corner of Regurgitation
+*export 5
+*export 6	; carbide mark on nobble 1.6m off floor at furthest NW bit
+		; of chamber, by other of QM 95-10 shafts. Also nearest
+		; station to QM 94-68 (halfway between points 5 and 6)
+
+; "tape measurements from 20 cm mark, because end missing"
+*calibrate tape +0.2
+
+; from to tape compass clino
+1       2       3.81    288     -36
+3       2       7.00    049     +23
+4A      3       3.39    211     +18
+5       4       7.57    148     +14
+5       6       6.84    005     -25
+7       6       6.28    271     00
+7       8       6.74    071     +42
+;9      8       4.92    compass/clino fogged up
+
+; station details: LRUD not available
+;(D in book, U "a fuck long way in each case", no L/R)
+; 1	CM on roof of MIH
+; 2	CM on flake at end of MIH
+; 3	CM on wall D=~2
+; 4	CM d=~7
+; 5	CM on wall D=~1.5
+; 6	CM on nobble D=~1.6
+; 7	CM on wall
+; 8	CM on curtain D=~1.7
+; 9	CM on boulder D=0
+
+*end regurg

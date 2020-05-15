@@ -1,0 +1,116 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2005-5 "Balconhohle"
+
+*begin frozennorth2
+
+*export	12X 8X	25 27 30 23
+
+*title "frozennorth2"
+*date 2015.07.28
+*team Insts Sarah Parker
+*team Tape Matt Watson/Ben Wright
+*team Notes Peter Talling
+
+;ref.: 2015#27
+
+;from	to	tape	compass	clino	remarks
+12X	20	6.71	185	-16
+21	20	4.13	027	+8
+22	21	7.78	346	+10
+22	8X	1.31	230	+28
+23	20	4.32	166	+14
+24	23	8.23	202	+50
+25	24	1.75	187	+24
+26	25	3.33	277	-2
+26	27	7.50	157	-5
+27	28	5.44	112	+10
+28	29	5.15	183	-16
+29	30	6.43	128	+17
+30	31	11.05	032	+15
+30	32	6.93	017	+16
+32	33	8.72	004	+5
+33	34	3.53	299	+2
+34	35	9.48	269	-24
+35	26	2.27	313	-15
+35	36	2.04	040	+13
+36	37	3.59	002	+1
+37	38	7.20	005	+7
+38	39	8.10	018	+15
+39	40	4.22	358	+17
+40	41	3.50	252	-18
+41	42	9.38	359	+13
+
+; original LRUD data from notes
+;20		0	2.2	4	1.1	;	NP on wall by bolt hole
+;21		2.3	0	6	1.8	;	NP on wall
+;22		0	1.4	2.2	1.6	;	NP left wall. Connection point on opposite wall.
+;23		0	1.3	9	6	;	on left wall by bolt
+;24		0	1.1	1.2	1.5	;	NP on left wall
+;25		0	0.6	0.4	0.3	;	NP left wall
+;26		0	0.5	0.4	0.3	;	NP left wall
+;27		3	6	35	0.3	;	NP on boulder on floor
+;28		0	0.7	1.0	0.7	;	NP left wall
+;29		2	1	3	0	;	NP on boulder
+;30		2	2.5	40	0.5	;	NP on boulder
+;31		1.5	1	30	0.7	;	NP on far wall of chamber
+;32		0.5	0.3	0.8	0.3	;	NP in tube
+;33		0.5	0.1	1	0.5	;	NP on roof of tube
+;34		0.4	0.3	0.8	0.3	;	NP in tube
+;35		0	0.6	0.9	1	;	NP on LW of tube
+;36		0.7	0	1.5	1.5	;	NP RW of tube
+;37		0.5	0.2	0.7	1.4	;	NP roof of tube
+;38		0.5	0.5	1	1	;	NP in tube
+;39		0.6	0	1.2	1.2	; 	NP RW tube
+;40		0.4	0.3	1.1	0.6	;	NP roof of tube
+;41		0.2	0.4	1.5	1.5	; 	NP roof of tube
+;42		0	0.6	1.2`1	;	NP LW of tube just before choke
+
+
+*data passage station left right up down ignoreall
+20		0	2.2	4	1.1	;	NP on wall by bolt hole
+21		2.3	0	6	1.8	;	NP on wall
+22		0	1.4	2.2	1.6	;	NP left wall. Connection point on opposite wall.
+*data passage station left right up down ignoreall
+23		0	1.3	9	6	;	on left wall by bolt
+24		0	1.1	1.2	1.5	;	NP on left wall
+25		0	0.6	0.4	0.3	;	NP left wall
+26		0	0.5	0.4	0.3	;	NP left wall
+27		3	6	35	0.3	;	NP on boulder on floor
+28		0	0.7	1.0	0.7	;	NP left wall
+29		2	1	3	0	;	NP on boulder
+30		2	2.5	40	0.5	;	NP on boulder
+31		1.5	1	30	0.7	;	NP on far wall of chamber
+*data passage station left right up down ignoreall
+32		0.5	0.3	0.8	0.3	;	NP in tube
+33		0.5	0.1	1	0.5	;	NP on roof of tube
+34		0.4	0.3	0.8	0.3	;	NP in tube
+35		0	0.6	0.9	1	;	NP on LW of tube
+*data passage station left right up down ignoreall
+36		0.7	0	1.5	1.5	;	NP RW of tube
+37		0.5	0.2	0.7	1.4	;	NP roof of tube
+38		0.5	0.5	1	1	;	NP in tube
+39		0.6	0	1.2	1.2	; 	NP RW tube
+40		0.4	0.3	1.1	0.6	;	NP roof of tube
+41		0.2	0.4	1.5	1.5	; 	NP roof of tube
+42		0	0.6	1.2	1	;	NP LW of tube just before choke
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surveyname.5    -    description of QM ]
+
+;------------
+;Cave description
+
+;(leave commented-out)
+;
+
+
+*end frozennorth2

@@ -1,0 +1,37 @@
+;1998.04.02 AERW sort begin/end, add comments, refs, exports
+
+*begin rocky
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Rocky Horror - Black Suspender"
+*date 1994.07.24 ; trip 1994-161c-1 in logbook
+; Calibration: 
+*team Insts Martin S
+*team Tape Martin / Anthony
+*team Notes Anthony D
+; ref.:	1994 survey book pp 39-40
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; carbide mark, south wall in Fudge Brownie
+*export 8	; carbide mark on stone, top corner of mud bank
+*export 14	; uppermost pitch head thread/flake - Black Suspender
+
+; from	to	tape	compass	clino
+
+2       1       12.75   066.5   +23
+2       3        6.24   229     -25
+3       4        2.47   255     -12.5
+4       5        4.3    -       down
+6       5        3.33   174.5   +04
+6       7        1.75   098     +32
+8       6        9.74   030     -21
+8       9       12.02   228     +10
+6       10       3.43   009     -03.5
+11      10       6.40   154     +13
+11      12       8.85   302     +29
+12      13       2.08   202.5   +73
+13      14       1.63   219.5   +39
+
+*end rocky

@@ -1,0 +1,37 @@
+;1998.03.27 AERW sort begin/end, add comments, refs, exports, tidy format
+
+*begin Vesta
+
+; Cave:	Kaninchenhöhle (1623/161)
+; Locn:	Totes Gebirge, Austria
+*title "Vestabule: from before Over The Rainbow to The Vestabule"
+*date 1990.07.18 ; trip 1990-161-15 in 1990 logbook
+*team Insts DaveF
+*team Notes Wookey
+*instrument Compass 721899, Clino 240641
+; Calibration:	018.5
+;		+17.5, -17.5
+; ref.:	1990 survey book pp 25-28
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 01	; fixed carbide mark before OTR
+*export 10	; wall, end of rift
+
+*calibrate compass 0
+*calibrate clino 0
+
+02	01	 7.96	128.	+13.
+02	03	10.83	297.	-22.
+04	03	 3.92	266.	-19.
+04	05	 3.20	054.5	+34.
+06	05	 5.45	314.	-13.
+07	03	 5.30	069.	+18.
+07	08	 2.02	262.	-02.
+08	09	11.58	-	down
+10	09	17.82	036.	+32.
+11	09	 5.31	200.	-43.
+12	11	 7.59	206.	-28.
+12	13	 9.25	029.	+02.5
+
+*end vesta

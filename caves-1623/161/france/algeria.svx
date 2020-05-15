@@ -1,0 +1,207 @@
+;1996.05.15      split from France.svx. DAZ.SVX included
+;1996.05.19 W+AA added LRUDE info
+;1998.03.02 AERW sorted begin/end, added comments, refs. and *Calib clino
+
+; ====== links between surveys in this file: ======
+
+*equate Algeria.10	twintubs.1
+*equate twintubs.6	daz.2
+
+*begin Algeria
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "France: Algeria chamber itself"
+*date 1992.08.04 ; trip 1992-161c-5 in logbook (which says 3rd)
+*team Notes JulianS
+*instrument DaveH
+*team Tape Olly for 1->2 & 10->14
+*instrument Compass: Not illum, Clino: Not illum
+; Calibration:	Bot-Top 042,+11; Top-Bot 222,-10; Bot-Zinken 252,+02.5
+; ref.:	1992 survey book pp 118-119
+
+*export 1	; bolt at rebelay into Algeria
+*export 10	; backup bolt for Orient Express pitch
+
+*calibrate clino +0.5
+
+1       2       16.35    -      Down
+2       3        5.67   234     +24.5
+4       3        6.67   316     -25
+4       5        8.40   094     +12
+6       5       10.79   051.5   +21
+6       7       12.57   323     +01
+4       7        8.11   297     -14
+3       8       16.38   009     -22
+9       8       14.08   215     -09
+9       10       5.83   340     +09
+9       11       4.97   087     +38
+12      11       5.75   243     -46
+13      12      11.35   105     -03
+10      14       2.59   040     -33     ;14 is hang bolt for Orient Express
+
+; 14    Roughly 47.50    -      Down
+
+;1996.05.19 wook & AndyA convert to LRUDE
+;*LRUDE
+;1	35	17	3	5		;bolt at rebelay into algeria
+;2	0.2	7	J16.35	1	0	;top of boulder at foot of pitch - CM
+;3	3.5	3.5	J16	0.5		;tip of boulder CM
+;4	3.5	C	~J10	1.5		;rock CM
+;5	3	C	~3.5	~6		;tip of rock CM
+;6	0	C	~4	~1.5		;mark on wall
+;7	0	c	~10	1.7		;CM on wall
+;8	0	11	~15	~1.5		;CM on wall
+;9	3.5	7	~15	~1		;CM on corner of HUGE rock
+;10	0	1.2	3	1.8		;backup bolt for pitch
+;11	0	5	~15	1.7		;CM on top of huge rock
+;12	2.5	0	~J15	1.7		;CM RH wall top of slope
+;13	J5	8	~J15	1.7		;CM LH wall top of slope
+;14	1	0	J15	J1.5	7	;hang bolt for big pitch
+;*endLRUDE
+
+;2014-02 converted to passage
+;vertical - we can't handle these yet
+;*data passage station north south east west comment
+;1	35	17	3	5		;bolt at rebelay into algeria
+*data passage station left right up down ignoreall
+2	0.2	7	16.35	1		;top of boulder at foot of pitch - CM
+3	3.5	3.5	16	0.5		;tip of boulder CM
+4	3.5	0	10	1.5		;rock CM
+5	3	0	0.5	6		;tip of rock CM
+6	0	0	4	1.5		;mark on wall
+7	0	0	10	1.7		;CM on wall
+8	0	11	15	1.5		;CM on wall
+9	3.5	7	15	1		;CM on corner of HUGE rock
+10	0	1.2	3	1.8		;backup bolt for pitch
+11	0	5	15	1.7		;CM on top of huge rock
+12	2.5	0	15	1.7		;CM RH wall top of slope
+13	5	8	15	1.7		;CM LH wall top of slope
+14	1	0	15	1.5		;hang bolt for big pitch
+
+
+*end Algeria
+
+*begin twintubs
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "France: Twin tubs off Algeria"
+*date 1993.07.22 ; trip 1993-161c-6 in logbook
+*team Insts Julian T.
+*team Notes Julian H.
+*instrument Black compass and adjoining clino
+; Calibration:	043, 043.5, 043.5; +12, +11, +12; Nase 251
+; ref.:	1993 survey book pp 178-180
+
+*export 1	; backup bolt (1st traverse bolt) for Orient Express pitch
+*export 6	; 1st Sultans of Swing traverse bolt
+*export 7	; lump by (Toploader?) pitch head's backup (not quite = toploader.1)
+
+2       1      10.52    346     -01
+2       3      24.39    204     +12     
+4       3       7.00    287     -28
+4       5       4.16    081     +14
+5       6       3.14    125     -12
+7       3       5.10    112     -40
+7       8       7.96    249     -18
+8       9       5.02    239     -35
+10      8       1.19    291     -10
+10      11      7.00    031     -40
+11      12     26.80    -       DOWN
+12      13      2.60    030     +20
+14      13      5.80    -       UP
+
+; Surveyed Out
+*team Inst Ali M.
+*team Notes Anthony D.
+
+15      12     10.60    055     -77
+15      16      3.50    156     +27
+17      16      4.46    088     -11
+17      18      5.73    -       UP
+18      19      6.94    216     +30
+20      19      4.85    229     +27
+20      21      7.55    -       UP
+21      9       1.30    194     +63
+
+;2013-02 Wook converted to passage data
+*data passage station left right up down ignoreall
+;1-6 are repeat survey of algeria
+7	1	2.5	10	0		;lump by pitch heads backup
+8	1	4	3	1		;CM on rock
+8	1.5	3.5	2	2	
+9	1	1	1	1		;LH bolt at pitch head (into cave)
+10	2	2	2.5	2.5		;CM on rock
+11	0	4	2.5	2.5		;deviation crab
+12	3	0	2	2		;foot of pitch
+13	1	0	2	2		;pitch hang bolt
+14	7	0	2	2		;foot of pitch
+15	1	0	5	0		;CM on wall
+16	0	3	3	.6		;CM on wall
+17	1.5	1.5	7	0.5		;CM bottom of hang
+18	0.7	0	2.5	0.5		;bolt at pitch head
+19	5	0	2	1		;CM on wall
+20	1	0.6	2.5	0.5		;CM on rope
+21	0.4	0.4	0.4	0.4		;knot in Y-hang
+9	1	1	1	1		;LH bolt at pitch head (into cave)
+
+
+;1996.05.19 Wook and AndyA add LRUDE info
+;v0.1 is spec in Compass Points issue 10
+;1-6 are repeat survey of algeria
+;7	1	2.5	J10	0		;lump by pitch heads backup
+;8	1	4	J3	J1	3	;CM on rock
+;8	1.5	3.5	2	2	P
+;9	~~1	~~1	~~1	~~1	P	;LH bolt at pitch head (into cave)
+;10	~~2	~~2	~~2.5	~~2.5	P	;CM on rock
+;11	~~0	~~4	~~2.5	~~2.5	P	;deviation crab
+;12	~~3	~~0	~~2	~~2	P	;foot of pitch
+;13	1	0	2	2	p	;pitch hang bolt
+;14	7	0	2	2	p	;foot of pitch
+;15	1	0	5	0	5	;CM on wall
+;16	0	3	3	.6		;CM on wall
+;17	1.5	1.5	7	0.5	0	;CM bottom of hang
+;18	0.7	0	2.5	J0.5	3	;bolt at pitch head
+;19	5	0	~~2	~~1		;CM on wall
+;20	1	0.6	J2.5	0.5	0.5	;CM on rope
+;21	0.4	0.4	0.4	0.4	P	;knot in Y-hang
+;9	~~1	~~1	~~1	~~1	P	;LH bolt at pitch head (into cave)
+;*endLRUDE
+
+
+*end twintubs
+
+*begin daz
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "France: Daz Automatic"
+*date 1995.08.01 ; trip 1995-161-31 in logbook
+*team Insts Duncan
+*team Tape Duncan/Anthony
+*team Notes Anthony
+*team Pics Kate
+*instrument set 2
+; Calibration:	(at 161c entrance)
+;		Bot-Top: comp 246.5  246.5  247
+;			clino +07    +07    +08
+;		Top-Bot: comp 066.5  066    066.5
+;			clino -07.5  -07.5  -07.5
+; ref.:	1995 survey book pp 54-56
+
+*export 1	; highest pitch head bolt for Sultans of Swing
+*export 2	; 1st Sultans of Swing traverse bolt
+*export 7	; middle of chamber, nearest QM 95-73
+
+; from to tape compass clino
+2	1	4.45	076	+01
+2	3	3.49	312	+09
+4	3	15.46	116	+27
+4	5	11.29	016.5	-27
+5	6	5.28	-	down
+7	6	4.56	041	+20
+7	8	3.56	187.5	-36
+8	9	8.19	227	-38
+9	10	9.06	-	down
+11	10	1.99	221	-29
+11	12	0.98	047.5	-16
+
+*end daz

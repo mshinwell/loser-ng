@@ -1,0 +1,40 @@
+*begin razor4
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Razor Dance 4"
+*date 2002.08.23
+*team Insts Duncan Collis
+*team Notes Ben Shaw
+
+;inst set 1
+
+; ref.:	2002#28
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1c 10
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+*data normal from to compass clino tape
+
+;from	to	compass	clino	tape	; remarks
+2	1	053	+16	5.30
+3	2	007	-20	2.06
+4	3	082	+27	6.00
+5	4	201	-07	2.39
+6	5	097	+36	7.44
+6	7	355	0	1.17
+7	8	-	down	2.50	; wrong way round in notes
+9	8	108	+2	2.30	; legs swapped, error in notes
+10	9	075	+49	6.20
+1a	1	-	down	4.94
+1b	1a	238	-60	11.00
+1c	1b	117	-52	11.30
+
+;station details
+;name	L	R	U	D	description
+
+*end razor4
+

@@ -1,0 +1,83 @@
+*begin rhinorift
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Rhino Rift"
+*date 2003.07.25
+*team Insts Becka Lawson
+*team Notes Julian Haines
+
+*instrument set 1
+
+; ref 2003 #05
+
+; Calibration: stone bridge: 144/+23 328/-24
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 12 18 28
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+1	2	1.96	284	-21
+3	2	4.52	004	+14
+4	3	4.68	027	+22
+5	4	2.92	001	+26
+5	6	8.45	199	-19
+7	6	8.80	003	+13
+7	8	7.27	179	-15
+9	8	8.71	303	-07
+10	9	2.16	304	-17
+10	11	6.78	151	+33
+11	12	4.84	095	-33
+13	6	4.03	251	+47
+14	13	5.32	193	+29
+15	14	7.71	179	-61
+5	15	2.62	034	-38
+16	14	5.36	273	-09
+16	17	5.82	352	+12
+18	17	6.74	208	-21
+18	19	2.91	129	-15
+20	19	6.67	261	-02
+21	20	1.75	292	+02
+22	21	4.26	244	-23
+23	22	5.86	292	-12
+24	23	2.94	321	+16
+24	25	9.47	164	-15
+26	25	8.02	339	+07
+26	27	3.34	209	-21
+28	27	11.50	332	+11
+
+;station details
+;name	L	R	U	D	description
+;1	0	2.5	0.5	0.8	CM LW overlooking rift pitch
+;2	2.2	0	2.5	0.4	RP nobble opposite side of rift
+;3	0	0.4	1.0	0.2	RP LW
+;4	0.7	0.1	1	1	RP RW with number 4
+;5	0.1	3.0	1.0	5.0	RP LW with number 5
+;6	1.5	0.5	0.6	5.0	CM RW on nobble over climb down
+;7	1.0	0.2	1.0	0.5	RP RW
+;8	3.0	0.2	0.5	1.2	RP RW with number 8
+;9	1.5	1.3	1.5	0.3	RP on boulder in middle of floor
+;10	1.0	1.5	1.3	0.4	RP on semi-permanent boulder LW
+;11	1.0	2.5	0.0	0.3	RP on ceiling
+;12	-	-	-	-	RP number 9 on RW, 21boltsalute.9
+;13	2.5	0.7	0.7	0.5	RP on pt RW
+;14	0.1	3.0	5.0	2.0	RP on LW of chamber
+;15	0.7	0.0	1.0	2.5	RP RW
+;16	1.2	0.0	2.0	1.5	RP number 16 on RW
+;17	0.0	0.8	3.0	1.5	RP LW
+;18	0.0	1.0	3.0	3.0	RP LW
+;19	0.0	0.8	0.8	1.6	RP LW on corner
+;20	0.0	0.3	2.0	1.2	RP LW
+;21	0.6	0.1	1.8	1.0	RP RW
+;22	0.1	0.4	2.0	1.2	RP LW
+;23	1.2	0.2	2.0	1.0	RP RW
+;24	0	1.3	0.3	0.7	RP LW
+;25	0.3	1.2	1.3	0.6	RP LW
+;26	1.2	4.0	0.1	0.4	RP nobble on ceiling
+;27	1.5	1.5	0.8	0.5	RP on corner of boulder
+;28	0.5	1.5	1.0	0.3	RP LW/floor
+
+*end rhinorift
+

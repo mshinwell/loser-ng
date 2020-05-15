@@ -1,0 +1,39 @@
+; am 14.11.00, erstellt von Thilo
+
+*equate p206 206.0
+*entrance p206
+
+*begin 206
+
+; Ort:			Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+*title "7-Eingangshöhle, 1623/206"
+*date 1999.10.31
+; Von:	Ableser:		Uwe Krüger
+;	Schreiber:	Thilo Müller
+;	(2. Schreiber:)	
+;	Massband:	Jörg Haussmann
+*instrument Thilo 
+; Gerätefehler:	
+; Referenz.:	Messbuch SMK 3
+
+; ====== Messpunkte, die an bereits bestehenden Vermessungen hängen: ======
+
+*export 0		;Anschluß an MP K der Außenvermessung von der Weißen Warze bis zur 1623/158
+
+*calibrate tape +0.0	; "+" wenn das Massband zu kurz war, "-" wenn es zu lang war
+*data normal from to length gradient bearing ignoreall
+
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+0	1	16.47	-0.5	84
+1	2	7.66	-90	0
+2	3	7.9	-32	125
+3	4	21.96	-11	80
+
+;Raumwerte
+;Name	Links	Rechte	Oben	Unten		Beschreibung
+;1	-	-	-	-
+;2	-	-	-	-
+;3	-	-	-	-
+;4	6	1.2	7	0		;großes Eisfeld
+
+*end 206

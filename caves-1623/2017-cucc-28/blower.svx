@@ -1,0 +1,49 @@
+*begin blower
+
+; stations linked into other surveys (or likely to)
+*export gps tag 
+
+; Cave: Fisch Gesicht Hoehle
+; Area in cave/QM: Entrance
+*title "Fisch Gesicht Hoehle"
+*date 2017.08.02
+*team Insts Luke Stangroom
+*team Notes Becka Lawson
+*instrument Becka Lawson Distox2 No 1
+; Calibration: Becka UK
+*ref 2017#29	; notes for this on sheets for 2017_cucc_24
+
+; if using a tape:	*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+
+*flags surface
+gps	tag	3.54	206.5	-15
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down ignoreall
+
+gps	-	-	-	-	recorded on Becka's phone
+tag	-	-	-	-	tag placed just above numbered station 1 from Nathan and Mike survey so call them the same station
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+; No QMs
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+
+; Entrance is strongly drafting horizontal walking / stooping rift with some snow
+
+*end blower

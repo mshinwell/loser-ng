@@ -1,0 +1,45 @@
+*begin phat
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Brian's Phat Shaft"
+*date 2000.08.10
+*team Insts Becka Lawson
+*team Notes Brian Outram
+*team Pics Brian Outram
+*team Tape Both
+*instrument Compass #5; Clino #5; Tape Keentools
+; Calibration: Lower TC:306/+08  127/-07
+; ref.:	2000 #38
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0 2
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	0	7.49	315	+41
+1	2	1.97	167	-27
+2	3	30.3	-	down
+3	4	3.3	-	down
+4	5	13.80	-	down
+5	6	22.06	-	down
+7	6	2.05	282	-21
+7	8	21.45	-	down
+8	9	14.49	-	down
+
+;station details
+;name	L	R	U	D	description
+;0					CM on roof
+;1	0	0.5	3	1	CM on wall
+;2	0	1	4	lots	bolt near Y-hang
+;3			lots	lots	arrow on L wall
+;4			lots	lots	bolt on first rebelay
+;5			lots	lots	bolt on second rebelay
+;6	3	3	lots	lots	mark on floor of ledge
+;7					knot on rope
+;8			lots	lots	CM on bollard
+;9			lots	0	rock on chamber floor
+
+*end phat

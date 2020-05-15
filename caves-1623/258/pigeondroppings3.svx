@@ -1,0 +1,80 @@
+*begin pigeondroppings3
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 258 "Tunnockschacht"
+
+;ref.:  2014 #05
+
+*export 17x
+
+*title "Pigeon Droppings 3 - Trafalgar Square"
+*date 2014.07.30
+*team Insts Nathaniel Dalton
+*team Notes Becka Lawson
+
+;Instrument: Becka's DistoX1 (old DistoX)
+
+;*calibrate tape +0.10   ; +ve if tape was too short, -ve if too long
+
+
+;from   to  tape    compass clino   remarks
+
+17x	1	2.24	318	+06
+2	1	2.64	236	+12
+3	2	4.57	179	+11
+3	4	15.60	239	+47
+5	3	5.70	195	+02
+5	6	3.63	149	-46
+7	6	5.33	335	+33
+7	8	9.26	145	-48
+5	9	13.32	060	-35
+10	9	8.71	009	+07
+11	10	4.13	333	+07
+11	12	8.45	096	+45
+13	11	2.96	097	+38
+14	13	2.76	031	+07
+14	15	6.75	224	-24
+16	9	5.68	142	-32
+17	16	5.10	159	-30
+
+18	17	3.63	211	+02
+19	18	2.57	217	+19
+20	19	3.35	088	+20
+20	21	8.80	287	-41
+18	22	13.08	354	+25
+18	23	8.61	220	+30
+23	24	2.45	217	+14
+24	25	8.00	172	-38
+25	9	9.77	074	-35	; this leg landed around 15cm from station 9, a bit too far right 
+
+*data passage station left right up down ignoreall
+;stn    L   R   U   D   Desc
+
+17x	2	0	2	1	right wall beyond pitch numbered 17 from yesterday (pigeondroppings2)
+1	1	1.2	4	1.4	traverse spit on l wall
+2	0.6	0.6	0.7	2	above block on traverse
+3	1.3	0	4	0.6	r wall past traverse
+4	0.8	0.8	0	16	top of aven
+5	2	1.1	2.6	1	tip of popcorn pendant
+6	1.4	0.1	2.5	0.5	tip of stal/pendant
+7	0.1	2	2.2	0.7	tip of l wall before Flying Rats pitch
+8	0	2	2	6	unmarked, wall of pitch
+9	0.2	3	4	0.1	unmarked
+10	2.5	0	2	1.4	r wall, numbered
+11	0	3	3.5	1.1	l wall
+12	0.3	0.3	0	2	unmarked in ceiling, mud filled
+13	2	0.5	4	1.5	numbered, r wall on rock
+14	0.4	0.5	3.3	0.5	boulder tip, mid passage
+15	0.2	0.2	1.3	1.3	tight rift, wet beyond?
+16	1.2	2.1	3.5	0.6	boulder tip
+17	0	2.2	2.7	1.5	l wall, top slope
+
+18	2	0.3	4.5	1	tip of rock, r wall
+19	2.6	0	6.1	1.5	r wall of chamber
+20	0	0.6	1.7	1.2	l wall before thin rift
+21	0.4	0.4	-	-	unmarked, down thin rift
+22	2	3	5	2	back wall of chamber, numbered
+23	1.2	2.5	0.8	6	numbered rock, mid passage
+24	2.4	0	2.5	2	r wall
+25	4	0.5	5.5	0.5	boulder on pitch, up a guesstimate
+*end pigeondroppings3

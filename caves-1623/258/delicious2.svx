@@ -1,0 +1,47 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	258 "Tunnockschacht"
+
+*begin delicious2
+
+*export 2 5 8 10 11 13
+
+*title "Delicious Caek 2"
+*date 2008.07.30
+*team Insts Ollie Stevens 
+*team Notes Becka Lawson 
+*instrument Becka's Pony
+
+;ref.:	2008 #12
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+2	4	6.16	197	-15
+5	4	15.51	356	+16
+5	6	12.70	215	-12
+6	7	5.65	208	-36
+7	8	10.63	304	-10
+9	8	6.05	000	-03
+9	10	5.60	156	-47
+7	11	6.20	223	-39
+12	13	13.70	275	-32
+5	12	7.81	212	-39
+
+
+*data passage station left right up down ignoreall
+2	7	0	3	20	yesterday (delicious1) station 2
+4	5	0	5	1.5	last spit end of traverse numbered
+5	1	4	2.5	2	numbered RP L wall
+6	2	10	15	0.3	numbered boulder mid chamber
+7	1.8	8	20	1.5	numbered boulder
+8	11	0	20	4	RP right wall
+9	0	0.5	20	2	RP left huge boulder
+10	1	1	20	0.5	RP boulder edge of pitch
+11	4	2	20	1.5	RP boulder
+12	2	5	25	2(6)	RP numbered mid way between 5 and 6
+13	3	6	20	1.5(6)	RP numbered tip boulder
+
+*end delicious2
+
+
+

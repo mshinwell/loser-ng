@@ -1,0 +1,90 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2005-5 "Balcony Hohle"
+
+*begin galactica
+
+*export	112	; no station description so unclear what this station is but Becka assumes was numbered station 12 from hiltigalactica survey in 2016 and Rachel just added a 1 before to indicate it was the first of their stations in current survey - Phil said he thought was numbered station 8 but wasn't sure
+
+
+*title "galactica"
+*date 2017.07.21
+*team distox Phil Withnall
+*team Notes Rachel Turnbull
+
+*ref 2017#03
+
+;from	to	tape	compass	clino	remarks
+
+112	1	2.94	157.5	6.9
+1	2	14.65	204.6	-18.8
+2	3	5.83	274.3	-42.1
+3	4	4.87	237.5	-72.9
+4	5	20.35	232.13	-55.6
+5	6	11.84	262.2	-40.1
+6	7	8.77	210.9	5.0
+7	8	16.72	246.4	-15.6
+8	9	4.76	259.8	-0.1
+8	10	11.2	119.2	0.8
+9	11	15.97	151.3	8.0	
+10	11	11.89	216	9.9	
+11	12	32.3	179.7	55.3
+6	13	18.77	50.1	-14.7
+6	14	24.8	8.3	-1.4
+13	14	16.43	321.9	13.6
+14	15	23.77	14.8	24.5
+15	17	5.96	035.2	28.4
+15	16	18.11	152.5	-14.3
+16	14	16.2	248.2	-20.1
+18	17	3.5	222.4	62.5
+19	18	6.65	179.4	78.4
+20	19	9.52	271.6	79.3
+
+
+
+*data passage station left right up down
+
+112	5.7	36.8	10.8	3.9 ;station could equally be 1112 or 111-squared or 11-squared or 1/2. quite unclear.
+1	1.4	36.3	5.4	1.9
+2	1.9	41.7	3.6	2
+3	0.6	5.1	46.8	4.6
+4	0.5	32.6	57.2	4.4
+
+6	7.7	25.3	61	0.7
+7	2.9	32.9	62.9	1.4
+8	16	14.6	39.4	2.4
+11	4	4	30	0.7
+12	3	3	0	0
+;13	11.5	0	0.5	1
+14	16	9.5	46.0	5.6
+15	1.7	13.1	34.1	0.7
+17	1.4	0.5	6.7	6.3
+19	2.4	2.2	18.2	10.1
+20	2.5	0.3	23.7	1.6
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    B    galactica.20    -    17m deep drippy rift to right of pitches.
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+
+;The pitch series lowers onto a series of ledges with each rebelay. 
+;A large and impressive chamber of dimensions 31m wide x 60 m long x 41m high 
+;emerges. The floor is covered in large boulders with the floor sloping upwards 
+;at each end. Left from the pitches leads to a steep mud slope up to the 
+;ceiling. No way on. Right from the pitches leads to a rift, 17m deep and very  
+;drippy. It sounds deeper. Heading NNE. From the last survey station (20), a
+;14m leg was shot due North. QM b.
+
+; Notes5.jpeg in 2017#03 is a Galactica rigging guide.
+
+*end galactica
+

@@ -1,0 +1,33 @@
+The folders for each year are for general gpx files from recorded tracks, which will be included as surface legs in all.svx.
+gpx_publish is for creating exportable files to personal gps devices or smart phones.
+
+
+To add a new GPS tracklog or waypoint file:
+
+0. Read the Handbook on this http://expo.survex.com/handbook/essentials.html
+which may be more up to date than this README
+
+1. Download the .gpx file(s) from your GPS.  (On modern Garmin GPSes this is done
+by connecting the GPS using a USB cable and then copying the relevant files
+from the "GPX" directory inside the "Garmin" directory on the USB disk.)
+
+2. Create a new directory for the year if required (following the "2018"
+example) in the "gpx" subdirectory of the dataset.  Put the .gpx file(s) in the
+year directory.  They need to be renamed so as to follow our naming convention
+(see the "2018" directory).  No formal distinction needs to be made between
+files containing tracklogs and files containing waypoints (or a mix of the
+two).
+
+3. Update (or create if currently absent) the additional_info.svx file in
+the year directory following the 2018 example.  This is the place to rename
+stations to follow normal conventions and to mark waypoints as entrances,
+etc.  The file must be present even if empty.
+
+4. Open a terminal in this directory and run the make_svx.sh script.  This
+requires the gpx2survex program (https://github.com/mshinwell/gps2survex;
+installation instructions to follow).
+
+5. Run "cavern all.svx" at the toplevel then "aven all.3d".  Check that the
+tracks appear as expected when fixed points / surface surveys are enabled.
+
+6. Commit everything to hg and push.

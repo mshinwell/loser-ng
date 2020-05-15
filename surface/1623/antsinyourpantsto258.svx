@@ -1,0 +1,60 @@
+*begin antsinyourpantsto258
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "Ants in your pants to 1623 258"
+*date 2013.08.17
+*team Insts Cameron Bullen
+*team Notes Alex Crow
+*instrument Compass A ; Clino 1 Tape: ?
+
+
+; ====== stations refindable to link to other surveys: ======
+
+; ref.:	2013 #21
+; the #number is on the clear pocket containing the original notes.
+
+*export 1 18
+
+*calibrate tape +0.10
+
+;from	to	tape	compass	clino	; remarks
+1	2	11.41	142	19
+3	2	2.01	001	-33
+3	4	21.26	113	20
+4	5	4.93	089	21
+5	6	29.09	187	-10
+6	7	29.57	201	-07
+7	8	29.48	164	06
+8	9	30.10	172	16
+9	10	23.30	165	15
+10	11	27.12	156	22
+11	12	23.05	187	11	; unclear if 087 or 187
+12	13	14.99	213	11
+13	14	7.55	342	-28
+14	15	3.22	297	-11
+15	16	5.67	275	-08
+16	17	2.63	284	-31
+17	18	4.15	351	-26
+
+;station details
+;name	 description
+;1	Ants in your pants tag
+;2	Small cairn by shaft
+;3	Bunde tip
+;4	Cairn on path at top of climb
+;5	Tiny cairn on rock
+;6	Cairn on rock
+;7	Rock jammed in crack
+;8	Cairn on rock
+;9	Rock on plateu
+;10	Existing cairn
+;11	Existing cairn
+;12	Elongate cairn
+;13	Pebble on rock
+;14	High point on rock on tunnocks path
+;15	High point on rock on tunnocks path
+;16	Knot on bunde branch
+;17	High point on plateu
+;18	Tunnock cave tag (assumed to be b)
+*end antsinyourpantsto258 
+

@@ -1,0 +1,32 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	258 "Tunnockschacht"
+
+*begin maxpleasure4
+
+*export 17x
+
+*title "Maximum pleasure 4"
+*date 2007.08.13
+*team Insts Martin Green 
+*team Notes Becka Lawson 
+*instrument Compass - orange type 80  Clino - yellow Suunto A=1
+
+;ref.:	2007 #62
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+17x	1	0.73	-	down
+1	2	4.52	262	-22
+3	2	7.89	160	+03
+
+*data passage station left right up down ignoreall
+17x	1.2	1.3	0	11	station 17 of Maximum Pleasure 1 survey (Becka and Wookey)
+1	-	-	-	-	unmarked
+2	0.6	2	1.6	0.1	rp rock floor
+3	2.2	2	2.5	2	rp back wall
+
+*end maxpleasure4
+
+
+

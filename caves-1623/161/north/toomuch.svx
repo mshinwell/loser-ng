@@ -1,0 +1,79 @@
+; 1998.02.27 AERW sorted begin/end, split into pt1.pt2, fixed -90 to down
+;		  there are LRUDs in survey book - not yet added
+
+*begin TooMuch
+
+*export pt1.02	; 2m up wall opposite foot of 11m pitch (Flapjack 3rd)
+
+*equate pt1.20	pt2.1
+
+*begin pt1
+
+; Cave:	Kaninchenhöhle
+*title "Too Much, Too Soon, RH route - Off Flapjack pitches"
+*date 1990.07.19 ; trip 1990-161-16 in 1990 logbook
+*team Notes Dave Howes
+*team Insts Del
+*instrument Comp:543693, Clino:726974
+; Calibration:	161 Cairn - Comp:20.5,199 Clino:+16,-18
+
+*export 02	; 2m up wall opposite foot of 11m pitch (Flapjack 3rd)
+*export 20	; pitch head bolt on LH wall at head of big pitch
+
+*calibrate compass 0
+;*calibrate clino -0.65 where is this figure from - Calib above => -1
+*calibrate clino -1.0
+;readings grade 5
+; ref.:	1990 survey book pp 21-24
+
+01      02      7.65   305.0  -68.0 ; 02 is r102 on 1989 survey
+03      02      4.07    23.0   22.0
+03      04      2.16   281.0  -16.5
+05      04      5.55    17.0   31.0
+05      06      3.64   183.0  -56.0
+07      06     10.63    57.0   40.0
+08      07      7.23   357.0   34.0
+08      09      3.57   271.0  -44.5
+10      09      2.63    69.0   44.0
+10      11      4.48     -     down
+12      11      7.16    90.0  -17.0
+12      13      3.23   200.0  -78.0
+14      13      4.80   112.0  -10.0
+14      15      6.47   258.0  -23.0
+16      15      6.07    10.0   24.0
+17      16      2.68   122.0  -39.0
+17      18      7.45     -     down
+18      19      4.31   240.0   49.0
+20      19      6.44    50.0   45.0
+
+*end pt1
+
+*begin pt2
+
+; Cave:	Kaninchenhöhle
+*title "Too Much Too Soon (Off Flapjack) Down to Splatdown pitch"
+*date 1990.07.22 ; trip 1990-161-21 in 1990 logbook
+*team Notes Del
+*team Insts Francis
+*instrument Compass 721899, Clino 240641
+; Calibration : None
+; ref.:	1990 survey book pp 43-44
+
+*export 1	; old pitch head bolt on LH wall at head of big pitch
+
+*calibrate compass 0
+*calibrate clino 0
+
+2      1      3.55   132.5  -63.0
+2      3      1.60   168.0   27.0
+4      3      2.26   187.0  -11.0
+4      5      2.87   327.5  -08.0
+5      6     42.23   -       down
+7      6     25.91   126.0   87.0
+7      8     10.00   294.5  -73.0
+8      9     24.60   -       down
+10     9      5.40   089.5  -10.0
+10     11    10.00   240.0  -76.0
+
+*end pt2
+*end TooMuch

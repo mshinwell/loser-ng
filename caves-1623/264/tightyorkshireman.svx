@@ -1,0 +1,80 @@
+*begin tightyorkshireman
+
+; stations linked into other surveys (or likely to)
+*export 1 5 6 9
+
+; Cave: Balkonhoehle
+; Area in cave/QM: Dark arts 
+*title "Tight Yorkshireman Rift"
+*date 2015.07.24
+*team Insts George Breley
+*team Notes Matt Watson
+*team Pics Matt Watson
+*team Tape George Breley
+*instrument Wookey's distoX2
+; Calibration: yes?
+*ref 2015#17
+; the #number is on the clear pocket containing the original notes
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+2	1	4.823	023.1	+21.1
+2	3	4.203	218.9	+14.8
+3	4	3.279	190.8	+00.5
+4	5	1.674	182.0	+68.9
+5	6	1.497	174.1	+17.3
+5	7	3.339	259.4	+31.0
+7	8	1.071	333.6	-08.3
+8	9	2.269	213.9	-19.8
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+;1	0	0.4	1.2	0.8	;	flake LHW
+;2	0.5	0.4	2	1.2	;	LHW
+;3	0	0.5	2.5	3	;	LHW
+;4	0	0.4	2.5	1.0	;	LHW
+;5	1.2	0.3	0.9	2.0	;	rock middle of passage
+;6	-	-	-	-	;	station 8 previous survey (scrottytubeii)
+;7	0.2	0.5	0.3	-	;	LHW
+;8	0.6	0	0.2	-	;	RHW
+;9	-	-	-	-	;
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	0	0.4	1.2	0.8	;	flake LHW
+2	0.5	0.4	2	1.2	;	LHW
+3	0	0.5	2.5	3	;	LHW
+4	0	0.4	2.5	1.0	;	LHW
+5	1.2	0.3	0.9	2.0	;	rock middle of passage
+6	-	-	-	-	;	station 8 previous survey (scrottytubeii)
+
+*data passage station left right up down
+5	1.2	0.3	0.9	2.0	;	rock middle of passage
+7	0.2	0.5	0.3	-	;	LHW
+8	0.6	0	0.2	-	;	RHW
+9	-	-	-	-	;
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    B    tightyorkshireman.9    -    p15
+
+;------------
+;Cave description  ;(leave commented-out)
+;person size phreatic tube, left passage emerges at pitch head, right passage becomes too tight.
+
+*end tightyorkshireman

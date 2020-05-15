@@ -1,0 +1,76 @@
+
+; Steps to making a 204 survey on this computer
+;(you'll need to make adjustments if you want to enter a surface survey
+; or a survey of another cave, as they don't belong in this directory).
+;
+;1. Go caving, find cave, survey it ,etc...
+;
+;2. To use this template, first save it with your own file name.
+; You will then be able to edit and save it.
+; Use *export to tell survex ehich points will link to other surveys.
+;
+;3. Edit 204.svx to link your new survey to the old one.
+; i.e. use something like *equate oldsurvey.point23 newsurvey.point1
+; This line will need to be added near the bottom of the file, (see
+; the entries already there for examples.)
+;
+;4. When you have made and saved your file, use CVS to add and commit it
+; (and the changes you made to 204.svx. Get a grown up to help you with 
+; this, or ask Mark or Earl.)
+;
+;5. Process all.svx and 204.svx. There's a handy icon on the desktop for this.
+;
+;6. View your survey with Aven. There's an icon on the desktop to do this.
+;
+;7. When your feeling nerdy enough, use extend and printps and print to get 
+; elevations to draw up
+
+
+
+
+*begin faith
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle
+*title "My (brief description)"
+*date 2003.08.10 ;date the survey was done
+*team Insts Martin Green
+*team Notes Earl Merson
+*team Pics None
+*team Tape Martin Green
+*instrument Compass set #3; Clino set #3 
+; ref.:	2003 #36 ; the #number is on the clear pocket containing the original notes.
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 4 11 ; list all exported survey points.
+	; remember to add some *equate statements to 204.svx to link this survey in
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	5.27	184	+17
+3	2	5.79	077	-09
+4	2	4.87	131	+23
+5	4	23.38	353	+18
+5	6	6.47	187	+46
+7	6	7.84	322	-39
+8	7	2.34	224	-04
+8	9	2.90	060	+04
+9	10	3.47	136	-08
+10	11	4.51	221	-31.5
+
+;stn	L	R	U	D	Desc
+;1	-	-	-	-	belief.5
+;2	0	5	8	2	RP on LW
+;3	4.5	0	7	3	RP on RW
+;4	0.7	0.7	0	1.1	RP on arch over pitch
+;5	0.3	1	0.4	6	RP on boulder
+;6	1	0.3	4	1	RP on RW
+;7	1.3	0.1	2	2	RP on RW
+;8	-	-	-	-	RP on RW
+;9 	0	0.5	1	0.9	RP on LW
+;10	0.2	0.4	0.7	0.5	RP on LW
+;11	1	0.5	0.7	0.7	RP on RW above pool
+
+*end faith

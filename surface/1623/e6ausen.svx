@@ -1,0 +1,28 @@
+*begin e6ausen
+
+;SMK-Eishöhle 1623/40
+;Außenvermessung zum Eingang E6, Schachtzustieg zur Schneevulkanhalle
+;Anbindung an SVH1 (Brennerbeserl-Schluf) 
+;survey from Brennerbeserlschluf (SVH normal entrance, 40e) to
+;Konigschacht (40f) entrance to SVH
+
+*date 1999.09.10
+;Vermessung vom 10..9.99, Thilo Müller, Jörg Haussmann
+;update 17.9.00, Thilo
+;Referenz: Meßbuch "SMK 3" 
+
+*export sv1 j
+
+*DATA normal from to length gradient bearing
+sv1	a	8.92	2.5	151.5
+a	b	9.47	9	236
+b	c	24.68	40	265
+c	d	31.93	22	7
+d	e	9.78	42	314
+e	f	5.2	27	40
+f	g	17.4	-13	26.5
+g	h	11.39	48	294
+h	i	14.35	21	276
+i	j	6.52	-11	317
+
+*end e6ausen

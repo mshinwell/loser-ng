@@ -1,0 +1,75 @@
+*begin ropefree
+*date 2013.07.25-2013.07.26
+*team Insts Jenny Black
+*team notes Olly Betts
+*instrument pony CUCC #3, Olly's disto
+*export 16 18 24
+
+*data normal from to compass clino tape
+
+2	1	226	0	2.0  ; grade 3ish
+3	2	-	down	8.75 ; grade 3ish
+4	3	168	-62	1.510
+4	5	320	45	5.734
+6	7	236	-16	3.501
+6	8	008	+25	4.969
+6	9	144	+74	9.025
+6	10	051	-21	2.095
+10	11	110	-41	3.666
+11	12	022	+03	6.855
+12	13	285	+11	0.555
+13	14	037	+13	3.291
+14	15	034	-09	2.487
+15	16	018	-50	6.483
+16	17	020	+33	6.968
+11	18	205	-55	3.391
+18	19	133	+36	10.273
+19	20	221	-18	5.102
+5	20	167	+01	2.271
+5	21	287	+26	4.016
+21	22	176	+44	6.749
+23	22	317	-53	1.787
+23	24	178	-16	4.454
+
+;from olly371.bmp.png lower RHS and olly358.bmp.png
+
+*data passage station left right up down
+1	0.2	0.2	-	0	; C lead
+2	0.2	0.2	-	0	; j climbed down to
+3	0.5	1.5	-	-	; top of climb
+4	0.8	0.7	21.9	0.9	; NP pendant
+5	1.6	0	10.5	1.0	; NP L of bolt
+
+*data passage station left right up down
+6	1.5	1.1	4.0	0.7	; NP rock tip roof pendant
+8	0	0	0	0	; back wall of closing rift
+
+
+*data passage station left right up down
+6	1	1	4.0	0.7	; L+R made up
+9	0	0	0	0	; up aven
+
+
+*data passage station left right up down
+7	0	0	0	0	; above muddy slope
+6	1	1	4.0	0.7	; L+R made up
+10	0.1	1.6	2.5	1.4	; NP rock, may move
+11	0	0.9	8.0	4.1	; white "X"
+12	0.5	0.4	0.9	0.9	; pencil X
+13	0	0.4	0.3	0.3	; pencil X nodule LHW
+14	0	0.9	1.5	0.9	; pencil X14 LHW
+15	0	0.3	2.4	5.4	; pencil X LHW
+16	0.4	1.4	3.6	0.6	; tip mini cairn
+17	0	0	0	0	; white -> LHW
+
+*data passage station left right up down
+18	0.9	0.7	10.1	0.7	; "18" tip of rock
+19	0	0.6	11.1	1.5	; =3 in J solo (?ropefree?) survey, pencil 19
+20	-	-	-	-	; pencil "20"
+5	1.6	0	10.5	1.0	; NP L of bolt
+21	0.8	0.2	13.3	12.6	; pencil 21 (down is 12.6 or 1.8)
+22	0.4	0.1	2.1	0.2	; pencil 22
+23	1.1	0.8	3.4	1.2	; pencil 23, white scratch
+24 	0	0	0	0	; NP (from 2012)
+
+*end ropefree

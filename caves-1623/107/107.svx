@@ -1,0 +1,168 @@
+*equate p107 107.ent.22
+*entrance p107
+
+*begin 107
+
+; this now moved into 107 survey from 83. (wrong but convenient?)
+;*export ent.13   ; isolated station from rest of survey
+
+
+*export ent.15 ent.22
+*export 161connection.3
+
+*title "Gemshöhle (1623/107)"
+
+*include ent
+
+*equate fake.15 oldroute7.1
+*begin
+*date 1978
+*data nosurvey from to
+oldroute4.16 oldrift.splay
+*end
+*include fake
+
+*equate ext.20 ent.1
+*include ext
+
+*equate ext.10 connectingleg.2
+*begin connectingleg
+*date 2013.07.26
+*export 1 2
+*data normal from to compass clino tape
+1	2	021	+39	1.214
+*end connectingleg
+
+*equate ext.10 ropeless.50
+*include ropeless
+
+*equate ropeless.2 ropefree.24
+*include ropefree
+
+*equate envelope.3 ropefree.18
+*include envelope
+
+*equate ropefree.16 sleepless.10
+*include sleepless
+
+*equate unnamed.1 oldrift.12
+*include unnamed
+
+*equate oldrift.19 connectingleg.1
+*include oldrift
+
+*equate oldrift.6 oldriftconn.1
+*equate ropeless.11 oldriftconn.3
+*include oldriftconn
+
+*equate coldest.12 sleepless.1
+*include coldest
+
+*equate 0730.8 coldest.1
+*include 0730
+
+*equate 0801.23 0730.1
+*include 0801
+
+*equate 0801.3 poppedacross.11
+*include poppedacross
+
+*equate poppedacross.7 nippeddown.1
+*equate china.5 nippeddown.5
+*include nippeddown
+
+*equate 0801.18 wiggly.1
+*include wiggly
+
+*equate 0801.1 landofconfusion.28
+*include landofconfusion
+
+*equate ropeless.33 wonderland2.1
+*include wonderland
+
+*equate unnamed.9 0805.1
+*equate ropeless.16 0805.4
+*equate ropeless.12 0805.14
+*include 0805
+
+*equate ropelessconn.1 ropeless.46
+*equate ropelessconn.2 0805.5
+*begin ropelessconn
+*export 1 2
+*date 2013.08.07
+
+*data normal from to compass clino tape
+1	2	021	-66	5.298
+
+*end ropelessconn
+
+*equate china.35 landofconfusion.22
+*include china
+
+*equate ropelesshole.1 ropefree.24
+*include ropelesshole
+
+*equate 0810.14 coldest.7
+*include 0810
+
+*equate 0814.6 coldest.10
+*include 0814
+
+*equate cairnpitch.1 coldest.12
+*include cairnpitch
+
+*equate locoxbows.14 landofconfusion.25
+*include locoxbows
+
+*equate locside.11 landofconfusion.25
+*include locside
+
+;2014
+
+*equate 0801.3 alcovepop.5
+*include alcovepop
+
+*equate china.1 lasttsa.1.1
+*include lasttsa
+
+*equate china.8 161connection.y
+*include 161connection
+
+*equate entcleads.1 ent.8
+*equate entcleads.5 ent.7
+*include entcleads
+
+
+
+
+*include fudgedup
+*equate fudgedup.1 ropeless.24
+; the following one might be preferable if we prove it is an original
+;*equate fudgedup.2 ropeless.23
+
+; to be uncommented when ready.  ropeless10 looks like a junction
+;*equate fudgedup.8 ropeless.10
+
+*equate smoothbottom.china4 china.4
+*include smoothbottom
+
+*include oldroute
+*include tubular
+
+*equate doublebeep.13 coldest.10
+*include doublebeep
+
+*equate beepless.9 doublebeep.7
+*include beepless
+
+*equate notwindow.4 coldest.9
+*include notwindow
+
+*equate notwindow.1 hrv.23
+*include hrv
+
+*equate antigrav.12 oldroute3.7
+*equate antigrav.15 oldrift.15
+*include antigrav
+
+*end 107

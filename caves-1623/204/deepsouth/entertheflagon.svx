@@ -1,0 +1,59 @@
+*begin entertheflagon
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Enter the Flagon"
+*date 2007.07.29
+*team Insts Mark Dougherty
+*team Notes Duncan Collis
+*team Tape Ollie Stevens
+*instrument set CUCC Pony
+
+; Calibration - unknown
+
+; ====== stations refindable to link to other surveys: ======
+
+
+*export 1
+;1 is silkroad2.14
+
+*calibrate tape +0.00	; +ve if tape was too short, -ve if too long
+2	1	07.21	103	+18
+2	3	06.02	011	+12
+3	4	00.45	-	down
+4	5	18.47	339	+02
+6	5	14.34	153	+04
+6	7	14.85	002	+03
+8	7	04.39	168	+20
+8	9	04.57	103	-26
+10	9	07.03	259	-06
+10	11	05.61	347	-08
+8	12	09.10	356	-20
+13	12	03.19	117	+40
+13	14	09.70	291	-55
+
+
+;station details
+*data passage station left right up down ignoreall
+1	-	-	-	-	X RHW
+2	0	1.5	1	1.5	RP LHW
+3	1	1	0.3	0.5	pt ceil
+4	-	-	-	-	floor
+5	0.5	1.5	0.5	2	point L wall
+6	1.5	2	0.2	2	pt ceil
+7	0.5	2	1	1.2	L wall
+8	0.5	4	4	8	L wall nose numbered
+9	2	1.5	6	4	pencil X nose
+10	2	0	8	2	paint R wall
+11	1	1	8	1.2	paint end wall numbered
+
+*data passage station left right up down ignoreall
+8	0.5	4	4	8	
+12	2	2	6	-	paint R wall
+13	2	2	6	-	paint
+14	1.5	2.5	15	0.5	Eh! [cairn]
+
+
+
+*end entertheflagon
+

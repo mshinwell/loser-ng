@@ -1,0 +1,60 @@
+*begin slackers7
+
+; stations linked into other surveys (or likely to)
+*export 01
+
+; Cave: 258
+; Area in cave/QM: Hydra 
+*title "Slackers 7"
+*date 2016.07.08
+*team Insts Luke Stangroom
+*team Notes Anthony Day
+*team Pics Anthony
+*team Dog Mark Dougherty
+*instrument Chris Densham's DistoX
+*ref 2040#22
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+01	02	28.69	094.0	+23.9
+02	03	06.07	154.0	+17.6
+03	04	05.85	124.7	+13.9
+
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Purple nail varnish markings
+;01	-	-	-	-	Station 75 from Wook survey
+;02	01.2	04.2	01.7	01.0
+;03	01.3	04.3	00.2	01.4
+;04	00.9	03.5	00.0	00.6	Numbered
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+01	0	5	4	2	; Derived from survey sketch
+02	01.2	04.2	01.7	01.0
+03	01.3	04.3	00.2	01.4
+04	00.9	03.5	00.0	00.6
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    D    slackers7.04    -    Muddy dig at top of phreatic ramp.
+
+;------------
+;Cave description 
+; Phreatic ramp heads steeply uphill to the east for 20m, before
+; turning south and filling almost to the roof with mud [QM-1 D].
+
+*end slackers7

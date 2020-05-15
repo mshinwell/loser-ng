@@ -1,0 +1,57 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: ARGE-Teile des zusammenhängenden SMK-Systems
+
+; Verbindungen zwischen Höhlen in Vorderer Teile
+; Connections between caves in Vorderer (southern) SMK-system
+
+; 32:115 connection/verbindung
+*equate 32.links.26_2_15	115.115eing.b9
+
+; 32:78 connections/verbindungen
+*equate 32.links.vs14		 78.bartl.s14
+*equate 32.links.vs43		 78.bartl.s43
+
+; 41:78 connection
+*equate 41.verhall.12		 78.allkaese.mj_12
+
+; 41:88 connection/verbindung
+*equate 41.rampe.30 		 88.lerche1.steller
+
+; 41:143 connections/verbindungen
+*equate 41.alice.14_1		143.kuhwiese.22a.6m  ; aus Gesamtsystem.svx
+*equate 41.rampe.18			143.kuhwiese.22A.15
+; 41:144 connections/verbindungen
+*equate 41.alice.a7 		144.144ein.24
+*equate 41.diaet.25_43		144.144verb.43
+*equate 41.diaet.43_2		144.144verb.3
+*equate 41.entlueft.9_10	144.144verb.58		
+*equate 41.wetnwild.2 		144.144verb.63
+
+; 41:115 connection. Is this superceded? 
+; *equate 41.wetnwild.67_1	115.dartford.7
+
+; 144:143 connection/verbindung
+*equate 144.gang.2_20_2		143.hades.anschluss_20_2
+
+; 87:115 connection
+*equate 87.40				115.115haupt.55
+
+; 88:143 connections/verbindungen
+*equate 88.sophy.12		143.sophy.12
+
+; 88:40 (Larchenschacht:Eishöhle) connection/verbindung
+*equate 88.lerche1.619		 40.eishohle.619
+
+;lots of connections between 41 and 142
+*include links41-142
+
+; 158:143 (Donner und Blitzen:Weiße Warzen Schacht)
+*equate 143.troja.6		158.fruttidelmare.x6
+*equate 143.troja.5		158.fruttidelmare.x5
+*equate 143.troja.4		158.fruttidelmare.x4
+*equate 143.troja.3		158.fruttidelmare.x3
+
+
+; 40:216 (Eishöhle:Nichts50) connection
+*equate 216.7 40.franzosenbiwak.3_5
+; maybe a reused point at the entrance too?

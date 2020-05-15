@@ -1,0 +1,48 @@
+*begin flyinghigh5
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export 95x 30
+
+*title "Flying High 5"
+*date 2010.08.14
+*team Insts Julian
+*team Notes Becka
+*instrument Set 6 
+
+; calibrate 
+
+;ref.: 2010#22
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+95x	20	3.08	-	down
+20	21	10.19	085	+29
+21	22	10.67	160	+03
+22	23	4.28	237	-42
+20	24	7.35	357	+07
+24	25	8.09	271	-27
+26	25	3.80	095	+05
+26	27	5.44	319	-17
+27	28	5.10	-	down
+29	27	4.37	214	-05
+29	30	1.38	289	+21
+				
+*data passage station left right up down ignoreall
+
+95x	0.4	1.2	2	3
+21	1.3	2	1.1	0
+22	0.5	2	0.2	1.4
+23	1	0	2	0.6
+24	1.1	0	1	1
+25	1	2	1.3	0
+26	1.1	1.2	0.3	1.3
+27	-	-	2	7
+28	-	-	-	-	unmarked, bottom of pit
+29	2.5	0.5	4	1
+30	1.2	1	0	1.3
+
+*end   flyinghigh5

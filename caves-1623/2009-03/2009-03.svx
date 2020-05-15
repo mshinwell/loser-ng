@@ -1,0 +1,40 @@
+*equate p2009-03 2009-03.1
+*entrance p2009-03
+
+*begin 2009-03
+
+*title "Headless Gemse"
+*date 2009.07.31
+*team Insts Gareth Phillips
+*team Notes Frank Tully
+
+; instrument set 5
+; No zero error on tape
+; notes in 2009#20
+
+*export 1 
+
+*data normal from to compass clino tape
+*flags surface 
+1	2	168	-35	3.18
+*flags not surface
+2	3	189	-44	3.06
+3	4	156	-56	3.53
+4	5	129	-43	3.11
+6	5	246	-07	1.29
+6	7	039	+08	3.52
+7	8	040	+30	2.00	; tape estimated
+
+
+*data passage station left right up down ignoreall
+;station    L   R   U   D   Desc.
+1	-	-	-	-	Bolt on wall (placed for tag)
+2	1.0	0.4	0.2	1.0	RD on wall
+3	0.3	0.8	0.6	0.6	RD on protrusion
+4	0.4	0.5	0.5	1.0	RD RH wall
+5	0.5	0.2	0.8	0.2	RD on RH side pendant
+6	0.6	1.2	0.2	0.3	RD on pendant LH side
+7	0.5	2.0	0.3	0.0	RD on boulder
+8	-	-	-	-	End of passage	
+
+*end 2009-03

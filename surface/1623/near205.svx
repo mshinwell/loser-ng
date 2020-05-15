@@ -1,0 +1,40 @@
+*begin near205
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "near205"
+*date 2000.08.01
+*team Insts Andy
+*team Notes Wook
+*team Pics Wook
+*team Tape Andy
+*instrument Compass #2 ; Clino #2, Tape: Keentools grey 2000
+; Calibration: Lower TC: 128,-8  307,+6.5
+; ref.:	
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 4 8
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	2.04	197.5	00
+2	3	14.99	128.5	+09
+3	4	11.17	161		+21.5
+3	5	14.51	104		+04
+6	5	7.53	292		+13
+6	7	24.38	061.5	-14
+7	8	16.73	069		-34
+
+;station details
+;name	ht	description
+;1	0	P218 (wk6) tag bolt (currently 1/8 of a spit hole)
+;2	0.2	rock
+;3	0.4	top of rock
+;4	1.6	P219 (wk5) tag bolt "wook5"
+;5	0.7	bunde tip
+;6	0.2	rock
+;7	1.8	stick in crack of wall
+;8	0.4	tag bolt at 205
+
+*end near205

@@ -1,0 +1,35 @@
+*equate p195 195.p195
+*entrance p195
+
+*begin 195
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "Driver Diver, 1623/195"
+*date 1999.07.23
+*team Insts Phil Underwood
+*team Notes Earl Merson
+*team Pics Earl Merson
+*team Tape Phil Underwood
+*instrument Compass #2 ; Clino #2
+; Calibration:	
+
+
+; ====== stations refindable to link to other surveys: ======
+
+*export p195
+
+;*calibrate tape -0.15	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2		1	9.47	222	-41
+3		2	12.47	085	-74
+4		3	19.28 	110	-83
+4		p195 2.95	058	-8
+
+;station details
+;name	L	R	U	D	E	description
+;1		0.50 0	1	0.50	CM R. wall
+;2		0	0.70 -	1.30	.2 red paint L. wall
+;3		shaft; SW 0.50, SE 0.80, NW 1, NE 2, ENE 4
+;4      Surface 			red dot on rock on SW corner of shaft at surface
+*end 195

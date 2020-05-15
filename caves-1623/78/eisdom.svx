@@ -1,0 +1,48 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schwabenschacht 1623/78
+
+*begin eisdom
+*title "Eisdom"
+
+*export A0	; haupt.5 allkaese.5_0
+*export A1	; allkaese.AA0 fetzig.1_0
+*export A4	; fetzig.1_8
+*export A5	; e2.T5
+*export A14	; bayberg.H25 e2.U12 forsten.A14 verloren.W0
+*export A19	; augsburg.A19
+*export A20	; bayberg.H0 highway.x0
+*export A21	; haupt.36
+
+; -1- A-Meßzug: Verzweigungshalle (5)-Verlorene Halle (A14)-Eisdom (A21)
+; Messteam: Frank Sarstedt, John Gebhard, Jürgen Bölzle, Klaus Gebhard
+; Zeichner: Jürgen Bölzle
+; Referenz: Messprotokolle
+*date 1991.07.18-1991.08.02
+
+*data normal from to length gradient compass
+A0	A1	6.40	-14	248
+A1	A2	7.60	-15	278
+A2	A3	3.50	-10	264
+A3	A4	6.47	-5	220
+A4	A5	4.38	-45	254
+A5	A6	8.13	-79	212
+A6	A7	4.37	10	64
+A7	A8	7.80	-72	200
+A8	A9	3.98	-48	202
+A9	A10	7.17	-63	120
+A10	A11	4.75	-60	128
+A11	A12	16.70	-75	228
+A12	A13	10.80	-75	228
+A13	A14	10.10	-80	228
+A14	A15	10.75	-15	130
+A15	A16	2.77	-31	50
+A16	A17	9.93	-39	183
+A17	A18	11.50	-64	178
+A18	A19	15.00	-43	150
+A19	A20	9.15	-47	192
+A20	A21	21.15	DOWN	-
+
+; Raumwerte
+; keine Raumwerte
+
+*end eisdom

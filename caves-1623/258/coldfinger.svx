@@ -1,0 +1,53 @@
+*begin coldfinger
+
+*export 1 16
+
+*title "New pitch in Tunnocks from Champagne On Ice"
+*date 2014.08.02
+*team Instruments Becka L
+*team Notes Andrew A
+*team Dogsbody Neil P
+*instrument "Andrew's Disto X2"
+
+*ref 2014#08
+
+;*calibrate tape +0.00	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino ignoreall
+;from	to	tape	compass	clino	remarks
+
+1	2	2.24	303	-03
+2	3	19.70	304.5	+84.5
+3	4	8.26	220	+75.5
+4	5	1.87	143	+23.5
+5	6	3.73	161.5	+7.5
+6	7	3.70	137.5	+1
+7	8	4.95	235	-12
+8	9	13.18	093	+85
+9	10	3.67	016	+1
+10	11	16.43	107	+81
+12	11	1.64	267	-16	;Disto Leg Opposite
+12	13	2.78	199	+05
+13	14	2.62	061	-21
+14	15	2.75	176	-47
+15	16	1.81	063	-30
+
+*data passage station left right up down ignoreall
+
+1	0	1.7	5	0.6	NV
+2	-	-	-	-	NV
+3	-	-	-	-	NV
+4	0	1.2	1.2	1.6	NV Pitch Head
+5	0.2	0.4	0.4	1.4	NV LHS
+6	0.4	0	0.2	9.2	NV
+7	-	-	-	-	NV
+8	-	-	-	-	NV
+9	-	-	-	-	NV By Yhang
+10	-	-	-	-	NV
+12	-	-	-	-	NV LHS
+13	-	-	-	-	NV no.13 RHS
+14	-	-	-	-	NV
+15	-	-	-	-	Temp
+16	-	-	-	-	Stn 20 on previous survey
+
+*end coldfinger

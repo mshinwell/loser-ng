@@ -1,0 +1,43 @@
+*begin colonade
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "the colonade (2000_11c_part6)"
+*date 2000.08.16
+*team Insts Becka Lawson
+*team Notes Martin Green
+*team Pics Martin Green
+*team Tape Becka Lawson
+*instrument Compass #1 ; Clino #1, Tape: purple one (? -- maybe grey!)
+; Calibration: 309/+06	129/-08
+; ref.:	2000 #41
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 2 7
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	10.78	252	11
+2	3	3.42	115	-29
+4	3	13.33	304	-08
+4	5	25.09	148	-03
+6	5	3.86	351	+13
+6	7	1.25	125	-16
+8	7	7.32	046	+25
+9	8	6.23	074	+21
+
+;station details
+;name	L	R	U	D	description
+;2	3	-	5	2	CM roof nobble
+;1	[same as treeumphant.13]
+;3	1.5	3	1.5	0.3	CM on rock in floor
+;4	4	1	1	1.5	CM on roof opposite floor to ceiling stal
+;5	1.5	3	0.4	1.5	CM on ceiling by boulder slope
+;6	1	0.15	0.2	1.0	CM on nobble out of roof
+;7	1	1.2	2.3	0.5	CM on underside of protrusion on left
+;8	2	0	1.5	1	CM (poor) on nobble on right wall
+;9	2.5	1	10	2	nobble of rock on boulder in floor (CMed '9')
+
+*end colonade

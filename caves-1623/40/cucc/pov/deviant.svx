@@ -1,0 +1,64 @@
+;1999.08.03 W created for deviant alternative survey
+;2000.01.03 W fixed L & R data error in stn deviant.6
+
+*begin deviant
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Eishöhle, 1623/40
+*title "Deviant"
+*date 1999.08.01
+*team Insts Andy Atkinson
+*team Notes Wookey
+*team Pics Wookey
+*team Tape Paul Hammond
+*instrument Compass #1 ; Clino #1 
+; Calibration:	At TC: Up - 269, +6.5 Down - 89, -7 Tape 0.0
+*ref	"1996-1999 Not-KH survey book pp 92-95"
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 11 18
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+*data normal from to tape compass clino
+2	1	4.64	106	-20.5	; notes say 1 to 2
+2	3	2.9	286.5	-10.5
+4	3	4.5	-	down
+4	5	5.58	291.5	+12.5
+5	6	3.38	334.5	+11
+6	7	13.9	-	up
+8	7	2.99	113	-23
+8	9	6.5	277	+44
+9	10	13.17	014	+80.5
+11	10	4.15	278	-44
+12	11	1.08	223	-16.5
+13	12	3.17	238	-5
+14	13	1.10	289	+2
+15	14	1.9	186.5	-17
+16	15	4.87	190.5	-33
+16	17	7.32	31.5    -20
+18	17	10.10	340.5	+15
+
+;Raumwerte
+*data passage station left right up down
+;name	L	R	U	D	E	description
+1	1.7	3.8	6	1.2		;Red dot on wall
+2	0.7	0.1	15	2.1		;Rock nodule
+3	0.4	0.2	15	0		;CM, rock foot of plumb
+4	0.4	0.5	10	4.5		;(RS) Red spot LH wall
+5	0.2	0.6	10	0.8		;RS LH wall
+6	1.1	0.1	15	0.6		;CM, wall, bottom of hang (L & R wrong way round in notes)
+7	1.2	0.6	-	-		;Deviation krab
+8	0	1.6	6	1.7		;RS LH wall
+9	0.4	2	-	-0.2		;Corner of big boulder
+10 	-	-	-	-		;Pitch head bolt
+11	0.5	0	0.6	0.7		;RS and '11'. RH wall
+12 	0.6	0	0.8	0.8		;RS RH wall
+13	0.5	0	-	-		;RS RH wall
+14	0.5	0	0.5	0.6		;RS RH wall
+15	0.5	0	1.6	0.8		;RS RH wall
+16	0	0.6	1.7	1.1		;RS LH wall
+17	-	-	-	-		;Opposite wall
+18	-	-	-	-		;Pre-existing red mark on wall
+
+*end deviant

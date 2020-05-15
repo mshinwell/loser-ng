@@ -1,0 +1,43 @@
+*begin boomboom
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export 4	9
+
+*title "Boom Boom Afridi"
+*date 2013.08.14
+*team Insts Pete Talling
+*team Notes Fleur Loveridge
+*team Rig Tom Clayton
+;instrument Set expo
+;tape expo
+
+*calibrate tape 0.28	; +ve if tape was too short, -ve if too long
+
+;ref.: 2013#20
+
+*data normal from to tape compass clino ignoreall
+
+;from	to	tape	compass	clino	remarks
+1	2	10	207	0	this is a dummy leg, we did not visit station 2;
+3	1	15.45	210	-12	station 1 is far side of Clayton cockup traverse on spike
+4	3	5.01	191	-34	station 4 is station 5 of west side story, station 3 is first bolt of traverse
+3	5	4.22	194	-31	station 5 is y hang knot
+5	6	9.72	0	-90	station 6 is rebelay knot
+6	7	20.05	0	-90	
+7	8	4.04	105	-0.5	station 8 is right hand bolt of yhang
+8	9	16.82	0	-90	station 9 is rib on floor just before next drop	
+				
+*data passage station left right up down ignoreall
+
+1	2	0.2	10	1	on spike on right hand side of passage
+2	-	-	-	-	no lruds as dummy leg to station 2
+3	0	1.5	2	15	first bolt of traverse
+4	-	-	-	-	station 5 from west side story survey
+5	0.2	3	10	30	yhang knot
+6	5	1.5	20	20	rebelay knot
+7	1	0	40	1	wall at base of pitch
+8	0.4	0	2	17	right hand bolt of yhang
+9	3	4	17	10	rib on floor between pitches
+
+*end   boomboom

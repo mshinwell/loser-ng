@@ -1,0 +1,39 @@
+*begin ubantu
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Ubantu"
+*date 2008.07.24
+*team Insts Nial Peters
+*team Notes Kathryn Hopkins
+*team Tape Tony Rooke
+*instrument Phil's Pony; Tape a tape
+; Calibration: none whatsoever
+; ref.:	2008 #02
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 7 8
+
+*calibrate tape +1.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	8.90	278	66
+2	3	1.79	260	09
+3	4	5.08	163	-53
+5	4	3.93	343	23
+5	6	1.65	125	-14
+6	7	3.9	-	DOWN
+1	8	1.6	200	19	;reversed leg changed from 0.6 in notes (included tape calibration in notes)
+
+
+*data passage station	left	right	up	down	ignoreall
+1	-	-	-	-	lh bolt of y-hang
+2	1	1.5	3	1.5	top of flake in floor
+3	2	0	7	1.5	rp on rhw
+4	0.8	0.2	0.2	0	rp on floor
+5	0.5	0	3	3	rp on ledge rhw
+6	0	0.5	4	4	rp lhw
+7	0.4	0.4	8	0	rp on floor
+8	-	-	-	-	old survey station from toothless (10?)
+*end ubantu

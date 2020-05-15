@@ -1,0 +1,76 @@
+;1998.02.01 AERW added notes and station details from survey book
+;1998.06.02 AERW added exports and comments
+
+*begin Amnesia
+
+; Locn:	Main plateau, WNW of Top Camp, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+; Cave:	Puffball & Icing Sugar Cave (1623/182)
+*title "Cloud Chamber to Amnesia Alleyway, Near Death Experience ..."
+*date 1992.07.08 ; trip 1992-182-9 in 1992 logbook
+*team Mark McLean and Ali Morris
+; Calibration:	no
+; ref.:	1992 survey book pp 3-5
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; existing CM on RH back wall at top of Cloud Chamber
+*export 25	; Bolt on outside of bend of passageway, head of last pitches
+		; down to sump 1 (1st bolt of traverse line)
+
+1       2        1.48   303     -35
+2       3        5.09   114     +14
+3       4       14.10    -      Down ; notes just say "vertical"
+4       5        4.15   098     -25
+5       6        9.68   133     -85
+6       7        6.10   106     -01
+7       8        2.54   218     +07
+; 7 ... 13 in Amnesia Alleyway
+8       9        2.42   188     -05
+9       10       3.44   213     +02
+10      11       3.72   175     -08
+11      12       3.00   214     -15
+12      13       3.00   170     -15
+13      14      11.51   165     -65
+14      15       4.15   070     -05
+; pitch is NDE
+15      16       7.28   059     -62
+16      17       3.61   101     -63
+17      18       5.84   347     +08
+; 18 to end of passageway 1.5m (looks parallel with 19->17 on sketch)
+17      19       2.55   216     -02
+19      20      10.59   175     -03
+20      21       6.26   180     +03
+21      22       6.34   197     -17
+22      23       3.17   215     -10
+23      24       1.94   206     -18
+24      25       1.74   220     -29
+
+; station details
+;name	L	R	U	D	notes
+; 1	-	-	-	-	existing CM on RH back wall
+; 2	0	1.5	-	-	handline bolt (first)
+; 3	0	1.5	-	-	bolt at pitch head
+; 4	1	0.5	-	2	point on rope
+; 5	0	1.5	-	-	rebelay bolt
+; 6	1.5	-	-	-	CM on waterfall LHS
+; 7	0.5	1	2	1.5	CM on LHS start of rift
+; 8	0.5	0	1.5	3	CM on bulge on RHS in rift
+; 9	0	0.5	1.5	3	CM on knob on wall LHS
+;10	0.5	0	1	3	CM on knob on RHS
+;11	0	0.75	1	3.5	CM on LHS
+;12	0.5	0	1.5	4	bolt on RHS
+;13	0	0.75	3	pitch	pitch head bolt
+;14	3.	0.	pitch	2.	CM RHS down 1st part of pitch
+;15	2.	0.	-	-	bolt down 2nd part of pitch
+;16	0.	4.	-	4	CM on LHS pitch
+;17	3.	0.	2.	-	CM at back of pitch, RHS
+;18	0.	1.	1.5	1.	CM on LH wall (1.5 from end)
+;19	1.	0.	1.	2.	CM on LH wall of passage
+;20	0.	0.5	1.	2.5	CM on LHS bulge
+;21	0.25	1.	0.	4.	CM on roof
+;22	0.	0.75	1.	3.	CM on LHS hanging flake
+;23	0.5	0.	0.5	2.5	CM on RHS
+;24	0.	1.	1.	3.	CM on LHS
+;25	0.75	0.	2.	3.	Bolt on bend of passageway
+
+*end Amnesia

@@ -1,0 +1,58 @@
+; 98.03.02 AERW moved two more above-ground survey legs to Surface.BtoC
+; 98.03.02 AERW sorted begin/end, added comments and refs.
+
+*begin BtoC
+
+; Cave:	Kaninchenhöhle, 1623/161
+*title "161b to 161c (Inside)"
+*date 1990.08.06 ; trip 1990-161c-3 in 1990 logbook
+*team Notes Juliette Kelly
+*instrument Paul Smith
+*instrument Compass 949847, Clino 240641
+; Calibration:	none ?
+
+; ref.:	1990 survey book pp 85-89
+
+; Findable survey stations:
+*export 03	; boulder in 161b entrance (ent161b),
+		; closest to surface/cave interface
+*export 09	; top of pointy boulder, start of France survey
+*export 10	; nipple on rock at 161c (ent161c),
+		; closest to surface/cave interface
+
+*export 14	; middle of "6" of "161b" near entrance
+*export 12	; middle of "6" of "161c" near entrance
+*export 01	; same as 14
+
+*calibrate compass 0.00
+*calibrate clino 0.00
+
+;*data normal bcra_5 from to length bearing gradient
+
+*begin
+*flags surface
+*equate 14 	01
+
+02    01      3.09   249    -08.5
+02    03      4.13   252.5  -26
+*end
+
+04    03      6.00   020    +37
+04    05      3.07   329    -31
+06    05      2.67   203    -40.5
+06    07      2.20   014    +04
+07    08      2.98   032    +04
+08    09      2.73   063.5  +21
+09    10     12.35   059    +15
+
+*begin
+*flags surface
+
+11    10      4.20   221.5  -11.5
+11    12      5.05   215    +03.5
+11    13      6.14   205    +12.5
+13    14     15.40   221    -14
+
+*end
+
+*end BtoC

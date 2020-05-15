@@ -1,0 +1,124 @@
+*equate 2012-70.24 p2012-70
+*equate 2012-70.9 p2012-70b
+*equate 2012-70.26 p2012-70c
+
+*entrance p2012-70
+*entrance p2012-70b
+*entrance p2012-70c
+
+*begin 2012-70
+
+*export 9 22 24 26
+*date 2012.08.07
+
+*equate 22 pt2.1
+
+*data normal from to tape compass clino
+
+1	2	4.682	211	-02
+1	3	2.238	162	+17
+1	4	4.853	025	-30
+1	5	2.542	318	-29
+1	6	3.532	064	+29
+6	7	4.192	051	+40
+7	8	7.016	188	+19
+8	9	1.920	266	+31
+7	10	5.379	096	+43
+10	11	4.608	003	+20
+12	11	8.547	126	+18
+12	13	4.507	322	-11
+11	14	4.155	097	+21
+14	15	6.002	072	+31
+15	16	5.963	145	+09
+16	17	3.688	242	-04
+16	18	5.409	053	-14
+19	18	7.991	335	+01
+19	20	4.669	015	+23
+21	20	6.499	169	-01
+20	22	5.998	028	-01
+16	23	2.144	200	+34
+23	24	2.116	076	+38
+25	21	4.113	298	-68
+25	26	1.870	312	-20
+
+*begin pt2
+*export 1 5 11
+*date 2012.08.18
+
+*data normal from to tape compass clino
+
+2	1	4.055	195	+01.5
+3	2	3.69	241	+28
+4	3	1.375	183	-20
+5	4	2.48	192	+04
+3	6	2.78	032	+24
+6	7	3.53	187	+08
+8	7	2.29	319	-02.5
+9	8	1.79	334	-12
+10	3	3.78	038	+32
+11	10	1.015	042.5	+22
+
+*data passage station left right up down
+3	1.4	0.9	2.5	1.5	; bldr tip
+4	0.4	0.3	1.0	2.2	; nobble RHW
+5	0.3	0.6	2.0	0.7	; NP LHW
+
+*data passage station left right up down
+3	1.4	0.9	2.5	1.5
+6	0.1	0.8	1.5	0.9	; LHW pt
+7	0.4	0	0.75	0.8	; RHW
+8	0.35	0.3	0.8	0.6	; tip of bldr
+9	0.2	0.3	0.4	0.8	; end of psg (narrow, choked)
+
+*data passage station left right up down
+3	0.9	1.4	2.5	1.5
+10	0.4	0	0.6	1.1	; RHW
+11	0	0.4	0.9	1.15	; LHW pencil "STN 11"
+
+*end pt2
+
+*equate pt3.1 pt2.5
+
+*begin pt3
+
+*export 1
+*date 2012.08.23
+
+*data normal from to tape compass clino
+
+2	1	2.677	177	-12
+3	2	2.153	277	-23
+4	3	1.545	240	-33
+4	5	2.026	066	+16
+
+*data passage station left right up down
+1	0.3	0.6	2.0	0.7	; = 5 from survey on 2012-08-18
+2	0	0.6	1.0	0.75	; NP LHW
+3	0.4	0	0.5	1.0	; NP RHW
+4	0	0.35	0.2	1.1	; NP LHW
+5	0.5	0.1	0.1	0.1	; disto end - rock on floor
+
+*end pt3
+
+*equate pt4.1 pt2.11
+
+*begin pt4
+
+*export 1
+*date 2012.08.23
+
+*data normal from to tape compass clino
+
+2	1	1.066	026	+26
+3	2	1.892	041	+17
+3	4	2.209	200	-07
+
+*data passage station left right up down
+1	0	0.4	0.9	1.15	; = 11 from survey on 2012-08-18
+2	0.4	0.1	1.3	0.7	; NP RHW
+3	0	0.4	1.65	0.8	; NP LHW
+4	0.5	0.1	1.4	0.1	; end of disto - rocks on floor RHW
+
+*end pt4
+
+*end 2012-70

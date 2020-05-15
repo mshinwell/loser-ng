@@ -1,0 +1,36 @@
+*begin enti
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Entrance H"
+*date 2005.08.06
+*team Insts Stuart Bennett
+*team Notes Sarah White
+*team Pics Sarah White
+*team Tape Both
+*instrument Compass + clino set #2 Tape: Blue one
+; Calibration ??
+; ref.:	2005 #27
+
+; ====== stations refindable to link to other surveys: ======
+
+*export p2 tagh i
+
+*calibrate tape +0.20	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2       3       11.93   -       DOWN
+4       3       1.38    196     +19     
+p2       4       5.64    178     +58
+I       2       5.46    283     -46
+
+*begin
+*flags surface
+I       1       4.05    315     +04
+1       tagh    1.45    308     -35
+*end
+
+;station details
+;name	L	R	U	D	description
+
+*end enti

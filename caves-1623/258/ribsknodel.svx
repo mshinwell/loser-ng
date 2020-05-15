@@ -1,0 +1,70 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	258 "Tunnockschacht"
+
+*begin ribsknodel
+
+*export  1 4 5 6 9 11 18 
+
+*title "258: Ribs and Knoedel"
+*date 2006.08.01
+*team Insts Tom Handford
+*team Tape Both
+*team Notes Dave Loeffler
+*instrument Set "A=1"
+*instrument Tape yellow Tajima
+
+; Calibration: stone bridge 153/+23 155/+23 326/-23 326/-23
+
+; from	to	tape	comp	clino	remarks
+2	1	16.18	333	-22
+2	3	17.12	108	+38
+4	3	5.33	294	-34
+5	4	0.95	021	+04
+2	6	8.15	171	+17
+6	7	4.87	261	-33
+7	8	6.59	292	-42
+9	8	3.37	025	+12
+10	9	4.34	123	+43
+10	11	6.92	246	-31
+10	12	8.19	132	+41
+13	12	3.02	327	-43
+14	13	5.70	300	-28
+15	14	2.16	067	+20
+16	15	4.79	355	+11
+6	17	28.84	127	+29
+18	17	5.70	054	+22
+19	18	6.04	088	+18
+
+*data passage station left right up down ignoreall
+
+1	1.0	2.5	0.7	1.20	Square pencil mark on ceiling
+2	0	3.50	0.2	1.2	Pencil mark LHW (in direction of survey)
+3	2.0	0.50	0	0.4	Pencil ceiling
+4	1.0	2.0	0.35	0.8	Pencil LHW projection
+5	-	-	-	-	Existing survey point
+
+*data passage station left right up down ignoreall
+2	0	3.50	0.2	1.2	Pencil mark LHW (in direction of survey)
+6	3.5	0.8	0.4	1.2	PP ceiling
+7	0	0.5	0.5	1	PM LHW
+8	0.5	0	1.6	0.3	PM RHW at bend
+9	1.5	1.5	1.5	0.1	PM wall
+10	0.8	1.0	2.0	0.5	PM boulder
+11	0.15	0.4	0.4	0.3	PM #11 LHW
+
+*data passage station left right up down ignoreall
+10	0.8	1.0	2.0	0.5	PM boulder
+12	0	1.0	0.4	1.5	PM LHW
+13	1.0	0.2	0	3	PM ceil
+14	0	0.7	0.6	1.0	PM LHW
+15	1.0	0	1.2	0.6	PM #15 RHW
+16	3.0	1.5	-	0.5	Pt on block (not marked)
+
+*data passage station left right up down ignoreall
+6	3.5	0.8	0.4	1.2	PP ceiling
+17	3.5	-	1.0	2.0	PM wall
+18	0.4	0.4	0	0.7	PM ceil arch
+19	1.5	0	1.5	0.7	PM RHW
+
+
+*end ribsknodel

@@ -1,0 +1,62 @@
+*begin polkadot
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Kaninchenhöhle, 1623/161
+
+*title "Polka dot"
+*date 2012.08.20
+*team Insts "Becka"
+*team Notes "Dour"
+*instrument "Becka's distox"
+; Calibration: none
+; ref.: 2012#36
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 45x
+
+09	45x	5.53	254	-21
+10	09	5.18	268	-14
+11	10	3.01	159	-08.5
+12	11	9.91	249	-13
+13	12	3.61	333	-11
+14	13	8.29	352	05
+15	14	2.99	270	-5
+15	on	8.00	062	01
+16	12	3.44	120	-11
+17	16	10.33	196	-10
+18	17	10.78	170.5	-10
+19	18	6.56	124	7
+20	19	15.05	168	00
+21	20	3.88	191	-13
+22	21	3.76	164	-4.5
+22	23	17.24	339	-58
+24	21	4.26	194	-28
+
+*data passage station left right up down ignoreall
+45x -   -   1.0 1.5 numbered station from 2011
+09  1.3 1.6 0.5 0.8 pm lh wall
+10  1.8 0.4 1.0 0.7 pm rh wall
+11  0   1.6 0.9 0.7 pm lh wall
+12  3.3 0.3 0.7 0.4 numbered pm at junction
+13  1.5 0.2 0.1 1.1 pm rh ceiling
+14  1.7 0   0.3 1.6 pm rh wall
+15  1.0 1.3 0.0 1.3 numbered pm
+on  -   -   -   -   splay
+16  0.5 -   1.0 1.8 pm lh wall
+17  1.2 0   0.6 0.6 pm rh wall
+18  1.0 0.2 0.6 0.6 pm rh wall
+19  1.0 1.4 1.1 1.3 pm lh pendant
+20  0.9 0.4 0.6 1.4 pm lh shelf
+21  1.2 0.2 1.1 1.2 pm rh wall
+22  0.2 1.1 1.2 1.5 numbered pm lh ceiling
+23  -   -   -   -   bottom of pitch
+24  0.1 1.5 1.6 0.5 pm lh wall
+
+
+
+
+;02	3.2	0.0	-	0.0	PM foot of plumb
+
+*end polkadot
+

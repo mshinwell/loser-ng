@@ -1,0 +1,128 @@
+Jan 2015
+Arge dataset merge:
+32/links.svx says
+ "*export 27_5	; neu2013.0" in ARGE dataset
+ "*export 27_5	; forever.5" in ours.
+are both right?
+There is also an "Anschluss Schnellzug" exported in our dataset, biut not theirs.
+32/forever has p1-p22 in it, which is confusing given our 'p' convention for entrances.
+
+outstanding issues:
+named instead of numbered caves:
+loutotihoele, blaubeer, gassischacht etc
+*fix in each cave (but commented)
+File headers outside surveys
+All single-line exports
+
+Named caves should go to 
+
+Dec 2013
+p87 moved 46m between ARGE git dataset and cucc dataset. Check!
+flusstunnel was missing from CUCC dataset. added. 
+
+lengths:
+ 
+ 944 99680m CUCC: 59666m Arge: 40027m  All fixed (50m difference in 40)
+ 936 98786m CUCC: 59666m Arge: 39120m  142 missing, and Data missing in 40 
+ 880 97915m CUCC: 59175m Arge: 38741m 
+
+Arge in git repo 2012 39017m
+
+Comparing arge per-cave length spreadsheet finds that 40 and 41 are
+500 and 600m shorter in CUCC dataset than ARGE one. 41 is due to 142
+being separated out in our dataset. 40 is due to more missing
+flusstunnel data.
+
+
+alice-umgehang (bypass) file from 1998 exists in RobertW dataset,
+unconnected.
+
+
+March/April 2013 stuff
+BS17 data added.
+
+There are two 233s. How shall we fix this? 'blaubeer' has no entrance
+fix so not connected.
+
+144 merged. should me2 be better called meander2.svx?
+
+88 merged. sophy survey moved out of lerche1 
+
+merged all olly's date adittions back in merged set
+merged olaf's gps recalcs into merged set
+merged olly's changes in plateau area (2004_03 gps point replaced with
+surface survey). other surafce survey connection to p107 fixed.
+
+In 143/canyon.svx this line was added:
+; anpassung zu vermessung
+3_6_7  6_7  0  0  0
+to 2010 survey. Was this in fact done in 2011 or 2012? when the 
+; Messteam: Andreas Scheurer, Schnitzel, Lothar Midden
+; Zeichner: Lothar Midden
+*date 2011.08.07
+survey was done?
+
+If so it should have relevant metadata, or infact just be put down at
+the bottom with a note about where it refers to.
+You've commented it out in latest dataset. 
+"; wozu? auskommentiert 2011-11-19 (thomas)"
+
+where did 143/krone.svx go? Just superceded?
+
+
+41 merged: 
+germanrt split out of e41 survey
+
+
+115: b9 duplicate survey - keep or remove?
+ CUCC surveys all moved into cucc subdir. Old SU conversions replaced 
+ with newer ones. Akte surveys renamed. Stream split in surveys.
+
+Juttahoehle: 'jutta.svx'. This is 1984 data from Franz Lindenmayr. Has
+been under '40' since 2000. Now moved to Juttahoehle dir. Is it really
+a separate cave?
+
+We don't have entrance locations for: E08, E16, E18, Nachbarschacht
+(in 233 dir), gruenstein. Does data exist? 
+
+------------
+
+-- 233. Robert Seebacher's kataster spreadsheet has 233 = Betthupferle, and the length and depth match the svx file betthupferle.svx. I have thus renamed betthupferle.svx to 233/233.svx and copied the ent coords out of RS's file. But Blaubeerschacht also claims to be no. 233. I have put blaubeerschacht in but not linked it, as we don't have an entrance fix.
+
+-- Which points of Griesskogelschacht are entrances?
+
+-- File "neu.svx". What is the deal with this? Does the cave have a name or a number?
+ Example data file for 'new survey'?
+
+-- 41/entlink.svx -- what does this do?
+
+-- The 1987 extension in 87. This doesn't match anything in the ARGE data,
+whereas the original 1980 survey data looks like the ARGE data rotated
+somewhat. I have left this unlinked. Perhaps best to ask Robert Winkler.
+
+-- 87 location fix and the 115 connection. The entrance fix for 87 in ARGE's file is over 50m different from the entrance fix from our surface survey. Bizarrely, CUCC's ent fix gives a smaller misclosure than ARGE's when you tie into 115.
+
+-- 113. ARGE's data and CUCC's data cover different bits of the cave and don't really match very well.
+
+-- 145. I have combined CUCC's data and ARGE's for the upper level resurvey. Any comments?
+
+-- 41-144 connection. Is the line 
+*equate 144.144verb.58          41.entlueft.9_10
+correct? It appears in some of the ARGE index files and not others!
+
+113 cucc replaced by ARGE
+
+
+2012:
+why is e142 survey inside 41? 142 is separate cave. We have an
+antrance location for it. Is it in fact used in any of the surveys?
+
+152 (bananahoehle) is connected to 113 (sonnetrahlhoehle). but p152=Q3
+on stogersteig. No GPS or fixed point in ents file. Why not?
+
+136 cannot be processed on its own due to 136d not being connected.
+
+Need to get better info on errors with/without surface and GPS and old
+and new. And decide wht to do about caves that can't be processed
+alone. Put fixes into all cave files? How do we do updates then?
+

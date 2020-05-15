@@ -1,0 +1,119 @@
+;1998.03.02 AERW sort begin/end, add comments, refs, *calib clino
+
+; ====== links between surveys in this file: ======
+
+*equate keinzimmer.4 dunno.1
+
+*begin keinzimmer
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Kein Zimmer Rift - Continuation of Wheelchair Access"
+*date 1997.07.24 ; trip 1997-161-4 in logbook
+*team Insts Adam Cooper
+*team Notes Sam Lieberman
+*team Pics Sam Lieberman
+*team Tape Team Effort
+*instrument Set 2 (KB-14/360, PM5/360PC)
+; Calibration:	Same points as for 1996 at 161d
+;		34.5	-8.0
+;		216.5	+7.0
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; CM RH wall marked 'M'
+*export 4	; CM on LH wall above pitch
+*export 18	; CM LH wall
+*export 19	; LH wall corner of big passage
+*export 21	; CM Cobble in floor
+
+*calibrate clino -0.5
+
+; Tie in leg for confirmation of last years survey points:-
+; From CM marked 'M' to CM on wall
+;Tape	Comp	Clino
+;3.30m	270	-08
+; AERW 98.03.02 this seems to be the same leg as fogies2.4->3, reversed.
+; station 1 is point marked "M", which is the "from" of above, ie. stn 3
+
+;From  to  Tape Compass Clino
+2	1	6.25	238	+19
+2	3	2.90	235	-06
+4	3	4.82	184	-18
+2	5	13.50	141	-64
+5	6	1.67	-	down
+6	7	3.54	167	-63
+7	8	7.47	082	-58
+8	9	1.95	079	-25
+9	10	6.16	260	-89
+10	11	22.21	155	-72
+12	11	9.89	171	+14
+12	13	6.84	327	-06
+13	14	3.81	304	-15
+15	13	9.82	136	+04
+16	15	4.82	279	-13
+16	17	4.80	057	-01
+17	18	9.68	010	+06
+17	19	4.84	353	-31
+14	20	4.98	-	down
+19	21	7.40	217	-29
+21	20	5.50	183	-4
+;*LRUD
+;Stn.	Left	Right	Up	Down	Comment
+;1	0.5	0	0.5	2.5	CM RH wall marked 'M'
+;2	0	1	?	pitch	Spit LH wall above pitch
+;3	0.30	1.40	2.0	0.15	Rock nobble on floor back from pitch
+;4	0	1	?	7	CM on LH wall above pitch
+;5	5	1	4	3	Base of eyehole in roof of rift
+;6	1	1	5.5	0	Flake below deviation
+;7	0.80	0	1.0	5	CM on wall RH side
+;8	0.60	0	2.5	4	CM RH Wall
+;9	1	1.5	?	pitch	CM above pitch at squeeze
+;10	?	?	pitch	pitch	CM ledge on pitch 1st tape rebelay
+;11	3	0	pitch	1.5	CM wall base of pitch
+;12	1	0	0.50	1	CM RH wall
+;13	0	1.5	0.80	0.30	Pencil cross LH wall corner
+;14	1	1.5	1.5	5	CM top of pitch
+;15	0	2	0.5	0.5	CM LH wall between alcoves
+;16	0	1.5	0.60	1.80	CM LH wall corner
+;17	2.5	0	2	0.5	CM RH wall on balcony
+;18	0	1.5	4	1	CM LH wall
+;19	0	3	6	2	LH wall corner of big passage
+;20	3	1	6	0	Base of rope
+;21	1	3	3	0	CM Cobble in floor
+;*end LRUD
+
+*end keinzimmer
+
+*begin dunno
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Wheelchair Access Parallel rift, 'Dunno'"
+*date 1997.07.29 ; trip 1997-161-12 in logbook
+*team Insts Tony Rooke
+*team Notes Adam Cooper
+*team Pics Adam Cooper
+*team Tape Team Effort
+*instrument Set 2 (?)
+; Calibration:	Same points as for 1996 at 161d
+;		34	-8.0
+;		215.5	+8.0
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; CM on LH wall above pitch
+
+*calibrate clino 0
+
+1	2	7.69	35.5	+27.5
+2	3	1.34	020.5	-10.0
+
+;* begin LRUD
+;Stn	Left	Right	Up	Down
+;2	0.5	0	12	1
+;3	0	1	12	pitch
+;*end LRUD
+
+*end dunno
+

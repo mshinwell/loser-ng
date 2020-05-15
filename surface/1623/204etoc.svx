@@ -1,0 +1,37 @@
+*begin 204etoc
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "204e to 204c, via 204f"
+*date 2001.08.19
+*team Insts Julia Bradshaw
+*team Notes Anthony Day
+*team Pics Anthony Day
+*team Tape Both
+*instrument Compass #4 ; Clino #4 Tape: bar of soap
+; Calibration: Stone bridge: bot->top 148/+23.5 top->bot 323/-23
+; ref.:	2001#28
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 4 7
+
+;from	to	tape	compass	clino	; remarks
+2	1	5.03	274	-05.5
+2	3	11.61	036	+25.5
+4	3	6.43	156	+11.0
+3	5	19.08	020	+16.0
+6	5	19.61	227	-13.0
+6	7	17.70	064	+15.0
+
+;station details
+;name	ht	description
+;1	1.10	tag bolt at 204e
+;2	1.00
+;3	0.00
+;4	0.00	tag bolt at 204f
+;5	0.0
+;6	1.5
+;7	-	cairn near 204c
+
+*end 204etoc
+

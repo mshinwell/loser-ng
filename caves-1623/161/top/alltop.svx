@@ -1,0 +1,26 @@
+; Cave: Kaninchenhöhle
+; Surveys: all Entrance series
+
+; 161a survey starts from Entrance.0, which is what we are *exporting
+
+;===== 161a entrance area =====
+
+; EXPORTS: these are the only points to which other surveys should link
+; No prefix level here, so nothing to export from...
+;*export	Entrance.0		; red dot by CUCC paint "161" entrance
+;*export	Entrance.6		; way through towards Adrians
+;*export	Snot.24 		; to both LHR and RHR
+;*export	mike.10 		; from entrance into Dreamtime
+
+*include entrance
+
+*equate BoltConn1.o6	OldP2.6
+
+*include oldp2
+
+*equate Snot.1  	Entrance.6
+*equate Snot.24 	squeeze.18
+
+*include snot
+
+;===== end of entrance area =====

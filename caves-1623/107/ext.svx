@@ -1,0 +1,65 @@
+*begin ext
+*date 2012.08.26
+
+*export 10 20
+
+2	1	2.752	073	-17
+2	3	6.936	253	-26
+3	4	3.444	204	-29
+4	5	5.815	276	-23
+5	6	2.543	263	-57
+6	7	2.013	154	-43
+7	8	5.101	227	-04
+8	0	3.409	229	-05
+9	4	3.797	085	-54
+10	11	4.223	023	-14
+; 00 superseded by next survey
+;10	00	6.184	244	-49
+11	12	4.508	024	-09
+11	13	2.771	123	+84
+13	14	6.019	148	+45
+14	15	3.439	035	+40
+15	16	5.784	026	-18
+15	17	6.447	163	+40
+17	18	3.014	187	+08
+18	19	3.813	199	+01
+19	20	3.633	195	+04
+9	20	2.091	218	+48
+
+;from 20-107.png
+*data passage station left right up down
+1	0.7	0	0.4	0.5	;RHW against back of choke
+2	0.6	0	4.6	1.4	;NP RHW (up is to choke)
+3	0.8	0.5	9.3	1.8	;NP point RHW
+4	0	0.6	10.0	2.3	;NP LHW
+5	0.5	0	5.7	3.5	;NP RHW
+6	0.75	0	6.0	1.5	;NP RHW
+7	0	0.6	7.5	1.75	;NP LHW
+8	0.8	0.1	7.2	1.6	;NP RHW (down is 10 through rocks)
+0	0	0	0	0	;back wall of pitch, disto leg, no LRUD
+
+; FIXME this bit goes from the out side of the pendule down and right into the rift below - not sure this needs a tube
+;;1	0.7	0	0.4	0.5	;RHW against back of choke
+;9 NP
+;;4	0	0.6	10.0	2.3	;NP LHW
+
+*data passage station left right up down
+10	0.4	0.4	0.15	1.1	;NP roof pendant on ceiling nr phreatic pitch
+11	0.8	0	2.1	0.7	;NP RHW
+13	1.1	1.9	0.1	1.3	;NP roof pendant
+14	1.1	0	1.5	2.0	;NP roof pendant (down is to ledge)
+15	0.3	0.8	0.6	2.0	;NP roof pedant
+17	0.75	0.2	0.7	1.1	;NP roof pendant
+18	0.9	0	0.8	1.2	;NP nobble RHW
+19	0	1.0	0.4	2.1	;NP nobble LHW
+20	0.4	0.5	0.3	1.3	;station 1 from previous survey
+
+*data passage station left right up down
+11	0.8	0	2.1	0.7	;NP RHW
+12	0	0	0	0	;end of disto
+
+*data passage station left right up down
+15	0.3	0.8	0.6	2.0	;NP roof pedant
+16	0.4	0.5	0.2	0	;mud floor at back of tube
+
+*end ext

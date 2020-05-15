@@ -1,0 +1,46 @@
+*begin phat2
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Brians Phat Shaft"
+*date 2012.08.07 ; wrong date in notes
+*team Insts Wookey
+*team Notes Anthony Day
+*instrument Wookeys DistoX 
+; Calibration: 326.2 -23.4 5.91; 327.3 -23.7 5.91; 145.7 23.2; 145.1 23.2 
+; ref.:	2012#07
+
+; Resurvey of shaft - no survey drawn for this
+
+; ====== stations refindable to link to other surveys: ======
+*export 1 11
+
+*calibrate tape 	0; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+1	2	08.03	140.6	-40.8
+2	3	15.78	192.1	-77.9
+3	4	15.08	133.9	-71.1
+4	5	00.407	158.1	-33.3
+5	6	09.65	048.0	-82
+6	7	23.72	006.6	-87
+7	8	04.78	143.8	-69.1
+8	9	09.44	132.0	-80.1
+9	10	04.93	209.3	-28.7
+10	11	01.013	072.2	+30.3
+
+;*data passage station ignoreall
+;1	Stn BP under top of drippy arch
+;2	knobble near pitchhead
+;3	RP 1m from deviation bolt
+;4	RP rebelay bolt
+;5	nearby knobble
+;6	Hand on top of Y-hang knot
+;7	RP near Y-hang
+;8	RP 1m down and left of bolt above ledge
+;9	RP knobble on wall above snow-leopard
+;10	RP wall opposite 11
+;11	Point at pitchhead of snow leopard survey (pt catflap.16).
+
+*end phat2
+

@@ -1,0 +1,50 @@
+*begin numberofthebeast
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export 01
+*export 3x
+
+*title "Number of the Beast?"
+*date 2013.08.06
+*team Insts Chris Densham
+*team Notes Anthony Day
+*instrument Chris's DistoX
+
+
+;ref.: 2013#10
+
+;from	to	tape	compass	clino	remarks
+01	02	10.08	285	+56
+02	03	06.60	281	+66
+03	04	03.33	009.5	+09.5
+04	05	08.85	066.5	+30.5
+05	06	09.68	006.5	+50
+06	07	04.01	308.5	+33.5	; notes say clino +83.5 - +33.5 inferred from elevation
+07	08	11.13	337	+57
+08	09	20.16	301	+80
+09	10	28.14	280	+83
+10	11	03.35	263	+02
+11	12	01.02	233	-04.5
+12	13	03.15	269	-18
+3x	13	00.76	133	+53.5
+
+
+*data passage station left right up down ignoreall
+01	1.5	1.0	-	1.0	numbered PM boulder
+02	1.5	1.0	3.0	1.8	PM wall
+03	0.0	1.0	0.3	3.0	numbered PM wall
+04	0.5	2.0	10.0	0.5	PM boulder
+05	4.0	0.0	7.0	2.0	PM back wall
+06	3.0	1.3	11.0	-	PM boulder
+07	1.5	4.0	-	1.0	numbered PM boulder
+08	-	-	-	-	PM at rebelay
+09	-	-	-	-	PM above rebelay
+10	0.0	1.0	-	-	PM Y-hang
+11	1.0	0.0	-	1.5	PM wall
+12	0.0	0.8	-	1.0	PM wall
+13	0.8	0.0	1.2	2.5	PM by grovel
+		
+
+
+*end   numberofthebeast

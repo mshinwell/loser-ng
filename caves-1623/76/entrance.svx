@@ -1,0 +1,35 @@
+;Eislufthoehle 1623/76
+
+*begin entrance
+
+*title "Entrance Series"
+*date 2004.07.17
+*team Insts Olly Betts
+*team Notes Jenny Black
+*team Pics Jenny Black
+*team Tape Olly Betts
+*instrument Compass 3 ; Clino 3
+; notes in 2004 #1
+
+*export 1 5 6 8
+
+2 1 1.75 315 +28
+2 3 5.64 230.5  -18
+4 3 2.11 342 +31
+4 5 2.34 249 -09.5
+6 5 7.51 223 +49
+7 5 6.99 112 -51
+7 8 0.49 153 +02 ; 15? and ?02...
+
+*data passage station left right up down ignoreall
+;stn	l	r	u	d	description
+1	-	-	-	1.80	76a tag bolt
+2	0.9	1.4	-	0.7	top point of rock with (faded red) X
+3	1.00	0	0.8	1.2	point high on right wall below step
+4	0.3	0.8	1.25	0.6	olly's nose
+5	0	1.3	1.1	1.8	higher bolt of Y
+6	0.7	0.4	0.6	0.9	point on end of roof pendant
+;7	-	-	-	-	olly's eye
+;8	-	-	-	-	triangle for 76 (station p76)
+
+*end entrance

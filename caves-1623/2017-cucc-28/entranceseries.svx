@@ -1,0 +1,58 @@
+*begin entranceseries									 									
+; stations linked into other surveys (or likely to)
+*export A1 A7 
+
+; Cave: Fisch Gesicht Hoehle
+; Area in cave/QM: Entrance
+*title "Fisch Gesicht Hoehle"
+*date 2017.08.02
+*team Insts Nathan Walker
+*team Notes Mike Butcher
+*instrument Brendans Disto
+; Calibration: Probably Austria
+;*ref 2017# 	Does not have a physical survey wallet, suspect it was done paperless and lost except centerline
+    
+; if using a tape:	*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall								
+A2	A1	7.06	334.8	8.2
+A3	A2	5.98	035.3	11.0
+A4	A3	8.98	002.5	6.7
+A5	A4	11.04	012.1	7.8
+A6	A5	6.64	337.6	33.6
+A7	A6	4.56	83	33.8
+; A7	ASplay1	14.3	182.9	-58 surveyed properly next day
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down ignoreall
+
+A1	1.5	3.5	0	1.2
+A2	3.5	2.7	0.7	0.4
+A3	1.5	0.3	0.4	1.1
+A4	0.8	0.4	1.5	2.7
+A5	0.9	0	0.5	1.2
+A6	0	2.2	3.5	8.8
+A7	3	0	1.9	1.7	
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surveyname.5    -    description of QM ]
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+
+; Entrance is strongly drafting horizontal walking / stooping rift with some snow	
+
+*end entranceseries

@@ -1,0 +1,29 @@
+;Eislufthoehle 1623/76
+
+*begin waste
+
+*title "Waste of Time"
+*date 2006.08.10
+*team Insts Jenny Black
+*team Notes Olly Betts
+*team Disto Jenny Black
+*instrument Ours!
+; notes in 2006 #30
+
+*export 10
+
+2	1	4.673	-	down
+2	3	2.078	096	+01
+3	4	3.735	090	-01
+4	5	0.767	-	down
+6	5	26.125	-	down
+7	6	2.473	343	-34
+7	8	3.339	065	+67
+9	8	2.212	264	-17
+9	10	2.343	224	-05
+
+*data passage station left right up down ignoreall
+
+;2       1.15    0.1     -       1.55    j palm out from RHW
+
+*end waste

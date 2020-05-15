@@ -1,0 +1,37 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle 1623/204
+
+*begin allroads
+
+*title "All Roads Lead To Pleasure Dome"
+*date 2004.08.08 ; date the survey was done, YYYY-MM-DD
+*team Insts Martin Green
+*team Notes Brian Outram
+*team Tape both
+*instrument Compass set #2; Clino set #2
+
+; ref.:	2004#55
+; the #number is on the clear pocket containing the original notes.
+
+*export 1 7
+
+*calibrate tape +0.07	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+2     1 14.18 082    +25
+3     2 12.04 160    +25
+4     3 23.08 -      down
+5     4 4.48  178    -37
+6     5 16.27 -      down
+7     6 1.85  167    -45
+
+;stn	L	R	U	D	Desc
+;1      station 2 of pleasure dome survey
+;2      0       5.10 lots     1.8  cairn of rocks on lw
+;3	2.8     2.0  lots     0.8  top of pile of rocks at bottom of rope
+;4    cm rock on lip of ledge
+;5               cm on rock base of pitch
+;6                          know of y hang
+;7                                    rp #4 of treeumphant?
+*end allroads
+

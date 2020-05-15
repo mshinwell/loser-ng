@@ -1,0 +1,178 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schwabenschacht 1623/78
+
+*begin haupt
+*title "Hauptmeßzug"
+
+*export Eingang	; p78a
+*export 5	; allkaese_5_0 eisdom.A0
+*export 9	; hightway.I0
+*export 10	; schlepp.7_10 stgneu.E0 verloren.10_0
+*export 12	; eisscha.B0
+*export 19	; fossimea.C0 parallel.0
+*export 18	; schwadom.D0
+*export 25	; keller.K0
+*export 31	; parallel.11
+*export 33	; forsten.L14
+*export 34	; nasse.34
+*export 36	; eisdom.A4
+*export 63	; bartl.S0
+*export E5	; parallel.1_3 stgneu.E5
+
+; -1- Hauptmeßzug: Eingang (MP 0), Stuttgarter Halle (MP 9-11),
+;     Biwak (MP 21), Eisdom (35), Rundgang (Beginn MP 63)
+; Messteam: Frank Sarstedt, John Gebhard, Jürgen Bölzle, Klaus Gebhard
+; Zeichner: Jürgen Bölzle
+; Referenz: Messprotokolle
+*date 1991.07.18-1991.08.02
+
+*data normal from to length clino compass
+Eingang	1	13.00	-78	177
+1	2	6.00	-49	133
+2	3	6.80	-62	94
+3	4	6.30	-62	60
+4	5	15.00	-53	128
+5	6	15.45	-55	68
+6	7	24.67	-85	65
+7	8	19.00	-80	10
+8	9	8.35	-62	243
+9	10	6.30	9	333
+; 10-13 Ersetzt durch Nachvermessung 1996.07.13
+13	14	5.90	0	340
+14	15	6.70	9	66
+15	16	4.10	-23	72
+; 16-18 Ersetzt durch Nachvermessung 1996.07.13
+18	19	32.20	-53	92
+19	20	10.41	4	46
+20	21	15.04	-22	109
+20	22	11.90	-7	184
+22	23	17.27	-16	160
+23	24	5.45	11	192
+24	25	14.30	17	207
+25	26	15.77	4	223
+26	27	7.10	13	209
+27	28	7.15	-8	216
+28	29	15.80	2	223
+29	30	4.30	18	219
+30	31	6.85	-45	168
+31	32	10.52	-52	238
+32	33	10.33	-25	165
+33	34	7.45	-19	185
+
+34	35	8.37	19	258
+35	36	3.84	-26	183
+36	37	2.70	3	180
+37	38	2.82	0	121
+38	39	3.00	0	81
+39	40	4.37	0	133
+40	41	5.67	0	240
+41	42	1.50	0	280
+42	43	6.34	0	232
+43	44	9.91	0	217
+44	45	2.25	28	184
+45	46	13.55	-10	213
+46	46a	5.00	0	250
+46a	46b	5.00	0	320
+
+46	47	3.50	0	183
+47	48	3.65	22	110
+48	49	14.55	4	200
+49	50	6.25	-8	180
+50	51	5.00	9	153
+51	52	4.30	5	200
+52	53	10.50	-5	237
+53	54	9.73	-34	188
+
+35	35a	6.55	35	274
+
+54	55	4.00	-36	73
+55	56	7.55	-62	152
+56	57	5.45	0	108
+57	58	7.18	-23	193
+58	59	2.50	19	157
+59	60	6.35	57	174
+60	61	11.25	-8	180
+61	62	8.12	-9	33
+62	63	12.10	-16	76
+63	64	4.30	19	344
+
+; Rundgang
+64	65	11.30	-35	136
+65	66	3.15	8	97
+66	68	2.50	27	48
+68	69	2.10	-10	111
+69	70	6.60	0	84
+70	71	1.65	15	98
+71	72	4.03	0	71
+72	73	3.95	10	101
+73	74	5.34	-43	118
+74	75	4.17	-12	144
+75	76	8.05	-33	52
+76	77	7.98	-10	72
+77	78	13.93	15	1
+78	79	6.75	0	287
+79	80	6.65	39	253
+80	81	9.51	36	288
+81	82	11.04	43	247
+82	83	10.70	30	302
+83	84	5.80	-5	233
+84	85	11.90	-17	205
+85	64	9.40	-55	215
+
+; Raumwerte
+; keine Raumwerte vorhanden
+
+
+; -2- Nachvermessung im Hauptmesszug Vortour 1996
+; gelöscht, da redundant
+
+
+; -3- Nachvermessung im Hauptmesszug
+; Messteam: Andreas Jakob, Manfred Jakob, Robert Winkler
+; Zeichner: Robert Winkler
+; Referenz:
+;   TODO (Kontrollieren, vielleicht Meßbuch SMK 3)
+*date 1996.07.13
+
+*data NORMAL	from	to	length	clino	compass
+10	11	12.70	9	329
+11	12	8.52	-34	29
+12	12a	0.90	-13	92
+12a	13	6.30	-28	43
+
+16	5_2	1.0	90	0
+5_2	5_1	20.20	-55	110
+5_1	E5	9.99	-11	217
+E5	E6	10.00	12	25
+E6	18	9.25	-17	40
+
+; Raumwerte
+; keine Raumwerte vorhanden
+
+
+; -4- Rundzug Stuttgarter Halle
+;     (war in stuttg.svx -> gelöscht und Punkte umbenannt)
+; Messteam: Alexander Wöhrle, Dirk Riemann, Markus Scheuermann
+; Zeichner: Markus Scheuermann
+; Referenz:
+*date 1993.07.26
+
+*data normal from to length gradient bearing ignoreall
+*begin
+  *flags duplicate
+  13	13_1	6.53	-31	99
+  13_1	16	10.30	15	12
+*end
+
+13	stu_1	4.00	-13	160
+stu_1	stu_2	3.83	-24	129
+stu_2	stu_3	4.71	-39	136
+
+stu_2	stu_2_1	3.50	10	235
+stu_2_1	stu_2_2	3.30	-13	179
+
+; Raumwerte
+; keine Raumwerte
+
+
+*end haupt

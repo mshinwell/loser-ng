@@ -1,0 +1,48 @@
+;1998.06.02 AERW token addition of exports etc.
+
+*begin DotToDot
+
+; Locn:	Main plateau, WNW of Top Camp, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+; Cave:	Puffball & Icing Sugar Cave (1623/182)
+*title "Dot to Dot"
+*date 1991
+;*team ?
+; Ref.:	?
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	;
+*export 3	;
+*export 8	;
+*export 9	;
+*export 14	;
+*export 17	;
+*export 27	;
+
+1       2       11.41   182     -14.5
+3       2        5.85   006.5   -00.5
+4       3        1.93   279.5   +40
+5       4       18.15    -      Up; Not Down at all!
+5       6        4.40   142.5   +04
+7       6        3.32   314.5   -21
+7       8        3.85   113.5   -30.5
+9       8        0.89   090.5   +36
+10      9       16.55   281     +81
+10      11       7.10    -      Down
+12      11       1.50   005.5   +53
+13      12       5.36   034     +22.5
+13      14       9.35   189     -55.5   ;??????
+15      14       6.92   002.5   +66.5
+16      15       5.35   339.5   +78.5
+17      16       1.96   192.5   +28
+17      18       5.75    -      Down
+18      19       1.60   302.5   -23.5
+19      20      10.00   348.5   -65.5
+21      20       9.69   187.5   +73.5
+22      21       1.82   031.5   +37
+22      23       8.50    -      Down
+23      24       1.95   174     +01
+24      25       9.43   180     -03.5
+26      25       8.26   354     +08.5
+26      27       4.44   178     -13
+*end DotToDot

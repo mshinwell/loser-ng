@@ -1,0 +1,31 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+
+*begin greatoak2
+
+
+*title "Greatoak Pitch"
+*date 2006.07.20
+*team Insts Aaron Curtis
+*team Notes Tom Handford 
+*team Tape Mark Shinwell
+; Calibration: 150/+25 149/+22 151/+23 332/-22
+; ref.:	2006 #02
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+
+1	2	14.78	170	-34	
+
+*data passage station left right up down ignoreall
+
+1	-	-	-	-	red paint on boulder from previous survey
+2	-	-	-	1	
+
+*end greatoak2
+

@@ -1,0 +1,9 @@
+
+*include entlink
+*include 115
+*include fixedpts
+
+;*include 115rest
+
+;*equate	 115rest.Purgatory.0	115.115eing.54 
+;*equate	 115rest.bypass.35	115.115haupt.72.6 

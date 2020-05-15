@@ -1,0 +1,80 @@
+*begin gosserwager3
+
+; stations linked into other surveys (or likely to)
+*export 1 11
+
+; Cave: Balconhohle
+; Area in cave/QM: gosser wager rift
+*title "Gosser Wager 3"
+*date 2015.08.02
+*team Insts Brendan
+*team Notes Jacob Podesta
+*team Pics Jacob Podesta
+*team Tape Brendan
+*instrument Brendan's DistoX
+; Calibration: unknown
+*ref 2015#51
+
+; Centreline data
+*data normal from  to   tape      compass   clino
+1	2	1.86	166	-09
+2	3	1.95	159	-40	
+3	4	6.53	185	-07	
+4	5	4.35	204	-06	
+5	6	3.13	149	+11
+6	7	5.76	184	-28
+7	8	0.67	085	+36
+8	9	15.26	-	down
+;9	b	4.16	060	-12
+9	10	6.24	075	-40
+10	11	3.20	011	-21
+
+;-----------
+;recorded station details
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;(leave commented-out)
+;[Red] nail varnish markings
+;1	0.6	0.0	1.0	1.2	;	RP RHW closest to rope
+;2	0.3	0.2	0.5	4.5 ;	RP RHW
+;3	0.6	0.7	1.4	5.3	;	RP LHW
+;4	0.1	0.6	1.5	5.1	;	RP LHW
+;5	0.5	0.0	1.0	4.4	; 	RP RHW
+;6	0.0	0.6	0.5	5.1	;	RP LHW
+;7	0.9	0.8	3.8	0.9	;	RP pitch head
+;8	-	-	-	-	;	first bolt of pitch	
+;9	2.2	0.8	23.0	1.5 ;	RP RHW bottom  of pitch	
+;10	3.0	0.0	5.0	2.0	;	RP RHW bottom of climb	
+;11	0.5	0.0	1.0	1.0	;	RP RHW in rift, second pitch head
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	0.6	0.0	1.0	1.2	;	RP RHW closest to rope
+2	0.3	0.2	0.5	4.5 ;	RP RHW
+3	0.6	0.7	1.4	5.3	;	RP LHW
+4	0.1	0.6	1.5	5.1	;	RP LHW
+5	0.5	0.0	1.0	4.4	; 	RP RHW
+6	0.0	0.6	0.5	5.1	;	RP LHW
+7	0.9	0.8	3.8	0.9	;	RP pitch head
+8	-	-	-	-	;	first bolt of pitch	
+9	2.2	0.8	23.0	1.5 ;	RP RHW bottom  of pitch	
+10	3.0	0.0	5.0	2.0	;	RP RHW bottom of climb	
+11	0.5	0.0	1.0	1.0	;	RP RHW in rift, second pitch head
+
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1	A	gosserwager3.11  gosserwager4.1       20m+ pitch goes immediately off.
+
+;------------
+;Cave description
+
+; Rift passage heading South, with a 15m pitch at head. Clean walls, rubble floor. Leads to short down climb before more rift and another pitch series.
+
+
+*end gosserwager3

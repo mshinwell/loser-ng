@@ -1,0 +1,49 @@
+;1998.06.02 AERW added export, ref., comments
+;2005.05.28 DL added (spurious) export for 162b
+
+*equate 162.0	P162 ;P162 is centre of + of inscription '+ 88 CUCC 1623/162'
+*entrance P162
+
+*begin 162
+
+; Locn:	flank of Vorderer Schwarzmoos Kgl, Loser Augst-Eck, Totes Gebirge, Austria
+; small cave on eastern flank of vorderer schwarzmoos kgl
+*title "Schwa Schacht 1623/162"
+*date 1990.07.29
+*team Insts Dave Fearon
+*team Notes Wookey, 
+*instrument Compass 721899, Clino 726974
+; Calibration:	at 161a:	to cairn 16,16 - To Zinken:250
+;				cairns 16.3, -18
+
+; ref:	1990 survey book pp 69-71
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0	; centre of "+" of caption '+ 88 CUCC 1623/162' LHS of entrance
+*export 18	; Plausible guess at connection point from 162b
+
+*calibrate clino -0.85
+
+1	0	 4.07	253.5	+08.5 ; first two legs both outside cave
+2	1	 5.92	093.5	-04   ; 'cos writing has no view into cave !
+3	2	15.43	047.5	+10 
+3	4	 9.03	320	-08.5
+5	4	 6.43	149.5	+10
+6	5	 4.91	091.5	+10
+7	6	 6.50	128	-3.5
+8	7	 6.89	045	+10
+8	9	12.82	307	+35
+9	10	 4.54	232	+59
+11	10	 7.17	057	-22
+12	4	 9.90	012	-02
+12	13	 4.20	210	-32.5
+13	14	 6.00	-	DOWN
+15	14	 2.79	337	+33.5
+16	15	11.90	311	+60
+16	17	13.84	056.5	+05
+16	18	13.02	203.5	-07.5
+18	19	 5.23	223.5	+09.5
+19	20	 8.73	231.5	+08
+
+*end 162

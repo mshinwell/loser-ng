@@ -1,0 +1,23 @@
+*equate p2010-04 2010-04.TAG
+
+*begin 2010-04
+*export TAG
+
+*date 2016.07.03
+; Survey folder reference: 2016#08
+; see 2016 logbook for clean drawing
+
+;Notes: becka, Andrew Atkinson
+;others: george
+
+
+*entrance TAG
+
+*data normal from to tape	compass clino
+
+*flags not surface
+TAG	1	5	060	-50
+1	End	15	350	-30
+
+
+*end 2010-04

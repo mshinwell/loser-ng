@@ -1,0 +1,36 @@
+; Additional information (e.g. the presence of an entrance or an equate to
+; an entrance name in canonical form) provided manually on top of the GPX
+; data.
+
+*equate waypoints_aday-2018-07-11.2018_ad_01 1626.p2018-ad-01
+*entrance 1626.p2018-ad-01
+
+*equate waypoints_mshinwell-2018-07-11.2018ms02 1626.p2018-ms-02
+*entrance 1626.p2018-ms-02
+
+*equate waypoints_mshinwell-2018-07-11.2018ms03 1626.p2018-ms-03
+*entrance 1626.p2018-ms-03
+
+*equate waypoints_mshinwell-2018-07-11.2018ms03 1626.p2018-ms-04
+*entrance 1626.p2018-ms-04
+
+*equate waypoints_jtoft-2018-07-14.CUCC_2018_DM01 1626.p2018-dm-01
+*entrance 1626.p2018-dm-01
+
+*equate waypoints_jtoft-2018-07-14.CUCC2018_dm02 1626.p2018-dm-02
+*entrance 1626.p2018-dm-02
+
+*equate waypoints_jtoft-2018-07-14.CUCC2018_dm03 1626.p2018-dm-03
+*entrance 1626.p2018-dm-03
+
+*equate waypoints_jtoft-2018-07-14.CUCC2018_dm04 1626.p2018-dm-04
+*entrance 1626.p2018-dm-04
+
+*equate waypoints_jtoft-2018-07-14.CUCC2018_dm05 1626.p2018-dm-05
+*entrance 1626.p2018-dm-05
+
+*equate waypoints_jtoft-2018-07-14.CUCC2018_dm06 1626.p2018-dm-06
+*entrance 1626.p2018-dm-06
+
+*equate waypoints_jtoft-2018-07-14.CUCC2018_dm07 1626.p2018-dm-07
+*entrance 1626.p2018-dm-07

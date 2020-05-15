@@ -1,0 +1,96 @@
+*begin entrance
+
+*export a1 a5
+
+*date 2015.07.30
+
+*team "Mike Futrell" "Notes"
+*team "Andrea Futrell" "Instruments"
+
+*entrance a1
+
+*data normal from to tape compass clino
+;From       To          Distance    Compass     Clino      
+GPS         a1          15.66       243.5       5          
+a1          a2          3.3         123         -7.5       
+a2          a3          8.38        165.5       -5         
+a3          a4          12.02       145.5       4          
+a4          a5          3.37        148         -26        
+a5          a6          5.26        43          16         
+a6          a7          4.58        0           18         
+a7          a8          3.9         310         -11        
+a5          a9          12          135         12         
+a5          a10         9.54        250         -31        
+a10         a11         7.16        247.5       18         
+a11         a12         2.36        242         -20        
+a12         a13         5.1         258         6          
+a13         a14         3.35        254         12         
+a10         a15         2.82        232         -17        
+a15         a16         3.28        200         -22        
+a16         a17         4.03        231         -30        
+a17         a18         3.17        195         -12        
+a18         a19         4.28        192         1          
+a19         a20         5.57        251         -12        
+a20         a21         3.9         168         -8         
+a21         a22         2.27        181         24         
+a22         a23         2.92        148         7          
+a23         a24         2.48        203.5       -3.5       
+a24         a25         4.04        271         -19        
+a25         a26         0.69        0           -90        
+a26         a27         3.01        171.5       -4         
+a27         a28         0.74        85.5        -3         
+a28         a29         2.1         157         -14        
+a29         a30         4.39        0           -90        
+a30         a31         1.28        266         -35.5      
+a31         a32         3.82        232         -58        
+a32         a33         7.15        64          15         
+a33         a34         8.9         105         -63        
+
+*data passage station left right up down ignoreall
+GPS         0           0           0           0          
+a1          0           1           0.5         1          
+a2          1           0.5         1           0.3        
+a3          1           0.5         1           0.3        
+a4          0           2           3           2          
+a5          2           2           5           2          
+a6          1           2           0           0.5        
+a7          1.5         0           4           1.5        
+a8          0.5         0           0.3         0.2        
+
+*data passage station left right up down ignoreall
+a5          2           2           5           2          
+a9          0.5         0.5         0.5         0          
+
+*data passage station left right up down ignoreall
+a5          2           2           5           2          
+a10         2           2           3           0          
+a11         0.5         0           0.3         1          
+a12         0           0.5         0.5         1          
+a13         0.5         0           3           0.5        
+a14         0           1           3           0.5        
+
+*data passage station left right up down ignoreall
+a10         2           2           3           0          
+a15         0           1           0.3         0.2        
+a16         0.5         1           0           1          
+a17         0           0.5         1           0.6        
+a18         0           0.5         1           0.2        
+a19         0           1           0.7         0.7        
+a20         0.7         0           0.3         0.6        
+a21         0           0.6         1           0.2        
+a22         0.5         0           0.5         1          
+a23         0           1           1           1          
+a24         0           0.5         0.6         0.6        
+a25         0           0.5         0.4         0.6        
+a26         0.8         1           0.5         1          
+a27         0.4         0           0.2         0.6        
+a28         0.4         0           0.2         0.6        
+a29         1           1           1           5          
+a30         0           0.6         4           0.5        
+a31         0           0.5         0           2          
+a32         1           1           4           1          
+a33         1           1           0           2          
+a34         0.4         0.2         9           0.5        
+
+
+*end entrance

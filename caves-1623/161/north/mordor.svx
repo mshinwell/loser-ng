@@ -1,0 +1,105 @@
+*begin mordor
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Kaninchenhöhle, 1623/161
+*title "Mordor"
+*date 2011.08.13
+*team Insts "Adam Henry/Cat Hulse"
+*team Notes "Cat Hulse/Wookey"
+*team Pics "Wookey"
+*instrument "Wookey's DistoX"
+; Calibration: on 12th
+; ref.: 2011#44
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0 12 15 18 19 24 25 32 34 35
+
+0	1	4.91	009.8	-52.6
+1	2	5.85	263.2	-47.6
+2	3	8.46	198.2	+45.6
+2	4	3.86	040.9	+28.7
+4	5	5.20	023.7	+16.4
+5	6	3.77	079.6	+21.7
+2	7	3.35	066.0	-53.3
+8	7	2.37	086.1	+13.4
+9	8	3.35	052.2	+01.9
+10	9	4.89	147.7	+74.2
+11	10	7.69	096.5	+73.5
+11	12	13.43	355.9	-69.0
+12	13	6.25	279.2	+14.9
+12	14	6.68	100.5	+17.8
+14	15	17.36	088.3	+13.5
+15	16	16.38	087.3	+12.8
+16	17	5.18	047.3	-08.5
+17	18	9.23	005.2	+08.0
+18	19	4.96	037.3	-10.3
+19	20	3.55	060.3	-13.6
+20	21	8.29	032.0	+04.8
+21	22	10.53	141.5	+09.1
+22	23	7.28	067.8	+14.7
+23	24	3.91	144.6	+02.3
+24	25	11.85	038.1	-16.7
+26	27	11.27	024.7	+07.8
+27	15	5.01	324	-00.9
+26	28	3.19	082.3	+13.5
+28	29	15.73	189.7	-17.7
+29	30	3.24	176.7	-11.3
+30	31	5.74	252.2	-22.8
+31	32	15.13	319.1	-01.3
+33	31	17.24	325.6	+03.6
+33	34	10.48	235.5	-23.7
+34	35	22.60	159.5	-05.3
+
+*data passage station left right up down ignoreall
+0	0	5.2	2.0	0.5	station '7' LHW
+1	1.6	1.1	5.9	1.2	RP mid pitch
+2	1.3	0	5.7	1.6	RP wall 
+3	0.5	0.3	0.6	0.3	top of choked dig
+
+2	1.3	0	5.7	1.6	RP wall
+4	0.5	0	0.5	1.0	RP RHW
+5	0	1.1	0.7	0.5	RP LHW
+6	1.1	1.9	0.6	1.7	RP
+
+*data passage station left right up down ignoreall
+2	1.3	0	5.7	1.6	RP wall
+7	0	0.3	1.2	2.1	RP
+8	1.0	0.2	0.1	0.7	RP
+9	0.8	0.4	0.4	9.2 RP
+10	0	2.3	3.5	15.4	RP
+11	-	-	-	-	temporary (stop on pitch)
+12	1.5	0.8	10	1.6	RP '12' wall
+13	-	-	-	-	Not marked spur
+
+*data passage station left right up down ignoreall
+12	1.5	0.8	10	1.6	RP '12' wall
+14	1.3	1.2	7.4	0.8	
+15	0.9	1.4	0.4	1.9	RP '15' on ceiling
+16	1.4	1.5	2.0	2.1	RP on wall
+17	1.2	1.2	3.6	1.0	RP on wall
+18	3.8	1.5	0.8	2.2	RP on pillar
+19	0	1.5	3.9	1.4	RP '19' in pencil
+20	1.4	0.2	2.4	0.4	RP near floor
+21	0	3.4	2.2	1.0	RP on wall
+22	2.5	0.6	1.4	0.6	RP on RHW
+23	1.6	2.4	1.9	0.9	RP
+24	1.3	1.5	2.1	1.6	RP RHW '24' in pencil
+25	1.4	1.3	4.2	0.9	RP '25' in pencil
+
+*data passage station left right up down ignoreall
+15	0.9	1.4	0.4	1.9	RP '15' on ceiling
+27	0.5	2.5	1.1	1.5	RP on LHW
+26	3.7	0.4	1.4	1.4	RP on RHW
+28	1.9	3.1	0.7	1.3	RP pendant
+29	-	-	2.0	0.3	RP on pillar
+30	0.3	1.6	1.2	1.1	RP LHW
+31	3.6	3.1	1.0	1.5	RP on pendant
+32	1.2	1.8	1.1	1.4	RP '32' on face
+
+*data passage station left right up down ignoreall
+31	3.6	3.1	1.0	1.5	RP on pendant
+33	0	4.5	1.8	1.3	RP LHW
+34	4.6	0	1.8	1.0	RP '34' in pencil
+35	5.6	0	1.4	1.4	RP '35' in pencil
+*end mordor

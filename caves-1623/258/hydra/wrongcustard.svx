@@ -1,0 +1,69 @@
+*begin wrongcustard
+
+; stations linked into other surveys (or likely to)
+*export 01
+
+; Cave: 258
+; Area in cave/QM: Hydra 
+*title "The Wrong Custard"
+*date 2016.07.08
+*team Insts Luke Stangroom
+*team Notes Anthony Day
+*team Pics Anthony Day
+*team Dog Mark Dougherty
+*instrument Chris Densham's DistoX
+*ref 2016#21
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+01	02	11.59	006.7	-81.0
+02	03	04.66	064.5	-38.1
+03	04	09.61	040.6	-33.0
+04	05	09.33	045.6	-18.8
+05	06	09.50	058.6	-13.1
+06	07	03.87	150.3	-53.1
+07	08	01.94	100.0	-30.2
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Purple nail varnish markings
+;01	02.5	00.0	19.0	01.0	Station 9 from Becka's survey
+;02	00.5	01.5	24.9	01.9
+;03	01.6	00.2	03.4	01.1
+;04	01.9	00.2	04.5	01.6
+;05	01.5	02.2	05.5	01.4
+;06	01.5	01.1	02.3	01.6
+;07	00.6	00.9	01.8	00.6	Numbered
+;08	-	-	-	-	Point at back of sump
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+01	02.5	00.0	19.0	01.0
+02	00.5	01.5	24.9	01.9
+03	01.6	00.2	03.4	01.1
+04	01.9	00.2	04.5	01.6
+05	01.5	02.2	05.5	01.4
+06	01.5	01.1	02.3	01.6
+
+*data passage station left right up down 
+06	0.75	0.75	0.5	1.0	; Derived from survey sketch
+07	00.6	00.9	01.8	00.6
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    X    wrongcustard.01    -  Aven above 12m pitch
+
+;------------
+;Cave description
+; 12m pitch with aven above [QM-1 X] lands on a rubble floor. Descending between
+; the boulders leads to a wet muddy passage that chokes after 35m. Just before 
+; the end, a low hole on the right leads immediately to a small sump.
+
+*end wrongcustard

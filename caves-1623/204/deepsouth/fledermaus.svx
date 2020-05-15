@@ -1,0 +1,74 @@
+*begin fledermaus
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Fledermausschacht"
+*date 2000.08.10
+*team Insts Duncan Collis
+*team Notes Anthony Day
+*team Pics Anthony Day
+*team Tape both
+*instrument Compass #.... ; Clino #...., Tape ....  TSG Instruments
+; Calibration: at lower TC
+;     Top-bottom: 127; 128; 127; -07; -07;-07
+;     Bottom-top: 307; 307.5; 307;  +07; +07; +07
+; ref.: 2000#26
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+
+*calibrate tape +0.0    ; +ve if tape was too short, -ve if too long
+
+;from   to  tape    compass clino   ; remarks
+1   2   3.59    006 +13
+3   2   6.53    287 +45
+3   4   4.62    -   down
+4   5   1.24    042 +06
+5   6   5.19    -   down
+7   6   1.62    236 +02
+8   7   13.89   250 +87 ; compass from top
+8   9   23.27   -   down
+10  9   14.44   332 +81 ; joke compass
+11  10  4.24    247.5   +38
+12  11  20.48   231 +74
+13  12  2.84    255 +30
+14  13  23.34   170 +74
+
+
+;station details
+*data passage station left right up down ignoreall
+;name   L   R   U   D   E   description
+1  -   -   -   -   -   PM from 1999 survey
+2  -   -   -   -   -   PM flake pitch head
+;3  0.00(W) 3.00(E) 2.00(N) 1.50(S) -   PM wall near 1st bolt
+4  -   -   -   -   -   -   PM foot of plumb
+5  -   -   -   -   -   -   Higher of 2 PMs
+6  -   -   -   -   -   -   PM plumb foot near bolt
+7  -   -   -   -   -   -   PM opposite wall
+8  -   -   -   -   -   -   PM by rebelay bolt
+9  -   -   -   -   -   -   PM foot of plumb
+10 1.00    1.50    -    1.50    -   PM back wall
+11 1.50    0.10    -    -   -   PM pitch head
+12 -   -   -   1.50    -   PM wall foot of plumb
+13 -   -   -   -   -   rebelay bolt
+14 0.00    2.00    -    1.50 - PM foot of plumb, LRUD facing N
+
+;original notes
+;name   L   R   U   D   E   description
+;1  -   -   -   -   -   PM from 1999 survey
+;2  -   -   -   -   -   PM flake pitch head
+;3  0.00(W) 3.00(E) 2.00(N) 1.50(S) -   PM wall near 1st bolt
+;4  -   -   -   -   -   -   PM foot of plumb
+;5  -   -   -   -   -   -   Higher of 2 PMs
+;6  -   -   -   -   -   -   PM plumb foot near bolt
+;7  -   -   -   -   -   -   PM opposite wall
+;8  -   -   -   -   -   -   PM by rebelay bolt
+;9  -   -   -   -   -   -   PM foot of plumb
+;10 1.00    1.50    lots    1.50    -   PM back wall
+;11 1.50    0.10    lots    -   -   PM pitch head
+;12 -   -   -   1.50    -   PM wall foot of plumb
+;13 -   -   -   -   -   rebelay bolt
+;14 0.00    2.00    lots    1.50 - PM foot of plumb, LRUD facing N
+
+*end fledermaus

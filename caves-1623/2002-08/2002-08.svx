@@ -1,0 +1,50 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Capping required
+*equate p204f 2002-08.7
+*equate t2002-08 2002-08.4
+*equate p2002-08 2002-08.3
+*begin 2002-08
+
+*title "Capping Required"
+*date 2002.08.22
+*team Insts Frank Tully
+*team Notes Ben Shaw
+*team Tape both
+*instrument set 1
+
+; Calibration: none
+; ref.:	2002#23
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 7 4 3
+
+*calibrate tape +0.0
+
+*data normal from to compass clino tape
+
+;from	to	compass	clino      tape	; remarks
+onwards     1 220       45        10   ; estimated leg, -45 changed to +45 by frank from memory
+1     2       220       -12        3.20
+2     3       -         up         8.10
+*begin
+*flags surface
+4     3       335       -45        5.60
+4     5       -         up         1.00
+5     6       140       +20        4.90
+7     6       315       +52        5.50
+*end
+
+;station details
+;LRUDs in the direction of the leg where station first occurs
+;name	L	R	U	D	description
+;1    partly blocked pitch head CM
+;2    rope bottom 6 foot from floor
+;3    bolt
+;4    tag 2002-08
+;5    surface intermediate
+;6    head height
+;7    1623-204F
+
+*end 2002-08
+

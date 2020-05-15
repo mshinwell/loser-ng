@@ -1,0 +1,42 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle 1623/204   - Gaffered - Inconvenience Series
+
+*begin channelfive1
+
+*title "Channel Five 1"
+*date 2011.07.29
+*team Insts Holly Bradley
+*team Notes Becka Lawson
+*instrument Brand new CUCC comp and clino set
+
+;ref.:	2011 #18
+
+*export 1 5x
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+2	1	3.70	338	+11
+3	2	1.34	228	-23
+3	4	9.47	114	+51
+4	5	8.70	150	+71
+5	6	5.11	161	+42
+6	7	6.77	104	+41
+7	8	8.41	212	+62
+8	5x	1.33	246	+04
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+1	1.5	0.5	8	6	nose above wet pitch numbered
+2	1.3	0	3	1.6	r wall inlet
+3	0	1.4	3	1.5	left is also p; l wall chamber
+4	0	2	8	1.5	0.5m from rebelay spit
+5	0	1.5	6	1	down also 9m; l wall opposite pitch spit
+6	1.7	0	3	1.4	base of pitch, boulder on r wall
+7	0	1.7	5	1.3	by deviation spit
+8	2.5	2.5	2.2	1.5	just below pitch spit, in free space!
+5x	3.5	1	2	0	old station at pitch head, crapper
+
+*end channelfive1
+

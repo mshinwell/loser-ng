@@ -1,0 +1,36 @@
+*begin uppertube
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Upper Tube"
+*date 2004.07.20
+*team Insts Nial Peters
+*team Notes Becka Lawson
+*team Tape Earl Merson
+
+*instrument set 4
+
+; ref 2004 # 12
+
+; Calibration: stone bridge: 147/+23 146.5/+23 328/-24 328/-23
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 16
+
+*calibrate tape +0.07	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	comp	clino
+1	16	1.58	095	-18
+1	2	7.92	191	+55
+2	3	5.28	267.5	+5
+
+;station details
+;name	L	R	U	D	description
+;1	0.2	1.5	10	2	Pink on L wall
+;2	0	1	2	3	Pink 2 on LW
+;3	1	0	2.5	1.5	Pink 3 on RW
+;16 					16 from sirens2
+
+*end uppertube
+

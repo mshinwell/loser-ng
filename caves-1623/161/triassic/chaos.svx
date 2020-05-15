@@ -1,0 +1,101 @@
+;1998.03.26 AERW sort begin/end, add comments, refs, *calib clino
+
+; ====== links between surveys in this file: ======
+
+*equate chaos2.15	chaos.22
+
+*begin chaos
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Chaos - 'Bottomless Pit of Eternal Chaos' to 'Redemption' pitch"
+*team Insts Nick Procter
+*team Notes Anthony Day
+*team Pics Anthony Day
+*team Tape Both
+*date 1996.07.11 ; trip 1996-161-5 in logbook
+*instrument Set 2
+; Calibration:	at 161d entrance from cairn nr entrance to
+;		prominent rock edge lower down. This is different from
+;		calibration used for thighs survey of 5 July 1996
+;	Cairn-Rock 071 072 071,  -22 -22 -22
+;	Rock-Cairn 252 251 252,  +21 +21 +21
+;
+; Ref.:	1996 KH survey book pp 82-84 (only p 84 in AW's photocopy, so not
+; sure if there is LRUD data to be added...)
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; CM boulder point, edge of Minoan surprise pitch into Interview Blues
+*export 2	; 's9' CM rock, between the three Minoan Surprise pitches
+*export 10	; need 96KHp82 ...
+*export 22	; CM on SE wall by big rock, foot of Redemption
+
+;Tape is 20cm too short
+*calibrate tape +0.2
+*calibrate clino -0.5
+;
+;From	to	Tape	Compass	Clino 
+1	2	 9.48	208	+08
+2	3	 9.30	179	-23
+3	4	 2.17	057	+09
+5	4	10.13	263	+78
+5	6	 2.10	171	-73
+7	6	 7.93	291	+75
+*calibrate tape 0
+8	7	35.64	262	+86 ;true length measured for this leg
+*calibrate tape +0.2
+8	9	24.90	-	DOWN
+10	9	 8.61	031	-43
+10	11	 2.53	008	-34
+11	12	 2.70	286	-20
+13	12	 5.36	135	+23
+14	13	 1.52	119	-12
+15	14	 2.00	036	+13
+16	15	 2.10	103	+12
+17	16	 1.40	068	-07
+17	18	 1.53	285	-42
+19	18	 5.20	057	-36
+19	20	 2.41	161	-67
+20	21	27.47	-	DOWN
+21	22	 9.30	192	-29
+*end chaos
+
+*begin chaos2
+
+*title "chaos2"
+
+*team Insts Nick 
+*team Notes Brian
+*team Pics Brian
+*team Tape Matthew
+*date 1996.07.13 ; trip 1996-161-8 in logbook
+*instrument Set 2
+; Calibration:	None
+; Ref.:	1996 KH survey book pp 90-91
+;
+; ====== stations refindable to link to other surveys: ======
+
+*export 15	; CM on SE wall by big rock, foot of Redemption
+
+*calibrate tape +0.2
+
+;From	to	Tape	Compass	Clino 
+1	2	1.96	110	-10
+2	3	3.88	034	+20
+3	4	4.04	082	+19
+4	5	2.41	179	-03
+5	6	3.80	140	+26
+7	6	1.65	006	-30
+8	7	6.03	294	-33
+8	9	2.77	202	+32
+9	10	2.74	146	-02
+10	11	4.75	121	-24
+12	11	6.80	279	-11
+12	13	4.29	115	-01
+14	13	8.71	300	-26
+14	15	5.98	098	 00
+
+; LRUD data in book for all stations - yet to add (1996KHp90)
+
+*end chaos2 

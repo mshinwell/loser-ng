@@ -1,0 +1,34 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle 1623/204   - Gaffered - The Wares
+
+*begin whereoware5
+
+*title "Where O'Ware 5"
+*date 2011.07.25
+*team Insts Kathryn Hopkins
+*team Notes Edvin Deadman
+*team Tape Holly Bradley
+*instrument Compass Clino
+
+;ref.:	2011 #04
+
+; (survey of this appears to have been drawn back to front and connected to the wrong place)
+; (corrected because the notes say they should be at ? 07-56B)
+
+*export x
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+x	1	4.22	197	+29	
+1	2	4.74	132	+33
+
+
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+1	2.1	0	2	1	rp rhw
+2	1.2	0	8	0.6	rp rhw
+
+*end whereoware5
+

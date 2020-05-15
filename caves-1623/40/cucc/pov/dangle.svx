@@ -1,0 +1,81 @@
+;1999.08.06 W created for Angle of Dangle survey
+;2000.01.03 W fixed typo in tape for dangle.17-18
+
+*begin dangle
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Eishöhle, 1623/40
+*title "Angle of Dangle"
+*date 1999.08.04
+*team Insts Andy Atkinson
+*team Notes Wookey
+*team Pics Wookey
+*team Tape Simon Flower
+*instrument Compass #1 ; Clino #1, black open reel tape
+; Calibration:	TC:up: 269.5, +6.5
+;                down: 88.5, -6.75, 
+*ref	"1996-1999 Not-KH survey book pp 98-100"
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 6 19
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+*data normal from to tape compass clino
+
+1	2	7.78	337	-23.5
+3	2	8.89	069.5	+22.5
+3	4	6.49	291.5	-03
+5	4	18.23	-	down
+6	5	8.25	206	-60.5
+7	8	19.6	285.5	+46.5
+9	8	5.72	188.5	-24
+9	10	8.89	5.5	45.5
+9	11	7.95	317	44.5
+12	11	3.48	67.5	21
+13	12	4.93	105	-27
+13	14	1.79	285.5	+39
+14	15	7.03	277	+32.5
+16	15	5.47	270.5	-14
+17	16	1.60	- 	down
+17	18	2.09	187	+51.5 ;fixed typo in tape - was 8.09!
+19	18	7.36	100	-35.5
+7	20	9.69	083	-32.5
+6	20	4.57	266.5	+19.5
+
+; Raumwerte
+*data passage station left right up down
+1	1.5	0	1.8	0.6	;CM RH wall
+2	1.5	0	0	0.6	;Pencil 'X' RH wall
+3	1.3	1.5	8	0.5	;temporary cairn
+4	-	-	-	0.1	; bottom of rope
+5	-	-	-	-	; deviation crab
+6	-	-	-	-	; RS on previous survey
+; from here on survey in (for L/R)
+*data passage station right left up down
+6	-	-	-	-	; RS on previous survey
+20	1.5	0	0.6	1.1	; bolt on traverse
+
+*data passage station right left up down
+7	0.2	0.4	0	0	; CM
+20	1.5	0	0.6	1.1	; bolt on traverse
+
+*data passage station right left up down
+8	0.4	3.5	0.4	0.9	; roof nodule
+9	1.2	0.1	0.5	1.6	; CM RH wall
+10	-	-	-	-
+
+*data passage station right left up down
+9	1.2	0.1	0.5	1.6	; CM RH wall
+11	-	0.3	0.2	0.15	;point on 'roof'
+12	0.1	0.6	5.5	2.5	; CM LH wall
+13	0.5	0	5	0.6	; CM RH wall
+14	0.4	0	1.5	2	; nodule
+15	0.8	0.15	0	3.5	; edge of rift
+16	0.8	0.2	3.5	2	; CM
+17	-	-	-	-	; CM on edge
+18	0	1.2	6	1.6	; CM
+19	1.5	0.3	3	2	; CM on ledgy thing
+20	1.5	0	0.6	1.1	; bolt on traverse
+
+*end dangle

@@ -1,0 +1,44 @@
+*begin 204ato244
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "204a to 244 (2003-10)"
+*date 2003.08.06
+*team Insts Brian Outram
+*team Notes Earl Merson
+*team Pics <none>
+*team Tape Both
+
+; ref: 2003#30
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 9
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+*flags surface
+
+;from	to	tape	compass	clino	; remarks
+1	2	11.99	047	+14	
+3	2	29.67	235	-17
+4	3	10.09	224	-19.5
+4	5	9.44	014	-01
+6	5	7.70	273	-06
+6	7	11.48	146	+15
+8	7	6.84	329	-11
+8	9	4.70	192	-14.5
+
+
+;station details
+;name	description
+;1	Tag on rock (204a)
+;2	RP on rock slab
+;3	RP on rock slab
+;4	Tip of walking pole
+;5	Tip of walking pole
+;6	RP on rock slab
+;7	RP on rock slab
+;8	RP on rock slab
+;9	2003-10 bolt
+
+*end 204ato244

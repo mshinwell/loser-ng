@@ -1,0 +1,78 @@
+; *** DO NOT SAVE THIS FILE WITHOUT RENAMING IT !! ***
+;[Stuff in square brackets is example text to be replaced with real data, 
+; removing the square brackets]
+
+*begin ntdwyt
+
+; stations linked into other surveys (or likely to)
+*export 77
+
+; Cave:
+; Area in cave/QM: 
+*title "ntdwyt"
+*date 2018.08.08
+*team Insts Rachel Turnbull
+*team Notes Luke Stangroom
+;*team Pics [Brenda Bar]
+;*team Tape [Albert Anyone]
+*instrument Becka 1
+; Calibration: [Where, readings]
+*ref 2018#46
+; the #number is on the clear pocket containing the original notes
+
+; if using a tape:
+;*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+1 77 1.15 331.4 -8.8
+2 1 10.31 193.9 -9.4
+3 2 3.93 164.5 -40.6
+4 3 8.78 187.2 -13.4
+5 4 5.23 221.3 +29.4
+5 6 13.7 077.1 -51.3
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Pink nail varnish markings
+;1 3 0 5.5 2
+;2 0 2 3 32 
+;3 2 1 1.5 1.5
+;4 0 0.3 7 3
+;5 2 3 3 1
+;6 4 4 20 2
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1 3 0 5.5 2
+2 0 2 3 32 
+3 2 1 1.5 1.5
+4 0 0.3 7 3
+5 2 3 3 1
+*data passage station left right up down
+5 2 3 3 1
+6 4 4 20 2
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surit. Unpromising c lead from 28, leads to cracked mud floor crawling tunnel, similar to 'one direction', with promising a lead, down junction in clean washed rock, sketchy c6, requires rope, heads into rifty stuff.veyname.5    -    description of QM ]
+
+;------------
+;Cave description  ;(leave commented-out)
+;The passage towards the water collection is followed, beyond the turning for water. This leads to a pitch down (Indy Rally) or a traverse left. The traverse left goes ~10m, before muddy walking passage ~30m until it chokes.
+
+*end ntdwyt

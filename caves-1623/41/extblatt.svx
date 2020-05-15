@@ -1,0 +1,90 @@
+;> 1623/41
+
+
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Stellerweghöhle 1623/41
+; 2 Vermessungen
+
+
+
+*begin extblatt
+
+*export 1
+*export n2_1
+*export n5
+*export 8
+*export o
+*export 10
+*export l
+
+
+;-1-
+*title "Extrablatt, Canyon abgehend vom MP 1 von E41b"
+*date 1997.07.24
+; Messteam: Jörg Haussmann, Robert Eckardt, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 2
+
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+1       a       5.22    -39     73
+a       b       10.5    -35     86
+b       c       3.01    -22.5   122
+c       d       3.01    -33     72
+d       e       3.68    -44     133
+e       f       4.64    -22     72
+f       g       3.13    -13.5   132
+g       h       10.48   -35     72
+
+;Raumwerte
+*data passage station left right up down
+a	1	0	1	1.5
+b	0	0.6	0.5	2
+c	1	0	0.5	1
+d	0	0.6	0.5	2
+e	1	1.5	1.5	0.5
+f	0	1.5	1	0.5
+g	-	1	0	0.6
+h	-	-	-	-
+
+
+;-2-
+*date 1997.07
+; Messteam: Dominik Jauch, Markus Bölzle, Robert Winkler
+; Zeichner: Markus Bölzle
+; Referenz: Messbuch ?
+
+
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+*data normal from to length clino compass
+h       i       8.77    19.8    317.7
+i       j       1.40    -0.9    119.7
+j       k       4.29    -27     41.4
+k       l       3.05    -11.7   354.6
+l       m       3.91    9      0
+m       n       10.44   29.7    287.1
+n       n1      6.36    9.9     194.4
+n1      n2      15.97   30.6    278.1
+n2      n2_1    10.97   29.7    313.2
+
+n2      n3      9.08    36.9    267.3
+n3      n4      2.58    20.7    290.7
+n4      n5      10.45   13.5    205.2
+
+n       o       6.5     -2.7     10.8
+o       p       1.62    -4.5    352.8
+p       q       5.72    36      293.4
+q       r       6.06    34.2    241.2
+r       s       9.03    26.1    315.9
+s       t       7.94    28.8    290.7
+t       u       5.38    -8.1    37.8
+u       10      7.57    -5.4    23.4
+
+t       8       7.70    45.9    286.2
+
+;Raumwerte
+;Name	Links	Rechte	Oben	Unten		Beschreibung
+;keine Raumwerte
+
+*end extblatt

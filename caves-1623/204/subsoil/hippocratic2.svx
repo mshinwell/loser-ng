@@ -1,0 +1,73 @@
+;2005.08.01 W created for Hippocratic Oath survey
+;2005.09.14 W corrected leg 9->12 so attached in right place and right way round
+
+*begin hippocratic2
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	204
+*title "Hippocratic Oath"
+*date 2005.07.31
+*team Insts Andrew Atkinson
+*team Notes Wookey
+*team Pics Wookey
+*team Tape Becka Lawson
+*instrument Set 'A=1'
+; Chinese Becka tape 
+; Calibration: A->B 144.5, +23, B->A: 327, -23
+; Tape 12cm too long
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+
+*calibrate tape -0.12	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	9.31	153	+6.5
+3	2	15.62	355.5	+05
+3	4	11.61	148	-03
+5	4	9.59	039	+23
+6	5	8.32	251	-14.5
+6	7	8.52	054	+29
+8	7	13.55	280	-23
+8	9	5.15	089	-20
+10	9	3.89	159	-36
+10	11	8.09	002	+03
+12	9	7.13	343.5	-07 ;connected to 9 (11 in notes)
+13	9	2.02	304.5	+26
+13	14	5.78	077	-01
+15	14	12.59	337	+03
+9	16	8.57	190	+45
+17	16	9.28	031	-45 ;reversed in notes
+17	18	22.30	264	+46
+19	18	13.33	332.5	-10
+19	20	4.03	214	+26
+21	20	6.04	019	+49
+
+;station details
+;name	L	R	U	D	E	description
+;1	-	-	-	-	Big pendant marked '4'
+;2	0	1.5	1.5	1.6	RP LHW
+;3	1.1	0	2.2	0.6	RP RHW
+;4	0.5	4.5	5.5	1.6	RP LHW '4' in pencil
+;5	0.6	2	1.1	>8	RP '5'
+;6	0.5	0.3	3	1.8	RP tip of flake
+;7	0	1.1	2.0	2	RP LHW
+;8	0.6	1.3	0.4	5	RP LHW at roof
+;9	0.5	0.5	3	2.5	RP at junction
+;10	0.9	0.3	0.2	2.3	RP RH ceiling
+;11	1	0	1.3	0.5	RP RHW '11'
+;12	0.3	1.2	0.7	0.2	Loose rock (temp)
+;13	-	-	-	-	temp rock
+;14	0.2	1.4	0.7	3	RP LHW '14 in pencil
+;15	0.3	0.7	0.1	-	RP on ceiling
+;16	~1	~1	0	~3	RP in window
+;17	0.3	3	1.5	1.5	Fingerhole in rock (U/D perp to passage)
+;18	-	-	-	-	RP on 'wall'
+;19	-	8.5	>15	2	RP near wall '19' in pencil
+;20	1.2	0	0.3	2	RP RHW
+;21	0.3	0.6	3	1.2	Head of pitch RP LHW
+
+
+
+*end hippocratic2

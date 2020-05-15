@@ -1,0 +1,57 @@
+;===== Puerile Humour =====
+
+*include thighs
+
+*equate venereal.1	thighs.4
+*include venereal
+
+*equate natural.10	thighs.17
+*include natural
+;*include folly (data now included in Natural\svx)
+
+*equate deadbats.1	folly.9
+*include deadbats
+
+*equate loopy.1 	deadbats.32
+*equate moreloopy.9	deadbats.23
+*equate vadose.1	deadbats.33
+*include loopy
+
+;*include ftoloopy (data now included in loopy\shaftmin)
+;*include morlinks (data now included in loopy)
+;*include morloops (data now included in deadbats\loopy)
+
+*equate catwoman.1	deadbats.16
+*include catwoman
+
+*equate wheretwb.1	catwoman.17
+*include wheretwb
+
+*equate asturias.18	deadbats.28
+*include asturias
+
+*equate shafts1.3	wheretwb.3 
+*equate shafts2.4	catwoman.15
+*include catshfts
+
+*equate shaftmin.1	deadbats.29
+*include shaftmin ; data formerly in ftoloopy
+
+*equate pudding.21	shaftmin.6
+*include pudding
+
+*equate iceland1.1	pudding.13
+*include iceland
+
+*equate turkey.1		iceland3.4
+*include turkey
+
+*include 161g
+; The 161g survey wasn't connected to any survey stations in Iceland (!).
+; This point looks to be common to both iceland3 and 161g.161g_3 so it
+; will have to do. - Mark S.
+*equate iceland3.6 161g.161g_3.75
+
+*include 161h
+
+*equate 161h.1 161g.161g_3.82

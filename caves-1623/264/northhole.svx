@@ -1,0 +1,113 @@
+*begin northhole
+
+; stations linked into other surveys (or likely to)
+*export 1 7 11x 11 13 14 16
+
+; Cave: Balkonhoehle
+; Area in cave/QM: icecock.unnamed
+*title "The North Hole"
+*date 2015.07.24
+*team Insts Rob Rignall
+*team Notes Michael Sargent
+;*team Pics None
+*team Tape Sarah Parker
+*instrument SAP#2+Tape
+; Calibration: next day at the bivvy: 327/328/325 compass, -24,-24,-24 clino
+*ref 2015#14
+*calibrate tape +0.20	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+* data normal from  to   tape      compass   clino
+11x	1	7.10	049	-01
+1	2	3.70	062	-25
+2	3	2.26	003	-62
+3	4	2.64	113	-03
+4	5	1.56	045	+17
+3	6	2.27	010	-11
+6	7	2.89	265	-25
+7	8	4.68	307	+23
+6	9	6.19	349	+12
+9	10	4.56	000	+14
+10	11	3.60	351	+06
+11	12	3.42	134	-05
+12	13	4.90	163	+05
+13	14	2.17	218	-26
+14	15	1.38	295	-35
+15	9	1.12	287	-12
+11	16	5.12	008	+11
+
+;-----------
+;recorded station details
+;(RP=Red Point, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;(leave commented-out)
+;11x	0	0	0	0	;	eis koek aven station 11
+;1	2.5	6	35	0.6	;	flat rock near hole
+;2	0.7	0.2	0	1	;	RP entrance to hole
+;3	0	1	1.3	0.4	;	RP LHW knee height
+;4	0.5	0	0.4	0.5	;	RP RHW bottom of flake
+;5	0	0.4	0.4	0.2	;	RP LHW knoble
+;6	1.4	0	1.5	0.4	;	RP RHW
+;7	1	0.4	0	0.5	;	RP ceiling into ice pit
+;8	0	0.3	0.3	0.2	;	RP LHW grotty crawl
+;9	0	1.5	1.3	0.4	;	RP LHW next to crawl
+;10	0.3	0.1 0.3 0.8	;	RP RHW flake, chamber entrance
+;11	0	2.1	1.5	1.1	;	RP LHW chamber
+;12	0.2	0.4	0.8	0.2	;	RP LHW rock
+;13	0.2	0.4	0.4	0.3	;	RP LHW junction
+;14	0.5	0.4	0.8	0.2 ;	unmarked rock
+;15	0	0.5	0.5	0.3	;	RP LHW near #9
+;16	2.3	0	2.8	1.0	;	RP RHW
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+11x	0	0	0	0	;	eis koek aven station 11
+1	2.5	6	35	0.6	;	flat rock near hole
+2	0.7	0.2	0	1	;	RP entrance to hole
+3	0	1	1.3	0.4	;	RP LHW knee height
+6	1.4	0	1.5	0.4	;	RP RHW
+9	0	1.5	1.3	0.4	;	RP LHW next to crawl
+10	0.3	0.1 0.3 0.8	;	RP RHW flake, chamber entrance
+11	0	2.1	1.5	1.1	;	RP LHW chamber
+16	2.3	0	2.8	1.0	;	RP RHW
+*data passage station left right up down 
+3	0	1	1.3	0.4	;	RP LHW knee height
+4	0.5	0	0.4	0.5	;	RP RHW bottom of flake
+5	0	0.4	0.4	0.2	;	RP LHW knoble
+*data passage station left right up down 
+6	1.4	0	1.5	0.4	;	RP RHW
+7	1	0.4	0	0.5	;	RP ceiling into ice pit
+8	0	0.3	0.3	0.2	;	RP LHW grotty crawl
+*data passage station left right up down 
+11	0	2.1	1.5	1.1	;	RP LHW chamber
+12	0.2	0.4	0.8	0.2	;	RP LHW rock
+13	0.2	0.4	0.4	0.3	;	RP LHW junction
+14	0.5	0.4	0.8	0.2 ;	unmarked rock
+15	0	0.5	0.5	0.3	;	RP LHW near #9
+9	0	1.5	1.3	0.4	;	RP LHW next to crawl
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    D    northhole.8     -               small sandy crawl out of ice pit, needs digging
+;QM2    A    northhole.13    icecock2.6      small crawl to chamber with big stompy passage in 2 directions
+;QM3    B    northhole.16    northhole2.2    continuation of the passage, climbs up boulder slope to ceiling
+
+;------------
+;Cave description
+
+;(leave commented-out)
+;Small grotty hole in the floor of eis koek aven, which connects through to the nearby large hole down to a circular ice floor.
+
+
+*end northhole

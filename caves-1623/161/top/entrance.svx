@@ -1,0 +1,400 @@
+; KH entrance series surveys
+;1998.02.27 AERW sorted begin/end, added comments, invented BoltConn1
+;        to restore close to survey book numbering, added LRUDs
+
+; ====== links between surveys in this file: ======
+
+*equate Entrance.11 BoltConn1.3 mike.1
+*equate shopper.1   mike.2
+*equate squeeze.1   mike.12
+*equate Entrance.6  BoltConn1.6 Umleitng.8  Dungeon.1   ignore.1st.1
+
+*begin Entrance
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Entrance down to second pitch"
+*date 1989.08.07 ; trip 1989-161-2 in logbook
+*team Unknown Becka
+*team Unknown Chris
+*team Unknown Julian T
+*instrument comp: 721899, clino: 726974
+; ref.: 1989 survey book p 1,2
+
+*export 0   ; Red dot by CUCC paint number, cave entrance
+*export 6   ; lower bolt for start of traverse line, Automatic Doors
+*export 10  ; pitch head bolt of Drunk & stupid
+*export 11  ; 1st bolt of 3rd pitch traverse
+
+  0   1    4.66     266     -02.5
+  2   1   15.83      -      Up   ; Bearing down in file as 085 !?!
+  2   3   23.20      -      Down
+  4   3   12.19     030     -22
+  4   5    2.33     307     -28.5
+  6   5    4.45     104     +15.5
+  6   7   23.14     334     -05  ;clino down as -50,but -05 fits incredibly well !!!
+; AERW 1998.02.09 "-15" would be a more understandable blunder
+; 3   X    5.93     154.5   +27.5 ; these legs abandoned ?
+; X   Y   11.32     189.0   +11.
+; 6   Z    -        057.    -29.5 ; length never measured
+
+; station details:
+; 0 red dot by CUCC paint number, cave entrance
+; 1 bolt at Y-hang nearest to Brauning wall
+; 2 bolt at rebelay on 1st pitch
+; 3 small stone at base of 1st pitch
+; 4 rock halfway up chamber, LHS looking from 3
+; 5 rock, LHS again
+; 6 lower bolthole on 2nd pitch
+; 7 boulder over far end of large chamber (LH wall from 6) opposite RBS
+; X entrance to chamber leading to Rabbithole series
+; Y Far side of chamber just where RBS goes up ~0.7 off floor
+; Z Rock near old 2nd pitch bottom bolt
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Some more entrance area (on D&S pushing trip)"
+*date 1989.08.09 ; trip 1989-161-7 in logbook
+*team Unknown Becka
+*team Unknown Adam
+*team Unknown Chris
+*instrument compass 625078, clino 736380
+; ref.: 1989 survey book p 4
+
+  7   7a  17.76     154.5   -20
+  7b  7a  12.78     292     +41
+  7b  7c   8.32     263     +21
+
+; 7 carbided boulder as on 2 previous surveys
+; 7a    boulder on wall, close to new laddered 2nd pitch (but above it)
+; 7b    last bolt on traverse line from old ('88) 2nd pitch
+; 7c    bottom of new 2nd pitch, vertically down
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Big Sainsburys"
+*date 1989.08.08 ; trip 1989-161-4 in logbook
+*team Unknown Del
+*team Unknown Juliette Kelly
+
+*instrument comp 721899, clino:726974
+; ref.: 1989 survey book p 3
+
+  8   7    5.40     152.5   +09
+  8   9   17.25     315     -25
+  9  10    4.50     075     -25
+ 11   9   12.00     110     +12
+ 11  12    6.50     310       0
+
+; 7 left hand pointed boulder, on top of slope. carbide marked '7'
+; 8 furthest corner of 'man-sized' cube boulder (flat top) carbide marked
+; 9 small boulder 0.3 dia. on raised area to left of D&S
+;10 pitch head bolt of Drunk & stupid
+;11 1st bolt of 3rd pitch traverse
+;12 carbide mark on floor beneath traverse line
+
+*end Entrance
+
+*begin mike
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Draughting side passage at top of Checkout pitch"
+*date 1989.07.10 ; trip 1989-161-9 in 1989 logbook
+*team Unknown Mark D
+*team Unknown Julian T
+*team Unknown Penny
+*instrument Compass: 625078 Clino: 736380
+; ref.: 1989 survey book pp 9-11
+
+*export 1   ; 1st bolt of 3rd pitch traverse (over Death's Door)
+*export 2   ; carbide burn on far wall (ie. pitch side not cave entrance side)
+        ; of a small draughting tube opening out onto the 3rd pitch traverse
+*export 10  ; bolt of first rebelay on 3rd pitch (Checkout)
+*export 12  ; Big carbide burn over head of pitch 4
+
+   1   2       7.01     304     +06
+   3   2       3.13     355     +05.5
+   3   4       5.57     217     -09
+   5   4       8.17     032     -01
+   5   6       2.55     212     -10
+   7   6       4.48     009     -10
+   7   8       4.79     229     -00.5
+
+; station details
+; 1 First bolt of the traverse line at the top of the 3rd pitch
+;   over Death's Door down towards the Squeeze
+; 2 carbide burn on far wall (ie. the pitch side not the cave entrance side)
+;   of a small draughting tube opening out onto the 3rd pitch traverse
+; 3 scratched mark on opposite wall of draughting tube ent. (ie. cave ent. side)
+; 4-8   various carbide burns etc. down length of draughting passage (which chokes)
+
+; same day. folk and gear
+; ref.: 1989 survey book p 12
+
+  10   2       4.50     170     +39
+  10  11      17.00     094     -62
+  11  12       7.70     056     -39
+
+; 10    bolt of first rebelay on 3rd pitch
+; 11    Mark 1m left of 3rd rebelay, 3rd pitch
+; 12    Big carbide burn over head of pitch 4
+
+*end mike
+
+*begin shopper
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Alternative Shopper"
+*date 1989.08.13 ; (recorded date was 1989.07.12) trip 1989-161-18 in logbook
+*team Unknown Del
+*team Unknown Chris Densham
+*team Unknown Becka Lawson
+*instrument compass: 543693 Clino: 726974
+; ref.: 1989 survey book pages 13-15
+
+*export 1   ; carbide burn on far wall (ie. pitch side not cave entrance side)
+        ; of a small draughting tube opening out onto the 3rd pitch traverse
+
+
+   2   1       3.39     153.5   +30
+   2   3       1.72     273     -09.5
+   3   4       1.83     261     -32.5
+   5   4      24.90     153     +78
+   5   6       5.56     177     -31.5
+   7   6       1.56     297     +38
+   7   8       2.00     213     -30
+   9   8      11.94      -       Up
+   9  10       6.25     046     +12
+   9  11       3.45     190       0
+
+; station details
+; 1 station 2 of Mark D, Julian & Penny's Aug 10th trip
+; 2 carbide close to 1st rebelay bolt on 3rd pitch, ie. mike.10
+; AERW 1998.02.09 noted those stations aren't equated (which is correct)
+;   because "close" is not defined
+; 3 small stone on edge of large boulder which 2 is on
+; 4 *Right* on edge of large boulder, above pitch
+; 5 opposite wall of shaft to pitch wall, beside top of boulder
+; 6 on wall of shaft, around towards next pitch
+; 7 on boulder at top of rift into next pitch, before bolt
+; 8 bolt for pitch down rift
+; 9 vertically down from 8, on floor of chamber
+;10 RH wall (looking into cave), halfway up thin horizontal rift off chamber
+;11 Boulder in roof at entrance to pitch, opp. end of chamber to the narrow rift
+
+*end shopper
+
+*begin squeeze
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Down death's door, loose bowels, rift sans nom, becka falls"
+*date 1989.08.12 ; trip 1989-161-17 in logbook
+*team Notes Mark Dougherty
+*team Insts Jeremy Rodgers
+*team Tape Adam Cooper
+*instrument compass: 625078 clino: 736380
+; ref.: 1989 survey book pp 16-19
+
+*export 1   ; Big carbide burn over head of pitch 4
+*export 18  ; red spot, left hand wall, ~2m off floor nr. bottom of squeeze
+*export 14  ; fixed point (=red paint) top of squeeze pitch (no longer used
+        ; for connections - was relevant to OldP2 survey now superseded)
+
+; top of 4th pitch rh route
+   2    1    4.88   002     +65
+   2    3    6.81    -      Down
+   3    4    5.90   175     -44
+   5    4    8.28    -       Up
+   6    5    2.26   336     -08
+   6    7    5.07   034     -14
+   8    7    4.00    -       Up
+   8    9    2.00   240     +06
+  10    9    4.85   255     +70
+  10   11    1.50   074     -09
+  12   11    2.59    -       Up
+  12   13    1.19   120     +13
+  14   13    2.21   342     -10
+
+  14   15   8.66    -    Down
+  16   15   6.85  317   +09
+  16   17   5.85  314   -22
+  16   18   3.14  181   -05
+
+; station details
+; 1 carbide burn over 4th pitch
+; 2 left bolt of Y rebelay (as looking out over pitch)
+; 3 plumb to ledge from 2
+; 4 burn near deviation through narrow hole
+; 5 floor (plumb from 4)
+; 6 burn on wall in chamber (opposite from pitch)
+; 7 burn on wall at start of rift
+; 8 floor - plumb from 7
+; 9 burn on rock which overhangs hole
+;10 burn on wall of rift
+;11 burn on wall of rift
+;12 burn on wall of rift
+;13 burn on wall of rift
+;14 fixed point (=red paint) top of squeeze pitch
+;15 no details
+;16 no details
+;17 no details
+;18 fixed point (=red paint) below squeeze
+
+;(survey on 1989 p 18 continues in another file as 161.chunnel survey)
+
+*end squeeze
+
+*begin BoltConn1
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Bolt Connections (Wook'll fix it)"
+*date 1990.08.03 ; trip 1990-161-36 in 1990 logbook
+*team Notes Wookey
+*team Insts Tim ; (&Whinging)
+*instrument Compass 624931, Clino 736380
+; Calibration:  Comp: 16,13,14,14.5,(BZ)250.5 ; Clino: +17.5,+17,-17
+; ref.: 1990 survey book p 94
+
+*export 3   ; 1st bolt of 3rd pitch traverse
+*export 6   ; Lower pitchhead bolt of Automatic Doors
+*export o6  ; '88 2nd pitch head bolt
+
+*calibrate clino +0.125
+
+  6a   o6    9.50  023.5  -26
+  6a    6    8.61  271.5  -12
+  2     6   29.09  158.5   05
+  2     3   28.71  297.5  -20.5
+
+; station details
+; stn   L   R   U   D
+; o6    -   -   -   0   '88 2nd pitch head bolt
+; 6a    2   2   0.2 1.5 Roof of Basement
+; 6 0   4.5 3   1.2 Lower pitchhead bolt of Automatic Doors
+; 2 3   4   10  1.5 Rock in Big Sainsbury's
+; 3 1   5   billions    1.5 1st traverse line bolt LHwall
+
+*end BoltConn1
+
+*begin Umleitng
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Umleitung"
+;       Climb & pitch on RH side of Big Sainsburys (Opposite the Basement)
+*date 1990.07.24 ; inferred - trip 1990-161-25 in logbook
+*team Notes Matt
+*team Insts Peter
+*instrument Compass #624931 calib 12.4
+;       Clino #736380 calib +17
+; ref.: 1990 survey book pp 51-53
+
+*export 8   ; Lower pitchhead bolt of Automatic Doors
+*export 4   ; head of pitch (bolt ?) - nearest to QM 90-09
+
+  1  0   3.00  030    -60
+  2  1   5.42  034    -61
+  3  2   3.41  062    +07
+  3  4  17.27   -      Up
+  5  4   3.04  093    -13
+  5  6   7.79  235    -07
+  7  6   7.65  083    +15
+  7  8  15.35  184    +03 ; lower bolt of Automatic Doors pitch head.
+
+*end Umleitng
+
+*begin Dungeon
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Dungeon 1992 Survey"
+*date 1992.07.28 ; trip 1992-161-12 in logbook
+*team Notes Julian S
+*team Insts Sam
+*instrument Compass: 721899, Clino:   726974
+; Calibration:  bot-top 041.5, +08.5
+;       top-bot 220.5, -11
+;       bot-BZ  250.5, +02.5
+; ref.: 1992 survey book pp 114-117
+
+*export 1   ; Lower pitchhead bolt of Automatic Doors
+
+*calibrate clino -1.25
+
+1       2        4.04   333     -28
+2       3        5.64    -      Down
+3       4        8.73   093.5   -51
+5       4        3.32   292.5   +42
+5       6        6.62   059     -09
+6       7        1.67   018     -25.5
+7       8        1.62   119     +24
+8       9       13.05    -      Down
+
+10      9        3.82   276     -13
+10      11       3.31   207.5   +12.5
+11      12       4.84    -      Down
+13      12       4.87   272     +01.5
+13      14       8.23   209     -22.5
+13      15       9.05   243     -15
+16      13       4.70   246     -32
+16      17       4.45   002     -36.5
+16      18       2.51   032     -16
+
+*end dungeon
+
+*begin ignore
+
+*export 1st.1   ; Lower pitchhead bolt of Automatic Doors
+*equate 1st.9 2nd.10
+
+*begin 1st
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Ignore this bit (widdly bit at ledge on second pitch)"
+*date 1993.07.10 ; trip 1993-161-8 in logbook
+*team Notes Julian Shilton
+*team Tape Anthony Day
+*team Insts Hugh Adams
+*instrument Compass: #132004 (black rubber)
+*instrument Clino #726974
+; Calib: 1993 cairns. comp: 042,041.5 clino: +9.0,+9.0, -9.5, -9.5
+; ref.: 1993 survey book pp 140-141
+
+*export 1   ; Lower pitchhead bolt of Automatic Doors
+*export 9   ; carbide mark on rock at edge of huge drop
+
+*calibrate clino -0.25
+
+ 1      2       4.98    331     -39
+ 2      3       4.45    -       DOWN
+ 4      3       13.90   022     +9.5
+ 4      5       7.07    219     -14
+ 6      5       7.32    048     -33
+ 6      7       3.63    265     +45
+ 8      7       9.67    197     -16.5
+ 9      7       6.50    042     -08.5
+*end 1st
+
+*begin 2nd
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Ignore this bit (widdly bit at ledge on second pitch)"
+*date 1993.07.16 ; trip 1993-161-14 in logbook
+*team Notes Hugh Adams
+*team Tape Mike Pigram
+*team Insts Nick Procter
+*instrument Compass: ? , clino: ?
+; Calib: 1993 cairns. comp: 039,219 clino: +9,-10; Zinken 250, +03
+; ref.: 1993 survey book pp 152-154
+
+*export 10  ; carbide mark on rock at edge of pitch
+
+*calibrate clino -0.5
+
+2       1       5.55    142     -37
+1       3       3.60    193     -14
+1       4       15.12   -       UP
+5       4       5.52    165     -19
+5       6       4.83    325     02
+6       7       2.84    350     33
+6       8       4.60    175     -36
+8       9       16.24   -       UP
+10      9       2.51    120     -40
+
+*end 2nd
+*end ignore

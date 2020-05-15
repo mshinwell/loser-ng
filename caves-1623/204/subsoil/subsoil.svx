@@ -1,0 +1,73 @@
+*begin subsoil
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "subsoil"
+; Includes Subsoil Chamber, the loop round via the two canyons,
+; and Hippo Hollows as far as Chalk/Cheese pitch. -- DL
+*date 2004.07.25
+*team Insts Becka Lawson
+*team Notes Earl Merson
+*team Tape Earl Merson
+
+*instrument set 4
+
+; ref 2004 # 25
+
+; Calibration: stone bridge: 328/-23 147/+23
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 19 1 2 15 16 11 12 13
+
+
+*calibrate tape +0.40	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	comp	clino
+2	1	8.82	229	-26
+1	3	12.89	192	-28
+4	3	7.10	337	-34
+4	5	16.44	103	+29
+6	5	5.18	342	+06  ; page says 5/8, could be 5.8
+7	4	19.10	095	+39
+8	7	8.11	006	-05
+9	8	22.58	324	-05
+9	10	9.59	156	+07
+11	10	9.10	317	+01
+11	12	11.64	192	-05
+13	12	7.34	350	+02 ; reversed from notes
+14	7	13.99	129	-01
+15	14	11.69	233	+23
+16	15	9.09	299	-31
+16	17	6.02	103	+53
+18	17	5.32	307	-14
+3	18	4.29	351	-17
+1	19	13.02	201	+72
+
+
+
+;station details
+;name	L	R	U	D	description
+;1					RP 1 on rock in center of chamber
+;2	0.2	1.5	3	1.5	RP 2 on LH wall pendule
+;3					RP 3 on roof pendant at junction
+;4	4	2	3	1.5	RP on wall
+;5	2	1	4	2.5	RP on LH wall
+;6	1	1	4	1.5	RP on RH wall
+;7	6	4	3	2	RP on rock in chamber with inlet
+;8	0	2	5	1.7	RP on L wall
+;9	0	1.5	5	3	RP on rock on ledge LH roof
+;10	3	0.5	4	2.5	RP on roof pendant LH
+;11	2	1.5	4	2	RP + scratched 11 on RH corner
+;12	4	1	4	1	RP + pencil 12 on RH wall
+;13	1.5	0.5	1	0.8	RP on RH wall pencil 13 2m back from rift
+;14	0.5	5	0.5	2	RP 14 on LH wall
+;15	2	4	1.5	4	RP on rock in mud on left
+;16	4	3	2.5	1.5	RP on rock in middle of passage
+;17	2	1.5	1	0	RP on boulder at climb
+;18					RP on boulder in passage
+;19					RH pitch head bolt
+
+
+*end subsoil
+

@@ -1,0 +1,100 @@
+*begin therestherub
+
+; stations linked into other surveys (or likely to)
+*export 1
+*export 13
+
+; Cave: Tunnockschacht
+; Area in cave/QM: Song of the Earth
+*title "Aye, there's the rub"
+*date 2017.07.19
+*team Insts Katey Bender
+*team Notes Chris Densham
+*instrument CJD Disto calib Brendan to 0.2 deg
+*ref 2017#02
+
+; Centreline 	data
+*data normal from to length bearing gradient ignoreall
+2	1	16.7	218.7	-23.4	;1 = last sta of Paw Paw Passage
+3	2	6.7	218.3	-34.2
+3	4	15.55	046.4	+40.7	;spur to HL QMC
+3	5	11.53	070.5	+39.9	;spur to HL QMC
+2	6	6.40	339.6	+51.3	
+6	7	7.47	258.6	+44.1
+7	8	9.25	261	+59	;spur to blind alcove
+7	9	7.44	014.4	+52.4
+9	10	4.17	342.9	+9.3
+10	11	9.79	103.7	+42.2	;shot up body sized tube to HL & 2 pitches QMB, QMC
+10	12	9.34	271.5	+51
+12	13	4.69	011.1	+4.4	;Numbered PSS on LH wall
+; 13	14	4.39	022.7	-36.6	;this leg repeated in raisinhell survey as station 14 in this survey not numbered so this leg commented out by Becka on 27/07/17
+		
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Red nail varnish markings
+;1	2	0	4	1.5	;NP
+;2	2	0.6	5.4	2.5	;NP
+;3	1	0.8	2.8	1.6	;NP
+;4	0.3	0.3	0.5	0.5
+;5	0.3	0.3	2	1	
+;6	3	2	5.2	1.6	;NP
+;7	0	2.5	5	1.5	;NP
+;8	0.5	0.5	0.5	0.5	
+;9	3.8	0	2	3.5	;NP
+;10	3	1	2.2	0.8	;NP
+;11	-	-	-	-	;HL
+;12	1.7	2.5	6.4	3	;NP
+;13	0	2	6.5	2	;NP numbered LHW
+;14	-	-	-	-	;NP RHW
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	2	0	4	1.5	;NP
+2	2	0.6	5.4	2.5	;NP
+3	1	0.8	2.8	1.6	;NP
+4	0.3	0.3	0.5	0.5
+*data passage station left right up down 
+3	1	0.8	2.8	1.6	;NP
+5	0.3	0.3	2	1	
+*data passage station left right up down
+2	2	0.6	5.4	2.5	;NP
+6	3	2	5.2	1.6	;NP
+7	0	2.5	5	1.5	;NP
+8	0.5	0.5	0.5	0.5	
+*data passage station left right up down
+7	0	2.5	5	1.5	;NP	
+9	3.8	0	2	3.5	;NP
+10	3	1	2.2	0.8	;NP
+11	-	-	-	-	;HL
+*data passage station left right up down
+9	3.8	0	2	3.5	;NP
+10	3	1	2.2	0.8	;NP
+12	1.7	2.5	6.4	3	;NP
+13	0	2	6.5	2	;NP numbered LHW
+;14	-	-	-	-	;NP RHW *NOT* numbered
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    C       therestherub.4	-  degenerating drafting crawl at top of thrutch up RH rift for small & determined
+;QM2	C	therestherub.5	-  increasingly arduous thrutch up degenerating LH rift
+;QM3	B 	therestherub.11	-  pitch down from LH end of HL tube
+;QM4	A	therestherub.14	biglad.1  p20m
+;QM5    X   therestherub.12 -   AD: aven shown on plan
+
+;Description:
+;Climb up from Paw Paw Passage, p5. The passage consists of rising phreatic passage, trending North. 
+;The obvious continuation consists of two rifts, one going North, the other North East. Both become too 
+;tight/shit to continue. Before the two rifts split, an aven can be seen on the left hand side. An exposed
+;climb leads to a bolt/free climb ascending 25m in twisting, but roomy passage. Halfway up the climb, near 
+;station 11, a climb on the right hand side leads to a 20m pitch, QMB. At the top of the climb, a pitch drops 
+;down on the right hand side to Raisin Hell. The passage drafted inwards whilst explored.
+
+
+*end therestherub

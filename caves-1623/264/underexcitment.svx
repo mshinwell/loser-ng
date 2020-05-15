@@ -1,0 +1,66 @@
+*begin underexcitment
+
+; stations linked into other surveys (or likely to)
+*export dd
+
+; Cave: 264 (Balcony)
+; Area in cave/QM: pitch qm off crushed plumbs
+*title "Under Excitment"
+*date 2016.06.29
+*team Insts George
+*team Notes Frank Tuly
+*instrument Frank's DistoX2
+; Calibration: Calibrated bottom of Balcony entrance 29/6/16 error 0.25
+*ref 2016#03
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+b1	dd	5.85	259.7	-3.1
+b1	b2	5.18	131.3	-0.7
+b3	b2	5.51	304.4	76.8
+b3	b4	4.42	343.7	-44
+b4	b5	4.19	315.7	-68.1
+b5	b6	4.85	267.6	-31.9
+b7	b6	3.00	157.3	65
+b7	b8	16.6	104.8	-86.7
+b8	b9	2.12	87.7	-17.9
+b9	b10	8.22	28.2	-82.8	
+
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;rdw=red dot on wall
+;Station Left Right Up Down Description
+;'whore red' nail varnish dots, pencil numbers
+
+;b4	0.65	10	13.6	4.0	;rd on edge of hole down
+;b5	1.6	0	3.4	1	;rdw
+;b6	0	2	4	1.5	;rdw
+;b7	0	1	5	1.5	;rd on nose over pitch
+;b8	1	1	20	0	;rd on floor
+;b9	3	1	16	8	;rd on edge
+;b10	2	2	20	0	;point on floor centre of chamber.
+
+; passage tubes
+*data passage station left right up down ignoreall
+b4	0.65	0	13.6	4.0	;rd on edge of hole down
+b5	1.6	0	3.4	1	;rdw
+b6	0	2	4	1.5	;rdw
+b7	0	1	5	1.5	;rd on nose over pitch
+b8	1	1	20	0	;rd on floor
+b9	3	1	16	8	;rd on edge
+b10	2	2	20	0	;point on floor centre of chamber.
+
+
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+;gravel funnel hole in floor which everyone steps around, 
+;drops into passage with sloping gravel floor at angle of repose, 
+;gravel and rocks run down and off pitch, nice.
+;pitch just ends with a loveley flat gravel floor, water sinks in floor.
+
+
+*end underexcitment

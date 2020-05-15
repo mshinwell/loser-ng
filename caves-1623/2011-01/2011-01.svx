@@ -1,0 +1,12 @@
+*begin 2011-01
+*export bullet1.4
+*include bullet1
+*include bullet2
+*include bullet3
+*equate bullet1.13 bullet3.p13
+*equate bullet2.13 bullet3.p
+*end 2011-01
+
+*equate 2011-01.bullet1.4 p2011-01
+
+*entrance p2011-01

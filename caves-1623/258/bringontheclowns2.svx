@@ -1,0 +1,41 @@
+*begin BringOnTheClowns2
+*export y 3
+
+*title "Bring On The Clowns below Procrastination Pot in deeper level of Tunnocks"
+*date 2013.08.04
+*team Instruments Chris Densham
+*team Notes Becka Lawson
+*instrument Chris's distox calibrated in China
+
+; Calibration at Top Camp in the morning 
+;	5.99	326.6	-24.0	distox held upright
+;	5.99	327.3	-23.8	held right
+;	5.99	326.6	-23.4	upsidedown
+;	6.02	326.6	-23.9	left
+;	5.97	145.7	+22.3	up
+;	-	144.9	+22.4	right
+;	-	144.5	+22.4	upsidedown
+;	-	145.8	+22.3	left
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+;y	x	7.66	288	-57	duplicate leg from bringontheclowns
+y	1	9.53	081	+26.5
+2	1	3.23	296.5	-70
+3	2	3.00	238	+12
+3	4	6.07	208.5	-20
+4	6	10.55	063	-01.5
+
+*data passage station left right up down ignoreall
+
+;x	-	-	-	-	old numbered station at base of pitch
+y	1.4	0	5	1.7	by r bolt y hang, old station by top of y-hang
+1	0.3	1	5	10	near top of climb
+2	1.2	1	0	1.6	ceiling over pitch
+3	1.1	0	2	1.7	numbered before wall
+4	0.3	1.2	8	4	spike at corner
+6	1.2	0.5	6	0	unmarked pitch head with 2.5s drop
+
+*end BringOnTheClowns2

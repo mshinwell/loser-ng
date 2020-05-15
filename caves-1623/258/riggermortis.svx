@@ -1,0 +1,122 @@
+*begin riggermortis
+
+; stations linked into other surveys (or likely to)
+*export 8x 1x
+
+; Cave: 258
+; Area in cave/QM: The Beast, below String Theory
+*title "Rigger Mortis"
+*date 2017.08.06
+*team Insts Kristian Brook
+*team Notes Becka Lawson
+*team Paint	George Breley
+*instrument Becka's Distox2 No 1
+; Calibration: UK
+*ref 2017#43
+; the #number is on the clear pocket containing the original notes
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+8x	21	2.53	110	-10	CHECK CLINO ON DISTOX AS NEARLY RUBBED OFF
+21	22	9.03	097	-66
+22	23	0.76	098	-55
+23	24	4.73	088	-72
+24	25	18.97	079	-87.5
+; suspect 63m leg which probably hit bottom of pitch past Kristian's hand
+25	26	29.73	144	-87
+26	27	4.47	091	-63
+27	1x	8.84	139.5	+15
+27	28	33.30	295	-85
+27	29	1.55	352	-35
+29	30	3.77	070	+32
+31	1x	4.73	168	-03
+32	31	7.03	257	-41
+31	33	4.57	339	-24
+33	30	0.64	333	+34
+30	34	3.56	067	-31
+
+34	35	6.75	056	-12
+35	36	6.15	068	+16
+36	37	4.46	073	+19
+37	38	8.91	058	-17
+38	39	3.61	086	+30
+39	40	13.62	046	-30
+40	41	10.35	049	-35
+42	41	9.24	254	-04
+43	42	15.99	255	-35
+44	43	16.98	238	-37
+45	44	9.21	221	+19
+46	45	7.06	213	+06
+
+46	47	15.38	070	-50.5
+47	48	6.90	070.5	+01
+
+32	49	7.80	039	-24
+49	37	9.10	043	-19
+32	50	10.49	098	+34
+50	51	8.25	076	+30
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down ignoreall
+8x	0.8	0	1.4	0.9	old no.d stn
+21	0.1	1.2	2	1.4	lw window to pitch
+
+;LRUDs now NSEW up down
+22	3.4	4.7	6.4	3.2	45	0	lip of ledge before first rebelay
+24	0	3	5.5	0	50	40	1st rebelay
+25	0	2.7	4	0	70	60	2nd rebelay
+26	0	5	4.5	2	40	37	3rd rebelay
+
+;back to normal LRUDs
+1x	3	4	10	1.5	old no.d stn
+28	4	4	4	4	bottom pitch not marked
+29	0	1	1	0.5	lw hole
+30	0	1	0	0.7	lw tube
+31	8	8	4	0	shelf between routes?
+32	2	0	2	1.6	lw no.d scratched on
+33	-	-	-	-	near station 30
+34	0.5	0	0.2	1.5	rw
+
+35	0.1	0.4	5	1.7	lw past traverse
+36	0	0.5	1	0.5	lw
+37	1	1	0	2.5	ceiling no.d
+38	1.5	1.5	2	4	lw past 2nd stream
+39	1.2	0.8	0	2	ceiling
+40	0	1.7	4	2	lw rift
+41	1	3	6	6	lw ramp
+42	1.5	3	4	0.5	tip of boulder, no.d
+43	1.8	0.2	7	2	no.d rw flake
+44	1.8	0.3	0	3	ceiling top of pitch
+45	1.5	0.1	1.3	1.2	rw
+46	1.5	0.2	2	4	ceiling no.d
+
+47	1	2.5	5	1.5	lw below pitch
+48	0.5	0.5	1	1.5	base of drippy climb
+49	2	1	1.2	1.5	unmarked
+50	1.5	1.5	2	4	top of spike before stream
+51	0.5	0.5	0.5	0.5	
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1	C	riggermortis.48	-  Top of 4m climb
+;QM2	C	riggermortis.45	-  Pit in floor
+;QM3    C   riggermortis.44 -   Pit in floor
+;QM4    C   riggermortis.43 -   Hole in ceiling
+;QM5    B   riggermortis.40 -   Up ramps
+;QM6    C   riggermortis.38 -   Pit in floor
+;QM7    C   riggermortis.51 -   Continuation of passage
+;QM8    C   riggermortis.35 -   Wet 15m pitch
+;QM9    C   riggermortis.34 -   Wet 12m pitch
+;QM10   C   riggermortis.50 -   Wet inlet
+;QM11   X   riggermortis.22 -   45+m aven
+
+
+;------------
+;Cave description  ;(leave commented-out)
+;Down The Beast pitch and then into window partway down and along rift to end with various high ramps and streams
+;coming in on right
+
+*end riggermortis

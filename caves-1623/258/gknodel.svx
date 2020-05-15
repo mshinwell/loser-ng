@@ -1,0 +1,64 @@
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 258 "Tunnockschacht"
+
+*begin gknodel
+
+*export  17 7 12 8 6
+
+*title "258: Germknodel"
+*date 2006.08.10
+*team Insts Sandeep Mavadia
+*team Notes Dave Loeffler
+*instrument Silva good ones
+*instrument Tape yellow Tajima (the one that still has an end)
+
+; Calibration: stone bridge: up 143/+23, 154/+22, 151/+23; down 330/-23, 328/-23
+; (first two readings with compass held against bolt)
+*ref 2006#28
+
+; from  to  tape    comp    clino   remarks
+1   2   8.08    283 -63
+3   2   6.69    105 +50
+3   4   8.41    212 -07
+5   4   6.51    098 +33
+5   6   5.29    304 -22
+7   6   3.72    023 +15
+5   8   6.76    171 +07
+3   9   8.18    315 -25
+10  9   4.14    185 +26
+10  11  6.93    345 -25
+11  12  6.00    030 -06
+13  1   3.48    322 -32
+13  14  4.03    091 -23
+15  14  3.35    280 -16
+16  15  2.06    254 -22
+16  17  3.50    086 -04
+
+
+*data passage station left right up down ignoreall
+; these next left/rights reversed to keep up with survex's rather odd left/right handling
+16  1.2 0   1.5 0.7 RP LHW pillar
+15  0   0.2 0.7 0.3 RP RHW
+14  0.35    0   0.15    0.1 RP LHW
+13  1.3 0.1 -   0.7 RP cairn
+; normality resumes here
+1   1.60    0   4   0.8 RP RHW
+2   1.4 2.0 0.4 1.85    RP ceil
+3   3.0 0.3 3.0 0.5 RP cairn
+4   0.8 2.5 2.0 0.1 RP proj LHW
+5   1.0 1.7 1.5 0.4 RP rock
+6   2.5 0   1.0 0.4 RP #6 + cross, RHW at bend
+7   1.8 0.4 1.7 0.6 RP on bldr middle of passage
+
+*data passage station left right up down ignoreall
+5   -   -   -   -
+8   1.0 0.3 0.2 0.2 RP ceiling
+
+*data passage station left right up down ignoreall
+3   -   -   -   -   
+9   0.1 3.5 1.2 0.8 RP LHW
+10  0   3.5 4.0 0.8 RP LHW
+11  0.5 2.5 0   1.3 RP ceiling proj
+12  -   -   -   -   RP ceiling pendant with number #12
+
+*end gknodel

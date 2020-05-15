@@ -1,0 +1,60 @@
+*begin apfelstrudel
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 258 "Tunnockschacht"
+
+;ref.:  2007 #53
+
+*export x3 16 17 21 6
+
+*title "Apfel Strudel"
+*date 2007.08.06
+*team Insts Morven Beranek
+*team Notes Becka Lawson
+*team Tape Jon Telling
+
+*calibrate tape +0.10   ; +ve if tape was too short, -ve if too long
+
+;from   to  tape    compass clino   remarks
+x3  1   6.18    191 +15
+2   1   7.93    073 +23
+3   2   2.75    353 +09
+3   4   2.85    152 +28
+5   4   5.64    078 +36
+5   6   4.30    311 -27
+7   6   13.15   358 -16
+7   8   8.74    096 +52.5
+9   8   5.89    035 -01
+9   21  2.81    031 -09
+10  6   1.46    146 +08
+11  10  1.22    201 -24
+12  11  2.80    312 -55
+13  12  1.94    261 +09
+14  13  3.95    179 +37
+14  15  3.70    332 -36
+16  15  5.64    138 +24
+16  17  6.58    341 -31
+
+*data passage station left right up down ignoreall
+;stn    L   R   U   D   Desc
+x3  4   2   5   1.5 rp by rock pillar
+1   1.5 0.5 2   0.4 rp boulder
+2   1   0   1   1.5 rp r wall
+3   0   1.2 1.5 1.8 rp l wall
+4   0   1.1 0.5 1.5 rp l wall
+5   0   1.1 0.8 0.8 rp l wall
+6   1.5 2.5 0.5 1.5 rp ceiling
+7   5   0   7   2   rp r wall
+8   0   5   3   2   rp l wall
+9   1   2   1   1.2 rp ceiling
+21  0.5 3   3   3   rp previous survey, pendant numbered '21'
+10  0   0.75    0.4 1.2 rp l wall
+11  1.2 0.5 1.3 0.5 rp floor
+12  0.7 0.3 0.2 1.2 rp ceiling
+13  0.5 0   0.4 1.2 rp r wall
+14  1.3 1   1.5 1.5 rp numbered r wall
+15  2.5 2   2   1.75    rp pendant
+16  1   2   3   1   rp l pendant
+17  2   0   5   2   rp r wall numbered '17'
+
+*end apfelstrudel

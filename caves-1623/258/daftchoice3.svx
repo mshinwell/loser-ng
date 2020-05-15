@@ -1,0 +1,44 @@
+*begin daftchoice3
+
+; stations linked into other surveys (or likely to)
+*export 31x
+
+; Cave:Tunnocks
+; Area in cave/QM: Champagne on Ice
+*title "daftchoice3"
+*date 2016.07.05
+*team Insts Frank Tully 
+*team Notes Becka Lawson 
+*instrument  Beckas DistoX 2
+; Calibration: UK 
+*ref 2016#13
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+
+9	31x	5.148	245.1	-6.8
+10	9	9.109	148.3	-54.8
+11	10	4.934	93.1	+17.4
+11	12	3.633	317.6	-34.8
+13	10	2.662	139.1	+19.9
+13	14	3.781	40.1	-38.7
+
+*data passage station left right up down ignoreall
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+
+9	1.5	0.3	1.7	0.2	r wall
+10	0	0.3	0.2	0.2	end of dig, numbered
+11	0	0.4	1.4	1.1	l wall, numbered
+12	0.5	0	0	0.3	r wall, numbered
+
+*data passage station left right up down ignoreall
+10	0	0.3	0.2	0.2	end of dig, numbered
+13	0.3	0.3	0.2	1.6	pendant on edge of chamber
+14	1.5	0.7	3	4	numbered on l wall, numbered
+
+
+*end daftchoice3

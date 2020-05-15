@@ -1,0 +1,4 @@
+; Additional information (e.g. the presence of an entrance or an equate to
+; an entrance name in canonical form) provided manually on top of the GPX
+; data.
+

@@ -1,0 +1,64 @@
+
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau
+; Area: Hohes Augst Eck
+; Cave:	Shark Tooth Cave
+
+*equate p2012-dd-08 2012-dd-08.0
+
+*begin 2012-dd-08
+
+*title "Shark Tooth Cave"
+*date 2018.07.11
+*team Notes Chris Densham
+*team Insts Anthony Day
+*instrument "Sighting compass, distances estimated by pacing, inclination estimated"
+; Grade 2 at best
+
+; Survey folder reference - the year#number is on the clear pocket containing
+; the original notes.
+*ref 2018#02
+
+;exported stations
+*export 0
+*entrance 0
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+;from	to	tape	compass	clino	remarks
+0	1	20	260	-5
+1	2	9	300	+10
+2	3	3	260	+30
+3	4	5	240	-30
+4	5	6	240	-20
+6	5	2	050	0
+
+*data passage station left right up down
+;Station data as recorded
+;stn	L	R	U	D	Desc
+;surveying in
+0	3	0	0.5	1.5
+1	2.5	2.5	5	0
+2	2	1	2.5	0
+3	5	0.3	2.5	0
+4	2	2	6	1.5
+5	1	1	5	0
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+; Digging leads only
+
+;------------
+;Cave description ;(leave commented-out)
+;freeform text describing this section of the cave
+
+
+*end 2012-dd-08
+

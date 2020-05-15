@@ -1,0 +1,53 @@
+*begin oatso
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Kaninchenhöhle, 1623/161 (136)
+*title "Footlights extension"
+*date 1999.07.23
+*team Insts Brian Outram
+*team Notes Julian Haines
+*team Pics Julian Haines
+*team Tape Brian Outram
+*instrument Compass # ; Clino # -- dunno, + don't care 
+; Calibration:	
+; ref.:	1999 KH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 3 14
+
+*calibrate tape -0.15	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	14.35	045	-02
+2	3	17.45	103	+33
+4	3	17.28	240	-35
+4	5	24.8	051	+25
+6	5	3.80	204	+06
+6	7	4.68	073	-05
+8	7	9.30	223	+07
+8	9	7.40	003	+19
+10	9	4.30	-	down
+11	10	1.98	267	-18
+12	11	3.15	260	+12
+13	12	12.10	-	down
+13	14	0.36	130	+29
+
+;station details
+;name	L	R	U	D	E	description
+;1	1.5	3	3	1	-	CM on corner of rock by pitch head
+;2	15	0	5	1	-	CM on knobble on wall
+;3	2.5	2.5	8	1	-	CM on knobble near pitch head
+;4	1.5	4.5	8	0.5	-	CM on knobble, LH top climb
+;5	1.5	1	4	5	-	CM on RH wall of rift on knobble
+;6	0	0.5	7	1	-	CM on LH wall
+;7	1	0	6	1.5	-	CM on RH wall
+;8	4	0.3	2	0.5	-	Top pt on boulder in middle of passage
+;9	0	1	-	1	-	CM at foot of pitch on wall
+;10	0	3.5	7	-	-	CM head of pitch below thread
+;11	1	0.1	1	0.3	-	CM RH wall, top pt of boulder
+;12	4	2	-	2	-	CM on wall above foot of pitch
+;13	-	-	-	-	-	Pitch head bolt, RH looking down pitch
+;14	-	-	-	-	-	Pitch head bolt, LH looking down pitch
+
+*end oatso

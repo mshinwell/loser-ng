@@ -1,0 +1,56 @@
+;1998.04.04 AERW tidied, added comments, refs, exports
+
+*begin Surf161
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Caves:	1623/161, 1623/147, 1623/145
+*title "Surface Survey connecting 161 (Kaninchenhöhle) and 147 Entrances"
+; 		did say "to 145 (Wolfhöhle)", but this appears to be untrue
+*date 1988
+*team (comments in Kansurf.svx suggest it was by Jane Brown and Jenny Moss)
+*instrument unrecorded
+; Calibration:	none
+
+; jp1 -> jp1_ to avoid potential clash (?) - Olly
+; AERW 1998.01.23 - subsumed that point inside Surf161 - prefix avoids clash
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0	; spit for Laser point 0 on ridge/knoll above 161
+*export 10	; 161a entrance, unclear if this is same as used in later years
+*export 19	; VD1
+*export 27	; p147 (red spot, not tag placed in 1999)
+
+;*calibrate magdev 00
+;*data normal bcra_5 from to length bearing gradient
+
+0       jp1      1.40     -      Up
+jp1     1       27.33   201     -13
+2       1       20.60   359     +11
+2       3       28.31   143     -05
+4       3       17.38   005     +11
+4       5       29.56   125.5   +12.5
+6       5       27.50   346     +07
+6       7       21.35   154     -09
+8       7       14.41   333     +09
+8       9       28.60   128     -22
+9       10       7.65   098     -09
+11      10      27.92   038     +01
+11      12      29.37   240     -16
+13      12      16.47   025     +28
+13      14      27.90   248     -02
+15      14      28.76   019     +06
+15      16      28.70   214.5   -05.5
+17      16      29.20   034      00
+17      18       1.28   153     +25
+18      19       1.40   -       Down
+17      20      29.20   203     +02.5
+21      20      28.23   355     -07.5
+21      22      13.84   214     +20
+23      22      19.25   063     -11
+23      24      28.78   226     +07.5
+25      24      14.95   089     -20
+25      26      17.66   306     -21
+26      27       5.32   198     +13.5 ; 27 is an Olly invented number
+
+*end Surf161

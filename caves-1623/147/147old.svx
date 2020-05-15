@@ -1,0 +1,45 @@
+;1998.06.02 AERW added export, comments
+
+*begin 147
+
+*begin old
+; Locn:	flank of Vorderer Schwarzmoos Kgl, Loser Augst-Eck, Totes Gebirge, Austria
+; Cave:	 1623/147, Discovered '84 but not marked, rediscovered & surveyed '88
+*title "whole cave"
+*date 1988.08.30
+*team Tina & Jenny
+*instrument 
+; Calibration:	almost certainly crap 'cos "used a metal torch" (1988 log)
+; Ref.:	
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0	; the entrance (p147 rather than t147)
+
+;instrument compass 4
+;readings grade 5
+;survey ordered from to
+;readings ordered length bearing gradient
+    0      1        0.98     158     -44.00
+    2      1        2.45     354      14.00
+    2      3        3.30     324     -77.00
+    4      3        4.29       2      46.00
+    5      3        7.11     354      -6.00
+    5      6        1.60     210      -3.00
+    6      7       11.30       -       Down
+    8      7        3.90     143.5   -45.00
+    9      8        4.89     191      -4.00
+    8      10       2.83     331     -42.00
+    11     10       4.41     172      33.00
+    11     12b      4.92       -       Down
+    12b    12e      1.30     312       0.00
+    12e    13b      6.20       -       Down
+    13b    13       1.25       -        Up
+    13     14       2.15     306     -36.00
+    14     15       2.02     301     -29.00
+    16     15       7.65     349      80.00
+    17     15      16.26     350      75.00
+    
+*end old
+
+*end 147

@@ -1,0 +1,58 @@
+*begin highhopes2
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "High Hopes 2"
+*date 2005.07.27
+*team Insts Nial Peters
+*team Notes Becka Lawson
+*team Pics Becka Lawson and Nial Peters
+*team Tape Tony Rooke
+*instrument TSG comp/clino Compass #set 4 ; Clino #set 4, Tape New one from China
+; Calibration: at stone bridge 147 +22, 332 and 330 -22
+; ref.:	2005 #03
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 4 11
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	3.74	029	-09	
+2	3	2.90	322	+41	
+4	3	3.38	196	+11	
+4	5	3.11	326	+59	
+6	5	2.85	162	-42	
+7	6	1.97	114	-65	
+8	7	3.30	127	-49	
+8	9	6.50	342	+13
+10	9	2.36	081	-08
+11	10	3.17	152	-59	
+12	4	5.61	129	+61	
+1	13	1.91	-	up	;inverted compared to notes	
+14	13	3.59	148	-06
+14	15	1.11	292	+03
+16	15	6.61	038	-48
+17	16	3.13	239	-35	
+
+;station details
+;name	L	R	U	D	E	description
+;1	0.3	1.5	2	1		rp lhs end of previous high hopes survey
+;2	0.6	0	0.5	1.5		rp rhw
+;3	0.2	0.8	0	0.5		rp lhw
+;4	1	0.2	2	1.8		rp top of rock on right of passage
+;5	1	0.2	0.3	0.3		rp on roof spike on right hand side
+;6	0.4	0.4	0	1.5		rp on lhs roof
+;7	0	1.2	0.5	1.5		rp on right wall
+;8	0.3	0.8	1.5	1.2		rp on left wall
+;9	1	1	0	1.1		rp on roof
+;10	1.5	1	1.2	0.6		rp on roof of column mid passage
+;11	0	1.2	3	1.8		rp on left wall
+;12						rp on right wall
+;13	1	1	0.5	2		rp on roof
+;14	0	1	0.2	0.8		rp on lhw
+;15	0.3	0	2.5	0.2		rp on rhw
+;16	0.4	0.3	0.4	1		rp on top of arch
+;17						rp on roof
+*end highhopes2

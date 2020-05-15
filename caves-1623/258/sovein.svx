@@ -1,0 +1,62 @@
+*begin sovein
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export 6x 8 12 17
+
+*title "So Vein"
+*date 2010.08.08
+*team Insts Chris Densham
+*team Notes Becka and Chris Smith
+*instrument Wookey Disto-X plus Set 6 for a few legs
+
+; calibrate - maybe see notes in stringtheory.svx
+
+;ref.: 2010#07
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+6x	1	6.69	015	+32.5	
+1	2	6.42	026	-03.4	; Set 6 readings 6.40 (tape); 025 (comp); -03.5 (clino)	
+2	3	1.47	006	-32.0	
+3	4	8.94	023	+17.0	
+4	5	3.47	021	+30.0	
+5	6	3.59	051	+20.5	
+6	7	7.33	028.5	+13.0	
+7	8	3.18	339	+08.0	
+8	9	2.21	012.5	-14.0
+9	10	3.29	287	-07.0	
+10	11	10.85	359	+03.5	
+11	12	5.85	357.5	+04.5	
+12	13	4.17	035.5	+15.0	
+13	14	12.73	355.5	+08.0	
+14	15	6.87	342	+04.0	
+15	16	11.69	003	+12.4	
+16	17	15.38	326	-04.0	
+; 17	18	5.79	330	-04.0	repeated in sovein2
+				
+*data passage station left right up down ignoreall
+
+6x	3	2	1.5	2
+1	0.3	1	2	0.5
+2	0.5	0.5	0.4	1.7
+3	1.3	1.6	1	0.6
+4	1.5	0.4	1.6	0.5
+5	1.2	1.3	2.3	1.3
+6	2	0.7	9	0.4
+7	1.8	0.3	4	1.6
+8	0	2.3	0.5	1.6
+9	1.5	0.5	1.5	1
+10	1.5	2.3	0.4	1
+11	1.4	0.2	1.2	1.4
+12	1.5	1.8	0.6	0.3
+13	3.5	0.5	1.2	0.8
+14	2.2	0.5	5	1.9
+15	0	1.2	1.4	1.2
+16	1.2	1.1	1.5	2
+17	0.3	1	0.3	0.2	numbered on left wall
+; 18	0.5	0.7	0.2	0.2	unmarked station
+
+*end   sovein

@@ -1,0 +1,4 @@
+(executable (
+  (name convert_shx)
+  (libraries (base stdio csv))
+))

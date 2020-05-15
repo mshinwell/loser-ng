@@ -1,0 +1,25 @@
+*equate 99ob02.1 p99ob02
+*entrance p99ob02
+
+*begin 99ob02
+
+*date 2006.08.04
+*team Insts Jenny
+*team Notes Olly
+*team Pics Jenny
+*team Tape Jenny
+*instrument ours + cucc red frame 50m tape
+; notes in 2006 #
+
+*export 1
+
+1	2	3.0	110	0
+2	3	5.30	-	down
+3	4	2.0	228	0
+
+; 1	tag bolt
+; 2	space
+; 3	snow
+; 4	end of rift
+
+*end 99ob02

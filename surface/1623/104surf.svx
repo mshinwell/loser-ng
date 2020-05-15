@@ -1,0 +1,23 @@
+*begin 104surf
+*date 2005.07.26
+*title "104 surface"
+*team Instruments Jenny Black
+*team Notes Dave Loeffler
+*instrument Ol + Jenny's instruments
+; Ref. 2005#05
+
+*export 1 4
+
+*data normal from to tape compass clino
+1       2       25.791  020     +12
+2       3       32.755  008     +09
+3       4       0.488   -       DOWN
+
+; station descriptions
+; 1	Stone on slabs from 2005-01 survey
+; 2	Ol's belly button
+; 3	Ol's knee
+; 4     104 tag spit
+
+*end 104surf
+

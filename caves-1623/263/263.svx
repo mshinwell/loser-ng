@@ -1,0 +1,29 @@
+*equate p263 263.1
+*equate gps2010-01 263.GPS
+*entrance gps2010-01
+*entrance p263
+
+*begin 263
+; Clownhoehle, 1623/263
+; (previously 2010-01)
+
+*title "Clownhoehle"
+*date 2010.08.04
+*team Insts Martin Green
+*team Notes Martin Green
+*team Bolter Mark Shinwell
+
+; Grade 2
+; Walking Compass
+; No tape
+; notes in 2010#01
+
+*export 1 GPS
+
+*data normal from to tape	compass clino
+*flags surface 
+GPS	1	5	280	40
+*flags not surface
+1	2	10	220	30
+
+*end 263

@@ -1,0 +1,33 @@
+*begin numberofthebeast2
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks 1623/258
+
+*export 5	1
+
+*title "Number of the Beast? part 2"
+*date 2014.08.13
+*team Insts Andy Chapman
+*team Notes Chris Densham
+*instrument Wookey's DistoX
+
+;ref.: 2014#34
+
+;from	to	tape	compass	clino	remarks
+2	1	9.53	167.4	-75.5
+3	2	3.44	182.5	-06
+4	3	9.40	047.2	-62
+5	4	3.13	336	+45
+
+; *data passage station left right up down ignoreall
+; L = 270 deg bearing
+; R = 90 deg bearing
+; U = zero deg bearing
+; D = 180 deg bearing
+; 1	5	14	-	1
+; 2	0	3	2	2
+; 3	3.5	2	4	3.5
+; 4	0	4	7	3
+; 5	1.5	2	3	3
+
+*end numberofthebeast2

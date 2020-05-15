@@ -1,0 +1,73 @@
+*begin bouldersurfer
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 258 "Tunnockschacht"
+
+*export 1 ep 16
+
+*title "258: Boulder Surfer"
+*date 2008.08.03
+*team Insts Olly Madge
+*team Notes Djuke Veldhuis
+*team Tape Martin Jahnke
+*instrument Pony
+*instrument Disto small
+
+*ref 2008#17
+
+*calibrate tape +0.08
+
+; from  to  tape    comp    clino   remarks
+1   2   3.46    340 -13
+3   2   2.34    277 -13
+3   4   7.52    053 +18
+5   4   10.57   272 -46
+5   6   10.29   128 +31
+6   7   7.57    140 +27
+
+; started measuring from correct end of disto
+*calibrate tape 0
+
+; from  to  tape    comp    clino   remarks
+5   8   2.48    357 -24
+8   9   3.91    080 +23
+9   10  9.82    120 +37
+10  11  3.19    074 +27
+12  11  10.99   271 -40
+13  12  3.78    005 -19
+13  14  11.50   110 +41
+14  15  2.27    055 +28
+15  16  4.28    103 +44
+102 103 3.67    187 -46
+101 102 5.60    190 -21
+101 100 2.59    338 +00
+ep  100 7.51    305 -25
+103 16  2.53    241 +05
+104 16  13.78   323 -35
+
+
+*data passage station left right up down ignoreall
+1   4   0   2   1   ;existing survey station Ribs Knoedel RHW marked "1"
+2   4   0.7 0   1.5 ;bottom of hanging rock flake
+3   1.2 1.2 0   1   ;flake below arch
+4   0.45    0.75    0.5 0   ;point on floor opposite C lead on right (small tube on RHS)
+5   2   1.5 0.7 1   ;on roof
+6   0.15    0.4 0.2 0.3 ;pink paint on LHW
+7   -   -   -   -   ;too tight (20x30cm tube)
+8   0   5   0.4 1.5 ;
+9   0   0.5 1   0.8 ;LHW PP (marked as "9" just short of steep tube C lead)
+10  1.2 0   0.3 1.5 ;PP on RHW
+11  0.7 0.2 0.6 0.5 ;on roof
+12  0   1.5 0.4 0.2 ;PP on LHW (near/opposite? small tube LHW)
+13  3.6 0   0.8 1.2 ;
+14  2.0 2.0 2   0.2 ;middle of junction with rock jutting out
+15  0.2 0.8 0.6 0.4 ;LHW on boulder slope
+16  2.5 1.5 0   1.5 ;on archway/roof
+100 0   9   0   0.4 ;on LHW
+ep  4   1.7 1.5 0   ;on boulder in stone monkey passage
+101 1   0.7 0.7 0.8 ;on flake in archway
+102 0.3 1.2 0   1.4 ;on roof
+103 1.5 2   1.5 0   ;boulder marked "103" on RHS
+104 0.5 3   2   3   ;LHW PP on huge rock
+
+*end bouldersurfer

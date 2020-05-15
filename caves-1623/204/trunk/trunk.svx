@@ -1,0 +1,193 @@
+*begin trunk
+
+*title "Trunk route from No Pain No Gain through to Treeumphant Passage and beyond"
+
+*export gknodel.part1.1 nopainnogain.9 scroat.p10 insig2.6 insig.8
+*export helterskelter.3 insig2rhino.T2 insig.4
+*export treeumphant.29 ; bodge! bodge! bodge!
+*export colonade.7 ; I think this is right - DL
+
+; -- 2000 --
+
+*include nopainnogain.svx
+
+*include insig.svx
+*equate insig.1 nopainnogain.15
+
+*include bonsai.svx
+*equate insig.8 bonsai.1
+
+*include treeumphant.svx
+*equate treeumphant.1 insig.3
+*equate treeumphant.9 insig.5
+*equate treeumphant.10 insig.8
+
+*include colonade.svx
+*equate treeumphant.13 colonade.1
+
+; -- 2001 --
+
+*include scroat.svx
+*equate scroat.0 nopainnogain.29
+
+*include crowningglory.svx
+*equate crowningglory.0 treeumphant.19
+
+*include sucker.svx 
+*equate sucker.0 colonade.2
+
+*include csballs.svx
+*equate csballs.1 treeumphant.29
+
+*include moreballs.svx
+*equate moreballs.4 csballs.14
+
+*include backpassage.svx
+*equate backpassage.7 treeumphant.27
+
+*include treeslope.svx
+*equate treeslope.1 treeumphant.18 ;FIXME: check .18 is correct
+
+*include tree15c.svx
+*equate tree15c.p colonade.1
+
+*include helterskelter.svx
+*equate helterskelter.p40 crowningglory.40
+
+*include gknodel.svx
+*equate gknodel.part2.5 crowningglory.14
+; this equate should be checked, but I am quite confident based on
+; Martin's plan of crowning glory. AJD
+
+*include drillingdelight.svx
+*equate treeumphant.2 drillingdelight.0
+
+*include insig2.svx
+*equate insig.2 insig2.0
+
+*include flopsy.svx
+*equate flopsy.p colonade.2
+*equate flopsy.p2 bonsai.7
+*equate flopsy.p3 bonsai.6
+
+; -- 2002 --
+
+*include greatoak.svx
+*equate greatoak.1 treeumphant.24
+
+*include tree2glory.svx
+*equate tree2glory.9 crowningglory.5
+
+; -- 2003 --
+
+*include sandpit.svx
+*equate sandpit.p21 crowningglory.21
+
+*include helterdig.svx
+*equate helterdig.p helterskelter.7
+
+*include dontstep.svx
+*equate dontstep.1 insig.5
+
+; -- 2004 --
+
+*include insig2rhino
+*equate insig2rhino.2A insig.2
+
+; -- 2005 --
+
+*include twiglets
+*equate twiglets.p1 crowningglory.0
+*equate twiglets.p2 crowningglory.1
+
+; -- 2006 --
+
+*include stageleft
+*equate stageleft.1 crowningglory.14
+
+*include goesser
+*equate goesser.11 csballs.1
+
+*include greatoak2
+*equate greatoak2.1 greatoak.1
+
+*include riverdance
+*equate riverdance.1 greatoak.1
+
+*include riverdance2
+*equate riverdance2.1 riverdance.10
+
+*include riverdance3
+*equate riverdance3.1 riverdance2.6
+
+*include fingerbang 
+*include fblink
+*equate fblink.5 fingerbang.a
+*equate fblink.4 moreballs.16
+
+*include dutchelm
+*include dutchelm2
+*equate dutchelm2.1 dutchelm.1
+*equate dutchelm2.-1 treeslope.1
+
+*include wotnosurvey
+*equate wotnosurvey.6 crowningglory.9
+
+*include goesser2
+*equate goesser2.1 goesser.1
+
+;----2007------
+*include crowningglory2
+*equate crowningglory2.5 wotnosurvey.1
+*equate crowningglory2.12 wotnosurvey.2
+
+*include crowningglory3
+*equate crowningglory3.4 crowningglory2.9
+
+*include 11sr
+*equate moreballs.19 11sr.1
+
+*include swisscheese
+*equate swisscheese.1 insig2.6
+
+*include wetdry
+*equate 11sr.8 wetdry.1
+;*equate 11sr. wetdry.9
+
+*include goesser3
+*equate goesser3.2 goesser2.2
+
+; -- 2008 --
+*include godonlyknows
+*equate godonlyknows.1 moreballs.1
+
+*include goodvibrations
+*equate goodvibrations.1 godonlyknows.5
+
+*include sandpit2
+*equate sandpit2.1 sandpit.14
+
+*include pingu
+*equate pingu.8 sandpit.10
+
+*include noodnoodles
+*equate noodnoodles.prev sandpit.27
+
+; -- 2011 --
+*include sandpit3
+*equate sandpit3.X sandpit.25
+
+*include pingu2
+*equate pingu2.X pingu.1
+
+*include pingu3
+*equate pingu3.X pingu.1
+
+*include appendix
+*equate appendix.p colonade.7
+
+*include root
+*equate root.p sucker.3
+
+*end trunk
+

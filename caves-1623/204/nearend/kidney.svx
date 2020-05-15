@@ -1,0 +1,42 @@
+*begin kidney
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Kidney Bean"
+*date 2000.07.27
+*team Insts Julia Bradshaw
+*team Notes Earl Merson
+*team Pics Earl Merson
+*team Tape both
+*instrument Compass #5 ; Clino #5, Tape 
+; Calibration: 0, 'cos I'm a slack tart.
+; ref.:	2000 #24
+
+; ====== stations refindable to link to other surveys: ======
+
+*export x 5
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+ 1      2   6.33	032		-08
+ 3		2	6.60	004		+01
+ 2		4	6.69	119		+08
+ 4		5	1.45	076		+55
+ 5		6	5.76	201		-13
+ 6		7	6.23	186		-12
+ 7		8	4.73	199		-06
+ 8		X	3.60	226		-15
+;station details
+;name	L	R	U	D	E	description
+;1		2.0	0.8	2.5	0.5		rock under hanging death
+;2		-	-	0.4	0.5		nose above hole in floor
+;3		2.5	0.5	1.0	1.5		pebble on ledge
+;4		0.0	0.8	0.5	0.3		CM on left wall
+;5		0.4	0.0	1.0	0.4		CM on right wall in corner
+;6		0.4	0.4	0.0	0.6		CM on roof
+;7		2.0	0.0	0.5	0.6		CM on right wall
+;8		1.2	0.8	0.2	0.4		top of rock in passage
+;X		-	-	-	-		Nose of rock in main passage (PM)
+
+*end Kidney

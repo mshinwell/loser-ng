@@ -1,0 +1,32 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau
+; Area: Plateau
+; Cave:	Glücklich Schmetterlingehöhle (GSH, Happy Butterfly). 1623/2017_cucc_24
+; See gps17.svx for GPS coordinates
+
+*entrance p2017_cucc_24
+*equate p2017_cucc_24     2017_cucc_24.dentrance.tag
+
+*begin 2017_cucc_24
+
+*export dentrance.tag dentrance.gps
+
+*include dentrance
+
+*include dentb
+*equate dentrance.20 dentb.20x
+
+*include couldashouldawoulda
+*equate dentrance.19 couldashouldawoulda.19x
+
+*include gsh4
+*equate couldashouldawoulda.9 gsh4.9x 
+
+*include riftpiece
+*equate riftpiece.1x couldashouldawoulda.1
+
+*include couldashouldawoulda_to_bathdodgersbypass
+*equate couldashouldawoulda.1 to couldashouldawoulda_to_bathdodgersbypass.1
+
+*end 2017_cucc_24
+
+

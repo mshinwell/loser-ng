@@ -1,0 +1,74 @@
+; *** DO NOT SAVE THIS FILE WITHOUT RENAMING IT !! ***
+;[Stuff in square brackets is example text to be replaced with real data, 
+; removing the square brackets]
+
+*begin pitstop_3
+
+; stations linked into other surveys (or likely to)
+*export 56x 8
+
+; Cave:Balcony
+; Area in cave/QM: Pitstop
+*title "pitstop_2"
+*date 2018.08.02
+*team Insts nadia
+*team Notes becka
+*team Pics 
+*team Tape 
+*instrument Becka 2
+; Calibration: [Where, readings]
+*ref 2018#35
+; the #number is on the clear pocket containing the original notes
+
+; if using a tape:
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+56x 3 10.02 145 4
+3 4 12.19 129 14
+4 5 20.73 113 20
+5 6 17.95 157 -01
+6 7 11.47 132 17
+7 8 8.14 137 1
+8 9 11.65 183 -71
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Pink nail varnish markings
+
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down
+3 1.5 1.1 1.6 1
+4 1 1.5 1.5 0.6
+5 2 1.1 0 1.4
+6 1.8 1.1 1.4 0.3
+7 2.2 0.3 1 1 
+8 2.8 3 4.5 0
+9 2 2 8 0 
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+
+;QM1    A    pitstop_3.1    8    pitch with strong draft and sound of water
+;QM2    B    pitstop_3.2    8    rift continuation of passage 
+
+;------------
+;Cave description  ;(leave commented-out)
+;is up from the junction at the end of pitstop and start of safe n comfortable. 2m phreatic tube with slight draft. bat wing bones all over floor. leads to pitch with sound of water and a rift continuation over pitch.
+
+*end pitstop_3

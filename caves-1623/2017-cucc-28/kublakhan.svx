@@ -1,0 +1,166 @@
+*begin kublakhan
+
+; stations linked into other surveys (or likely to)
+*export 1 5 8 22 24 26b 35
+
+; Cave: Fischgesichthoehle
+; Area in cave/QM: below rubble rumble
+*title "kublakhan"
+*date 2018.08.02
+*team Insts Adam Henry
+*team Notes Cat Henry
+*team Pics Adam Henry
+*team Dog Michael Sargent
+*instrument DistoX
+; Calibration: Traungold (hole by top camp), 2018.08.01, max error 0.8 deg
+*ref 2018#30
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+1	2	13.13	12.3	-56.2
+1	3	10.23	182.7	-49.4
+3	4	4.33	220.0	-60.5
+4	5	1.73	240.0	-25.0
+5	6	7.86	328.9	16.6
+6	7	2.33	298.8	-4.5
+7	8	3.54	323.1	5.4
+8	9	3.46	210.6	-8.6
+9	10	2.58	262.9	-0.6
+10	11	3.22	180.9	-5.9
+11	12	3.51	276.2	0.7
+12	13	4.82	13.9	2.6
+13	14	9.70	301.7	-0.6
+14	15	4.61	2.4	-2.4
+15	16	3.00	35.4	-3.0
+16	17	3.30	295.5	-10.8
+17	18	3.43	359.2	-1.8
+18	19	2.32	251.6	-10.9
+19	20	3.20	302.8	-22.9
+20	21	1.89	235.5	-35.5
+21	22	2.07	250.3	-8.7
+22	23	6.39	227.8	-16.6
+23	24	5.09	165.3	-4.1
+24	25	11.94	183.8	-1.5
+25	26	4.56	212.5	-19.5
+26	27	23.86	191.6	-6.6
+27	28	6.21	172.4	14.7
+28	29	8.03	164.6	4.6
+29	30	3.76	230.5	-7.3
+30	31	8.27	165.5	13.9
+31	32	10.0	185.0	6.4
+32	33	2.95	238.2	-1.7
+33	34	10.45	163.0	15.1
+34	35	4.67	175.2	5.9
+22	26b	1.7	75.7	21.9
+23	alpha	18.48	357.9	15.5
+
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Red nail varnish markings
+
+;1	0	2.3	3.0	1.2	NP 1 near bolt 2 for handline/pitch
+;2	0	0	0	0	unmarked alcove station
+;3	0	0.8	0.3	1.6	NP
+;4	0.3	0.9	0.4	0	NP
+;5	1.6	1.0	0.8	0.9	NP 5 on rock in middle of junction
+;6	0.4	1.9	0.4	1.9	NP
+;7	1.6	0	0.7	1.5	NP RHW
+;8	1.5	0	0.5	1.4	NP 8 at junction
+;9	0	0.8	0.6	1.0	NP
+;10	0.9	0	0.5	1.1	NP
+;11	0	0.9	0.6	1.1	NP
+;12	0	1.0	0.6	1.2	NP
+;13	0.9	0	0.3	1.4	NP
+;14	0	0.6	0.9	1.9	NP HIGH
+;15	0	0.6	1.3	1.5	NP
+;16	0.8	0	1.5	1.6	NP
+;17	0	0.5	1.0	1.5	NP
+;18	1.0	0	1.4	1.5	NP
+;19	1.0	0	1.4	1.9	NP RHW
+;20	0.5	0	2.3	1.9	NP RHW
+;21	0	1.4	4.3	1.4	NP
+;22	1.0	0.2	4.5	1.7	NP 22 at junction
+;23	1.5	0	2.8	0.7	NP 23
+;24	0.3	1.4	2.9	1.4	NP rift 7.1m down
+;25	0.5	2.7	2.1	2.4	NP rift 6.5m down
+;26	2.0	0	1.9	1.9	NP rift 5.4m down
+;27	1.8	0.6	2.8	1.5	NP rift 5.3m down
+;28	2.0	0.4	2.2	0.7	NP rift approx 5m down
+;29	0	2.1	2.2	1.5	NP rift 6.8m down
+;30	1.6	0	3.1	1.5	NP
+;31	1.9	0	3.4	1.6	NP rift approx. 11m below
+;32	1.8	0	2.8	1.8	NP
+;33	1.0	0	2.6	1.3	NP rift 11m below
+;34	0.4	1.2	5.0	1.6	NP
+;35	1.2	1.2	6.6	1.5	NP
+;alpha	0	0	0	0	unmarked to QM2
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down ignoreall
+1	0	2.3	3.0	1.2	NP 1 near bolt 2 for handline/pitch
+2	0	0	0	0	unmarked alcove station
+*data passage station left right up down ignoreall
+1	2.3	0	3.0	1.2	NP 1 near bolt 2 for handline/pitch
+3	0	0.8	0.3	1.6	NP
+4	0.3	0.9	0.4	0	NP
+5	1.6	1.0	0.8	0.9	NP 5 on rock in middle of junction
+6	0.4	1.9	0.4	1.9	NP
+7	1.6	0	0.7	1.5	NP RHW
+8	1.5	0	0.5	1.4	NP 8 at junction
+9	0	0.8	0.6	1.0	NP
+10	0.9	0	0.5	1.1	NP
+11	0	0.9	0.6	1.1	NP
+12	0	1.0	0.6	1.2	NP
+13	0.9	0	0.3	1.4	NP
+14	0	0.6	0.9	1.9	NP HIGH
+15	0	0.6	1.3	1.5	NP
+16	0.8	0	1.5	1.6	NP
+17	0	0.5	1.0	1.5	NP
+18	1.0	0	1.4	1.5	NP
+19	1.0	0	1.4	1.9	NP RHW
+20	0.5	0	2.3	1.9	NP RHW
+21	0	1.4	4.3	1.4	NP
+22	1.0	0.2	4.5	1.7	NP 22 at junction
+23	1.5	0	2.8	0.7	NP 23
+24	0.3	1.4	2.9	1.4	NP rift 7.1m down
+25	0.5	2.7	2.1	2.4	NP rift 6.5m down
+26	2.0	0	1.9	1.9	NP rift 5.4m down
+27	1.8	0.6	2.8	1.5	NP rift 5.3m down
+28	2.0	0.4	2.2	0.7	NP rift approx 5m down
+29	0	2.1	2.2	1.5	NP rift 6.8m down
+30	1.6	0	3.1	1.5	NP
+31	1.9	0	3.4	1.6	NP rift approx. 11m below
+32	1.8	0	2.8	1.8	NP
+33	1.0	0	2.6	1.3	NP rift 11m below
+34	0.4	1.2	5.0	1.6	NP
+35	1.2	1.2	6.6	1.5	NP
+*data passage station left right up down ignoreall
+23	0	1.5	2.8	0.7	NP 23
+alpha	0	0	0	0	unmarked to QM2
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    C	kublakhan.5	-	straight ahead at crossroads opposite descent rope. Shitty crawl. 
+;QM2    C    	kublakhan.alpha    -    small sandy-floored crawl, inside loop of known cave.
+;QM3	B	kublakhan.33	-	rift with stream flowing away down it
+;QM4	C	kublakhan.35	-	low sandy crawl in bottom of passage
+;QM5	A	kublakhan.35	pushderig.a	traverse in higher level passage to short section requiring roping (or very airy dodgy bridging) to reach further phreatic passage opposite. Draught into face.	
+
+;------------
+;Cave description  ;(leave commented-out)
+;Starts with climbing sections over loose rock and a short traverse & pitch of 3m. Leads to a low crawl crossroads. This survey continues right where the passage size gradually increases passing several right turns (all lead to miracle maze) until it reaches large phreatic pssage with rift passage containing a small stream in the floor.
+
+*end kublakhan

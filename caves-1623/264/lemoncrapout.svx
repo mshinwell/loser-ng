@@ -1,0 +1,57 @@
+*begin lemoncrapout
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2005-5 "Balcony Hohle"
+
+*export	x22
+
+*title "lemoncrapout"
+*date 2014.08.12
+*team Insts Julian Todd
+*team Tape Julian Todd
+*team Notes Nathanael Dalton
+
+*ref 2014#38
+
+;from	to	tape	compass	clino
+1	x22	6.97	147	-01
+2	1	4.96	129	02
+3	2	3.48	150	09
+6	3	4.67	150	-10
+
+7	x22	4.61	262	-37
+8	7	2.06	297	16
+9	8	10.99	201	-20
+10	9	3.66	223	-19
+11	10	6.52	241	-22
+12	11	3.37	243	-32
+13	12	1.54	256	05
+14	13	3.42	226	-23
+15	14	3.25	294	-10
+16	15	8.56	206	-16
+17	16	4.09	170	-18
+18	17	3.81	181	-22
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+x22	0.58	0.00	3.71	1.23	RP,RHW,?a lead junction
+1	0.60	0.00	2.50	0.70	rhw flake
+2	0.20	2.50	5.00	1.10	lhw near x25
+3	1.30	0.60	2.70	0.40	rhw bulge
+6	1.80	0.20	1.70	0.30	stations 4,5 non exsistent
+
+*data passage station left right up down ignoreall
+x22	0.58	0.00	3.71	1.23	RP,RHW,?a lead junction
+7	0.00	1.10	1.70	1.70	lhw
+8	0.80	0.00	3.00	0.80	
+9	0.00	0.70	1.70	0.60	lhw
+10	0.80	0.00	1.30	0.90	rhw slot
+11	0.00	0.70	1.00	1.00	lhw form(ation)
+12	1.00	0.40	1.50	1.60	rhw
+13	0.20	0.60	2.00	1.00	flake lhw
+14	0.00	0.70	2.50	1.10	lhw
+15	0.50	0.50	2.50	0.50	knob on rhw
+16	1.00	1.50	2.00	1.00	rhw
+17	0.20	1.00	5.00	0.50	low lhw
+18	0.70	0.20	4.00	1.00	rhw before drip
+
+*end lemoncrapout

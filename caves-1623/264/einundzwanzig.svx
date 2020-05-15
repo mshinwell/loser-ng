@@ -1,0 +1,63 @@
+*begin einundzwanzig
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Balcony hohle, 264
+*title "Einundzwanzig"
+*date 2015.07.20
+*team Insts Luke
+*team Notes David Walker
+*team Pics 
+*team Tape Luke
+*instrument Blue SAP
+*ref 2015#08
+
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 15 28x 7
+
+;*calibrate tape +0.2	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+28x		1	6.66	293	48
+1		2	3.70	025	13
+3 		2 	8.31	164	-9
+4 		3 	21.20 	170	-9
+5 		4 	3.48 	121	-11
+6 		5 	3.82	170 	-16 
+6 		7 	5.23	307	46
+8 		7 	5.71	155 	-27
+8 		9	5.15 	069	1 
+;10		7 	4.70 	043 	11 	;	duplicate in rabbitwarrenstoeinundzwanzig
+;11 		10 	6.84 	026 	-3  	;	duplicate in rabbitwarrenstoeinundzwanzig
+;10 		12 	8.50 	256	-13  	;	duplicate in rabbitwarrenstoeinundzwanzig
+13 		1 	5.65 	126 	24
+14		13 	10.92 	151 	17 
+15 		14 	5.69 	159 	19  
+
+;station details
+*data passage station left right up down ignoreall
+28x		1.0 	0.5 	5.5 	2 	spike, mid
+1 		0 	2 	1 	6 	high LHW
+2 		2 	1.5 	1.5 	1 	mid RHW
+3 		0.5 	0 	0.3 	1 	RHW
+4 		2 	0.5 	1.5 	0.8 	RHW
+5 		0 	1.5 	2 	1 	LHW 
+6 		2 	0 	4 	1 	RHW
+7 		1.5 	1.8 	1 	1 	Centre
+8 		2 	5 	10 	2 	Top of boulder, left
+9 		5 	0 	12 	1.5 	RHW
+
+*data passage station left right up down ignoreall
+;10 		1.5 	1.5 	3 	4 	Middle 	;	duplicate in rabbitwarrenstoeinundzwanzig
+;11 		0.5 	1.5 	14 	2 	LH ceiling 	;	duplicate in rabbitwarrenstoeinundzwanzig
+;12 		1 	1 	0 	0.6 	ceiling mid 	;	duplicate in rabbitwarrenstoeinundzwanzig
+
+*data passage station left right up down ignoreall
+1 		0 	2 	1 	6 	high LHW
+13 		0 	1 	4 	4 	LHW
+14 		0 	1.5 	3 	2 	LHW 
+15 		1 	0 	3 	2 	LHW 		
+
+*end einundzwanzig
+

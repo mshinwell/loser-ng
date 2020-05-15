@@ -1,0 +1,76 @@
+;1999.07.31 W & Brian Created
+;2000.07.23 PU changed *begin from nordalp to 205
+
+*equate 205.1.0	P205 ; This is not the tag!
+*entrance P205
+
+*begin 205
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1.0
+
+; ====== links between surveys making up the Nordalp survey: ======
+
+*equate 1.13	2.13
+
+*begin 1
+
+; Locn:	NE flank of Vorderer Schwarzmoos Kgl, Loser Augst-Eck, Totes Gebirge, Austria
+*title "Nordalpenschacht, 1623/205"
+; Also called 99-01 and nordalpenhöhle in docs
+*date 1999.07.26
+*team Insts Becka Lawson
+*team Tape Becka
+*team Notes Brian Outram
+*team Pics Brian Outram
+*instrument Compass Set# 2; Clino Set# 2 (Probably) tape: 'chainese split end' (probably)
+; Calibration:	none
+; ref.:	NotKH survey book pp:
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0 ; (moveably flake on surface)
+*export 13
+
+*calibrate tape -0.15
+*data normal from to tape clino compass ignoreall
+0	1	4.62	down	-	1	carbide mark on LH wall
+1	2	1.17	-17	242	2	1	0	4.62	1	bolt LH wall
+2	3	6.93	down	-	3	0	2	3	7	CM on wall of shaft
+3	4	1.30	-58	155	4	0	0.5	4	7	CM on slot in floor
+5	3	6.82	-21	348	5	2	2	0	1	CM in roof
+4	6	4.47	down	-	6	0	1.5	4.5	5	CM on wall
+7	6	0.95	-20	030	7	0	1.5	2	0.5	CM LH wall
+8	7	5.01	+27	222	8	0.5	2.0	0.5	1.3	CM LH wall
+9	8	6.07	+64	228	9	0	2.0	3	0.5	CM LH wall
+9	10	2.27	-31	141	10	1	1	0	0.3	CM on roof of squeeze
+11	10	2.64	+19	011	11	6	2	1	0	CM on rock on floor
+12	11	2.79	-08	006	12	3.2	3.0	0.5	1	CM on large rock on floor
+12	13	25.50	-03	205	13	0	6.0	0.5	1.2	CM on LH wall
+
+*end 1
+
+*begin 2
+; Locn:	NE flank of Vorderer Schwarzmoos Kgl, Loser Augst-Eck, Totes Gebirge, Austria
+; Cave:	1623/99-01 Nordalpenschacht (also called nordalpenhöhle in docs)
+*title "Underground survey"
+*date 1999.07.29
+*team Insts Mark Shinwell
+*team Tape Mark Shinwell
+*team Notes Earl Merson
+*team Pics None (done in 1st survey)
+*instrument Compass Set# 5; Clino Set# 5
+; Calibration:	as for surface survey Vd1->nordalpenhöhle
+; ref.:	NotKH survey book pp:
+
+*export 13
+
+*data normal from to tape clino compass 
+15	16	7.03	down	-
+16	17	5.50	0	242	;no clino taken - approx horizontal
+14	15	2.79	-45	210
+14	13	2.94	+22	132
+
+*end 2
+*end 205

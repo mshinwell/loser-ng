@@ -1,0 +1,47 @@
+;> 1623/040
+
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schwarzmooskogel-Eishöhle alter Teil 1623/040
+; Messteam: Andreas Scheurer, Jens Freigang, Uli und Aiko Schütz
+; Zeichner: Jens Freigang
+; Referenz: Jens Freigang
+
+
+
+
+*begin HansPfandlHalle
+*title "Hans-Pfandl-Halle"
+*date 2001.08.26
+
+*export 0 7
+
+
+*units compass grads
+*units clino grads
+
+;hanspfan.0 = eishohle.611
+
+*data normal from to length clino compass
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+0	1	19.07	9	206
+1	2	11.44	-4	228
+2	3	7.60	-27	238
+3	4	7.92	-38	221
+4	5	18.45	-32	168
+5	6	18.00	13	218
+6	7	18.95	31	194
+7	8	30.39	34	223
+
+;Raumwerte
+*data passage station left right up down
+0	3.5	1	7	1
+1	0.5	1.5	3	1.8
+2	0	0.3	7	3
+3	2	3	6	3
+4	2.5	2.5	10	2.5
+5	0.5	6	8	1.5
+6	5	5	20	1.8
+7	5	12	6	0.3
+8	0	1.5	2	0.5
+
+*end HansPfandlHalle

@@ -1,0 +1,24 @@
+*begin 2002-w-02surf
+*date 2002.08.05
+*title "2002-W-02"
+*team Instruments Olly Betts
+*team Notes Wookey
+*instrument Set 5 (Type 80)
+; Ref. 2002#06, page 2
+*export 1 ; 2002-W-02 tag bolt
+*export 3 ; 40s tag bolt
+
+
+*calibrate tape +1.00
+
+*data normal from to tape compass clino
+2	1	7.71	186.5	-10
+2	3	8.96	339	-10.5
+
+; station descriptions
+; 1	2002-W-02 tag bolt
+; 2	Rock point
+; 3	40s tag bolt
+
+*end 2002-w-02surf
+

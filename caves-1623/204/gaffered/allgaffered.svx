@@ -1,0 +1,88 @@
+*begin allgaffered
+
+*export plan.1 ; connection to Swings
+*export gardenersworld.1; connection to Subsoil
+*export slimy2.11 ; second connection to Subsoil
+
+; -- 2002 --
+
+*include plan
+
+*include not
+*equate plan.4 not.7
+
+*include interesting
+*equate not.1 interesting.4
+
+; -- 2003 --
+
+*include trihang
+*equate trihang.14 interesting.1
+
+*include eeyore
+*equate eeyore.1 trihang.12
+
+*include poohstyx
+*equate poohstyx.p9 trihang.9
+
+*include sirens
+*equate sirens.p6 trihang.6
+
+*include sirens2
+*equate sirens2.1 sirens.6
+
+; -- 2004 --
+
+*include kanga
+*equate eeyore.5 kanga.1
+
+*include mudslope
+*equate trihang.5 mudslope.5old
+
+*include gardenersworld
+*equate sirens2.17 gardenersworld.17
+
+*include uppertube
+*equate uppertube.16 sirens2.16
+
+*include terrafirma
+*equate terrafirma.18 sirens2.18
+
+*include oxtailoxbow
+*equate oxtailoxbow.5 sirens2.5
+*equate oxtailoxbow.8 sirens2.8
+
+*include blackmaria
+*equate blackmaria.X sirens2.2
+
+
+; -- 2005 --
+
+*include poohstyx2
+*equate poohstyx.9 poohstyx2.p9
+*equate poohstyx2.p sirens2.7
+
+; -- 2007 --
+
+*include shprinkles
+*equate shprinkles.1 oxtailoxbow.4
+
+*include dangly
+*equate dangly.1 trihang.1
+
+*include slimy1
+*equate slimy1.1 sirens2.1
+
+*include dangerous
+*equate dangerous.23 sirens2.12
+
+;terrafirma2 needs resurveying so I have removed it from here for now --Nial
+;*include terrafirma2
+;*equate terrafirma2.1 terrafirma.18
+;*equate terrafirma2.10	sirens2.15 ; changed from sirens2.14
+
+*include slimy2
+*equate slimy1.6 slimy2.1
+
+*end allgaffered
+

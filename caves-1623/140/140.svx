@@ -1,0 +1,35 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Schwa Schacht 140 1623/140
+
+*equate p140 140.1
+
+*begin 140
+
+*title "Schwa Schacht 140"
+*date 2015.08.09
+*team Notes Wookey
+*team Insts Wookey
+; This is not a real survey, just a distoX leg down the entrance, standing
+; at the lower western end
+; This cave deserves a proper survey
+; No rigging spits or tag observed.
+*instrument Wookey's distoX2
+
+; ref.:	2015#69
+; Done on same day as nearby wk11 survey
+
+;exported stations
+*export 1
+*entrance 1
+
+*data normal from to length bearing gradient ignoreall
+;from	to	tape	compass	clino	remarks
+
+1	-	16.497	080.2	-56.8
+
+
+;Station data as recorded
+;stn	L	R	U	D	Desc
+;Awaiting proper underground survey
+
+*end 140

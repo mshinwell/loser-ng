@@ -1,0 +1,73 @@
+;1998.06.02 AERW token addition of exports etc., merged QSClink into file
+
+; ====== links between surveys in this file: ======
+
+*equate 	Quark.24	QSCLink.1
+
+*begin Quark
+
+; Locn:	Main plateau, WNW of Top Camp, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+; Cave:	Puffball & Icing Sugar Cave (1623/182)
+*date 1991.07.12
+*team Insts MarkM
+*team Tape JulianH
+*team Notes JulianS
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; point on LH wall entering Dark Room from
+		; Tarzan's Folly: carbide mark on corner of flake
+*export 2	;
+*export 24	;
+
+2       1        1.45   355     +12
+3       2        6.87   000     +50
+3       4        3.10   162     +21
+5       4        3.15   010     -31
+5       6        5.93   163      00
+6       7        3.95   181     -45
+7       8        2.77   168     -15
+8       9        9.79    -      Down
+
+*team Insts JulianS
+*team Tape JulianH
+*team Notes MarkM
+
+9       10       5.16   165     +12
+11      10      11.02   359     +36
+12      11       7.25   349     +06
+12      13       4.78   166     -03
+14      13       4.60   347     +11
+14      15       4.77   166     -06
+15      16       3.25   204     -06
+16      17       3.62   199     -17
+17      18       2.83   177     -08
+19      18       5.27   020     -18
+19      20       5.80   196     -22
+21      20       2.80   027     +17
+21      22       6.50   193     +11
+23      22       4.70   021     +19
+23      24       9.50   182     +06
+*end Quark
+
+*begin QSCLink
+
+; Locn:	Main plateau, WNW of Top Camp, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+; Cave:	Puffball & Icing Sugar Cave (1623/182)
+*title "QSC linking legs"
+*date 1992.07.17
+*team Insts JulianS
+*team Tape JulianS
+*team Notes Olly
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	;
+*export 5	;
+
+1       2        5.92    -      Down
+2       3        0.74    -      Up
+3       4        1.40   164     -03 ; -03 read twice
+4       5        5.03   202     -10
+
+*end QSCLink

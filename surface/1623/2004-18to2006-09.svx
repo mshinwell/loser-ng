@@ -1,0 +1,54 @@
+*begin 2004-18to2006-09
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "2004-18 to 2006-09"
+*date 2006.08.09
+*team Insts Chantalle Mouwer
+*team Notes Phil Underpants
+*team Pics Chantalle Mouwer
+*team Tape Both
+*instrument #5
+
+
+
+; ====== stations refindable to link to other surveys: ======
+
+*export p2004-18 p258a p258b p2006-09 t2006-09
+*entrance p2004-18
+*entrance p258a
+*entrance p258b
+*entrance p2006-09
+*equate 17 t2006-09
+
+;from	to	tape	compass	clino	; remarks
+2     p2004-18	28.62	192	-10
+2	3	22.70	046	+19
+4	3	27.33	228	-20
+4	5	28.40	058	+14
+6	5	19.33	214	-18
+6	7	15.24	019	+13
+8	7	11.20	214	-4
+8	9	7.66	092	+17
+10	9	8.42	232	-04
+10   p258b	4.08	101	+16
+10	11	1.69	326	-9
+11   p258a	5.81	274	-40
+7	12	19.97	157	0
+13	12	7.63	014	+46
+13	14	18.49	100	+05
+14	15	26.71	076	+11
+16	15	13.01	247	-20
+16	17	8.71	064	+09
+17   p2006-09	1.78	165	-02
+
+
+;station details
+;name	 description
+;p2004-18 Tag on 2004-18
+;p258a Tag on 258a
+;p258b Tag on 258b
+;p2006-09 Tag on 2006-09
+;17 rock near 2006-09
+; other stations not refindable
+*end 2004-18to2006-09 
+

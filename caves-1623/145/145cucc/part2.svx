@@ -1,0 +1,95 @@
+*begin part2
+
+; Locn:	Main plateau, beyond Brauning Sattel, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+; Cave:	Wolfhöhle (1623/145)
+*title "Big Leap back up to Wolf Chamber (formerly 'NW' survey)"
+*date 1983.08.08
+*instrument Compass 949847, Clino 113782
+*team Insts Naomi Makins
+*team Notes Wiggy
+*team Pics Wiggy
+; ref.:	back of 1983 logbook
+
+; ====== stations refindable to link to other surveys: ======
+
+;*export 1	; flake on RHS at top of Big Leap
+		; NB no survey down Big Leap (was it explored ?) not main way on
+*export 14	; top of big pitch (rhs on way into cave)
+*export 35	; in Wolf Cha. rhs (into cave) of exit passage - draught enters here
+
+	1	2	 6.3	151.	-02.
+	2	3	 5.36	071.	+03.
+	3	4	 6.71	327.5	+01.
+	3	5	 3.32	008.5	+09.
+	5	6	 3.3	138.5	-03.
+	5	7	 1.76	352.	+04.
+	7	8	 5.2	103.5	+04.
+	8	9	 5.27	348.5	+04.
+	9	10	 5.0	044.	+02.
+	9	11	 1.16	015.	-01.
+	11	12	 1.82	293.5	-05.
+	12	13	 2.4 	341.	-06.
+	13	14	 3.97	284.	-09.
+	14	15	 3.58	019.	-01.
+	15	16	 8.22	335.	-01.
+	16	17	 3.54	330.	-19.
+	17	18	 7.21	302.	-16.
+
+*date 1983.08.10 ; other details identical
+
+	18	19	 2.94	200.	+09.
+	19	20	 3.53	301.5	-15.
+	20	21	 1.9	264.5	-07.
+	21	22	 4.77	336.	-15.
+	22	23	 3.83	315.	-15.
+	23	24	 1.54	215.	-04.
+	24	25	 6.1	312.	-17.
+	25	26	 3.18	315.	-20.
+	26	27	 2.55	321.5	-10.
+	27	28	 2.29	324.5	-12.
+	24	29	 5.6	-	UP
+	29	30	 4.18	330.5	+72.
+	30	31	 2.35	348.5	+53.
+	31	32	 1.6	291.5	-04.
+	32	33	 2.15	280.	-20.
+	33	34	 4.44	012.	-06.
+	34	35	  .65	333.	-33.
+
+; station details (no LRUD) (NB survey is out, but lhs/rhs refer to travel *into* cave)
+;	1	flake, rhs, top of Big Leap
+;	2	wall, lhs
+;	3	wall, lhs
+;	4	top of "wrong side" of big pitch
+;	5	boulder in floor?
+;	6	wall, lhs, end of tight rift
+;	7	wall, rhs
+;	8	wall, lhs at T-jn
+;	9	wall, rhs at chamber exit
+;	10	wall below aven in chamber
+;	11	wall, lhs at chamber entry point
+;	12	wall, rhs outside of bend
+;	13	wall, lhs
+;	14	top of big pitch (lhs)
+;	15	lhs at 2m climb
+;	16	rhs, opposite too-tight passage
+;	17	wall, lhs
+;	18	wall, lhs outside of tight bend
+;	19	wall, rhs, outside of bend
+;	20	alcove, lhs
+;	21	wall, rhs
+;	22	wall, lhs
+;	23	at bend
+;	24	bottom of Bog Seat pitch, rh wall
+;	25	wall, true rhs at bend in inlet
+;	26	true r wall at jn with black stream inlet
+;	27	true l wall below aven
+;	28	true l wall near end of inlet
+;	29	far wall, part down Bog Seat Pitch
+;	30
+;	31	head of Bog Seat pitch (lhs, main way in)
+;	32	lh wall at tiny inlet above pitch
+;	33	rhs
+;	34	lhs in passage out of Wolf Chamber
+;	35	rhs at exit (end of old survey)
+
+*end part2

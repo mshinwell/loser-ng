@@ -1,0 +1,65 @@
+*begin BananaMain
+ ; formerly "BB" survey
+
+; Locn:	SE flank Vord. Schwarzmooskogel, Western massif, Totes Gebirge, Austria
+*title "Survey out from foot of 25m pitch to entrance"
+*date 1985.08.05 ; (actually an overnight trip 4th/5th)
+; Calibration:	At Bergrestaurant:
+;		Berg post 4 to Trisselberg 129, +03
+*team Mark (Roddick?) & Brian (Derby) (from logbook)
+*instrument 
+*team Tape 
+*team Notes 
+; Ref.:	Photocopied exercise book pages 21-23 in AERW's archive
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; permanent station on wall opposite rope, bolt hole 1.5m up
+		; marked "CUCC 85"		
+*export 44	; entrance station p152 or Q3
+
+   1   2  5.22 309.5 -28.
+   2   3 24.04    -     Up
+   3   4  3.80 202.    7.
+   4   5  1.15 295.   12.5
+   5   6  4.18 225.   -1.5
+   6   7  2.44 177.5  -3.5
+   7   8  3.78 163.  -16.
+   8   9  3.05 190.5   3.
+   9  10  7.9  188.5  12.
+  10  11  3.08 221.    0.5
+  11  12  3.74 107.5  53.5
+  12  13  3.03  94.   48.3
+  13  14  5.4  152.    5.5
+  14  15  2.48    -     Up
+  15  16  2.08 145.   19.5
+  16  17  4.28  84.   44.5
+  17  18  4.   133.5  27.5
+  18  19  4.1  149.   64.5
+  19  20  4.56 164.5  12.4
+  21  20  2.4  230.    0.
+  22  20  4.4  280.    0.
+  23  20  3.8   95.  -18.
+  20  24 20.2  188.5  35.
+  24  25 11.57  12.5   2.
+  25  26  3.25  78.   65.
+  26  27  7.27  21.5  -5.5
+  27  28  3.88 307.5  40.
+  28  29 12.78  28.   25.
+  29  30  9.94  29.   45.5
+  30  31  4.6   13.5  -7.
+  31  32  9.03  54.   61.5
+  32  33  6.77 102.5  20.
+  33  34  7.78    -     Up
+  35  34  4.33 146.5 -13.
+  36  35  2.9  267.  -50.
+  36  37  3.3   14.5  57.
+  37  38  7.28 115.   45.
+  39  38  3.05  40.5 -12.5
+  39  40  5.65 121.   31.
+  40  41  6.82  72.   45.5
+  41  42  9.6    5.   78.
+  43  42  1.85 149.  -25.
+  43  44  1.5  149.  -14.
+*end BananaMain
+

@@ -1,0 +1,46 @@
+*equate 2006-72.pt1.4 p2006-72
+
+*begin 2006-72
+
+*export pt1.4
+
+*begin pt1
+
+*date 2006.07.30
+*team Insts Jenny
+*team Notes Olly
+*team Pics Olly
+*team Tape Jenny
+*instrument ours + disto
+; notes in 2006 #15
+
+*export 2 4
+
+; 2007 survey is a little better
+;1	0	3.664	056	-04
+;1	2	3.066	216	+12
+2	3	4.532	227	+16
+3	4	2.040	006	+29
+
+*end pt1
+
+*equate pt1.2 pt2.3
+
+*begin pt2
+
+*date 2007.07.26
+*team Insts Jenny
+*team Notes Olly
+*team Tape Jenny
+*instrument ours + disto
+; notes in 2007 #34
+
+*export 3
+
+*data normal from to compass clino tape
+2	1	059	+08	2.738
+3	2	036	-14	4.449
+
+*end pt2
+
+*end 2006-72

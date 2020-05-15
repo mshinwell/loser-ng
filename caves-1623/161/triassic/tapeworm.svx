@@ -1,0 +1,89 @@
+;1996.08.12 W combined Hammeroids & Tapeworm surveys
+;1998.03.26 AERW sort begin/end, add comments, refs, *calib clino
+
+; ====== links between surveys in this file: ======
+
+*equate hammeroids.1	tapeworm.13 
+
+*begin tapeworm
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Tapeworm (pitch off Ring Piece Junction)"
+*team Insts Steve Bellhouse
+*team Notes Anthony Day
+*team Pics Anthony Day
+*team Tape Both
+*date 1996.7.18 ; - trip 1996-161-31 in logbook
+*instrument Set 1
+; Calibration:	at 161d
+;	B - A	034 036 034.5
+;		-09 -09 -08.5
+;	A - B	214 214 215
+;		+08.5 +08 +08
+
+; Ref.:	1996 KH survey book pp 110-111, 172
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; CM L wall TP2, opposite huge boulder, just before Ring Piece Junction
+*export 13	; CM at foot of plumb
+
+*calibrate clino -0.33
+*calibrate tape  -0.28
+
+;From	to	Tape	Compass	Clino 
+2	1	15.60	145	+08
+2	3	 7.02	261	-02
+4	3	 6.56	061	+10
+4	5	 6.21	158	-43
+6	5	17.50	015	+39
+6	7	10.27	296	-20
+2	8	 8.17	218	-17
+9	8	 8.38	358	+08
+9	10	 5.38	175	-08
+10	11	 5.31	299	+10
+11	5	 8.77	344	-13
+6	12	 1.82	069	-56
+*calibrate tape 0			;measuring rope length
+12	13	27.06	-	down
+*calibrate tape +4.0			;tape end snapped off (hence name!)
+13	14	 9.61	003	+11
+*end tapeworm
+
+*begin hammeroids
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Hammeroids"
+*team Insts Gunilla Andrée
+*team Notes Duncan Collis
+*team Pics Duncan Collis
+*team Tape Both
+*date 1996.7.19 ; - trip 1996-161-35 in logbook
+*instrument Set 1
+; Calibration:	at 161d
+;	B - A	035 035   035
+;		-09 -08.5 -08.5
+;	A - B	214 215 215
+;		+08 +07 +07
+;
+; Ref.:	1996 KH survey book p 173
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; CM at foot of plumb
+
+*calibrate clino -1.17
+*calibrate tape  +4.00
+
+;From  to  Tape Compass Clino
+1	2	 6.59	300	-29
+2	3	48.66	-	down
+; that leg being longer than the tape, are we sure that calib +4 is right ?
+3	4	 7.31	046	+08
+5	4	13.92	290	+10
+
+; LRUD data in book still to add
+
+*end hammeroids

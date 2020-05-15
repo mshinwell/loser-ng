@@ -1,0 +1,26 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Lärchenschacht 1623/88
+
+
+*entrance p88
+*equate p88 88.lerche1.516
+
+*begin 88
+*title "Lärchenschacht"
+
+; Eingänge exportieren (zum anbinden)
+*export lerche1.516     ; p88
+
+; Connections to other caves
+*export lerche1.steller	; 041.wetnwild.0
+*export lerche1.619	; 040.eishohle.619
+*export sophy.12	; 143.sophy.12
+*export lerche1.250
+
+; Connections in the cave
+*equate sophy.18 lerche1.250
+
+*include lerche1
+*include sophy
+
+*end 88

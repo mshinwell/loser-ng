@@ -1,0 +1,17 @@
+; Caves of the Schwarzmooskogelhoehlensystem
+
+; Connections/Verbindung
+; 
+; Under the Vord
+*include links-smk-south
+; Rest of system
+*include links-smk-north
+
+; 144:136 interface between smk-south and smk-north
+*equate 136.chile.runnybowels.1   144.gang.a
+
+
+; Caves under the Vord
+*include caves-smk-south
+; Rest of system
+*include caves-smk-north

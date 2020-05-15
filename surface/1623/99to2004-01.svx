@@ -1,0 +1,19 @@
+*begin 99to2004-01
+
+*title "Surface p99 to p2004-01"
+*date 2006.07.27
+*team Insts Jenny
+*team Notes Olly
+*team Tape Jenny
+*instrument ours + cucc yellow and black tape
+; notes in 2006 #17
+
+*export 1 4
+
+*calibrate tape +0.10 ; tape 10cm too short
+
+2	1	9.49	303	-13.5
+2	3	5.80	091	-03
+3	4	4.44	358	-14
+
+*end 99to2004-01

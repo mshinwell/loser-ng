@@ -1,0 +1,45 @@
+*begin withintheabove
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 258 "Tunnockschacht"
+
+;ref.:  2014 #04
+
+*export 1x 2x
+
+*title "Within the Above"
+*date 2014.07.28
+*team Insts Rob Adams
+*team Notes Neil Pacey
+
+;Instrument: Wookey's DistoX1
+
+;*calibrate tape +0.10   ; +ve if tape was too short, -ve if too long
+
+;from   to  tape    compass clino   remarks
+2x	1	9.44	063	+70
+2x	3	5.84	319	-2
+4	3	28.48	-	down
+5	4	11.64	248	-27
+6	5	14.73	-	down
+7	6	20.72	028	-71
+8	7	2.00	001	-35
+8	1x	4.47	264	-7
+
+*data passage station left right up down ignoreall
+;stn    L   R   U   D   Des
+1	-	-	-	-	top of climb boss
+2x	2.5	0	2.5	1.8	back of wall found un-named nv station
+3	2.5	3	28.5	1.8	top of boulder base of pitch numbered
+5	0	5	-	1	wall at top of boulder slope
+4	0	3	6	-	next to bolt at top of pitch
+6	3	5	-	15	below deviation
+7	0	1.5	20	-	wall near y-hang
+8	0	1.5	+20	-	nv top of bolder
+1x	-	-	-	-	marked nv stn numbered 1 from previous survey, bottom of pitch probably bobon
+
+
+
+
+
+*end withintheabove

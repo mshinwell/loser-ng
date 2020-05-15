@@ -1,0 +1,76 @@
+*begin dangerous
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "dangerous dig and the gut-busters"
+*date 2007.07.16
+*team Insts Kathryn Hopkins
+*team Notes Richard Mundy
+
+*instrument set cucc pony 1
+
+; ref 2007 #10
+
+
+; Calibration: stone bridge: -
+; ====== stations refindable to link to other surveys: ======
+
+*export 23
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+1	2	19.48	248	-83
+2	3	1.72	133	-03
+3	4	4.75	-	down
+4	5	0.40	188	-03
+5	6	4.84	250	-20
+7	6	2.40	063	-62
+7	8	4.85	204	+38
+9	8	7.70	041	-70
+9	10	1.31	172	+13
+10	11	4.83	132	-71
+12	11	3.83	166	-15
+12	8	3.33	040	-73
+6	13	3.56	337	+14
+4	14	2.82	010	+58
+14	15	2.52	054	+37
+15	16	2.97	352	-36
+16	17	0.85	134	+22
+17	18	6.82	025	-50
+17	19	3.56	302	+45
+19	20	3.05	245	-10
+20	21	2.27	293	-48
+21	22	2.95	317	-45
+23	24	3.77	284	+21
+24	1	1.89	082	-27
+
+
+*data passage station left right up down ignoreall
+
+;station details
+;name	L	R	U	D	description
+;1	-	-	-	-	boulder at pitch head
+;2	1.6	0	-	1.6	wall over ledge on pitch
+;3	0	0.45	-	-	wall over continuation of pitch
+;4	1	1	-	0	floor of pitch
+;5	1	1	-	0	as above
+;6	0.2	0.5	0	1.5	paint on wall
+;7	0.4	0.2	2	1.7	paint on wall over mud
+;8	0.4	0	3.5	0.6	wall over climb
+;9	-	-	-	-	rp on knobble at top of climb
+;10	-	-	-	-	as above
+;11	-	-	-	-	wall in chamber
+;12	-	-	-	-	-
+;13	-	-	-	-	wall of narrow passage
+;14	0	0.8	1.5	0.5	wall of climb
+;15	0.5	1.0	0.3	0.4	chamber before squeeze
+;16	0	0.6	1.7	0.1	wall after squeeze
+;17	0	0.6	1.7	0.1	as above
+;18	2.0	3.0	6.0	2.0	knobble in chamber
+;19	0.5	0.1	0.4	0.5	wall in crawl
+;20	1.2	0	0.5	0.4	as above
+;21	-	-	-	-	
+;22	0.6	0.1	0.4	0.3	where crawl becomes too tight
+;23	-	-	-	-	12 of quiz rift survey
+;24	-	-	-	-
+
+*end dangerous

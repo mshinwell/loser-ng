@@ -1,0 +1,54 @@
+*begin flashhard
+
+; stations linked into other surveys (or likely to)
+*export 1	5
+
+; Cave: Tunnocks
+; Area in cave/QM: Pitches Below Clayton's Cock Up 
+*title "flash hard"
+*date 2015.08.01
+*team Insts Sarah Parker
+*team Notes Fleur Loveridge
+*instrument DixtoX2
+*ref 2015#40
+
+; Centreline data
+*data normal from  to   tape      compass   clino
+2	1	6.51	026	-2
+3	2	6.44	283	+65
+4	3	5.07	024	+79
+5	4	3.24	304	+44	
+
+;-----------
+;recorded station details
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;(leave commented-out)
+;Red nail varnish markings
+;1	-	-	-	-	;	tie in station, nob on ledge near rebelay
+;2	2.2	0	15	24	;	RHW near yhang
+;3	0	1.2	20	17	;	LHW by deviation
+;4	2.5	0	15	12	;	near rebelay
+;5	0	2.3	16	26	;	LHW near rebelay
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+2	2.2	0	15	24	;	RHW near yhang
+3	0	1.2	20	17	;	LHW by deviation
+4	2.5	0	15	12	;	near rebelay
+5	0	2.3	16	26	;	LHW near rebelay
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1 A    flashhard.5  flashhard2.9     ongoing deep shaft
+
+;------------
+;Cave description
+; large shaft in hading rift
+
+*end flashhard

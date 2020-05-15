@@ -1,0 +1,66 @@
+; 1998.02.27 AERW sorted begin/end, added survey book refs, *cal clino
+;		  there is LRUD in the survey book, not yet added
+
+; ====== links between surveys in this file: ======
+
+*equate revenge.13 limolink.1
+
+*begin revenge
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Limo's Revenge"
+*date 1995.07.16-1995.07.17 ; trip 1995-161-6 in logbook
+*team Inst James
+*team Tape James/Scout
+*team Notes Nick
+; Calibration:	None
+; "Same instruments as for Oral" (and same person doing Insts) so assume:
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 13	; nobble on RH wall of first (left) bend in Dreaming of Limo
+
+*calibrate clino -1.5
+; ref.:	1995 survey book pp 8-9
+
+; from to tape compass clino
+2       1       2.95    081     +19
+2       3       4.35    283     -18
+3       4       1.76    153     -05
+4       5       3.38    209     -02
+5       6       9.05    207     -18     ; notes say 107?
+6       7       1.69    218     -38
+7       8       11.57   289     -22
+8       9       2.02    345     -11
+9       10      1.79    284     +01
+10      11      2.04    337     -05
+12      11      4.15    036     +13
+12      13      1.86    204     -16
+*end revenge
+
+*begin limolink
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Limo's Revenge link to NotWhat"
+*date 1995.07.24 ; trip 1995-161-20 in logbook
+*team Inst Nick
+*team Tape Nick
+*team Notes Anthony
+; ref.:	1995 survey book p 8 (calib as for Doubting Thomas, p 18)
+; Calibration:	Bot-Top	052,052,053; +08,+08,+08
+;		Top-Bot	233,234,233; -08,-08,-08
+;		Bot-Zinken 250.5,251,250
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; nobble on RH wall of first (left) bend in Dreaming of Limo
+*export 4	; carbide mark on R wall at sharp LH bend in Stomping
+
+*calibrate clino 0
+
+1       2       3.84    266     -23
+3       2       5.17    144     -03
+3       4       4.81    318     -05
+*end limolink

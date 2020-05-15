@@ -1,0 +1,36 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+
+*begin noodnoodles
+
+;ref.:	2008 #38
+
+*export prev
+
+*title "I Nood Noodles"
+*date 2008.08.11
+*team Insts Serena Povia
+*team Notes Aaron Curtis
+
+;comp and clino = Pony
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape Compass clino ignoreall
+1	2	3.48	100	-29 ;discovered all legs reversed when drawing up (KH 04/09)
+3	2	4.96	-	down;reversed
+4	3	4.15	276	-42;reversed
+5	4	4.30	308	-55;reversed
+prev	5	4.96	241	-67;reversed
+
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+1	1	0.30	3	4	RP on rock
+2	1	0.5	4	2.5	RP on floor
+3	0.4	0	6	2.5	RP on bolt
+4	0	0.6	3	2	RP on bolt
+5	1	1.5	3	4	RP on flake
+
+*end noodnoodles
+
+

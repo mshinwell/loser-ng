@@ -1,0 +1,59 @@
+*begin doublescoop
+
+; stations linked into other surveys (or likely to)
+*export 50x	4x	
+
+; Cave: Balkonhöhle
+; Area in cave/QM: Batteries *!*!*
+*title "doublescoop"
+*date 2016.07.05
+*team Insts Elliott Smith
+*team Notes Nathan Walker
+*team Dog   Rob Watson
+*instrument "Frank's Disto"
+; Calibration: Steinbrucken 0.48 error
+*ref 2016#34
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+50x	1	1.39	033	-18.2
+1	2	4.38	288.8	-57.8
+2	3	8.24	111.5	-79.0
+3	4	4.14	041.2	23.3
+3	5	6.25	239.6	-37.2
+3	6	5.52	341.6	3.9
+6	7	1.86	022.3	7.5
+7	8	3.47	330.3	-25.5
+8	9	5.85	358.1	-07
+9	4x	2.77	168.3	-7.4
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+;1	6.5	0	2.5	4
+;2	5.1	2.0	9.0	7
+;3	1.3	2.0	14.6	2.0
+;4	0.5	0.5	1	0.5
+;5	0.2	0.2	0.3	0
+;6	0.2	1.8	5	2
+;7	0.4	0.2	1.2	1.7
+;8	0	2.2	3	1.0
+;9	1.5	7.7	1.7	1.0
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	6.5	0	2.5	4
+2	5.1	2.0	9.0	7
+3	1.3	2.0	14.6	2.0
+4	0.5	0.5	1	0.5
+5	0.2	0.2	0.3	0
+6	0.2	1.8	5	2
+7	0.4	0.2	1.2	1.7
+8	0	2.2	3	1.0
+9	1.5	7.7	1.7	1.0
+
+
+*end doublescoop

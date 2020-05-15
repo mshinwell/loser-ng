@@ -1,0 +1,126 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schnellzughöhle 1623/115
+
+*begin babywind
+*title "Babylon-Windloch, abgehend vom Zweistromland"
+
+*export 3_21
+
+; Messteam: Florian Gruner, Florian Renz, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 3
+*date 1999.08.09 ; 08/09 (Übernachttour)
+
+*data normal from to length gradient bearing
+3_21	21_1	10.15	27	61
+21_1	21_2	7.36	9	45
+21_2	21_3	1.95	7	353
+21_3	21_4	10.1	10	56
+21_4	21_5	4.06	29	339
+21_5	21_6	1.9	13	33
+21_6	21_7	12.24	37	5
+21_7	21_8	5.4	14	70
+21_8	21_9	9.5	-9	23
+21_9	21_10	6.34	-25	335	; offenes ?
+
+; Raumwerte
+*data passage station left right up down
+21_1	1.5	0.5	0	1
+21_2	1.5	0	0.5	1
+21_3	0	1.5	0.5	1
+21_4	1.5	0	1	0.5
+21_5	0	1	0.2	1
+21_6	2	0.5	1	0.5
+21_7	0	1	1	1
+21_8	1	0	0.5	1.5
+21_9	2	0	1	1.5
+21_10	1	0.8	0.8	0.8
+*date 2000.05.27
+21_11	0	1.1	0	0.5
+21_12	1.2	0	1	0.5
+21_13	2	0	0.5	1.7
+21_14	1.1	0	1	1.1
+21_15	0	1.1	9.5	1
+
+
+; -2- Babylon-Windloch, Fortsetzung
+; Messteam: Florian Gruner, Jörg Haussmann
+; Zeichner: Florian Gruner
+; Referenz: Messbuch SMK 5
+*date 2000.05.27
+
+*data normal from to length clino compass
+21_10	21_11	4.97	-14	22.5
+21_11	21_12	4.16	2	28
+21_12	21_13	9.56	24.5	36
+21_13	21_14	10.6	32	46
+21_14	21_15	12.3	11	19
+; Schacht
+
+; Seitengang dazu
+21_9	9a	16.3	-30	317
+9a	9b	4.86	-30	343
+9b	9c	20.1	-31	310
+9c	9d	8.6	-27.5	288
+
+; Raumwerte
+*data passage station left right up down
+21_9	2	0	1	1.5
+9a	1.1	1.1	1.5	0.1
+9b	1	1	1.2	0.3
+9c	0.7	1.5	1.5	1.5
+9d	1.3	0	1.2	0.6
+
+
+; -3-
+; Messteam: Joggel, Schnitzel, Aiko
+; Referenz:
+*date 2004.08.25
+
+*data normal from to length clino compass
+21_15	21_16	9.30	-34	46
+21_16	21_17	5.85	-38	339
+21_17	21_18	4.35	-90	0
+21_18	21_19	3.88	-21	4
+21_19	21_20	3.15	-90	0
+21_20	21_21	10.47	-24	10
+21_21	21_22	8.57	-44	27
+21_22	21_23	6.77	-41	29
+21_23	21_24	9.53	13	52
+
+21_16	21_16_1	6.90	32	16
+21_16_1	21_16_2	7.95	-28	34
+21_16_2	21_16_3	2.54	-17	340
+21_16_3	21_16_4	2.64	14	31
+
+; keine Raumwerte
+
+; -4-
+; Messteam: Uli, Uwe, Matthias
+; Referenz:
+*date 2004.08.25
+
+*begin ; Gon
+*units compass grads
+*units clino grads
+
+*data normal from to length clino compass
+21_13	21_13_1	7.10	-41	379
+21_13_1	21_13_2	7.41	-31	340
+21_13_2	21_13_3	6.12	-20	353
+21_13_3	21_13_4	6.38	-38	272
+21_13_4	21_13_5	7.24	-26	381
+21_13_5	21_13_6	15.08	-30	338
+21_13_6	21_13_7	7.32	-28	364
+21_13_7	21_13_8	14.18	-32	349
+21_13_8	21_13_9	7.66	-14	349
+21_13_9	21_13_10	3.45	-28	295
+21_13_10	21_13_11	4.36	-16	358
+21_13_11	21_13_12	2.97	-8	310
+21_13_12	21_13_13	5.00	0	310
+
+*end ; Gon
+
+; keine Raumwerte
+
+*end babywind

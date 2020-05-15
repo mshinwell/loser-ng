@@ -1,0 +1,91 @@
+; 1998.02.09 AERW removed 1-2 from Gob.top as it is estimated and duplicate
+; 1998.02.27 AERW fettled begin/end, added comments, refs, exports
+
+*begin gob
+
+; ====== stations refindable to link to other surveys: ======
+
+*export top.7  	; RH wall before traverse over Gob, point marked "S"
+*export rest.17	; point on E wall of chamber below Captive Wedge, near S end
+*export rest.6 	; hang bolt for Alexander Technique (needed for survey of
+			; traverse over pitch (93-04) and continuation as QM 95-74)
+
+; ====== links between surveys in this file: ======
+
+*equate rest.1	top.2
+
+*begin top
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "Gob on You, first part 'low grade'"
+; top section: gob on you to wish you were here (not me)
+*date 1989.09.03 ; trip 1989-161-40 in 1989 logbook
+*team Notes Adam Cooper
+*instrument Mark Fearon
+*instrument clino: 545763, compass: 724899, tape "broken"
+; ref.:	back of 1989 logbook pp 89-92
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 2	; Bolt at top of Wish You Were Here (not me) Pitch
+*export 7	; RH wall before traverse over Gob, point marked "S"
+
+;1       2       25.00   -       up ; estimated from rope length (pitch piss wet)
+2       3       7.26    096     32
+3       4       9.68    015     70
+5       4       4.75    197     -52
+6       5       8.73    292     -06
+6       7       5.82    166     10
+
+*end top
+
+*begin rest
+; Cave:	Kaninchenhöhle (1623/161)
+*title "Gob on you - rest of it"
+*date 1993.07.14 ; trip 1993-161-10 in logbook
+*team Notes wookey
+*team Insts Adam
+*team Tape Adam
+*instrument compass: 132004, clino 726974
+; Calibration:	adam: '92 cairn:(fore)029,040;(back)217.5,217.5,219.5, 219.5
+;		 "  :+10, -10.5
+;        zinken:250
+; wookey '92 cairn: (back) 217, 220, 218, 218, 218
+
+; Ref.:	1993 survey book pp 144-147
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; Bolt at top of Wish You Were Here (not me) Pitch
+*export 6	; hang bolt for Alexander Technique (needed for survey of
+		; traverse over pitch (93-04) and continuation as QM 95-74)
+*export 17	; point on E wall of chamber below Captive Wedge, near S end
+
+*calibrate clino -0.25
+
+; survey in
+; Wish You Were Here (not me) Pitch
+2       1       27.30   103     +77
+3       2        2.76   099     +02.5
+3b      3        0.50   010      00
+4       3b       4.08    -       UP
+5       4        3.70   096.5   -03
+5       6       15.27   292.5   -05
+; Alexander Technique pitch
+6       7       50.28   -       Down
+8       7        3.13   004     +04.5
+8       9        8.9    104.5   -36
+9       10       2.66   116     -49
+13      12       5.31   128.5   +58
+14      13       0.3    020      00
+14      15      10.98   -       down
+16      15       6.57   108     +82
+16      16b     15.08   -       down
+17      16b      9.65   246.5   +25.5
+; these two legs surveyed on way out
+11      12       4.03   276.5   +03
+10      11      31.15   145     -79
+
+*end rest
+*end gob
+

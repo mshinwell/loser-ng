@@ -1,0 +1,38 @@
+*begin roundtrip
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle
+*title "Round Trip (passage off watnobutcombe)"
+*date 2003.08.02 ;date the survey was done
+*team Insts Becka Lawson
+*team Notes Dave Loeffler
+*team Pics None
+*team Tape Earl Merson
+*instrument Compass set #1; Clino set #1 
+; ref.:	2003 #24 ; the #number is on the clear pocket containing the original notes.
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 ; list all exported survey points.
+	; remember to add some *equate statements to 204.svx to link this survey in
+
+*calibrate tape 0.07	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	4.87	015	+13
+2	3	2.41	171	+03
+4	3	3.94	357	-03
+4	5	3.10	224	-11
+6	5	5.71	348	+16
+6	7	4.37	238	-11
+
+;stn	L	R	U	D	Desc
+;1	-	-	-	-	Point 3 off prev svx (Earl thinks he means watnobutcombe.3)
+;2	0.5	0	1.5	1.2	RP on knobble
+;3	0	0.3	3.0	4.7	Knobble? on LW
+;4	0.6	0	1.0	1.5	RP RW near pillar
+;5	0.3	0	5.0	1.0	RP RW corner
+;6	2.5	0.3	2.5	0.2	RP Floor boulder
+;7	-	-	-	-	RP on RW
+
+*end roundtrip

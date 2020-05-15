@@ -1,0 +1,30 @@
+*begin delicious1
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	258 "Tunnockschacht"
+
+*export 1 2 35
+
+*title "Delicious Ceak 1"
+*date 2008.07.29
+*team Insts Ollie Stevens 
+*team Notes Becka Lawson 
+*instrument Becka's Pony
+
+;ref.:	2008 #11
+
+*calibrate tape 0.40	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+2	1	20.79	146	-63	
+35	2	2.41	199	-36
+
+*data passage station left right up down ignoreall
+1	0	8	35	1.5	second (middle) spit on ledge, rp
+2	0	6	15	1.5	rp above pitch, numbered in pencil
+35	0	5	5	1.5	station 35 of Maximum Pleasure 3 survey (Becka and Martin)
+
+*end delicious1
+
+
+

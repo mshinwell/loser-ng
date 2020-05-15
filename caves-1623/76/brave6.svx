@@ -1,0 +1,28 @@
+;Eislufthoehle 1623/76
+
+*begin brave6
+
+*title "Brave New World 6"
+*date 2004.07.27
+*team Insts Jenny Black
+*team Notes Olly Betts
+*team Tape Jenny Black
+*instrument Compass 5 ; Clino 3
+; notes in 2004 #22
+
+*export 1 5
+
+1	2	4.88	115	+14
+2	3	1.93	118	-01.5
+3	4	4.67	101	+10
+5	4	1.26	358	+06
+
+*data passage station left right up down ignoreall
+
+1       0.05    0.3     0.65    0.8     NP "1" LHW
+2       0.05    0.3     0.55    0.9     NP LHW by junction
+3       0.35    0.2     0.4     0.5     NP RHW
+4       0.2     0.6     0.5     0.55    NP "4" LHW
+5       -       -       -       -       == brave.19
+
+*end brave6

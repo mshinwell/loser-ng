@@ -1,0 +1,77 @@
+*begin hrv
+
+; stations linked into other surveys (or likely to)
+*export 23 1 20 4 5
+
+; Cave: 107
+; Area in cave/QM: 13C-01-A  (Bottom of Notwindow Shaft, at Coldest Place on earth)  
+*title "Heat Recovery Ventilation"
+*date 2015.08.05
+*team Insts George Breley
+*team Notes Wookey
+*instrument Wookey DistoX2
+; Calibration: None
+; Survey folder reference: 2015#46
+; the #number is on the clear pocket containing the original notes
+
+; Centreline data
+*data normal from  to   tape      compass   clino
+1   2   8.386  238.9  +02.0
+2   3	4.992  178.4  -12.6
+3   4  13.526  178.6  -11.3
+5   6	6.997  071.8  +26.9
+3   6	1.821  125.3  +17.8
+7   3	2.875  280.0  -15.4
+8   7	4.929  316.7  -06.4
+9   8	1.797  53.2   -08.4
+10  9	4.057  299.2  -05.3
+12  11	4.539  270.8  -27.6
+11  10	0.836  197.5  -28.8
+13  12	3.484  336.3  +08.0
+14  13	1.661  219.6  -10.3
+15  14	2.488  320.4  -10.3
+16  15	1.935  196.5  -13.4
+17  16	3.663  170.2  -11.2
+18  17	7.493  261.9  -20.6
+19  18	3.847  224.0  -18.4
+20  19	4.450  284.7  -25.2
+1   21 11.630  187.2  +65.8
+21  22  3.524  210.1  +17.2
+22  23	1.052  171.7  +06.6
+
+;-----------
+;recorded station details
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;(leave commented-out)
+;Red nail varnish markings
+;1   0.8   0     5.3   1.6  ; NP on boulder. pt 23 on foo survey ]
+;2   0.3   1.2   6     1.2  ; NP '2' LHW ]
+;3   1.3   0     3.4   0.2  ; Rock on floor - not refindable ]
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+;*data passage station left right up down 
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1 A    hrv.3     -  2m climb on left; nearest-station may be bollocks because somebody didn't follow the template properly
+
+;------------
+;Cave description
+
+;(leave commented-out)
+;freeform text describing this section of the cave
+
+
+*end hrv

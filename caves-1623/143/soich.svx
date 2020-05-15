@@ -1,0 +1,24 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Weiße Warzen Schacht 1623/143
+
+*begin soich
+*title "Voll em Soich"
+
+*export 0	; hades.30
+
+; -1-
+; Messteam: Uwe, Thomas
+; Zeichner: Uwe
+; Referenz: SMK8 
+*date 2012.08.10
+
+*data normal from to length compass clino
+0	1	10.19	144	-32
+1	2	31.15	284	-81
+2	3	8.29	128	11
+3	4	5.24	229	14
+4	5	3.45	119	-2
+5	6	13.80	181	-51
+
+*end soich
+

@@ -1,0 +1,25 @@
+*equate 138.0	P138	;Tag
+*entrance P138
+
+*begin 138
+
+; Note this is not a real survey - it exists just to 'give the general idea'
+
+; Locn:	flank of Vorderer Schwarzmoos Kgl, Loser Augst-Eck, Totes Gebirge, Austria
+*title "Schwa Schacht 1623/138"
+*date 2000.03.06 ; discovered 1983
+*team Wookey
+*instrument none
+; Calibration:none
+; Ref.:	
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0	; the entrance tag
+
+;readings grade 1
+*data normal from to length bearing gradient
+    0      1        6     240      -20
+    1      2        40     -      Down
+
+*end 138

@@ -1,0 +1,30 @@
+*begin appendix
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Appendix"
+*date 2011.08.15
+*team Insts Andy Chapman
+*team Notes Andy Chapman
+*team Tape Andy Chapman
+*instrument Shetland attack pony, Tape Disto
+; Calibration: None
+; ref: 2011#50
+; ====== stations refindable to link to other surveys: ======
+
+*export p
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	2.88	22	-40
+2	3	4.86	60	+25
+2	4	6.81	244	+32
+p	1	1.32	118	+62
+
+;station details
+*data passage station left right up down ignoreall
+2	-	-	-	-
+3	1	1	1.5	0.5
+4	1.5	3	2.5	3	
+*end appendix

@@ -1,0 +1,88 @@
+*begin nordalpsurf
+*export 1.1 1.10 1.11
+*export 2.6 ; we (Wookey + I) think this is 162b
+
+*equate 1.11 2.1
+*begin 1
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Nordalpenschacht, 1623/1999-01
+*title "Surface from Vd1 to cave tag"
+*date 1999.07.28
+*team Insts Brian Outram
+*team Notes Earl Merson
+*team Pics 
+*team Tape 
+*instrument Compass # ; Clino # 
+; Calibration:	
+; ref.:	1999 NotKH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 10 11
+
+*calibrate tape -0.22	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape clino compass
+;from	to	tape	clino	compass	; remarks
+1	2	28.25	-06	193
+3	2	23.51	-02	348
+3	4	30.40	06	129
+5	4	26.45	-17	324
+5	6	30.10	04	137
+7	6	29.67	-10	327
+7	8	18.19	08	120
+9	8	21.30	30	238
+9	10	10.75	-40	033
+11	10	1.90	-20	288	;this leg done by Becka and Brian on 2/8/99 and used a 15cm too long tape with a leg of 1.97m, so I've changed this to 1.90 as the tape correction is +22cm here
+
+;station details
+;name	L	R	U	D	description
+;1	; VD1
+;2	; top of rock on spur halfway between vd1 and path to 161
+;3	; 2m from path to 161d, rock on spur 40m from start of gully
+;4	; midway along fallen bunda at end of small gully
+;5	; top of small gully crack in 3 rocks at ground level
+;6	; rock on spur over gully from 5
+;7	; in bunde gully at top of sloping pavement
+;8	; point in bunde on spur (top)
+;9	; limestone ledge (top of skipole)
+;10	; Nord Alpen Hole 0
+;11	; cave tagged bolt hole
+*end 1
+
+*begin 2
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Nordalpenschacht, 1623/1999-01
+*title "Surface from Nordalpenhöhle to other surface shaft and horizontal other entrance to Nordalpenschact"
+*date 1999.08.02
+*team Insts Becka Lawson
+*team Notes Brian Outram
+
+*instrument Compass 3 ; Clino 3 
+; Calibration:	
+; ref.:	1999 NotKH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 6
+
+*calibrate tape -0.15	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape clino compass
+;from	to	tape	clino	compass	; remarks
+1	2	17.74	-31	101	;bolted cave tag at entrance to Nordalpenhöhle, 99-01
+3	2	20.04	-01	008
+3	4	29.89	-04	169.5
+5	4	22.08	-04.5	006
+5	6	13.92	-11	182	;station 6 is about 2m from the pitch head and should have the cave tag on and is a spit hole at the moment
+2	11	23.56	-04	002
+12	11	21.75	+15	183
+12	13	1.91	-04	295	;station 13 has red dot on roof of horizontal drafting tube plus number 13 on underside of roof
+
+;station details
+;name	L	R	U	D	description
+
+; all stations that weren't bolts are marked with red paint dots
+
+*end 2
+*end nordalpsurf

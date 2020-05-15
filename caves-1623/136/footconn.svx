@@ -1,0 +1,40 @@
+;1999.07.26 JH created
+; Theatre to the bottom of Footlights connecting legs
+
+*begin footconn
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Kaninchenhöhle, 1623/161 (136)
+*title ""
+*date 1999.07.23
+*team Insts Becka Lawson
+*team Notes Wookey
+*team Pics Wookey
+*team Tape Becka Lawson
+*instrument Compass #3 ; Clino #3
+; Calibration:  
+; ref.: 1999 KH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 5
+
+*calibrate tape -0.22   ; +ve if tape was too short, -ve if too long
+
+;from   to  tape    compass clino   ; remarks
+1   2   20.75   202 +12
+2   3   10.12   222 -30
+; was "4 3" in original data, but even the sketch has this redrawn as "3 4"
+3   4   6.46    052 -43
+5   4b  29.63   -   down
+4b  4   0.55    340 0
+
+;station details
+;name   L   R   U   D   E   description
+;1  8   4   -   2   -   Big rock at foot of theatre pitch
+;2  0.5 0.5 3   0.5 -   ? on ridge
+;3  1.6 0   1.7 1.5 -   CM and red 'S'
+;4  3.2 0.9 30  0.2 -   CM at foot of pitch 
+;4b                     where plumb actually hangs
+
+*end footconn

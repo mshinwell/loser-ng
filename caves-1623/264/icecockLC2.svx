@@ -1,0 +1,59 @@
+*begin icecockLC2
+
+; stations linked into other surveys (or likely to)
+*export 5 7
+
+; Cave: Balkonhoehle
+; Area in cave/QM: icecock aven loop closure
+*title "Ice Cock Aven loop closure 2"
+*date 2015.07.29
+*team Insts Elliott Smith
+*team Notes Michael Sargent
+*team Pics none
+*team Tape Ben Whetton
+*instrument Fleurs DistoX
+; Calibration: unknown
+*ref 2015#22
+
+; Centreline data
+*data normal from  to   tape      compass   clino
+5	6	4.90	260.3	-26.3
+7	6	2.41	157.5	+01.0
+
+;-----------
+;recorded station details
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;(leave commented-out)
+;5	1.7	2.1	2.9	0.9	;	existing #9 from icecock2
+;6	0	0.8	0.4	0.1	;	RP RHW in sandy tube
+;7	0.4	0.5	1.1	0.1	;	existing #14 from northhole
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+5	1.7	2.1	2.9	0.9	;	existing #9 from icecock2
+6	0	0.8	0.4	0.1	;	RP RHW in sandy tube
+7	0.4	0.5	1.1	0.1	;	existing #14 from northhole
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+; None
+
+;------------
+;Cave description
+
+;linking closing a loop at the joining of icecock2 and northhole
+
+
+*end icecockLC2

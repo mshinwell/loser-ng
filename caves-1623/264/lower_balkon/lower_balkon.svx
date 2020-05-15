@@ -1,0 +1,154 @@
+*begin lower_balkon
+*export mash.0
+*export prangman.22
+*export littleboy.42
+
+;2017 surveys
+
+*include naturecalls
+*equate naturecalls.1 mash2.7
+
+;2018 surveys
+
+*include mash
+;*equate cathedralchasm2.46 mash.0
+
+*include mash2
+*equate mash.3 mash2.3
+
+*include hangman
+*equate naturecalls.8 hangman.0 
+
+*include hangmansdaughter
+*equate hangmansdaughter.16 hangman.9
+
+*include prangman
+*equate hangmansdaughter.21 prangman.21
+
+*include snailtrail
+*equate snailtrail.1 hangman.8
+
+*include sluggish
+*equate sluggish.19 snailtrail.8
+
+*include mudslope
+*equate hangman.8 mudslope.17
+
+*include choked
+*equate choked.9 prangman.25
+
+*include mudslope2
+*equate mudslope.13 mudslope2.13
+
+*include mongolrally
+*equate mudslope2.31 mongolrally.31
+
+*include littleboy
+*equate mongolrally.48 littleboy.78
+
+*include floodland
+*equate mongolrally.31 floodland.0
+
+*include catlitter
+*equate mudslope2.28 catlitter.1x
+
+*include myopia 
+*equate myopia.x hangman.4
+
+*include pitstop
+*equate pitstop.1 mudslope2.28
+
+*include safencomfortable
+*equate safencomfortable.56x pitstop.56
+
+*include turnbacktime
+*equate turnbacktime.1 mudslope2.28
+
+*include pitstop_2
+*equate pitstop_2.2x pitstop.2
+
+*include pitstop_3
+*equate pitstop_3.56x pitstop.56
+
+*include pitstop_4
+*equate pitstop_4.44x pitstop.44
+
+*include suctioncup
+*equate suctioncup.29 littleboy.18
+
+*include onedirection
+*equate onedirection.59 littleboy.59
+
+*include scoopyloopy
+*equate scoopyloopy.28 onedirection.28
+*equate scoopyloopy.40 littleboy.5
+
+*include 2cold2think
+*equate 2cold2think.4 littleboy.73
+
+*include mush
+*equate mush.44 2cold2think.0
+
+*include rubberman
+*equate rubberman.25 mush.4
+
+*include rubbermanstream
+*equate rubberman.3 rubbermanstream.3
+
+*include camploop
+*equate camploop.0 littleboy.54
+*equate camploop.9 littleboy.0
+
+*include waterhole
+*equate waterhole.0 littleboy.61
+
+*include littleboyboltclimbs
+*equate littleboyboltclimbs.26 littleboy.26
+
+*include lbbeneaththeboulders
+*equate lbbeneaththeboulders.x littleboy.23
+
+*include ntdwyt
+*equate ntdwyt.77 littleboy.72
+
+*include northernpowerhouse
+*equate northernpowerhouse.0 pitstop_4.4
+
+*include youdontknowyourebeautiful
+*equate youdontknowyourebeautiful.0 onedirection.20
+
+*include microscopicthunder
+*equate microscopicthunder.0 onedirection.28
+*equate microscopicthunder.3 onedirection.24
+
+*include ichfuhlenichts
+*equate youdontknowyourebeautiful.1 ichfuhlenichts.1
+
+*include einfach
+*equate einfach.53 ichfuhlenichts.53
+
+; 2019 surveys
+
+*include lipstickdipstick
+*equate lipstickdipstick.20x safencomfortable.20
+
+*include medusasmaze.svx
+*equate medusasmaze.21x northernpowerhouse.21
+
+*include medusasmaze2.svx
+*equate medusasmaze.28 medusasmaze2.x28
+
+*include wheresthemilk.svx
+*equate lipstickdipstick.8 wheresthemilk.8x
+
+*include drunkdrivers.svx
+*equate safencomfortable.20 drunkdrivers.20x
+
+*include custardcavalry.svx
+*equate safencomfortable.34 custardcavalry.34x
+
+*include myopia2.svx
+*equate myopia2.10 myopia.10
+
+*end lower_balkon
+

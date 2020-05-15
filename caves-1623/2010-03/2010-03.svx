@@ -1,0 +1,33 @@
+*equate p2010-03 2010-03.GPS
+
+
+*begin 2010-03
+
+; *title ""
+*date 2012.08.15
+*team Insts Ian Walker
+*team Notes Noel Snape
+
+*export GPS
+
+*entrance 1
+
+*data normal from to tape	compass clino
+
+*flags surface
+x1	1	4.76	144	-41
+x1	GPS	3.38	80	-02
+
+*flags not surface
+2	1	10.80	75	63
+3	2	2.95	264	30
+3	4	3.26	129	15
+
+*data passage station left right up down ignoreall
+
+;stn	L	R	U	D	Desc
+2	1	2	3	1.5	
+3	0.3	0.9	3.5	1.5
+4	0.2	0.3	3.0	1.8
+
+*end 2010-03

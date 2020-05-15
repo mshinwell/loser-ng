@@ -1,0 +1,42 @@
+; One-off GPS fixes from 2018.
+;
+; In preference to using this file, download a GPX file from the device
+; which recorded the measurements, and follow the instructions in the README
+; in the "gpx" directory.
+
+*begin
+
+*cs out UTM33
+
+*cs UTM33
+
+;; Prospecting trip 2018-07-11 (mshinwell, rlawson, tcrossley)
+;; Fix taken with Becka's phone, GPS Essentials app, accuracy 4m.
+*fix p2018-ms-01 reference 410730 5274320 1698
+*entrance p2018-ms-01
+
+;; Main fix for p2018-ms-02 comes from mshinwell's tracklog.
+;; This fix recorded using Becka's phone, GPS Essentials app, accuracy 4m.
+*fix p2018-ms-02-alternative reference 410635 5283186 1724
+
+;; Main fix for p2018-ms-03 comes from mshinwell's tracklog.
+;; This fix recorded using Becka's phone, GPS Essentials app, accuracy 3m.
+*fix p2018-ms-03-alternative reference 410376 5283124 1714
+
+;; Main fix for p2014-ms-14 comes from mshinwell's GPS.
+;; Point is at cave tag
+;; Altitude copied from 2014 fix
+;; THIS NEEDS TO BE CHECKED
+*fix p2014-ms-14 reference 412549 5282427 1669
+
+;; Fix for 2018-AA-01 comes from fox's phone, altitude is currently estimated
+;; Original lat/long 47o41'29.9"N 13o49'3.2"E
+*fix p2018-aa-01 reference 411271 5282705 1800
+
+;; Fix for 2018-pf-01 from nuomini's Garmin
+*fix p2018-pf-01 reference 411526 5282885 1859
+
+;; Fix for 2018-pf-02 from fox's phone
+*fix p2018-pf-02 reference 411536 5282897 1867
+
+*end

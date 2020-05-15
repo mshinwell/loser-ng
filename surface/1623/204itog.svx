@@ -1,0 +1,53 @@
+;p204g is the old tag bolt (on a boulder, therefore may not be refindable).
+;A second tag bolt was placed in something more permanent
+*equate 204itog.4 t204g
+
+*begin 204itog
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "204i to 204g"
+*date 2005.08.09
+*team Insts Frank Tully
+*team Notes Anthony Day
+*team Pics Anthony Day
+*team Tape Both
+*instrument Compass #5 ; Clino #5 Tape: blue open reel
+; Calibration: none
+; ref.:	2005#41
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 2 4 5 12
+
+*calibrate tape +0.162
+
+;from	to	tape	compass	clino	; remarks
+1	2	5.12	209	-09
+3	2	5.69	113	+05
+3	4	21.70	278	-23
+4	5	2.87	286	-41
+6	4	18.93	203	-22
+6	7	13.62	059	+29
+8	7	26.54	225	-16
+8	9	11.07	078	+20
+10	9	29.72	305	-14
+10	11	23.03	081	+19
+12	11	12.33	270	-15
+
+;station details
+;name	ht	description
+;1	-	Paint by I entrance
+;2	-	204i tag bolt
+;3	0	cairn
+;4	0	204g tag bolt (new)
+;5	1.2	old 204g tag bolt on boulder
+;6	0	rock on ridge
+;7	0	rock on ridge
+;8	0.6	rock on ridge
+;9	1.0	bunde
+;10	0	upstanding rock
+;11	0	dead bunde (used on last survey?)
+;12	0	scratched rock from earlier survey
+
+*end 204itog
+

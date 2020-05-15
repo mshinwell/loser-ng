@@ -1,0 +1,37 @@
+*begin 40to88
+;Dateien der Außenvermessungen an der SMK-Eishöhle und dem Lärchenschacht
+
+*export 400 516
+
+; Survey date unknown, just suppress warning for now
+*calibrate declination 0
+; The laser points were fixed in Summer 1987 and a second batch apparently
+; in 199x, so presumably this is after Summer 1987.  Best upper bound so
+; far is 2001-10-11 as we definitely had this data by then.
+
+;*fix 400	36458	81700	1689	; TP am E1 der SMK-Eishöhle	
+;400 is Laser point by Eishöhle main entrance (E1)
+;516 is P88(FrGr)
+
+*DATA normal from to length gradient bearing ignoreall
+
+;Meßzug vom Eingang der Eishöhle (E1) zum Lärchenschacht-Eingang
+
+400	502	28.4	1	261.9
+502	503	49.6	-27	102.6
+503	504	35	-12	174.6
+504	505	15	10	172.8
+505	506	17.1	-8	161.1
+506	507	22.17	-16	189.9
+507	508	18.4	0	207.9
+508	509	36.5	0	198
+509	510	27.6	-9	234
+510	511	24.7	-18	212.1
+511	512	40.4	-5	237.6
+512	513	25.8	18	206.1
+513	514	22.15	-6	197.1
+514	515	17.4	-10	203.4
+515	516	7.2	-18	252
+
+
+*end 40to88

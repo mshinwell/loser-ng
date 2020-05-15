@@ -1,0 +1,217 @@
+;1996.08.13 W one of duplicate legs 4-3 & 5-3 removed ...
+;1996.08.16 AW ... and replaced with correct one
+;1996.12.04 AJD 18-19 changed from DOWn to UP
+;1998.03.26 AERW sort begin/end, add comments, refs, *calib clino
+;1998.04.02 AERW included pfbypass, lying down & brian, as these link only
+;        to deadbats so they were misplaced previously
+;2009.07.27 AJD sorted titles
+
+; ====== links between surveys in this file: ======
+
+*equate pfbypass.1  deadbats.21
+*equate pfbypass.4  deadbats.23
+*equate brian.1     deadbats.27
+*equate lyingdown.1 deadbats.36
+*equate lyingdown.10    deadbats.40
+
+*begin deadbats
+
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+;*title "Dead Bat Chamber to 5-Ways and beyond"
+*date 1996.07.17 ; - trip 1996-161-22 in logbook
+*team Insts Dave Milne
+*team Notes Phil B
+*team Notes Gill
+*team Pics Phil B
+*team Pics Gill
+*team Tape Juliet
+*team Tape Chris
+*instrument Set 3
+; Calibration:  To come
+; Calibration:  None - assumed same as for Natural City Survey (96KHp94) - clino +1
+;
+; Ref.: 1996 KH survey book pp 104-109
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1   ; edge of slope well above top of 13m pitch to Deadbats Cha.
+*export 12  ; carbide mark on roof spike, LH side, below aven, above QM 96-30
+*export 16  ; cairned boulder at Gotham City Junction
+*export 19  ; LH side, below roof in small chamber just before ramp up. near QM 96-38
+*export 20  ; CM on LH roof just past aven lead of QM 96-39
+*export 21  ; boulder on LH slope by Sylvester Cobble Pot (QM 96-40) and R jn to Penguin Falls Bypass
+*export 23  ; CM on boulder at entrance to Five-Ways
+*export 27  ; CM on spike on LH corner, start of Brian's Pitch
+*export 28  ; CM in front of bolt on LH wall, top of Tipico Asturias
+*export 29  ; CM on RH (SW) wall at junction with Pothole Passage
+*export 32  ; CM, top of rock on floor, Pothole Passage, jn to Xtal clear/Vadose
+*export 33  ; CM on RHS above freeclimb, start of Vadose
+*export 36  ; CM on calcite on roof, junction with Lying Down
+*export 40  ; CM on boulder, LHS of passage where Lying down comes in, way back to Fiveways
+
+*calibrate clino +1.0
+*calibrate tape -0.20
+
+;From   to  Tape    Compass Clino 
+*title "Batman Series"
+1   2    6.44   133 -54
+2   3   13.40   -   down    ; notes read 3.40
+4   3    8.90   289 +06
+;5  3    8.9    289 +06     ; identical leg removed
+5   3   11.70   267 +10     ; and replaced with correct one
+6   3   14.35   241 -01.5
+7   3   14.3    213 +01
+8   3    7.70   259 +30
+9   6   11.34   311 -30
+10  9    4.96   263 +45
+8   11  12.00   -   down
+12  7   12.75   169 -04
+13  12  10.56   168 +01
+14  13   5.20   228 -11
+15  13   8.12   152 +0.5
+16  15  12.10   204 -02
+16  17   0.7    -   up
+17  18  18.60   097 +09
+19  18   1.00   -   UP   ; changed from DOWN in notes (18 is on ceiling)
+20  19  21.54   227 -12
+20  21  14.90   047 +06
+22  21   5.70   236 -24
+22  23   8.64   118 +13.5
+*title "Completely Loopy"
+23  24   7.04   123 +08
+24  25  14.13   044 +04
+*title "Shaftmine"
+23  26  10.20   071 +44
+27  26  15.75   176 +11
+*title "Tipico Asturias"
+27  28  14.73   282 -05
+*title "Shaftmine"
+29  27  17.30   316 -12 ; written as to ss28
+*title "Pothole Passage"
+29  30  11.22   132 +04
+31  30   1.00   -   down
+32  31  14.60   298 -10
+33  32  11.34   256 -02
+*title "Lying Down on the Job"
+33  34   5.55   315 -54
+34  35   3.27   236 +20
+36  35   3.75   143 +21
+36  37   3.10   269.5   +14
+38  37   3.35   152.5   +08
+38  39   7.27   308 -21
+40  39   6.15   081 -02
+40  41  10.12   255 -09
+25  41   4.30   128.5   +10
+;42 41   4.30   128.5   +10
+;42 24  14.20   214 -04
+; AERW 98.03.26 - see 96KHp105 - this is not what is in the book, and whoever fixed
+; it should have added some explanation here :-(
+
+; LRUD for most stations on 96KHp104-105 not yet added
+
+*end deadbats
+
+*begin pfbypass
+
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+;*title "Shaft Mine, Penguin Falls by-pass, part of Completely Loopy"
+*title "Batman Series"
+*date 1996.07.18 ; - trip 1996-161-28 in logbook
+*team Insts Dave Milne
+*team Notes Sam
+*team Pics Sam
+*team Tape Sam
+*instrument Set 3
+; Calibration:  At 161d
+;   B-A 035, -07
+;   A-B 214.5, +09
+;
+; Ref.: 1996 KH survey book p 112, 107
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1   ; boulder on LH slope by Sylvester Cobble Pot (QM 96-40), jn from main way
+*export 4   ; CM on boulder at entrance to Five-Ways
+
+*calibrate clino +1.0
+*calibrate tape  -0.20
+;From  to  Tape Compass Clino 
+2   1   12.00   344 +0.5
+2   3   8.98    059 +32.5
+4   3   5.96    193 +16
+
+; LRUD for stations 1 and 3 on 96KHp112 not yet added
+
+*end pfbypass
+
+*begin brian
+
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+*title "Brian's Pitch"
+*date 1996.07.24 ; - trip 1996-161-56 in logbook
+*team Insts Dave Milne
+*team Notes Chris Densham
+*team Pics Chris Densham
+*team Tape Chris
+*team Tape Dave Milne
+*instrument Set 3
+; Calibration:  To come - no record in survey book
+;
+; Ref.: 1996 KH survey book p 170, elevation sketch p 169, plan lost ?
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1   ; CM on spike on LH corner, start of Brian's Pitch
+
+*calibrate tape -0.30
+2   1    9.20   303 +05
+3   2   14.35   163 +67
+3   4    9.45   -   down
+
+; no LRUD data in 96KH book
+
+*end brian
+
+*begin lyingdown
+
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+;*title "More loops above 5-ways: Lying down on the job"
+*title "Lying Down on the Job"
+*date 1996.07.21 ; - trip 1996-161-42 in logbook
+*team Insts Sam
+*team Notes Dave Milne
+*team Notes Craig
+*team Pics Dave Milne
+*team Tape Sam
+*team Tape Craig
+*instrument Set 3
+; Calibration:  At 161d
+;   A-B 215, +08.5
+;   B-A 035, -07.5
+;
+; Ref.: 1996 KH Survey book p 131 (Calib p 130)
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1   ; CM on calcite on roof, Lying Down junction with passage to Vadose
+*export 10  ; CM on boulder, LHS of passage where Lying down comes in, way back to Fiveways
+
+*calibrate clino +0.5
+*calibrate tape  -0.30
+2   1    3.91   192 +41
+2   3    2.73   162 -11
+2   4    3.01   306 +63
+5   4    3.47   166.5   +11
+6   5    1.62   186 +11
+6   7    2.92   238 -11
+8   7    4.14   110 +12.5
+8   9    2.64   202 -13
+10  9    6.27   091 -01
+
+; LRUD data for all stations 96KHp131 not yet added
+
+*end lyingdown

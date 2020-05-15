@@ -1,0 +1,78 @@
+;
+;  Schwarzmooskogel Eishöhle, 1623/40
+;
+
+*equate p40a 40.eishohle.400
+*equate p40e 40.eissvh.sv0
+*equate p40f 40.koenigsschacht.0
+*equate p40h 40.40h.6
+*equate p40s 40.gruenereingang.9
+*equate p40g 40.flusstunnel.0
+
+*entrance p40a
+*entrance p40e
+*entrance p40f
+*entrance p40h
+*entrance p40s
+*entrance p40g
+
+*begin 40
+
+*title "Schwarzmooskogeleishöhle, 1623/40"
+
+*export eishohle.400 eissvh.sv0 40h.6 gruenereingang.9
+*export eishohle.619 ; Connection point to Laerchenschacht (88and40conn)
+*export koenigsschacht.0
+*export flusstunnel.0
+*export franzosenbiwak.3_5
+
+*include 40alt 
+*include 40arge 
+*include 40cucc
+
+; Anschlüsse zwischen den einzelnen Datensätzen:
+; Connections between the individual datasets:
+
+;alt-arge
+; Verbindung Grüner Eingang zum Alten Teil
+; connection of Grüner Eingang to the old cave
+                                
+*equate gruenereingang.4v eishohle.631 	
+
+; Anschlüsse in der Schneevulkanhalle
+; (dort steht irritierenderweise "15" als MP an der Wand)
+
+*equate elefantengang.0 eissvh.sv26 	
+*equate expressfinish.1 eissvh.sv69
+*equate koenigsschacht.7 eissvh.sv16    ; Königsschacht
+*equate eissvh.sv11 schotterland.A0
+
+;Seitengang Nähe Altausseer Halle
+*equate niete.9 eishohle.630        ; Anbindung an Kieselbachmessung
+
+; Anhängung des von Jens Freigang im
+; August 2001 vermessenen Seitengangs
+*equate tiefergang.5_6   eishohle.629   
+
+*equate HansPfandlHalle.0 eishohle.619     ; Hans-Pfandl-Halle
+
+
+;arge-cucc
+; This next line comes from some older version - I (Olly) haven't yet found why
+; it was removed - the version history seems to have been removed from CVS
+; for this file! (FIXME)
+;*equate oldnew.6        gruenereingang.0a ; ...but point in cave says "1"!
+
+; Anbindung des Restes der Oldway
+; Vermessung CUCC an den Elefantengang
+*equate elefantengang.7	oldway.4    
+                                    
+;alt-cucc
+*equate Plastic.22 EisSVH.SV72
+*equate deviant.18 eissvh.sv44
+*equate EisSVH.SV43 missionconnection.1
+*equate nmanip.1 EisSVH.SV30
+*equate 40h.1 EisSVH.SV21
+*equate 40h.2 EisSVH.SV22
+
+*end 40

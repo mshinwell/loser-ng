@@ -1,0 +1,36 @@
+;Daten der Entdecker der Schneevulkanhalle
+;Schwarzmooskogel-Eishöhle (1623/40)
+;erhalten am 12.11.1999 von Franz Lindenmayr und Winfried Lorenz
+;Einige Blätter mit Erläuterungen
+
+;data from the first explorer of Schneevulkanhalle
+; Schwarzmooskogel-Eishöhle (1623/40)
+;received from Franz Lindenmayr and Winfried Lorenz (Nov. 12. 1999) 
+;comments from several papers with the data
+
+;Dateneingabe / data input: Thilo Müller, 18. Nov. 99
+
+*begin hagelsurf
+
+*DATA normal from to length bearing gradient  ignoreall
+
+*units compass grads
+*units clino grads
+
+;Außenvermessung / surface survey Hagelschacht
+;25.8.1988, Michael Huber, Traycho Kausser, Chantal Gall, Reinhard Kieselbach, Klaus Volk
+;Neugrad
+;kein Anschluß an andere Messungen vorhanden / no connection to another existing survey :-(
+
+0	1	20.3	390	2
+1	3	20.3	386	13
+3	4	19.8	4	-8
+4	5	20.4	390	28
+5	6	20	59	1
+6	7	19.2	64	-7
+7	8	8.35	80	-6
+8	9	20.4	78	-13
+
+1	2	4.5	390	0
+
+*end hagelsurf

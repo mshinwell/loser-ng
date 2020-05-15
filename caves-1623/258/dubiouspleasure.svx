@@ -1,0 +1,47 @@
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 258 "Tunnockschacht"
+
+*begin dubiouspleasure
+
+;ref.:  2007 #55
+
+*export becka18 9 6
+
+*title "Dubious Pleasure"
+*date 2007.08.09
+*team Insts Morven Beranek
+*team Notes Jon Telling
+
+*calibrate tape +0.10   ; +ve if tape was too short, -ve if too long
+
+*data normal to from Compass clino tape ignoreall
+;to from    compass clino   tape    remarks
+becka18 1   096 +22 6.50    
+2   1   325 -11 8.97
+2   3   093 +17 3.49
+4   3   345 -4  5.05
+4   5   080 +32 11.85
+6   5   225 -8  6.52
+6   7   078 +44 6.54
+8   7   210 -21 7.82
+8   9   022 +12 7.58
+9   10  074 +23 4.7
+
+
+
+*data passage station left right up down ignoreall
+;stn    L   R   U   D   Desc
+1   0.5 1.5 0   1.5
+2   1.2 0   3   1.5
+3   0   2   1.5 1.2
+4   2.5 0   1   1
+5   2   0   2   1
+6   0.5 3   4   1.5 6 marked nr lhs passage in red on downwards projecting knob of rock at junction with passage
+7   2.5 2.5 1   1
+8   4   1.5 10  4
+9   0.5 3   0   1.5
+10  3.5 0.5 1   1.5 10 marked on bit of 'popcorn' stal on roof rhs
+    
+
+
+*end dubiouspleasure

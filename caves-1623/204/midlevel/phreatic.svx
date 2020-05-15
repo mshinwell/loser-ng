@@ -1,0 +1,30 @@
+*begin phreatic
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle
+;*title ""
+*date 1999.08.05
+*team Insts Nick Procter
+*team Notes Helen Twelftree
+*team Pics Anthony Day
+*team Tape Nick Procter and Helen Twelftree and Anthony Day
+*instrument Compass set #5 ; Clino set #5
+; calibration as per previous day's effort 
+; ref.: 1999 NotKH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 6 8
+
+*calibrate tape +0.0    ; +ve if tape was too short, -ve if too long
+
+;from   to  tape    compass clino   ; remarks
+2   1   4.50    185 -19
+3   2   2.43    262 -18
+4   3   2.10    227 -25
+5   4   4.24    121 +17
+6   5   2.64    166 +43
+6   7   4.44    037 +17
+7   8   5.39    104 +21
+
+*end phreatic

@@ -1,0 +1,31 @@
+;Eislufthoehle 1623/76
+
+*begin brave8
+
+*title "Brave New World 8"
+*date 2004.07.27
+*team Insts Jenny Black
+*team Notes Olly Betts
+*team Tape Jenny Black
+*instrument Compass 5 ; Clino 3
+; notes in 2004 #24
+
+*export 1 7
+
+1	2	6.90	205	-17
+3	2	7.51	035	+19
+3	4	11.78	253	-11
+5	4	7.66	095	+17
+6	5	4.40	108	+08
+6	7	7.32	293	-08
+
+*data passage station left right up down ignoreall
+
+1       -       -       -       -       NP station previous survey (12)
+2       0       1.35    0.55    1.0     NP LHW
+3       2.15    0.2     0.35    1.05    NP "3" by junction
+4       0.05    2.1     0.25    1.4     NP LHW
+5       0.2     2.1     0.65    0.35    NP on cairn (?)
+6       0.4     0.75    0.15    0.7     NP on spike
+
+*end brave8

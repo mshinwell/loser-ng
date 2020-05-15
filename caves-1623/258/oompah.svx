@@ -1,0 +1,35 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	258 "Tunnockschacht"
+
+*begin oompah
+
+*export  1 paint
+
+*title "258: Oompah"
+*date 2007.08.07
+*team Insts Pete Harley
+*team Tape Both
+*team Notes Frank Tully
+*instrument Set ?
+*instrument Tape yellow
+
+; 2007#48
+
+; Calibration: not done
+
+; from	to	tape	comp	clino	remarks
+1	2	7.21	193	+19
+3	2	3.88	52	+5
+3	4	8.66	258	-40
+4	5	6.57	240	-18
+4	paint	4.60	198	-10
+
+*data passage station left right up down ignoreall
+1	6	1	3	0	existing RP on wall numbered '1' part of 2006 survey
+2	-	-	-	-	RP spike top of climb
+3	0	0.6	0.6	1.2	RP on wall
+4	1.4	0	2	1.2	RP on right wall
+5	0	1	0.5	1.5	RP on left wall
+paint	-	-	-	-	existing point of becka and johns survey monday 6/8/07
+
+*end oompah

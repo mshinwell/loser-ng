@@ -1,0 +1,17 @@
+;Eislufthoehle 1623/108
+
+; ref.:	2006 #6
+
+*entrance p108
+
+*equate p108 108.1
+
+*begin 108
+
+*export 1
+
+*date 2004.08.05
+
+1 2 27 148 -76
+
+*end 108

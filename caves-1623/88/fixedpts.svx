@@ -1,0 +1,20 @@
+;Alte Daten:
+;*fix	p88	36304.64	81394.38	1646.92
+;*fix    p88FrGr 36361.08        81431.63        1639.23 ; 70m from the above...
+;*fix	p88rig	36307.60	81387.26	1642.07
+
+;*fix 88.lerche.516	36304.64	81394.38	1646.92; nächster Versuch
+;Ahhh, das sieht gut aus. So lassen, Fehler ist deutlich besser geworden!
+
+;*equate 619 \eishohle.619; das war der Zusammenschluß mit der Eishöhle. Kordinaten werden fixiert zur schöneren Darstellung
+;*fix 88.lerche1.619	36373.74	81584.49	1613.67
+
+;Zusammenschluß mit der Stellerweghöhle im 100 Meter Schacht, 1.11.1999, Thilo
+;*fix 88.lerche1.steller  36041.99  81381.55  1464.77
+
+;Nils-Daten ab 10/00:
+*fix p88		36311.22	81391.08	1646.01
+
+;Anschluss an die anderen Löcher:
+*fix 88.lerche1.619 	36376.64	81586.72	1610.33	;=040.eishohle.619  (Verb. Eishöhle-Lärchenschacht)
+*fix 88.lerche1.steller 	36043.06	81371.62	1446.46 	;=41.wetnwild.0  (Verbindung Lärchenschacht-Stellerweghöhle)

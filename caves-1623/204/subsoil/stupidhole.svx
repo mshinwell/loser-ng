@@ -1,0 +1,49 @@
+*begin stupidhole
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "That Stupid Hole"
+*date 2011.07.23
+*team Insts Djuke Veldhuis ;and some by Nial Peters
+*team Notes Jess Stirrups
+*team Tape Nial Peters
+
+;Unknown instrument set - they don't seem to be numbered this year!
+
+; ref 2011 # 08
+
+; Calibration: Butlins Camp: 176/+10, 357/-09
+
+; ====== stations refindable to link to other surveys: ======
+
+*export x 9
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	comp	clino
+x	1	5.78	146	02
+2	1	4.10	299	33
+2	3	12.22	055	-55
+4	3	6.98	275	+49
+5	3	6.60	114	-30
+5	6	4.10	296	37
+6	7	1.40	324	05
+8	7	7.90	219	+62 ;reversed leg compared to notes
+8	9	7.22	-	down
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+x	2	2.5	-	1	numbered point 11 from fatworm survey (fatworm.11)
+1	2	3	4	1.5	top of boulder
+2	1.5	0.5	6	1	top of boulder
+3	5	3	6	3	spike in wall
+4	1.5	0.3	1.8	8	spike in wall
+5	0	1	2.5	1.7	rp lhw
+6	0	0.5	1.0	1	-
+7	0	1.5	0.5	1	-
+8	0.5	2	6	-	-
+9	2	5	7	2	-
+
+
+*end stupidhole
+

@@ -1,0 +1,46 @@
+*begin rubella
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Hauchhoehle (2000/09)
+*title "Hauchhoehle part 3 - Rubella"
+*date 2008.07.24
+*team Insts Peter Harley
+*team Notes Edvin Deadman
+*team Helper Jess Stirrups
+*instrument Set Pony1
+*instrument Tape Dists
+; Calibration: One way 157/157/154, +24/+23/+23; other way 334/335/333, -22/-22/-22
+; ref.:	2008#06
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 11
+
+;from	to	tape	compass	clino	; remarks
+
+2 1 2.74 328 -05
+2 3 6.60 161 +09
+3 4 1.51 199 +10
+4 5 2.88 165 -24
+5 6 2.85 210 -40
+6 7 5.30 140 -59
+7 8 2.61 226 -51
+9 8 2.18 015 +21
+10 9 2.81 004 +12
+11 10 6.50 340 -06
+
+*data passage station left right up down ignoreall
+
+1	0.5	1	0.2	0.3	Rock in chamber
+2	0.5	1	0.1	0.2	Spike on ceiling
+3	0.5	0.5	0.75	0.75	RP RH wall
+4	0	0.5	0.3	0.5	RP LH wall
+5	2.0	0	0.5	0.5	RP RH wall
+6	2.0	0.5	-	-	RP protrusion
+7	1	1	-	-	RP floor
+8	0.5	0.5	0.3	0.2	RP corner
+9	1.0	0	0.3	0.2	RP RH wall
+10	0.0	0.5	0.1	0.4	RP RH wall
+11	-	-	-	-	Flatulance 53
+
+*end rubella

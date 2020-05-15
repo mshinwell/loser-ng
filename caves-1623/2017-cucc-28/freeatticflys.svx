@@ -1,0 +1,87 @@
+*begin FreeAttic_Flys
+
+; stations linked into other surveys (or likely to)
+*export 24 1 3TT 4TT
+
+; Cave:Fisch Gesicht
+; Area in cave/QM: 
+*title "FreeAttic Flys to Toto"
+*date 2018.07.15
+*team Insts Michael Holliday/Tom Crossley
+*team Notes Lydia-Clare Leather
+*team Pics Lydia-Clare Leather
+
+*instrument "Traditional Compass/Clino, Laser tape"
+
+*ref 2018#06
+; the #number is on the clear pocket containing the original notes
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+1	2	7.7	278	-6
+1	1TT	3.35	200	+2
+1TT	2TT	5.02	-	down
+2TT	3TT	2.90	135	+3
+3TT	4TT	14.1	-	down
+*flags splay
+4TT	4A	3.6	253	+5
+4TT	4B	7.5	335	+10
+4TT	4C	6.3	86	0
+4TT	4D	3.5	200	+20
+*flags not splay
+2	3	4.5	199	-29
+3	4	5.7	350	+31
+4	5	2.4	051	+11
+5	6	5.6	293	-10
+6	7	4.69	333	+5
+6b	6	5.60	195	-3
+7	8	3.42	044	-10
+8	9	4.9	278	-3
+8	6b	1.55	132	-6
+9	10	7.61	347	-11
+10	11	8.39	300	-10
+11	12	3.04	044	+8
+24	12	2.25	206	-17
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;[Red] nail varnish markings
+
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	1.1	0	0.4	1.5
+1TT	1.2	0	0.3	5.04
+2TT	0.8	6.6	5.2	0
+3TT	0	0.5	5.5	14.0
+4TT	1.2	0.3	15.4	0
+2	0.9	0	0.3	1.2
+3	0	2.1	0.6	2.0
+4	0	0.9	1.6	1.1
+5	1.4	0	2.3	1.2
+6	0	1.3	1.3	1.4
+6b	0	1.5	1.0	1.5
+7	0	1.1	0.4	0.6
+8	1.6	0	1.7	1.6
+9	0	2	2	0.3
+10	0	2	1.2	1.3
+11	0	1.8	1.5	0.7
+12	1.5	0	1.5	0.7
+
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    A    FreeAttic_Flys.4TT		toto_to_crystalcrumble.1	Bottom of Toto,facing SW is a continuation of a meander, which leads into crystal crumble, Here you can find really impressive stalagites
+
+;------------
+;Cave description  ;(leave commented-out)
+;Having finished the traverse out of liquid luck, you begin following the phreatic passage called Freeattic flys. So called because Lydia Leather is dyslxic and didnt realise it wasnt spelt that way. This passage continues along for 30m, passing intricate coral looking formation and it a continues rifting meandering passage. Eventually you get to a pitch head, that drops into a false floor 5m down. SE of the pitch is the continuation of Freattic flys known as the Odyssey.
+;Dropping the second pitch puts you into Toto chamber, So called because of the boulder in the shape of Africa. Last station surveyed here is directly bellow the pitch head, has now been re visited to survey crystal crumble where stalagtites lie.
+
+*end FreeAttic_Flys

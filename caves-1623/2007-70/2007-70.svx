@@ -1,0 +1,19 @@
+*equate 2007-70.0 p2007-70
+
+*begin 2007-70
+
+*date 2007.07.13
+*team Insts Olly
+*team Notes Jenny
+*team Pics Olly
+*team Tape Olly
+*instrument ours + disto
+; notes in 2007 #01 sketch only
+; notes in 2007 #? numbers
+
+*export 0
+
+0	1	1	180	00
+1	2	14	-	down
+
+*end 2007-70

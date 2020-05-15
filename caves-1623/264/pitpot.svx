@@ -1,0 +1,27 @@
+*begin pitpot
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2005-5 "Balcony Hohle"
+
+*export	x
+
+*title "pitpot"
+*date 2014.08.05
+*team Insts Katey Bender
+*team Tape Katey Bender
+*team Notes Noel Snape
+*team Dog Holly Bradley ;"Nail varnish"
+
+*ref 2014#14
+
+;from	to	tape	compass	clino	remarks
+1	2	6.19	011	16
+2	x	7.27	344	8
+
+*data passage station left right up down ignoreall
+1	0.4	0.3	4	50
+2	1.2	3	1	1
+x	-	-	-	-
+
+*end pitpot
+

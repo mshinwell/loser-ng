@@ -1,0 +1,72 @@
+*begin tubular
+*title "Tubular Bells"
+*date 2015.07.16
+*team notes Olly Betts
+*team instrument Jenny Black
+*instrument pony CUCC#3, disto ours
+; Survey folder reference: 2015#61
+*export 1 11 12
+
+1	2	3.328	303	-14
+2	3	7.516	318	-13
+3	4	1.592	297	-40
+4	5	2.267	308	-10
+5	6	1.808	041	-01
+6	00	2.482	120	+02
+6	7	3.873	290	-13
+7	8	2.960	007	+06
+8	9	6.397	303	-09
+9	10	3.235	178	+09
+9	11	2.886	304	-25
+10	12	5.692	308	-11
+11	12	2.333	244	+15
+
+*data passage station left right up down
+1	0.6	0	0.7	0.8	;pencil "1" NP RW
+2	0.5	0	0.3	0.8	;pencil "2x" opposite stal
+3	0.5	0	0.3	1.0	;NP RHW pencip "3"
+4	0.3	0.1	1.0	0.2	;pencil "x4"
+5	0	0.5	0.5	0.7	;pencil "x5"
+6	0.4	0	0.9	0.8	;NP pencil "6"
+7	0	0.5	1.0	0.6	;NP LHW pencil "7"
+8	0.5	0	0.8	0.7	;pencil "x8"
+9	0.2	01	0.6	0.6	;NP pencil 9, on corner
+11	1.3	0	2.5	1.1	;NP wall "11"
+12	-	-	-	-	;NP wall "12"
+
+*data passage station left right up down
+6	0	0.4	0.9	0.8	;NP pencil "6"
+00	0.2	0.2	1.7	0	;end of disto leg
+
+*data passage station left right up down
+9	0.6	0	0.8	0.6	;NP pencil 9, on corner
+10	0	0.6	0.8	0.4	;"10x" pencil
+12	-	-	-	-	;NP wall "12"
+
+*end tubular
+
+*equate tubular.1 tubular2.5
+*begin tubular2
+*title "Tubular Bells II"
+*date 2015.08.03
+*team notes Jenny Black
+*team instruments George Breley
+*instrument Wookey's distoX2
+*export 5
+;pink nail polish
+; Survey folder reference: 2015#60
+
+2	1	2.090	189.9	6.8 ; notes say 1 to 2
+3	2	1.249	160.1	4.9
+4	3	1.008	283.0	8.2
+5	4	1.449	194.2	-21.1
+
+*data passage station left right up down
+1	0.2	0.2	0.5	0.7	;NP back wall
+2	0.7	0.6	1.3	0.4	;NP roof pendant
+3	0	1.0	0.3	0.3	;NP LHW
+4	1.2	0.3	0.4	0.2	;NP RHW
+5	0.4	0	0.6	1.2	;NP RHW exisiting station
+
+
+*end tubular2

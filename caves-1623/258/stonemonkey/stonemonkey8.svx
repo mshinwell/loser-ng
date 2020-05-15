@@ -1,0 +1,53 @@
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 
+
+*begin stonemonkey8
+
+*export 3
+*export 18
+*export 17
+*export 11
+
+*title "Marconian Empire: Comedy of Errors Pitches Area"
+*date 2009.07.28
+*team Insts Becka 
+*team Notes Martin Jahnke & Becka
+*team Tape Gareth
+*instrument Set#6
+
+;ref.: 2009#09
+
+*calibrate tape +0.0   ; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+1   2   7.84    -    DOWN    
+1    3    1.33    040    -09
+4    3    3.47    287    -45    
+4    5    3.00    038    +06   
+6    18    4.15    204    -21    
+6    7    6.87    344    -11
+9    8    3.13    342    +04
+9    10    4.71    162    -44
+17    10    3.30    061    -10
+8    11    14.32    -    DOWN
+
+
+*data passage station left right up down ignoreall
+1    0.2    1    2    8    RP left wall over pitch
+2    0.6    0.6    9    0    Plumb base of pitch
+3    1    2    1.9    1    Previous station 19 in Comedy of Errors
+4    0.7    2.5    1    0.7    RP end of passage start of crawl
+5    -    -    -    -      Nose at end of crawl, unmarked
+18   -    -    -    -      old point 18 in Stonemonkey6
+6    0.6    2.0    2    1.2    RP Top of big boulder
+7    0.2    0.5    3    2    Unmarked end of passage Note: below is chamber and crawl going off; C lead
+8    0.6    0.3    0.7    14.32    RP Top of pitch
+9    1    1.2    0.4    2.5    RP Rocknose roof middle of passage
+10    2.5    1.2    2    0.3            RP Rock middle of passage floor
+17    -    -    -    -    Existing point 17 in stone monkey
+11    -    -    -    -    Unmarked at bottom of pitch; was later marked in marconianempire1; migth be lost
+
+
+
+
+*end stonemonkey8

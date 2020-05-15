@@ -1,0 +1,49 @@
+*begin terrafirma2
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "terra firma to quiz rift"
+*date 2007.07.16
+*team Insts Kathryn Hopkins
+*team Notes Richard Mundy
+
+*instrument set cucc pony 1
+
+; ref 2007 #11
+
+
+; Calibration: stone bridge: -
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 10
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+1	2	0.99	065	-09
+2	3	1.28	038	+66
+4	3	9.26	292	+21 ;reversed
+5	4	2.69	294	-37
+6	5	2.41	269	-09
+7	6	6.03	281	+24 ; says 081 in the notes, but 281 looks much more sensible -- DL
+7	8	2.58	122	-43
+8	9	3.97	-	down
+9	10	2.06	058	-12 ; reversed? -- DL. no it's not -- NP
+
+
+*data passage station left right up down ignoreall
+
+;station details
+;name	L	R	U	D	description
+1	-	-	-	-	18 of terra firma survey
+2	-	-	-	-	above ledge in chamber
+3	-	-	-	-	wall opposite chamber entrance
+4	2	1	6	0.9	wall of incline to opening
+5	0.5	0.5	3	0.8	inside of corner
+6	0.5	0	0.8	0.5	wall of passage
+7	1	0	4	1.5	outside of bend in rift
+8	6	2	6	-	top of pitch
+9	0.5	1.5	-	0	floor of pitch
+10	-	-	-	-	existing survey point
+
+*end terrafirma2
+
+

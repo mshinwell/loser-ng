@@ -1,0 +1,32 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	258 "Tunnockschacht"
+
+*begin ribsknodel2
+
+*export 1 2 3 4
+
+*title "258: Ribs and Knoedel part 2"
+*date 2006.08.02
+*team Insts Tom Handford
+*team Notes Mark Shinwell
+*instrument Set 1
+
+; 2006 #23
+
+*calibrate tape +0.10
+
+2	1	19.74	151	+33
+1	3	15.65	169	+21
+3	4	16.31	147	+36
+
+*data passage station left right up down ignoreall
+
+; LRUDs looking up the passage (towards ribsknodel part 1)
+
+2	0.8	5	4	1	RP marked, pointed boulder before drop
+1	0	4	3	0.5	RP marked, LW
+3	-	-	-	-	RP marked (cross) top of boulder
+4	-	-	-	-	= pencil square from previous survey
+
+*end ribsknodel2
+

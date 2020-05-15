@@ -1,0 +1,147 @@
+;>1623/ 40
+
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schwarzmooskogel-Eishöhle
+; 3 Vermessungen
+
+
+*begin schotterland
+
+*export A0
+
+;-1-
+; Messteam: Gitte + Alois Spötzl, Günther Forstmaier, Jens Freigang
+; Zeichner: Jens Freigang
+; Referenz: Messbuch SMK 5
+
+*title "Schotterland"
+*date 2000.06.01
+
+*equate 5	bits.7  ; yes these two are right...
+*equate 7	bits.5  ; we numbered in opposite directions!
+
+*equate 7_1	bits.1  ; side ramp
+
+
+
+*units compass grads
+*units clino grads
+*data normal from to tape clino compass
+
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+
+A0	A1	10.65	-12.5	18	; Kontrollmessung bei der bestehenden Vermessung
+
+A0	1	6.45	-37	392
+1	2	5	-38	122
+2	3	1.85	-76	233
+3	4	17.59	-100	0
+4	5	4.65	-58	285
+
+
+
+;Raumwerte
+*data passage station left right up down
+A1	1.2	2.5	2	1.2
+1	0.5	2	6	2.2
+2	0.3	0.5	0	2.5
+3	0.6	0	2.5	18
+4	2.2	0.3	20	3
+5	0	1.2	20	3
+
+
+;-2-
+; Messteam: Gitte + Alois Spötzl, Günther Forstmaier, Jens Freigang
+; Zeichner: Jens Freigang
+; Referenz: Messbuch SMK 5
+
+
+*title "Schotterland"
+*date 2000.06.02
+
+*units compass grads
+*units clino grads
+
+*data normal from to tape clino compass
+;2 Messzüge von Wookey + Gaspard (am gleichen Tag)
+
+7	7a	20.30	2	55
+
+7	8	20.30	-25	290
+8	9	20.70	0	217
+
+7	7_1	5.6	-12	177
+7_1	7_2	33.20	17	177
+7_2	7_3	17.9	11	155
+7_3	7_4	10.2	13	201
+7_4	7_5	12	18.5	137
+7_5	7_6	18.2	31	170
+
+
+
+;Raumwerte
+*data passage station left right up down
+7	-	2	3.5	1.5
+7a	8	4	1.2	1
+
+*data passage station left right up down
+7	-	2	3.5	1.5
+8	5	5	4	0
+9	8	5	2	1.8
+
+*data passage station left right up down
+7	-	2	3.5	1.5
+7_1	4	10	0.8	0.3
+7_2	4.5	3.5	2	0
+7_3	2.5	2.5	2.5	1.6
+7_4	2.5	0.5	4	1.7
+7_5	0.3	3	2	1.2
+7_6	1.8	1	3	1.6
+
+
+
+; note main survey not connected without bits
+
+
+;-3-
+; Messteam: Gaspard Magarinos, Wookey
+; Zeichner: Wookey
+; Referenz: 2000 notKH survey book pp - ?
+
+
+*begin bits
+
+
+*date 2000.06.02
+
+*export 1 ; station on Jens survey at start of main passage
+*export 5 ; start of jens schotterland '2nd day' survey
+*export 7 ; bolt at top of lower hang
+
+*units compass degrees
+*units clino degrees
+
+*data normal from to tape compass clino
+; Ramp off LHS of main passage
+2	3	22.35	140	+36
+3	4	13.80	025	+19
+1	2	11.18	168	+08  ; this leg should not have length counted
+
+; Connection of wet pitch in middle of above survey
+5	6	8.03	093	+03
+6	7	29.85	-	up
+
+;Raumwerte
+*data passage station left right up down
+1	3	10	0.6	0.3	;'7.1' CM on rock on floor
+2	4	5	4.5	0	;rock on floor
+;Stn 2 is 0.8 along the wall from old (1980s?) survey station
+3	2	2	1	1.3	;Red Point (RP) on roof
+4	1.9	0	0.5	0.6	;RP RHW
+5	0	5	2.5	1.4	;'MP7' CM LHW (our direction of survey at this time - out)
+6	-	1.5	-	0	;Bottom of rope (on floor - very wet)
+7	-	-	-	-	;Bolt at top of bottom hang
+
+*end bits
+
+*end schotterland

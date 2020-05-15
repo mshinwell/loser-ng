@@ -1,0 +1,30 @@
+*begin highhopeslink
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "High Hopes Link"
+*date 2005.08.11
+*team Insts Frank Tully
+*team Notes Anthony Day
+*team Pics None
+*team Tape Both
+*instrument Compass + clino set unknown; Tape Red open reel
+; Calibration: none whatsoever
+; ref.:	2005 #44
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 3
+
+*calibrate tape +0.4	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	1.82	-	DOWN
+2	3	1.00	180	LEVEL
+
+;Stn	Desc
+;1	Point 8 from 204G/H/I survey
+;2	Point in free space
+;3	Point in High Hopes 2 survey
+
+*end highhopeslink

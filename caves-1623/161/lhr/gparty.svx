@@ -1,0 +1,143 @@
+;1998.03.02 AERW changed clino 51.5->59.5 in GParty.1st see 1992KHp104
+;1998.03.02 AERW sorted begin/end, added comments and refs.
+
+*begin GParty
+; ======  stations refindable to link to other surveys: ======
+
+*export 1st.11	; existing CM should be another survey (presumed lh.4, but may
+		; conceivably be Snot.21 or Snot.22 which weren't sketched)
+*export 3rd.1	; bolt at head of French Connection pitch
+
+; ====== links between surveys in this file: ======
+
+*equate 1st.1	2nd.1
+*equate 2nd.21	3rd.13
+; that is a bodge as the points are c 10cm apart
+
+*begin 1st
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Garden Party"
+*date 1992.07.16 ; trip 1992-161-5 in logbook
+*team Insts Dave Fearon
+*team Tape Henri
+*team Notes Andy Atkinson
+*instrument Compass: 721899, Clino: 726974
+; Calibration:	
+; ref.:	1992 survey book pp 104-105
+
+; ======  stations refindable to link to other surveys: ======
+
+*export 1	; Bolt on near wall (RH side of Y-hang, looking in) SHAT pitch
+*export 3	; CM over hole before SHAT pitch. nearest QM 92-06
+*export 11	; existing CM should be another survey (presumed lh.4, but may
+		; conceivably be Snot.21 or Snot.22 which weren't sketched)
+
+2    1     3.98    194.5     05
+2    3     4.89    328.5     17
+4    3     7.75    057       05
+4    5     6.75    327       60
+5    6     3.75    299       56
+6    7     3.07    290       59.5  ;?? clino hard to read in notes - maybe 59.5
+; looks plain as daylight in survey book as 59.5, so changed from 51.5 here
+7    8     2.19    000       67
+8    9     6.60    337       57
+10   9     0.74    030      -19
+11   10    3.69    174      -47.5
+
+;1     -     -     -     -     Bolt on near wall (LH side on way out)
+;2     1.0   0.0   0.4   0.7   CM RH wall
+;3     -     -     5.0   3.0   CM over hole
+;4     0.0   1.3   7.0   2.1   CM LH wall
+;5     -     -     -     -     CM on pt on ceiling
+;6     -     -     -     -     CM on pt on roof
+;7     -     -     -     -     CM nodule on floor
+;8     -     -     -     -     CM nodule in peat?
+;9     -     -     -     -     something wibble, cant read, bolt at top of pitch
+;10    -     -     -     -     CM on wall
+;11    3.7   0     0.8   2.6 (where floor was)     CM should be another survey
+
+*end 1st
+
+*begin 2nd
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Garden Party"
+*date 1992.07.22 ; trip 1992-161-8 in logbook
+*team Insts Andy A (pts 1-8), DaveF (pts20-8)
+*team Tape 
+*team Notes Wookey
+*instrument Compass: illum1, Clino: illum1
+; Calibration:	(DaveF) comp: (cairn:)040.6,(Zinken:)251
+*team clino +8.75, -9.0
+; ref.:	1992 survey book pp 110-111
+
+; ======  stations refindable to link to other surveys: ======
+
+*export 1	; RH bolt of Y-hang (near wall) of SHAT pitch
+*export 21	; half-drilled bolt hole 0.1m to right of rebelay bolt, 25m
+		; down Parallel Processing
+
+*calibrate clino -0.125
+
+;surveyed in
+2       1        9.99   316     +62
+2       3        7.46   070     -09
+4       3        5.46   250.6   +44
+4       5        6.91   138.5   +17
+6       5        6.06   348     +54
+6       7        5.76   199     -79
+7       8       15.80   130     -61.5
+
+;surveyed out
+20      21       0.25   140      00
+20      19      24.50   -       up
+19      18       2.57   306     +26
+18      17       9.40   256     +45.5
+17      16       3.79   253     +00.5
+15      16       2.56   060     -53
+15      14       5.66   225     -02
+13      14       4.62   072     -53
+13      8        3.96   269.5   -33.5
+
+;station details
+; all LRUD data in book are looking into cave, irrespective of survey direction
+
+*end 2nd
+
+*begin 3rd
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Garden Party"
+*date 1992.07.24 ; trip 1992-161-10 in logbook
+*team Insts DaveF
+*team Tape 
+*team Notes AndyA
+*instrument Compass: illum1, Clino: illum1
+; Calibration:	No calib
+; ref.:	1992 survey book pp 122-125
+
+; ======  stations refindable to link to other surveys: ======
+
+*export 1	; bolt at head of French Connection pitch
+*export 13	; rebelay bolt 0.1m to left of half-drilled bolt hole, 25m
+		; down Parallel Processing
+
+2       1       1.55    241     -29
+3       2       0.33    255     +57
+4       2       5.77    220     -07
+4       5       6.70    326     -19.3
+5       6       6.21    -       up
+7       6       3.19    193     +01
+7       8       6.59    -       up
+8       9       3.89    357     +41
+10      9       5.50    146     -19
+11      10      6.62    -       down
+12      11      1.42    106      00
+13      12     14.65    -       down; not on original survey notes - see book
+*end 3rd
+*end GParty
+

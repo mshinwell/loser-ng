@@ -1,0 +1,131 @@
+;1998.03.02 AERW sort begin/end add comments and refs.
+
+; ====== links between surveys in this file: ======
+
+*equate tunnock.7	ginger.14
+*equate ppot.1		ginger.4
+
+*begin ginger
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Ginger Crunch - Biscuit Factory"
+*date 1994.07.19 ; trip 1994-161c-11 in logbook
+*team Insts Anthony
+*team Notes AndyA
+*team Tape Kate
+*instrument Tritium: Comp 741127, clino 145132
+; Calibration:	2-1: 231.5, -07 /// 1-2 : 051, +08 /// too cloudy
+; ref.:	1994 survey book pp 24-26
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; CM on N wall E of Ginger Crunch in Mississippi Mud Pie
+*export 4	; CM LH wall
+*export 10	; Top of flat boulder in floor of Rich Tea
+*export 14	; RH bolt
+*export 19	; "temp rock on floor"
+
+;from	to	tape	compass	clino
+
+1       2       1.78    -       down
+3       2       2.22    187     +12
+3       4       5.03    100     +5
+5       4       9.19    297     +7
+5       6       10.56   107     +3
+7       6       7.64    -       up
+8       7       7.73    299     +32
+8       9       18.60   112     -15
+10      9       9.92    290     +11
+10      11      19.35   212     -23
+12      11      26.53   018     +9
+12      13      9.02    216     -15
+14      13      5.84    018     +7
+14      15      6.38    -       down
+16      15      11.10   011     -7
+16      17      13.26   248     -12
+17      18      5.82    275     -40
+18      19      5.46    -       down
+20      19      9.45    089     +17
+20      21      1.84    191     0
+22      21      6.72    062     +12
+22      23      6.06    202     -1
+24      23      4.80    066     +20
+24      25      4.48    246     -11
+26      25      6.42    060     +20
+
+*end ginger
+
+*begin tunnock
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Tunnock's Caramel Wafer"
+*date 1994.07.19 ; (deduced) trip 1994-161c-10 from logbook
+*team Insts Petel
+*team Tape Steve B
+*team Notes Julian H
+*instrument LED SET 3
+; Calibration:	
+; ref.:	Can't find this in survey book(s) AERW
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 7	; RH bolt
+
+2       1        9.84   086     -79
+2       3       11.90   218     -67
+2       4       10.87   223     +17
+5       4        5.52   007     -22
+5       6        6.91   102     -15
+7       5       11.51   182     -69
+
+*end tunnock
+
+*begin ppot
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Piss Pot"
+*date 1995.07.24 ; trip 1995-161-19 in logbook
+*team Inst Andy A
+*team Tape Andy A
+*team Notes Steve B
+*instrument Tritium
+; Calibration:
+; ref.:	1995 survey book pp 14-15
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; carbide mark, LH wall of Ginger Crunch
+*export 8	; carbide mark "X" on roof, nearest QM 95-09
+
+; from to tape compass clino
+
+2       3       7.78    -       down
+2       1       0.23    357     0
+4       5       9.14    -       down
+4       3       1.82    178     -8
+6       5       4.49    133.5   -36.5
+6       7       29.59   295     -1.5
+8       7       24.62   136     +3
+9       6       17.69   299     +4
+9       10      3.73    86      -23.5
+
+;LRUDE info
+;1  0.1 1.1 0.5 0.7     CM LH wall
+;2  0.3 0.8 0.5 0.7     Free space, pitch head
+;NSEW
+;3  P1.8 P0   P2.5 P3.5     CM N wall
+;4  P0   P1.8 P0   P3.5     Free space, mid pitch
+;LRUD
+;5  1.5 2   J3   0       Block on floor
+;6  3   0   3   1.7     CM RH wall
+;7  0   3   2   1       CM LH wall
+;8  5   1   0   0.15 5  Carbide X on ceiling
+;9  1.9 1.5 0.7 1.6     CM RH wall
+;10 3   3   0   2.5  5  Carbide X on ceiling
+
+*end ppot
+
+

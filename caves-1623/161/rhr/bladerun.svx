@@ -1,0 +1,48 @@
+;1993.07.07 10 -> 11 changed to 11 -> 10 (reversed leg in notes)
+;1998.04.01 AERW sorted begin/end, added comments, refs, exports
+
+*Begin Bladerun
+
+; Cave:	Kaninchenhöhle
+*title "Bladerunner"
+*date 1992.08.05 ; part of trip 1992-161-19 in 1992 logbook
+*team Inst Henri
+*team Tape 
+*team Notes Wook, DaveF later
+
+*instrument illum compass, illum clino
+; Calib:	043,223 (cairns) 253 (zinken)
+;		+10,-09 (cairns) +03 (zinken)
+; ref.:	1992 Survey book pp 136-137 (inc. two additional loose pages)
+;	rigging guide on p 120
+
+*export 1	; last bolt (2nd rebelay) QM 92-09
+*export 13	; Bolt for squeeze pitch, hanging end of "real" survey
+*export 21	; Base of Chunnel Pitch
+
+;  
+2       1       8.28    075     -59
+3       2       1.81    114     -26
+3       4       2.74    205     -23
+4       5       4.57    163     -68
+5       6       2.49    218     +16
+6       7       0.81    336     -29
+7       8       4.02    233     -32
+9       8       3.30    091     +14
+9       10      3.83    221     +62
+;DaveF did notes from here on (as Wook resigned after throwing up)
+11      10      9.82    153     +58  ;- clino in notes
+12      11      1.52    146     -44
+12      13      1.55    142     +44
+
+;some very made up legs to join to RH route, assuming rift lies along 200 - 020 direction:
+13      14      8       020     0       ;along rift
+14      15      14      -       up      ;and up the pitch
+15      16      6       020     -10     ;then again
+16      17      14      -       up
+17      18      5       290     +55     ;and up the slab at the top
+18      19      5       020     0       ;then through tube
+19      20      5       -       up      ;to base of climb & up
+20      21      3       290     0       ;finally to base of chunnel pitch
+
+*end Bladerun

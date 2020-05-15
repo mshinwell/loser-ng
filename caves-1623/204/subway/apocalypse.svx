@@ -1,0 +1,59 @@
+;2005.08.01 W created for Four Pitches of the Apocalypse survey
+
+*begin apocalypse
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	204
+*title "Four Pitches of the Apocalypse"
+*date 2005.07.29
+*team Insts Nial Peters
+*team Notes Martin Green
+*team Pics Martin Green
+*team Tape Nial Peters, Martin Green
+*instrument Set #3
+;tape chinese becka yellow
+; Calibration: 147, +22; 329, -22
+; ref.:	2005 #18
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 3 15 5
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	4.50	333	+57
+1	3	8.47	250	-28
+3	4	5.97	305	-29
+3	5	6.78	197	+52
+5	6	18.61	-	up
+;5	7	16.50	-	down re-done by Nial and Andrew to better
+							;precision in Mornington Crescent survey
+8	6	2.00	303	-01    ; was 8 to 7 in notes - wrong end of pitch
+8	9	21.56	-	up
+10	9	2.89	320	+03	;leg inverted
+10	11	7.62	083	+45
+12	11	10.12	305	-61
+13	12	5.61	276	-44
+14	13	2.97	313	-12
+15	14	1.63	332	+16
+
+;station details
+;name	L	R	U	D	E	description
+;1	-	-	5	2.5	RP '1' top numbered of slab
+;2	1.2	0.5	3.0	1.0	RP '2' on spike
+;3	1.0	8.0	~8	1.8	
+;4	-	-	-	-	RP on rock on floor of shaft
+;5	-	-	-	-	RP spike of ledge
+;6	-	-	-	-	deviation crab
+;7	-	-	-	-	plumb, not marked
+;8	-	-	-	0	RP bottom of pitch
+;9	1.8	0	-	-	lower right hand bolt
+;10	0.0	1.3	-	1.6	RP LHW
+;11	3.0	0.0	-	-	RH bolt
+;12	2.5	2.6	1	5.0	RP on lip of pitch
+;13	1.5	0.2	3.0	0.6	RP below entrance tube
+;14	-	-	-	-	RP on corner
+;15	-	-	-	-	Previous survey station RP
+
+*end apocalypse

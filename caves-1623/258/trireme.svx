@@ -1,0 +1,40 @@
+*begin trireme
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 258 "Tunnockschacht"
+
+;ref.:  2014 #06
+
+*export 52x
+
+*title "Trireme Rift"
+*date 2014.07.30
+;original notes do not say who was dog or instruments so just alocated randomly
+*team Insts Andrea Futrell
+*team Notes Mike Futrell
+*team Dog Katey Bender
+*team Dog Michael Sargent
+
+;Instrument: Andreas Suuntos
+
+;*calibrate tape +0.00   ; +ve if tape was too short, -ve if too long
+
+
+;from   to  tape    compass clino   remarks
+
+52x	1	2.14	293	-41
+1	2	6.30	000	-90
+2	3	8.20	000	-90
+3	4	4.50	310	-41
+3	5	4.60	130	+46
+
+*data passage station left right up down ignoreall
+;stn    L   R   U   D   Desc
+52x	1	0	4	1.5	Old numbered stn
+1	0.5	0.5	5	6	knot of Y hang rope
+2	0.7	0	10	1.5	wall
+3	1	0	18	0	floor
+4	0.5	0.5	8	0	choke
+5	0.4	0.3	1	0	choke
+
+*end trireme

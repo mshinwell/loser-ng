@@ -1,0 +1,409 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Windloch 1623/032
+
+*begin links
+*title "Linker Teil"
+
+*export 21	; main.21
+*export vs14	; 
+*export vs43	; 
+*export 26_2_15	; 
+*export 26_2_10	; Anschluss Schnellzug
+*export 27_5	; forever.5 (neu2013.0 in arge dataset?)
+
+
+; -3-
+; Messteam: Matthias Jauß, Helmut, Uli Schütz
+; Zeichner: Matthias
+; Referenz: Uli Nohlen 2009
+*date 2009.08.13
+
+*data normal from to length compass clino
+21	22	14.53	18	-12
+22	23	7.28	-	DOWN
+23	24	10.63	348	-2
+24	25	2.91	24	-21
+25	26	9.7	2	-34
+26	27	12.14	342	34
+27	28	4.93	253	12
+28	29	11.68	281	-35
+29	30	8.31	232	23
+30	31	12.35	173	-50
+
+; Raumwerte
+*data passage station left right up down
+21	4	8	4	2
+22	1	0	0	7.28
+23	2	1	7.28	0
+24	0	1	0.2	2.5
+25	0	2	3	2
+26	5	3	10	8
+27	7	4	5	1.5
+28	3	8	6	6
+29	5	2	8	3
+30	5	0	2	1
+31	2	1.5	2	0
+
+
+; -4-
+; Messteam: Uli Nohlen, Uli Schütz, Tewje
+; Zeichner: Uli Nohlen
+; Referenz: Uli Nohlen 2009
+*date 2009.08.14
+
+*data normal from to length compass clino
+30	30_1	6.18	9	-9
+30_1	30_2	8.94	256	52
+30_2	30_3	8.81	273	22
+30_3	30_4	5.87	244	38
+
+; Raumwerte
+*data passage station left right up down
+30	5	0	2	1
+30_1	1.5	0	3.5	3
+30_2	2	0	2.5	0
+30_3	2	0	3	0
+30_4	3	3	4	0
+
+
+; -5-
+; Messteam: Ilja Anders, Uli Schütz, Karsten Gessert
+; Zeichner: Ilja Anders
+; Referenz: Ilja Anders
+*date 2010.08.08
+
+*data normal from to length clino compass 
+30_4	30_5	9.71	51	311	
+30_5	30_6	4.70	23	29.5
+30_6	30_7	9.98	-64	314
+30_7	30_8	9.43	-13	25
+30_8	30_9	2.65	-8.5	67
+30_9	30_10	5.28	-31	315
+30_10	30_11	3.31	-6	35
+30_11	30_12	5.88	-39	284
+30_12	30_13	2.53	-28	197
+30_13	30_14	13.40	-31	330
+
+30_13	30_13_1	7.50	22	186
+
+30_14	30_15	16.38	-30	7
+
+;Raumwerte
+*data passage station left right up down
+30_4	3	3	4	0
+30_5	0.5	1.7	1.1	2.1
+30_6	1	1.1	1.3	5
+30_7	0	1.4	2	1
+30_8	1.1	0.2	1.2	1.5
+30_9	1.2	0.7	4.3	7.7
+30_10	0	1.4	6.8	1
+30_11	3	0	8.7	1.5
+30_12	1	0	1	2
+30_13	0.2	1.6	1	1.2
+30_14	0.3	2	0.5	1
+30_15	0.4	3.1	0.4	2.2
+
+*data passage station left right up down
+30_13	0.2	1.6	1	1.2
+30_13_1	2	1.2	2.2	0.4
+
+
+; -6-
+; Messteam: Ilja Anders, Uli Schütz, Wieland Scheuerle
+; Zeichner: Wieland Scheuerle
+; Referenz: Ilja Anders
+*date 2010.08.09
+
+*data normal from to length clino compass 
+30_15	30_16	11.57	-38	339
+30_16	30_17	4.01	-22	52
+30_17	30_18	1.73	-21	164
+30_18	30_19	5.96	-58	49
+30_19	30_20	3.72	-30	37
+30_20	30_21	26.10	-80	35
+30_21	30_22	10.09	-4	326
+30_22	30_23	5.32	-15	8
+30_23	30_24	5.94	-37	278
+
+30_21	30_21_1	3.58	4	143
+30_21_1	30_21_2	13.11	-37.5	154
+
+;Raumwerte
+*data passage station left right up down
+30_15	0.4	3.1	0.4	2.2
+30_16	0	1	1	0.5
+30_17	0	2	0.3	1.8
+30_18	0	0.5	0.5	3
+30_19	0.2	0	0	0.8
+30_20	0.4	0	1	5 ; unten Wert eigentlich 0.2, sieht aber seltsam aus
+30_21	4	9	20	1
+30_22	0	2	0.3	1.2
+30_23	8	7	4	2
+30_24	3	4	5	1.5
+	
+
+*data passage station left right up down
+30_21	4	9	20	1	
+30_21_1	0.9	0.8	5	1.5
+30_21_2	0	4	0	2
+
+
+; -7-
+; Messteam: Ilja Anders, Uli Schütz, Wieland Scheuerle, Karsten Gessert
+; Zeichner: Wieland Scheuerle
+; Referenz: Ilja Anders
+*date 2010.08.10
+
+*data normal from to length clino compass 
+30_24	30_25	11.68	-60	244
+30_25	vS14	8.30	-23 298
+
+30_21_2	30_21_3	3.38	-6	238
+30_21_3	30_21_4	9.80	Down	-
+30_21_4	30_21_5	1.99	-22	128
+30_21_5	30_21_6	2.07	-20	31
+30_21_6	30_21_7	8.83	-78	207
+30_21_7	vs43	4.85	-22	213
+
+;Raumwerte
+*data passage station left right up down
+30_24	3	4	5	1.5
+30_25	1	0.5	10	4
+vs14	1	0	1	3
+
+*data passage station left right up down
+30_21_2	0	4	0	2
+30_21_3	0.3	0.3	0	10
+30_21_4	1.5	1.5	10	1
+30_21_5	3	2	6	0
+30_21_6	1	0	4	7
+30_21_7	1	0	2	2
+vs43	0	0.5	0	15
+
+
+; -8-
+; Messteam: Wieland Scheuerle, Robert Winkler, Helmut Stopka-Ebeler
+; Zeichner: Wieland Scheuerle
+; Referenz: Robert+Saskia
+*date 2010.08.08
+
+*data normal from to length clino compass 
+26	26_1	4.20	-10	150	;Richtung 152(148)
+26_1	26_2	9.46	-24	146
+26_2	26_3	1.93	-54	130
+26_3	26_4	15.69	-68	163
+26_4	26_5	3.11	15	235
+26_5	26_6	3.03	-35	217
+26_6	26_7	3.89	15	286
+26_7	26_8	3.79	-7	355
+
+26_4	26_4_1	2.73	3	95
+26_4_1	26_4_2	9.20	5	205
+
+26_4	26_4a	10.17	37	22
+
+26_2	26_2_1	8.77	0	86
+26_2_1	26_2_2	5.49	-30	116
+26_2_2	26_2_3	14.96	-44	78
+26_2_3	26_2_4	3.75	-67	191
+26_2_4	26_2_5	12.18	Down	-
+26_2_5	26_2_6	2.82	-10	79
+
+; Raumwerte
+*data passage station left right up down
+26_1	1	3	7	1
+26_2	4.5	0	6	1
+26_3	5	0	3	15
+26_4	3	4	3	0	
+26_5	0	0.5	0	1
+26_6	0	0.5	0	1
+26_7	0	0.5	0	1
+26_8	1	0	0.1	0.5
+
+*data passage station left right up down
+26_4	3	4	3	0	
+26_4_1	2	1	4	0.5
+26_4_2	0	1.5	0	0.3
+
+*data passage station left right up down
+26_4	3	4	3	0	
+26_4a	0.3	1.5	4	0
+
+
+*data passage station left right up down
+26_2	4.5	0	6	1
+26_2_1	0.5	5	7	0.5
+26_2_2	4	4	6	0
+26_2_3	0	5	15	1
+26_2_4	1	1	15	12
+26_2_5	2	1	27	0
+26_2_6	0	0.8	8	3
+
+
+; -9-
+; Messteam: Uli Schütz, Wieland Scheuerle, Karsten Gessert
+; Zeichner: Wieland Scheuerle
+; Referenz: Robert+Saskia
+*date 2010.08.12
+
+*data normal from to length clino compass 
+26_2_6	26_2_7	4.86	-56	100
+26_2_7	26_2_8	5.48	-7	116
+26_2_8	26_2_9	6.02	20	224
+26_2_9	26_2_10	4.22	15	152
+26_2_10	26_2_11	11.05	-31	128
+26_2_11	26_2_12	9.70	-72	120
+26_2_12	26_2_13	13.30	-36	175
+26_2_13	26_2_14	3.07	30	127
+26_2_14	26_2_15	5.27	8	156
+
+*data passage station left right up down
+26_2_6	0	0.8	8	3
+26_2_7	0.7	0	8	0.5
+26_2_8	0	2	5	1.5
+26_2_9	1	0	6	2
+26_2_10	0.7	0	8	1.5
+26_2_11	0.3	0	0.3	0
+26_2_12	0	1.5	14	2
+26_2_13	2	1.5	8	0
+26_2_14	0.5	0	6	5
+26_2_15	1	5	0	5
+
+
+; -10-
+; Messteam: Uli Schütz, Wieland Scheuerle, Ilja Anders, Helmut Stopka-Ebeler
+; Foto-Team: Matthias Jauß, Helmut Stopka-Ebeler
+; Zeichner: Wieland
+; Referenz: Messbuch Ilja
+*date 2011.08.11
+
+*data normal from to length clino compass
+27	27_1	6.80	-1	18
+27_1	27_2	7.42	-25	92
+27_2	27_3	12.93	-7	32
+27_3	27_4	5.20	-4	62
+27_4	27_5	10.41	12	6
+27_5	27_6	1.58	-25	297
+27_6	27_7	8.4	-55	21
+27_7	27_8	4.41	-18	108
+27_8	27_9	18.39	-69	120
+27_9	27_10	5.90	45	42
+27_10	27_11	7.00	20	133
+
+; Raumwerte
+*data passage station left right up down
+27	7	4	5	1.5
+27_1	10	4.5	0	1
+27_2	2.2	0.2	2	1.8
+27_3	0	3	0.8	1
+27_4	2	0	1	1
+27_5	2	0	1.5	1.4
+27_6	1.5	4	1	0
+27_7	4	2	15	5
+27_8	1	1	15	1.7
+27_9	4	4	20	4
+27_10	0.5	1	20	10
+27_11	0.5	0	12	15
+
+
+; -11-
+; Messteam: Uli Schütz, Wieland Scheuerle, Helmut Stopka-Ebeler
+; Zeichner: Wieland
+; Referenz: Messbuch SMK 11
+*date 2013.08.06
+
+*data normal from to length clino compass
+30_1	30_1_1	3.48	-50	338
+30_1_1	30_1_2	3.60	-70	008
+
+31	32	6.00	-6	189
+32	33	5.78	-49	097
+33	34	10.03	-31	118
+34	35	2.58	-37	058
+35	36	6.51	-26	019
+
+31	31_1	5.98	-53	237
+31_1	31_2	3.05	-47	108
+31_2	31_3	3.47	-34	186
+31_3	31_4	2.48	+14	253
+31_4	31_5	4.63	-6	308
+31_5	31_6	3.40	-4	328
+31_6	31_7	1.50	-30	025
+31_7	31_8	12.92	-80	180
+
+; Raumwerte
+*data passage station left right up down
+30_1	3	0	5	2
+30_1_1	0	1	2	4
+30_1_2	0.3	0.3	1	0.3
+
+; Raumwerte
+*data passage station left right up down
+31	2	1.5	2	0
+32	3	1	0	0.8
+33	1	2	0.2	0.2
+34	3.5	0.4	0	0.3
+35	0.6	0.7	0.3	0.2
+36	1	2.5	0	0.3
+
+; Raumwerte
+*data passage station left right up down
+31	2	1.5	2	0
+31_1	1	2.5	10	2.5
+31_2	0	0.8	0.3	0.3
+31_3	1	0.3	1	0.7
+31_4	0	0.5	0.5	0.5
+31_5	0.6	0	0.2	0.4
+31_6	0	0.5	0.2	0.3
+31_7	0.5	0	0.7	12.92
+31_8	0.5	0.5	13.62	0
+
+; -12-
+; Messteam: Wieland Scheuerle, Helmut Stopka-Ebeler, Uli Schütz, Robert Winkler
+; Zeichner: Wieland
+; Referenz: Messbuch SMK 11
+*date 2013.08.07
+
+*data normal from to length clino compass
+26_2_3		26_2_3_1	6.85	-59	130
+26_2_3_1	26_2_3_2	14.85	-33	96
+
+26_2_3_1	b_1		3.65	-14	61
+b_1		b_2		8.58	-11	178
+b_2		b_3		9.30	DOWN	-
+b_3		26_2_10		1.50	0	178	; Anschluss Schnellzug
+
+26_2_3	A1	5.70	+16	248
+A1	A2	1.67	-30	157
+A2	A3	4.33	-5	259
+A3	A4	4.26	-11	269
+A4	A5	3.07	+8	266
+A5	26_4	5.73	-43	248	; Schacht unterhalb 26.1
+
+
+; Raumwerte
+*data passage station left right up down
+26_2_3		3	4	10	12
+26_2_3_1	2	3	10	12
+26_2_3_2	0.8	0	0.3	0.3
+
+; Raumwerte
+*data passage station left right up down
+26_2_3_1	2	3	10	12
+b_1		0	5	0.3	1
+b_2		0.5	2	0.5	9.3
+b_3		0.3	0.3	9.8	1.5
+26_2_10		1.5	0	9.8	8
+
+; Raumwerte
+*data passage station left right up down
+26_2_3		3	4	10	12
+A1		1	0	0.3	1
+A2		0	1	1	0.5
+A3		2	0.3	1	1
+A4		0.5	1.5	3	0.5
+A5		0.8	0.8	0	1
+26_4		1	8	20	0.8
+
+
+*end links

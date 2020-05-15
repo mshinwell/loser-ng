@@ -1,0 +1,53 @@
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 258 "Tunnockschacht"
+
+*begin stonemonkey3
+
+*export 1 ep
+
+*title "258: Stone Monkey3 and Texel"
+*date 2008.08.03
+*team Insts Olly Madge
+*team Notes Djuke Veldhuis
+*team Tape Martin Jahnke
+*instrument Club Pony and Disto
+
+;ref.: 2008#17
+
+*calibrate tape +0  ; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+1   2   7.67    205 +03
+2   3   12.42   212 -26
+3   4   12.99   252 -37
+5   4   9.54    129 +26
+5   6   24.03   299 -24
+6   7   2.29    324 -41
+7   8   4.82    324 -10
+8   9   5.43    353 +02
+9   10  6.94    278 -31
+10  11  6.14    351 -10
+12  10  4.27    001 -31
+12  13  7.28    249 +32
+13  14  11.67   261 -55
+ep  14  3.10    025 +09
+
+*data passage station left right up down ignoreall
+1   3.5 3   2   1.5 ;on boulder corner marked "1"
+2   2   3   2   1.5 ;rock flake middle of passage
+3   0   4   1   1   ;LHW PP (hole in roof above station)
+4   0.3 3.5 4   10  ;(aven above) point on floor
+5   3   2   0   1   ;PP on roof
+6   1.2 1.2 0.6 1   ;roof arch
+7   2   1   0.5 0.3 ;rock on floor (marked as "8", lead off to left)
+8   1.2 0   0.4 0.3 ;PP on RHW at corner
+9   1   0   0.5 0.4 ;PP RHW in window
+10  0.6 3   27  1.7 ;marked point "10" in middle of passage
+11  0.7 1   26  2   ;PP on far wall
+12  0   3   27  2   ;PP on LHW
+13  2   2   0   1.5 ;in window on roof
+14  3.5 2   10  2.5 ;hanging nodule middle of passage
+ep  0   4   4   2   ;existing point dark purple by boulder slope
+
+
+*end stonemonkey3

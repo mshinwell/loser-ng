@@ -1,0 +1,38 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+
+*begin godonlyknows
+
+*title "God Only Knows"
+*date 2008.07.28
+*team Insts Jess Stirrups
+*team Notes Kathryn Hopkins
+
+; Calibration: none
+; ref.:	2008 #04
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 5
+
+*calibrate tape +0.10	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	8.67	170	-24
+3	2	1.80	312	+33
+3	4	2.75	159	-21 ; reversed in notes
+5	4	3.01	327	+06
+6	7	9.77	319	-85
+6	1	4.82	359	+25
+
+*data passage station left right up down ignoreall
+1	0.5	1	1	1	RP RHW	
+2	1.5	0	0.3	0.6	RP RHW
+3	0.5	1	0.5	0.5	RP on ceiling
+4	0.4	1	0.6	0	RP on floor
+5	1.5	1	1	0.4	RP RHW
+6	0.7	2	0.3	9	RP roof
+7	0	1.5	10	1	Boulder on floor
+
+*end godonlyknows
+

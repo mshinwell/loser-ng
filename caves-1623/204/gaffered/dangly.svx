@@ -1,0 +1,39 @@
+*begin dangly
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Dangly bag's revenge"
+*date 2007.07.16
+*team Insts Ollie Stevens
+*team Notes Edvin Deadman
+
+*instrument set 2
+
+; ref 2007 #08
+
+; Calibration: stone bridge: 151/+23 151/+22 328/-23 329/-24
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+
+1	2	3.45	235	-16
+2	3	4.30	-	down
+4	5	4.08	212	-42
+3	4	1.3	325	+08
+6	5	5.45	030	+35
+
+*data passage station left right up down ignoreall
+
+;station details
+;name	L	R	U	D	description
+1	-	-	-	-	station 1 at bottom of Cerberus pitch
+2	7	-	-	-	flake above pillar of rock
+3	1	1	10	0	rock of base of pitch
+5	0.3	0	2	0.3	right hand wall squeeze
+4	1	1	0	0.5	near plumb
+6	0.5	0.5	10	1	rock at bottomn of pit	
+
+*end dangly

@@ -1,0 +1,17 @@
+*equate p31 31.elchalt.0   
+
+*entrance p31
+
+*begin 31
+
+*title "Elchhöhle, 1623/31"
+
+*export elchalt.0
+
+;Angelegt am 31.10.00, Thilo
+
+*data normal from to length gradient bearing ignoreall
+
+*include elchalt
+
+*end 31

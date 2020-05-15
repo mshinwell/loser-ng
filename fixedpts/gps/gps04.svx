@@ -1,0 +1,60 @@
+; GPS locations from 2004
+*equate p247 gps04.p247
+*equate 254gps gps04.2004-19-stn3
+; Now has a surface survey
+;*equate p2004-13 gps04.p2004-13
+
+*begin gps04
+
+*export p247 2004-19-stn3 p2004-13 p2004-10 p2004-18
+
+*equate p2004-12 p161h
+*entrance p247 ; aka 2003-03
+*fix p247 reference 36817 83860 1872
+
+; From Brian's GPS:
+; *fix p2004-12 reference WGS84 N 47 deg 41.101 E 013 deg 49.647 min Alt 1704m
+; *fix p2004-13 reference WGS84 N 47 deg 41.033 E 013 deg 49.645 min Alt 1695m
+; *fix p2004-19-3 reference WGS84 N 47 deg 41.247 E 013 deg 49.630 min Alt 1764m
+; These convert to:
+*fix p2004-12 reference 37152.64        83045.43        1704
+*fix p2004-13 reference 37149.72        82917.11        1695
+*fix 2004-19-stn3 reference 37129.66        83315.22        1764
+
+; From someone's GPS
+; *fix p2004-10 reference WGS84 N 47 deg 41.640' E 013 deg 49.069' ???m
+; which converts to, using my GPS's built-in conversions:
+*fix p2004-10 reference 36421 84038 1800
+; (altitude estimated from Martin's contours)
+
+; Fix of unknown provenance in Lat/Long which appeared on the website for Earl's Hat Cave.  I've
+; _assumed_ this is in WGS84 datum, which puts the cave in about the right place.
+; Converted using my GPS's internal conversions. Altitude guessed.
+; *fix p2004-21 reference WGS84 N 47 deg 41.569 min E 013 deg 49.064 min Alt 
+*fix p2004-21 reference 36416 83907 1760
+
+; From Martin's GPS:
+
+*fix p2004-16 reference 36526 83954 1831
+*fix p2004-17 reference 36526 83979 1834
+*fix p2004-18 reference 36552 84028 1834
+
+*entrance p2004-10
+*entrance p2004-12
+*entrance p2004-13
+*entrance p2004-16
+*entrance p2004-17
+*entrance p2004-18
+*entrance p2004-21
+
+; From Anthony's GPS:
+
+; *fix p2004-01 UTM 33T 0410810 5281365
+; Anyone have a clue how to convert this to Gauss + Krugers?
+; If the GPS was on WGS84 datum, that lands nearly 500m off.
+; Setting my GPS to UTM with the Austria datum, and converting to G+K's, the result is:
+
+*fix p2004-01 reference 35891 82905 1651
+; This is only 19m from p99, which fits the location description. Bingo.
+
+*end gps04

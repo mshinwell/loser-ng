@@ -1,0 +1,23 @@
+;Eislufthoehle 1623/76
+
+*begin boil3
+
+*title "Boiling Tubes III"
+*date 2007.08.03
+*team Insts Jenny Black
+*team Notes Olly Betts
+*team Tape Jenny Black
+*instrument proto pony; our disto
+; notes in 2007 #
+
+*export 5
+
+*calibrate tape +0.00
+
+*data normal from to compass clino tape
+5	6	302	-09	4.482
+6	7	293	-08	3.130
+7	8	320	-06	1.821
+8	9	318	-11	2.191
+
+*end boil3

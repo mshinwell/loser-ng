@@ -1,0 +1,108 @@
+;1998.03.02 AERW sort begin/end, add comments, refs
+
+; ====== links between surveys in this file: ======
+
+*equate fconnect.3	fogies.21
+*equate fogies.6	fogies2.5
+
+*begin fogies
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Wheelchair Access (Fogies' Folly)"
+*date 1996.07.23 ; trip 1996-161-54 in logbook
+*team Insts Jeremy
+*team Notes Chris D
+*team Pics Chris D
+*team Tape Mainly Dave Horsley
+*instrument set 1 (?)
+; Calibration:
+;		a -> b 215 +08
+;		b -> a 035 -08
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 6	; big 'J' CM on stn6
+*export 21	;
+
+*calibrate tape 0
+; ref.:	can't find this in 1996 KH survey book
+
+;From  to  Tape Compass Clino 
+1	2	 4.20	060	+72
+3	2	 1.40	232	-42
+3	4	 3.12	142	+40
+4	5	 5.56	171	+38
+6	7	12.25	191	+30 ; big 'J' CM on stn6
+7	8	 8.65	162	+33
+9	8	11.30	012	-16
+10	9	 0.51	068	-45
+10	11	 8.03	199	-05
+12	11	 2.57	339	-23
+13	12	 3.05	027	+13
+13	14	 6.22	250	-65
+5	14	 5.64	004	-13
+; note no 15
+5	16	 3.08	181	+25
+16	17	 6.43	298	+75
+17	18	 5.42	320	-03
+18	19	 7.25	281	+07
+20	19	 6.11	185	-68
+21	20	 7.15	181	-24 ; reversed?
+*end fogies
+
+*begin fogies2
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Wheelchair Access: Fogies2"
+*date 1996.07.26 ; trip 1996-161-63
+*team Insts Jeremy Rodgers
+*team Notes Mark Fearon
+*team Pics Mark F.
+*team Tape joint effort
+*instrument Set 3
+; Calibration:	a>b	214	+08
+;		b>a	029	-02
+; Tape read to 0
+; 12m down grade 0ish leg at bottom stn 1 to 0
+;legs 1 to 3 removed, as duplicated in keinzimmer survey (Sam, 97.09.11)
+; ref.:	can't find this in 1996 KH survey book
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 3	; CM RH wall marked 'M'
+*export 5	; big 'J' CM
+
+*calibrate clino -3.0
+
+;From  to  Tape Compass Clino 
+;1	2	12.41	312	+59
+;3	2	5.1	063	-26
+4	3	3.31	094	+10
+4	5	4.21	142	+37
+*end fogies2
+
+*begin fconnect
+
+; Cave:	1623/161, Kaninchenhöhle
+; Locn:	Totes Gebirge, Austria
+*title "Wheelchair Access connecting legs"
+*date 1996.07.31 ; trip 1996-161-75
+*team Inst Dave Horsley
+*team Notes Steve Bellhouse
+; Instrument set 3 (no calib)
+; assume same clino calibration as above
+; ref.:	can't find this in 1996 KH survey book
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; CM L wall, above climb out of canyon after Moth Cha., just before Dr. Snuggles
+*export 3	;
+
+*calibrate clino -3.0
+
+2	1	5.18	228	+42
+3	2	5.63	326	+56
+
+*end fconnect

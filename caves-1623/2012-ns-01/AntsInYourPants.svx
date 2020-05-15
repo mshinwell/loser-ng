@@ -1,0 +1,50 @@
+*begin AntsInYourPants
+*export 2012-NS-01-tag 15
+
+*title "Surface survey from 2012-NS-01 to 2013-03 aka AntsInYourPants Hoehle and then survey of AntsInYourPants Hoehle"
+*date 2013.08.05
+*team Instruments Matt Watson above ground, Holly Bradley under ground
+*team Notes Becka Lawson
+*instrument CUCC conventional and 30m tape
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+*flags surface
+1	2012-NS-01-tag	5.98	253	-44
+2	1	12.18	285	-19
+3	2	10.75	278	-24
+3	15	2.62	216	-42	; station 15 written as station 4 but is same as station 15
+*flags not surface
+
+6	5	12.70	-	down
+7	6	2.70	195	-49
+8	7	3.65	245	-18
+9	8	5.80	-	down
+9	10	27.20	-	down
+11	9	5.65	-	down
+12	11	1.45	115	+01	; notes say 12 to 10
+13	12	1.25	246	-13
+14	13	29.80	-	down
+15	14	2.00	140	-43
+
+*data passage station left right up down ignoreall
+
+2012-NS-01-tag	-	-	-	-	tagged by Noel Snape last year; abseiled down in 2013 to window to pitch inbetween this and AntsInYourPants Hoehle
+2	-	-	-	-	surface
+3	-	-	-	-	surface
+; 4	-	-	-	-	same as station 15, 2013-03 tag for AntsInYourPants Hoehle, tagged as 2013-03s
+5	1	1	16	0	base of pitch, boulder floor
+6	1.3	0.5	3	13	r hand of y hang bolt
+7	1.5	1	0	1.5	station numbered near ceiling bolt
+8	1.5	1	0	1.5	wall, part way down pitch
+9	0.5	1	6	27	rebelay
+10	1	1	33	0	base of snow
+11	0.5	0	3	33	LH bolt of y hang
+12	0	1	5	1.4	ice at top of pitch
+13	1.5	0	30	1.6	ice below snow bridge
+14	1	2	23	0	knot for first pitch off 2 naturals
+15	-	-	-	-	tag bolt at top of pitch, 2013-03 tag for AntsInYourPants Hoehle, tagged as 2013-03s
+
+*end AntsInYourPants

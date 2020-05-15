@@ -1,0 +1,41 @@
+*begin darkfumblings
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 258 "Tunnockschacht"
+
+*export 1 7 2
+
+*title "dark fumblings"
+*date 2008.07.30
+*team Insts Frank Tully
+*team Tape Serena Povia
+*team Notes Olly Madge
+
+; Survey book reference: 
+
+; Calibration: stone bridge
+; compass: 
+; clino: 
+
+2   1   7.33    102 +39
+2   3   6.72    313 -37
+4   3   2.91    158 +23
+4   5   2.30    281 -41
+6   5   4.19    140 +16
+7   6   12.19   180 +15
+
+;SRP means Sparkeley Red Paint.
+
+
+*data passage station left right up down ignoreall
+; Unknown point of previous survey in pencil 
+1   -   -   -   -   SRP on corner of junction
+2   0.2 0.4 0.7 0.7 SRP on large ruck on floor
+3   0   0.4 0.4 0.5 SRP on LHS wall
+4   0.3 0.2 0.4 0.8 SRP on pendant on ceiling
+5   0   0.8 1   0.4 SRP on LHS wall
+6   0   3   5   2   SRP on top of large rock
+7   -   -   -   -   'Lilac Pink 6' on back wall of sandy chamber
+
+
+*end darkfumblings

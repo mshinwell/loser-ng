@@ -1,0 +1,36 @@
+*begin scrottytubeii
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Balconhohle
+*ref 2014#40
+
+*export 1 8
+
+*title "Scrotty Tube ii"
+*date 2014.08.14
+*team Notes Matt W
+*team Instruments David W
+*instrument SAP, Uni-T disto
+
+;from 	to 	tape 	compass clino
+1	2	3.80	45	-34
+2	3	4.17	332	-19
+3	4	3.12	235	-24
+4	5	2.95	301	-11
+5	6	8.26	254	-32
+6	7	3.05	298	-17
+7	8	1.78	257	-19
+
+*data passage station left right up down ignoreall
+1	-	-	-	-	station 3 from darkartsii
+2	.5	0	.7	.8	RHW bottom of pit
+3	1.0	0	.5	.8	
+4	0	1.0	0.2	0.9	Labelled
+5	.6	.2	.3	.5	
+6	.2	.9	.8	1.6	LHW
+7	1.2	0.1	0.7	1.8	RHW
+8	.7	.7	.5	1.7	LH ceiling, labelled
+
+*end scrottytubeii
+
+

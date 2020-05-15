@@ -1,0 +1,90 @@
+;NOTES > $.Survey.Surveys.Austria.D.P143
+;1995.08.01 AERW Source: converted from SU file
+;1998.01.28 AERW added comments and refs
+;1998.05.29 AERW sorted exports and format
+
+*equate 143.0	p143
+*entrance p143
+
+*begin 143
+
+; Locn:	SE flank Vord. Schwarzmooskogel, Western massif, Totes Gebirge, Austria
+*title "Weißen Warze Schacht I, 1623/143"
+*date 1983.08.06 ; trip 1983-143-5 in 1983 logbook ("PC" survey)
+*instrument Pete Lancaster
+*team Tape 
+*team Notes Chas Butcher
+*instrument 
+; Calibration:
+
+; ref.:  landscape-format brown-hardback notebook in AndyW's archive pp 1-12
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0	; knob on roof in centre of entrance
+;*export 29	; rh wall, start of too-narrow rift
+
+;CHANGE               0.    0.       143 survey 1983. Compass OK.
+;GRADE USE 5N
+   0   1  4.0  143.  -45.
+   1   2  2.8  193.  -33.
+   2   3  2.8  230.  -17.
+   3   4 19.7    -   Down
+   4   5  3.1  157.    0.
+   5   6  2.3  221.  -34.
+   6   7  5.7  223.  -30.
+   7   8  5.5  235.  -20.
+   8   9 10.0    -   Down
+   9  10  1.5   51.   30.
+  10  11  4.5   47.  -44.
+  11  12 23.1    -   Down
+  12  13  2.9  113.    0.
+  13  14  5.2   52.  -32.
+  14  15 19.2    -   Down
+  15  16  4.0  129.    3.
+  16  17  5.0  228.    8.
+  17  18  5.8    -   Down
+  18  19  5.5  180.  -10.
+  19  20  2.7  179.   -8.
+  20  21  2.9  219.    0.
+  21  22  4.4  214.  -23.
+  22  23  2.0  186.   34.
+  23  24  7.6   56.  -83.
+  24  25  2.9  117.    0.
+  25  26  3.9  102.  -51.
+  26  27 18.0    -   Down
+  28  27  2.5   74.    0.
+  28  29  2.2  283.   -9.
+
+; station details
+; 0	knob on roof in centre of entrance
+; 1	top of rock
+; 2	lhs
+; 3	bolt at head of pitch
+; 4	edge of 3m diameter rocky floor at foot
+; 5	floor below skylight
+; 6	lhs of exit passage
+; 7	lh wall
+; 8	bolt, rh wall, head of pitch
+; 9	centre of floor, 2m to back wall (SW), 3m to sides (NW and SE)
+; 10	top of one boulder (belay on the other)
+; 11	bolt, lh wall
+; 12	centre of floor
+; 13	rh wall
+; 14	bolt
+; 15	floor
+; 16	end wall (turn r)
+; 17	edge of climb, middle of 1m wide passage
+; 18	chocks, 2m above stream
+; 19	centre of passage, 2m above stream in trench
+; 20	rh wall
+; 21	lh wall
+; 22	rh wall before bend
+; 23	rh wall outside of bend, bolt
+; 24	lh wall, foot of pitch
+; 25	bolt on lh wall, 1.5m wide
+; 26	bolt on rh wall
+; 27	floor, foot of pitch
+; 28	edge of step down
+; 29	rh wall, start of too-narrow rift
+*end 143

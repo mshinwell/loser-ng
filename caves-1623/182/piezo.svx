@@ -1,0 +1,29 @@
+*begin Piezo
+
+; Locn:	Main plateau, WNW of Top Camp, Loser Augt-Eck massif, W. Totes Gebirge, Austria
+; Cave:	Puffball & Icing Sugar Cave (1623/182)
+*title "lead from top of 3rd pitch"
+*date 1991.07.18
+;*team ?
+; Ref.:	?
+; I think this is the trip marked in the logbook as being on the 17th!
+
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; at bottom of short pitch from Crow's Nest
+*export 5	;
+*export 10	;
+*export 11	;
+
+2       1       15.80   160     -76
+2       3        4.38   315.5   -03
+4       3       12.06   205     -58.5
+4       5        3.96   018.5   +13
+6       5        1.92   198     +26
+6       7        1.32   028     +28
+7       8        2.35   015     +20.5
+9       8        8.31   201     -02
+9       10       6.46   041     -24
+11      10       0.90   106     +36
+*end Piezo

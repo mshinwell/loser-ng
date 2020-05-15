@@ -1,0 +1,222 @@
+;> 1623/41
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Stellerweghöhle 1623/41
+; auf halbem Weg vom E142 zur Vereinigungshalle
+; links hoch, mit Verbindung zum Verbindungsgang vom Schwabenschacht her"
+; 5 Vermessungen
+
+
+*begin blakwite
+*title "Black and White"
+
+*export 0
+*export 10
+*export x
+*export mj13
+
+
+;-1-
+; Messteam: Regina Kaiser, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 1
+
+
+*date 1997.06.29
+
+*units compass degrees
+*units clino degrees
+
+*data normal from to length gradient bearing ignoreall
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+0       1        1.70    11       36.5
+1       2       12.45    33.5    292
+2       3        4.10   -14      186
+3       4        3.15    18      229
+4       5        3.10   -19.5    215.5
+5       6        1.80   -90        0
+6       7        5.25   -18      195.5
+7       8        6.25   -19       89
+8       9        6.95   -17.5    145
+9      10        1.20    13      201
+
+2       a        5.45    -8.5     32
+a       b        5.00     1      340
+b       c        2.70    11      319.5
+c       d        4.40   -27.5    347
+d       e        2.20     4        9
+e       f        7.95    16      328
+f       g        7.00    -4       23
+g       h        3.30    40      334
+h       i        9.25     5       35
+i       j        8.90     9       56		;Gangende verlehmt
+
+h       k        3.85    18.5    283
+k       l        2.25   -90        0
+l       m        2.20   -40.5    187
+m       n        3.50   -34      213
+
+;Raumwerte
+*data passage station left right up down
+1	2	2	0.6	0.2
+2	-	-	0	0.8
+3	0.2	2	0.6	0
+4	0.3	1.5	0	0.4
+5	1	1	0.3	-
+6	-	-	-	-
+7	-	0.3	0.6	0.2
+8	1.5	2	0.3	0.5
+9	3	1.5	5	0.5
+10	-	-	-	-
+
+*data passage station left right up down
+2	-	-	0	0.8
+a	1	1.2	0.2	0.4
+b	-	1.2	0.8	0.2
+c	3	0.6	0.6	0.5
+d	0.6	1	0.6	0.4
+e	0	2	0.4	0.5
+f	1	2	0	0.8
+g	0	1.8	0.2	0.6
+h	1.5	1.5	0	1.4
+i	0	1	0.5	2.5
+j	0.6	0.4	0.8	0.2
+k	0.4	0.4	1	4
+l	-	-	-	-
+m	0	1.4	2	3
+n	0	3	1.5	-
+
+
+;-2-
+; Messteam: Regina Kaiser, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 1
+
+
+*date 1997.06.30
+
+
+*data normal from to length gradient bearing ignoreall
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+n       o        5.55   -90        0
+o       p        4.24   -27       37
+p       q        4.01   -90        0
+
+p       r        4.32    14.5     64
+r       s        2.70    28      194
+s       t       10.12    37.5    181
+s       u        7.00    52      125
+u       v        1.00    -3      159
+v       w        3.60    37.5    267
+w       g        2.05    17.5    342
+
+x       x_1      5.50   -40       95
+x_1     r        2.16   -16      177
+
+;Raumwerte
+*data passage station left right up down
+o	-	-	-	-
+p	0	1.2	1	-
+q	-	-	-	-
+
+*data passage station left right up down
+p	0	1.2	1	-
+r	-	-	-	-
+s	1.2	0.2	1.8	2
+t	1	0	0.5	0.3
+u	0	0.4	0.1	0.5
+v	0.2	1.5	0.3	0.4
+w	0	-	0.5	0.3
+g	-	-	-	-
+
+*data passage station left right up down
+x_1	0.2	0.6	0.6	0.3
+r	0.8	1	0.5	1
+
+
+
+
+
+;-3-
+; Messteam: Regina Kaiser, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 2
+
+*date 1997.09.27
+
+*data normal from to length gradient bearing ignoreall
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+q	q1	5.28	-7	255
+q1	q2	6.15	-35	243.5
+q2	q3	13.95	-90	0
+
+;Raumwerte
+*data passage station left right up down
+q1	-	-	-	-
+q2	0.5	1	1.5	-
+q3	-	-	-	-
+
+
+;-4-
+; Messteam: Regina Kaiser, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 2
+
+*date 1997.09.28
+
+*data normal from to length gradient bearing ignoreall
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+q3	q4	1.53	64	208
+q4	mj13	3.53	25	219
+
+;Raumwerte
+*data passage station left right up down
+q4	-	-	-	-
+mj13	-	-	-	-
+
+
+;-5-
+; Messteam: Regina Kaiser, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 2
+
+*date 1997.09.29
+
+*data normal from to length gradient bearing ignoreall
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+5	5_1	1.53	23.5	296
+5_1	5_2	3.88	48	342
+5_2	xx	5.80	-90	0
+
+5_2	5_3	3.77	45	331
+5_3	5_4	2.25	33	335
+5_4	5_5	2.78	20	322.5
+5_5	5_6	2.15	31	290
+5_6	5_7	5.42	25.5	352
+5_7	5_8	2.77	0.5	14
+5_8	5_9	4.70	-90	0
+5_9	5_10	3.56	-4	129
+5_10	5_11	2.82	-34	193
+5_11	5_12	3.3	-46	150
+
+;Raumwerte
+*data passage station left right up down
+5_1	0	2	0.4	0.3
+5_2	0.6	0.2	0.3	-
+xx	-	-	-	-
+
+*data passage station left right up down
+5_2	0.6	0.2	0.3	-
+5_3	1	0	0.5	0.3
+5_4	0.5	0.5	0.3	0.2
+5_5	0.8	0.3	0.8	0.4
+5_6	0.2	0.5	0.1	0.4
+5_7	0	0.6	0.4	0.4
+5_8	0	1	3	4
+5_9	-	-	-	-
+5_10	0.2	0.3	0.6	0.6
+5_11	1	0	1	1.4
+5_12	0	0.8	1.5	0.5
+
+
+*end blakwite
+

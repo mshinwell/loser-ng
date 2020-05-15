@@ -1,0 +1,195 @@
+;1998.02.27 AERW imported additional side passages that need DeepSleep to
+;		 connect to main way. Sorted begin/end. Added survey/log book
+;		 references. Added clino *Calibrate to match calib details
+;		 fixed length error in one leg (DeepSleep.1->2)
+
+; ====== links between surveys in this file: ======
+
+*equate DeepSleep.1	Snap.7
+*equate DeepSleep.3	DreamBull.4
+*equate DeepSleep.4	DreamOn.1
+*equate DreamBull.1	Bullshit.01
+
+*begin DeepSleep
+
+; Cave:	Kaninchenhöhle (1623/161)
+; Locn: Totes Gebirge, Austria
+*title "Deep Sleep - at start of Dreamtime"
+*date 1992.07.18 ; trip 1992-161-7 in 1992 logbook
+*team Inst MikeTA
+*team Tape 
+*team Notes Wookey
+*instrument Compass: illum.; Clino: illum.
+; Calibration:	'92 Cairns, 041, +7/5,-9
+; Ref.:	1992 survey book pp 106-109
+
+*export 1	; Traverse line bolt (3rd to last as rigged in 1989, 2nd to
+		; last in 1991)
+*export 3	; Traverse line bolt (highest, closest to Alt Shopper)
+*export 4	; bolt next to highest Traverse bolt (lower, further into Dreamtime)
+
+*calibrate clino -0.75
+
+; initial section of survey connects various hanging surveys
+; Bolt connections at start of dreamtime
+
+1       2       3.72    266     -01.5   
+3       2       5.07    041     +10
+4       2       5.10    042     +12.5 ; 5.10 in survey book, not 5.19 AERW
+4       3       0.39    142     +43   ; this compass low grade (too near light)
+; fixing that length brought the closure error down from 5% to under 2%
+; actually, the main source of the 2% (almost entirely horizontal) misclosure
+; around this 3-leg loop seems to be that the two compass bearings for the
+; 3-2 and 4-2 legs are too close together by about a degree. Changing either
+; would make the loop close pretty well with the 4-3 leg unchanged :-)
+; Deep sleep itself
+4       5       13.75   337     -32.5
+5       6       12.70   -       Down
+7       6       2.30    328     -21.5
+7       8       3.40    199     -75
+9       8       7.21    296     +31.5
+10      9       2.88    212     -12
+10      11      9.37    -       Down
+11      12      8.10    121.5   +29.5
+
+;1 -    -       - -     Traverse line bolt
+;2 -    -       - -     Traverse line bolt (last on RHS in 1991, 2nd last 1989)
+;3 -    -       - -     Last traverse bolt (highest, closest to Alt Shopper)
+;4 -    -       - -     bolt next to it (lower, further into dreamtime)
+;5 -    -       - -     Edge of rock bridging deepsleep pitchhead
+;6 -    -       - -     Floor of 1st shelf
+;7 0.4  0.8     - -
+;8 0.9  0.3     - 1.6   CM
+;9 2.1  0.0     - 1.8   CM
+;10 -   -       - -     0.1 perp. out from bolt
+;11 1.7 1.5     - 0.5   CM, Rock on floor
+;12 0   1.9     3 3     end wall, 1m above shelf
+
+*end DeepSleep
+
+*begin DreamOn
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Dreamtime top bit extra survey."
+*date 1991.07.09 ; trip 1991-161-7 (says 14th in logbook)
+*team Notes Andy Atkinson
+*instrument Ian Harris
+; DreamOn.1 lower bolt of original traverse line on Dreamtime side
+; Original survey is to bolt nearest to pitch (point Dream89.20)
+; - connection in deepsleep survey
+
+; ref.:	1991 survey book p 79 says "missing first sheet"
+
+*export 1	; bolt next to highest Traverse bolt (lower, further into Dreamtime)
+
+2       1       16.30   159     +20
+2       3       20.42   230.5   -12
+4       3       12.13   159     +24.5
+5       3       11.05   107     +11
+5       6        5.53   028     +01
+7       6       15.36   060     +01.5
+8       5        8.09   328.5   -14.5
+
+; station details
+; stn	L	R	U	D
+; 1	0	-	-	1.5	LH lower bolt
+; 2	8.0	0	6.0	0.9	RH
+; 3	0	-	-	-	LH flake
+; 4	3.3	2.1	6.0	1.0	Floor block
+; 5	-	-	7.2	1.1
+; 6	-	-	1.8	1.6	flake
+; 7	3.1	2.8	1.9	1.1	8 cm from back wall
+; 8	0	3	6.6	1.9	LH, 3m wide
+
+*end DreamOn
+
+*begin DreamBull
+; Cave: Kaninchenhöhle (1623/161)
+*title "Dreamtime to/from Matt's Pitch"
+;		(Bullshit alley to Alternative Shopper Traverse line)
+*date 1990.07.19 ; trip 1990-161-17 in logbook
+*team Insts Mike the Animal
+*team Tape Tina
+*team Notes Tina
+*instrument Compass 624931, Clino 736380
+; Calibration :
+
+*export 1	; Matt's bolt at start of Bullshit Alley
+*export 4	; Traverse line bolt (highest, closest to Alt Shopper)
+
+*calibrate compass 0
+*calibrate clino 0
+; ref.:	1990 survey book p 19
+
+1       2       10.60   142.50  +33.00 ; Bullshit.01 = Matt's bolt
+3       2       6.85    261.50  -25.00 ; notes say 2->3 but B not F
+3       4       8.61    183.00  +20.00 ; 4 = old traverse bolt
+*end DreamBull
+
+*begin Bullshit
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Matt's Pitch: Bullshit Alley - near to start of Dreamtime"
+*date 1990.07.18 ; trip 1990-161-14 in logbook
+*team Notes Francis
+*instrument Jeremy
+*team Tape Pete
+*instrument Compass 543693, Clino 726974
+; Calibration:	161 Cairns - Comp:017.5  Clino:+17,-18
+; ref.:	1990 survey book p 19
+;	noted "drawn up 1992 survey book pp 108-109, Wookey '96"
+
+*export 01	; Matt's bolt at start of Bullshit Alley
+
+*calibrate compass 0
+*calibrate clino -0.5
+;readings grade 5
+
+; Matt's bit in dreamtime ('Bullshit Alley')
+; This section of dreamtime is called Bullshit
+
+02      01       1.72   138     -07.5
+02      03       2.93   046     +65
+03      04      13.35    -      Down
+05      04       1.51   285.5   +35.5
+05      06       3.28   100.5   +25
+06      07       4.84    -      Down
+08      07       2.60   292     -07
+08      09       3.55    -      Down
+10      09       1.99   299.5   +02
+11      10       2.20   254     +80
+; The survey appears to give a bearing and dip of a rift at the bottom 157. , -38.
+
+*end Bullshit
+
+*begin Snap
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Snapoffalot - QM off at the start of dreamtime on the right"
+*date 1991.07.20 ; trip 1991-161-12 in 1991 logbook
+*team Notes Olly
+*instrument JulianS
+*instrument Compass 726974; Clino 721899
+; Calibration:	041(to cairn)222(from cairn)
+;		+8,+7, -9,-8
+; Ref.:	1991 survey book pp 92-3
+; yet another unconnected survey - 7 was the last traverse line bolt rigged 
+; in '91. This is the 2nd to last traverse bolt round the RH of Alternative
+; Shopper - connection resolved by DeepSleep survey above
+
+; Snapoffalot is supposed to be a rediscovery of Bullshit Alley - so is
+; this not a duplicate survey ?
+
+*export 7	; Traverse line bolt (3rd to last as rigged in 1989, 2nd to
+		; last in 1991)
+
+*calibrate clino -0.5
+
+1       2        8.90    -      Up
+2       3        4.80    -      Up
+4       3        1.30   320      00
+5       4        4.25   350     -33
+5       6       17.60   132     +26
+6       7        5.76   075     +15
+
+*end Snap

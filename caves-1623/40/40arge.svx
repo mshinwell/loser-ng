@@ -1,0 +1,55 @@
+;Schwarzmooskogeleishöhle, 1623/40
+;Zusammenstellung der ARGE Vermessungen
+;Deaktivierte Anschlüsse sind in der Steuerdatei für mehrere Datensätze (40.svx)
+
+*data normal from to length gradient bearing ignoreall
+
+*include arge/elefantengang 		;Arge Neuvermessung "oldway" des cucc am 28.10.00
+;*equate elefantengang.0 eissvh.sv26 	;Anschluß in der Schneevulkanhalle (dort steht irritierenderweise "15" als MP an der Wand)
+
+*include arge/gruenerEingang   		;neuer Eingang zur Vereinskammer/ new entrance to Vereinskammer (Thilo 1.11.99)
+*equate elefantengang.7	gruenerEingang.0		;Anbindung der Vermessung zum Grünen Eingang
+
+*include arge/expressfinish 		; Seitenhalle zur SVH
+;*equate expressfinish.1 eissvh.sv69
+
+*include arge/koenigsschacht 			;Königsschacht entrance to SVH (Thilo 13.9.99)
+;*equate koenigsschacht.7 eissvh.sv16
+
+*include arge/schotterland 		;ARGE/CUCC 2000 resurvey of VFHM find/Neuvermessung des Schotterlandes
+;*equate eissvh.sv11 schotterland.A0 	;this connection needs detail checking
+
+*include arge/niete  		;Kleiner Seitengang im alten Teil
+;*equate niete.9 eishohle.630 	;Anbindung an Kieselbachmessung
+
+*include arge/tiefergang        ;Schachtabstieg nördlich der Altausseer Halle
+;*equate tiefergang.5_6     eishohle.629
+
+*include arge/hanspfandlhalle
+;*equate HansPfandlHalle.0     eishohle.619
+
+*include arge/wahnsinnsschaechte 		;ARGE Neuvermessung der Wahnsinnsschächte ab 10/00
+*equate elefantengang.5a wahnsinnsschaechte.0
+
+*include arge/wahnsinnscanyon
+*equate wahnsinnsschaechte.28 wahnsinnscanyon.28
+
+*equate tiefergang.5_4 thalhammerhalle.17_1
+*include arge/thalhammerhalle
+
+*include arge/flusstunnel
+*equate flusstunnel.6_4	HanspfandlHalle.7
+
+*include arge/gluehwuermchen
+*include arge/wanderer
+*include arge/silbercanyon
+
+*equate flusstunnel.7_4	gluehwuermchen.4x
+*equate flusstunnel.7_6	gluehwuermchen.3_6
+*equate flusstunnel.5_8	wanderer.8
+*equate flusstunnel.5_6	wanderer.12_11
+*equate flusstunnel.7_9	silbercanyon.9
+*equate wanderer.41	silbercanyon.x
+*equate elefantengang.0	franzosenbiwak.x15
+
+*include arge/franzosenbiwak

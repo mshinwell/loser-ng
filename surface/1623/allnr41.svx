@@ -1,0 +1,137 @@
+;1998.04.02 AERW created to include all extant surface surveys
+;1998.12.24 W added new P88fix (link from P40a to P88 entrance)
+;1999.02.10 W removed Foreign eishöhle surveys to 'Allnr40' as 
+;             they are not directly connected to this set
+
+;=============== 41 area, and all south of VSK ===============
+
+;ARGE surveys around Schwabenschacht (078)
+*equate P78		schwabsurf.1
+*equate Laser.7_9	schwabsurf.53
+*include p78
+*equate P78d	E4.1
+*equate P78	E4.22
+*include 78to78d
+*equate e4.16a p116
+*equate P78	dominosurf.Eingang
+*equate P202	dominosurf.P
+*include domsurf
+
+*equate sonnausn.0 1500
+*equate sonnausn.3 p203
+*equate sonnausn.14 p78e
+*include sonnausn
+
+; 40-41-78-88-113-142-143-144 area
+*equate P32	Hillside.82.32
+*entrance P32
+*equate P41	Hillside.83.41
+*equate P141	Hillside.82.131
+*entrance P141
+*equate P142	Hillside.82.132	Hillside.83.132
+*equate P143	Hillside.83.143	
+*equate P144	Hillside.83.144	Hillside.87.00
+; apparently believed that these are the same, but 83.144 not well described
+;this (P88) pos now superceeded by real larchenschact data
+;the two 'P88's are about 70m apart... something is not right!
+*equate P88	Hillside.87.31	Hillside.87x.7
+*equate P88rig	Hillside.87.33
+*equate Hillside.83.BB	BUNTER	; Cairn, not laser point :-(
+*equate Hillside.87x.0	Drilled_P0
+*include 41toBunt
+
+;*include BunttoP0
+
+*equate P115	LookFutile.0
+*equate P83_1	LookFutile.24	; drilled (?) station and lots of red paint nb. this is not a cave entrance
+*include lookfut
+
+; W 1995.09.08 Changed name of bolt on Bunters bulge (nipple.p8nipple) from
+;              0_8 to 7_8. Removed mention of 0_7.
+*equate nipple.p8	Laser.7_8 ; AERW 1995.08.01
+*equate nipple.bolt	laser.7_9 ; AERW 1995.08.01 ;W laser0_7 is on Nase..
+*equate nipple.fix.1	BUNTER
+*include nipple
+
+*equate Nipto155.pt1.1	P155
+*entrance P155
+*equate Nipto155.pt1.8	P154
+*entrance P154
+*equate Nipto155.pt1.11 P154b
+*entrance P154b
+*equate Nipto155.pt1.17	P153
+*entrance P153
+*equate Nipto155.pt2.bb	Laser.7_8
+*include p155
+
+;ARGE survey
+*equate L8to158.Laser8	Laser.7_8
+*equate L8to158.q	p158
+*equate L8to158.L	P206
+*include L8to158
+
+;----------------------------------------------------------------------------
+
+; There is a history of massive misclosures in these surface surveys,
+; and there is certainly no reason to trust later resurveys over the
+; original surveys. However a major blunder in typing in 1982 data was
+; found in 1998, and this gave enough confidence to isolate the traverses
+; which seemed to contain the other major blunders. As of 1998.04.07, this
+; lot now seems to hang together fairly well, though a new surface resurvey
+; from P0 (at 1623/113) to 1623/152 would be a useful exercise.
+
+*equate Stogerweg.pt1.0 	P113		; pitch head bolt
+*equate Stogerweg.pt1.P0	Drilled_P0	; accessible
+*equate Stogerweg.pt1.P1	Drilled_P1	; halfway up gully, on rock wall
+*equate Stogerweg.pt1.P2	Drilled_P2	; on path 201
+*equate Stogerweg.pt1.S 	Drilled_A0	; bottom of gully up to 1623/87
+; some doubt has just (1998) arisen over this equate - A0 was established in
+; 1980 for the 87spur survey, but the main surface survey along the path wasn't
+; done until 1982 by different people. Notes indicate they used the same point,
+; but doubt is possible
+
+*equate Stogerweg.pt1.P3	Drilled_P3	; between 88 & path to 115
+*equate Stogerweg.pt2.P3	Drilled_P3
+*equate Stogerweg.pt1.33	P115		; on left in Schnellzug entrance
+*equate Stogerweg.pt2.P4	Drilled_P4	; on path by route to 41
+*equate Stogerweg.pt2.41A	P41		; on left at main entrance of 41
+*equate Stogerweg.pt3.0 	P41
+*equate Stogerweg.pt3.5 	P41b
+*entrance P41b
+*equate Stogerweg.pt2.P32	P32		; drilled above entrance
+
+*equate Stogerweg.87spur.0	Drilled_A0
+*equate Stogerweg.87spur.5	P87
+
+*equate Stogerweg.1985.0	Drilled_P3	; disconnect this for now
+;*equate Stogerweg.1985.5a	Drilled_A0 ; this may be in some doubt, though,
+; after reversing a leg in the 1985 survey, it looks a lot more likely...
+*equate Stogerweg.1985.Q1	Drilled_Q1 ;
+*equate Stogerweg.1985.Q2	Drilled_Q2
+*equate Stogerweg.1985.Q3	P152 ; entrance to Bananahöhle
+*equate Stogerweg.1985.150	P150
+*entrance P150
+*equate Stogerweg.1985.151	P151
+*entrance P151
+
+;*equate Stogerweg.1987.P1	Drilled_P1 ; don't - not yet clear where blunder is
+; although after 1998 blunder detection, these are pretty close
+*equate Stogerweg.1987.P2	Drilled_P2
+*equate Stogerweg.1987.P0	Drilled_P0
+*equate Stogerweg.1987.4	Stogerweg.1987Y.MM ; the pencil mark "MM"
+*equate Stogerweg.1987.8	P109
+*entrance P109
+;*equate Stogerweg.1985.Q3	Stogerweg.1987Y.Q3 leave this open for now
+
+*include stoger
+
+; arge P228 surface link:
+*equate 228ausn.A7 p228 ; I guess - Olly
+*equate 228ausn.1000 1000 ; I guess - Olly
+*include 228ausn
+
+; arge P31 to laser 9 survey 2000
+*equate 31ausn.laser9 laser.7_9
+*equate 31ausn.0 p31
+*include 31ausn.svx
+

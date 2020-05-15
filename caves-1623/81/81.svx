@@ -1,0 +1,39 @@
+*entrance p81
+*equate 81.oldcave.1 p81
+*entrance p81b
+*equate 81.oldcave.11 81.newpart.1 p81b
+
+*begin 81
+
+*export oldcave.1 oldcave.11
+*export newpart.1
+*export 148conn.14
+
+*begin oldcave
+
+*title "1623/81"
+*team Insts Jenny Black
+*team Notes Olly Betts
+; notes in 2007 #36
+
+*export 1 11
+
+*date 2007.07.28
+
+*data normal from to compass clino tape
+2	1	177	+25	1.363
+3	2	296	+54	4.873
+3	4	063	-20	4.095
+4	5	191	-08	7.554
+5	6	244	-20	2.118
+6	7	201	00	3.645
+4	8	048	+38	4.516
+6	9	107	+68	10.913
+8	10	123	+40	2.091
+10	11	353	-05	2.300
+
+*end oldcave
+
+*include 81more
+
+*end 81

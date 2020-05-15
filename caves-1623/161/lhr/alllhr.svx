@@ -1,0 +1,29 @@
+;===== Left Hand Routes =====
+
+; EXPORTS: these are the only points to which other surveys should link
+; No prefix level here, so nothing to export from...
+;*export	lh.1		; from Chunnel (RHR) and entrance series
+;*export	ambi.pt2.29	; to Olympus
+
+*include lhroute
+
+*equate ragnarok.10	Frnchcon.11
+*include ragnarok
+
+*equate FrnchCon.7	drunk.7.B
+*include drunk
+
+*equate GParty.1st.11	lh.4
+;may not be lh.4 - could be MarkScott dewdrop survey
+*equate GParty.3rd.1	FrnchCon.6
+*include gparty
+
+*equate PowerStn.24	lh.9
+*include powerstn
+
+*equate ptchrp.2.7	lh.11
+*include arrow
+
+*equate ambi.pt1.1	ragnarok.3
+*include ambi
+

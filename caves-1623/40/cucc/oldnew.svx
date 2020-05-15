@@ -1,0 +1,63 @@
+*begin oldnew
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Eishöhle, 1623/40
+*title "Connection from old cave to Gruener Eingang survey"
+*date 2000.08.10
+*team Insts Mark S
+*team Notes Earl
+*team Pics Earl
+*team Tape Earl
+*instrument Compass #1 ; Clino #1, Tape: Black closed reel, green harness
+; Calibration: Lower TC: 308/+07		128.5/-07.5
+; ref.:	....
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 6
+
+*calibrate tape -0.225	; +ve if tape was too short, -ve if too long
+
+*units compass degrees
+*units clino degrees
+
+*data normal from to tape compass clino
+2	1	5.03	029.5	+19
+3	2	15.04	027	+10
+3	4	3.55	182	+19
+5	4	5.11	-	down
+6	5	0.73	219	-39
+
+*begin bodge
+*export 1
+1	0	6.50	-	down
+*end bodge
+*equate bodge.1 1
+
+;station details (original format)
+;name	L	R	U	D	E	description
+;1	3	0	2	1.5	CM on R. wall, shoulder height
+;2	3	1.8	0.5	1.8	CM on nose on roof
+;3	2	4	4	0.2	CM on rock on floor
+;4					CM on boulder at base of pitch
+;5					pitch head bolt
+;6					red spot marked "1" (just back from pitch head)
+
+*data passage station left right up down
+2	3	1.8	0.5	1.8	;CM on nose on roof
+1	3	0	2	1.5	;CM on R. wall, shoulder height
+
+*data passage station left right up down
+3	2	4	4	0.2	;CM on rock on floor
+2	3	1.8	0.5	1.8	;CM on nose on roof
+
+*data passage station left right up down
+3	2	4	4	0.2	;CM on rock on floor
+4	-	-	-	-	;CM on boulder at base of pitch
+
+*data passage station left right up down
+6	-	-	-	-	;red spot marked "1" (just back from pitch head)
+5	-	-	-	-	;pitch head bolt
+4	-	-	-	-	;CM on boulder at base of pitch
+
+*end oldnew

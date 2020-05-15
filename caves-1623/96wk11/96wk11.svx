@@ -1,0 +1,62 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	wk11. 1623/XXX
+
+*equate p96wk11 wk11.TAG
+*equate wk11-2015 wk11.GPS
+
+*begin wk11
+
+*title "wk11 - neunzehn yahr wartezeit höhle"
+*date 2015.08.09
+*team Notes Wookey
+*team Insts Wookey
+; solo survey underground due to limited gear
+; station position error likely to be a little larger than normal on 3,4,5
+*team Dog Philip Balister
+*instrument Wookey's distoX2
+
+; ref.:	2015#69
+
+;exported stations
+*export TAG
+*export GPS ; Cairn at GPS 
+*entrance 1
+
+*data normal from to length bearing gradient ignoreall
+;from	to	tape	compass	clino	remarks
+
+*flags surface
+1	2	3.388	308.9	+37.6
+2	GPS	4.751	152.6	+27.3
+2	TAG	3.329	159.1	-08.7
+*flags not surface
+4	3	3.484	047.1	+21.8
+*flags splay
+5	-	5.161	131.5	-47.6
+*flags not splay
+4       5       8.949	131.7	-41.1   
+1	3	21.13	122.0	-40.5
+
+
+;Station data as recorded
+;stn	L	R	U	D	Desc
+; nominally surveying in
+;1	2.5	1.7	sky	0.6	Boulder tip @ climb-head (belay rock)
+;2					Left Wall of cave
+;GPS					Cairn at GPS location (0.6m lower, strictly as I stood there)
+;tag					Tag bolt on R wall
+;3					LHW, large pencil 'X' '3'
+;4	2.8	0	4.1	1.5	RHW pencil 'X' '4'
+;5	0.6	0.2	1.7	1	RHW 1.5m back from squeeze 'x' '5'
+
+*data passage station left right up down ignoreall
+1	2.5	1.7	-	0.6	Boulder tip @ climb-head (belay rock)
+;2					Left Wall of cave
+;GPS					Cairn at GPS location (0.6m lower, strictly as I stood there)
+;tag					Tag bolt on R wall
+3	0	4	5	2	LHW, large pencil 'X' '3'
+4	2.8	0	4.1	1.5	RHW pencil 'X' '4'
+5	0.6	0.2	1.7	1	RHW 1.5m back from squeeze 'x' '5'
+
+*end wk11
+

@@ -1,0 +1,155 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Tonys Second Höhle 1623/144
+
+*begin 144verb
+*title "Verbindungsstück vom Schachtgrund zur Stellerweghöhle"
+
+*export 3	; 041.diaet.43_2
+*export 26	; 144ein.26
+*export 43	; 041.diaet.25_43 (TODO: eigentlich 25_12)
+*export 58	; 041.entlueft.9_10
+*export 63	; 041.wetnwild.2
+
+; -1- Verbindungsstück vom Schachtgrund zur Stellerweghöhle
+; Messteam: Markus Scheuermann, Oktar Güloglu, Oktar Güloglu/Markus Scheuermann
+; Zeichner: Markus Scheuermann
+; Referenz: SMK 3
+*date 2000.07.06
+
+*data normal from to length gradient bearing
+26	26_1	2.60	9	217
+26_1	26_2	7.5	-22	263
+26_2	26_3	4.95	-9	20
+26_3	26_4	1.55	-18	288
+
+26	27	25.80	0	229
+27	28	7.90	-27	247
+28	29	10.25	-20	205
+29	30	13.21	10	215
+30	31	2.55	-16	204
+31	32	2.48	1	250
+32	33	10.7	12	228
+33	34	4.15	-35	181
+34	35	8.42	-44	145
+35	36	6.58	-49	148
+36	37	10.15	-30	147
+37	38	3.5	-50	106
+38	39	3.6	-17	102
+39	40	4.62	-30	70
+40	41	9.21	-40	121
+41	42	17.22	-23	163
+42	43	19.05	4	207
+43	44	4.14	22	292
+44	45	16.2	3	187
+
+; Raumwerte
+*data passage station left right up down
+26_1	0.5	7	8	4
+26_2	0	1.2	0.7	1.5
+26_3	1.5	0	0.6	0.6
+26_4	0.7	0.7	-	-
+
+*data passage station left right up down
+27	1.5	1.5	0.5	2.2
+28	-	-	-	-
+29	1	1	0	25
+30	4	0.2	8	0
+31	0.4	0	2	2
+32	0	0.4	1.5	-
+33	0.6	0.5	1.2	1.2
+34	3	0	6	1.5
+35	0.8	0.6	0	1.2
+36	1.2	0.6	0	1.5
+37	1.6	1.8	0	1.5
+38	0.6	0.6	0.8	0.6
+39	0.8	0	0.1	0.8
+40	0	1	1	1.5
+41	1.5	1	1.5	1.5
+42	2	2	6	2
+43	3	2	6	8.5
+44	1.6	1.8	3.5	1
+45	0.8	4	15	4
+
+
+; -2- Verbindungsstück vom Schachtgrund zur Stellerweghöhle, Fortsetzung
+; Messteam: Jens Freigang, Jörg Haussmann, Mark Morgan
+; Zeichner: Jens Freigang
+; Referenz: SMK 3
+*date 2000.08.08
+
+*begin ; GON
+*units compass grads
+*units clino grads
+
+*data normal from to length clino compass
+45	46	8.06	-60	128
+46	47	4.9	-30	204
+47	48	3.46	-2	224
+48	49	4.28	-36	155
+49	50	2.78	-50	109
+50	51	6.2	-18	57
+51	52	5.9	-36	183
+52	53	7.9	-28	130
+53	54	11.55	47	110
+54	55	6.31	50	190
+55	56	7.57	0.5	196
+56	57	19.15	DOWN	-
+57	58	9.53	-6	140
+58	59	6.09	-12	238
+59	60	2.86	-19	200
+60	61	11.0	DOWN	-
+61	62	1.88	33	270
+62	63	5.13	0	158	; 63 = 041.wetnwild.2
+
+1	2	29.60	-37	125
+2	3	7.02	27	99
+3	4	5.62	-5	110
+4	5	11.65	-50	110
+5	6	8.48	-45	19
+6	45	5.25	-9	133
+*end ; GON
+
+; Raumwerte
+*data passage station left right up down
+46	0.4	1	2.3	0.5
+47	1	1.2	7	1
+48	1	1.2	7	8
+49	0.5	1.2	2	1.5
+50	1.8	0	4	1.7
+51	0	1.5	3	1.8
+52	1.1	0.6	2.5	2
+53	2	0.5	2.5	1
+54	2	1	4	1
+55	0	2	-	1.5
+56	4	2	-	19
+57	0	3	-	0.3
+58	1	0	-	2.5
+59	0.2	0.5	-	4
+60	0	1.2	-	11
+61	2.5	0	-	0
+62	0	2.5	-	1.6
+63	0	0.5	-	1.7
+
+*data passage station left right up down
+1	6	0	4.5	25
+2	0	6	12	8
+3	0	10	1.5	-
+4	0	5	6	1.6
+5	2.2	0.8	6	1.6
+6	2	5	8	1.2
+
+
+; -3-
+; Messteam: Ilja Anders, Wieland Scheuerle, Thomas Holder
+; Zeichner: Thomas Holder
+; Referenz: Ilja
+*date 2006.08.14
+
+*data normal from to length clino compass
+43	43_1	7.25	30	301	; 43_1=13 Vermessung aus Diätencanyon
+43_1	43_2	15.44	33	310	; 43_2=14
+
+; Raumwerte
+; keine Raumwerte
+
+*end 144verb

@@ -1,0 +1,53 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2014-BL888. 1623/XXX
+
+*equate p2014-BL888 2014-BL888.b1	
+
+*begin 2014-BL888
+
+*title "2014-BL888 - Silber Fisch Hoehle"
+*date 2014.08.03 ; date the survey was done, YYYY-MM-DD
+*team Insts Andrea Futrell (probably)
+*team Notes Mike Futrell (with additions by Neil Pacey)
+*instrument Mike & Andrea Futrell's compass and clino
+
+; ref.:	2014 #23
+; the #number is on the clear pocket containing the original notes.
+
+;LOCALEXPORTS
+*export b1		; surface point
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+*data normal from to length bearing gradient ignoreall
+;from	to	tape	compass	clino	remarks
+
+a1	a2	7.97	204	-53
+a2	a3	10.69	139	-55
+a3	4	4.00	-	down
+4	5	2.00	131	0
+5	6	10.00	-	down	; fake shot
+
+*flags surface
+a1	s1	7.53	128	+13
+s1	s2	18.95	112	+01
+s2	b1	2.60	131	-68
+*flags not surface
+
+b1	b2	7.75	327	-44
+b2	b3	7.50	175	-62
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+a1	0.5	0.5	-	2	surface, up is sky
+s1	-	-	-	-	surface
+s2	-	-	-	-	surface
+b1	2.5	0	0.5	1	GPS
+b2	0.4	0	0.8	6	
+b3	0	1	4	1.8	suicidal hole in floor	
+
+a2	1.5	1	2	1.3	
+a3	0	0.3	1	1
+4	0	4	5	0
+
+*end 2014-BL888
+

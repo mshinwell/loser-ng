@@ -1,0 +1,38 @@
+*begin spittersend
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Spitters' End"
+*date 2007.07.13
+*team Insts Ollie Stevens
+*team Notes Dave Loeffler
+*team Tape Richard Mundy
+*instrument CUCC Pony; Tape new yellow 
+; Calibration: 142/+23, 142/+23; 325/-23, 325/-23
+; ref.:	2007#06
+
+; ====== stations refindable to link to other surveys: ======
+
+*export p8
+
+*calibrate tape +0.00	; +ve if tape was too short, -ve if too long
+*data normal from to tape compass clino
+
+;from	to	tape	compass	clino	; remarks
+p8	1	5.62	002	-48
+1	2	15.77	-	down
+2	3	3.68	072	+04
+3	4	8.79	281	-07
+4	5	6.42	035	-55
+
+;station details
+;name	L	R	U	D	description
+*data passage station left right up down ignoreall
+1	0	2	-	15.77
+2	-	-	-	1.0
+3	-	3.0	-	1.5
+4	0	0.7	2.5	0.8
+5	2	2	1.8	0.7
+
+
+*end spittersend

@@ -1,0 +1,264 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schwabenschacht 1623/78
+
+*begin galakt
+*title "Galaktischer Gang"
+
+*export 5_1	; spazier.5_1
+*export 8_3	; spazier.10_4
+*export 9_10	; rausch.9_10
+*export 10_1	; schnaps.10
+*export t0	; p78d
+
+; -1- SeitenMZ 5_8ff zum Riesenschacht mit Anschluß zum 10_4 (Mappe 35),
+;     MZ 5ff endet in Seitenschacht zu Kleine Tierschau; als HauptMZ,
+;     geht von MP 5_9_1 der Zug zum Endversturz; einige SeitenMZ, 7_96:
+;     weiterer Seitengang hinter dem Krümelmonsterschacht
+; Messteam: Markus Scheuermann, Robert Winkler, Rotbert Winkler
+; Zeichner: Rotbert Winkler
+; Referenz:
+*date 1994.07.19
+
+*data normal from to length clino compass
+; Ersten Meßzug in Spaziergang-Messung übernommen, zwecks Anschluß
+; Elfenschleier
+5_1	2	8.96	5	311
+2	3	5.30	-24	248
+3	4	4.36	-15	236
+4	5	4.54	-36	304
+5	6	1.65	-16	239
+6	7	6.25	6	311
+7	8	14.18	-16	252
+8	9	14.68	2	2
+
+6	6_1	3.75	DOWN	-
+6_1	6_2	4.40	-36	333
+
+8	8_1	3.15	34	182
+8_1	8_2	15.69	-12	225
+8_2	8_3	14.60	-9	207
+
+9	10	4.74	-37	122
+10	11	4.50	-26	164
+11	12	3.13	-38	167
+12	13	8.10	-63	104
+
+; Raumwerte
+; keine Raumwerte
+
+
+; -2- Galaktischer Gang, Fortsetzung
+; Messteam: Andreas Jakob, Dirk Riemann, Rotbert Winkler
+; Zeichner: Rotbert Winkler
+; Referenz: Messbuch Abschrift auf Messblatt in Ordner
+*date 1995.07.31
+
+*data normal from to length clino compass
+13	14	5.35	6	256
+14	15	3.92	37	246
+15	16	2.40	8	124
+16	17	1.30	-12	171
+17	17a	7.50	DOWN	-
+17a	18	0.19	0	153
+18	19	2.92	72	86
+19	20	2.24	7	91
+20	21	18.57	DOWN	-
+21	22	3.88	29	164
+22	23	3.59	29	111
+23	24	3.60	-17	122
+24	24a	1.10	0	320
+24a	25	11.40	DOWN	-
+
+;10	10_1	12.75	-49	76
+
+; Raumwerte
+*data PASSAGE	station	left	right	up	down
+14	1.5	0	7	1
+15	-	1.5	10	1.7
+16	0.3	0.6	0.2	0
+17	0.5	1	1.2	-
+18	-	-	-	-
+19	0	1	4.5	4
+20	0.5	0	0.5	-
+21	-	-	-	0
+22	1	0	15	1.5
+23	0	0.5	15	1.5
+24	1	0.5	0.5	-
+24a	-	-	-	-
+25	-	-	-	-
+
+
+; -3- Galaktischer Gang, Seitengang
+; Messteam: Andreas Jakob, Florian Gruner, Rotbert Winkler
+; Zeichner: Rotbert Winkler
+; Referenz: Messbuch Florian Gruner 1
+*date 1996.07.14
+
+*data normal from to length clino compass
+14	14_1	8.49	-46	98
+14_1	14_2	4.39	-53	108
+14_2	14_3	5.78	-39	190
+14_3	14_4	3.04	-49	102
+14_4	14_5	5.43	-62	162
+14_5	14_6	2.40	-57	320
+14_6	14_7	5.20	-67	194
+14_7	14_8	3.06	-13	130
+14_8	14_9	4.88	-11	108
+14_9	14_10	2.56	0	224
+
+; Raumwerte
+*data PASSAGE	station	left	right	up	down
+14_1	0.3	0	1.2	1
+14_2	0	0.7	4	1
+14_3	3	0.4	2.5	3.5
+14_4	0	0.8	4	1.7
+14_5	1.5	0	1.5	2.5
+14_6	1	1	8	1.5
+14_7	0.5	0	8	2.5
+14_8	1.2	0	4	1
+14_9	0.5	1	1.2	0.7
+14_10	0.7	0	3	1.5
+
+
+; -4- Galaktischer Gang; Endbereich, div_ Gänge
+; Messteam: Dirk Riemann, Florian Gruner, Robert Winkler
+; Zeichner: Robert Winkler
+; Referenz:
+*date 1994.07.21
+
+*data normal from to length clino compass
+9_8	8_1a	4.60	38	275
+8_1a	8_2a	10.10	DOWN	-
+
+; Raumwerte
+; keine Raumwerte
+
+
+; -6-
+; Messteam: Markus Scheuermann, Robert Winkler
+; Zeichner: Robert Winkler
+; Referenz: Messprotokolle
+*date 1994.07.20
+
+*data normal from to length clino compass
+9	9_1	15.53	-35	90
+9_1	9_2	11.69	-24	68
+9_2	9_3	9.50	17	324
+9_3	9_4	4.50	18	320
+9_4	9_5	8.22	41	309
+9_5	9_6	14.28	10	21
+9_6	9_7	6.41	6	356
+9_7	9_8	8.68	36	1
+9_8	9_9	11.14	8	69
+9_9	9_10	5.00	34	328	; 9_10 = rausch.9_10
+9_10	10_1	14.80	-31	73
+10_1	10_2	2.16	-35	63
+10_2	10_3	4.50	DOWN	-
+
+; Messteam: Robert Eckardt, Thomas Holder
+; Zeichner: Robert Eckardt
+; Referenz:
+*date 2001.08
+
+*data normal from to length clino compass
+9_2	9_2a	14.43	38	336
+9_2a	9_2b	5.62	42	24
+
+; Raumwerte
+*data PASSAGE	station	left	right	up	down
+9_2a	0.5	2	3	1.2
+9_2b	1.5	0	1	0.5
+
+; -7- Galaktischer Gang, ab 5_3 kleiner Schacht rechts am Anfang
+;     des Galaktischen Ganges
+; Messteam: Dirk Riemann, Thomas Weiblen
+; Zeichner:
+; Referenz:
+*date 1995
+
+*data normal from to length clino compass
+3	5_3_1	3.36	0	41
+5_3_1	5_3_2	1.77	5	331
+5_3_2	5_3_3	7.92	DOWN	-
+5_3_3	5_3_4	1.60	25	311
+5_3_4	5_3_5	4.70	DOWN	-
+
+; Raumwerte
+*data PASSAGE	station	left	right	up	down
+5_3_1	1.0	-	0.1	-
+5_3_2	-	0.6	-	-
+5_3_3	0.4	0.0	-	-
+5_3_4	-	1.0	-	-
+5_3_5	0.4	0.3	-	-
+
+
+; -8- Galaktischer Gang, 2 Seitengänge (Firnstelle)
+; Messteam: Andreas Jakob, Florian Gruner, Thomas Weiblen
+; Zeichner: Florian Gruner
+; Referenz:
+*date 1995.08.02
+
+*data normal from to length clino compass
+;\Map40_8_2	1	7.20	50	252
+8_1a	zw1	1.01	-11	56
+zw1	z1	7.21	-43	257
+z1	z2	8.28	22	278
+z2	z3	1.70	-26	179
+z3	z4	1.99	12	209
+z4	z5	12.29	33	214
+z5	z6	5.80	50	189
+
+z4	z4_1	4.75	22	346
+z4_1	z4_2	8.65	3	17
+z4_2	z4_3	9.51	3	44
+z4_3	z4_4	7.91	-2	36
+
+; Raumwerte
+*data PASSAGE	station	left	right	up	down
+z2	0.5	1.2	10.0	0.0
+z3	5.0	1.3	15.0	1.0
+z4	1.0	2.3	15.0	0.0
+z5	0.0	2.5	15.0	0.3
+z6	2.2	0.0	2.0	1.0
+z4_1	0.6	0.9	0.0	2.5
+z4_2	0.4	2.0	2.0	0.4
+z4_3	1.5	0.7	0.0	1.9
+z4_4	1.5	0.0	2.5	0.2
+
+
+; -9- Einbindung des neuen Eingangs (Tannenzäpfle-Schacht)
+; Messteam: Florian Gruner, Jens Freigang
+; Zeichner: Jens Freigang
+; Referenz: Messbuch Florian Gruner 1
+*date 1999.08.07
+
+*data normal from to length clino compass
+*begin
+*units compass grads
+*units clino grads
+t0	t1	16.22	DOWN	-	; t0 = MP 1 Außenmessung
+t1	t2	2.1	-27	230
+t2	t3	2.74	-32	312
+t3	t4	1.06	-44	222
+t4	t5	3.25	DOWN	-
+t5	t6	2.84	-8	312
+t6	t7	20.98	DOWN	-
+t7	t8	4.59	2	71
+t8	t9	7.51	DOWN	-
+t9	z2	1.86	40	349
+*end
+
+; Raumwerte
+*data PASSAGE	station	left	right	up	down
+t1	2	1	-	0.5
+t2	0	0.5	1	0.3
+t3	0.6	0	1.1	0.8
+t4	0	0.7	2	-
+t5	0.4	0.5	-	0
+t6	2.5	0.4	3.5	-
+t7	1.3	0.4	-	0
+t8	1.3	0	-	-
+t9	1.5	0.3	-	0
+z2	-	-	-	-
+
+*end galakt

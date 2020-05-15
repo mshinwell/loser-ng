@@ -1,0 +1,59 @@
+*begin slackers6
+
+; stations linked into other surveys (or likely to)
+*export 01 05
+
+; Cave: 258
+; Area in cave/QM: Hydra 
+*title "Slackers 6"
+*date 2016.07.07
+*team Insts Luke Stangroom
+*team Notes Anthony Day
+*team Pics Anthony Day
+*team Dog Mark Dougherty
+*instrument Chris Densham's DistoX
+*ref 2016#20
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+01	02	04.98	024.5	+41.3
+02	03	13.02	029.3	+25.2
+03	04	05.40	089.4	+27.2
+04	05	07.85	027.7	+32.3
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+; nail varnish markings
+;01	03.2	00.8	02.3	01.7	Station 28 from Becka's survey
+;02	02.2	02.6	01.5	01.3
+;03	00.0	02.2	01.8	01.8
+;04	00.5	02.7	01.1	01.4
+;05	00.0	02.5	00.8	02.0	Numbered, LH wall
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+01	03.2	00.8	02.3	01.7
+02	02.2	02.6	01.5	01.3
+03	00.0	02.2	01.8	01.8
+04	00.5	02.7	01.1	01.4
+05	00.0	02.5	00.8	02.0
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    B    slackers6.05    beckoning_silence.24  5-10m pitch into rift with lots of water. Draughts in.
+;QM2    X    slackers6.05    -  Aven to NW at pitch lead
+
+;------------
+;Cave description
+; 4m climb up (rope and sling recommended to protect descent) leads to an upward
+; sloping ramp that proceeds for 25m to the head of an undescended pitch [QM-1 B]
+; in a rift with lots of water audible. An aven comes in from the left [QM-2 X].
+; A window up on the right also overlooks the same pitch.
+
+*end slackers6

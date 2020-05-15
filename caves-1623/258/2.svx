@@ -1,0 +1,82 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	258 "Tunnockschacht"
+
+*begin 2
+
+*export 24 18 7
+
+*title "258 part 2"
+*date 2006.07.26
+*team Insts Aaron Curtis
+*team Tape Aaron Curtis and Mark Shinwell
+*team Notes Tom Handford
+
+; Calibration: stone bridge
+; compass: 325 152 336
+; clino: -22 +24 -22
+
+1	2	10.14	058	+27
+2	3	10.25	297	-13
+3	4	3.89	210	-13
+3	5	6.00	041	+18
+5	6	5.31	022	+17
+6	7	5.45	058	+16
+7	8	6.31	306	-12
+9	8	2.35	182	-27
+10	9	4.22	143	-03
+12	11	5.05	230	-20
+12	13	3.51	333	+20
+13	7	7.67	333	-38
+11	2	5.17	195	-59
+4	14	9.64	281	-19
+14	15	3.50	211	-09
+15	16	5.49	265	-25
+16	17	6.79	244	-21
+17	18	6.20	302	-29
+19	20	29.23	143	-53
+20	10	7.84	145	-34
+19	21	4.55	227	-24
+22	21	6.69	194	-47
+24	23	3.28	125	-57 ; reversed
+23	22	4.67	142	-50
+
+*data passage station left right up down ignoreall
+
+; "up" for the next two stations is really "lots".
+1	2	1	15	1.5	RP bottom of chamber
+2	0	5	15	1.5	RP wall of chamber marked 2
+3	1	1	0.5	1	RP floor of crawl marked 3
+4	0	2	0.8	1.8	RP nodule on wall
+*data passage station left right up down ignoreall
+3	-	-	-	-	
+5	0.2	0.7	0.05	0.6	RP on boulder in crawl
+6	0.3	1.2	0.2	0.3	RP numbered sloping side/floor of crawl
+7	0	3	7	2.5	RP on wall of chamber
+8	0.2	0.2	0.4	0.1	RP in crawl
+9	-	-	-	-	RP wall
+10	-	-	-	-	RP wall bottom of slope
+*data passage station left right up down ignoreall
+11	0	2	4	2	RP smooth wall top of climb
+12	3	1.5	4	2	RP on boulder in middle of chamber
+13	0	2.5	3	2	RP on roof
+7	-	-	-	-
+
+*data passage station left right up down ignoreall
+4	-	-	-	-
+14	-	-	-	-	RP RW after hole
+15	-	-	-	-	RP ceiling
+16	-	-	-	-	RP ceiling
+17	0.3	2	0	0.3	RP on ceiling
+18	0.1	0.8	0.1	0.2	RP LW before hole
+
+*data passage station left right up down ignoreall
+19	2	3	10	2	RP wall of pitch (below col)
+20	0	1	8	1.5	RP on left looking up pitch
+21	0	6	10	2	bolt
+
+;22	-	-	-	-	RP opposite bolt on col
+;23	-	-	-	-	RP on boulder above col
+;24	-	-	-	-	=1.1 (red cross on wall)
+
+*end 2
+

@@ -1,0 +1,40 @@
+*begin slimy1
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "slimy sludge chute 1"
+*date 2007.07.14
+*team Insts Edvin Deadman
+*team Tape Nial Peters
+*team Notes Djuke Veldhuis
+
+*instrument set 2
+
+; ref 2007 #09
+
+; Calibration: stone bridge: 328/-23 329/-23 145/+23 145/+23
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 6 
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+
+1	2	2.57	154	-08
+3	2	5.60	237	+55
+3	4	4.10	010	-52
+5	4	7.64	261	+52
+6	5	6.68	201	+73
+
+*data passage station left right up down ignoreall
+
+;station details
+;name	L	R	U	D	description
+1	1.5	0.5	4	0	rp on top of bolder at sirens traverse
+2	1.5	0.5	4.5	1.8	rp on rh wall
+3	0.3	0.3	0.5	0.5	rp on flake/ceiling pendant
+4	0	2	1.5	0.5	rp on lh wall
+5	0.5	1	2.5	7	rp on lh wall above hole
+6	0.5	0.5	0.1	0.1	rp on top of shute
+
+*end slimy1

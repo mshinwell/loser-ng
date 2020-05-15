@@ -1,0 +1,49 @@
+*begin spitswallow
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Hauchhoehle (2000/09)
+*title "Spit or Swallow"
+*date 2006.07.31
+*team Insts Phil Underwood
+*team Notes Matt Bent
+*team Tape both
+*instrument silva - no name
+; Calibration: Compass 150/147/148/327/326/327, Clino +23/+23/+22/-22/-22/-23
+; ref.:	2006#18
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 2 9 10 11
+
+*calibrate tape +0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	4.30	109	-23
+3	2	3.77	224	-39
+3	4	1.20	103	+3
+4	5	2.81	339	+16
+5	6	4.05	322	-10
+6	7	3.23	319	-12
+7	8	2.93	335	-8
+8	9	4.23	337	-2
+9	10	2.05	015	+4
+10	11	5.45	066	+23	; SHAFT (instant relief)
+
+
+
+
+;station details
+*data passage station left right up down ; description
+; PP = purple paint
+1	0.10	0.70	0	2.4	;RP 4 on ceiling
+2	2.50	0	1.50	-	;PP "2" over pitch
+3	0.60	1.20	0.50	0.80	;PP on noddle
+4	1.00	0	0.30	0.40	;PP RW
+5	0.40	0.50	0.10	1.00	;PP ceiling
+6	1.00	0.00	0.20	0.40	;PP RW
+7	0.00	1.00	0.40	0.50	;PP LW
+8	0.60	0.20	0.30	0.50	;PP RW formation
+9	0.20	1.00	0.20	0.40	;PP LW
+10	0.50	0.35	0.20	0.30	;PP R noddle
+11	0.20	1.30	1.6	0.20	;PP "11" L noddle
+*end spitswallow

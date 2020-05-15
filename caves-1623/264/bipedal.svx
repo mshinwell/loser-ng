@@ -1,0 +1,52 @@
+*begin bipedal
+
+; stations linked into other surveys (or likely to)
+*export 11X	1
+
+; Cave:
+; Area in cave/QM: 
+*title "bipedal passage"
+*date 2015.07.29
+*team Insts Roxanne Ramsay
+*team Notes Fleur Loveridge
+*team Pics Fleur Loveridge
+*team Tape Peter Talling
+*ref 2015#28
+
+; Centreline data
+*data normal from  to   tape      compass   clino
+11X	1	6.30	180	-5
+1	2	11.82	107	+19
+
+;-----------
+;recorded station details
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;(leave commented-out)
+;[Red] nail varnish markings
+;11X	0.1	1	2	0.5	; NP on block near floor level on left
+;1		4	0	4	1.2	; NP on right hand wall of traverse, near bolt
+;2		0	1.5	3.5	1	; no marker, dead end passage
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+11X		0.1	1	2	0.5	
+1		4	0	4	1.2	
+2		0	1.5	3.5	1	
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    A    bipedal.1    bipedalpassage.3    traverse over holes and straight on to be completed
+
+;------------
+;Cave description
+
+;heading south out of amalgamation you arrive at a large long hole in the floor. Partial completion of traverse over hole, plus exploratin of two small side leads. Left over small rock bridge ends in blind pot. Right hand small passage soon becomes too tight. 
+
+
+*end bipedal

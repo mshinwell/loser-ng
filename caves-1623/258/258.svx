@@ -1,0 +1,551 @@
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 258 "Tunnockschacht"
+
+*equate 258.258 p258
+*equate 258.258a p258a
+*equate 258.258b p258b
+
+*entrance p258a
+*entrance p258b
+
+*begin 258
+*title "Tunnockschacht"
+
+*export 258 258a 258b 
+*export thatsthewaytodoit.23x; Steinbruckenhoehle connection
+*export beastsideleads.31x   ; second Steinbrucken connection
+*export penguinfellatio2.4; Balcony connection
+*export corroborate2.8; testing Balcony connection
+*export feckingtight.7 ; 2nd Balkonhoehle connection in 2018
+*export anthemusa.9 ; 3rd Balkonhoehle connection in 2018
+
+
+; -- subsystems --
+
+*include stonemonkey/stonemonkeyall
+
+*include hydra/hydra
+*equate kraken.15 inferno.14
+
+; -- 2006 stuff --
+ 
+*include 1
+*equate 1.5 258
+
+*include 2
+*equate 1.1 2.24
+
+*include ribsknodel
+*equate ribsknodel.5 2.18
+
+*include ribsknodel2
+*equate ribsknodel.1 ribsknodel2.4
+
+*include skrautlink
+*equate skrautlink.2 ribsknodel.18
+
+*include sauerkraut
+*equate sauerkraut.2 skrautlink.1
+
+*include gknodel
+*equate gknodel.17 sauerkraut.5
+
+; -- 2007 stuff --
+
+*include literalnorth
+*equate literalnorth.2 ribsknodel2.2
+
+*include squirrel
+*equate literalnorth.6 squirrel.p6
+
+*include oompah
+*equate oompah.1 ribsknodel2.1
+
+*include apfelstrudel
+*equate apfelstrudel.x3 ribsknodel2.3
+*equate apfelstrudel.21 gknodel.12
+*equate apfelstrudel.16 oompah.paint
+
+*include literalnorth2
+*equate literalnorth.19 literalnorth2.19
+
+*include literalnorth3
+*equate literalnorth3.y literalnorth.12
+
+*include maxpleasure1
+*equate maxpleasure1.17z literalnorth.17
+
+*include dubiouspleasure
+*equate dubiouspleasure.becka18 maxpleasure1.18
+
+*include maxpleasure2
+*equate maxpleasure2.0 maxpleasure1.30
+
+*include hedonismhighway
+*equate hedonismhighway.68 maxpleasure2.68
+
+*include flyinghigh
+*equate flyinghigh.28 maxpleasure1.28
+
+*include flyinghigh2
+*equate flyinghigh.95 flyinghigh2.95
+
+*include pantinsales
+*equate pantinsales.prev gknodel.7
+
+*include maxpleasure3
+*equate maxpleasure3.27x maxpleasure1.27
+*equate maxpleasure3.29x maxpleasure1.29
+*equate maxpleasure3.b flyinghigh.73
+
+*include maxpleasure4
+*equate maxpleasure4.17x maxpleasure1.17
+
+*include literalnorth4
+*equate literalnorth4.8x literalnorth.8
+
+*include maxpleasure5
+*equate maxpleasure5.41x maxpleasure3.41
+
+*include justforalaugh
+*equate justforalaugh.45x maxpleasure3.45
+
+*include letsgetnaked
+*equate letsgetnaked.56x maxpleasure2.56
+
+*include maxpleasure6
+*equate maxpleasure6.p5 maxpleasure3.5
+*equate maxpleasure6.p28 maxpleasure1.28
+
+*include justforalaugh2
+*equate justforalaugh2.p13 justforalaugh.13
+
+; 2008 starts here
+
+*include loompah
+*equate apfelstrudel.16 loompah.x
+
+*include delicious1
+*equate delicious1.35 maxpleasure3.35
+
+*include delicious2
+*equate delicious2.2 delicious1.2
+
+*include darkfumblings
+*equate darkfumblings.1 ribsknodel.9
+*equate darkfumblings.7 apfelstrudel.6
+
+*include bouldersurfer
+*equate bouldersurfer.1 oompah.1
+*equate bouldersurfer.ep stonemonkey2.18
+
+*include naughtynaughty
+*equate naughtynaughty.9x dubiouspleasure.9 
+
+*include flapjackchoke
+*equate flapjackchoke.2 ribsknodel.4
+
+*include rockyroad
+*equate rockyroad.63 maxpleasure2.63
+*equate rockyroad.x maxpleasure2.68
+*equate rockyroad.11 maxpleasure2.66
+
+*include flyinghigh3
+*equate flyinghigh3.prev flyinghigh2.100
+
+*include gravityalwayswins
+*equate gravityalwayswins.8 delicious1.1
+*equate gravityalwayswins.13 delicious2.13
+
+*include thinredline
+*equate thinredline.8 delicious2.11
+*equate thinredline.10 literalnorth2.2
+*equate thinredline.9 literalnorth2.1
+
+*include blindandbroken
+*equate blindandbroken.18 gravityalwayswins.18
+
+*include franklyfreezing
+*include franklyfreezing2        
+*equate literalnorth.13 franklyfreezing.literalnorth13 franklyfreezing2.0
+
+*include literalnorth5
+*equate literalnorth5.6 literalnorth4.6
+
+*include naughtynaughty2
+*equate naughtynaughty2.37 naughtynaughty.37
+
+*include thinredline2
+*equate thinredline2.11 thinredline.2
+
+*include toomuch
+*equate toomuch.EP maxpleasure2.48
+
+*include sleepingbeauty
+*equate sleepingbeauty.1 gknodel.8
+
+; 2009 from here
+
+*include usualsuspects
+*equate usualsuspects.1.6x literalnorth3.6
+
+*include marconianempire1  
+*equate marconianempire1.1  stonemonkey8.11
+
+*include stomachulsa
+*equate stomachulsa.1 literalnorth5.10 
+
+*include dampsquib
+*equate dampsquib.6 justforalaugh.13
+
+*include stomachulsa2
+*equate stomachulsa2.0 stomachulsa.18
+
+*include cleadjackpot
+*equate cleadjackpot.0 gknodel.6
+
+*include alphabetsoup
+*equate alphabetsoup.0 darkfumblings.2
+
+*include goodygoody
+*equate dubiouspleasure.6 goodygoody.0    
+*equate usualsuspects.1.2 goodygoody.39
+
+; Begin 2010 surveys
+
+*include atobtoc
+*equate atobtoc.8x toomuch.8
+
+*include stringtheory
+*equate stringtheory.x goodygoody.47
+*equate stringtheory.16x usualsuspects.1.16
+
+*include konigsbergpassage
+*equate konigsbergpassage.8x stringtheory.8
+
+*include usualsuspects4
+*equate usualsuspects4.24x usualsuspects.3.24
+*equate usualsuspects4.11x usualsuspects.3.11
+
+*include usualsuspects5
+*equate usualsuspects5.26x usualsuspects.3.26
+*equate usualsuspects5.22 usualsuspects.3.6
+
+*include usualsuspects6
+*equate usualsuspects6.8x usualsuspects.2.8
+
+*include sovein
+*equate sovein.6x dubiouspleasure.6
+
+*include konigsberg2
+*equate konigsberg2.30x konigsbergpassage.30
+
+*include konigsberg3
+*equate konigsberg3.3x konigsberg2.3
+
+*include fallempire
+*equate fallempire.8 marconianempire1.2
+
+*include pigeondroppings.svx
+*equate pigeondroppings.A aboveandbeyond.8
+*equate pigeondroppings.B aboveandbeyond.9
+
+*include pigeondroppings2.svx
+*equate pigeondroppings.15 pigeondroppings2.15x
+
+*include pigeondroppings3.svx
+*equate pigeondroppings2.17 pigeondroppings3.17x
+
+*include trident
+*equate trident.16 usualsuspects4.1
+
+*include hastespeed
+*equate  hastespeed.0 trident.12
+
+*include straightchoice
+*equate straightchoice.0 hastespeed.22
+
+*include arcticangle
+*equate arcticangle.17x straightchoice.17
+*equate arcticangle.25x straightchoice.25
+*equate arcticangle.13x straightchoice.13
+
+*include straightchoiceexposed
+*equate straightchoiceexposed.5 arcticangle.35
+
+*include beerandsunshine
+*equate beerandsunshine.4 goodygoody.42
+
+*include trident2
+*equate trident2.8x hastespeed.8
+*equate trident2.1x trident.1
+*equate trident2.z usualsuspects4.6
+
+*include konigsberg4
+*equate konigsberg4.22x konigsbergpassage.22
+
+*include sovein2
+*equate sovein2.8x sovein.8
+*equate sovein2.12x sovein.12
+*equate sovein2.17x sovein.17
+*equate sovein2.z justforalaugh.18
+
+*include downtoearth
+*equate downtoearth.31x maxpleasure2.31
+
+*include konigsberg5
+*equate konigsberg5.3x konigsbergpassage.3
+
+*include downtoearth2
+*equate downtoearth2.9x downtoearth.9
+*equate downtoearth2.z flyinghigh.77
+
+*include flyinghigh4
+*equate flyinghigh4.15 flyinghigh.90
+
+*include flyinghigh5
+*equate flyinghigh5.95x flyinghigh.95
+*equate flyinghigh5.30 rockyroad.49 ; 43 or 48???? FIXME!!!! Station was on lip of small pitch (can only be 49) 
+
+*include gawbypass
+*equate gawbypass.y	maxpleasure3.19
+*equate gawbypass.5x	delicious2.5
+
+*include iceflow
+*equate iceflow.y maxpleasure3.19
+
+*include rampant
+*equate rampant.11x usualsuspects.3.11
+
+
+; surface connections
+*begin
+*flags surface
+*include tagbolts
+*equate tagbolta.1 258a
+*equate tagbolta.2 1.4
+*equate tagboltb.3 258b
+*equate tagboltb.1 1.4
+*end
+
+; 2011 surveys
+*include popcornrift
+*equate konigsberg5.13 popcornrift.13x
+
+*include westsidestory
+*equate konigsberg5.7 westsidestory.7x
+
+*include sovein3
+*equate sovein2.4 sovein3.4x
+
+*include intothinair
+*equate intothinair.z flyinghigh3.10	; NOT SURE IF THIS IS CORRECT - connecting station not numbered and survey unclear
+
+*include tenthousandbusstops
+*equate tenthousandbusstops.3x konigsberg2.3
+*equate tenthousandbusstops.7 aboveandbeyond.9
+
+*include bobon
+*equate bobon.1x konigsberg4.11
+
+*include aboveandbeyond
+*equate aboveandbeyond.1x bobon.1
+
+*include thirtyninesteps
+*equate thirtyninesteps.13x intothinair.13
+
+*include marchofthepenguins
+*equate thirtyninesteps.9 marchofthepenguins.9x
+
+*include aboveandbeyond2
+*equate aboveandbeyond.15 aboveandbeyond2.1
+
+*include thatsthewaytodoit
+*equate thatsthewaytodoit.13x aboveandbeyond2.13
+
+*include thirtyninesteps2
+*equate thirtyninesteps2.30x thirtyninesteps.30
+
+*include thirtyninesteps3
+*equate thirtyninesteps3.31x thirtyninesteps.31
+
+*include thirtyninesteps4
+*equate thirtyninesteps4.29x thirtyninesteps.29
+
+*include itsbehindyou
+*equate itsbehindyou.24x thatsthewaytodoit.24
+
+*include procrastination
+*equate procrastination.13x stringtheory.13
+
+; 2012 from here
+
+*include climbofthepenguins1
+*equate thirtyninesteps.9 climbofthepenguins1.9x
+
+*include climbofthepenguins2
+*equate thirtyninesteps.9 climbofthepenguins2.9x
+*equate marchofthepenguins.10 climbofthepenguins2.10
+
+*include penguinacrobatics
+*equate PenguinAcrobatics.0 thirtyninesteps4.1
+
+*include penguinrift
+*equate marchofthepenguins.17 penguinrift.0
+
+*include innerflapcontinuation
+*equate Innerflapcontinuation.20x penguinrift.20
+
+*include suicidalvampyre
+*equate suicidalvampyre.11x PenguinAcrobatics.11
+
+; 2013 surveys
+
+*include bringontheclowns
+*equate procrastination.1 bringontheclowns.1x
+
+*include determination
+*include determination2
+*equate Innerflapcontinuation.20 Determination2.20x
+*equate determination.04 Determination2.4x
+*equate determination.09 Determination2.9x
+
+*include surfergirl
+*equate bringontheclowns.4 surfergirl.4
+
+*include bringontheclowns2
+*equate bringontheclowns.9 BringOnTheClowns2.y
+
+*include numberofthebeast
+*equate numberofthebeast.3x BringOnTheClowns2.3
+
+*include numberofthebeast2
+*equate numberofthebeast2.5 numberofthebeast.01
+
+*include justforalaugh3
+*equate justforalaugh.14 justforalaugh3.14x
+
+*include downgrade
+*equate downgrade.3old rockyroad.3
+
+*include boomboom
+*equate boomboom.4 westsidestory.5
+
+*include window
+*equate window.8X downgrade.8
+*equate window.98X maxpleasure2.36
+
+*include crossword
+*equate crossword.59x maxpleasure2.59
+
+*include oompharift
+*equate oompah.paint oompharift.6X
+
+; 2014 surveys
+
+*include withintheabove.svx
+*equate withintheabove.1x	aboveandbeyond.1
+*equate withintheabove.2x	konigsberg3.15
+
+*include trireme
+*equate trireme.52x	goodygoody.52
+
+*include ducksonice
+*equate ducksonice.x	2.7
+*equate ducksonice.16x	bouldersurfer.16
+
+*include coldladyslegs1
+*equate coldladyslegs1.30x arcticangle.30
+
+*include coldfinger.svx
+*equate coldfinger2.1x coldfinger.1
+
+*include coldfinger2.svx
+*equate downgrade.20 coldfinger.16
+
+*include coldfinger3
+*equate coldfinger3.42x arcticangle.42
+*equate coldfinger3.2x  coldfinger2.2
+
+*include thewrongchoice.svx
+*equate thewrongchoice.60x	coldladyslegs1.60
+
+*include nochoiceatall.svx
+*equate nochoiceatall.3x	thewrongchoice.3
+
+*include nochoiceatall2.svx
+*equate nochoiceatall2.11x	nochoiceatall.11
+
+*include generalscrot.svx
+*equate generalscrot.50x	coldladyslegs1.50
+
+*include feckingtight
+*equate feckingtight.1x coldladyslegs1.43
+
+; superceded by inferno survey 
+;*include magicglue.svx
+;*equate magicglue.1x	numberofthebeast2.1
+
+*include grikeexpectations.svx
+*equate grikeexpectations.4x	nochoiceatall2.4
+*equate grikeexpectations.5x	nochoiceatall2.5
+
+; 2015 surveys
+
+*include inferno.svx
+*equate inferno.1 numberofthebeast2.1
+
+*include anthemusa.svx
+*equate anthemusa.13x inferno.13
+
+*include flashhard.svx
+*equate flashhard.1 boomboom.9
+
+*include flashhard2.svx
+*equate flashhard2.10 flashhard.5
+
+*include claytonscockup.svx
+*equate claytonscockup.1 flashhard2.1
+
+*include penguinfellatio2
+*equate penguinfellatio2.p6 marchofthepenguins2.6
+
+; 2016 surveys (hydra surveys in separate directory)
+
+*include daftchoice.svx
+*equate daftchoice.40 straightchoiceexposed.0
+
+*include daftchoice2.svx
+*equate daftchoice.26 daftchoice2.26x
+
+*include daftchoice3.svx
+*equate daftchoice.31 daftchoice3.31x
+
+*include whatwouldyourmothersay.svx
+*equate grikeexpectations.5x	whatwouldyourmothersay.5x
+
+*include wrongway.svx
+*equate wrongway.7 daftchoice.38
+
+; 2017 surveys (hydra surveys in separate directory)
+
+*include not_the_beast.svx
+*equate not_the_beast.11 aboveandbeyond2.4
+
+*include riggermortis.svx
+*equate riggermortis.1x not_the_beast.1
+*equate riggermortis.8x thatsthewaytodoit.8	; DODGY LOOP CLOSURE - CHECK SURVEY POCKET 15 FOR GEORGE / KATEY RESURVEY OF TOP OF BEAST 
+
+*include thebeastloop.svx
+*equate thatsthewaytodoit.8 thebeastloop.8x
+*equate thatsthewaytodoit.15 thebeastloop.15x
+*equate aboveandbeyond2.4 thebeastloop.11
+
+*include beastsideleads.svx
+*equate thatsthewaytodoit.19 beastsideleads.19x
+
+*include corroborate.svx
+*equate corroborate1.6 marchofthepenguins2.6
+*equate corroborate1.35x marchofthepenguins.35
+
+*end 258

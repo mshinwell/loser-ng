@@ -1,0 +1,19 @@
+*equate p2007-05 2007-05.1
+
+*begin 2007-05
+
+*date 2007.08.01
+*team Insts Andrew Atkinson
+*team Notes Becka Lawson
+
+*instrument GPS + guesswork -- grade 2
+; notes in 2007#41
+
+*export 1
+
+*data normal from to tape compass clino
+1	2	5	215	0
+2	3	8	-	down
+3	4	18	50	-30
+
+*end 2007-05

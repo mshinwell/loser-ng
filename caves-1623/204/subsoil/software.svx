@@ -1,0 +1,36 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle 1623/204
+
+*begin software
+
+*title "Software (QM 04-27A)"
+*date 2005.07.28 
+*team Insts Becka Lawson
+*team Notes Wookey
+*team Pics Wookey
+*team Tape Becka Lawson
+*instrument set #5 (unnumbered at time of survey, numbered on 29th) 
+;New Chinese Becka tape.
+
+; ref.:	2004 #1
+; the #number is on the clear pocket containing the original notes.
+
+*export 1 4
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+1	2	2.68	205	-38
+3	2	6.47	070	+30
+3	4	5.60	290	-19
+5	4	14.02	078	+04
+
+;stn	L	R	U	D	Desc
+;1	~5	2.5	-	0.7	Stn '20' on previous survey
+;2	~3	0.3	~5	0	pencil mark on floor
+;3	~3	1.5	~&	1.6	RP on rock
+;4	~3	1.1	~3	0.5	RP on pendant/column
+;5	2	1.5	5	1.6	RP LH Wall marked '5'
+
+*end software
+

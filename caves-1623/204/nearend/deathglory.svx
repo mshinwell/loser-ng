@@ -1,0 +1,64 @@
+*begin deathglory
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Death or Glory"
+*date 2006.07.25
+*team Insts Sandeep Mavadia
+*team Notes Dave Loeffler
+*team Tape both
+
+*instrument Compass + clino CUCC Silvas (set 2006#1) 
+; Calibration: 149/+23, 149.5/+23; 335/-23, 332/-23
+; ref.:	2006#08
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 14
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	2.14	103	+44
+3	2	5.83	161	-03
+3	4	3.29	040	+14
+4	5	6.13	123	+25
+6	5	3.18	197	+00
+6	7	6.40	351	+04
+7	8	3.13	352	+04
+8	9	3.30	036	+35
+10	9	3.81	067	060
+11	10	2.57	154	+16
+11	12	4.63	261	-19
+11	13	7.13	047	+25
+14	13	0.20	135	+00
+
+*begin
+*data passage station left right up down ignoreall
+1	-	-	-	-	CM on wall
+2	-	-	-	-	RP LHW
+3	0.20	0.80	0.60	0.70	RP projection LH side
+4	0.8	0.8	0.5	0.2	RP on scallop
+5	2.50	0	0.15	1.0	RP RHW at bend
+6	1.0	0.8	0.3	0.2	RP RHW
+7	0.6	0.05	0.15	0.15	RP RHW in squeeze
+8	0.50	0.40	1.0	0.2	RP on v heavy boulder
+9	0.4	0.1	0	0.7	RP ceiling
+10	0.3	0.6	2.5	0.10	RP boulder
+11	-	-	-	-	; kludge
+*end
+
+*begin
+*data passage station left right up down ignoreall
+11	-	-	-	-	; kludge
+12	2.0	2.0	3.0	1.0	RP on boulder
+*end
+
+*begin
+*data passage station left right up down ignoreall
+11	0	0.8	0.6	0.3	RP LHW at corner
+13	-	-	-	-	RP on boulder
+14	-	-	-	-	existing carbide mark
+*end
+
+*end deathglory

@@ -1,0 +1,69 @@
+*begin weeweeland
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Hauchhoehle (1623/234)
+*title "Weeweeland"
+*date 2005.08.10
+*team Insts Frank Tully
+*team Notes Dave Loeffler
+*team Tape Both
+*instrument Compass/Clino not recorded; tape new Chinese
+; Calibration: 328/-23; 156/+23
+; ref.:	2005#40
+
+; ====== stations refindable to link to other surveys: ======
+
+*export p1 ; = point 1 of Dave/Phil survey previous day
+*export p8 ; = unnumbered point from Olly/Emma survey (bottom end)
+*export 5 ; = connection point for QM survey
+*export 10
+
+*calibrate tape +0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	p1	2.66	264	+12
+2	3	3.06	122	+42
+3	4	4.845	011	+06
+4	5	1.33	314	+02
+5	6	2.39	014	+05
+p8	7	2.81	287	-20
+7	6	2.25	201	-11
+10	9	1.87	-	DOWN
+7	9	7.08	347	+19
+12	13	3.40	-	DOWN
+11	12	1.25	250	0
+11	10	4.20	111	-40
+
+;stn	L	R	U	D	desc
+;p1	-	-	-	-	existing RP point on wall
+;2	1.50	2.00	lots	0.40	RP floor boulder
+;3	0	0.4	0.3	2.0	RP RHW
+;4	0.5	0	0.2	0.2	RP RHW
+;5	-	-	-	-	RP LHW
+;6	2.0	0.20	lots	0.40	RP boulder
+;7	-	-	-	-	RP #7 on rock floor in middle of chamber
+;8	-	-	-	-	existing RP point on ceiling
+;9	lots	4.0	6.0	2.09	RP #9 on wall at T-jct
+;10	-	-	-	-	RP #10 on ceiling
+;11	0.7	1.0	lots	lots	RP on rock
+;12	-	-	-	-	Frank's hand in space
+;13	-	-	-	-	projecting spike
+
+*data passage station left right up down ignoreall
+p1	-	-	-	-	existing RP point on wall
+2	1.50	2.00	-	0.40	RP floor boulder
+3	0	0.4	0.3	2.0	RP RHW
+4	0.5	0	0.2	0.2	RP RHW
+5	-	-	-	-	RP LHW
+6	2.0	0.20	-	0.40	RP boulder
+7	-	-	-	-	RP #7 on rock floor in middle of chamber
+p8	-	-	-	-	existing RP point on ceiling
+*data passage station left right up down ignoreall
+7	-	-	-	-	
+9	-	4.0	6.0	2.09	RP #9 on wall at T-jct
+10	-	-	-	-	RP #10 on ceiling
+11	0.7	1.0	-	-	RP on rock
+12	-	-	-	-	Frank's hand in space
+13	-	-	-	-	projecting spike
+
+*end weeweeland

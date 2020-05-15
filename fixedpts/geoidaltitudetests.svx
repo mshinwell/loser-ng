@@ -1,0 +1,42 @@
+
+; From http://jules.unavco.org/Geoid/Geoid
+; Your Input Coordinates and GPS Height:
+;   Latitude = 47.6561111111111° N = 47° 39' 22" N
+;   Longitude = 13.8133333333333° E = 13° 48' 48" E
+;   GPS ellipsoidal height = 1800 (meters)
+;   Geoid height = 46.532 (meters)
+;   Orthometric height (height above EGM96 geoid which approximates mean sea level) = 1753.468 (meters)
+; ==> Geoid height of 47m means you subtract 47 from the ellipsoid altitude to get the geoid/Orthometric altitude
+
+; CUCC coordinate conversions notes given at bottom of http://expo.survex.com/handbook/survey/coord.htm
+
+; Use one or other of these outputs to get coordinates as cavern | 3dtopos
+; outputUTM33
+*cs out UTM33N
+; outputUTM33geoid
+;*cs out custom "+proj=utm +zone=33 +ellps=WGS84 +datum=WGS84 +geoidgrids=/home/julian/data/expodata/loser/terrainfixedpts/egm96_15.gtx"
+
+
+*cs custom "+proj=tmerc +lat_0=0 +lon_0=13d20 +k=1 +x_0=0 +y_0=-5200000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232"
+*fix p204_bessel reference    36697.3408    83699.9058    1800
+   ; outputUTM33:        (411560.09, 5282623.37,  1846.81 )
+   ; outputUTM33geoid:   (411560.09, 5282623.37,  1800.47 ) 
+
+*cs long-lat
+*fix p204a_longlat reference  13.82146667 47.69093333  1800
+   ; outputUTM33:        (411563.49, 5282622.35,  1800.00 )
+   ; outputUTM33geoid:   (411563.49, 5282622.35,  1753.66 )
+
+*cs UTM33N
+*fix p204a_utm33 reference  411563 5282622  1800
+   ; outputUTM33:        (411563.00, 5282622.00,  1800.00 )
+   ; outputUTM33geoid:   (411563.00, 5282622.00,  1753.66 )
+
+; Conclusion:
+;   The Austrian Bessel ellipsoid actually approximates the geoid in this region, 
+;   and therefore when you output as UTM33 (against the ellipsoid) it adds
+;   47metres on to give the ellipsoid altitude.  
+;   But if the input is in UTM33 or long-lat then it's already in ellipsoid 
+;   altitude, and so is left the same (unless you specify geoidgrids=egm96_15.gtx)
+
+

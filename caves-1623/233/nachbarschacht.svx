@@ -1,0 +1,36 @@
+; 2013.05.13 W entrance co-ordinates missing, so not connected currently
+
+*begin nachbar
+
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Nachbarschacht vom Grießkogel
+*date 2005.07.31
+; Messteam: Markus Bölzle, Markus Scheuermann, Robert Winkler
+; Zeichner: Markus Bölzle
+
+; Gerät: Robert Winkler
+
+; Referenz: Messbuch Robert + Saskia
+
+; ====== Messpunkte, die an bereits bestehenden Vermessungen hängen: ======
+
+;*export
+
+*data normal from to length gradient bearing ignoreall
+
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+1	2	13.78	-90	0
+2	3	6.86	-29	128
+3	4	9.15	-46	37.5
+4	5	6.35	-46	75
+5	6	5.30	-90	0
+6	7	6.80	-16	22
+7	8	6.20	-69	21
+8	9	1.87	-41	310
+9	10	2.60	-36	355
+10	11	3.66	-33	285
+11	12	3.87	-55	0
+
+
+
+*end nachbar

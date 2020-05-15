@@ -1,0 +1,193 @@
+;1998.01.26 AERW fix bug in conversion from SU dataset
+;1998.04.07 AERW added comments, refs, exports and actually included it :-)
+;1998.07.19 AERW added 1843->p156 survey
+;1999.07.28 W added link to laser pt from p201 and connected both tag bolts
+;2000.03.06 W 01 to 201 exports added
+
+*begin 01to156
+
+; Locn:	Totes Gebirge, Austria - NW flank of VSMK (kataster group 1623)
+; Cave:	1623/156
+*title "NW side of VSMK, laser point 0/1 to 156 entrance"
+*date 1987
+*team Insts Keith Millar
+*team Notes 
+*team Tape Jenny
+*instrument Compass # 949847; Clino # 240641
+; Calibration:	none
+; ref.:	photocopy of page (of 1987 logbook?) in AERW's archive
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0	; spit of laser point 0/1
+*export 4	; random point at 1623/156 entrance
+
+;*GRADE USE 5N
+*CALIBRATE COMPASS 0.0
+*CALIBRATE CLINO   0.0
+0	1	 1.62	-	UP  ;
+1	2	30.0	180.	+16.0 ; Across limestone pavement
+3	2	19.67	357.	-19.0
+3	4	 2.63	222.	-36.0 ; To bolt at head of pitch
+
+*end 01to156
+
+*equate 01to156.4 156tagconn.156rigbolt
+
+*begin 156tagconn
+
+; Locn:	Totes Gebirge, Austria - NW flank of VSMK (kataster group 1623)
+; Cave:	1623/156
+*title "NW side of VSMK, laser point 0/1 to 201 tag bolt(s)"
+*date 1999.07
+*team Insts Mark Shinwell
+*team Notes Wookey
+*team Tape Mark Shinwell
+*instrument Set 3, 
+; Calibration:	Tape:0 , (@Upper TC) Comp:268. +6.5 ; 87.3, -6
+; ref.:	1999 notKH survey book pp 83
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 156tag	; tag at 156 entrance
+*export 156rigbolt	; spit of 1st rig bolt (just below surface on W side of rift)
+
+*begin              ; to enclose sd's
+*sd clino 3 degrees ; the reading seems rather steep, especially in the
+                    ; light of brian's go below....
+*sd compass 4 degrees
+
+156rigbolt	1	0.30	-	up
+*sd tape 0.04 metres            ;due to measuring to virtual point
+156tag		1	1.34	088	+15
+
+;156tag = Tag bolt for 156
+;1 = handy point in space :-)
+;2 = Top rigging bolt (start of 156 survey)
+
+*end
+
+; also done by Brian on last carry of 1998 expo
+; some of these inferred by comparison between 1999 and 1998 1623/201 survey.
+; this leg cannot be done in one shot (through the rock) so accuracy cannot be good
+; inst set 4
+; ref 1998 NotKH survey book p50
+
+*begin                ; to enclose sd's
+*sd clino 3 degrees
+*sd tape 0.05 metres
+*calibrate tape 0     ; The tape must have been used from 0 - adding
+                      ;this calib makes the disagreement with that above survey (in the
+                      ;horizontal plane) _much_ worse.
+
+156tag	156rigbolt	1.41	101	-12
+
+*end
+*end 156tagconn
+
+*equate 01to201.laserpt 01to156.0
+
+*begin 01to201
+
+; Locn:	Totes Gebirge, Austria - NW flank of VSMK  (kataster group 1623)
+; Cave:	1623/201
+*title "Plateau area, laser point 0/1 to 201 tag bolt(s)"
+*date 1999.07
+*team Insts Wookey
+*team Notes Wookey
+*team Tape Becka Lawson
+*instrument Compass # 949847; Clino # 240641
+; Calibration:	none
+; ref.:	1999 notKH survey book pp 83
+
+; ====== stations refindable to link to other surveys: ======
+
+*export laserpt	; spit of laser point 0/1
+*export 1998_01	; tag at 201 entrance
+*export 1998_02	; spit incorrectly used for CUCC1998/02 tag
+
+1998_01	laserpt	21.58	184	+9
+1998_01	1998_02	2.875	212	-8
+
+
+; it turns out Brian did this on last carry of 1998 expo too:
+;ref: 1998 notKH survey book p 50
+;Inst set 4
+;However it doesn't agree very well with the above, although if you assume 22cm missing off 
+;tape then only the clinos disagree, and it's a hard shot to take (chin on ground), so lets
+;assume inadequate compensation was made here and bump up clino error
+
+*calibrate tape -0.225
+*sd clino 3 degrees
+1998_01	1998_02	3.11	210	-12 
+
+*end 01to201
+
+
+*equate 01to201.1998_02 VordTo156.19
+
+
+*begin VordTo156
+
+; Locn:	Totes Gebirge, Austria - NW flank of VSMK (kataster group 1623)
+; Cave:	1623/156
+*title "Plateau area, laser point 0/1 to 156 entrance"
+*date 1998
+*team Insts Brian Outram
+*team Notes Wookey
+*team Pics Wookey
+*team Tape both
+*instrument set #4
+; Calibration:	none
+; ref.:	1998 notKH survey book pp 69-71
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; 0.5m off floor of stem of Green box at top of Vord
+*export 13	; bolt of tag on CUCC 1987-01 (Tumbling Boulder Hole)
+*export 15	; bolt of tag of 1623/156
+*export 19	; bolt of spit for wrong tag on CUCC 1998-01
+
+1	2	27.2	290.	-14.
+2	3	30.02	276.	+02.
+4	3	 5.85	145.	-26.
+4	5	27.67	280.	-17.
+6	5	10.91	177.	+12.
+6	7	10.29	303.	-17.
+8	7	13.54	064.	+01.
+8	9	28.82	327.	-15.
+9	10	28.50	317.	-16.
+11	10	21.49	140.	+11.
+11	12	23.99	293.	-11.
+12	13	13.81	178.	 00.
+14	12	 9.72	244.	+03.
+15	14	17.37	208.	+25.
+16	15	17.43	184.	+09.
+16	17	30.38	018.	-08.
+17	18	24.71	345.	-14.
+18	19	  .34	   -	down ; a bodge (book says 19 to 19 :-)
+
+;station details
+
+;no.	height	desc.
+;1	0.5	stem of green box on Vord.
+;2	0.3	X on rock by tiny cairn
+;3	0.6	X on top of boulder 3m before step on path
+;4	1.0	top of ski pole
+;5	0.8	X on rock ledge
+;6	1.4	large cairn on boulder
+;7	1.0	ski pole
+;8	1.0	ski pole
+;9	1.0	ski pole 1m to NW of cairn
+;10	1.5	pencil mark (arrows) on point of cliff wall
+;11	1.0	ski pole
+;12	0.5	X (and rock) on boulder
+;13	1.5	tag of CUCC 1987-01
+;14	1.0	ski pole
+;15	0.	P156 tag
+;16	1.5	flake on corner cliff
+;17	1.0	ski pole
+;18	0.34    above spit for wrong tag
+;19	0.	spit for wrong tag of CUCC 1998-01
+
+*end VordTo156

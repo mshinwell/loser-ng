@@ -1,0 +1,40 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Ferkelhoehle
+; Originally 2014-neo-01, Katastered 2016
+
+*equate 273.1	t273
+
+*begin 273
+
+*title "273 Ferkelhoehle "
+*date 2014.08.03 ; date the survey was done, YYYY-MM-DD
+*team Insts Elaine Oliver
+*team Notes David Walker
+*team Photos Matt Watson
+*team Tape Elaine Oliver
+*instrument SAP; Xact disto
+
+; ref.:	2014 #25
+; the #number is on the clear pocket containing the original notes.
+
+*export 1
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+*data normal from to length bearing gradient ignoreall
+;from	to	tape	compass	clino	remarks
+1	2	1.95	344	-17.7
+3	2	3.39	246	+03
+4	3	1.58	242	-15.8
+4	5	2.47	052	+02.6
+5	6	4.39	068	+13.6
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+1	-	-	-	-	outside
+2	0	1.3	0.4	0.2	column
+3	0.2	0.5	0.2	0.3	
+4	0.7	0.4	0.3	0.4	
+5	0.4	0.5	0.5	0.1
+6	0.1	0.1	0	0.4
+*end 273

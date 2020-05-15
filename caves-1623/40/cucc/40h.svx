@@ -1,0 +1,39 @@
+*begin 40h
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Eishöhle, 1623/40
+*title "40h [Eistunnel]"
+*date 2000.08.03
+*team Insts Andy A
+*team Notes Wook
+*team Pics Wook
+*team Tape Andy A
+*instrument Compass #2 ; Clino #2, Tape Black Fisco ranger open reel
+; Calibration: Lower TC: 127.75,-7.5  306.5,+6.5
+; ref.:	....
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 2 6
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+2	1	13.87	308		-25
+2	3	5.94	167		+34
+3	4	10.45	145.5	+28
+5	4	12.40	305		-24
+5	6	6.48	205		+13.5
+
+;station details
+*data passage station left right up down
+;name	L	R	U	D	;description
+1	1.5	0	1	0.4	;red point, RH wall (old station)
+2	0.2	1.5	1	1.5	;red point, LH wall (old station)
+3	1.2	0.1	0.2	0.8	;red point, RH wall
+4	2	0.2	0.4	0.5	;red point, RH wall, 0.6m from top bolt
+5	3	3.5	2.8	1.0	;snow cairn
+6	-	-	-	-	;p40h tag bolt
+
+*end 40h
+

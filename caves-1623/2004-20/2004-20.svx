@@ -1,0 +1,48 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2004-20
+*equate 2004-20.1 p2000-08
+*equate 2004-20.5 t2004-20
+*equate 2004-20.6 p2004-20
+*entrance p2004-20
+
+*begin 2004-20
+*title "Crowbar Hoehle"
+*date 2004.08.08
+
+*team Insts Olly M
+*team Notes Dave Loeffler
+*team Tape Dave Loeffler
+
+*instrument Compass set #1; Clino set #1 
+; ref.:	2004 # 51
+
+; ====== stations refindable to link to other surveys: ======
+*export 1 5 6
+*calibrate tape 0.07	
+; +ve if tape was too short, -ve if too long
+
+*begin
+*flags surface
+;from	to	tape	compass	clino
+1	2	19.91	092	+13
+2	3	8.98	183	+01
+4	3	8.17	000	+31
+4	5	2.78	301	-08
+4	6	3.07	294	-22
+*end
+
+*begin
+*flags not surface
+6	7	9.28	-	down
+*end
+
+;stn	L	R	U	D	Desc
+;1	-	-	-	-	2000-08 tag bolt
+;2	-	-	-	1.0	RP pebble on large boulder
+;3	-	-	-	0	RP on lip of depression
+;4	-	-	-	1.0	RP on very shattered large boulder
+;5	-	-	-	lots	Tag bolt
+;6	-	-	-	lots	RP wall behind Y-hang
+;7	5.0	2.0	lots	0.1	RP boulder on floor (LR orientations as for leg 4-6)
+
+*end 2004-20

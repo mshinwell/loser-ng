@@ -1,0 +1,4 @@
+; 204 to 258
+*equate 204.allsubsoil.whereoware.23 258.thatsthewaytodoit.23x
+*equate 204.allsubsoil.whereoware.31 258.beastsideleads.31x
+

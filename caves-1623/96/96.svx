@@ -1,0 +1,45 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Bräu-Schacht 1623/096
+
+; Eingänge
+*entrance p96
+
+*equate p96 96.0
+
+*begin 96
+
+*export 0		; p96
+
+;-1-
+; Messteam: Florian Gruner, Helmut Stopka-Ebeler, Andreas Länge
+; Zeichner: Helmut
+; Referenz: Robert und Saskia
+*date 2016.08.09
+*title "Bräu-Schacht 96"
+
+*units clino compass degrees
+
+*data normal from to length clino compass
+0	1	0.21		43.6		15
+1	2	2.87		-34.6		101.9
+2	H	0.24		-8.3		323.9
+H	3	17.10		-67.6		321.2
+3	4	3.52		-20.3		355.4
+4	5	4.18		-48.4		311.3
+5	6	17.60		-83.2		210.2
+6	7	3.17		+10.7		211.8 ; ab hier bei Regen zu viel Wasser
+
+; Raumwerte, teilweise geschätzt, da Angaben lückenhaft
+*data passage station left right up down
+0	1	1	1	10
+1	2	1	1	10
+2	1	1	2	10
+H	1	1	2	10
+3	2	0	10	1
+4	0.8	0	0.5	1.3
+5	0	1	4	15
+6	0.5	0.6	17	0.2
+7	1	1	15	0
+
+
+*end 96

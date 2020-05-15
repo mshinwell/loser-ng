@@ -1,0 +1,50 @@
+
+*begin wotnoconnection
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle
+; 'Wot No Connection?' (breakdown chamber at end of Wot No Butcombe)
+
+*title "Wot No Connection?"
+*date 2003.08.02 ;date the survey was done
+*team Insts Frank Tully
+*team Notes Earl Merson
+*team Pics None
+*team Tape Frank Tully
+*instrument Compass set #2; Clino set #2 
+; ref.:	2003 #28 ; the #number is on the clear pocket containing the original notes.
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 ; list all exported survey points.
+	; remember to add some *equate statements to 204.svx to link this survey in
+
+*calibrate tape 0.07	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	2.72	80	-28
+3	2	4.73	205	-18
+3	4	2.33	350	+22
+5	4	3.68	215	-46
+6	5	6.00	203	-10
+6	7	0.14	-	DOWN
+8	7	6.21	80	-24
+9	8	5.30	25	23
+9	10	1.55	-	DOWN
+5	10	5.32	262	+15
+11	5	5.38	40	-40
+
+
+;stn	L	R	U	D	Desc
+;1	-	-	-	-	watnobutcombe.3
+;2	0.4	0	0.6	3	RP RW
+;3	2.5	0.8	0.4	1.4	RP RW
+;4	0.6	1.3	2	2	RP on boulder in middle of floor
+;5	2	0.5	6	1.5	RP on boulder in chamber
+;6	-	0	1	1.5	RP on RW
+;7	-	-	-	-	Point in free space
+;8	1.8	1.3	1	2	RP on RW in chamber
+;9	4	0.5	2	1.5	RP on RW in chamber
+;10	-	-	-	-	Plumb from 9 to rock
+;11	0	0.5	2	1	RP on Left Wall
+*end wotnoconnection

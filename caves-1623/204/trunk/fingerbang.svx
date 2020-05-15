@@ -1,0 +1,36 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+
+*begin fingerbang
+
+*title "Finger Bang"
+*date 2006.07.27
+*team Insts Sandeep Mavadia
+*team Notes Dave Loeffler 
+
+; Calibration: up 155/+24, 151/+23; down 336/-23, 338/-22
+; ref.:	2006 #09
+
+; ====== stations refindable to link to other surveys: ======
+
+*export a g
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+a	b	3.55	162	-18
+b	c	4.38	169	-04
+d	c	1.21	288	+07
+d	e	2.40	153	-08
+f	e	2.07	296	+02
+f	g	5.04	054	+54
+
+*data passage station left right up down ignoreall
+a	-	-	-	-	pt on ceiling marked "X"
+b	0.1	0.4	1.5	0.2	RP boulder
+c	0.5	0	0.5	0.1	RP RHW
+d	0.60	0	2.0	0.1	RP RHW
+e	0.3	0.15	1.0	0.2	RP RHW
+
+*end fingerbang
+

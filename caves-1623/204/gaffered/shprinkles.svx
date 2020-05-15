@@ -1,0 +1,39 @@
+*begin shprinkles
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "shprinkles pitch"
+*date 2007.07.14
+*team Insts Nial Peters
+*team Notes Edvin Deadman
+
+*instrument set 1
+
+; ref 2007 #07
+
+; Calibration: stone bridge: 328/-23 329/-23 145/+23 145/+23
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 
+
+*calibrate tape -0.02	; +ve if tape was too short, -ve if too long
+
+1	2	0.73	262	+08 ;reversed
+3	2	1.82	014	+09 ;reversed
+4	3	7.5	271	+75 ;reversed
+4	5	7.45	-	down ;reversed
+6	5	5.31	271	+52
+
+*data passage station left right up down ignoreall
+
+;station details
+;name	L	R	U	D	description
+1	0	3	2	1	rp numbered 4 in Bracket fungus bypass
+2	0.5	1	3.5	1.8	rp on flake
+3	0	1	0.5	1	rp above spit
+4	-	-	-	-	rp on flake on pitch
+5	2	2	-	0	rock on floor	
+6	0.4	0.4	1.3	1.3	bottom of slope
+
+*end shprinkles

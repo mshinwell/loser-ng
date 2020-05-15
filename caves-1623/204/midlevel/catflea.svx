@@ -1,0 +1,41 @@
+*begin catflea
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Cat Flea"
+*date 2012.08.06
+*team Tape Olaf Kaehler
+*team Insts Rob Adams
+*team Notes Olaf Kaehler
+*instrument compass C, clino 3
+; Calibration: A->B: 152, +23; B->A: 332, -24
+; ref.:	2012#01
+
+; ====== stations refindable to link to other surveys: ======
+*export 7x
+
+*calibrate tape 	0; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+1	7x	2.60	153	+28
+2	1	3.19	132	-12
+3	2	3.10	191	-42
+4	3	1.62	180	-12
+5	4	2.67	060	-44
+6	5	2.20	120	-81
+7	6	3.30	-	DOWN
+8	7	4.26	208	-62
+
+; all lefts and rights are interchanged due to surveying backwards...
+*data passage station	left	right	up	down	ignoreall
+1	0.0	0.7	0.8	0.4
+2	0.8	0.2	1.0	0.5
+3	0.1	1.1	0.4	1.2
+4	0.1	0.9	1.8	0.7
+5	0.6	0.0	4.0	1.5	numbered
+6	0.0	1.5	5.0	3.0
+7	0.9	1.0	5.0	3.3
+8	0.0	1.0	5.0	5.0	numbered
+
+*end catflea
+

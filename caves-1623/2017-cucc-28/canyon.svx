@@ -1,0 +1,73 @@
+*begin canyon
+									 									
+; stations linked into other surveys (or likely to)
+*export 7 C14 C16 C10
+
+; Cave: Fisch Gesicht Hoehle
+; Area in cave: Entrance
+; Meander to Canyon: Blitzen Boulevard
+*title "Blitzen Boulevard"
+*date 2017.08.13
+*team Insts Alice Shackley
+*team Notes Mike Butcher
+*instrument CHECC Disto
+; Calibration: None
+*ref 2017#53
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall	
+							
+7	C1	9.70	200.4	-74.9
+C1	C2	7.91	134.4	+06.2
+C2	C3	3.35	128.8	+10.2
+C3	C4	2.72	166.9	-30.9
+C4	C5	3.30	117.2	+07.1
+C5	C6	3.90	192.6	-21.7
+C6	C7	6.86	199.8	-10.3
+C7	C8	1.82	158.7	+14.0
+C8	C9	5.00	217.8	-29.7
+C9	C10	24.54	305.7	-86.1
+C9	C11	33.81	280.7	-89.1
+C11	C12	8.10	293.9	-00.3
+C11	C13	8.00	110.2	+14.9
+C13	C14	14.75	007.6	+31.9
+C13	C15	6.01	008.9	+18.8
+C15	C16	5.88	036.1	-05.8
+C16	C16splay	14.75	151.0	-88.2
+C14	C14splay	14.06	006.1	+06.5
+
+;-----------
+;recorded station details
+
+;LRUDs arranged into passage tubes
+*data passage station left right up down ignoreall
+7	0	1.5	16.9	23.8	Y-hang. continues from icytube survey station
+C1	1.1	1.4	6.7	0.0
+C2	0.7	0.0	2.7	4.5
+C3	0.0	0.6	2.5	5.8
+C4	0.0	1.0	4.0	5.0
+C5	0.0	2.0	4.0	5.0
+C6	1.0	0.0	4.7	4.4
+C7	0.0	0.5	5.5	27.0
+C8	0.0	0.5	4.5	12.0
+C9	1.0	0.5	5.0	24.8
+C11	1.0	1.0	33	1.5
+C13	2.0	0.0	10	0.0
+C12	0.0	1.5	33	1.5
+C15	0.0	0.4	13.2	13.0
+C16	0.0	0.4	4.0	5.0
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    B    canyon.C10    -  part way down the 35m pitch there is a ledge, possibly phreatic with the stream having cut down through it forming the pitch,the ledge possibly continuing at a higher level
+;QM2    A    canyon.C16splay    blitzen_to_liquidluck.1d  continuation of the meadering rift at depth, 15m pitch undropped
+;QM3    A    canyon.C14splay    -  phreatic tube after a 3m climb up on the left hand side
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+
+; Continuation icytube from the y-hang swinging across the pitch to the south-west, the other side of the flake. Passage starts as a meandering rift, drops a 33m pitch into a canyon with a stream at the bottom. Passage continues with more rift leading to an undropped 15m pitch and also climbs upwards c3 to phreatic tubes.
+
+*end canyon

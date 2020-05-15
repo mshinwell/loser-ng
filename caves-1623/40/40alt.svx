@@ -1,0 +1,14 @@
+;Schwarzmooskogeleishöhle, 1623/40
+;Zusammenstellung der alten Vermessungen (80er Jahre)
+
+
+*data normal from to length gradient bearing ignoreall
+
+*include old/EisSVH      		;VfHO survey of SVH
+
+*include old/spinne  		; spinnenfriedhof  
+*equate spinne.0 eissvh.sv69 	;These are not the same point - gap about 3m...
+
+*include old/eismain 
+
+

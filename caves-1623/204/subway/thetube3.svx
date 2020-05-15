@@ -1,0 +1,91 @@
+*begin thetube3
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "The tube 3"
+*date 2005.08.08
+*team Insts Nial Peters
+*team Notes Becka Lawson
+*team Pics 
+*team Tape Andrew Atkinson
+*instrument TSG comp/clino Compass #Set 5 ; Clino #Set 5, Tape New, China,
+;Yellow
+; Calibration: 147/+22 327/-23
+; ref.:	2005 #35
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 2 23 24 25
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	3.09	271	+26		
+1	3	7.83	-	down
+4	3	6.64	256	+84
+4	5	5.77	184	-06
+5	6	2.38	127	-06
+6	7	8.25	-	down
+7	8	2.80	101	-15	
+8	9	5.70	-	down
+10	7	2.84	200	+13
+10	11	4.42	359	-19	
+12	11	3.46	211	+25
+12	13	1.49	010	+09
+14	13	3.63	263	+16
+14	15	2.20	179	-28
+16	15	0.79	240	+36
+16	17	1.23	060	+34
+17	18	15.57	-	down
+19	18	3.02	131	-10
+19	20	2.68	336	-19	;changed from notes as misnumbered
+21	22	6.89	-	down
+21	23	5.03	156	+04
+24	25	3.32	307	+28
+26	25	11.20	017	-21
+26	27	6.74	132	+24
+28	27	6.97	065	-17
+28	29	5.28	232	-31
+28	30	10.58	174	-38
+31	30	4.02	007	+43
+
+
+;station details
+;name	L	R	U	D	E	description
+;1	4	2	10	-		rp '1' over pitch
+;2	3	1	0	2		rp from Nial and Becka survey
+;'the tube 1' by first pitch down to stream
+;3	N:6	s:10	E:4	W:0		rp 1.2m below rebelay bolt
+;4	5	0.5	4	1.5		rp '4' rock in chamber
+;5 	5	0	4	2		rp '5 on rhw between spits
+;6	3.5	0	10	1.5		rp by pitch head bolt
+;7	1.5	3	10	6		rp on rhw '7'
+;8	2	1	10	0		hand in space
+;9	-	-	-	-		rock on floor
+;10	0.2	1	0.5	1		rp '10' on lhw start of rift
+;11	0	1.5	2	1.5		rp on rhw
+;12	0	0.5	3	1.5		rp on rhw
+;13	0.2	1	2.5	2		rp on lhw '13'
+;14	0	1.2	0.3	2		rp on lhw
+;15	0.5	0.1	0.5	2		rp on rhw
+;16	-	-	-	-		rp on junction on lhw
+;17	0.5	1.5	0.4	-		knot of pitch round thread
+;18	2	1.5	17	0.1		small rock on floor
+;19	0.3	0.4	1.2	1		rp on knobble by thin rift '19'
+;20	0.3	0	1.2	1.5		rp on rhw at squeeze
+;21	1	3.5	2.5	7		rp on lhw above lh pitch
+;22	-	-	-	-		unmarked spot 1.5m above floor
+;23	1.2	2	0.5	0.6		station '1' of Nial and Becka
+;survey 'the tube 2'
+;24	2	5	2(4)	1		Nial and Martin survey 'the tube 1' rp on
+;boulder by pitch and traverse '24'
+;25	3	3	2.5	3		rp on right of pitch
+;26	2	1.5	5	4		rp on floor knobble '26'
+;27	1.5	1.6	1.5	12		rp on ceiling/lhw
+;28	1	1.5	4	4		rp on flake on junction
+;29	1.6	3	0	1.9		rp on ceiling above wet pitch
+;'29'
+;30	0	1.1	1.2	4		rp on lhw
+;31	1	0.2	1.1	1.1		rp on rhw before waterfall
+
+*end thetube3

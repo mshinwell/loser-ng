@@ -1,0 +1,67 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schnellzughöhle 1623/115
+
+; Eingänge
+*entrance p115			;
+*entrance p115c			; Nebeneingang zu p115
+*entrance p115b			; Neuer Eingang (Schluf)
+
+
+; Eingänge absolut positionieren
+; *fix p115	35841.288 81041.535 1488.280 	; this is in another file somewhere else!
+; *fix p115b	36282     81053     1418	; keine GPS-Koordinaten sondern
+						; Koordinaten von 2_30
+
+; Eingänge anbinden
+*equate p115	115.115eing.0
+*equate p115b	115.nebukad.2_30	; Vermutung!!! Thilo fragen?
+*equate p115c   115.115eing.c
+
+*begin 115
+*title "Schnellzughöhle"
+
+; Eingänge exportieren (zum anbinden)
+*export 115eing.0
+*export 115eing.c
+*export 115eing.b9
+*export nebukad.2_30
+
+; Verbindungen zu anderen Höhlen exportieren
+*export 115haupt.55		; 87.40
+*export dartford.7		; 041.wetnwild.67_1
+
+; Verbindungen in der Höhle
+*equate nutzlos.56 	115haupt.56
+*equate 115haupt.54 	115eing.54	babylon.54	cuccpurgatory.0
+*equate babylon.3_21 	babywind.3_21
+*equate babylon.23_2 	nebukad.23_2
+*equate 115haupt.72_6 	dartford.6
+*equate dartford.31	koelndom.0
+*equate dartford.34	confluence.34
+*equate koelndom.3_28	confluence.65_3
+*equate 115haupt.78	purgatory.78
+*equate 115haupt.61	purgatory.61
+*equate 115haupt.67	purgatory.67
+*equate dartford.B5	purgatory.B5
+
+*include 115eing
+*include nutzlos
+*include babylon
+*include 115haupt
+*include purgatory
+*include babywind
+*include nebukad
+*include dartford
+*include koelndom
+*include confluence
+
+; CUCC
+
+*include cucc/purgatory
+*include 115rest
+
+;*equate 115rest.bypass.2   dartford.34
+*equate 115rest.confluence.59 confluence.65
+
+*end 115
+

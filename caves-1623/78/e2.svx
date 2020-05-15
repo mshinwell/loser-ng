@@ -1,0 +1,54 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schwabenschacht 1623/78
+
+*begin e2
+*title "Zweiter Eingang / Predigtstuhlgang"
+
+*export T5	; eisdom.A5
+*export U11	; verloren.V1
+*export U12	; eisdom.A14 bayberg.H25 forsten.A14 verloren.W0
+*export X4	; p78b
+
+; -1- alles Außenverm., T-Meßzug: E2 Richtung Verlorene Halle,
+;     U-Meßzug: Richtung Verlorene Halle; X-MZ umgedreht, E1=X0, E2=X4
+; Messteam: Klaus Gebhard, Manfred Schwaiger, Robert Winkler, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 1
+*date 1992.08.22
+
+*data normal from to length clino compass
+X4	T1	25.80	DOWN	-
+T1	T2	1.60	0	208
+T2	T3	16.30	DOWN	-
+T3	T4	2.95	-2	131
+T4	T5	8.18	7	77	; T5 = einsdom.A5
+
+T4	U1	7.65	-7	266
+U1	U2	8.00	-73	246
+
+; Raumwerte
+; keine Raumwerte
+
+
+; -2- U-Meßzug: (E2)-Offenbarungshalle-Predigtstuhlschacht bis Verlorene Halle
+; Messteam: Klaus Gebhard, Robert Winkler, Thilo Müller
+; Zeichner: Thilo Müller
+; Referenz: Messbuch SMK 1
+*date 1992.08.24-1992.08.26
+
+*data normal from to length clino compass
+U2	U3	9.54	-75	183
+U3	U4	4.34	-60	259
+U4	U5	3.03	-68	110
+U5	U6	2.28	-55	52
+U6	U7	6.06	-15	108
+U7	U8	4.75	-30	113
+U8	U9	24.45	DOWN	-
+U9	U10	10.40	DOWN	-
+U10	U11	7.01	4	97
+U11	U12	10.08	15	94
+
+; Raumwerte
+; keine Raumwerte
+
+*end e2

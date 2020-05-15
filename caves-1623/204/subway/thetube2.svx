@@ -1,0 +1,75 @@
+*begin thetube2
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "The tube 2"
+*date 2005.08.06
+*team Insts Nial Peters
+*team Notes Becka Lawson
+*team Pics 
+*team Tape 
+*instrument TSG comp/clino Compass #Set 5 ; Clino #Set 5, Tape New, China, Yellow
+; Calibration: 
+; ref.:	2005 #34
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 8 20 24
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	10.26	172	-03
+2	3	10.39	268	+25	
+4	3	11.40	136	+33
+4	5	7.59	278	-38
+6	5	6.32	193	+36
+4	7	6.09	002	+42
+8	7	14.80	247	-08
+8	9	5.28	058	+21
+10	9	8.22	160	+01
+10	11	2.14	214	-31
+12	11	8.00	085	+42	
+12	13	5.19	261	-43
+14	13	5.76	075	+41
+15	12	1.84	178	+15
+15	16	5.42	021	+31
+16	17	7.84	028	+38
+18	3	7.04	255	-25
+18	19	10.55	152	+56	;changed from notes as wrong way round
+20	1	5.74	005	+06
+22	21	13.92	015	-45
+23	22	3.20	067	-53
+23	24	1.59	136	-01
+24	20	6.29	216	+36
+;station details
+;name	L	R	U	D	E	description
+;1	1.2	2.5	0.5	0.8		rp on roof opposite 3rd traverse
+;bolt'1'
+;2	3	1.5	1.8	0.4		rp on stone on floor
+;3	0	4	3	2		rp on lhw '3'
+;4	4	0	2	1		rp on floor '4'
+;5 1	1	3	3	1		rp on lhw '5'
+;6	0.4	1.5	0.5	0.4		rp on lhw
+;7	0	2.5	3	2		rp on lhw '7'
+;8	3	3	0	1.8		rp on roof spike
+;9	3.5	1.5	5	1		rp om floor spike
+;10	0.5	1.8	4	1.5		rp on floor spike '10'
+;11	0.5	1.2	2.5	0.5		rp on lhw '11'
+;12	0.1	1.5	0.7	0.3		rp om lhw '12'
+;13	0.5	0	0.6	0.2		rp om rhw
+;14	2.5	1	0.2	0.5		rp on roof spike
+;15	0.1	0.5	1	0.3		rp on lhw
+;16	0.2	1.3	1	1.2		rp on rhw '16'
+;17	1.6	0	2.5	1		rp on rhw
+;18	2.5	1.2	2	0		rp on floor '18'
+;19	1(5)	1	1.5	1.5		rp on rock in middle '19'
+;20	0	2.5	5	2		old Martin and Nial station
+;before last station down pitch rp on lhw
+;21	1.2	0.3	4	0.4		rp '21' on boulder near blowing
+;tube
+;22	0	5	2.5(8)	0.4		rp on lhw part way down pitch
+;23	1.5	0	5	1.5		rp below spit
+;24	0.2	1.5	5	0.6		final station of Nial and Martin
+;'24'
+*end thetube2

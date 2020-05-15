@@ -1,0 +1,129 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle 1623/204   - Gaffered - The Wares
+
+*begin granddayout2
+
+*title "Grand Day Out"
+*date 2011.07.31
+*team Insts Edvin Deadman
+*team Notes Nial Peters
+*team Tape Kathryn Hopkins
+
+;ref.:	2011 #16
+
+*export x
+
+*calibrate tape 0.05	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+1	x	12.80	112	48
+2	1	3.60	080	44
+3	2	9.84	137	39
+3	4	12.20	316	-38
+5	4	3.59	050	-04
+5	6	4.70	350	-26
+6	7	4.20	244	-40
+7	8	3.00	330	-28
+8	9	2.46	047	-26
+10	9	2.74	176	-04
+11	10	7.55	083	46
+12	11	1.70	211	09
+12	13	3.93	278	-27
+13	14	3.93	307	-27
+14	15	1.10	322	-20
+15	16	12.51	268	-33
+17	16	0.83	150	-04
+17	18	6.51	183	-23
+18	19	1.57	148	-26
+19	20	2.96	164	03
+21	20	2.50	329	-24
+17	22	2.61	348	-07
+22	23	2.39	030	07
+23	24	2.12	347	22
+24	25	5.63	355	38
+25	26	2.60	325	38
+27	26	1.85	327	61
+27	28	1.39	322	27
+28	29	6.10	058	50
+29	30	2.12	063	16
+30	31	2.60	326	-26
+31	32	11.70	046	45
+33	34	4.85	278	-28
+34	35	2.25	288	-26
+35	36	2.76	351	-20
+36	37	2.80	274	-29
+37	38	5.97	323	-14
+38	39	3.35	281	-23
+33	40	3.22	101	21
+*calibrate tape 0.11
+40	41	4.87	037	-67
+42	41	6.40	000	27
+42	43	4.57	096	-51
+44	42	4.33	265	03
+45	44	2.85	325	20
+45	46	3.49	056	-42
+46	47	13.61	132	-15
+41	48	14.20	183	74
+49	48	1.76	015	-19
+49	50	3.50	295	63
+50	51	3.70	073	41
+51	21	1.21	311	-04
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+x	-	-	-	-	granddayout.14
+1	3	1	1	0	RP ceiling RHS of passage
+2	0	3	1.5	2	RP ceiling LHS passage
+3	2	1	1	2	RP ceiling
+4	3	0.2	2	0.1	RP nodule
+5	1	3	2	2	RP ceiling spike
+6	0.5	1	0	0.5	RP ceiling
+7	0.5	1	3	1.5	RP roof pendant
+8	1.5	0	3	1.5	RP RHW
+9	0.4	3	4	0.3	RP roof pendant
+10	5	2	3	-	pitch head bolt
+11	0	1.5	1.4	0	RP LHW
+12	2	0.2	3	1	RP ceiling spike
+13	0	2	1	0.5	RP LHW
+14	0	1	1	0.4	RP LHW
+15	0	0.7	0	0.7	RP LHW
+16	0.7	2	4	2	RP spike, numbered
+17	0.7	0.1	4	2.5	RP spike
+18	0.7	0	2	0.7	RP RHW
+19	0	0.2	1	0.7	RP LHW
+20	0.2	0	1.5	0.7	RP RHW
+21	1.5	0	1	1	RP RHW
+22	0	0.8	1.5	1.5	RP LHW above urine stain
+23	0.7	0	1.5	1	RP RHW
+24	0	0.4	1.5	1.3	RP LHW
+25	0	0.5	0.4	2	RP LHW
+26	0.8	0	2	3	RP RHW
+27	0	0.5	3	2	RP LHW
+28	0	0.8	3	1.5	RP LHW
+29	0	0.6	1.5	1	RP LHW
+30	0.7	0	0.7	1.5	popcorn RHW	
+31	0	1.5	2	1.5	RP LHW
+32	1	3	0	0.7	RP roof
+33	1.5	0	15	2	RP RHW, numbered
+34	0.1	0.8	0.5	2	RP LHW
+35	0	0.8	0.1	1.2	RP LHW
+36	0.8	0	0.3	0.4	RP RHW
+37	0	0.7	0.2	0.5	RP LHW
+38	0.3	0.1	0.5	0.4	RP RHW
+39	0.5	0	0.2	1.5	RP RHW
+40	0	1.5	6	6	RP rock over pitch, numbered
+41	0.3	3	-	2.5	RP RHS of stream gulley
+42	1.8	0	5	1.6	RP RHW
+43	0.3	0.3	0	1	RP roof, numbered
+44	0	1	3	1.5	RP LHW
+45	2.5	0.5	5	2	RP RHW
+46	0	1	4	0.8	RP LHW
+47	0	1.5	1	1.5	RP rock protrusion, numbered
+48	0.4	2	3	-	upper rebelay bolt
+49	1	0	6	2	RP RHW
+50	2	0	1.5	4	RP RHW
+51	-	-	-	-	pitch head bolt LHW
+
+
+*end granddayout2
+

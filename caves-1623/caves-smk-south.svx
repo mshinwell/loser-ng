@@ -1,0 +1,16 @@
+; Caves of the Schwarzmooskogelhoehlensystem
+
+*include links-smk-south
+
+*include 32/32.svx
+*include 40/40.svx
+*include 41/41.svx
+*include 78/78.svx
+*include 87/87.svx
+*include 88/88.svx
+*include 115/115.svx
+*include 142/142.svx
+*include 143/143.svx
+*include 144/144.svx
+*include 158/158.svx
+*include 216/216.svx

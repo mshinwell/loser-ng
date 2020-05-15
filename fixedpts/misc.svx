@@ -1,0 +1,144 @@
+; Miscellaneous fixed points.
+; If you have new GPS points to add, please put them in the "gps"
+; directory and *not* in this file!
+
+; default to UTM33 out, G&K in.
+*cs out utm33
+*cs custom "+proj=tmerc +lat_0=0 +lon_0=13d20 +k=1 +x_0=0 +y_0=-5200000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232"
+
+; Tantalus Schacht, calculated from two of the bearings (ho ho).
+*fix tantalus reference 35986 83045 1500
+*entrance tantalus ; not really an entrance, but should be somewhere near one
+
+; The following fixes are of unknown origin.
+;*fix 088.lerche1.50 36230.13 81363.81 1503.31
+;*fix 041.bus.17 35993.27 81424.26 1590.61
+;*fix p159 35291.08 82496.94 0
+
+; pwk2 and pwk3 are now p207 and p208 respectively and have surface surveys.
+; p96wk08 is now superseded by p209 from allnrkh surface survey
+;*fix	pwk2	reference 35367.46	82396.88	1676.49
+;*fix	pwk3	reference 35371.54	82411.08	1673.35
+;*fix	p96wk08	reference 36378.95	82258.29	1793.41 ;Schistock-Absturzschacht  (209)
+*fix    p99_01  reference 36461.89        82362.47        1762.92
+*fix    t197    reference 35604.35        82537.43        1638.54 ; B8
+;*fix    t198    reference 35554.80        82446.31        1646.91 ; B11
+; commented out DL 2005-06-14 as it seems to be almost identical to tcto171etc.14 which claims to be right on the tag spit anyway
+
+*entrance t197 ; not the exact entrance but it'll do
+
+; 140 fixed via Naomi/Ben surface survey from VSK 1983.07.28:
+*fix    p140    reference 36219.5         82040.9         1796.
+
+; 230 and 233 from Robert Seebacher's kataster spreadsheet 2005-08-12
+; [Dave Loeffler]
+*fix p230 reference 36468 82843 1805
+*entrance p230
+*fix p233 36616 85002 1894
+
+*cs long-lat
+
+; UBSS 1989-1992 expeditions
+; Location, Lat, long, altitude
+; BS1. 13°49'21"E. 47°42'16"N. Alt. 192m
+*fix bs1 reference 13.82250 47.70444 192
+; BS2. 13°49'22"E. 47°42'27"N. Alt. 1890
+*fix bs2 reference 13.82278 47.70750 1890
+; BS3. 13°49'15"E. 47°42'26"N. Alt. 1890
+*fix bs3 reference 13.82083 47.70722 1890
+; BS4. 13°49'17"E. 47°42'29"N. Alt. 1870
+*fix bs4 reference 13.82139 47.70806 1870
+; BS5. 13°49'29"E. 47°42'26"N. Alt. 1890
+*fix bs5 reference 13.82472 47.70722 1890
+; BS6. 13°49'25"E. 47°42'42"N. Alt. 1900
+*fix bs6 reference 13.82361 47.71167 1900
+; BS7. 13°49'36"E. 47°42'42"N. Alt. 1910
+*fix bs7 reference 13.82667 47.71167 1910
+; BS8. 13°49'16"E. 47°42'05"N. Alt. 1870
+*fix bs8 reference 13.82111 47.70139 1870
+; BS9. 13°49'18"E. 47°42'42"N. Alt. 1890
+*fix bs9 reference 13.82167 47.71167 1890
+; BS10. 13°49'33"E. 47°42'34"N. Alt. 1910
+*fix bs10 reference 13.82583 47.70944 1910
+; BS11. 13°49'50"E. 47°42'35"N. Alt. 1950
+*fix bs11 reference 13.83056 47.70972 1950
+; BS12. 13°49'56"E. 47°42'38"N. Alt. 1960
+*fix bs12 reference 13.83222 47.71056 1960
+; there is no BS13
+; BS14. 13°50'14"E. 47°42'12"N. Alt. 1830
+*fix BS14 reference 13.83722 47.70333 1830
+; BS15. 13°50'17"E. 47°42'07"N. Alt. 1830
+*fix bs15 reference 13.83806 47.70194 1830
+; BS16. 13°49'58"E. 47°42'12"N. Alt. 1900
+*fix bs16 reference 13.83278 47.70333 1900
+; BS17. 13°49'57"E. 47°42'14"N. Alt. 1890
+*fix bs17orig reference 13.83250 47.70389 1890
+; BS18. 13°49'53"E. 47°42'06"N. Alt. 1890
+*fix bs18 reference 13.83139 47.70167 1890
+; BS19. 13°50'02"E. 47°42'13"N. Alt. 1880
+*fix bs19 reference 13.83389 47.70361 1880
+; BS20. 13°49'38"E. 47°42'04"N. Alt. 1900
+*fix bs20 reference 13.82722 47.70111 1900
+; BS21. 13°49'57"E. 47°42'04"N. Alt. 1930
+*fix bs21 reference 13.83250 47.70111 1930
+; BS22. 13°49'33"E. 47°42'01"N. Alt. 1890
+*fix bs22 reference 13.82583 47.70028 1890
+; BS23. 13°50'16"E. 47°42'03"N. Alt. 1850
+*fix bs23 reference 13.83778 47.70083 1850
+; BS24. 13°49'42"E. 47°41'59"N. Alt. 1930
+*fix bs24 reference 13.82833 47.69972 1930
+; BS25. 13°49'34"E. 47°41'58"N. Alt. 1890
+*fix bs25 reference 13.82611 47.69944 1890
+; BS26, 13°50'22"E. 47°42'22"N. Alt. 1815
+*fix bs26 reference 13.83944 47.70611 1815
+; BS27a 13°49'53"E. 47°42'05"N. Alt. 1890
+*fix bs27a reference 13.83139 47.70139 1890
+; BS27b 13°49'53"E. 47°42'05"N. Alt. 1890
+*fix bs27b reference 13.83139 47.70139 1890
+; BS28  13°49'51"E. 47°42'02"N. Alt. 1925
+*fix bs28 reference 13.83083 47.70056 1925
+; BS29  13°49'57"E. 47°41'59"N. Alt. 1895
+*fix bs29 reference 13.83250 47.69972 1895
+; BS30  13°50'24"E. 47°41'49"N. Alt. 1840
+*fix bs30 reference 13.84000 47.69694 1840
+
+*entrance bs17
+*entrance bs19
+*entrance bs16
+
+;back to Austria G&K co-ords
+*cs custom "+proj=tmerc +lat_0=0 +lon_0=13d20 +k=1 +x_0=0 +y_0=-5200000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232"
+
+;Entrance locations from ARGE dataset of unknown provenance
+
+;Hinterland caves
+;E02-18
+*fix p260 reference	36913   85280   1900  ;E08 Rumpelkammer
+*fix p261  36645	84933   1885  ;E10 Höhle für kleine Jungs
+*fix p262  36831	84836   1905  ;E18 Der Pseudobringer
+; *fix blaubeer233.0        ; unknown
+; *fix haldenloch.eingang.0 ; unknown
+
+;griesskogelschacht
+*fix p232	36595	84981	1900
+;*fix griess.pg1	36589	85001	1903  ;this survey is
+; connected so no need for a second fixed pt
+
+; cave near eishoehle (or maybe inside eishoehle?)
+; *fix jutta.951 ? unknown
+
+;p252 - Bunnyschacht
+*fix p252	36013	81335	1650
+
+; Caves on the vord
+;Gassischacht
+; Eingang absolut positionieren
+*fix gassischacht.12 35869   81380   1680
+*fix 2007-neu.1    35865    81341   1680
+;"New co-ordinates from Aiko". 2016 GPS?
+; *fix p158aiko	36141		81804		1721	;approx 18.5m difference to p158
+; TODO: GPS from Andreas' cell phone, elevation value guessed!!!
+*fix gruenstein.1   36389 81375.6 1600
+
+;*fix pfutzenschacht.tag ;unknown
+

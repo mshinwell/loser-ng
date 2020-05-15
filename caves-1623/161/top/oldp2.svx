@@ -1,0 +1,73 @@
+; these connections removed, as data superseded
+;*equate OldP2.1	Entrance.0
+;*equate OldP2.202	rh.14
+; not even sure what rh.14 is now called (probably squeeze.14)
+
+*begin OldP2
+
+; Cave:	1623/161 Kaninchenhole
+*title "Old pitch 2 ('88 survey)"
+*team Mark Dougherty & Tina White
+*date 1988
+
+*export 6	; '88 2nd pitch head bolt
+
+; NB almost the entirety of this dataset has been superseded by subsequent
+; resurveys. The only bit still remaining is the initial pitch down (which
+; is included to keep the cave length right)
+
+;*data normal bcra_3 from to length bearing gradient
+
+; both old ('88) pitch 2s NOT including entrance pitch
+; Now linked into Entrance.6 instead (via BoltConn1 survey)
+
+;1	2	 4.62	262	-12
+;3	2	11.70	 -	Up
+;3	4	 1.55	282	+09
+;5	4	25.53	030	+82
+;5	6	 4.82	257	-33
+6	100	 1.75	280	-31
+100	101	 7.10	027	-75
+101	102	19.15	 -	Down
+;102	103	 1.90	191	+45
+;103	104	 2.62	011	-06
+;105	104	 6.27	283	+01
+;105	103	 5.42	293	+05
+;105	106	 2.28	023	+15
+;106	107	 4.42	 -	Down
+;107	108	 4.64	232	-30
+;109	108	 3.59	089	+05
+;109	110	 2.19	218	+14
+;111	108	 5.49	302	 00
+;111	112	 5.42	035	+26
+;113	112	 2.84	180	-29
+;113	114	 5.14	042	+44
+;115	114	 0.82	052	 00
+;115	116	 3.81	352	-42
+;113	107	 6.19	275	-04
+
+;'88 2nd pitch version 2 (through eyehole) + Big Sainsbury's down through squeeze
+;readings grade 1
+;101	183	 7.43	 -	Down
+;184	183	 1.75	347	-42
+;184	185	 5.81	260	+03
+;186	185	19.91	125	-38
+;186	187	 8.94	341	+16
+;188	187	 6.08	167	+07
+;188	189	27.40	298	-20
+;190	189	 6.80	205	+44
+;readings grade 3
+;190	191	10.40	 -	Down
+;191	192	 3.09	327	-03
+;193	192	10.97	255	+41
+;193	194	10.57	210	-73
+;195	194	 7.70	013	+54
+;195	196	 7.52	167	-72
+;197	196	 4.72	213	+08
+;197	198	 1.91	064	-38
+;199	198	 3.48	085	+40
+;199	200	 5.12	118	-70 ; '5.12 !' in one version
+;201	200	 2.64	241	+35
+;201	202	 3.45	151	-05
+
+*end OldP2

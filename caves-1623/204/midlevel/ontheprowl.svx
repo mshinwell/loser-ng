@@ -1,0 +1,57 @@
+*begin ontheprowl
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "On the Prowl"
+*date 2009.07.26
+*team Tape Kathryn Hopkins
+*team Insts Emma Wilson
+*team Notes Jessica Stirrups
+*instrument Set 6 ; Yellow tape with 20cm missing
+; Calibration: AtoB 333 -26; 329 -26; BtoA 151 +25; 149 +25
+; ref.:	2009#18
+
+; ====== stations refindable to link to other surveys: ======
+*export 1 5 8
+
+*calibrate tape +0.20	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+1	2	9.75	122	+11	
+3	2	3.20	018	+31
+4	3	5.04	281	+44
+5	4	2.81	309	+29
+5	6	16.95	234	+14
+7	5	5.20	254	-26
+7	8	6.91	051	-29
+7	9	4.90	084	+03
+10	9	1.42	004	-40
+11	10	4.83	322	-09
+11	12	4.46	179	+03
+12	13	3.30	096	+08
+13	14	4.90	054	-29
+1	15	7.91	330	-04
+15	16	9.75	189	-38
+17	16	4.00	051	+10
+17	18	10.43	206	-29
+
+*data passage station	left	right	up	down	ignoreall
+1	0.6	10	2	0	0ld station 1 rp rock in floor
+2	0	15	5	3	rp right wall
+3	1.5	15	5	15	rp nose floor
+4	2	4	10	2	rp rock bridge
+5	2	1.5	10	1.2	rp boulder numbered
+6	0	3	15	10	rp l wall numbered
+7	1	1	10	2	rp spike	
+8	3	4	15	15	rp pinnacle middle of passage
+9	10	0	15	3	rp overhanging spike r wall, above |10m pitch
+10	0.5	0	0.4	1.5	rp l wall
+11	2.5	2	3	1.5	rp roof spike	
+12	3	2	2	1.5	rp spike r wall
+13	4	0	5	1	rp r wall
+14	3	1	5	1	rp bottom of boulder, numbered
+15	4	4	6	3	rp boulder
+16	0.5	0.5	15	1.7	 rp roof
+17	0	0.5	8	2	rp r wall
+18	0	2	5	3	rp r wall
+*end ontheprowl

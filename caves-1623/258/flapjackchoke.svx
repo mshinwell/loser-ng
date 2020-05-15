@@ -1,0 +1,52 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	258 "Tunnockschacht"
+
+*begin flapjackchoke
+
+;ref.:	2008 #24
+
+*export 2
+
+*title "258: Flapjack Choke"
+*date 2008.08.02
+*team Insts Becka Lawson
+*team Tape Steve Jones
+*team Notes Serena Povia and Becka Lawson
+*instrument Set =  Becka's Pony
+*instrument Tape yellow
+
+; Calibration: none
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+
+; from	to	tape	comp	clino	remarks
+;1	2	0.93	024	+05	leg taken just to confirm station number for connection
+2	3	4.42	294	-44
+3	4	6.91	-	down
+5	4	4.82	309	+13
+6	5	4.60	305	+22
+7	6	3.48	193	+46
+7	8	4.84	207	-51
+9	8	5.06	231	+24
+9	10	5.74	014	-40
+10	11	4.45	-	down
+12	11	2.32	172	-47
+13	12	7.15	325	+32
+
+*data passage station left right up down ignoreall
+
+;1	0.5	2	0.5	1	rp l wall - station from ribsknodel station 5
+2	-	-	-	-	pencil cross r wall - station from ribsknodel station 4
+3	2	0.3	1	7	rp below pitch spit
+4	0	1.5	8	1	rp floor
+5	1.2	0	7	4	rp l wall
+6	3	0	8	1.3	pencil r wall
+7	1.5	0.1	10	1.6	pencil r wall
+8	0.7	0.5	3	1	rp base pitch
+9	1	0.2	0.3	1	rp r wall
+10	0.4	0.4	0	1.5	rp ceiling pitch head
+11	-	-	-	-	rp floor
+12	0.5	0.5	2.5	1.5	rp back wall numbered 12
+13	0.3	0.1	0.8	0.2	rp numbered start of QM C crawl
+
+*end flapjackchoke

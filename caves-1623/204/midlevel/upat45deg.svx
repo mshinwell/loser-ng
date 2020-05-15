@@ -1,0 +1,56 @@
+*begin upat45deg
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Merry Go Round"
+*date 2002.08.17
+*team Insts Simon Redhead
+*team Notes Martin Green
+*team Tape Simon Redhead
+*instrument Compass #2 ; Clino #2, Tape: open reel with two fixed breaks
+; Calibration: 327.5/-23, 326/-23, 327/-22.5 148/+22, 148.5/+23 148.5/+23
+; ref.:	2002 #19
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 15 11
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	8.31	000	+35
+2	3	5.19	182	-16
+4	3	8.30	022	+21.5
+4	5	3.39	212	-31
+7	6	5.29	012	-46
+8	7	2.88	338	+20
+9	8	2.10	299	+40
+10	9	3.90	307	+02.5
+11	10	2.00	283	-10
+5	11	4.97	358	+12
+12	5	2.50	332	+15
+13	12	5.76	020	+12
+13	14	3.30	173	+01
+14	15	0.10	-	UP
+
+;station details
+;name	L	R	U	D	description
+;1	0.4	1.2	1.8	1.5	RP in drippy chamber
+;2	0.3	0.8	0.4	1.0	30cm west of CM
+;3	0.3	0.8     0.1	1.0	RP ridge on roof
+;4	1.0	0.0	4.0	1.0	CM+RP no.
+;5	0.1	0.6	0.7	0.7	RP+1 hand span
+;6	1.5	1.5	3.0	1.5	RP+no.
+;7	1.0	1.8	4.0	1.0	CM near pitch
+;8	0.5	0.5	0.0	0.8	cieling
+;9	0.0	1.0	0.7	1.0	RP+no.
+;10	0.10	0.4	0.5	0.3	RP
+;11	0.6	0.4	0.6	0.6	RP
+;12	0.3	0.3	0.9	0.9	RP
+;13	2.5	0.1	4.0	2.0	RP                         
+;14					RP+NO.
+;15					POSSIBLE CM FOR PREVIOUS STATION
+
+*end upat45deg
+
+

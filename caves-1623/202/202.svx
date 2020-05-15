@@ -1,0 +1,50 @@
+;am 18.11.00 update von Thilo
+
+*equate p202 202.0
+*entrance p202
+
+*begin 202
+
+; Ort:			Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+*title "Domino-Schacht, 1623/202"
+; 31.7.97 entdeckt
+*date 1997.08.04
+*date 1997.08.06
+; Von:	Ableser:		Dominik Jauch
+;	Schreiber:	Robert Winkler
+;	(2. Schreiber:)	
+;	Massband:	Dominik Jauch, Robert Winkler
+*instrument 
+; Gerätefehler:	
+; Referenz.:	Messbuch -
+
+; ====== Messpunkte, die an bereits bestehenden Vermessungen hängen: ======
+
+*export 0	;zu finden in domsurf.svx
+; 23rd July 2000  MS  changed name from Domino to 202
+
+*calibrate tape +0.0	; "+" wenn das Massband zu kurz war, "-" wenn es zu lang war
+
+;von	bis	Länge	Neigung		Richtung	;Bemerkungen
+*DATA normal from to length gradient bearing  ignoreall
+
+0       1       6.56    -36.5   95
+1       2       4.54    -42.5   137.5
+2       3       9.45    -90     0
+3       4       4.63    -12.5   89.5
+4       5       7.30    -48     43.5
+5       6       4.95    -52     104
+6       7       5.16    -53.5   57.5
+7       8       5.37    -90     0
+8       9       1.25    12      114
+9       10      8.88    -60     180
+10      11      1.79    -30     208
+11      12      2.72    -50     67
+12      13      3.91    -51     179
+13      14      2.70    -47     100
+
+;Raumwerte
+;Name	Links	Rechte	Oben	Unten		Beschreibung
+;keine Raumwerte
+
+*end 202

@@ -1,0 +1,108 @@
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 258 "Tunnockschacht"
+
+*equate 258.258 p258
+*equate 258.258a p258a
+*equate 258.258b p258b
+
+*entrance p258a
+*entrance p258b
+
+*begin 258
+*title "Tunnockschacht"
+
+*export 258 258a 258b 
+*export thatsthewaytodoit.23x; Steinbruckenhoehle connection
+*export beastsideleads.31x   ; second Steinbrucken connection
+*export penguinfellatio2.4; Balcony connection
+*export corroborate2.8; testing Balcony connection
+;*export feckingtight.7 ; 2nd Balkonhoehle connection in 2018
+;*export anthemusa.9 ; 3rd Balkonhoehle connection in 2018
+
+
+; -- subsystems --
+
+*include stonemonkey/stonemonkeyallnobble
+
+
+; -- 2006 stuff --
+ 
+*include 1
+*equate 1.5 258
+
+*include 2
+*equate 1.1 2.24
+
+*include ribsknodel
+*equate ribsknodel.5 2.18
+
+*include ribsknodel2
+*equate ribsknodel.1 ribsknodel2.4
+
+*include skrautlink
+*equate skrautlink.2 ribsknodel.18
+
+*include sauerkraut
+*equate sauerkraut.2 skrautlink.1
+
+*include gknodel
+*equate gknodel.17 sauerkraut.5
+
+; -- 2007 stuff --
+
+
+
+*include oompah
+*equate oompah.1 ribsknodel2.1
+
+*include apfelstrudel
+*equate apfelstrudel.x3 ribsknodel2.3
+*equate apfelstrudel.21 gknodel.12
+*equate apfelstrudel.16 oompah.paint
+
+
+
+; 2008 starts here
+
+*include loompah
+*equate apfelstrudel.16 loompah.x
+
+
+*include darkfumblings
+*equate darkfumblings.1 ribsknodel.9
+*equate darkfumblings.7 apfelstrudel.6
+
+*include bouldersurfer
+*equate bouldersurfer.1 oompah.1
+*equate bouldersurfer.ep stonemonkey2.18
+
+*include flapjackchoke
+*equate flapjackchoke.2 ribsknodel.4
+
+
+
+*include cleadjackpot
+*equate cleadjackpot.0 gknodel.6
+
+*include alphabetsoup
+*equate alphabetsoup.0 darkfumblings.2
+
+
+
+; surface connections
+*begin
+*flags surface
+*include tagbolts
+*equate tagbolta.1 258a
+*equate tagbolta.2 1.4
+*equate tagboltb.3 258b
+*equate tagboltb.1 1.4
+*end
+
+
+*include ducksonice
+*equate ducksonice.x	2.7
+*equate ducksonice.16x	bouldersurfer.16
+
+
+*end 258

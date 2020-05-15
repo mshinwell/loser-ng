@@ -1,0 +1,41 @@
+*begin flashgun
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Hauchhoehle (1623/234)
+*title "Flashgun Chamber pitch"
+*date 2005.07.28
+*team Insts Peter Clifton
+*team Notes Olly Madge
+*team Tape both
+*instrument Compass #3 ; Clino #3; tape?
+; Calibration: A->B 157/+24, B->A 329/-20
+; ref.:	2005#??
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1
+
+*calibrate tape +0.066	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	4.00	228	-35
+3	2	2.85	356	+80
+3	4	1.05	186	-12
+
+*calibrate tape +1.07
+
+4	5	8.25	-	DOWN
+
+
+
+;station details
+;name	L	R	U	D	description
+;1	-	-	-	-	stn 19 of old survey
+;2	-	0	-	-	pitch head bolt
+;3	1	1.5	1	0	mark on rock
+;4	0	1	0	-	knobble on overhang
+;5	-	-	-	-	bottom of plumb
+
+
+
+*end flashgun

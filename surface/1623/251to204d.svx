@@ -1,0 +1,42 @@
+*begin 251to204d
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "251 to 204d"
+*date 2004.07.21
+*team Insts Becka
+*team Notes Tony R
+*instrument Set 2
+; Calibration: stone bridge: None.
+; ref.:	2004#14
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 9 10
+
+*calibrate tape +0.07	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	12.87	023	-26
+2	3	20.42	334	-11
+4	3	26.61	096	+31
+4	5	30.50	017	+13
+4	6	26.02	351	-04
+6	7	16.46	358	+24
+8	9	4.43	350	-05
+8	7	11.34	341	+15
+10	7	23.32	116	+31
+  
+;stn	desc
+;1	1623/204d tag
+;2	Rock knobble from 204d surface survey?
+;3	Stone far side of 204d overlooking plateau
+;4	cairn on bridge	
+;5	Entrance to drafting tube number 3 on Earl's GPS N47 41.590 E013 49.068 WGS84
+;6	Knobble above snow patch
+;7	Shoulder over snow patch
+;8	Rock ledge below CUCC 2001-05
+;9	Small DRAUGHTING hole in face tagged CUCC 2001-05 (aka 243, GNDN cave - DL)
+;10 	Tag at entrance CUCC 251
+
+*end 251to204d
+

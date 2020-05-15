@@ -1,0 +1,72 @@
+; Totes Gebirge, Österreich - Loser/Augst-Eck Plateau (Katastergebiet 1623)
+; Höhle: Schwabenschacht 1623/78
+
+*begin bayberg
+*title "Bayerische Berge"
+
+; Messteam: Jürgen Bölzle, Markus Bölzle
+; Zeichner: Jürgen Bölzle
+; Referenz: Messprotokolle
+*date 1991.07.18-1991.08.02
+
+*export H0	; eisdom.A20 highway.x0
+*export H25	; eisdom.A14 e2.U12 forsten.A14 verloren.W0
+*export F5	; augsburg.n9
+
+*data normal from to length gradient compass
+H0	H1	13.45	10	96
+
+H0	H2	6.20	42	260
+H2	H3	24.00	28	262
+H3	H4	20.60	40	226
+H4	H5	5.43	0	75
+H5	H6	5.21	16	104
+H6	H7	5.15	18	42
+H7	H8	5.40	0	350
+H8	H9	5.75	0	294
+H9	H10	3.40	-45	254
+
+H8	H11	3.85	-30	88
+H11	H12	10.00	-34	96
+H12	H13	5.95	-32	32
+H13	H14	1.93	-36	66
+H14	H2	16.45	DOWN	-	; H15 = H2
+
+
+; -2- Bayerische Berge - Verlorene Halle
+; Messteam: Egmund Gabler, Markus Bölzle
+; Zeichner: Markus Bölzle
+; Referenz: Messprotokolle
+*date 1993
+
+*data normal from to length gradient compass
+H8	H18	8.25	33	45
+H18	H19	11.20	57	345
+H19	H20	10.18	29	355
+H20	H21	6.54	-7.5	40
+H21	H22	6.38	9	20
+H22	H23	2.40	1.3	5
+H23	H24	11.5	DOWN	-
+H24	H25	4.95	14	102	; H25 = eisdom.a14 (Zentraler Block
+					; in Verlorene Halle)
+H18	H26	10	20	309
+
+
+; -3- Parallelschacht zum Eisdom
+; Messteam: Egmund Gabler, Markus Bölzle
+; Zeichner: Markus Bölzle
+; Referenz: Messprotokolle
+*date 1993
+
+*data normal from to length gradient compass
+H1	F0	1.95	0	130
+H1	F1	6.3	23.5	170
+F1	F2	6.93	19	210
+F2	F3	4.10	-13	121
+F0	F4	14.78	-76	20
+F4	F5	4.38	-34	268	; F5 = augsburg.n9
+
+; Raumwerte
+; keine Raumwerte
+
+*end bayberg

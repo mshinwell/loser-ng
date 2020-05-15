@@ -1,0 +1,50 @@
+*begin passage
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Hauchhoehle (1623/234)
+*title "Just off cascade Chamber"
+*date 2008.07.28
+*team Insts Iceman
+*team Notes Maverick
+*instrument Pony; tape Disto
+; Calibration:
+; ref.:	2008#09
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 14
+
+*calibrate tape +0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	1	1.63	024	-24
+2	3	5.46	325	-02
+4	2	10.65	016	-06
+5	4	12.04	349	+06
+6	5	6.54	325	+20
+7	6	6.79	183	-43
+8	7	4.68	214	-02
+9	8	8.09	201	-04
+10	6	2.49	002	+32
+11	10	2.36	359	+32
+12	11	5.84	008	-04
+13	12	4.89	342	+52
+13	14	1.64	078	-04
+
+*data passage station left right up down ignoreall
+1	3	2	2	1	PP end wall
+2	2.3	0.3	1	2	PP spike rwh
+3	1	0.5	1	1	PP end wall
+4	0.1	1	1	1	PP lhw
+5	0	1.5	0.5	1	PP lhw
+6	2	0	4	2	PP rhw
+7	1	0.7	0.6	1.5	PP nobdule lhw
+8	2	0	-	-	PP rhw
+9	0	0.5	2	-	PP lhw
+10	0.3	0.5	2	1	PP lhw
+11	0	0.5	0.5	0.5	PP lhw
+12	1.5	0	2	0.5	PP rhw
+13	-	-	-	-	PP lhw
+14	-	-	-	-	48
+
+*end passage

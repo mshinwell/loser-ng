@@ -1,0 +1,48 @@
+*begin 172to171a
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+*title "172 to 171a (via 250 and 171b)"
+*date 2000.08.09
+*team Insts Andy A
+*team Notes Wook
+*team Pics Wook
+*team Tape Andy A
+*instrument Compass #2 ; Clino #2, Tape: Fisco Ranger black open reel
+; Calibration: Lower TC: 318/+06.5   128.5/-08
+; ref.:	2000 #34b
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 7 9 12
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	2	0.90	-	down
+3	2	9.59	126.5	+06
+3	4	23.19	185.5	+29
+5	4	15.92	033	-01.5
+5	6	6.14	117	-16
+6	7	4.09	322.5	-18
+5	8	29.31	162	-04
+9	8	11.57	019	+14
+9	10	27.06	158	-01
+11	10	14.42	336.5	+10.5
+11	12	12.01	059	-09
+
+;station details
+;name	E	description
+;1	1.1	172 tag bolt
+;2	0.2	rock
+;3	0.4	rock
+;4	1.40	ski pole at top of climb
+;5	1.4	ski pole
+;6	1.4	ski pole
+;7	0	2000-AA-01 (now 250) tag bolt
+;8	1.6	bunde tip
+;9	0	+ of 171b
+;10	1.40	skipole
+;11	0.3	stuffsac on ground
+;12	1.2	171(a) tag bolt
+
+*end 172to171a

@@ -1,0 +1,53 @@
+*begin fallingspike
+
+*export 17
+
+; Cave: 161
+; Area in cave/QM: Station 7 off Welly Popper
+*title "Falling Spike"
+*date 2015.07.28
+*team Insts Jenny
+*team Notes Wookey
+*instrument Wook DistoX2
+; Survey folder reference: 2015#18
+
+*alias station - ..
+
+*data normal from to tape compass clino
+18	17	1.984	069.3	+17.9
+19	18	1.585	007.0	+29.9
+20	19	4.200	043.6	+20.8
+21	20	5.864	026.9	+09.5
+22	21	4.341	358.1	+14.2
+23	22	5.697	354.8	+12.2
+24	23	3.888	328.1	+10.6
+
+;-----------
+;recorded station details
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;Pink nail varnish markings
+
+*data passage station left right up down 
+17	0	1.7	2.3	1.5	; existing NP "17" wellypopper
+18	0.7	0	2.1	1.6	; NP RHW
+19	0.7	0.2	2.5	1.6	; NP RHW
+20	0	1.1	2.5	1.6	; NP LHW
+21	1.0	0	1.9	1.4	; NP RHW
+22	0.6	0.8	4.3	1.6	; NP flake LHW
+23	1.0	0	3.7	1.4	; NP RHW past pool
+24	0	0.7	2.3	0.7	; NP LHW
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;[ QM1    A    surveyname.3    -    description of QM ]
+;[ QM2    B    surveyname.5    -    description of QM ]
+
+;------------
+;Cave description
+
+;(leave commented-out)
+;freeform text describing this section of the cave
+
+*end fallingspike

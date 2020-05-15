@@ -1,0 +1,154 @@
+*equate Plastic.10 Plastic2.4
+;1998.07.24 W created
+
+*begin Plastic 
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Eishöhle, 1623/40
+*title "Schneevulkanhalle via Plastic Hell to Cardboard Heaven"
+*date 1998.07.24
+*team Insts Phil U
+*team Notes Wookey
+*team Pics Wookey
+*team Tape Phil U
+*instrument Compass # ; Clino # Nick Williams Silva Prismatic Set
+; Calibration:	none
+*ref	"1996-1999 Not-KH survey book p59"
+
+*export 10 22
+
+*calibrate tape +0.0	; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+2	1	12.76	011	-16
+2	3	15.96	109	+21
+4	3	10.13	311	-24
+2	5	4.90	268	-27
+6	5	14.28	124	+11
+6	7	4.15	202	-02
+1	8	7.17	010	-17	;read backsight scale - notes say 190
+8	9	6.59	358	+11
+9	10	18.05	286	-23
+7	11	7.69	285	+69
+12	11	0.93	131	+0
+13	12	3.06	175	-15	
+13	14	4.60	346	+12
+14	15	1.42	319	+12
+15	16	2.33	020	+35
+16	17	3.24	318	+24
+17	18	9.50	240	+45
+18	19	2.88	207	+08
+19	20	10.29	295	+25
+20	21	9.28	294	+48
+21	22	1.38	044	-42
+
+
+
+;station details (original format/data)
+;name	L	R	U	D	E	description
+;1	2.5	4	5	1.5		1st traverse bolt
+;2	J4	4.5	5	2.5		White mark on top of rock
+;3	7	3.3	8	1		Top of rock, pencil "3"
+;4	2.2	0.2	2	0.5 		Bottom of Stal
+;5	0.8	0.7	4.5	0.4		Cairn
+;6	1.5	0	2	1.4		RH Wall
+;7	1.5	0	2.8	1.8		RH Wall "7" in pencil
+;8	2	3	3.5	1.5		Pebble in conglomerate now gone!
+;9	4	0	2.5	1.5		Traverse bolt before hole (5th)
+;10	1.2	4	4	0.2		"10" in pencil. left also zero
+;11	0	0.5	~2	~2.5		bolt at pitch head
+;12	0	0.4	~0.6	~2		LH Wall
+;13	0	0.25	~2	1.2		LH Wall
+;14	0.6	0.5	~2.5	0.5		Pencil on roof
+;15	0	0.8	~2.2	1.7		Pencil LH Wall
+;16	0.5	0	0.6	0.5		RH Wall
+;17	1.6	0.4	~2	1.2		Pencil "X17" RH Wall
+;18	1.7	0	~4	1.6		Bolt
+;19	0	1.4	~8	1.4		Pencil "X19"  LH Wall
+;20	~6	3	1.4	0		X in ice!
+;21	-	-	-	1.7		CM on wall 1.8m from edge
+
+
+*data passage station left right up down
+2	4	4.5	5	2.5		;White mark on top of rock
+1	2.5	4	5	1.5		;1st traverse bolt
+
+*data passage station left right up down
+2	4	4.5	5	2.5		;White mark on top of rock
+3	7	3.3	8	1		;Top of rock, pencil "3"
+
+*data passage station left right up down
+4	2.2	0.2	2	0.5 		;Bottom of Stal
+3	7	3.3	8	1		;Top of rock, pencil "3"
+
+*data passage station left right up down
+2	4	4.5	5	2.5		;White mark on top of rock
+5	0.8	0.7	4.5	0.4		;Cairn
+
+*data passage station left right up down
+6	1.5	0	2	1.4		;RH Wall
+5	0.8	0.7	4.5	0.4		;Cairn
+
+*data passage station left right up down
+6	1.5	0	2	1.4		;RH Wall
+7	1.5	0	2.8	1.8		;RH Wall "7" in pencil
+
+*data passage station left right up down
+1	2.5	4	5	1.5		;1st traverse bolt
+8	2	3	3.5	1.5		;Pebble in conglomerate now gone!
+9	4	0	2.5	1.5		;Traverse bolt before hole (5th)
+10	1.2	4	4	0.2		;"10" in pencil. left also zero
+
+*data passage station left right up down
+7	1.5	0	2.8	1.8		;RH Wall "7" in pencil
+11	0	0.5	2	2.5		;bolt at pitch head
+
+*data passage station left right up down
+13	0	0.25	2	1.2		;LH Wall
+12	0	0.4	0.6	2		;LH Wall
+11	0	0.5	2	2.5		;bolt at pitch head
+
+*data passage station left right up down
+13	0	0.25	2	1.2		;LH Wall
+14	0.6	0.5	2.5	0.5		;Pencil on roof
+15	0	0.8	2.2	1.7		;Pencil LH Wall
+16	0.5	0	0.6	0.5		;RH Wall
+17	1.6	0.4	2	1.2		;Pencil "X17" RH Wall
+18	1.7	0	4	1.6		;Bolt
+19	0	1.4	8	1.4		;Pencil "X19"  LH Wall
+20	6	3	1.4	0		;X in ice!
+21	-	-	-	1.7		;CM on wall 1.8m from edge
+
+*end Plastic
+
+*begin Plastic2 
+
+*date 1998.07.25
+*team Insts Phil U
+*team Notes Julian H
+*team Pics Julian H
+*team Tape Phil U
+*instrument Compass # ; Clino # unknown.
+; Calibration:	none
+*ref	"1996-1999 Not-KH survey book pp 60-62"
+
+*export 4
+
+*data normal from to tape compass clino
+2	1	16.8	268	-74	
+3	2	15.85	265	-81	
+4	3	8.33	264	-23
+
+;station details (original format/data)
+;name	L	R	U	D	E	description
+;1	0	2	-	1		CM on L hand wall
+;2	0.4	0	-	1		Rebelay bolt
+;3	0.8	0	0.5	-		Pitch head bolt
+
+*data passage station left right up down
+4	0.2	2.2	2	0.5
+3	0.8	0	0.5	-	;Pitch head bolt
+2	0.4	0	-	1	;Rebelay bolt
+1	0	2	-	1	;CM on L hand wall
+
+*end Plastic2

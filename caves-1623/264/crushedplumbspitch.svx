@@ -1,0 +1,57 @@
+*begin crushedplumbspitch
+
+; stations linked into other surveys (or likely to)
+*export 1
+
+; Cave: 264 (Balcony)
+; Area in cave/QM: pitch qm off crushed plumbs
+*title "Crutched Plumbs Pitch"
+*date 2016.06.29
+*team Insts George
+*team Notes Frank Tuly
+*instrument Frank's DistoX2
+; Calibration: Calibrated bottom of Balcony entrance 29/6/16 error 0.25
+*ref 2016#03
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+1	2	1.81	311.8	-59.1
+2	3	22.37	1.8	-86.7
+3	4	3.78	154.3	8.9
+4	5	1.809	73.6	1.4
+5	6	2.49	160	-4
+
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Slapper pink nail varnish markings
+
+;1	;existing rd on wall
+;2	;rd on point
+;3	;rd on wall
+;4	;rd
+;5	0	0.3	10	2	;rd on rhs wall
+;6	0	0.2	4	2	;shot into rift
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	-	-	-	-	;existing rd on wall
+2	-	-	-	-	;rd on point
+3	-	-	-	-	;rd on wall
+4	-	-	-	-	;rd
+5	0	0.3	10	2	;rd on rhs wall
+6	0	0.2	4	2	;shot into rift
+
+;------------
+;Cave description 
+;Pitch down to boulder floor, water audible under boulders,
+;water visible leaving leaving surveyed rift,
+;unsurveyed rift is too tight at ground level, rift is dry but lots of water audible.
+
+
+*end crushedplumbspitch

@@ -1,0 +1,61 @@
+15./18.4.00 (Thilo)
+Aufgrund der Arbeit von Wookey und Robertussens Besuch sah ich mich genˆtigt, an der Daten-Orga weiterzuarbeiten.
+On the basis of Wookey's work and Robert's visit, data organisation changed.
+Mappensystem des Schwabenschachts vˆllig aufgegeben.
+Directory-structure of the Schwabenschacht rejigged.
+Alle kleineren Mappen werden zu Gebieten bzw. grˆﬂeren Mappen zusammengefaﬂt und auch so benannt.
+All small surveys are included by area as well as big surveys, and are so named.
+So wird z.B. map01 zu 78haupt oder map07 zu bayberg.
+Renamed map01 to 78haupt, map07 to bayberg and so on
+Im Ergebnis sollte der Plan gleich aussehen (logo), aber eben namensm‰ﬂig/gebietsm‰ﬂig strukturiert und nicht historisch-/tourenm‰ﬂig.
+As a result the survey should look the same, But structured by survey/area name and not by history/trip.
+Am 15.4. bis zur ex-map16 gekommen (e2).
+At 15th April, up to map16 (now called e2) done
+Am 18.4.: Endlich die letzten Fehler gefunden, Hˆhlenansicht der neue Namensgebung jetzt identisch mit der bisherigen.
+at 18th April, finally the last mistakes found, Survey now works out identically with before.
+
+27.9.99 (Thilo)
+Und weiter gehts. . .  and further ...
+Ich ‰ndere bei den ganzen Zahlenmeﬂz¸gen (A, B, C . . .) die ersten Anschluﬂpunkte um
+in 0-Punkte, also z.B.
+(in map15)
+map02.A14 W1    wird zu:    W0 W1,
+wobei dann in schwab.svx steht:    *equate map02.A14 W0
+map02.A14 W1  should be   W0 W1,
+then in schwab.svx need  *equate map02.A14 W0
+Alle equates beisammen, uff.
+All equates together, uff.
+Die 3d sieht immer noch gut aus, im direkten Vergleich mit der vorherigen 3d auch.
+The 3d still looks OK, including when compared to the previous 3d.
+Nur im Bereich E2 --> Predigtstuhlschacht --> Verlorene
+Halle scheint das Ganze ein bischen verschoben.
+Only in the area E2 -...-> Verlorene Halle, the whole seems a bit moved.
+Robert? Fr¸her den E2 separat fixiert?
+Robert ? Earlier was E2 separately fixed?
+Stopp, hab den Fehler gefunden, kleines equate vergessen.
+Wait, have found the error, a small equate forgotten.
+Jetzt perfekt, alles ok. Now perfect - all OK.
+Alle Schwab Dateien auf Groﬂ/Kleinschreibung kontrolliert und die Daten in eine
+einigermaﬂen einheitliche Struktur gebracht.
+All Schwab files case-corrected and brought into a consistent structure.
+Bei den meisten Messungen fehlen Raumwerte
+und bei vielen Meﬂtouren fehlen die Daten wie Teilnehmer, Datum usw.
+With most surveys, (error-controls ?) and survey trip data like participants,
+date, etc. are missing.
+
+26.9.99 (Thilo)
+Umformatierung des Schwab Datensatzes gem‰ﬂ Struktur des CUCC
+Restructure according to CUCC way
+ - mal sehen ob das hinhaut :-)
+translation program barfs
+Nur bis map05 gekommen.
+Only as far as map05
+
+22.9.99 (Thilo)
+"schwab" faﬂt alle mappen zusammen und *fix die Eing‰nge E1 und E4.
+"schwab" includes all surveys and *fixes entrances E1 and E4
+
+21.9.99 (Thilo)
+Alle Daten des (78) ins Verzeichnis geschoben.
+All data for Schwabenschacht (78) put into this directory
+

@@ -1,0 +1,15 @@
+; 1623/175
+
+*entrance p175
+
+*equate p175 175.1
+
+*begin 175
+
+*export 1
+*date 1990.07.29
+
+; made up from description
+1 2 20 - down
+
+*end 175

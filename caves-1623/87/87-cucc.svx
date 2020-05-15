@@ -1,0 +1,121 @@
+*equate 87.upper.05		p87
+*entrance p87
+
+*begin 87
+
+*title "Schacht bei Stögerweg, 1623/87"
+
+*export upper.05	; bolt on LH wall
+
+*equate ext.01	upper.13 ; 13 is lower bolt, unsure which bolt was 01 (sigh)
+
+*begin upper ; formerly "A" survey
+; Locn:	SE flank Vord. Schwarzmooskogel, Western massif, Totes Gebirge, Austria
+; whole of known cave in 1980
+*date 1980.07.31
+*team Insts Andy Waddington
+*team Tape Mike Burgess
+*team Notes Andy Waddington
+*team Pics Andy Waddington
+*instrument unknown
+; Calibration:	none
+; Source:	converted from SU file by AERW 1995.08.01.
+; ref.:	small black notebook with red spine in AW's archive.
+
+*export 05	; bolt on LH wall
+*export 13	; lower bolt of pitch 3
+
+*calibrate compass -46
+
+;CHANGE               0.    0.       AERW + MBurgess. Maybe Fridge North
+;
+; maybe we should explain that for our younger readers: Fridge North means
+; the compass had been remagnetised the wrong way by leaving it on Rob
+; Shackleton's fridge. So we should perhaps *calibrate compass 180.
+; However, the readings do suggest a trend north into the hill, so they are
+; most probably OK. Research shows these are the readings from the survey
+; book, so at least a spurious 134 degree correction hasn't been applied...
+
+;GRADE USE 5N
+   05   06  4.40 004.  -30.  ; to bolt on LH wall
+   06   07  5.15 039.  -29.  ; 1st bolt on rock bridge
+   07   08  2.85 018.  -01.  ; bolt at head of pitch 2, 2m above ledge
+   08   09 20.45 290.  -81.  ; to boulder at base of pitch 2
+   09   10  9.75 007.5 -29.
+   10   11  6.20 316.  +23.5 ; to boulder in inlet
+   10   12  8.80 111.   00.  ; top bolt of pitch 3
+   12   13  2.60 056.  -57.  ; 2nd bolt
+   13   14 18.00 050.  -71.
+   14   15  7.35 021.  -16.  ; 1st bolt pitch 4
+   15   16  0.95 300.  -17.  ; 2nd figure-8 knot 0.3m below (2nd?) bolt
+   16   17 16.40 290.  -80.5 ; boulder on floor
+   17   18  3.50 312.  -19.  ; lh wall above climb
+   18   19  9.20 013.  -31.5 ; 2nd bolt final pitch
+   19   20 33.4    -    Down ; to floor of final ledge/flake
+   20   21  3.05 230.   00.  ; far wall of rift
+   21   22  7.00 150.  -25.  ; lh wall near bottom
+   22   23  2.80 210.  -42.  ; far wall, lowest point in cave
+   20   24  6.40 320.   00.
+
+;station details
+; station  L    R    U    D
+;	6  0.0  2.0  3.0  -
+;	7  -    -    8.0  0.0
+;	8  -    -    6.0  2.0
+;	9  -    -    -    2.0
+;	10 0.0  -    -    1.0
+;	11 -    -    -    2.0
+;	12 -    0.0  -    1.5
+;	13 -    -    -    0.1
+;	14 0.0  -    -    4.0
+;	15 -    -    -    2.0
+;	16 -    -    -    -
+;	17 -    -    -    -
+;	18 0.0  -    -    1.5
+;	19 -    -    -    -
+;	20 -    -    -    0.0
+;	21 -    -    -    -
+;	22 0.0  -    -    2.0
+;	23 -    -    -    0.0
+;	24 -    -    -    -
+*end upper
+
+*begin ext ; formerly "AA" survey
+
+*date 1987.09.02
+; Calibration:	none
+*instrument Compass 949847, Clino 726974
+*team Insts Mike Martin
+*team Tape Mike Martin
+*team Notes Becka
+*team Dog Keith
+; ref.:	single loose sheet of transcribed figures in AERW's archive
+
+*export 01	; bolt on pitch 3 (assumption that it is lower bolt - unclear)
+
+  02  01  7.50 334.  +45.  ; 87.upper.13 is lower bolt (pitch 3) - check this
+  02  03  3.72 150.  -35.
+  03  04  3.04 145.  -62.5
+  05  04  4.22 335.  +40.
+  05  06  2.23 132.  -27.
+  07  06  3.24   -    Down
+  07  08  2.21 073.  +44.
+  08  09  2.20 126.  +18.
+  09  10  1.82 201.  -20.
+  10  11  4.67 195.  -53.
+  11  12  1.23 106.  -02.
+  12  13  1.42 170.  +30.
+  14  13  6.07 054.  +17.
+  14  15  2.26 262.  +03.
+  16  15  3.03 040.  +23. ; originally transcribed as -23
+  17  16  1.91 062.  +14.
+  18  17  1.61 037.5 +10.
+  19  18  3.45 046.  -17.
+  20  19  3.10 068.  -29.
+  20  21  3.48 205.  -27.
+  22  21  3.41 074.  -32.
+  23  22  4.06 032.  +37.5
+  23  24  8.51 230.  -22.
+  25  24  1.71 060.  +47.
+*end ext
+*end 87

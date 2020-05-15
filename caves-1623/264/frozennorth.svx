@@ -1,0 +1,113 @@
+*begin frozennorth
+
+; stations linked into other surveys (or likely to)
+*export 6 9 12 13X 17 19
+
+; Cave: Balcony
+; Area in cave/QM: from icecock aven area 
+*title "frozennorth"
+*date 2015.07.27
+*team DistoX2 Fleur Loveridge
+*team Notes Peter Talling
+*team Pics Fleur Loveridge
+*instrument DistoX2
+*ref 2015#27
+
+; Centreline data
+*data normal from  to   tape      compass   clino
+1	2	4.49	304	+12
+2	3	12.56	352	-5
+3	4	4.49	042	+35
+;4	5	23.13	311.5	+41 removed as now replaced by new survey 2016-SnowHole
+;
+4	6	3.00	115	+10
+6	7	4.62	042	+01
+7	8	4.12	070	+25
+8	9	3.50	078	-10
+9	10	2.50	000	+21
+10	11	6.01	087	+20
+11	12	4.47	115	+25
+12	13	17.50	124	-07
+;
+12	14	6.62	062	+25
+14	15	3.80	110	+30
+15	16	0.83	132	+10
+16	17	3.29	114	+12
+17	18	4.96	183	-14
+;
+9	19	6.63	172	-14
+;
+1	13X	7.31	176	-16
+
+;-----------
+;recorded station details
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;(leave commented-out)
+;[Red] nail varnish markingsloser% 
+;1  3.5	0.3	4	1	;	NP on boulder
+;2	0	5.5	3	2	;	NP on LHW
+;3	2	7	11	3.5	;	NP on rock
+;4	2.5	0	11	1.5	;	NP on RHW
+;5	;	dummy leg into aven therefore no LRUDS
+;6	3	1	1.5	1.1	;	NP on wall
+;7	0.6	0.4	1.4	0.6	;	NP on wall
+;8	0.5	1	0.4	1.8	;	NP on wall
+;9	1.6	0.6	1	0.4	;	NP on boulder on floor at crossroad
+;10	0.5	0.8	1.3	0.7	;	NP on wall
+;11	0.4	0.9	0.8	0.2	; NP on wall
+;12	5	8	3	1	:	NP on boulder
+;13	;	dummy leg into large trench in floor, no LRUDS
+;14	0.1	0.9	1	1	; NP on LHW
+;15	0	0.5	0.5	1.4	;	NP on wall
+;16	0	0.5	0.4	1.1	; NP on wall
+;17	0	0.5	0.3	0.6	; NP on wall
+;18	1	0	0.5	0.7	; NP on RHW
+;19	0.5	0.4	0.3	0.3	; NP on wall
+
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1  3.5	0.3	4	1	
+2	0	5.5	3	2	
+3	2	7	11	3.5	
+4	2.5	0	11	1.5	
+*data passage station left right up down
+6	3	1	1.5	1.1
+7	0.6	0.4	1.4	0.6
+8	0.5	1	0.4	1.8
+9	1.6	0.6	1	0.4
+10	0.5	0.8	1.3	0.7
+11	0.4	0.9	0.8	0.2
+12	5	8	3	1	
+*data passage station left right up down
+12	5	8	3	1	
+14	0.1	0.9	1	1	
+15	0	0.5	0.5	1.4	
+16	0	0.5	0.4	1.1	
+17	0	0.5	0.3	0.6	
+18	1	0	0.5	0.7	
+*data passage station left right up down
+;19	0.5	0.4	0.3	0.3	
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+;QM1    A    frozennorth.12    northhole2.8    view into large trench with aditional passage going south. gear needed for both  (Now pushed)
+
+;------------
+;Cave description
+
+;climb up between wall and block, aided by two bolts, to enter ice lake chamber. Ahead is a large aven with snow slope entering. Just before this is a small passage on the right. Climb up into this and follow ice inlet until breaks out into large aven and trench area at station 12. To the south is/was unexplored, but later connected to rest of cave. To left is small sanding tube to view into same trench system. 
+
+
+*end frozennorth

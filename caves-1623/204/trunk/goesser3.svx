@@ -1,0 +1,29 @@
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+
+*begin goesser3
+
+*title "Goesser Streamway part 3"
+*date 2007.08.04
+*team Insts Pete Harley
+*team Notes Dave Loeffler 
+
+; Calibration: up 148/+23,147/+23; down 326/-23, 326/-22
+; ref.:	2007#43
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 2
+
+*data normal from to tape compass clino
+
+0	1	9.55	189	-03.5
+2	1	28.79	123	-79
+
+*data passage station left right up down ignoreall
+0	1.6	0.4	10	1.2	RP RHW
+1	0.2	1.5	-	1.6	RP LHW top of pitch
+2	-	-	-	-	RP 30cm from bolt -- previous survey
+
+
+*end goesser3

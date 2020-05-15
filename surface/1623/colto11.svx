@@ -1,0 +1,54 @@
+;1998.04.02 AERW Added comments, refs, exports
+
+*begin colto11
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 	Surface
+*title "Col fixed pt to laser point 7/11 (possibly in error)"
+*team Insts Wookey
+*team Notes Olly
+*team Pics Olly
+*team Tape Wookey
+*date 1996.07.26
+*instrument set #1, compass 112518, clino 232011
+; Calibration:	tape 22.5cm too long (so calib -0.225)
+; ref.:	1996 surface stuff survey book pp 31-32
+;
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; Fixed point at edge of path on col
+*export 9	; Spit believed to be intended to be Laser.7_11
+		; be aware that the Austrian coordinates for 7_11 are not
+		; correct for this spit - there appears to be an angular error
+		; in the theodolite reading from the Brauning Nase
+*export 11
+
+*calibrate tape -0.225
+;
+;From	to	Tape	Compass	Clino
+1	2	21.56	051	-03
+3	2	29.11	241	+01.5
+3	4	28.89	073.5	-02
+5	4	27.84	232	+03.5
+6	5	23.67	251.5	-10.5
+6	7	17.53	039.5	+10
+7	8	24.41	038	+03
+8	9	 0.50	 -	down
+7	10	27.13	139.5	-07.5
+11	10	21.20	338	-02
+
+;station details
+; 1	Fixed point at edge of path on col
+; 2	tip of rock
+; 3	tip of vertically placed rock
+; 4	bunde twig
+; 5	rock with scratched X near 1623/36
+; 6	corner of outcrop
+; 7	tip of boulder (shallow spit)
+; 8	above bolt
+; 9	Bolt, suspected Laser point
+;10	rock point
+;11	peak nr. path up to Rosenkavalierhöhle (shallow spit hole by stick)
+
+*end colto11
+

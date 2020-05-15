@@ -1,0 +1,289 @@
+;1996.05.09 (W)  removed drunk.6 which was duplicate of drunk.2
+;1998.03.02 AERW sorted begin/end, added comments, refs. and clino calib.
+;1998.03.30 AERW removed equate of drunk.4.1, as description doesn't match the
+;		 other two stations in the 1989 survey book. However, this now
+;		 puts 4.1 *above* 1.23, even though 1.23 is meant to be above the
+;		 bottom of the pitch, whilst 4.1 was "vertical bottom". Must be a
+;		 gross error in 4.1-4.2-4.3=3.11-3.10-3.9=1.22-1.23 (six legs), or
+;		 in the point descriptions.
+
+; ====== links between surveys in this file: ======
+
+*equate Drunk.5.10	WetNappy.1
+*equate wetnappy.23	Drunk.7.23
+
+*begin Drunk
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1.10	; pitch head bolt at start of Drunk & stupid (ie. lower of 2)
+*export 5.10	; Pointy rock in Wet Nappy chamber (top of hading rift)
+*export 7.B	; Bolt of next pitch after French Connection pitch
+*export 7.23	; RH (SE) wall 1m above false floor at E end of silted chamber
+
+; ====== links between surveys making up the Drunk survey: ======
+
+*equate 1.23	2.1
+;*equate 1.23	2.1	4.1
+; AERW 98.03.28 the equate to 4.1 is dubious as 4.1 is "vertical bottom of
+; pitch", whereas 1.23 and 2.1 are on wall on ledge near bottom. This was
+; giving a 5% error in the loop, so I've disconnected it.
+*equate 1.18	3.1
+*equate 1.22	3.9
+*equate 3.11	4.3
+*equate 4.10	5.1
+
+*begin 1
+
+; Cave:	Kaninchenhöhle, 1623/161
+; Locn:	Totes Gebirge, Austria
+*title "Drunk and Stupid, from Alt. 3rd pitch"
+*date 1989.08.09 ; trip 1989-161-7 in 1989 logbook
+*team Adam,Becka
+; ref.:	1989 survey book, pp 5-7
+
+*export 10	; pitch head bolt at start of Drunk & stupid (ie. lower of 2)
+*export 18	; carbide mark, 3/4 way down pitch, ledge above small cha.
+*export 22	; bolt at head of 30m pitch
+*export 23	; carbide mark on wall, ledge almost at base of 30m pitch
+
+*calibrate compass 0
+*calibrate clino 0
+;readings grade 5
+
+; "The ten"
+10      12      5.12     -      Down
+; NB no station numbered "11"
+12      13      5.65     -      Down
+13      14      4.09    270.5   -14
+14      15      2.8      -      Down
+16      15      7.03    052      21
+16      17      4.2     224     -57
+; "The twenty"
+17      18     18.       -      Down
+19      18      3.79    008      38
+19      20      4.24    247.5   -38.5
+21      20      4.07    078.5    36.5
+21      22      1.55    324     -32
+; "The thirty"
+22      23     30.5      -      Down
+*end 1
+
+*begin 2
+
+; Cave:	Kaninchenhöhle, 1623/161
+; Locn:	Totes Gebirge, Austria
+*title "D&S Rift off ledge near bottom of 30m pitch"
+;		Little Widdly Survey! Indian Rope Trick
+*team Del, Juliette? DaveH also on trip
+*date 1989.08.27 ; trip 1989-161-33 in logbook
+;	(1989 survey book says 1988, which must be wrong)
+; ref.:	1989 survey book p 61
+
+*export 1	; carbide mark on wall, ledge almost at base of 30m pitch
+		; "how long can this imaginary point last?" 1989p61
+*export 4	; back of small chamber 1.5m off floor - QM 89-09 on 190 deg.
+
+2       1       8.60    085    -66
+3       2       2.00    074     02
+4       3      10.05    072     47
+
+*end 2
+
+*begin 3
+
+; Cave:	Kaninchenhöhle, 1623/161
+; Locn:	Totes Gebirge, Austria
+*title "Drunk and Stupid, bottom of Mark & Jeremy's 20m pitch to p30m"
+*date 1989.08.12 ; trip 1989-161-16 in 1989 log
+*team Juliette, Julian, Wookey
+; ref.:	1989 survey book pp 25-27
+
+*export 1	; carbide mark, 3/4 way down pitch, ledge above small cha.
+*export 9	; bolt at head of 30m pitch
+*export 11	; bolt at head of pitch starting out rift coming from hole in floor
+
+2       1       5      277.5   28
+2       3       4.06    61.5    3
+4       3       1.3    127     24
+4       5       3      115    -33
+6       5       3.86   262     10
+2       7       5.54   248     -5
+8       7       3.9     63     36
+8       9       4.5    254    -37
+; "The thirty"
+10      9      29.68    30     84
+10      11      4.1    253    -19
+12      11      4.22    25     52
+
+; station details
+; 1	on ledge above small chamber
+; 2	on wall in highest part of passage out of chamber
+; 3	carbide mark on wall after next constriction of passage leading out
+;	of small chamber
+; 4	point on wall in chamber below aven giving goof view through squeeze
+;	1.3 m above floor
+; 5	point on wall of rift passage in squeeze
+; 6	wall of rift at edge of 10m pitch
+; 7	bottom of 20m pitch
+; 8	point low on wall before entering pitch opening
+; 9	bolt at head of 30m pitch
+;10	point on wall at bottom of 30m pitch
+;11	bolt at head of pitch starting out rift coming from hole in floor
+;12	next rebelay leading into large rift pitch
+
+*end 3
+
+*begin 4
+
+; Cave:	Kaninchenhöhle, 1623/161
+; Locn:	Totes Gebirge, Austria
+*title "D&S below 30m pitch"
+*date 1989.08.14 ; trip 1989-161-19 in 1989 logbook
+*team Notes Becka
+*instrument Chris
+*instrument Compass: 543693  Clino: 726974
+; ref.:	1989 survey book pp 28-29
+
+*export 1	; vertical bottom of 30m pitch. NB this doesn't match the
+		; descriptions of 1.23 and 2.1
+*export 3	; bolt at head of pitch
+*export 10	; vertical bottom of 22m pitch
+
+2       1        4.02   068     +01.5
+3       2        4.22   034.5   +54
+4       3        7.49     -      Up
+5       4        5.64   036     -04
+5       6        1.84   179     -43.5
+7       6        3      324     +21.5
+7       8        3.02   213     +04.5
+9       8        2.85   321     -28
+; Parallel Universe
+9       10      22.1     -      Down
+10      e        2.5    318      00
+; original 20m pitch to White Hole
+6       dx       1.1    330     -47
+dx      dy      22.67    -      Down
+
+; station details
+; 1	vertical bottom of 30m pitch
+; 2	bolt for traverse line after 30m pitch
+; 3	bolt at head of pitch
+; 4	vertically down pitch to small chamber
+; 5	RH wall of rifty traverse opposite side to traverse bolt
+; 6	LH wall at corner of rift
+; 7	On wall in rift, LH side outside of bend
+; 8	opposite wall to 7
+; 9	flake of rock, same side as 8, over pitch
+;10	vertically down to bottom of pitch
+; e	bottom of eyehole, on floor of chamber
+;dx	bolt to original pitch (wrong side of eyehole)
+;dy	vertically down to bottom of pitch
+
+*end 4
+
+*begin 5
+
+; Cave:	Kaninchenhöhle, 1623/161
+; Locn:	Totes Gebirge, Austria
+*title "D&S"
+*date 1989.08.15 ; trip 1989-161-22 in logbook
+*team Notes Penny
+*instrument Del
+;	and:	Juliette
+*instrument Compass: 721899  Clino: 545763
+; ref.:	1989 survey book p 41
+
+*export 1	; vertical bottom of Parallel Universe (assumed - not described in book)
+*export 10	; Pointy rock in Wet Nappy chamber (top of hading rift)
+
+; this appears to be a number of short descents comprising "YATMP"
+
+1       eye      3.35   330      00
+1       2        3.6    222     +18
+2       3        7.46    -      Down
+3       4        3.18   163.5   +22
+5       4        2.12   055     +46.5
+5       6        2.97   100     -80
+7       6        2.3    073.5   -02
+7       8       16.5    194     -70
+9       8        5.28   286.5   -05
+9       10      10.3    091.5   -04.5
+
+*end 5
+
+*begin 7
+
+*title "Drunk & Stupid: From silted chamber to 'bottom'"
+*date 1989.09.01 ; trip 1989-161-37 in logbook
+*team Notes Dan
+*instrument JeremyR
+*instrument Compass 625078?, Clino 736380?
+; ref.: 1989 back of logbook pages labelled 69-72
+
+*export B	; Bolt of next pitch after French Connection pitch
+*export 23	; RH (SE) wall 1m above false floor at E end of silted chamber
+
+*calibrate compass 0
+*calibrate clino 0
+;readings grade 5
+
+23      N       15.40   240     +08
+N       M        5.90   196     +06
+L       M        9.15   315     -64
+L       K        2.67   100     +01
+J       K        3.58   047     +56
+I       J        7.67   252     +01
+I       H        9.34   106     -31
+G       H        9.02   235     -15
+G       F       11.03   037     +07
+E       F        5.20   234     +36
+D       E        0.82   000      00
+C       D        9.13    -      Up
+C       B        2.92   280     +07
+B       A       11.30    -      Down ; FrnchCon.7 = "d80" = drunk.7.B ?
+*end 7
+*end drunk
+
+*begin WetNappy
+
+*title "Drunk & Stupid: Wet Nappy Chamber to Silted Chamber"
+*date 1989.09.01 ; trip 1989-161-37 in logbook
+*team Notes Penny
+*instrument Dan
+*instrument Compass 625078, Clino 736380
+; ref.: Back of 1989 logbook, labelled pp 63-67
+
+*export 1	; Pointy rock in Wet Nappy chamber (top of hading rift)
+*export 23	; RH (SE) wall 1m above false floor at E end of silted chamber
+
+*calibrate compass 0
+*calibrate clino 0
+;readings grade 5
+
+2       1        5.28   248     +31
+3       2        7.70   246     +44
+4       3        6.80   283     +59
+4       5        4.71   220     -25
+6       5        3.30   100     +51
+6       7        1.42   252     -18
+8       7        3.61   237     +68
+9       8        2.70   300     +69
+9       10       9.87   054     +09
+11      10       3.43   288     -43
+12      11       4.11   227     +03
+13      12       2.25   183     +48
+14      13      13.32   270     +89
+14      15       3.07   092     -48
+16      15       8.02   316     +52
+16      17       1.57   205     -57
+17      18       7.09   075     -53
+19      18       6.52   248     +26
+19      20      10.42   104     +03
+21      20       6.65   231     +63
+21      22      12.56   078     -46
+23      22      14.09   256     +08
+24      22      12.46   225     +03
+
+*end WetNappy
+

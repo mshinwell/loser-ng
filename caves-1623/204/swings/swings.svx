@@ -1,0 +1,86 @@
+*begin swings
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Swings and Roundabouts"
+*date 2001.08.15
+*team Insts Becka Lawson
+*team Notes Earl Merson
+*team Tape Both
+*instrument Compass #2 ; Clino #2, Tape grey, totally enclosed
+; Calibration: Stone bridge: 147/+22 146/+22  334/-23 328/-22
+; ref: 2001#14
+; ====== stations refindable to link to other surveys: ======
+
+*export p7 p3 4 5 6 7 8 10 11 12 13 14 17 19 23
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+1	p7	6.92	056	+22
+2	1	5.19	308	+59
+3	2	4.92	036	+07
+3	4	13.75	182	-13
+5	1	11.52	203	-16
+6	5	3.20	083	-20
+7	6	6.24	168	-03
+7	8	4.88	302	+09
+9	8	7.48	179	-22
+9	10	12.39	338	+15
+11	10	20.69	169	-27
+12	11	20.04	188	+05
+12	13	20.12	318	-11
+14	13	22.66	178	+12
+14	15	21.66	312	-17
+16	15	12.79	143	-04
+16	17	10.12	263	+19
+18	17	8.28	170	-01
+18	19	9.43	216	+27
+20	10	12.88	245	-15
+21	20	6.82	170	-07
+22	21	11.8	313	-22
+21	23	3.20	339	+29
+24	5	5.22	352	-11
+24	p7	2.08	187	-42
+25	1	8.53	183	-18
+26	25	2.07	111	-24
+26	p3	3.81	212	-14
+
+;*data passage station left right up down ignoreall
+;
+;;station details
+;;name	L	R	U	D	description
+;1	6	0	5	2	red dot on loose boulder on west wall
+;2	1	2.5	12	3	RP on tip of large boulder on floor
+;3	2.5	0	2	1.5	RP on R wall
+;4	0	2	8	1.6	RP on L wall by red splodge on boulder
+;;					at pitchhead
+;5	4	0.5	3	0.5	RP on R wall before passage splits
+;;6	-	-	-	-	RP on wall nodule at head of passage
+;7	1.7	0.2	1.4	0.5	RP on R wall opposite side passage
+;8	0.4	3.5	2	2	RP on tip of rock on L wall
+;9	2	0.2	1	1	RP on R wall
+;10	0	10	5	1	RP on L wall in junction chamber
+;11	1	6	3	2.5	RP on roof on L side above boulder
+;12	5	0	4	1.5	RP on R wall
+;13	0.2	5.5	4	2	RP on L wall at shoulder height with
+;;					small cairn
+;14	5	0.5	5	1.4	RP on boulder at R side
+;15	0.4	3.5	4	1	RP on summit of boulder
+;16	-	-	-	-	RP on R wall at bottom of scree slope
+;17	0	4	2	1	CM and RP on L wall at top of scree
+;18	-	-	-	-	RP on sharp flake on R wall
+;19	3.5	0	0.4	0.7	CM on bulge on R wall 2/3 of way up
+;;					slope
+;20	4	0.2	2.5	2	RP on R wall nodule at corner to R
+;21	-	-	-	-	CM on pt on R side of ent. to QM
+;22	2.5	0	2	0.7	RP with CM saying 22 at LH turn in
+;;					boulder slope
+;23	0	1.2	1.5	1.5	CM on L wall of passage just after
+;;					climb up
+;24	1.3	0.3	0.7	1	scratched nodule jutting from wall
+;;25	-	-	-	-	CM on E wall of tube
+;;26	-	-	-	-	CM on roof at split of two tubes
+
+*end swings
+

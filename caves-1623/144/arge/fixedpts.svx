@@ -1,0 +1,9 @@
+;Nils-Daten ab 10/00:
+*fix p144		36103.07	81514.63	1711.44	
+
+;Fixierung für die Anbindung an die Stellerweghöhle:
+*fix 144.144verb.63 	36031.06	81375.82	1443.21 	;=041.wetnwild.2 (Verbindung Tony-Steller)
+*fix 144.144ein.26 		36033.29	81538.20	1517.46	;=144.cuccrest.22 (Verbindung 144rest zu Arge Messung)
+
+;*equate cuccrest.22  144.144ein.26
+*fix cuccrest.22 	36033.29	81538.20	1517.46	

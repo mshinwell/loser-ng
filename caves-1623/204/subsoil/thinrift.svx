@@ -1,0 +1,45 @@
+*begin thinrift
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Thin rift off Fat Worm Blows a Sparky"
+*date 2004.07.31
+*team Insts Nial Peters
+*team Notes Becka Lawson
+*team Tape Both
+
+*instrument set 1
+
+; ref 2004 # 35
+
+; Calibration: stone bridge: 146/+23, 323.5/-23
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 5 26 
+
+*calibrate tape +0.08
+; +ve if tape was too short, -ve if too long
+
+
+;from	to	tape	comp	clino
+26	1	10.80	032	-16
+1	2	9.11	061.5	+02
+3	2	2.85	256	+16
+4	3	4.60	218	+25
+4	5	6.04	075	+09
+6	5	5.21	246	+20
+
+;station details
+;name	L	R	U	D	description
+;26	-	-	-	-	=fatworm.26
+;1	1.2	9	6	0.4	RP low R wall, start of rift
+;2	0	0.3	4	1.2	RP LWH in rift numbered
+;3	0.5	0	6	1	RP RHW by drop
+;4	0.2	0.5	6	0.4	RP LHW pendant low, numbered
+;5	0	0.5	2	3	RP on RHW by bridge, numbered
+;6	0	0.5	4	1.5	RP LHW numbered
+
+
+*end thinrift
+

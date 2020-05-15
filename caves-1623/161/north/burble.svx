@@ -1,0 +1,209 @@
+;1998.03.31 AERW sorted begin/end, exports, refs, comments, calib clino
+
+; ====== links between surveys in this file: ======
+
+*equate BurblCrawl.1	VomPitch.6
+*equate VomPitch.1	LeadMine.1	BurblMaze.1
+*equate BurblMaze.5	LeadMine.7
+*equate LeadMine.21	Repton.1
+
+*begin BurblCrawl
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "Burble crawl"
+*date 1991.07.10 ; trip 1991-161-3 in logbook
+*team Notes Wookey
+*team Notes Andy Atkinson
+*team Insts Henri
+; survey going out of the cave
+*instrument compass 721899; clino 726974
+; Calibration:	252.5,252.5 (B.Zinken), 41.5 ('91 cairn)
+;		+08.5,-09 ('91 cairn)
+; ref.:	1991 survey book pp 60-61
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; LH wall 2m from pitch marked "1" with a dot
+*export 19	; Boulder in middle of CFN (over floor trench) just
+		; before Burble goes off and CFN turns right
+
+*calibrate clino -0.25
+
+2       1       7.66    028     10
+3       2       3.34    008     08.5
+4       3       4.79    352     09
+5       4       2.95    031     13
+6       5       6.10    008     09
+7       6       4.51    001     08
+8       7       4.30    352     07
+9       8       3.26    010     08.5
+10      9       1.94    317     -02
+11      10      6.25    010     10
+12      11      2.63    025     16
+13      12      6.08    337     04
+14      13      3.90    028     11
+15      14      7.88    351     08
+16      15      8.27    003     13
+17      16      4.75    336     18
+18      17      2.80    262     05
+19      18      9.07    343     09.5
+
+*end BurblCrawl
+
+*begin Repton
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "Burble - Repton chamber"
+*date 1991.07.16 ; 17 - trip 1991-161-10 in logbook
+*team Notes wookey
+*team Insts Gill Lindsey
+*instrument compass 721899, clino 726974
+; Calibration (for Henri):
+;  :Nase 253, '91 cairn:041
+;  :'91 cairn +08, -09.5
+; ref.:	1991 survey book p 77
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; CM on roof at exit of rift / entry to Repton (top of slope)
+*export 4	; Backup bolt of pitch
+*export 6	; "666" & white tip of rock by exit passage
+
+*calibrate clino -0.75
+
+;boulderdash:
+1       2       3.06    147     18
+3       2       8.08    065     29.5
+3       4       19.32   202     -33
+2       5       8.53    012.5   45.5
+5       6       24.57   012     -24
+7       6       3.70    256     -15.5
+7       8       10.14   070     -08
+9       8       25.43   005     -23
+*end Repton
+
+*begin VomPitch
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "Burble - Vom Pitch"
+*date 1991.07.16 ; 17 - trip 1991-161-10 in logbook
+*team Notes Wookey
+*team Insts Gill Lindsey
+*instrument compass 721899, clino 726974
+; Calibration (for Henri):
+;  :Nase 253, '91 cairn:041
+;  :'91 cairn +08, -09.5
+; ref.:	1991 survey book p 78
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; tip of rock at base of Burble pitch
+*export 6	; LH wall of Burble Crawl 2m from pitch marked "1" with a dot
+
+*calibrate clino -0.75
+;readings grade 5
+
+;vom pitch
+1       2       8.30    252     54
+3       2       7.75     -      Down
+3       4      15.44    220     87.5
+4       5       4.28    195     69
+5       6       2.14    185.5  -17
+
+;leg taken when Andy (Atkinson) climbed into dead end across Vom pitch head
+; Ref.:	1991 Survey book p 76
+
+;readings grade 3
+5       andyhead        10      310     55
+
+*end VomPitch
+
+*begin BurblMaze
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "Burble - the maze"
+;		loop: bottom of Vom pitch round high route, back low route.
+*date 1991.07.16 ; 17 - trip 1991-161-9 in logbook
+*team Insts Julian Shilton
+*team Notes Mark McLean
+; Calibration:	compass:254(Nase) 221.5(from '91 cairn) 040.5(to '91 cairn)
+*team clino -09(from '91 cairn) +07(to '91 cairn)
+; ref.:	1991 survey book pp 75-76
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; pointy rock at foot of Burble pitch
+*export 5	; carbide mark on spike at junction
+*export 14	; carbide mark on E wall just inside S branch of T-junction
+		; between Siberia and two ways to Vom pitch
+
+*calibrate clino -1.
+
+1       2        4.32   098     -30
+2       3        5.08   324     -04
+2       4        5.20   138     -11
+4       5        7.10   077     +18
+5       6        3.21   344     +51
+7       6        9.84   168     -08
+8       7        1.14   118     -06
+9       8        2.96   183     -09
+10      9        2.91   145     -22
+10      11       4.30   063     +37
+12      10       3.79   063     -24
+12      13      11.97   264     -09
+13      14       1.82   141     -36
+14      15       3.36   167     +03
+15      16       5.94   218     +50
+16      17       3.47   147     -33
+17      18       3.64   104     -57
+18      1        3.58   123     -54
+
+*end BurblMaze
+
+*begin LeadMine
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "Burble - Leadmine: bottom of Vom pitch to Repton"
+*date 1991.07.13 ; trip 1991-161-4 in logbook
+*team Insts Julian Todd
+*team Notes Mark Mclean
+*team Tape Andy Atkinson
+*instrument illuminated comp & clino
+; ref.:	1991 survey book pp 72-74
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; pointy rock at foot of Burble pitch
+*export 7	; carbide mark on spike at junction
+*export 12	; N wall at junction with Soil pitch branch
+*export 21	; pendant on ceiling at top of boulder slope (entry to Repton)
+*export 27	; undescribed point in chamber with Soil Pitch (QM 91-22)
+
+2       1        9.24   034     +09
+2       3        7.53   355     -25
+2       4        5.20   125     -31
+5       4        4.27   031     +20
+6       1        9.80   298     +20
+6       7        6.96   085     +20
+8       7       12.76   344     -03
+8       9        1.41   189     +13
+10      9        7.00   331     +12
+10      11       2.65   058     -23
+12      11       4.76   313     -05
+12      13      13.21   004.5   +14
+14      13       2.61   128     +23
+15      13       4.68   313     +01
+15      16       3.68   062     -14
+17      16       8.45   034     -39
+17      18      13.37   150     +11
+19      18       8.17   316     +11
+19      20       4.19   136     +22 ; 136 not 316
+21      20      16.81   345     -46
+17      22       8.40   010     +02
+22      23       5.00   065     +45
+12      24       5.42   165     +02
+25      24       3.81   293     -01
+25      26       5.02   224     -05
+26      27       5.67   310     -15
+
+*end LeadMine

@@ -1,0 +1,32 @@
+*begin downtoearth
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Tunnocks
+
+*export 31x 9
+
+*title "Down To Earth"
+*date 2010.08.12
+*team Insts Becka
+*team Notes Chris Smith
+*instrument Set 6 
+
+; calibrate - maybe see notes in stringtheory.svx
+
+;ref.: 2010#15
+
+*calibrate tape 0.30	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+31x	7	9.73	097	+16
+7	8	5.18	085	+25
+8	9	4.78	075	+24
+				
+*data passage station left right up down ignoreall
+
+31x	-	-	2	1.8
+7	0	0.5	1.1	0.2
+8	1	0	1.2	0.2
+
+*end   downtoearth

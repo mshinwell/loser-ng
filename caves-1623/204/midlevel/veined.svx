@@ -1,0 +1,41 @@
+*begin veined
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	Steinbruckenhöhle
+*title "Veined"
+*date 1999.08.04
+*team Insts Duncan Collis
+*team Notes Mike Richardson
+*team Pics Mike Richardson
+*team Tape Both
+*instrument Compass set #4 ; Clino set #4 
+; Calibration:	at TC Down - Comp: 089,088,088 Clino: -06,-06,-06
+;                      Up     Comp: 269,269,268.5 Clino: +07,+07,+07
+; ref.:	1999 NotKH survey book pp -
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 6 7 9 11 16 17
+
+1	2	15.39	290	72
+2	3	2.60	193	50
+4	3	2.80	066	-22
+4	5	5.48	218	50
+5	6	4.40	004	31
+7	6	2.60	138	-15
+7	8	7.74	016	15.5
+9	8	11.22	193.5	-18.5
+9	10	6.24	146	-12
+11	10	6.66	286	-6
+11	12	29.87	034	+21
+13	12	4.03	216	-16
+13	14	5.16	333	+34
+15	14	7.92	243	-34
+13	16	15.95	-	UP
+17	16	1.73	121	-33
+
+;stn	L	R	U	D	Desc
+
+*end veined
+
+

@@ -1,0 +1,106 @@
+; 1998.02.27 AERW sorted begin/end, added comments and refs. there is LRUD
+;		  in the survey book, not yet added
+
+; ====== links between surveys in this file: ======
+
+*equate vestaconn.a	notwhat.1
+; ref. 1994KHp185
+
+*begin notwhat
+
+; Cave: Kaninchenhöhle (1623/161)
+*title "Not what we wanted & Driller Killer (off Gnome Passage)"
+*date 1994.07.10-1994.07.11 ; trip 1994-161-5 in 1994 logbook
+*team Notes AndyA
+*team Tape MikeTA
+*instrument MikeTA
+*instrument Compass: Set 3 (512133), clino: 348123
+; ref.:	1994 survey book pp 182-183
+
+*export 1	; carbide mark in roof, start of Stomping
+*export 23	; carbide mark, right hand wall at sharp left bend in Stomping
+*export 29	; carbide mark, right wall
+*export 52	; carbide mark "end" of Gnome survey
+
+2       1       3.05    224      00
+2       3       3.16    334     -13
+4       3       5.35    181     +01.5
+4       5       1.81    206.5   -01
+6       5       2.80    136     +01
+6       7       4.42    028     +11
+8       7       8.28    115     +17.5
+8       9       6.03    055.5   +14
+10      9       2.34    125     +11.5
+10      11      3.36    038.5   +09
+12      11      2.86    111     +21
+12      13      1.82    022     +05
+14      13      1.80    098     +21.5
+14      15      7.61    006.5   +01
+16      15      3.91    128     +13
+16      17      2.47    321.5   -23
+18      17      2.55    091.5   +32
+18      19      3.22    324     -21.5
+20      19      4.79    110     +18
+20      21      2.21    346.5   +14.5
+22      21      3.70    113.5   +03.5
+22      23      7.86    323.5   -04.5
+24      23      5.79    033.5   +01.5
+24      25      4.55    255     -02.5
+26      25      7.47    182     +05
+26      27      4.89    268.5   +02.5
+28      27      6.50    148.5   +07
+28      29      4.56    045.5   +03
+30      29      6.25    146     +03
+30      31      6.30    259     -34.5 ; "-34.5" is marked "check" in survey book
+32      31      25.80    -      Down ; Dodgy - knot moved by a metre
+33      32      4.43    135.5   +03
+34      33      1.00    040     -18
+35      34      3.09    001     -32.5
+36      35      4.75    000     -12
+37      36      1.82    020     -44.5
+38      37      3.16    058     +09
+39      38      0.93    318     -22
+40      39      2.48    348     -23.5
+40      41      6.90    225     -41
+42      41      18.76    -      Down
+43      42      7.64    335     -62
+44      43      3.21    337.5   -21.5
+44      45      3.18    039     +69.5
+45      46      1.89    127     +11.5
+46      47      1.76    150     +03
+47      48      2.68    178     +02
+48      49      2.28    225      00
+49      50      3.06    153     +09
+50      51      0.85    115     -30
+51      52      1.16    218     +09
+*end notwhat
+
+*begin vestaconn
+
+; Cave: 1623/161, Kaninchenhöhle
+; Locn: Totes Gebirge, Austria
+*title "connection to vestabule (assumed same trip)"
+*date 1994.07.16 ; trip 1994-161-9 in 1994 logbook
+; Calib: 
+*team Inst Mike TA
+*team Tape Bob Bloodworth
+*team Notes Andrew A
+*instrument Compass set 3, 512133, Clino 348123
+; Calibration:	1->2 237,   -10
+;		2->1 055.5, +07.5
+;		1->VSW 255, +01.5
+
+*export a	; carbide mark in roof, start of Stomping
+*export c	; knob on boulder ledge, nearest QM 94-57
+*export e	; wall, end of rift in Vestabule
+
+*calibrate clino -1.25
+; ref.:	1994 survey book p 185
+; from to tape compass clino
+
+a       b        9.03   140     -71
+c       b        4.45   048     -20
+b       d       20.00    -      Down ; measured with tape, it really is 20.00
+d       e        1.54   182     +22
+
+*end vestaconn

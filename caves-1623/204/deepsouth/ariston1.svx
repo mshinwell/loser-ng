@@ -1,0 +1,36 @@
+*begin ariston1
+
+; Locn: Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle
+*title "Ariston"
+*date 1999.08.05
+*team Insts Tina White
+*team Notes Earl Merson
+*team Pics Earl Merson
+*team Tape Both
+*instrument Compass set #5 ; Clino set #5
+; calib tc bottom->top comp  267 267.5 268
+;                      clino +6.5 +7 +7
+;          top->bottom comp  91.5 92 92
+;                      clino -7 -6 -6.5
+; ref.: 1999 NotKH survey book pp -
+; ====== stations refindable to link to other surveys: ======
+
+*export 1 6
+
+;from   to  tape    compass clino   ; remarks
+1   2   4.88    313 +02
+1   3   3.74    222 +01
+2   4   12.35   -   up
+5   4   0.54    154 00
+6   5   4.49    182 -03
+
+;stn    desc
+;1  CM L wall of chamber nr pitch
+;2  CM base of pitch
+;3  1st bolt on following pitch
+;4  RH bolt top of pitch
+;5  CM on edge of rock
+;6  last red dot from rainbow survey
+
+*end ariston1

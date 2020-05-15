@@ -1,0 +1,70 @@
+*begin noserock2
+
+; stations linked into other surveys (or likely to)
+*export 7
+
+; Cave: Balcony
+; Area in cave/QM: Noserock 
+*title "noserock2"
+*date 2015.07.24
+*team Insts Andy Kuszyk
+*team Notes Ben Whetton
+*team Pics Ben Whetton
+*team Tape Ben Whetton
+*instrument Compass; Clino
+*ref 2015#12
+
+; Centreline data
+* data normal from  to   tape      compass   clino
+2	1	5.42	161	-26
+2	3	8.46	181	57
+3	4	4.71	167	31
+4	5	6.05	207	6
+5	6	9.83	196	79
+6	7	2.99	254	51
+
+;-----------
+;recorded station details
+;(RP=Red Point, LHW/RHW=Left/Right Hand Wall)
+;Station left right up down description
+;(leave commented-out)
+;1	0.5	0.8	1.2	2	; RP in crack, no lead.
+;2	2.5	2.5	++	1.5	; RP RHW, bottom of pitch.
+;3 	4	0	++	3.5	; RP RHW.
+;4	3	1.2	++	1.6 ; RP rock in middle of chamber.
+;5	4	0	++	1	; RP RHW bottom of pitch.
+;6	0.5	1.5	++	++	; RP outcrop near top of pitch.
+;7					; Equivalent to noserock station 18. No data taken.
+
+;LRUDs arranged into passage tubes
+;new *data command for each 'passage',
+;repeat stations and adjust numbers as needed
+*data passage station left right up down 
+1	0.5	0.8	1.2	2	; RP in crack, no lead.
+2	2.5	2.5	10	1.5	; RP RHW, bottom of pitch.
+3 	4	0	10	3.5	; RP RHW.
+4	3	1.2	10	1.6 ; RP rock in middle of chamber.
+5	4	0	10	1	; RP RHW bottom of pitch.
+6	0.5	1.5	5	10	; RP outcrop near top of pitch.
+7	-	-	-	-	; Equivalent to noserock station 18. No data taken.
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+; The nearest-station is the name of the survey and station which are nearest to
+; the QM. The resolution-station is either '-' to indicate that the QM hasn't
+; been checked; or the name of the survey and station which push that QM. If a
+; QM doesn't go anywhere, set the resolution-station to be the same as the
+; nearest-station. Include any relevant details of how to find or push the QM in
+; the textual description.
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+; No leads found
+
+;------------
+;Cave description
+
+;Pitch dropped round the corner from the pitch in noserock. Lots of
+;break-down and pitch ended in a choked chamber floor.
+
+
+*end noserock2

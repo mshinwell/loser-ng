@@ -1,0 +1,49 @@
+*equate 2001-02.1 p2001-02
+*entrance p2001-02
+
+*begin 2001-02
+
+; stations linked into other surveys (or likely to)
+*export 1
+
+; Cave: 2001-02
+; Area in cave/QM: Whole cave
+*title ""
+*date 2016.07.05
+*team Insts Roshni Gohil
+*team Notes Frank Tully
+*team Pics Frank Tully
+*instrument Frank's DistoX 2
+; Calibration: [Where, readings]
+; Survey folder reference: 2016#26
+; the #number is on the clear pocket containing the original notes
+
+; Centreline data
+*data normal from to length bearing gradient ignoreall
+*flags surface
+2	1	4.054	259.5	+56.6
+*flags not surface
+2	3	3.94	219.4	-23.4
+2	4	1.572	261.4	-9.2
+4	5	5.512	359.5	-83.1
+6	5	1.143	26.7	+5.2
+6	7	2.562	171.1	-67.9
+
+;-----------
+;recorded station details (leave commented out)
+;(NP=Nail Polish, LHW/RHW=Left/Right Hand Wall)
+;Station Left Right Up Down Description
+;Slapper pink nail varnish markings
+; No LRUD data
+
+
+;-----------
+;Question Mark List  ;(leave commented-out)
+;Serial number   grade(A/B/C/X)  nearest-station  resolution-station  description
+; No QMs - ends in boulder blockage
+
+;------------
+;Cave description  ;(leave commented-out)
+;freeform text describing this section of the cave
+
+*end 2001-02

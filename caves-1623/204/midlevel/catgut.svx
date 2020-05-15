@@ -1,0 +1,52 @@
+*begin catgut
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: Steinbruckenhöhle, 1623/204
+*title "Cat Gut"
+*date 2012.08.07
+*team Tape Jess Stirrups
+*team Insts Jess Stirrups
+*team Notes Emma Wilson
+*instrument Compass 4; Clino D
+; Calibration: A-B 148 +21; B-A 327 -22
+; ref.:	2012#04
+
+; ====== stations refindable to link to other surveys: ======
+*export 7X 9 14
+
+*calibrate tape 	0; +ve if tape was too short, -ve if too long
+
+*data normal from to tape compass clino
+1	7X	0.76	120	+34
+2	1	0.83	018	+40
+3	2	2.46	056	+28
+5	4	2.66	-	DOWN ; Stations reversed from notes
+6	5	5.31	172	-62
+7	6	2.73	248	-18
+7	3	1.58	318	+11
+8	7	5.69	291	-12
+8	9	5.31	074	-36
+10	9	4.92	326	-32
+11	10	0.83	331	-24
+12	11	5.36	348	-04
+13	11	3.83	018	-09
+14	12	4.63	231	-08
+
+*data passage station	left	right	up	down	ignoreall
+7X	0.1	5	.5	1.7	Numbered station on popcorn
+1	0.5	0.5	1.2	1.5	On top of a flake
+2	0.5	0.5	1.5	1.5	Popcorn stal
+3	4	2	1.5	3	Numbered
+4	-	-	-	-	Unmarked (in puddle)
+5	2.5	2	3	2	
+6	0.5	1.5	1.5	6	Numbered
+7	1.5	0.5	2	1.5	Below a stal
+8	1.2	0.2	0.5	2	
+9	0.2	0.6	1	2	
+10	-	-	-	-
+11	0.5	5	3	3	Numbered on right
+12	1	4	10	2	
+13	2	4	1.5	1.5
+14	1	1.5	3	3
+
+*end catgut

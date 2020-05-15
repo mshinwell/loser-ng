@@ -1,0 +1,52 @@
+;1993.12.30 (W) endpoints equated and comments added
+;1998.04.03 AERW tidied, sorted begin/end, added comments, refs, exports
+
+*begin TCtoCol
+
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave: 	Surface
+*title "Linking top camp to the col"
+*date 1992.07.14
+*team Insts Gill
+*team Notes Wookey
+*instrument illuminated compass & clino
+; Calibration:	none
+; ref.: 1992 survey book p 206 (notes) p 207 (picture)
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; tip of green (lichen) rock on pavement by camp towards crapper
+		; marked with red paint and 'TC' on 1993 expo by wook
+*export 12	; pole at edge of col approx where iron cross used to be
+*export 13	; better defined point at edge of limestone (see survey book)
+
+1       2       26.47   138     +01
+3       2       30.50   306     -09.5
+3       4       29.80   106     +05
+5       4       18.78   318     -06
+5       6       29.93   122     +09.5
+7       6       27.28   324.5   -04
+7       8       29.38   154     +02
+9       8       31.55   357     +02.5
+9       10      28.40   210     +02.5
+11      10      28.80   009     +05.5
+11      12      10.16   204     +09
+13      12      14.86   110     +06.5
+
+
+; Heights above ground:
+;1       0.6     Green topped, atypical boulder on pavement by campsite, more or less in line with the water hole (aka Goblin)
+;2       0.4     Rock on shelf above camp
+;3       1.0     Pole
+;4       0.9     Cairn to one side of path
+;5       0.4     another cairn
+;6       2.3     top of pole
+;7       0.3     another cairn
+;8       1.8     pole in grike where stream sinks
+;9       0.2     small rock (put there by us)
+;10      2.0     pole in centre of path
+;11      0.2     rock
+;12      1.0     Skipole on lip of col (iron cross has been removed)
+;13      0       tip of pavement where path crosses col
+
+*end TCtoCol

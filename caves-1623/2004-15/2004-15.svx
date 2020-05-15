@@ -1,0 +1,39 @@
+*equate 2004-15.tagA t2004-15a
+*equate 2004-15.tagB t2004-15b
+*entrance t2004-15a ; DL - are these in fact the entrances?
+*entrance t2004-15b ; better to have some entrance point than none at all!
+
+*begin 2004-15
+; Locn:	Totes Gebirge, Austria - Loser/Augst-Eck Plateau (kataster group 1623)
+; Cave:	2004-15
+*title "2004-15"
+*date 2004.08.02
+
+*team Insts Olly M
+*team Notes Frank
+*team Tape Olly M
+*instrument Compass set ##; Clino set #4 
+; Calibration: stone bridge: 329/-24 152/+24
+; ref.:	2004 # 41
+
+; ====== stations refindable to link to other surveys: ======
+*export tagA tagB ; list all exported survey points
+*calibrate tape 0.07	; +ve if tape was too short, -ve if too long
+;from	to	tape	compass	clino	; remarks
+1	tagA	11.93	261	+11	; survey leg reversed	
+1	2	5.33	091	+00
+2	3	3.91	106	-03
+3	4	0.86	-	down
+4	5	6.71	103	+02
+5	6	6.35	036	+41
+6	tagB	8.41	023	+40
+
+;stn	L	R	U	D	Desc
+;tagA;1	0.7	0	2.5	1
+;2	0	0.5	2 	0.5	
+;3	0.3	0.5	2	1.5
+;4	-	-	-	-
+;5	0.8	0	1.3	0.5	
+;6	1.7	0	1	0
+;tagB	4	0	-	1
+*end 2004-15

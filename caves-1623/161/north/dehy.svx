@@ -1,0 +1,182 @@
+;1998.02.27 AERW sort begin/end, add comments and refs, restored original
+;		 sequence of Wedge survey
+
+; ====== links between surveys in this file: ======
+
+*equate endless.1	CFN.17
+*equate Endless.15	Wedge.17
+*equate HGSLink.3	CFN.17
+
+*begin CFN
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "RH route - De-Hydration series: Chicken Flied Nice"
+*date 1990.07.18 ; trip 1990-161-15 in logbook
+*team Notes Wookey
+*team Insts Damage
+*instrument Comp:721259, Clino:240641
+; Calibration : 161 Cairns - Comp:18.5, Clino:+17.5, -17.5
+; ref.:	1990 survey book pp 29-32
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 01	; RH wall of Yapate before traverse over Gob, point marked "S"
+*export 13	; Boulder in middle of passage (over floor trench) just
+		; before Burble goes off and CFN turns right
+*export 17	; Strange Downfall pitchhead bolt
+
+*calibrate compass 0
+*calibrate clino 0
+;readings grade 5
+
+02      01      15.53   163     -15 ; 01 is pt marked 'S'
+02      03      10.21   033     +20
+04      03      11.81   221     -11
+04      05       7.04   278.5   +07
+05      06       4.91   271     +15
+07      06       5.55   039     +06.5
+07      08       6.73   204     -13.5
+08      09       9.31   210     -07
+07      10      17.20   017      00
+05      12      19.75   022.5   +10
+13      12      22.63   165     -12
+13      14      10.41   021     +08
+15      14       9.34   275     +01
+15      16      10.50   090.5   -13.5
+16      17       3.49   126     -42 ;  17 is Strange Downfall pitch head bolt
+; notes   pages b1-b6 from end of CFN survey
+*end CFN
+
+*begin endless
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "De-hydration series"
+*date 1990.07.20 ; 21 trip 1990-161-19 in logbook
+*team Notes Wook
+*team Insts Pete ;(Damage did last few)
+; Instuments:	Comp:543693, Clino:726974
+; Calibration:	161 Cairns - (Pete) Comp:14.5,14,13.5,14.5
+*team Clino +17,+17,+17,+17,-18,-18,-17.5,-18
+; (Some of the steep compass readings were re-done by Damage on return as we
+; didn't believe pete's technique was much cop!)
+
+; ref.:	1990 survey book pp 33-36
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 1	; Strange Downfall pitchhead bolt
+*export 15	; LH wall, Red blob "666" above Hasta La Vesta
+
+*calibrate compass 0
+*calibrate clino -0.44
+
+1       2        0.30   090      00 
+2       3       26.62    -      Down ;  tape "28.57 -1.95"
+4       3        4.05   166     -09 ; compass by Damage
+4       5        3.94   268     -44 ; compass by Damage
+5       6       14.01   203     -49 ; compass by Damage
+6       7        2.36   281     -25 ; compass by Damage
+8       7        7.22   040     +64
+9       8        6.59   020     +14
+10      9       15.69   013     +15 ; tape "19.15 - 3.46"
+11      10       5.91   030     +35
+11      12      18.95   198     -30
+13      12       7.61   029     +16
+13      14       5.40   193     +07.5 ; inst:damage
+14      15      24.06   206     -39.5 ; inst:damage
+
+*end endless
+
+*begin Wedge
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "'Endless' rift big pitch and bottom"
+*date 1990.08.01 ; trip 1990-161-35 in logbook
+*team Notes Jeremy
+*team Insts Damage
+*instrument Compass 624931, Clino 736380
+; Calibration:	016,250 ; +16.5,-17.0
+; survey notes got wet & became a bit hard to read !!!
+; ref.:	1990 Survey Book pp 73-76
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 17	; Red blob "666" above Hasta La Vesta
+*export 14	; pitch bolt above twin holes, nearest QM 90-07
+*export 8	; lower rebelay bolt (16.5m up pitch), 5m above and 4m across
+		; from inaccessible window (QM 90-05)
+*export 6	; point on E wall of chamber below Captive Wedge, near S end
+
+*calibrate compass 0
+*calibrate clino -0.25
+
+; NB all tape readings which are <something>.5 are down as <something>/
+; in survey book. ie. figures after the point are missing, so .5 is the
+; safest guess.
+
+1       2        3.95   232     +47.5
+3       2        3.27   009     -30.5
+;readings grade 4  ; since these are the hard to read ones
+3       4        4.57   108     +05 ; clino dodgy
+5       4       18.5    187     -11
+6       4        4.5    220     -24 ; compass dodgy
+6       7        9.68   270     +45 ; compass & clino illegible so guessed
+; survey book says compass 70 with comment "suspicious, more like 230 ?"
+7       8       16.5     -      Up
+;readings grade 5
+8       9       18.66   105     +78.5
+;readings grade 4
+9       10       3.5    067     +05
+;readings grade 5
+11      10       2.00   335     -03
+;readings grade 4
+11      12      28.5    075     +76
+12      13      25.5    084     +76
+;readings grade 5
+13      14       8.57    -      Up
+14      15       9.88   063     +67
+16      15       3.38   185     -51
+16      17       2.29   102     -01
+
+*end Wedge
+
+*begin HGSLink
+; Cave:	Kaninchenhöhle (1623/161)
+*title "connection across HGS to Repton (failed)"
+;		done on Far Too Far survey (3wisemen.svx)
+*date 1992.08.04 ; trip 1992-161-18 in logbook
+*team Notes Wookey
+*team Insts AndyA
+*instrument Compass: Illum, Clino: Illum
+; Calibration:	041, 219, Fog (AndyA), +09, -09 (AndyA)
+; ref.:	1992 survey book p 133
+;
+; ====== stations refindable to link to other surveys: ======
+
+*export 3	; Strange Downfall pitchhead bolt
+*export 1a	; Backup bolt of pitch
+
+
+;1  1a   0.5  225       0    ; this is a guessed link to connect loop
+; now superseded by measured leg below
+2       1        1.89   134     +27
+2       3       19.29   223.5   +22.5
+
+; Cave:	Kaninchenhöhle (1623/161)
+*title "final connecting leg to Repton survey"
+;		Done on Even Further survey (camping trip 1993)
+;		rest of data in Further.svx
+*date 1993.07.22 ; trip 1993-161-19 in logbook
+*team Notes Wookey
+*instrument Pete Lord
+*instrument Comp: 112518, Clino 834867
+; Calibration:	040/5, 041, 040/5, clino:+09.5, +10, +09.5, -10, -10.5, -10
+; Connection between 1992 CM and Bolt which is the point we should have
+; connected to in 1992
+; ref.:	1993 survey book (ie. same physical vol. as above) p 171
+
+*calibrate clino -0.25
+
+1       1a      0.53    226     -25
+
+*end HGSLink

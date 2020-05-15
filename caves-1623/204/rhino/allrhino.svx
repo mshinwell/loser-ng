@@ -1,0 +1,92 @@
+*begin allrhino
+
+*export 21boltsalute.10 rhinorift.1 rhinorift3.T2
+
+*include 21boltsalute
+
+*include rhinorift
+*equate rhinorift.12 21boltsalute.9
+
+*include onamission
+*equate rhinorift.18 onamission.35
+
+*include watnobutcombe
+*equate watnobutcombe.7 onamission.20
+
+*include rhinorift2
+*equate rhinorift2.p28 rhinorift.28
+
+*include ratbiscuit
+*equate ratbiscuit.jb10 onamission.10
+
+*include crimper
+*equate crimper.p8 onamission.8
+
+*include swallowhard
+*equate swallowhard.jb5 onamission.5
+
+*include takingthepiss
+*equate takingthepiss.jbx rhinorift.18
+*equate takingthepiss.jb1 rhinorift.1
+
+*include rhinorift3
+*equate rhinorift2.13 rhinorift3.13
+
+*include unconformity
+*equate swallowhard.3 unconformity.jtb3
+
+*include unconformity2
+*equate unconformity2.jt18 unconformity.18
+
+*include belief
+*equate belief.jb6 onamission.6
+
+*include onamission2
+*equate onamission2.20 onamission.20
+
+*include onamission3
+*equate onamission3.p2 onamission2.2
+*equate onamission3.p28 onamission.28
+*equate onamission3.p31 onamission.31
+
+*include faith
+*equate faith.1 belief.5
+
+*include roundtrip
+*equate watnobutcombe.3 roundtrip.1
+
+*include wotnoconnection
+*equate wotnoconnection.1 watnobutcombe.3
+
+*include grater
+*equate grater.p3 crimper.3
+
+*include uncrimped
+*equate uncrimped.1 crimper.6
+*equate uncrimped.2 faith.4
+
+*include beyondbelief
+*equate beyondbelief.1 faith.11
+*include beyondbelief2
+*equate beyondbelief.10 beyondbelief2.1
+*include beyondbelief3
+*equate beyondbelief3.9 beyondbelief2.13
+
+*include hangingontofaith.svx
+*equate hangingontofaith.1 faith.4 
+
+*include shanks
+*equate shanks.1 onamission.10
+
+*include nonconformism
+*equate nonconformism.1 unconformity2.1c
+*equate nonconformism.2 shanks.23
+
+*include spittersend
+*equate spittersend.p8 unconformity2.8
+
+*include hollow
+*equate onamission.21 hollow.1
+
+*end allrhino
+
