@@ -1,12 +1,8 @@
 # Steinbrückenhöhle 1623/204
 
-*Total length:*
+*Total length:* <span id="total-length"></span>
 
-<div id="total-length"></div>
-
-*Vertical range:*
-
-<div id="vertical-range"></div>
+*Vertical range:* <span id="vertical-range"></span>
 
 ## Entrance and The Near End passages
 
@@ -190,10 +186,12 @@ xmlhttp.onreadystatechange = function() {
     document.getElementById("vertical-range").innerHTML =
       cave["vertical-range"]
   } else {
-    document.getElementById("total-length").innerHTML = "<unavailable>"
-    document.getElementById("vertical-range").innerHTML = "<unavailable>"
+    document.getElementById("total-length").innerHTML =
+      "(unavailable)"
+    document.getElementById("vertical-range").innerHTML =
+      "(unavailable)"
   }
 };
-xmlhttp.open("GET", "caves-1623/204/204.json", true);
+xmlhttp.open("GET", "204.json", true);
 xmlhttp.send();
 </script>
