@@ -22,7 +22,7 @@ jobs:
     - name: Compile Survex files
       run: make -j4
     - name: Add and commit JSON files
-    - uses: EndBug/add-and-commit@v4
+      uses: EndBug/add-and-commit@v4
       with:
         add: 'caves-1623/204/204.json'
         author_name: Github Action
