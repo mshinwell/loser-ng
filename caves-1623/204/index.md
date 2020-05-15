@@ -1,7 +1,8 @@
-Steinbrückenhöhle 1623/204
-==========================
+---
+title: Steinbrückenhöhle 1623/204
+---
 
-# Entrance and The Near End passages
+## Entrance and The Near End passages
 
 The Near End series consists of those passages on the level
 of the bottom of the 204a/b entrance pitches. It communicates with the
@@ -23,7 +24,7 @@ top of the first pitch. The 204b entrance is 15m away to the north; this
 was used in 1999, but involves a rather shoddy sloping descent down a
 gully, so in recent years the 204a entrance has been used.
 
-## [First Pitch]{#firstpitch} {#first-pitch style="clear: both"}
+## First Pitch
 
 [![First Pitch](t/2p1.jpg){.onright}](l/2p1.html) The 204a entrance
 leads, via a short climb down, to a ledge overlooking the first pitch,
@@ -39,7 +40,7 @@ A revised route was explored, which was the main route in 2001. In 2002
 and 2003 the snow was lower again, and the original route was back in
 use.
 
-## [Second and Third Pitches]{#jim}
+## Second and Third Pitches
 
 Descending the boulder slope (care required to avoid kicking rocks off)
 leads to the head of the second pitch, **Jim\'ll Fix It** (18m in 1999
@@ -61,7 +62,7 @@ deviation from the opposite side of the shaft to obtain a free-hang into
 [Wolpertinger Way](midlevel.html#wolp). This pitch is in fact an
 (upwards) continuation of **[Thread Pitch](#thread)**.
 
-## [Low snow route]{#route1999}
+## Low snow route
 
 In 1999, 2002 and 2003, the snow plug was much smaller and it was
 possible to complete the descent to the floor, landing in a sloping
@@ -72,7 +73,7 @@ End](#nearend) and is the main way on. There is a further unexplored
 passage in the wall above the gap between the snow plug and the rock
 \[[C1999-204-03 C](qm.html#C1999-204-03){#qC1999-204-03}\].
 
-## [The Near End]{#nearend}
+## The Near End
 
 [![Third Pitch](t/5p3.jpg){.onright}](l/5p3.html) **The Near End** is a
 collective name for a complex network of high level phreatic passages
@@ -131,7 +132,7 @@ Chamber](treeumphant.html#waterfall) at the end of the Colonnade. Back
 in the bedding chamber, one can crawl up to the right to a junction with
 several small tubes, all of which are too tight.
 
-## [The Near End: Side Passages]{#nearside}
+## The Near End: Side Passages
 
 The first two right turns encountered when heading downhill from the
 foot of [Jim\'ll Fix It](#jim) unite in a walking sized passage. After
@@ -144,7 +145,7 @@ Right leads immediately to a 8m pitch. A difficult and exposed traverse
 round the left hand wall leads to a further 30m of passage with a
 steadily lowering roof culminating in a boulder choke.
 
-## [The Near End: Umshitshimbo and Updip Passages]{#umshit}
+## The Near End: Umshitshimbo and Updip Passages
 
 **Umshitshimbo** is a fine phreatic ramp, 2m wide and about 4m high,
 which heads uphill in a straight line for 40m. At the top a passage
