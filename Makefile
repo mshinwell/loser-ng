@@ -8,17 +8,13 @@ caves-1623/204/204.json:
 	echo '{"1623_204": {' > $@
 	cat 1623.log \
 	  | grep "Total length of survey legs" \
-	  | cut -d '=' -f 2 \
-	  | awk '{print $$1}' \
-	  | sed 's/^ *//' \
+	  | awk '{print $$7}' \
 	  | sed 's/^/  "total-length":"/' \
 	  | sed 's/$$/",/' \
 	  >> $@
 	cat 1623.log \
 	  | grep "Vertical range" \
-	  | cut -d '=' -f 2 \
-	  | awk '{print $$1}' \
-	  | sed 's/^ *//' \
+	  | awk '{print $$4}' \
 	  | sed 's/^/  "vertical-range":"/' \
 	  | sed 's/$$/",/' \
 	  >> $@
