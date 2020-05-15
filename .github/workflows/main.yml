@@ -20,4 +20,4 @@ jobs:
     - name: Install Survex
       run: sudo apt-get install survex
     - name: Build 1623.svx
-      run: ./survex/src/cavern 1623.svx
+      run: cavern 1623
