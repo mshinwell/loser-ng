@@ -22,7 +22,7 @@ jobs:
     - name: Checkout Survex
       run: git clone https://git.survex.com/survex
     - name: Generate Survex configure script
-      run: cd survex && aclocal && autoconf && automake --add-missing
+      run: cd survex && autoreconf -i
     - name: Build Survex
       run: cd survex && ./configure && make -j 4
     - name: Build 1623.svx
