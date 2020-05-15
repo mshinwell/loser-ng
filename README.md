@@ -1,4 +1,6 @@
-# Loser dataset "next generation" experiment
+---
+title: Loser dataset "next generation" experiment
+---
 
 ## Caves (kataster area 1623)
 
