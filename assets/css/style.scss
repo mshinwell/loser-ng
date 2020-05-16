@@ -1,9 +1,9 @@
 ---
 ---
 
+@import "{{ site.theme }}";
 container {
-  background-image: url("assets/sunset.jpg");
+  background-image: url("../sunset.jpg");
   background-size: cover;
   background-position: center;
 }
-@import "{{ site.theme }}";
