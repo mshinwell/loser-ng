@@ -1,5 +1,6 @@
 ---
 title: Loser dataset next generation experiment
+permalink: /
 layout: splash
 header:
   overlay_color: "#000"
