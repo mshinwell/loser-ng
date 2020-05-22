@@ -4,8 +4,12 @@
 
 @charset "utf-8";
 
-$background-color: lightslategrey;
+$background-color: rgb(192, 192, 192);
 $paragraph-indent: true;
+
+body {
+  font-family: serif;
+}
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
