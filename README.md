@@ -1,5 +1,5 @@
 ---
-title: "Loser dataset next generation experiment"
+title: Loser dataset next generation experiment
 ---
 
 For more than four decades, Cambridge University Caving Club (CUCC) has
