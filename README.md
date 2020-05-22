@@ -1,3 +1,12 @@
+---
+title: "Loser dataset next generation experiment"
+layout: splash
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/sunset.jpg
+---
+
 For more than four decades, Cambridge University Caving Club (CUCC) has
 explored caves on the Loser Plateau, about 80km east of Salzburg. The cave
 systems discovered and explored over these years now extend to more than
