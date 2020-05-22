@@ -6,7 +6,7 @@
 
 $background-color: rgb(220, 220, 220);
 $paragraph-indent: true;
-$global-font-family: $serif;
+$global-font-family: serif;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
