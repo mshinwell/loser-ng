@@ -1,4 +1,7 @@
 sidebar:
+  - title: Front page
+    url: /loser-ng/
+
   - title: Area descriptions
     children:
       - title: "Far plateau"
@@ -7,14 +10,6 @@ sidebar:
   - title: Major caves
     children:
       - title: "Steinbrückenhöhle"
-        children:
-          - title: "Cave description"
-            url: /loser-ng/caves-1623/204/
-          - title: "Dataset"
-            url: https://github.com/mshinwell/loser-ng/tree/master/caves-1623/204/
+        url: /loser-ng/caves-1623/204/
       - title: "Tunnockschacht"
-        children:
-          - title: "Cave description"
-            url: /loser-ng/caves-1623/258/
-          - title: "Dataset"
-            url: https://github.com/mshinwell/loser-ng/tree/master/caves-1623/258/
+        url: /loser-ng/caves-1623/258/
