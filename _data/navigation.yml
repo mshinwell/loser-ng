@@ -1,0 +1,19 @@
+docs:
+  - title: Area descriptions
+    children:
+      - title: "Far plateau"
+        url: /loser-ng/foo/"
+
+  - title: Major caves
+    children:
+      - title: "Steinbrückenhöhle"
+        children:
+          - title: "Cave description"
+            url: /loser-ng/caves-1623/204/
+          - title: "Dataset"
+            url: https://github.com/mshinwell/loser-ng/tree/master/caves-1623/204/
+      - title: "Tunnockschacht"
+          - title: "Cave description"
+            url: /loser-ng/caves-1623/258/
+          - title: "Dataset"
+            url: https://github.com/mshinwell/loser-ng/tree/master/caves-1623/258/
