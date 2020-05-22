@@ -1,5 +1,5 @@
 remote_theme: "mmistakes/minimal-mistakes"
-title: Loser dataset "next generation" experiment
+title: "Loser dataset next generation experiment"
 
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -7,7 +7,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "loser-ng"
 title_separator          : "-"
-subtitle                 : CUCC Expo next generation dataset experiment
+subtitle                 : "CUCC Expo next generation dataset experiment"
 name                     : "Mark Shinwell"
 description              : "Caving"
 url                      : "https://mshinwell.github.io/loser-ng"
