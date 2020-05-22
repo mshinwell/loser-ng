@@ -5,7 +5,7 @@ all: 1623.log caves-1623/204/204.json
 
 caves-1623/204/204.json: caves-1623/204/204.svx
 	cd caves-1623/204 && cavern --log 204
-	echo '{"1623_204": {' > $@
+	echo '{"cave": {' > $@
 	cat caves-1623/204/204.log \
 	  | grep "Total length of survey legs" \
 	  | awk '{print $$7}' \

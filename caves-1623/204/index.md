@@ -2,12 +2,6 @@
 
 {% include header.md %}
 
-## Statistics
-
-*Total length:* <span id="total-length"></span>
-
-*Vertical range:* <span id="vertical-range"></span>
-
 ## Entrance and The Near End passages
 
 The Near End series consists of those passages on the level
@@ -178,24 +172,3 @@ goes over the top of the choke, and about after a further 3m reaches a
 large boulder, which almost blocks the passage with a strong breeze
 blowing through the gap (into the cave.) Squeezing through yields a
 steeply ascending rocky crawl which chokes after about 5m.
-
-<script>
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function() {
-  if (this.readyState == 4 && this.status == 200) {
-    var caves = JSON.parse(this.responseText);
-    var cave = caves["1623_204"];
-    document.getElementById("total-length").innerHTML =
-      cave["total-length"]
-    document.getElementById("vertical-range").innerHTML =
-      cave["vertical-range"]
-  } else {
-    document.getElementById("total-length").innerHTML =
-      "(unavailable)"
-    document.getElementById("vertical-range").innerHTML =
-      "(unavailable)"
-  }
-};
-xmlhttp.open("GET", "204.json", true);
-xmlhttp.send();
-</script>
