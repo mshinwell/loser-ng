@@ -5,10 +5,10 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-GB"
-title                    : "loser-ng"
 title_separator          : "-"
-subtitle                 : "CUCC Expo next generation dataset experiment"
-name                     : "Mark Shinwell"
+title                    : "CUCC Expo next generation dataset experiment"
+subtitle                 : "loser-ng"
+name                     : "CUCC"
 description              : "Caving"
 url                      : "https://mshinwell.github.io/loser-ng"
 baseurl                  : # the subpath of your site, e.g. "/blog"
