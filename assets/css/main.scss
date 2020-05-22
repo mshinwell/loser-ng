@@ -4,8 +4,8 @@
 
 @charset "utf-8";
 
-$background-color: lightslategrey
-$paragraph-indent: true
+$background-color: lightslategrey;
+$paragraph-indent: true;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
