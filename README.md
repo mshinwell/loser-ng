@@ -1,7 +1,5 @@
 ---
 title: "Loser dataset next generation experiment"
-layout: splash
-excerpt: "The documentation archive for Cambridge University Caving Club's expeditions to Austria"
 ---
 
 For more than four decades, Cambridge University Caving Club (CUCC) has
