@@ -1,5 +1,9 @@
 # Steinbrückenhöhle 1623/204
 
+* [Browse or edit survey data](https://github.com/mshinwell/loser-ng/tree/master/{{ page.path }})
+
+## Statistics
+
 *Total length:* <span id="total-length"></span>
 
 *Vertical range:* <span id="vertical-range"></span>
