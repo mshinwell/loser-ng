@@ -1,12 +1,10 @@
-* [Browse or edit survey data](https://github.com/mshinwell/loser-ng/tree/master/{{ page.dir }})
-
-* [Edit this page](https://github.com/mshinwell/loser-ng/edit/master/{{ page.path }})
-
-## Stats
-
 *Total length:* <span id="total-length"></span>
 
 *Vertical range:* <span id="vertical-range"></span>
+
+* [Browse or edit survey data](https://github.com/mshinwell/loser-ng/tree/master/{{ page.dir }})
+
+* [Edit this page](https://github.com/mshinwell/loser-ng/edit/master/{{ page.path }})
 
 <script>
 var xmlhttp = new XMLHttpRequest();
