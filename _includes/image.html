@@ -1,4 +1,8 @@
 <figure class="photo">
   <img src="https://mshinwell.github.io/loser-ng-photos/{{ include.year }}/{{ include.photographer }}/{{ include.filename }}" alt="{{ include.description }}">
-  <figcaption><b>{{ include.description }}</b> (Taken by {{ include.photographer }}, {{ include.year }}; <a href="https://github.com/mshinwell/loser-ng-photos/tree/master/{{ include.year }}/{{ include.photographer }}">Link to image directory</a>)</figcaption>
+  <figcaption><b>{{ include.description }}</b>
+    (Taken by {{ include.photographer }}, {{ include.year }}; see
+    <a href="https://github.com/mshinwell/loser-ng-photos/tree/master/{{ include.year }}/{{ include.photographer }}">full-size image</a> or
+    <a href="https://github.com/mshinwell/loser-ng-photos/tree/master/{{ include.year }}/{{ include.photographer }}">image directory</a>)
+  </figcaption>
 </figure>
