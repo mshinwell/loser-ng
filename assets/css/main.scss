@@ -10,6 +10,7 @@ $global-font-family: serif;
 .photo {
   width: 50%;
   float: right;
+  margin-left: 10%;
 }
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
