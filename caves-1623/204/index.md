@@ -4,17 +4,22 @@ title: Steinbrückenhöhle 1623/204
 
 {% include header.md %}
 
+Steinbrückenhöhle lies under the flanks of the Niederes Augst-Eck to the
+north of the Hinterer Schwarzmooskogel. It forms part of the
+Schwarzmooskogelhöhlensystem, linking Kaninchenhöhle to the south with
+Tunnockschacht to the north.  The cave was the main focus for CUCC
+explorations between approximately the years 2000 and 2010.
+
 ## 204a and 204b entrances
 
 {% include image.html year="2004" photographer="Nial Peters" filename="204a.jpg" description="204a entrance with Mark Dougherty after a Razordance pushing trip" %}
 
-[![204b entrance](t/13sle.jpg){.onleft}](l/13sle.html) The 204a entrance is
-directly opposite a 10m x 5m [stone bridge](bridge.html) from which it
-derives its name. The entrance itself is approximately 8m high and 5m
-wide, and leads down a boulder slope and round a right hand bend to the
-top of the first pitch. The 204b entrance is 15m away to the north; this
-was used in 1999, but involves a rather shoddy sloping descent down a
-gully, so in recent years the 204a entrance has been used.
+The 204a entrance is directly opposite a 10m x 5m [stone bridge](bridge.html)
+from which it derives its name. The entrance itself is approximately 8m high
+and 5m wide, and leads down a boulder slope and round a right hand bend to
+the top of the first pitch. The 204b entrance is 15m away to the north; this
+was used in 1999, but involves a rather shoddy sloping descent down a gully,
+so in recent years the 204a entrance has been used.
 
 {% include image.html year="1999" photographer="Erin Lynch" filename="204b.jpg" description="204b entrance with Earl Merson" %}
 
