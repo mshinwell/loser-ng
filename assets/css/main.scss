@@ -7,5 +7,10 @@
 $paragraph-indent: true;
 $global-font-family: serif;
 
+.photo {
+  width: 50%;
+  float: right;
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
