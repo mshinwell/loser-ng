@@ -16,6 +16,8 @@ from the Near End to the [Colonnade](treeumphant.html#thecolonnade)).
 
 ## Entrance
 
+{% include image.html year="2004" photographer="Nial Peters" filename="204a.jpg" description="204a entrance with Mark Dougherty after a Razordance pushing trip in 2004" %}
+
 [![204a entrance](t/enta.jpg){.onleft}](l/enta.html) [![204a
 entrance](t/1en.jpg){.onleft}](l/1en.html) [![204b
 entrance](t/13sle.jpg){.onleft}](l/13sle.html) The 204a entrance is
