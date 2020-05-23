@@ -1,15 +1,15 @@
 sidebar:
   - title: Front page
-    url: /loser-ng/
+    url: /
 
   - title: Area descriptions
     children:
       - title: "Far plateau"
-        url: /loser-ng/foo/
+        url: /foo
 
   - title: Major caves
     children:
       - title: "Steinbrückenhöhle"
-        url: /loser-ng/caves-1623/204/
+        url: /caves-1623/204/
       - title: "Tunnockschacht"
-        url: /loser-ng/caves-1623/258/
+        url: /caves-1623/258/
