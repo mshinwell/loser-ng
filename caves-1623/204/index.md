@@ -4,23 +4,11 @@ title: Steinbrückenhöhle 1623/204
 
 {% include header.md %}
 
-## Entrance and The Near End passages
+## 204a and 204b entrances
 
-The Near End series consists of those passages on the level
-of the bottom of the 204a/b entrance pitches. It communicates with the
-[mid-level series](midlevel.html) via either Thread Pitch or Pendulum
-Pitch, while a side passage leads to a pitch dropping into [\'King
-Carbide](nopain.html#kingcarbide), off No Pain No Gain. Alternatively,
-in 2006 a link ([Death or Glory](#deathglory)) was discovered leading
-from the Near End to the [Colonnade](treeumphant.html#thecolonnade)).
+{% include image.html year="2004" photographer="Nial Peters" filename="204a.jpg" description="204a entrance with Mark Dougherty after a Razordance pushing trip" %}
 
-## Entrance
-
-{% include image.html year="2004" photographer="Nial Peters" filename="204a.jpg" description="204a entrance with Mark Dougherty after a Razordance pushing trip in 2004" %}
-
-[![204a entrance](t/enta.jpg){.onleft}](l/enta.html) [![204a
-entrance](t/1en.jpg){.onleft}](l/1en.html) [![204b
-entrance](t/13sle.jpg){.onleft}](l/13sle.html) The 204a entrance is
+[![204b entrance](t/13sle.jpg){.onleft}](l/13sle.html) The 204a entrance is
 directly opposite a 10m x 5m [stone bridge](bridge.html) from which it
 derives its name. The entrance itself is approximately 8m high and 5m
 wide, and leads down a boulder slope and round a right hand bend to the
@@ -28,7 +16,11 @@ top of the first pitch. The 204b entrance is 15m away to the north; this
 was used in 1999, but involves a rather shoddy sloping descent down a
 gully, so in recent years the 204a entrance has been used.
 
+{% include image.html year="1999" photographer="Erin Lynch" filename="204b.jpg" description="204b entrance with Earl Merson" %}
+
 ## First Pitch
+
+{% include image.html year="1999" photographer="Erin Lynch" filename="204b_inside.jpg" description="204b entrance with Earl Merson" %}
 
 [![First Pitch](t/2p1.jpg){.onright}](l/2p1.html) The 204a entrance
 leads, via a short climb down, to a ledge overlooking the first pitch,
@@ -43,6 +35,16 @@ rendering the original route onward impassable (see [here](#route1999)).
 A revised route was explored, which was the main route in 2001. In 2002
 and 2003 the snow was lower again, and the original route was back in
 use.
+
+## The Near End passages
+
+The Near End series consists of those passages on the level
+of the bottom of the 204a/b entrance pitches. It communicates with the
+[mid-level series](midlevel.html) via either Thread Pitch or Pendulum
+Pitch, while a side passage leads to a pitch dropping into [\'King
+Carbide](nopain.html#kingcarbide), off No Pain No Gain. Alternatively,
+in 2006 a link ([Death or Glory](#deathglory)) was discovered leading
+from the Near End to the [Colonnade](treeumphant.html#thecolonnade)).
 
 ## Second and Third Pitches
 
